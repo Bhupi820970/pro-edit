@@ -1,0 +1,195 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "RuntimeError: no clips of a single title for series",
+  "RuntimeError: no clips of a single title for series",
+  "RuntimeError: no clips of a single title for series",
+  "RuntimeError: no clips of a single title for series",
+  "RuntimeError: no clips of a single title for series",
+  "RuntimeError: no clips of a single title for series"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 0,
+  "vetted": 6,
+  "rejected": [
+   {
+    "id": "iK5MlScCqas",
+    "title": "The Righteous Gemstones Season 4 | Episode 3 Preview | HBO",
+    "reasons": [
+     "channel logo present in top right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "CsqQOPZofGo",
+    "title": "The Righteous Gemstones Season 4 | Episode 8 Preview | HBO",
+    "reasons": [
+     "HBO channel logo present in the top right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "HlqITcZ0lwM",
+    "title": "The Righteous Gemstones Season 4 | Episode 7 Preview | HBO",
+    "reasons": [
+     "Channel logo present in top right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "rA1Q8LICB8s",
+    "title": "The Righteous Gemstones Season 4 | Episode 4 Preview | HBO",
+    "reasons": [
+     "channel logo present in top right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Fj2qIKUh92o",
+    "title": "The Righteous Gemstones Season 4 | Episode 6 Preview | HBO",
+    "reasons": [
+     "Channel logo (HBO) present in the top-right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "teX9hkpsNzI",
+    "title": "The Righteous Gemstones Season 4 | Episode 9 Preview | HBO",
+    "reasons": [
+     "Channel logo present in top right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 0,
+  "fallback_used": true,
+  "thin": [
+   "series"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}
