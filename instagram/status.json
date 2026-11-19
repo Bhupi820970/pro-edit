@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T04:07:35.025057+05:30",
+ "updated": "2026-11-20T04:23:06.337294+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -31,40 +31,40 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-20T03:38:17.598882+05:30",
+   "at": "2026-11-20T03:08:44.556365+05:30",
    "platform": "instagram",
-   "category": "sports",
-   "error": "RuntimeError: no clips of a single star player for sports"
+   "category": "gaming",
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-20T03:39:05.349921+05:30",
+   "at": "2026-11-20T03:25:15.562750+05:30",
    "platform": "instagram",
-   "category": "sports",
-   "error": "RuntimeError: no clips of a single star player for sports"
+   "category": "gaming",
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-20T03:39:53.535660+05:30",
+   "at": "2026-11-20T03:40:40.034809+05:30",
    "platform": "instagram",
-   "category": "sports",
-   "error": "RuntimeError: no clips of a single star player for sports"
+   "category": "gaming",
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-20T04:05:57.787899+05:30",
+   "at": "2026-11-20T03:53:31.770439+05:30",
    "platform": "instagram",
-   "category": "sports",
-   "error": "RuntimeError: no clips of a single star player for sports"
+   "category": "gaming",
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-20T04:06:46.159603+05:30",
+   "at": "2026-11-20T04:07:38.753454+05:30",
    "platform": "instagram",
-   "category": "sports",
-   "error": "RuntimeError: no clips of a single star player for sports"
+   "category": "gaming",
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-20T04:07:34.286324+05:30",
+   "at": "2026-11-20T04:23:05.744681+05:30",
    "platform": "instagram",
-   "category": "sports",
-   "error": "RuntimeError: no clips of a single star player for sports"
+   "category": "gaming",
+   "error": "RuntimeError: only 0 clean sources for gaming"
   }
  ],
  "pattern_history": [],

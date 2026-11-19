@@ -1,0 +1,571 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "RuntimeError: only 0 clean sources for gaming",
+  "RuntimeError: only 0 clean sources for gaming",
+  "RuntimeError: only 0 clean sources for gaming",
+  "RuntimeError: only 0 clean sources for gaming",
+  "RuntimeError: only 0 clean sources for gaming",
+  "RuntimeError: only 0 clean sources for gaming"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 150,
+  "vetted": 10,
+  "rejected": [
+   {
+    "id": "dyBA6JpCtkU",
+    "title": "The Last of Us Part I: Gameplay | Bill's Town",
+    "reasons": [
+     "Captured on PS5 watermark in the bottom right corner",
+     "flag:watermark"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "w2BiBSiw0ow",
+    "title": "Halo 3 Xbox 360 Gameplay - Standoff (HD)",
+    "reasons": [
+     "IGN channel logo visible in the bottom right corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "-pdRBw6f4gI",
+    "title": "WHY Joel CAN'T DODGE: Explained by Naughty Dog - The Last of Us Part I PS5 Remake Official Gameplay",
+    "reasons": [
+     "PlayStation logo watermark present in the top-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "DmqHIihWnZ0",
+    "title": "Assassin's Creed Valhalla - The Most Requested Update (New Game+) | PS5 Games",
+    "reasons": [
+     "PlayStation channel logo in top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "-E-1BcILTPk",
+    "title": "Halo Infinite - Official Campaign Gameplay Premiere",
+    "reasons": [
+     "Channel logo in the bottom-left corner",
+     "Optimized for Series X logo in the top-right corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "lU8BjH2-jrA",
+    "title": "AnsweRED – Episode 2: Kajetan and Maciej | Cinematics",
+    "reasons": [
+     "CD PROJEKT RED channel logo is present in the bottom right corner.",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Qgal95AMZ8o",
+    "title": "Red Dead Redemption 2: Official Gameplay Video Part 2",
+    "reasons": [
+     "Channel logo present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "_pOv4ovN-dM",
+    "title": "God of War Ragnarök - Combat and Enemies Elevated | PS5 & PS4 Games",
+    "reasons": [
+     "PlayStation logo in the top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "grZigSpVDno",
+    "title": "Marvel's Spider-Man 2 - Expanded Marvel's New York | PS5 Games",
+    "reasons": [
+     "PlayStation channel logo in the top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "PYplTYmMEoI",
+    "title": "Grand Theft Auto VI - Out Now! | PS5 Games",
+    "reasons": [
+     "PlayStation channel logo present in the top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 65,
+  "fallback_used": true,
+  "thin": [
+   "gaming"
+  ],
+  "failed_ids": [
+   "A-u1jJ-9VLM",
+   "FHaQ_GTrB1Q",
+   "-hOXQfWyYIA",
+   "C-0RAVoCD8U",
+   "Vbzz6A2ElB4",
+   "iNzLOyp4rA0",
+   "D5WTHS5Cnnk",
+   "xnS4d5nq1Gs",
+   "u20XrLxVfYk",
+   "1QZ7pMRBASs",
+   "0tKJe89VkRw",
+   "YlyDJVYqfpA",
+   "FC-eYFDLTD0",
+   "2VugSq0Hmxk",
+   "AYujwF_NFyU",
+   "arcEUz_BiI4",
+   "ZNqYXxRoYJM",
+   "mnvc6uC6xZE",
+   "SlkizyzZ8k4",
+   "t5Nwgd_T1-4",
+   "KlylKoFgl80",
+   "HZtc5-syeAk",
+   "SSYsnSiReKM",
+   "Dw_oH5oiUSE",
+   "tqLMoW7oEbA",
+   "lb-tlY6ytk8",
+   "rSftvsZwYFc",
+   "AYujwF_NFyU",
+   "A-u1jJ-9VLM",
+   "-hOXQfWyYIA",
+   "SSYsnSiReKM",
+   "FHaQ_GTrB1Q",
+   "D5WTHS5Cnnk",
+   "0tKJe89VkRw",
+   "iNzLOyp4rA0",
+   "Vbzz6A2ElB4",
+   "ZNqYXxRoYJM",
+   "HZtc5-syeAk",
+   "2VugSq0Hmxk",
+   "C-0RAVoCD8U",
+   "YlyDJVYqfpA",
+   "u20XrLxVfYk",
+   "xnS4d5nq1Gs",
+   "FC-eYFDLTD0",
+   "arcEUz_BiI4",
+   "SlkizyzZ8k4",
+   "mnvc6uC6xZE",
+   "KlylKoFgl80",
+   "t5Nwgd_T1-4",
+   "1QZ7pMRBASs",
+   "rSftvsZwYFc",
+   "tqLMoW7oEbA",
+   "Vbzz6A2ElB4",
+   "C-0RAVoCD8U",
+   "arcEUz_BiI4",
+   "A-u1jJ-9VLM",
+   "AYujwF_NFyU",
+   "-hOXQfWyYIA",
+   "ZNqYXxRoYJM",
+   "FHaQ_GTrB1Q",
+   "HZtc5-syeAk",
+   "SSYsnSiReKM",
+   "u20XrLxVfYk",
+   "FC-eYFDLTD0",
+   "0tKJe89VkRw",
+   "D5WTHS5Cnnk",
+   "2VugSq0Hmxk",
+   "iNzLOyp4rA0",
+   "t5Nwgd_T1-4",
+   "mnvc6uC6xZE",
+   "SlkizyzZ8k4",
+   "KlylKoFgl80",
+   "lb-tlY6ytk8",
+   "1QZ7pMRBASs",
+   "tqLMoW7oEbA",
+   "rSftvsZwYFc",
+   "Dw_oH5oiUSE",
+   "iNzLOyp4rA0",
+   "-hOXQfWyYIA",
+   "C-0RAVoCD8U",
+   "AYujwF_NFyU",
+   "arcEUz_BiI4",
+   "u20XrLxVfYk",
+   "ZNqYXxRoYJM",
+   "D5WTHS5Cnnk",
+   "2VugSq0Hmxk",
+   "SSYsnSiReKM",
+   "FC-eYFDLTD0",
+   "FHaQ_GTrB1Q",
+   "0tKJe89VkRw",
+   "Vbzz6A2ElB4",
+   "mnvc6uC6xZE",
+   "Dw_oH5oiUSE",
+   "SlkizyzZ8k4",
+   "t5Nwgd_T1-4",
+   "KlylKoFgl80",
+   "1QZ7pMRBASs",
+   "tqLMoW7oEbA",
+   "rSftvsZwYFc",
+   "lb-tlY6ytk8",
+   "AYujwF_NFyU",
+   "u20XrLxVfYk",
+   "arcEUz_BiI4",
+   "D5WTHS5Cnnk",
+   "0tKJe89VkRw",
+   "FHaQ_GTrB1Q",
+   "C-0RAVoCD8U",
+   "SSYsnSiReKM",
+   "Vbzz6A2ElB4",
+   "ZNqYXxRoYJM",
+   "-hOXQfWyYIA",
+   "FC-eYFDLTD0",
+   "HZtc5-syeAk",
+   "2VugSq0Hmxk",
+   "iNzLOyp4rA0",
+   "SlkizyzZ8k4",
+   "lb-tlY6ytk8",
+   "mnvc6uC6xZE",
+   "t5Nwgd_T1-4",
+   "KlylKoFgl80",
+   "1QZ7pMRBASs",
+   "tqLMoW7oEbA",
+   "Dw_oH5oiUSE",
+   "rSftvsZwYFc",
+   "iNzLOyp4rA0",
+   "0tKJe89VkRw",
+   "D5WTHS5Cnnk",
+   "FHaQ_GTrB1Q",
+   "1QZ7pMRBASs",
+   "2VugSq0Hmxk",
+   "FC-eYFDLTD0",
+   "AYujwF_NFyU",
+   "xnS4d5nq1Gs",
+   "Vbzz6A2ElB4",
+   "arcEUz_BiI4",
+   "YlyDJVYqfpA",
+   "-hOXQfWyYIA",
+   "C-0RAVoCD8U",
+   "HZtc5-syeAk",
+   "ZNqYXxRoYJM",
+   "u20XrLxVfYk",
+   "t5Nwgd_T1-4",
+   "SlkizyzZ8k4",
+   "mnvc6uC6xZE",
+   "KlylKoFgl80",
+   "SSYsnSiReKM",
+   "Dw_oH5oiUSE",
+   "rSftvsZwYFc",
+   "lb-tlY6ytk8",
+   "tqLMoW7oEbA"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}

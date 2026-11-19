@@ -1,17 +1,17 @@
 {
  "requests": [
   {
-   "id": "instagram-202611200407-sports",
-   "category": "sports",
+   "id": "instagram-202611200423-gaming",
+   "category": "gaming",
    "limit": 3,
-   "at": "2026-11-20T04:07:34.292508+05:30",
-   "reason": "thin=True download_failed=40 bot_checks=40",
+   "at": "2026-11-20T04:23:05.749512+05:30",
+   "reason": "thin=True download_failed=150 bot_checks=65",
    "queries": [
-    "LeBron James official interview NBA Lakers",
-    "LeBron James official highlights NBA no commentary"
+    "Red Dead Redemption 2 official gameplay Rockstar",
+    "Cyberpunk 2077 official gameplay CD PROJEKT"
    ],
    "links": []
   }
  ],
- "updated": "2026-11-20T04:07:34.292558+05:30"
+ "updated": "2026-11-20T04:23:05.749559+05:30"
 }
