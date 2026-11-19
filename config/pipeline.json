@@ -11,53 +11,26 @@
     "final_keep_hours": 24,
     "temp_max_days": 3
   },
-  "qa_duration": [
-    28,
-    50
-  ],
+  "qa_duration": [28, 50],
   "platforms": {
     "youtube": {
       "format": "wide",
       "res": "2560x1440",
-      "per_day": [
-        5,
-        6
-      ],
+      "per_day": [5, 6],
       "mix": {
-        "gta": [
-          4,
-          6
-        ],
-        "gaming": [
-          0,
-          1
-        ]
+        "gta": [4, 6],
+        "gaming": [0, 1]
       }
     },
     "instagram": {
       "format": "shorts",
       "res": "2560x1440",
-      "per_day": [
-        6,
-        7
-      ],
+      "per_day": [6, 7],
       "mix": {
-        "gta": [
-          2,
-          3
-        ],
-        "movie": [
-          2,
-          3
-        ],
-        "sports": [
-          1,
-          1
-        ],
-        "romance": [
-          1,
-          1
-        ]
+        "gta": [2, 3],
+        "movie": [2, 3],
+        "sports": [1, 1],
+        "romance": [1, 1]
       }
     }
   },
@@ -66,668 +39,55 @@
       "sources_per_video": 4,
       "min_len": 30,
       "max_len": 2000,
-      "channels": [
-        {
-          "url": "https://www.youtube.com/@RockstarGames/videos",
-          "limit": 120,
-          "title_re": "Grand Theft Auto|GTA VI|GTA 6|GTA V\\b|GTA 5\\b|GTA Online",
-          "skip_re": "pre-load|preload|pre-order|livestream|live stream|\\bstream\\b|podcast|soundtrack|GTA\\+|Twitch|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Rockstar Games"
-        }
-      ],
-      "pinned": [
-        {
-          "id": "QdBZY2fkU-0",
-          "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
-          "title": "Grand Theft Auto VI Trailer 1",
-          "channel": "Rockstar Games",
-          "credit": "Rockstar Games"
-        },
-        {
-          "id": "VQRLujxTm3c",
-          "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
-          "title": "Grand Theft Auto VI Trailer 2",
-          "channel": "Rockstar Games",
-          "credit": "Rockstar Games"
-        }
-      ],
-      "search": [
-        "Grand Theft Auto V Official Gameplay Video Rockstar Games",
-        "GTA Online official gameplay Rockstar Games",
-        "GTA Online official heist Rockstar Games",
-        "Grand Theft Auto V official cinematic gameplay Rockstar",
-        "GTA Online official update gameplay Rockstar Games",
-        "Grand Theft Auto VI official gameplay Rockstar Games"
-      ],
-      "allow_channels": [
-        "Rockstar Games"
-      ],
-      "discover": "Official Grand Theft Auto V, GTA Online, and Grand Theft Auto VI gameplay videos and official cinematic gameplay from Rockstar Games only \u2014 never trailers, teasers, promos or TV spots",
-      "song_hint": "Vice City / Miami crime energy: 80s funk, disco, synth-pop, retro or modern hip-hop/pop with swagger",
-      "fallback_songs": [
-        {
-          "title": "Give It Up",
-          "artist": "KC and the Sunshine Band",
-          "why": "approved reference song"
-        },
-        {
-          "title": "Blinding Lights",
-          "artist": "The Weeknd",
-          "why": "retro synth"
-        }
-      ],
       "title_fallback": "GTA 6 Vice City",
-      "tags": [
-        "GTA6",
-        "GTAVI",
-        "GrandTheftAuto6",
-        "ViceCity",
-        "GTA6Edit",
-        "RockstarGames"
-      ]
+      "song_hint": "Vice City / Miami crime energy: 80s funk, disco, synth-pop, retro or modern hip-hop/pop with swagger",
+      "fallback_songs": [{"title": "Give It Up", "artist": "KC and the Sunshine Band", "why": "approved reference song"}],
+      "tags": ["GTA6", "GTAVI", "GrandTheftAuto6", "ViceCity", "GTA6Edit", "RockstarGames"]
+    },
+    "movie": {
+      "sources_per_video": 4,
+      "min_len": 40,
+      "max_len": 1800,
+      "title_fallback": "Movie Scene Edit",
+      "song_hint": "matches the movie mood: cinematic pop, hip-hop, rock, dark synth",
+      "fallback_songs": [{"title": "Sweet Dreams (Are Made of This)", "artist": "Eurythmics", "why": "cinematic"}],
+      "tags": ["MovieEdit", "MovieScenes", "Cinema", "FilmEdit"]
+    },
+    "romance": {
+      "sources_per_video": 4,
+      "min_len": 40,
+      "max_len": 1800,
+      "title_fallback": "Romance Edit",
+      "song_hint": "romantic, emotional, soft pop or R&B",
+      "fallback_songs": [{"title": "Die With A Smile", "artist": "Lady Gaga", "why": "romance"}],
+      "tags": ["RomanceEdit", "Romance", "LoveEdit"]
     },
     "gaming": {
       "sources_per_video": 3,
       "min_len": 40,
       "max_len": 600,
-      "channels": [
-        {
-          "url": "https://www.youtube.com/@PlayStation/videos",
-          "title_re": "official gameplay|official gameplay|cinematic gameplay|Spider-Man|God of War|Red Dead|Cyberpunk|Call of Duty|The Last of Us|Horizon|Halo|Starfield|Witcher|Ghost of Tsushima|Uncharted|Black Myth|Elden Ring|Assassin's Creed|Grand Theft Auto",
-          "credit": "PlayStation",
-          "limit": 80,
-          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|behind the scenes|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@Xbox/videos",
-          "title_re": "official gameplay|official gameplay|cinematic gameplay|Spider-Man|God of War|Red Dead|Cyberpunk|Call of Duty|The Last of Us|Horizon|Halo|Starfield|Witcher|Ghost of Tsushima|Uncharted|Black Myth|Elden Ring|Assassin's Creed|Grand Theft Auto",
-          "credit": "Xbox",
-          "limit": 80,
-          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|behind the scenes|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@RockstarGames/videos",
-          "limit": 80,
-          "title_re": "Red Dead|RDR2|Red Dead Redemption",
-          "skip_re": "livestream|podcast|soundtrack|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Rockstar Games"
-        },
-        {
-          "url": "https://www.youtube.com/@CDPROJEKTRED/videos",
-          "limit": 80,
-          "title_re": "Cyberpunk|official gameplay|cinematic|official gameplay",
-          "skip_re": "livestream|podcast|behind the scenes|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "CD PROJEKT RED"
-        },
-        {
-          "url": "https://www.youtube.com/@CallofDuty/videos",
-          "limit": 80,
-          "title_re": "official gameplay|official gameplay|cinematic|official gameplay|official gameplay",
-          "skip_re": "livestream|podcast|bundle|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Call of Duty"
-        },
-        {
-          "url": "https://www.youtube.com/@Ubisoft/videos",
-          "limit": 80,
-          "title_re": "official gameplay|cinematic|official gameplay|Assassin|Ghost Recon|Far Cry",
-          "skip_re": "livestream|podcast|soundtrack|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Ubisoft"
-        },
-        {
-          "url": "https://www.youtube.com/@EA/videos",
-          "limit": 80,
-          "title_re": "official gameplay|cinematic|official gameplay|Battlefield|Apex",
-          "skip_re": "livestream|podcast|soundtrack|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Electronic Arts"
-        },
-        {
-          "url": "https://www.youtube.com/@BethesdaSoftworks/videos",
-          "limit": 80,
-          "title_re": "official gameplay|cinematic|official gameplay|Starfield|Elder Scrolls|Fallout",
-          "skip_re": "livestream|podcast|soundtrack|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Bethesda Softworks"
-        },
-        {
-          "url": "https://www.youtube.com/@NaughtyDog/videos",
-          "limit": 40,
-          "title_re": "official gameplay|cinematic|official gameplay|The Last of Us|Uncharted",
-          "skip_re": "livestream|podcast|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Naughty Dog"
-        }
-      ],
-      "search": [
-        "Red Dead Redemption 2 official gameplay Rockstar",
-        "Cyberpunk 2077 official gameplay CD PROJEKT",
-        "Marvel Spider-Man 2 official gameplay PlayStation",
-        "God of War Ragnarok official gameplay PlayStation",
-        "The Last of Us official gameplay Naughty Dog",
-        "Halo official gameplay Xbox",
-        "Call of Duty official gameplay",
-        "official gameplay cinematic PlayStation"
-      ],
-      "discover": "Official gameplay and cinematic gameplay (never trailers, teasers, promos or TV spots) for Red Dead Redemption 2, Cyberpunk 2077, Call of Duty, Marvel Spider-Man, and God of War from official publisher channels",
-      "song_hint": "cinematic hype, hip-hop, rock or synthwave",
-      "fallback_songs": [
-        {
-          "title": "Believer",
-          "artist": "Imagine Dragons",
-          "why": "hype"
-        }
-      ],
       "title_fallback": "Gaming Edit",
-      "tags": [
-        "GamingEdit",
-        "Gaming",
-        "GameEdit"
-      ],
-      "allow_channels": [
-        "PlayStation",
-        "Xbox",
-        "Rockstar Games",
-        "CD PROJEKT RED",
-        "Call of Duty",
-        "Activision",
-        "Santa Monica Studio",
-        "Insomniac Games",
-        "PlayStation Studios",
-        "Xbox Game Studios",
-        "Bethesda Softworks",
-        "Ubisoft",
-        "Electronic Arts",
-        "EA",
-        "Naughty Dog"
-      ]
-    },
-    "movie": {
-      "sources_per_video": 3,
-      "min_len": 40,
-      "max_len": 1800,
-      "channels": [
-        {
-          "url": "https://www.youtube.com/@Movieclips/videos",
-          "limit": 80,
-          "title_re": "scene|clip|movie clip",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Movieclips"
-        },
-        {
-          "url": "https://www.youtube.com/@UniversalPictures/videos",
-          "title_re": "official clip",
-          "credit": "Universal Pictures",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@SonyPictures/videos",
-          "title_re": "clip",
-          "credit": "Sony Pictures",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@ParamountPictures/videos",
-          "title_re": "clip",
-          "credit": "Paramount Pictures",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@20thCenturyStudios/videos",
-          "title_re": "official clip",
-          "credit": "20th Century Studios",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@Lionsgate/videos",
-          "title_re": "clip",
-          "skip_re": "full movie|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Lionsgate"
-        },
-        {
-          "url": "https://www.youtube.com/@A24/videos",
-          "title_re": "clip",
-          "credit": "A24",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@marvel/videos",
-          "title_re": "clip",
-          "credit": "Marvel Entertainment",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@warnerbros/videos",
-          "title_re": "clip",
-          "credit": "Warner Bros.",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@Netflix/videos",
-          "limit": 80,
-          "title_re": "official clip|season \\d |series ",
-          "credit": "Netflix",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@PrimeVideo/videos",
-          "limit": 80,
-          "title_re": "official clip|series ",
-          "credit": "Prime Video",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@appletv/videos",
-          "limit": 80,
-          "title_re": "official clip|series ",
-          "credit": "Apple TV",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@WarnerBrosPictures/videos",
-          "limit": 80,
-          "title_re": "official clip|official scene|clip",
-          "skip_re": "full movie|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Warner Bros. Pictures"
-        },
-        {
-          "url": "https://www.youtube.com/@WaltDisneyStudios/videos",
-          "limit": 80,
-          "title_re": "official clip|official scene|clip",
-          "skip_re": "full movie|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Walt Disney Studios"
-        }
-      ],
-      "search": [
-        "official movie clip scene Movieclips",
-        "official movie scene clip Universal Pictures",
-        "official movie scene clip Sony Pictures",
-        "official movie scene clip Warner Bros",
-        "official movie clip scene 20th Century Studios",
-        "official movie scene Paramount Pictures",
-        "full movie scene official clip",
-        "official clip full scene Netflix"
-      ],
-      "allow_channels": [
-        "Universal Pictures",
-        "Sony Pictures Entertainment",
-        "Paramount Pictures",
-        "20th Century Studios",
-        "Lionsgate Movies",
-        "A24",
-        "Marvel Entertainment",
-        "Warner Bros. Pictures",
-        "Netflix",
-        "Prime Video",
-        "Apple TV",
-        "Apple TV+",
-        "Walt Disney Studios",
-        "Disney",
-        "Movieclips",
-        "Movieclips (ROT)",
-        "Warner Bros."
-      ],
-      "discover": "Official movie clips and full scenes from studio YouTube channels or licensed clip channels such as Movieclips \u2014 never trailers, teasers, promos or TV spots",
-      "song_hint": "matches the movie mood: cinematic pop, hip-hop, rock, dark synth",
-      "fallback_songs": [
-        {
-          "title": "Sweet Dreams (Are Made of This)",
-          "artist": "Eurythmics",
-          "why": "cinematic"
-        }
-      ],
-      "title_fallback": "Movie Scene Edit",
-      "tags": [
-        "MovieEdit",
-        "MovieScenes",
-        "Cinema",
-        "FilmEdit"
-      ]
+      "song_hint": "cinematic hype, hip-hop, rock or synthwave",
+      "fallback_songs": [{"title": "Believer", "artist": "Imagine Dragons", "why": "hype"}],
+      "tags": ["GamingEdit", "Gaming", "GameEdit"]
     },
     "sports": {
       "sources_per_video": 3,
       "min_len": 30,
       "max_len": 1800,
-      "channels": [
-        {
-          "url": "https://www.youtube.com/@NBA/videos",
-          "title_re": "cinematic|mic'd up|mixtape|hype|trailer|season|highlights|best|top plays|mic'd up|interview|press conference|presser|lebron|messi|ronaldo",
-          "credit": "NBA",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@NFL/videos",
-          "title_re": "cinematic|mic'd up|hype|trailer|inside the|highlights|best|top plays|mic'd up|interview|press conference|presser|lebron|messi|ronaldo",
-          "credit": "NFL",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@premierleague/videos",
-          "title_re": "cinematic|trailer|story|season|highlights|best|top plays|mic'd up|interview|press conference|presser|lebron|messi|ronaldo",
-          "credit": "Premier League",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@NFLFilms/videos",
-          "limit": 80,
-          "title_re": "cinematic|hype|mic'd up|highlights|film|season|interview|press conference|presser|lebron|messi|ronaldo",
-          "skip_re": "livestream|podcast|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "NFL Films"
-        },
-        {
-          "url": "https://www.youtube.com/@MLB/videos",
-          "limit": 80,
-          "title_re": "highlights|top plays|cinematic|hype|best|interview|press conference|presser|lebron|messi|ronaldo",
-          "skip_re": "livestream|podcast|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "MLB"
-        },
-        {
-          "url": "https://www.youtube.com/@NHL/videos",
-          "limit": 80,
-          "title_re": "highlights|top plays|cinematic|hype|best|interview|press conference|presser|lebron|messi|ronaldo",
-          "skip_re": "livestream|podcast|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "NHL"
-        },
-        {
-          "url": "https://www.youtube.com/@FIFA/videos",
-          "limit": 80,
-          "title_re": "highlights|official|cinematic|best goals|world cup|interview|press conference|presser|lebron|messi|ronaldo",
-          "skip_re": "livestream|podcast|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "FIFA"
-        },
-        {
-          "url": "https://www.youtube.com/@UEFA/videos",
-          "limit": 80,
-          "title_re": "highlights|cinematic|best|official|interview|press conference|presser|lebron|messi|ronaldo",
-          "skip_re": "livestream|podcast|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "UEFA"
-        },
-        {
-          "url": "https://www.youtube.com/@Lakers/videos",
-          "limit": 80,
-          "title_re": "interview|press conference|presser|sit.?down|one on one|open interview|lebron|messi|ronaldo|highlights|cinematic|hype|official",
-          "skip_re": "livestream|podcast|full match|radio|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Los Angeles Lakers"
-        },
-        {
-          "url": "https://www.youtube.com/@InterMiamiCF/videos",
-          "limit": 80,
-          "title_re": "interview|press conference|presser|sit.?down|one on one|open interview|lebron|messi|ronaldo|highlights|cinematic|hype|official",
-          "skip_re": "livestream|podcast|full match|radio|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Inter Miami CF"
-        },
-        {
-          "url": "https://www.youtube.com/@CristianoRonaldo/videos",
-          "limit": 80,
-          "title_re": "interview|press conference|presser|sit.?down|one on one|open interview|lebron|messi|ronaldo|highlights|cinematic|hype|official",
-          "skip_re": "livestream|podcast|full match|radio|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Cristiano Ronaldo"
-        },
-        {
-          "url": "https://www.youtube.com/@AlNassr/videos",
-          "limit": 80,
-          "title_re": "interview|press conference|presser|sit.?down|one on one|open interview|lebron|messi|ronaldo|highlights|cinematic|hype|official",
-          "skip_re": "livestream|podcast|full match|radio|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Al Nassr"
-        }
-      ],
-      "search": [
-        "LeBron James official interview NBA Lakers",
-        "LeBron James official highlights NBA no commentary",
-        "Lionel Messi official interview Inter Miami",
-        "Lionel Messi official highlights MLS",
-        "Cristiano Ronaldo official interview",
-        "Cristiano Ronaldo official highlights Al Nassr",
-        "star player official interview press conference club",
-        "official player sit down interview league",
-        "official cinematic sports hype video",
-        "mic'd up official league",
-        "NBA official cinematic hype",
-        "Premier League official cinematic",
-        "official sports highlights no commentary league",
-        "NBA official highlights no commentary",
-        "NFL Films official cinematic highlights",
-        "Premier League official highlights",
-        "MLB official top plays highlights",
-        "FIFA official world cup highlights",
-        "official press conference NBA Lakers",
-        "official full highlights NBA no commentary",
-        "official press conference football club"
-      ],
-      "discover": "Official interview or press-conference clips plus official/full highlights of ONE star athlete (e.g. LeBron James, Lionel Messi, Cristiano Ronaldo) from official league, club, or player channels \u2014 never trailers, teasers, promos or TV spots, and no scoreboard or corner logo",
-      "song_hint": "hype: hip-hop, trap, rock anthems",
-      "fallback_songs": [
-        {
-          "title": "Till I Collapse",
-          "artist": "Eminem",
-          "why": "hype"
-        }
-      ],
-      "title_fallback": "Sports Hype Edit",
-      "tags": [
-        "SportsEdit",
-        "Sports",
-        "Hype"
-      ],
-      "allow_channels": [
-        "NBA",
-        "NFL",
-        "Premier League",
-        "NFL Films",
-        "UEFA",
-        "FIFA",
-        "MLB",
-        "NHL",
-        "UFC",
-        "Formula 1",
-        "Los Angeles Lakers",
-        "Inter Miami",
-        "Inter Miami CF",
-        "Cristiano Ronaldo",
-        "Al Nassr",
-        "Manchester United",
-        "Real Madrid",
-        "FC Barcelona"
-      ]
-    },
-    "romance": {
-      "sources_per_video": 3,
-      "min_len": 40,
-      "max_len": 1800,
-      "channels": [
-        {
-          "url": "https://www.youtube.com/@Movieclips/videos",
-          "limit": 80,
-          "title_re": "love|romance|romantic|scene|clip",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Movieclips"
-        },
-        {
-          "url": "https://www.youtube.com/@UniversalPictures/videos",
-          "title_re": "love|romance|romantic|wedding|heart|official clip|scene|movie clip",
-          "credit": "Universal Pictures",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@SonyPictures/videos",
-          "title_re": "love|romance|romantic|heart|official clip|scene|movie clip",
-          "credit": "Sony Pictures",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@Lionsgate/videos",
-          "title_re": "love|romance|romantic|heart|official clip|scene|movie clip",
-          "skip_re": "full movie|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Lionsgate"
-        },
-        {
-          "url": "https://www.youtube.com/@A24/videos",
-          "title_re": "love|romance|heart|official clip|scene|movie clip",
-          "credit": "A24",
-          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@Netflix/videos",
-          "limit": 80,
-          "title_re": "love|romance|romantic|wedding|heart|official clip",
-          "skip_re": "recap|explained|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Netflix"
-        },
-        {
-          "url": "https://www.youtube.com/@PrimeVideo/videos",
-          "limit": 80,
-          "title_re": "love|romance|romantic|wedding|heart|official clip",
-          "skip_re": "recap|explained|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Prime Video"
-        },
-        {
-          "url": "https://www.youtube.com/@warnerbros/videos",
-          "limit": 80,
-          "title_re": "love|romance|romantic|heart|official clip",
-          "skip_re": "full movie|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Warner Bros."
-        }
-      ],
-      "search": [
-        "official romance movie clip scene",
-        "official romantic scene clip studio",
-        "official love story movie scene clip",
-        "official romantic series clip Netflix",
-        "official clip romantic scene Warner Bros",
-        "official romance movie clip Universal Pictures",
-        "Netflix official romantic series clip scene",
-        "full scene official romance movie clip Movieclips"
-      ],
-      "allow_channels": [
-        "Universal Pictures",
-        "Sony Pictures Entertainment",
-        "Lionsgate Movies",
-        "A24",
-        "Netflix",
-        "Paramount Pictures",
-        "Warner Bros. Pictures",
-        "Focus Features",
-        "Prime Video",
-        "Movieclips",
-        "Warner Bros.",
-        "MUBI"
-      ],
-      "discover": "Official romance or love-story movie/series clips and full scenes from studio or licensed clip channels \u2014 never trailers, teasers, promos or TV spots",
-      "song_hint": "romantic: R&B, soft pop, indie love songs with a steady beat",
-      "fallback_songs": [
-        {
-          "title": "Die With A Smile",
-          "artist": "Lady Gaga",
-          "why": "romance"
-        }
-      ],
-      "title_fallback": "Love Scene Edit",
-      "tags": [
-        "RomanceEdit",
-        "LoveStory",
-        "MovieEdit"
-      ]
+      "title_fallback": "Sports Edit",
+      "song_hint": "hype, motivational, sports anthem",
+      "fallback_songs": [{"title": "Till I Collapse", "artist": "Eminem", "why": "hype"}],
+      "tags": ["SportsEdit", "Sports", "Highlights"]
     },
     "series": {
       "sources_per_video": 3,
       "min_len": 40,
-      "max_len": 2400,
-      "channels": [
-        {
-          "url": "https://www.youtube.com/@Netflix/videos",
-          "limit": 80,
-          "title_re": "official clip|season \\d|official scene",
-          "skip_re": "recap|explained|ending|behind the scenes|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Netflix"
-        },
-        {
-          "url": "https://www.youtube.com/@PrimeVideo/videos",
-          "limit": 80,
-          "title_re": "official clip|season \\d|official scene",
-          "skip_re": "recap|explained|ending|behind the scenes|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Prime Video"
-        },
-        {
-          "url": "https://www.youtube.com/@appletv/videos",
-          "limit": 80,
-          "title_re": "official clip|season \\d|official scene",
-          "skip_re": "recap|explained|ending|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Apple TV"
-        },
-        {
-          "url": "https://www.youtube.com/@hbo/videos",
-          "limit": 80,
-          "title_re": "official clip|season \\d|official scene",
-          "skip_re": "recap|explained|ending|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "HBO"
-        },
-        {
-          "url": "https://www.youtube.com/@Max/videos",
-          "limit": 80,
-          "title_re": "official clip|season \\d|official scene",
-          "skip_re": "recap|explained|ending|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Max"
-        },
-        {
-          "url": "https://www.youtube.com/@DisneyPlus/videos",
-          "limit": 80,
-          "title_re": "official clip|season \\d",
-          "skip_re": "recap|explained|ending|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Disney Plus"
-        },
-        {
-          "url": "https://www.youtube.com/@paramountplus/videos",
-          "limit": 80,
-          "title_re": "official clip|season \\d",
-          "skip_re": "recap|explained|ending|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Paramount+"
-        }
-      ],
-      "search": [
-        "official series clip Netflix",
-        "official scene clip Netflix",
-        "official series clip Prime Video",
-        "official series clip HBO",
-        "official series clip Apple TV",
-        "official series clip Max",
-        "full scene official series clip",
-        "official episode scene clip Netflix"
-      ],
-      "allow_channels": [
-        "Netflix",
-        "Prime Video",
-        "Apple TV",
-        "Apple TV+",
-        "HBO",
-        "Max",
-        "Disney Plus",
-        "Disney+",
-        "Paramount+",
-        "Paramount Plus",
-        "Hulu",
-        "BBC"
-      ],
-      "discover": "Official web-series and TV-series scene clips, official clips, or full episodes from official streamer and network YouTube channels \u2014 never trailers, teasers, promos, TV spots, or recaps",
-      "song_hint": "cinematic pop, dark synth, hip-hop or tension cues that match the show",
-      "fallback_songs": [
-        {
-          "title": "Blinding Lights",
-          "artist": "The Weeknd",
-          "why": "retro synth"
-        }
-      ],
-      "title_fallback": "Series Scene Edit",
-      "tags": [
-        "SeriesEdit",
-        "TVEdit",
-        "WebSeries",
-        "OfficialClip"
-      ]
+      "max_len": 1800,
+      "title_fallback": "Series Edit",
+      "song_hint": "matches the series mood",
+      "fallback_songs": [{"title": "Blinding Lights", "artist": "The Weeknd", "why": "synth"}],
+      "tags": ["SeriesEdit", "TVEdit", "Series"]
     }
-  },
-  "pool_target": {
-    "gta": 15,
-    "gaming": 15,
-    "movie": 15,
-    "sports": 15,
-    "romance": 15,
-    "series": 15
   }
 }
-
