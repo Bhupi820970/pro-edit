@@ -1,170 +1,602 @@
-[2026-11-20 02:27:57 IST] === in-series-20261120-022757: platform=instagram category=series format=shorts seed=45508572
-[2026-11-20 02:28:38 IST] x search failed: official series clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:28:39 IST] x search failed: official scene clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:28:41 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] iK5MlScCqas: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:28:51 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] iK5MlScCqas: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:29:01 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] iK5MlScCqas: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:29:15 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] iK5MlScCqas: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:29:35 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] iK5MlScCqas: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:29:56 IST] pre-vet REJECT [iK5MlScCqas] The Righteous Gemstones Season 4 | Episode 3 Preview | HBO — channel logo present in top right corner; flag:channel_logo
-[2026-11-20 02:29:59 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] CsqQOPZofGo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:30:08 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] CsqQOPZofGo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:30:19 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] CsqQOPZofGo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:30:32 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] CsqQOPZofGo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:30:53 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] CsqQOPZofGo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:31:14 IST] pre-vet REJECT [CsqQOPZofGo] The Righteous Gemstones Season 4 | Episode 8 Preview | HBO — HBO channel logo present in the top right corner; flag:channel_logo
-[2026-11-20 02:31:16 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] HlqITcZ0lwM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:31:26 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] HlqITcZ0lwM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:31:37 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] HlqITcZ0lwM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:31:50 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] HlqITcZ0lwM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:32:11 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] HlqITcZ0lwM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:32:31 IST] pre-vet REJECT [HlqITcZ0lwM] The Righteous Gemstones Season 4 | Episode 7 Preview | HBO — Channel logo present in top right corner; flag:channel_logo
-[2026-11-20 02:32:34 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] rA1Q8LICB8s: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:32:44 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] rA1Q8LICB8s: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:32:55 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] rA1Q8LICB8s: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:33:08 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] rA1Q8LICB8s: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:33:29 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] rA1Q8LICB8s: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:33:49 IST] pre-vet REJECT [rA1Q8LICB8s] The Righteous Gemstones Season 4 | Episode 4 Preview | HBO — channel logo present in top right corner; flag:channel_logo
-[2026-11-20 02:33:52 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Fj2qIKUh92o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:34:02 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Fj2qIKUh92o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:34:13 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] Fj2qIKUh92o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:34:26 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] Fj2qIKUh92o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:34:46 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] Fj2qIKUh92o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:35:06 IST] pre-vet REJECT [Fj2qIKUh92o] The Righteous Gemstones Season 4 | Episode 6 Preview | HBO — Channel logo (HBO) present in the top-right corner; flag:channel_logo
-[2026-11-20 02:35:10 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] teX9hkpsNzI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:35:19 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] teX9hkpsNzI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:35:30 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] teX9hkpsNzI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:35:43 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] teX9hkpsNzI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:36:04 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] teX9hkpsNzI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-20 02:36:24 IST] pre-vet REJECT [teX9hkpsNzI] The Righteous Gemstones Season 4 | Episode 9 Preview | HBO — Channel logo present in top right corner; flag:channel_logo
-[2026-11-20 02:36:24 IST] gemini key7/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:24 IST] gemini: key7 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:24 IST] gemini key8/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:24 IST] gemini: key8 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:25 IST] gemini key9/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:25 IST] gemini: key9 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:25 IST] gemini key10/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:25 IST] gemini: key10 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:25 IST] gemini key11/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:25 IST] gemini: key11 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:25 IST] gemini key12/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:25 IST] gemini: key12 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:25 IST] gemini key13/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:25 IST] gemini: key13 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:25 IST] gemini key1/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:25 IST] gemini: key1 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:26 IST] gemini key2/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:26 IST] gemini: key2 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:26 IST] gemini key3/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:26 IST] gemini: key3 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:26 IST] gemini key4/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:26 IST] gemini: key4 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:26 IST] gemini key5/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:26 IST] gemini: key5 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:26 IST] gemini key6/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-20 02:36:26 IST] gemini: key6 daily quota hit -> parked until 2026-11-20 13:30 IST
-[2026-11-20 02:36:26 IST] gemini discovery failed: all Gemini keys/models failed: key1/gemini-3.5-flash-lite: 429 You exceeded your current quota, please check your plan and billing details. For more information on | key2/gemini-3.5-flash-lite: 429 Yo
-[2026-11-20 02:36:26 IST] content thin for series (0/3) -> fallback search (0 candidates)
-[2026-11-20 02:36:26 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single title for series
-[2026-11-20 02:36:26 IST] Traceback (most recent call last):
+[2026-11-20 02:26:28 IST] === in-sports-20261120-022628: platform=instagram category=sports format=shorts seed=804455769
+[2026-11-20 02:27:09 IST] channel listing failed: https://www.youtube.com/@CristianoRonaldo/videos ERROR: [youtube:tab] @CristianoRonaldo/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
+[2026-11-20 02:27:10 IST] channel listing failed: https://www.youtube.com/@AlNassr/videos ERROR: [youtube:tab] @AlNassr: This channel does not have a videos tab
+[2026-11-20 02:27:57 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 02:27:57 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 02:28:00 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:28:10 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:28:20 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:28:33 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:28:54 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:29:14 IST] pre-vet PASS [TAyDe4Jepog] LeBron Speaks On Preparation Ahead of Year 23 & More at Lakers 2025 Me
+[2026-11-20 02:29:17 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:29:27 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:29:37 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:29:50 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:30:11 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:30:32 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:30:42 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:30:53 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:31:06 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:31:27 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:31:48 IST] pre-vet PASS [Le3FfVxbjEQ] This Challenge Had LeBron Laughing HYSTERICALLY
+[2026-11-20 02:31:50 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:32:00 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:32:11 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:32:24 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:32:44 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:33:06 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] xYkfmqX0vqk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:33:16 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] xYkfmqX0vqk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:33:26 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] xYkfmqX0vqk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:33:39 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] xYkfmqX0vqk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:34:00 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] xYkfmqX0vqk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:35:05 IST] pre-vet REJECT [xYkfmqX0vqk] LeBron James throws down epic dunk on Jusuf Nurkic | ESPN — ESPN channel logo in the bottom-left corner; flag:channel_logo
+[2026-11-20 02:35:07 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] a5ny0gykbnk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:35:17 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] a5ny0gykbnk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:35:27 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] a5ny0gykbnk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:35:41 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] a5ny0gykbnk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:36:01 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] a5ny0gykbnk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:36:22 IST] pre-vet REJECT [a5ny0gykbnk] Luka, LeBron and the Lakers Surprised Patients at UCLA Hospitals — channel logo present in the bottom left corner; flag:channel_logo
+[2026-11-20 02:36:24 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:36:35 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:36:45 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:36:58 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:37:20 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:37:44 IST] pre-vet PASS [VlhU9OrikSA] LeBron James credits Lakers' resilience behind 7-game win streak 🔥 | N
+[2026-11-20 02:37:46 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:37:56 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:38:06 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:38:19 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:38:40 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:39:01 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:39:11 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:39:22 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:39:35 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:39:55 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:40:16 IST] pre-vet PASS [Z67MBZTUQ2w] LeBron James | 2023-24 Lakers Exit Interviews
+[2026-11-20 02:40:18 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:40:28 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:40:39 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:40:52 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:41:13 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:41:34 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:41:44 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:41:54 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:42:08 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:42:28 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:42:50 IST] pre-vet PASS [G3sYVK0c73k] BEST OF: LeBron James Chase Down Blocks as a Laker (so far)
+[2026-11-20 02:42:52 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:43:02 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:43:13 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:43:26 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:43:47 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:44:09 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] dSD27Mrr72c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:44:19 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] dSD27Mrr72c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:44:29 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] dSD27Mrr72c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:44:42 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] dSD27Mrr72c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:45:03 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] dSD27Mrr72c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:45:24 IST] pre-vet REJECT [dSD27Mrr72c] LeBron James NBA Finals Press Conference: "It's Time" — channel_logo; watermark; flag:watermark; flag:channel_logo
+[2026-11-20 02:45:26 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:45:36 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:45:47 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:46:00 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:46:21 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:46:42 IST] pre-vet PASS [XWISA6cBx34] LeBron Mic'd Up is a MUST-SEE
+[2026-11-20 02:46:44 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:46:54 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:47:05 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:47:18 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:47:38 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:48:00 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] VB6q6DlzT-Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:48:09 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] VB6q6DlzT-Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:48:20 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] VB6q6DlzT-Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:48:33 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] VB6q6DlzT-Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:48:54 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] VB6q6DlzT-Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:49:29 IST] pre-vet REJECT [VB6q6DlzT-Q] 30 INSANE LeBron James Assists 👀 — Channel logo in top-left corner; flag:channel_logo
+[2026-11-20 02:49:31 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:49:41 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:49:52 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:50:05 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:50:25 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:51:07 IST] pre-vet PASS [sO56CyHI5ek] LeBron James BEST PLAY EVERY GAME | 2016-2017 Season
+[2026-11-20 02:51:09 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:51:19 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:51:30 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:51:43 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:52:03 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:52:25 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] GIcXTQxonZg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:52:36 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] GIcXTQxonZg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:52:47 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] GIcXTQxonZg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:53:00 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] GIcXTQxonZg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:53:21 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] GIcXTQxonZg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:54:20 IST] pre-vet REJECT [GIcXTQxonZg] [FULL] LeBron James & Anthony Davis interview following 2020 NBA title — ESPN channel logo is present in the bottom-left corner; flag:channel_logo
+[2026-11-20 02:54:22 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:54:32 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:54:43 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:54:56 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:55:17 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:56:19 IST] pre-vet PASS [-9lP95Qo-I0] LeBron James' Top 40 Career Plays
+[2026-11-20 02:56:22 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:56:32 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:56:42 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:56:56 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:57:17 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:57:38 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] aSvbFjRxqsA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:57:48 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] aSvbFjRxqsA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:57:58 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] aSvbFjRxqsA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:58:11 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] aSvbFjRxqsA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:58:32 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] aSvbFjRxqsA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:58:54 IST] pre-vet REJECT [aSvbFjRxqsA] LeBron James on His Future After the Lakers’ Playoff Exit | NBA on Pri — Channel logo in the top left corner; flag:channel_logo
+[2026-11-20 02:58:57 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] KVqDMxo1-JA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:59:07 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] KVqDMxo1-JA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:59:18 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] KVqDMxo1-JA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:59:31 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] KVqDMxo1-JA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 02:59:51 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] KVqDMxo1-JA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:00:15 IST] pre-vet REJECT [KVqDMxo1-JA] LeBron Speaks After Lakers Game 6 Win In Houston! — NBA on Prime lower third branding and logo present; flag:channel_logo
+[2026-11-20 03:00:18 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:00:27 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:00:38 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:00:51 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:01:12 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:01:33 IST] pre-vet PASS [7a6gnRvQqHQ] The World's GREATEST LeBron James Highlight Reel 👑
+[2026-11-20 03:01:35 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:01:45 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:01:55 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:02:08 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:02:29 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:02:51 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:03:01 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:03:11 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:03:25 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:03:46 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:04:07 IST] pre-vet PASS [Fr3OrTNXR90] LeBron James DOES IT ALL in his 76ers Debut | October 20, 2026
+[2026-11-20 03:04:08 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:04:18 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:04:29 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:04:42 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:05:03 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:05:25 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:05:35 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:05:45 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:05:59 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:06:19 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:06:40 IST] pre-vet PASS [o1BrK2KWifc] [FULL] LeBron James' first press conference with Los Angeles Lakers | 
+[2026-11-20 03:06:43 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:06:53 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:07:04 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:07:17 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:07:38 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:08:00 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:08:10 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:08:20 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:08:33 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:08:54 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:09:16 IST] pre-vet PASS [XIW8e7Xi_l8] LeBron James, John Wall, and the Best Plays From Saturday Night | Nove
+[2026-11-20 03:09:18 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:09:28 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:09:39 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:09:52 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:10:12 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:10:34 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] _GZDb30MlcA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:10:44 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] _GZDb30MlcA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:10:57 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] _GZDb30MlcA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:11:10 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] _GZDb30MlcA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:11:31 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] _GZDb30MlcA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:11:52 IST] pre-vet REJECT [_GZDb30MlcA] Championship Press Conference: LeBron James | Lakers — Contains network bug (abc logo) in the top left corner; Contains partner/sponsor logos (YouTube TV) in the top corners and banner text at the bottom; flag:watermark; flag:channel_logo
+[2026-11-20 03:11:54 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:12:04 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:12:17 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:12:30 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:12:51 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:13:11 IST] pre-vet PASS [WY9L9yK_Ngc] LeBron James speaks on his future and retirement after Lakers eliminat
+[2026-11-20 03:13:13 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:13:23 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:13:36 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:13:49 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:14:09 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:14:31 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:14:41 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:14:56 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:15:10 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:15:30 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:15:51 IST] pre-vet PASS [YWcobWashmE] LeBron James SICK No-Look, Between-the-Legs Assist | 02.14.17
+[2026-11-20 03:15:53 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:16:03 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:16:14 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:16:27 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:16:48 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:17:09 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] SLIxH8nH0PU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:17:19 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] SLIxH8nH0PU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:17:29 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] SLIxH8nH0PU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:17:43 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] SLIxH8nH0PU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:18:03 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] SLIxH8nH0PU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:18:25 IST] pre-vet REJECT [SLIxH8nH0PU] One Play from All 53 Wins (Luka Game-Winner, LeBron Dunks, and MORE!) — channel logo present in the top-right corner; flag:channel_logo
+[2026-11-20 03:18:27 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:18:37 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:18:48 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:19:01 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:19:22 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:20:14 IST] pre-vet PASS [2IDKTLet-vY] Luke Played for LeBron’s AAU Team, Then Passed Him in Scoring? Get to 
+[2026-11-20 03:20:17 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:20:26 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:20:37 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:20:50 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:21:11 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:21:32 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:21:42 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:21:53 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:22:06 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:22:27 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:22:48 IST] pre-vet PASS [0G10fR6EGwY] LeBron James | 2021-22 Lakers Exit Interviews
+[2026-11-20 03:22:50 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:23:00 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:23:11 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:23:24 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:23:45 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:24:07 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:24:17 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:24:27 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:24:40 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:25:01 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:25:22 IST] pre-vet PASS [MQstdmVmZU8] EVERY Connection Between LeBron & Luka (Part Two)
+[2026-11-20 03:25:25 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:25:34 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:25:45 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:25:59 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:26:19 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:26:41 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:26:51 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:27:01 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:27:15 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:27:35 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:27:56 IST] pre-vet PASS [nSjU02GjH6o] LeBron James Scores 35 Points in the Heat's Game 2 Win
+[2026-11-20 03:27:58 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:28:08 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:28:19 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:28:32 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:28:52 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:29:14 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:29:24 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:29:35 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:29:48 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:30:09 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:30:29 IST] pre-vet PASS [3oLh7QPp02Q] LeBron James' First Press Conference with the Los Angeles Lakers | NBA
+[2026-11-20 03:30:32 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:30:42 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:30:52 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:31:06 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:31:26 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:31:48 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:31:58 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:32:09 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:32:22 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:32:43 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:33:04 IST] pre-vet PASS [IFpR3LDsR_o] What’s It Like Getting Hit by LeBron’s Chalk Toss?
+[2026-11-20 03:33:06 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:33:18 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:33:29 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:33:43 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:34:03 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:34:25 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] QI8-PbK1wmY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:34:35 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] QI8-PbK1wmY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:34:45 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] QI8-PbK1wmY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:34:59 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] QI8-PbK1wmY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:35:19 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] QI8-PbK1wmY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:35:40 IST] pre-vet REJECT [QI8-PbK1wmY] LeBron James' INSANE block on Tiago Splitter in Game 2! — ESPN network logo present in the top-left corner; flag:channel_logo
+[2026-11-20 03:35:42 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] NdoV_rYZSmw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:35:52 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] NdoV_rYZSmw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:36:02 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] NdoV_rYZSmw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:36:16 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] NdoV_rYZSmw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:36:36 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] NdoV_rYZSmw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:36:57 IST] pre-vet REJECT [NdoV_rYZSmw] LeBron James Interview — Channel logo present in the top right corner and text in the top left corner; flag:channel_logo
+[2026-11-20 03:36:59 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] LIFrYo0VLK0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:37:09 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] LIFrYo0VLK0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:37:20 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] LIFrYo0VLK0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:37:33 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] LIFrYo0VLK0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:37:54 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] LIFrYo0VLK0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:38:15 IST] pre-vet REJECT [LIFrYo0VLK0] Lebron James discusses how he spent his offseason | Lakers Media Day 2 — channel logo present in the top-right corner; flag:channel_logo
+[2026-11-20 03:38:15 IST] gemini key7/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:15 IST] gemini: key7 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:15 IST] gemini key8/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:15 IST] gemini: key8 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:15 IST] gemini key9/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:15 IST] gemini: key9 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:15 IST] gemini key10/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:15 IST] gemini: key10 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:15 IST] gemini key11/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:15 IST] gemini: key11 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:16 IST] gemini key12/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:16 IST] gemini: key12 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:16 IST] gemini key13/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:16 IST] gemini: key13 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:16 IST] gemini key1/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:16 IST] gemini: key1 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:16 IST] gemini key2/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:16 IST] gemini: key2 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:17 IST] gemini key3/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:17 IST] gemini: key3 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:17 IST] gemini key4/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:17 IST] gemini: key4 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:17 IST] gemini key5/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:17 IST] gemini: key5 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:17 IST] gemini key6/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-20 03:38:17 IST] gemini: key6 daily quota hit -> parked until 2026-11-20 13:30 IST
+[2026-11-20 03:38:17 IST] gemini discovery failed: all Gemini keys/models failed: key1/gemini-3.5-flash-lite: 429 You exceeded your current quota, please check your plan and billing details. For more information on | key2/gemini-3.5-flash-lite: 429 Yo
+[2026-11-20 03:38:17 IST] content thin for sports (0/3) -> fallback search (0 candidates)
+[2026-11-20 03:38:17 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single star player for sports
+[2026-11-20 03:38:17 IST] Traceback (most recent call last):
   File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 359, in cmd_produce
     made.append(produce_one(a.platform, a.category, state, gem, sourcer, seed))
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 89, in produce_one
-    raise RuntimeError(f"no clips of a single title for {category}")
-RuntimeError: no clips of a single title for series
+  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 93, in produce_one
+    raise RuntimeError("no clips of a single star player for sports")
+RuntimeError: no clips of a single star player for sports
 
-[2026-11-20 02:36:26 IST] === in-series-20261120-023626: platform=instagram category=series format=shorts seed=297259946
-[2026-11-20 02:36:44 IST] x search failed: official series clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:36:45 IST] x search failed: official scene clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:36:45 IST] pre-vet error (will retry next run): psid7ZduEhM skip pre-vet for psid7ZduEhM: all Gemini keys quota-exhausted
-[2026-11-20 02:36:45 IST] pre-vet error (will retry next run): AhY-QsFqTJ4 skip pre-vet for AhY-QsFqTJ4: all Gemini keys quota-exhausted
-[2026-11-20 02:36:45 IST] pre-vet error (will retry next run): ufvH-Ly7NWw skip pre-vet for ufvH-Ly7NWw: all Gemini keys quota-exhausted
-[2026-11-20 02:36:45 IST] pre-vet error (will retry next run): YOWXVbrr6Ks skip pre-vet for YOWXVbrr6Ks: all Gemini keys quota-exhausted
-[2026-11-20 02:36:45 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-20 02:36:45 IST] content thin for series (0/3) -> fallback search (0 candidates)
-[2026-11-20 02:36:45 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single title for series
-[2026-11-20 02:36:45 IST] Traceback (most recent call last):
+[2026-11-20 03:38:17 IST] === in-sports-20261120-033817: platform=instagram category=sports format=shorts seed=1029194271
+[2026-11-20 03:39:04 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 03:39:05 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): ByAhQmvqsyc skip pre-vet for ByAhQmvqsyc: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): 2oldAfvhDzQ skip pre-vet for 2oldAfvhDzQ: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): LrsoZZ5a1Rc skip pre-vet for LrsoZZ5a1Rc: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): yz4T3O54joU skip pre-vet for yz4T3O54joU: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): WTXUOZE-8gQ skip pre-vet for WTXUOZE-8gQ: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): x42z8NfLZS4 skip pre-vet for x42z8NfLZS4: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): 8VIgdcabDHE skip pre-vet for 8VIgdcabDHE: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): 95kBkPcKB64 skip pre-vet for 95kBkPcKB64: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): ehKRLYHxNgI skip pre-vet for ehKRLYHxNgI: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): AWBTVCYHT3Q skip pre-vet for AWBTVCYHT3Q: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): QDikhiOkw1g skip pre-vet for QDikhiOkw1g: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): zz_zC7xbhkA skip pre-vet for zz_zC7xbhkA: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): -sotY1wmm8M skip pre-vet for -sotY1wmm8M: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): AL3d7PMQZ0g skip pre-vet for AL3d7PMQZ0g: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): Nmk_RxkOyMg skip pre-vet for Nmk_RxkOyMg: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): tlo6BREg53M skip pre-vet for tlo6BREg53M: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): evs534bh0c0 skip pre-vet for evs534bh0c0: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): LfksKqEfYug skip pre-vet for LfksKqEfYug: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): Y4jJgc5usC0 skip pre-vet for Y4jJgc5usC0: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): rzhd04I4s2Q skip pre-vet for rzhd04I4s2Q: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): pm8Dz3Eey_Y skip pre-vet for pm8Dz3Eey_Y: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): fmYSljB4cmQ skip pre-vet for fmYSljB4cmQ: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): XqJfuUZgx-M skip pre-vet for XqJfuUZgx-M: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): esB0AkFIDeE skip pre-vet for esB0AkFIDeE: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] pre-vet error (will retry next run): b-KN6NyzpG0 skip pre-vet for b-KN6NyzpG0: all Gemini keys quota-exhausted
+[2026-11-20 03:39:05 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-20 03:39:05 IST] content thin for sports (0/3) -> fallback search (0 candidates)
+[2026-11-20 03:39:05 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single star player for sports
+[2026-11-20 03:39:05 IST] Traceback (most recent call last):
   File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 359, in cmd_produce
     made.append(produce_one(a.platform, a.category, state, gem, sourcer, seed))
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 89, in produce_one
-    raise RuntimeError(f"no clips of a single title for {category}")
-RuntimeError: no clips of a single title for series
+  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 93, in produce_one
+    raise RuntimeError("no clips of a single star player for sports")
+RuntimeError: no clips of a single star player for sports
 
-[2026-11-20 02:36:45 IST] === in-series-20261120-023645: platform=instagram category=series format=shorts seed=323041041
-[2026-11-20 02:37:04 IST] x search failed: official series clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:37:04 IST] x search failed: official scene clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:37:04 IST] pre-vet error (will retry next run): ufvH-Ly7NWw skip pre-vet for ufvH-Ly7NWw: all Gemini keys quota-exhausted
-[2026-11-20 02:37:04 IST] pre-vet error (will retry next run): AhY-QsFqTJ4 skip pre-vet for AhY-QsFqTJ4: all Gemini keys quota-exhausted
-[2026-11-20 02:37:04 IST] pre-vet error (will retry next run): psid7ZduEhM skip pre-vet for psid7ZduEhM: all Gemini keys quota-exhausted
-[2026-11-20 02:37:04 IST] pre-vet error (will retry next run): YOWXVbrr6Ks skip pre-vet for YOWXVbrr6Ks: all Gemini keys quota-exhausted
-[2026-11-20 02:37:04 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-20 02:37:04 IST] content thin for series (0/3) -> fallback search (0 candidates)
-[2026-11-20 02:37:04 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single title for series
-[2026-11-20 02:37:04 IST] Traceback (most recent call last):
+[2026-11-20 03:39:05 IST] === in-sports-20261120-033905: platform=instagram category=sports format=shorts seed=1051820346
+[2026-11-20 03:39:52 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 03:39:53 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): uagjY5rCSDE skip pre-vet for uagjY5rCSDE: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): aDF_ESN80r8 skip pre-vet for aDF_ESN80r8: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): nKMXy3eFrLk skip pre-vet for nKMXy3eFrLk: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): 0kaEMM58_AY skip pre-vet for 0kaEMM58_AY: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): fJLrfALZGmE skip pre-vet for fJLrfALZGmE: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): DMhsGpKiwkQ skip pre-vet for DMhsGpKiwkQ: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): I74FAkaL1Fk skip pre-vet for I74FAkaL1Fk: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): DrZfU28kGKw skip pre-vet for DrZfU28kGKw: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): Doiq12y4078 skip pre-vet for Doiq12y4078: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): mDOhbQyOp2I skip pre-vet for mDOhbQyOp2I: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): is8JWdOeinI skip pre-vet for is8JWdOeinI: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): EotoP7Zks5k skip pre-vet for EotoP7Zks5k: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): IB0uORA0_sY skip pre-vet for IB0uORA0_sY: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): 7luPd6Grrmk skip pre-vet for 7luPd6Grrmk: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): iOLYdYkNpck skip pre-vet for iOLYdYkNpck: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): zuRujkxTv2Y skip pre-vet for zuRujkxTv2Y: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): BK0fNRkVd1Y skip pre-vet for BK0fNRkVd1Y: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] pre-vet error (will retry next run): IfUISdEl47A skip pre-vet for IfUISdEl47A: all Gemini keys quota-exhausted
+[2026-11-20 03:39:53 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-20 03:39:53 IST] content thin for sports (0/3) -> fallback search (0 candidates)
+[2026-11-20 03:39:53 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single star player for sports
+[2026-11-20 03:39:53 IST] Traceback (most recent call last):
   File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 359, in cmd_produce
     made.append(produce_one(a.platform, a.category, state, gem, sourcer, seed))
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 89, in produce_one
-    raise RuntimeError(f"no clips of a single title for {category}")
-RuntimeError: no clips of a single title for series
+  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 93, in produce_one
+    raise RuntimeError("no clips of a single star player for sports")
+RuntimeError: no clips of a single star player for sports
 
-[2026-11-20 02:37:04 IST] === in-series-20261120-023704: platform=instagram category=series format=shorts seed=230781421
-[2026-11-20 02:37:23 IST] x search failed: official series clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:37:23 IST] x search failed: official scene clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:37:23 IST] pre-vet error (will retry next run): YOWXVbrr6Ks skip pre-vet for YOWXVbrr6Ks: all Gemini keys quota-exhausted
-[2026-11-20 02:37:23 IST] pre-vet error (will retry next run): psid7ZduEhM skip pre-vet for psid7ZduEhM: all Gemini keys quota-exhausted
-[2026-11-20 02:37:23 IST] pre-vet error (will retry next run): AhY-QsFqTJ4 skip pre-vet for AhY-QsFqTJ4: all Gemini keys quota-exhausted
-[2026-11-20 02:37:23 IST] pre-vet error (will retry next run): ufvH-Ly7NWw skip pre-vet for ufvH-Ly7NWw: all Gemini keys quota-exhausted
-[2026-11-20 02:37:23 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-20 02:37:23 IST] content thin for series (0/3) -> fallback search (0 candidates)
-[2026-11-20 02:37:23 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single title for series
-[2026-11-20 02:37:23 IST] Traceback (most recent call last):
+[2026-11-20 03:39:53 IST] === in-sports-20261120-033953: platform=instagram category=sports format=shorts seed=926201401
+[2026-11-20 03:40:42 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 03:40:42 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 03:40:44 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:40:54 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:41:05 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:41:18 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:41:39 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] IFpR3LDsR_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:41:58 IST] pre-vet error (will retry next run): nXd2IQvtrHs skip pre-vet for nXd2IQvtrHs: all Gemini keys quota-exhausted
+[2026-11-20 03:42:00 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:42:10 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:42:21 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:42:34 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:42:54 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 0G10fR6EGwY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:43:15 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:43:25 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:43:35 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:43:49 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:44:09 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 2IDKTLet-vY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:44:31 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:44:41 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:44:51 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:45:05 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:45:25 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] TAyDe4Jepog: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:45:47 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:45:57 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:46:07 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:46:20 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:46:41 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] XWISA6cBx34: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:47:02 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:47:12 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:47:23 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:47:36 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:47:57 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] MQstdmVmZU8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:48:16 IST] pre-vet error (will retry next run): t8tnELrsoeU skip pre-vet for t8tnELrsoeU: all Gemini keys quota-exhausted
+[2026-11-20 03:48:18 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:48:28 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:48:38 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:48:51 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:49:12 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 3oLh7QPp02Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:49:33 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:49:43 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:49:54 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:50:07 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:50:28 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] WY9L9yK_Ngc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:50:49 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:50:59 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:51:10 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:51:23 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:51:43 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] nSjU02GjH6o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:52:05 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:52:15 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:52:26 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:52:39 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:53:00 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:53:21 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:53:31 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:53:41 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:53:55 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:54:15 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:54:37 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:54:46 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:54:57 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:55:10 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:55:31 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] sO56CyHI5ek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:55:52 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:56:02 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:56:12 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:56:26 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:56:46 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] Z67MBZTUQ2w: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:57:08 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:57:18 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:57:29 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:57:42 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:58:03 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:58:24 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:58:34 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:58:44 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:58:58 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:59:18 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] G3sYVK0c73k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:59:40 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 03:59:50 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:00:00 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:00:14 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:00:34 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:00:56 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:01:06 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:01:17 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:01:30 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:01:50 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:02:12 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:02:22 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:02:32 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:02:45 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:03:06 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] YWcobWashmE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:03:27 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:03:37 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:03:48 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:04:01 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:04:22 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] 7a6gnRvQqHQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:04:43 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:04:53 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:05:04 IST] yt-dlp attempt 3/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:05:17 IST] yt-dlp attempt 4/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:05:38 IST] yt-dlp attempt 5/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-20 04:05:57 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-20 04:05:57 IST] content thin for sports (0/3) -> fallback search (0 candidates)
+[2026-11-20 04:05:57 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single star player for sports
+[2026-11-20 04:05:57 IST] Traceback (most recent call last):
   File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 359, in cmd_produce
     made.append(produce_one(a.platform, a.category, state, gem, sourcer, seed))
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 89, in produce_one
-    raise RuntimeError(f"no clips of a single title for {category}")
-RuntimeError: no clips of a single title for series
+  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 93, in produce_one
+    raise RuntimeError("no clips of a single star player for sports")
+RuntimeError: no clips of a single star player for sports
 
-[2026-11-20 02:37:23 IST] === in-series-20261120-023723: platform=instagram category=series format=shorts seed=42583493
-[2026-11-20 02:37:42 IST] x search failed: official series clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:37:42 IST] x search failed: official scene clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:37:42 IST] pre-vet error (will retry next run): ufvH-Ly7NWw skip pre-vet for ufvH-Ly7NWw: all Gemini keys quota-exhausted
-[2026-11-20 02:37:42 IST] pre-vet error (will retry next run): YOWXVbrr6Ks skip pre-vet for YOWXVbrr6Ks: all Gemini keys quota-exhausted
-[2026-11-20 02:37:42 IST] pre-vet error (will retry next run): AhY-QsFqTJ4 skip pre-vet for AhY-QsFqTJ4: all Gemini keys quota-exhausted
-[2026-11-20 02:37:42 IST] pre-vet error (will retry next run): psid7ZduEhM skip pre-vet for psid7ZduEhM: all Gemini keys quota-exhausted
-[2026-11-20 02:37:42 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-20 02:37:42 IST] content thin for series (0/3) -> fallback search (0 candidates)
-[2026-11-20 02:37:42 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single title for series
-[2026-11-20 02:37:42 IST] Traceback (most recent call last):
+[2026-11-20 04:05:57 IST] === in-sports-20261120-040557: platform=instagram category=sports format=shorts seed=326288400
+[2026-11-20 04:06:45 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 04:06:46 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): pm8Dz3Eey_Y skip pre-vet for pm8Dz3Eey_Y: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): WTXUOZE-8gQ skip pre-vet for WTXUOZE-8gQ: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): tlo6BREg53M skip pre-vet for tlo6BREg53M: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): 8VIgdcabDHE skip pre-vet for 8VIgdcabDHE: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): 2oldAfvhDzQ skip pre-vet for 2oldAfvhDzQ: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): fmYSljB4cmQ skip pre-vet for fmYSljB4cmQ: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): zz_zC7xbhkA skip pre-vet for zz_zC7xbhkA: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): ehKRLYHxNgI skip pre-vet for ehKRLYHxNgI: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): 95kBkPcKB64 skip pre-vet for 95kBkPcKB64: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): QDikhiOkw1g skip pre-vet for QDikhiOkw1g: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): AWBTVCYHT3Q skip pre-vet for AWBTVCYHT3Q: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): -sotY1wmm8M skip pre-vet for -sotY1wmm8M: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): ByAhQmvqsyc skip pre-vet for ByAhQmvqsyc: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): LfksKqEfYug skip pre-vet for LfksKqEfYug: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): esB0AkFIDeE skip pre-vet for esB0AkFIDeE: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): b-KN6NyzpG0 skip pre-vet for b-KN6NyzpG0: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): evs534bh0c0 skip pre-vet for evs534bh0c0: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): Y4jJgc5usC0 skip pre-vet for Y4jJgc5usC0: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): Nmk_RxkOyMg skip pre-vet for Nmk_RxkOyMg: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): yz4T3O54joU skip pre-vet for yz4T3O54joU: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): XqJfuUZgx-M skip pre-vet for XqJfuUZgx-M: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): rzhd04I4s2Q skip pre-vet for rzhd04I4s2Q: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): AL3d7PMQZ0g skip pre-vet for AL3d7PMQZ0g: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] pre-vet error (will retry next run): LrsoZZ5a1Rc skip pre-vet for LrsoZZ5a1Rc: all Gemini keys quota-exhausted
+[2026-11-20 04:06:46 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-20 04:06:46 IST] content thin for sports (0/3) -> fallback search (0 candidates)
+[2026-11-20 04:06:46 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single star player for sports
+[2026-11-20 04:06:46 IST] Traceback (most recent call last):
   File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 359, in cmd_produce
     made.append(produce_one(a.platform, a.category, state, gem, sourcer, seed))
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 89, in produce_one
-    raise RuntimeError(f"no clips of a single title for {category}")
-RuntimeError: no clips of a single title for series
+  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 93, in produce_one
+    raise RuntimeError("no clips of a single star player for sports")
+RuntimeError: no clips of a single star player for sports
 
-[2026-11-20 02:37:42 IST] === in-series-20261120-023742: platform=instagram category=series format=shorts seed=802983843
-[2026-11-20 02:38:00 IST] x search failed: official series clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:38:01 IST] x search failed: official scene clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-20 02:38:01 IST] pre-vet error (will retry next run): YOWXVbrr6Ks skip pre-vet for YOWXVbrr6Ks: all Gemini keys quota-exhausted
-[2026-11-20 02:38:01 IST] pre-vet error (will retry next run): ufvH-Ly7NWw skip pre-vet for ufvH-Ly7NWw: all Gemini keys quota-exhausted
-[2026-11-20 02:38:01 IST] pre-vet error (will retry next run): psid7ZduEhM skip pre-vet for psid7ZduEhM: all Gemini keys quota-exhausted
-[2026-11-20 02:38:01 IST] pre-vet error (will retry next run): AhY-QsFqTJ4 skip pre-vet for AhY-QsFqTJ4: all Gemini keys quota-exhausted
-[2026-11-20 02:38:01 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-20 02:38:01 IST] content thin for series (0/3) -> fallback search (0 candidates)
-[2026-11-20 02:38:01 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single title for series
-[2026-11-20 02:38:01 IST] Traceback (most recent call last):
+[2026-11-20 04:06:46 IST] === in-sports-20261120-040646: platform=instagram category=sports format=shorts seed=22106311
+[2026-11-20 04:07:33 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 04:07:34 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): 8VIgdcabDHE skip pre-vet for 8VIgdcabDHE: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): XqJfuUZgx-M skip pre-vet for XqJfuUZgx-M: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): rzhd04I4s2Q skip pre-vet for rzhd04I4s2Q: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): -sotY1wmm8M skip pre-vet for -sotY1wmm8M: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): yz4T3O54joU skip pre-vet for yz4T3O54joU: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): esB0AkFIDeE skip pre-vet for esB0AkFIDeE: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): 95kBkPcKB64 skip pre-vet for 95kBkPcKB64: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): b-KN6NyzpG0 skip pre-vet for b-KN6NyzpG0: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): pm8Dz3Eey_Y skip pre-vet for pm8Dz3Eey_Y: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): zz_zC7xbhkA skip pre-vet for zz_zC7xbhkA: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): 2oldAfvhDzQ skip pre-vet for 2oldAfvhDzQ: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): evs534bh0c0 skip pre-vet for evs534bh0c0: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): fmYSljB4cmQ skip pre-vet for fmYSljB4cmQ: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): Nmk_RxkOyMg skip pre-vet for Nmk_RxkOyMg: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): ByAhQmvqsyc skip pre-vet for ByAhQmvqsyc: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): LrsoZZ5a1Rc skip pre-vet for LrsoZZ5a1Rc: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): AL3d7PMQZ0g skip pre-vet for AL3d7PMQZ0g: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): ehKRLYHxNgI skip pre-vet for ehKRLYHxNgI: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): QDikhiOkw1g skip pre-vet for QDikhiOkw1g: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): x42z8NfLZS4 skip pre-vet for x42z8NfLZS4: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): Y4jJgc5usC0 skip pre-vet for Y4jJgc5usC0: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): tlo6BREg53M skip pre-vet for tlo6BREg53M: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): WTXUOZE-8gQ skip pre-vet for WTXUOZE-8gQ: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): LfksKqEfYug skip pre-vet for LfksKqEfYug: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] pre-vet error (will retry next run): AWBTVCYHT3Q skip pre-vet for AWBTVCYHT3Q: all Gemini keys quota-exhausted
+[2026-11-20 04:07:34 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-20 04:07:34 IST] content thin for sports (0/3) -> fallback search (0 candidates)
+[2026-11-20 04:07:34 IST] attempt failed, retrying with different sources/song: RuntimeError: no clips of a single star player for sports
+[2026-11-20 04:07:34 IST] Traceback (most recent call last):
   File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 359, in cmd_produce
     made.append(produce_one(a.platform, a.category, state, gem, sourcer, seed))
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 89, in produce_one
-    raise RuntimeError(f"no clips of a single title for {category}")
-RuntimeError: no clips of a single title for series
+  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 93, in produce_one
+    raise RuntimeError("no clips of a single star player for sports")
+RuntimeError: no clips of a single star player for sports
 
-[2026-11-20 02:38:01 IST] queued box fetch request instagram-202611200238-series
-[2026-11-20 02:38:01 IST] cleanup sweep: freed 0.0 MB (2 files)
-[2026-11-20 02:38:01 IST] done: 0 made, 6 failed attempts; instagram buffer 0/7 — BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
-[2026-11-20 02:38:01 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
+[2026-11-20 04:07:34 IST] queued box fetch request instagram-202611200407-sports
+[2026-11-20 04:07:34 IST] cleanup sweep: freed 0.0 MB (2 files)
+[2026-11-20 04:07:34 IST] done: 0 made, 6 failed attempts; instagram buffer 0/7 — BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
+[2026-11-20 04:07:34 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0

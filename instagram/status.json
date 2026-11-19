@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T02:38:01.956827+05:30",
+ "updated": "2026-11-20T04:07:35.025057+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -31,40 +31,40 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-20T02:36:26.764495+05:30",
+   "at": "2026-11-20T03:38:17.598882+05:30",
    "platform": "instagram",
-   "category": "series",
-   "error": "RuntimeError: no clips of a single title for series"
+   "category": "sports",
+   "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-20T02:36:45.571955+05:30",
+   "at": "2026-11-20T03:39:05.349921+05:30",
    "platform": "instagram",
-   "category": "series",
-   "error": "RuntimeError: no clips of a single title for series"
+   "category": "sports",
+   "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-20T02:37:04.729974+05:30",
+   "at": "2026-11-20T03:39:53.535660+05:30",
    "platform": "instagram",
-   "category": "series",
-   "error": "RuntimeError: no clips of a single title for series"
+   "category": "sports",
+   "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-20T02:37:23.680342+05:30",
+   "at": "2026-11-20T04:05:57.787899+05:30",
    "platform": "instagram",
-   "category": "series",
-   "error": "RuntimeError: no clips of a single title for series"
+   "category": "sports",
+   "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-20T02:37:42.652843+05:30",
+   "at": "2026-11-20T04:06:46.159603+05:30",
    "platform": "instagram",
-   "category": "series",
-   "error": "RuntimeError: no clips of a single title for series"
+   "category": "sports",
+   "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-20T02:38:01.300750+05:30",
+   "at": "2026-11-20T04:07:34.286324+05:30",
    "platform": "instagram",
-   "category": "series",
-   "error": "RuntimeError: no clips of a single title for series"
+   "category": "sports",
+   "error": "RuntimeError: no clips of a single star player for sports"
   }
  ],
  "pattern_history": [],

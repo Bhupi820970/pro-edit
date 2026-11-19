@@ -1,0 +1,451 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 40,
+  "vetted": 12,
+  "rejected": [
+   {
+    "id": "xYkfmqX0vqk",
+    "title": "LeBron James throws down epic dunk on Jusuf Nurkic | ESPN",
+    "reasons": [
+     "ESPN channel logo in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "a5ny0gykbnk",
+    "title": "Luka, LeBron and the Lakers Surprised Patients at UCLA Hospitals",
+    "reasons": [
+     "channel logo present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "dSD27Mrr72c",
+    "title": "LeBron James NBA Finals Press Conference: \"It's Time\"",
+    "reasons": [
+     "channel_logo",
+     "watermark",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "VB6q6DlzT-Q",
+    "title": "30 INSANE LeBron James Assists 👀",
+    "reasons": [
+     "Channel logo in top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "GIcXTQxonZg",
+    "title": "[FULL] LeBron James & Anthony Davis interview following 2020 NBA title win with the Lakers",
+    "reasons": [
+     "ESPN channel logo is present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "aSvbFjRxqsA",
+    "title": "LeBron James on His Future After the Lakers’ Playoff Exit | NBA on Prime",
+    "reasons": [
+     "Channel logo in the top left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "KVqDMxo1-JA",
+    "title": "LeBron Speaks After Lakers Game 6 Win In Houston!",
+    "reasons": [
+     "NBA on Prime lower third branding and logo present",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "_GZDb30MlcA",
+    "title": "Championship Press Conference: LeBron James | Lakers",
+    "reasons": [
+     "Contains network bug (abc logo) in the top left corner",
+     "Contains partner/sponsor logos (YouTube TV) in the top corners and banner text at the bottom",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "SLIxH8nH0PU",
+    "title": "One Play from All 53 Wins (Luka Game-Winner, LeBron Dunks, and MORE!)",
+    "reasons": [
+     "channel logo present in the top-right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "QI8-PbK1wmY",
+    "title": "LeBron James' INSANE block on Tiago Splitter in Game 2!",
+    "reasons": [
+     "ESPN network logo present in the top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "NdoV_rYZSmw",
+    "title": "LeBron James Interview",
+    "reasons": [
+     "Channel logo present in the top right corner and text in the top left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "LIFrYo0VLK0",
+    "title": "Lebron James discusses how he spent his offseason | Lakers Media Day 2019",
+    "reasons": [
+     "channel logo present in the top-right corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 40,
+  "fallback_used": true,
+  "thin": [
+   "sports"
+  ],
+  "failed_ids": [
+   "TAyDe4Jepog",
+   "Le3FfVxbjEQ",
+   "VlhU9OrikSA",
+   "Z67MBZTUQ2w",
+   "G3sYVK0c73k",
+   "XWISA6cBx34",
+   "sO56CyHI5ek",
+   "-9lP95Qo-I0",
+   "7a6gnRvQqHQ",
+   "Fr3OrTNXR90",
+   "o1BrK2KWifc",
+   "XIW8e7Xi_l8",
+   "WY9L9yK_Ngc",
+   "YWcobWashmE",
+   "2IDKTLet-vY",
+   "0G10fR6EGwY",
+   "MQstdmVmZU8",
+   "nSjU02GjH6o",
+   "3oLh7QPp02Q",
+   "IFpR3LDsR_o",
+   "IFpR3LDsR_o",
+   "0G10fR6EGwY",
+   "2IDKTLet-vY",
+   "TAyDe4Jepog",
+   "XWISA6cBx34",
+   "MQstdmVmZU8",
+   "3oLh7QPp02Q",
+   "WY9L9yK_Ngc",
+   "nSjU02GjH6o",
+   "Fr3OrTNXR90",
+   "XIW8e7Xi_l8",
+   "sO56CyHI5ek",
+   "Z67MBZTUQ2w",
+   "-9lP95Qo-I0",
+   "G3sYVK0c73k",
+   "Le3FfVxbjEQ",
+   "VlhU9OrikSA",
+   "YWcobWashmE",
+   "7a6gnRvQqHQ",
+   "o1BrK2KWifc"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}
