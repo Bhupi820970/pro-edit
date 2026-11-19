@@ -1,0 +1,1224 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single title for romance"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 0,
+  "vetted": 86,
+  "rejected": [
+   {
+    "id": "0r4mFn_5BzM",
+    "title": "One Night Only (2026) 4K - Maybe We Should Wait (10/10) | Movieclips",
+    "reasons": [
+     "Contains a Rotten Tomatoes / Movieclips channel watermark in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "hAl9UaY0tvw",
+    "title": "The World Is Not Enough (1999) 4K - London Q Boat Chase (On The Street!?) (1/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo and 4K watermark present in bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Qe2m1wxb5_w",
+    "title": "Mamma Mia! (2008) - Slipping Through My Fingers Scene (8/10) | Movieclips",
+    "reasons": [
+     "bottom left channel logo Movieclips FHD present",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "SOO9YPlJCXI",
+    "title": "Killer Whale (2026) 4K - Having a WHALE of a Bad Time (10/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo present in bottom-left corner",
+     "4K badge present in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Oic7kJRg_F0",
+    "title": "Romeo + Juliet (1996) - 1,000 Times Goodnight Scene (3/5) | Movieclips",
+    "reasons": [
+     "channel_logo",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "wFU7EPLAAYM",
+    "title": "TMNT (2007) - TMNT vs. The Yeti and The Foot Clan (5/11) | Movieclips",
+    "reasons": [
+     "channel_logo",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "gzLHRcl--Pc",
+    "title": "Insidious: Out of the Further (2026) 4K - This Made Me SCREAM! (6/12) | Movieclips",
+    "reasons": [
+     "channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "nzl30-ThpuA",
+    "title": "Better Call Saul - Lalo Gives Hector His Bell (S4E9) | Movieclips",
+    "reasons": [
+     "Channel logo in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "5KzhmS0Msqw",
+    "title": "The World Is Not Enough (1999) 4K - Bond Ski Chase (2/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes / Movieclips channel logo present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "ZNfJkIR5kUI",
+    "title": "One Night Only (2026) 4K - Cringiest Guy-with-a-Guitar Date (7/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo present in bottom-left corner",
+     "4K watermark badge present in bottom-left area",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "0VpbzNGguUA",
+    "title": "Weeds - Afraid to Have Sex? (S4E10) (2/6) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes / Movieclips logo present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "-zbXiInWmRU",
+    "title": "S.W.A.T. - Chris Hacks a Phone (S3E15) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes / Movieclips logo present in the bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "1wlxpbl7EFs",
+    "title": "One Night Only (2026) 4K - Julia Fox Is DTF (2/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo and 4K watermark present in the bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "L55PEyBMJWg",
+    "title": "Weeds - Doug Smuggles His Girlfriend Across the Border (S4E10) (5/6) | Movieclips",
+    "reasons": [
+     "channel logo present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "SRUGt5yhB88",
+    "title": "S.W.A.T. - Deacon Captured (S3E15) | Movieclips",
+    "reasons": [
+     "Channel watermark present in bottom-left corner (Rotten Tomatoes / RT film strip logo)",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "7RvTSI8hfm8",
+    "title": "One Night Only (2026) 4K - EVERYBODY F***S! (1/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo and 4K watermark present in bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "t6e7m_Pky_8",
+    "title": "Insidious: Out of the Further (2026) 4K - Wake Those B*tches Up! (7/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo present in bottom-left corner",
+     "4K badge present in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "ahfuD9wAEm8",
+    "title": "Killer Whale (2026) 4K - Bloody Blowhole (5/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo and 4K watermark overlay present in the bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "oK2cdxggf5g",
+    "title": "The World Is Not Enough (1999) 4K - Getting Screwed To Death (8/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes / Movieclips logo present in bottom-left corner",
+     "4K watermark badge present in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "zt7fTkP-OEI",
+    "title": "Killer Whale (2026) 4K - First Aid With a WETSUIT?! (7/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Qv6HjiMJ5Do",
+    "title": "The Satanic Rites of Dracula (1973) - Dracula's Temple Burns (10/11) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "bHtVU5cquuk",
+    "title": "TMNT (2007) - Patrick Stewart Is Max Winters (4/11) | Movieclips",
+    "reasons": [
+     "channel logo in bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "fTTi1_XPQ4A",
+    "title": "Sing 2 (2021) - I Say a Little Prayer Scene | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) channel logo overlay is present in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "q11DJuEZAgE",
+    "title": "The World Is Not Enough (1999) 4K - BUZZSAW HELICOPTERS?! (7/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo watermark present in bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "CvRC2GEdGDo",
+    "title": "TMNT (2007) - Monster Hunt! (6/11) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes Movieclips logo in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "tNIR4Pt1_qw",
+    "title": "Killer Whale (2026) 4K - Fishing for a Severed Arm (8/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo overlay present in bottom left corner",
+     "4K resolution badge overlay present in bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Q5zPc9T2w14",
+    "title": "PAW Patrol: The Dino Movie (2026) 4K - Chase & Skye Rope Rescue (8/9) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo present in the bottom left corner",
+     "4K badge present in the bottom left area",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "0FcI8KuetDE",
+    "title": "Marry Me (2022) - After Love Scene | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "Mxs6VXiSVss",
+    "title": "Killer Whale (2026) 4K - Stabbing a Whale in the EYE!? (12/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo watermark present in bottom-left corner",
+     "4K resolution badge present in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Zhom9Ls0O74",
+    "title": "TMNT (2007) - Leonardo: Ghost of the Jungle (2/11) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes / Movieclips channel bug present in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "0u_cGUI4aH4",
+    "title": "Insidious: Out of the Further (2026) 4K - Dentist From Hell! (5/12) | Movieclips",
+    "reasons": [
+     "Channel logo overlay in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "p86zNFq8j8E",
+    "title": "PAW Patrol: The Dino Movie (2026) 4K - DINOSAUR STAMPEDE!!! (7/9) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+     "4K badge present in the bottom-left area",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "BzrpSNZim5I",
+    "title": "Killer Whale (2026) 4K - Swim Maddie, SWIM! (6/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo and 4K watermark present in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "2hm3htIVp2Q",
+    "title": "Killer Whale (2026) 4K - Sneaking Into Sea World Is a Bad Idea (3/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo watermark present in bottom-left corner",
+     "4K resolution badge present in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "fb2ipdS52fk",
+    "title": "TMNT (2007) - Casey Jones Kisses April O’Neal (11/11) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes / Movieclips logo present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Y-j1lzMN-tA",
+    "title": "The World Is Not Enough (1999) 4K - Escaping The Silo with Christmas Jones (5/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo present in bottom-left corner",
+     "4K watermark present in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Rb2-dxekiuI",
+    "title": "The World Is Not Enough (1999) 4K - X-Ray Glasses at the Casino (3/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) channel logo in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "MgLT-YdAGuU",
+    "title": "TMNT (2007) - Leonardo vs. Raphael! (8/11) | Movieclips",
+    "reasons": [
+     "Movieclips / Rotten Tomatoes watermark logo present in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "b6E0W2H2acM",
+    "title": "TMNT (2007) - Raphael: The Nightwatcher (3/11) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo is present in the bottom left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Na6gtS-8W1A",
+    "title": "Killer Whale (2026) 4K - I Did NOT See That Coming!! D: (2/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo and 4K watermark present in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "u0T6cZFQEy0",
+    "title": "Killer Whale (2026) 4K - Eating Raw Oysters (GAG!) (9/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) film strip logo in bottom left corner",
+     "4K resolution badge next to the logo",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "rqFhMPIGaXU",
+    "title": "S.W.A.T. - Boxing Match | SWAT Rescue (S3E15) | Movieclips",
+    "reasons": [
+     "channel_logo in bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "ahtEIHUPD8g",
+    "title": "Insidious: Out of the Further (2026) 4K - Cyrus Lam Killed Her Mom! (8/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo present in the bottom-left corner",
+     "4K watermark overlay present in the bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "05qid4p_cfw",
+    "title": "Mamma Mia! (2008) - Honey Honey Scene (1/10) | Movieclips",
+    "reasons": [
+     "bottom-left watermark present",
+     "flag:watermark"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "OTnkY7jimDg",
+    "title": "Weeds - In Bed With Crime (S4E10) (1/6) | Movieclips",
+    "reasons": [
+     "bottom-left channel watermark logo present",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "FioXHZZWRMY",
+    "title": "Better Call Saul - Jimmy & Kim Yell on the Parking Garage Roof (S4E9) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes / Movieclips channel logo present in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "hdD9rHsIacM",
+    "title": "TMNT (2007) - TMNT vs. The Stone Generals (10/11) | Movieclips",
+    "reasons": [
+     "channel_logo",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "6kvqBfkI3cE",
+    "title": "Insidious: Out of the Further (2026) 4K - Killed by a Ghost! (1/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel bug in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "9RJEjRC2hAI",
+    "title": "The Photograph (2020) - Echoes of Love Scene (7/10) | Movieclips",
+    "reasons": [
+     "Movieclips channel logo is present in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "UV2paizsX4k",
+    "title": "One Night Only (2026) 4K - Stealing the Last Condom (4/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo/watermark in the bottom-left corner",
+     "4K channel overlay logo in the bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "BBDsZXbuc2U",
+    "title": "Weeds - Celia's Intervention (S4E10) (3/6) | Movieclips",
+    "reasons": [
+     "Movieclips channel watermark in the bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "a0ABSxq3K-w",
+    "title": "PAW Patrol: The Dino Movie (2026) 4K - Meet Rex and Timmy! (3/9) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo watermark in the bottom-left corner",
+     "4K badge overlay in the bottom-left area",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "LkAbRMecN04",
+    "title": "Better Call Saul - Is Jimmy Insincere? (S4E9) | Movieclips",
+    "reasons": [
+     "channel_logo in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "amQlDOMleBk",
+    "title": "One Night Only (2026) 4K - Wanna F? (WEIRD Come-Ons) (3/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes / Movieclips channel watermark logo present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "2W7WM3CuXPU",
+    "title": "Tully (2018) - The Seductive Nanny Scene (6/10) | Movieclips",
+    "reasons": [
+     "Movieclips watermark/logo present in the bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "VGTAdmVi2nc",
+    "title": "The World Is Not Enough (1999) 4K - Sophie Marceau: The Queen of Hearts (4/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo and 4K badge present in bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "OkBaZLq7gnU",
+    "title": "Ocean's 8 (2018) - Con Artistry Scene (1/10) | Movieclips",
+    "reasons": [
+     "Movieclips channel logo present in bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "v39k-okPOZk",
+    "title": "Killer Whale (2026) 4K - STAY OUT OF THE WATER!!! (11/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "1xUErMbrJqM",
+    "title": "PAW Patrol: The Dino Movie (2026) 4K - Flying Over Dino Island! (4/9) | Movieclips",
+    "reasons": [
+     "channel logo present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "JQAl4VNKkN4",
+    "title": "Better Call Saul - Werner Escapes (S4E9) | Movieclips",
+    "reasons": [
+     "A channel logo/watermark ('RT' film strip icon) is present in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "83xaxNv4Ptc",
+    "title": "One Night Only (2026) 4K - Sexy Pizza Time (8/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo watermark in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "AC4FkPMXmT0",
+    "title": "One Night Only (2026) 4K - Her Date Gets Arrested?! (5/10) | Movieclips",
+    "reasons": [
+     "channel logo in bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "XcRBBLpjsnQ",
+    "title": "Insidious: Out of the Further (2026) 4K - Watch Me! (2/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "xh4xd1bZNUE",
+    "title": "The World Is Not Enough (1999) 4K - I Never Miss (9/10) | Movieclips",
+    "reasons": [
+     "Channel watermark 'RT' present in the bottom left corner",
+     "Overlay '4K' present in the bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "vfj3_s7FRXc",
+    "title": "Killer Whale (2026) 4K - Eaten by an Orca! (1/12) | Movieclips",
+    "reasons": [
+     "Channel logo overlay in bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "P2BZBd8C6kI",
+    "title": "Better Call Saul - Gus Meets Lalo (S4E9) | Movieclips",
+    "reasons": [
+     "bottom-left channel logo present",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "JH531TUD3HY",
+    "title": "TMNT (2007) - The Ninja Turtles | Yaotl's Origin (1/11) | Movieclips",
+    "reasons": [
+     "channel_logo",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "r0cj669kkDA",
+    "title": "The Satanic Rites of Dracula (1973) - Van Helsing & Dracula's FINAL FIGHT (11/11) | Movieclips",
+    "reasons": [
+     "channel_logo",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "hlwhEQuYhyg",
+    "title": "Insidious: Out of the Further (2026) 4K - He's Coming! (Pillow Fort Scare) (3/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo overlay in bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "FDQdx-NEFlI",
+    "title": "PAW Patrol: The Dino Movie (2026) 4K - Marshall Fights a VOLCANO?! (9/9) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo watermark in bottom-left corner",
+     "4K badge overlay in bottom-left area",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "HyRKfEslWzo",
+    "title": "One Night Only (2026) 4K - His Hookup ROBS Him?! (6/10) | Movieclips",
+    "reasons": [
+     "RT channel logo and 4K watermark present in bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "C9fdm2gI-Zg",
+    "title": "PAW Patrol: The Dino Movie (2026) 4K - Suit Up for Dino Island! (2/9) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo and 4K watermark present in bottom corners",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Wgc5G9-B2tc",
+    "title": "Better Call Saul - Werner Blasts The Last Rock (S4E9) | Movieclips",
+    "reasons": [
+     "channel_logo",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "OLpLwmxMd1k",
+    "title": "S.W.A.T. - Awww.. So Sweet! Vic's Girlfriend Meets His Mom (S3E15) | Movieclips",
+    "reasons": [
+     "channel logo present in bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "jEYGCYkkhjI",
+    "title": "Weeds - Nancy's Hallucination (S4E10) (6/6) | Movieclips",
+    "reasons": [
+     "channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "gxGLpgv1jhs",
+    "title": "TMNT (2007) - Splinter Loves Raphael (9/11) | Movieclips",
+    "reasons": [
+     "channel_logo",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "rK6zmMeYkZE",
+    "title": "One Night Only (2026) 4K - Maya Hawke & Callum Turner Break Up (9/10) | Movieclips",
+    "reasons": [
+     "channel watermark in bottom left corner",
+     "resolution badge in bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "g3-Q1cZpgzk",
+    "title": "PAW Patrol: The Dino Movie (2026) 4K- Rhubarb, the Baby T-Rex (5/9) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes Movieclips logo in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "NjLLuOC3Ci4",
+    "title": "Killer Whale (2026) 4K - Jet Skiers DIE (4/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo watermark in bottom-left corner",
+     "4K badge overlay in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "uPpbQjHlrA4",
+    "title": "PAW Patrol: The Dino Movie (2026) 4K - Marshall to the Rescue! (1/9) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel bug present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "4aCf1HXYclE",
+    "title": "Weeds - Nancy's Bad Trip (S4E10) (4/6) | Movieclips",
+    "reasons": [
+     "channel logo in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "7-4CglX4EEM",
+    "title": "PAW Patrol: The Dino Movie (2026) 4K - Chase, Rocky, and Marshall Dino Rescue (6/9) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo and 4K tag visible in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "QaUjGv3GLeg",
+    "title": "Allied (2016) - Testing Your Resolve Scene (2/10) | Movieclips",
+    "reasons": [
+     "channel_logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "ziYXBhTifhg",
+    "title": "Better Call Saul - Kim & Jimmy's New Baby Con (S4E9) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes watermark present in the bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "XiBB8pfiIbo",
+    "title": "TMNT (2007) - Chris Evans Is Casey Jones (7/11) | Movieclips",
+    "reasons": [
+     "channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Lma8J8H53vo",
+    "title": "The World Is Not Enough (1999) 4K - Choked Out on a SINKING Submarine (10/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes watermark present in bottom left corner",
+     "4K logo watermark present in bottom left area",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 0,
+  "fallback_used": true,
+  "thin": [
+   "romance"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}

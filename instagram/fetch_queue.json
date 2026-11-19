@@ -1,17 +1,17 @@
 {
  "requests": [
   {
-   "id": "instagram-202611200423-gaming",
-   "category": "gaming",
+   "id": "instagram-202611200436-romance",
+   "category": "romance",
    "limit": 3,
-   "at": "2026-11-20T04:23:05.749512+05:30",
-   "reason": "thin=True download_failed=150 bot_checks=65",
+   "at": "2026-11-20T04:36:14.201760+05:30",
+   "reason": "thin=True download_failed=0 bot_checks=0",
    "queries": [
-    "Red Dead Redemption 2 official gameplay Rockstar",
-    "Cyberpunk 2077 official gameplay CD PROJEKT"
+    "official romance movie clip scene",
+    "official romantic scene clip studio"
    ],
    "links": []
   }
  ],
- "updated": "2026-11-20T04:23:05.749559+05:30"
+ "updated": "2026-11-20T04:36:14.201832+05:30"
 }

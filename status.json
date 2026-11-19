@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T04:23:07.452049+05:30",
+ "updated": "2026-11-20T04:36:16.199819+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "instagram": {
@@ -24,40 +24,76 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-20T03:08:44.556365+05:30",
+   "at": "2026-11-20T02:36:26.764495+05:30",
    "platform": "instagram",
-   "category": "gaming",
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "series",
+   "error": "RuntimeError: no clips of a single title for series"
   },
   {
-   "at": "2026-11-20T03:25:15.562750+05:30",
+   "at": "2026-11-20T02:36:45.571955+05:30",
    "platform": "instagram",
-   "category": "gaming",
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "series",
+   "error": "RuntimeError: no clips of a single title for series"
   },
   {
-   "at": "2026-11-20T03:40:40.034809+05:30",
+   "at": "2026-11-20T02:37:04.729974+05:30",
    "platform": "instagram",
-   "category": "gaming",
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "series",
+   "error": "RuntimeError: no clips of a single title for series"
   },
   {
-   "at": "2026-11-20T03:53:31.770439+05:30",
+   "at": "2026-11-20T02:37:23.680342+05:30",
    "platform": "instagram",
-   "category": "gaming",
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "series",
+   "error": "RuntimeError: no clips of a single title for series"
   },
   {
-   "at": "2026-11-20T04:07:38.753454+05:30",
+   "at": "2026-11-20T02:37:42.652843+05:30",
    "platform": "instagram",
-   "category": "gaming",
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "series",
+   "error": "RuntimeError: no clips of a single title for series"
   },
   {
-   "at": "2026-11-20T04:23:05.744681+05:30",
+   "at": "2026-11-20T02:38:01.300750+05:30",
    "platform": "instagram",
-   "category": "gaming",
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "series",
+   "error": "RuntimeError: no clips of a single title for series"
+  },
+  {
+   "at": "2026-11-20T04:34:30.905423+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-20T04:34:51.206517+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-20T04:35:12.005246+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-20T04:35:32.463487+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-20T04:35:53.739240+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-20T04:36:14.190525+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "RuntimeError: no clips of a single title for romance"
   }
  ],
  "box_fetcher": {
