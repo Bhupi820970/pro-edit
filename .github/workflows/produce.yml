@@ -22,7 +22,7 @@ jobs:
   plan:
     # never on forks; manual runs only by the owner; scheduled runs only when SCHEDULE_ENABLED=true
     if: >-
-github.repository == 'Bhupi820970/pro-edit' &&
+      github.repository == 'Bhupi820970/pro-edit' &&
       ((github.event_name == 'workflow_dispatch' && github.actor == github.repository_owner) ||
        (github.event_name == 'schedule' && vars.SCHEDULE_ENABLED == 'true'))
     runs-on: ubuntu-latest
