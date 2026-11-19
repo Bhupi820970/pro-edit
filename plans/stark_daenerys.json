@@ -1,0 +1,91 @@
+{
+ "_comment": "fanedit_stark demo: Daenerys. Sources live in sources/daenerys (never committed). Build = lip-safe dialogue (own shot audio); climax = >=1080p only.",
+ "song": "../sources/daenerys/song.wav",
+ "drop": null,
+ "build": [
+  {
+   "src": "../sources/daenerys/tZvy0jfAu38.mp4",
+   "start": 6.45,
+   "end": 26.3,
+   "offscreen": true,
+   "_note": "Missandei's titles: narrator off-screen over silent listeners, on-screen (synced) at the end"
+  },
+  {
+   "src": "../sources/daenerys/tZvy0jfAu38.mp4",
+   "start": 160.25,
+   "end": 162.3,
+   "zoom": 1.12,
+   "_note": "Daenerys on screen: 'I am the last Targaryen, Jon Snow.'",
+   "fix": {
+    "lost": "LAST"
+   }
+  },
+  {
+   "src": "../sources/daenerys/Ydi80YrCnPY.mp4",
+   "start": 134.45,
+   "end": 135.15,
+   "cx": 0.76,
+   "zoom": 1.1,
+   "fix": {
+    "drakkaris": "DRACARYS",
+    "drakarys": "DRACARYS"
+   },
+   "_note": "Daenerys on Drogon: 'Dracarys!'",
+   "fix_phrases": [
+    {
+     "from": "got it",
+     "to": "dracarys"
+    }
+   ]
+  }
+ ],
+ "climax": [
+  {
+   "src": "../sources/daenerys/Ydi80YrCnPY.mp4",
+   "start": 136.35
+  },
+  {
+   "src": "../sources/daenerys/Ydi80YrCnPY.mp4",
+   "start": 46.1
+  },
+  {
+   "src": "../sources/daenerys/Ydi80YrCnPY.mp4",
+   "start": 128.0
+  },
+  {
+   "src": "../sources/daenerys/Ydi80YrCnPY.mp4",
+   "start": 63.1,
+   "crop": {
+    "cx": 0.47
+   }
+  },
+  {
+   "src": "../sources/daenerys/G-yYULj7NAU.mp4",
+   "start": 102.6,
+   "_note": "720p: rejected by min_height"
+  },
+  {
+   "src": "../sources/daenerys/Ydi80YrCnPY.mp4",
+   "start": 124.5,
+   "crop": {
+    "cy": 0.45
+   }
+  },
+  {
+   "src": "../sources/daenerys/Ydi80YrCnPY.mp4",
+   "start": 65.3,
+   "crop": {
+    "cx": 0.45
+   }
+  },
+  {
+   "src": "../sources/daenerys/YZ6rhysYPr4.mp4",
+   "start": 141.0,
+   "crop": {
+    "cx": 0.5
+   }
+  }
+ ],
+ "loops": 2,
+ "slot_beats": 2
+}

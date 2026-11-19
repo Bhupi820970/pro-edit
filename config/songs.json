@@ -1,0 +1,155 @@
+{
+  "songs": [
+    {
+      "title": "Give It Up",
+      "artist": "KC and the Sunshine Band",
+      "why": "approved reference song"
+    },
+    {
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "why": "retro synth"
+    },
+    {
+      "title": "Starboy",
+      "artist": "The Weeknd",
+      "why": "neon pop"
+    },
+    {
+      "title": "Save Your Tears",
+      "artist": "The Weeknd",
+      "why": "retro synth"
+    },
+    {
+      "title": "In Your Eyes",
+      "artist": "The Weeknd",
+      "why": "synth pop"
+    },
+    {
+      "title": "Midnight City",
+      "artist": "M83",
+      "why": "synthwave"
+    },
+    {
+      "title": "Self Control",
+      "artist": "Laura Branigan",
+      "why": "80s vice"
+    },
+    {
+      "title": "Stayin' Alive",
+      "artist": "Bee Gees",
+      "why": "disco"
+    },
+    {
+      "title": "Cruel Summer",
+      "artist": "Bananarama",
+      "why": "80s pop"
+    },
+    {
+      "title": "Out of Touch",
+      "artist": "Daryl Hall & John Oates",
+      "why": "80s pop"
+    },
+    {
+      "title": "Murder on the Dancefloor",
+      "artist": "Sophie Ellis-Bextor",
+      "why": "dance pop"
+    },
+    {
+      "title": "Somebody's Watching Me",
+      "artist": "Rockwell",
+      "why": "80s pop"
+    },
+    {
+      "title": "Obsession",
+      "artist": "Animotion",
+      "why": "80s synth"
+    },
+    {
+      "title": "Tell It to My Heart",
+      "artist": "Taylor Dayne",
+      "why": "80s dance"
+    },
+    {
+      "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+      "artist": "ABBA",
+      "why": "disco"
+    },
+    {
+      "title": "Sunglasses at Night",
+      "artist": "Corey Hart",
+      "why": "80s synth"
+    },
+    {
+      "title": "Blue Monday",
+      "artist": "New Order",
+      "why": "synth"
+    },
+    {
+      "title": "One Thing Leads to Another",
+      "artist": "The Fixx",
+      "why": "80s new wave"
+    },
+    {
+      "title": "Easy Lover",
+      "artist": "Philip Bailey & Phil Collins",
+      "why": "80s pop"
+    },
+    {
+      "title": "Party All the Time",
+      "artist": "Eddie Murphy",
+      "why": "80s funk"
+    },
+    {
+      "title": "Flashing Lights",
+      "artist": "Kanye West",
+      "why": "hip-hop"
+    },
+    {
+      "title": "Hypnotize",
+      "artist": "The Notorious B.I.G.",
+      "why": "hip-hop"
+    },
+    {
+      "title": "The Message",
+      "artist": "Grandmaster Flash & The Furious Five",
+      "why": "hip-hop"
+    },
+    {
+      "title": "Rock Box",
+      "artist": "Run-D.M.C.",
+      "why": "hip-hop"
+    },
+    {
+      "title": "Money In The Grave",
+      "artist": "Drake",
+      "why": "hip-hop"
+    },
+    {
+      "title": "Win",
+      "artist": "Jay Rock",
+      "why": "hip-hop"
+    },
+    {
+      "title": "Believer",
+      "artist": "Imagine Dragons",
+      "why": "hype"
+    },
+    {
+      "title": "Sweet Dreams (Are Made of This)",
+      "artist": "Eurythmics",
+      "why": "cinematic"
+    },
+    {
+      "title": "Till I Collapse",
+      "artist": "Eminem",
+      "why": "hype"
+    },
+    {
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga",
+      "why": "romance"
+    }
+  ]
+}
+

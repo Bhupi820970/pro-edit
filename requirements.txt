@@ -1,0 +1,8 @@
+numpy
+librosa
+soundfile
+faster-whisper
+opencv-python-headless>=4.8
+Pillow
+yt-dlp
+
