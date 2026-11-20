@@ -1,94 +1,55 @@
-"""20 sleek, compact beside-speaker caption patterns (P01–P20).
+"""15 caption patterns — all variations of the approved GTA code edit (`vice_style_code.mp4`).
 
-Captions stay COMPACT (max ~12–15% frame width), never fat/blocky, never covering faces,
-never bottom-edge subtitles. Always float BESIDE the speaker (upper-left, mid-right,
-stepped diagonal, split-side) with soft outer glow + clean drop shadow.
+Every pattern keeps the approved caption look: words BESIDE the speaker on the side away from
+their face, alternating left/right when there is no face, never covering a face (mirrored /
+nudged if they would), Anton font, hard black drop-shadow + outline, the same 80%->100% pop-in,
+key words big + filler words small and white, every key word a different colour.
 
-Refined cinema fonts (Cinzel, Cormorant Garamond, Montserrat Light/Medium,
-Playfair Display Italic, Roboto Condensed) with multi-color keyword highlights.
-Tracks used pattern IDs in history.json so no style repeats for at least 3 days (~21 videos).
+Only the placement rhythm, offsets, word grouping and size mix change between patterns:
+  y      : vertical anchor per caption chunk, in face-heights from the face centre, cycled
+           through the list (e.g. [0] = beside-mid, [-0.6] = beside-upper, [-0.6, 0, 0.6] = step down)
+  gap    : horizontal distance from the face centre, in face-widths (approved = 0.9)
+  nudge  : extra shift toward the frame centre (fraction of width)
+  words  : max words per caption chunk (approved = 3)
+  key/key_long/filler : text heights as a fraction of frame height (approved .098/.082/.052)
+  no_face_y : vertical position (fraction of height) when nobody's face is visible
+Every palette has 4-5 colours and includes the approved hot pink (255, 46, 196).
+P01 is the approved edit exactly and is also the renderer default.
 """
 from __future__ import annotations
 
-import json
-from pathlib import Path
-
-# Refined multi-color palettes (highlight + base)
-CHAMPAGNE_GOLD = (212, 175, 55)
-IVORY = (255, 245, 230)
-ICY_CYAN = (170, 230, 255)
-SOFT_ROSE = (255, 182, 193)
-SILVER = (192, 192, 192)
-LAVENDER = (230, 230, 250)
-PEARL = (240, 234, 214)
-AMBER = (255, 191, 0)
-CREAM = (255, 253, 208)
-MINT = (189, 252, 201)
-CRIMSON = (220, 20, 60)
-SUNSET_PEACH = (255, 204, 153)
-WHITE = (255, 255, 255)
+PINK = (255, 46, 196)          # exact pink from vice_style_code (vicestyle.NEON["pink"])
+CYAN, YELLOW, PURPLE = (0, 238, 255), (255, 228, 40), (178, 92, 255)
+ORANGE, LIME, GOLD = (255, 140, 0), (170, 255, 0), (255, 200, 40)
+SKY, TEAL, CORAL = (100, 200, 255), (0, 222, 200), (255, 110, 90)
 
 _P = [
-    # id, name, y-rhythm, gap, nudge, words, (key, key_long, filler), palette, no_face_y, font_hint
-    ("P01", "Champagne beside-mid", [0.0], 0.85, 0.0, 3, (.072, .062, .048), [CHAMPAGNE_GOLD, IVORY, WHITE], .28, "Cinzel"),
-    ("P02", "Icy upper-left", [-0.55], 0.9, 0.0, 3, (.070, .060, .046), [ICY_CYAN, WHITE, SILVER], .22, "Montserrat Light"),
-    ("P03", "Soft rose mid-right", [0.0], 0.88, 0.02, 3, (.068, .058, .044), [SOFT_ROSE, SILVER, WHITE], .30, "Cormorant Garamond"),
-    ("P04", "Lavender stepped diagonal", [-0.5, 0.0, 0.5], 0.82, 0.0, 3, (.070, .060, .046), [LAVENDER, PEARL, WHITE], .26, "Playfair Display Italic"),
-    ("P05", "Amber cream upper", [-0.45], 0.92, 0.0, 2, (.074, .064, .048), [AMBER, CREAM, IVORY], .20, "Cinzel"),
-    ("P06", "Mint white close", [0.0], 0.75, 0.03, 3, (.066, .056, .042), [MINT, WHITE, SILVER], .32, "Montserrat Medium"),
-    ("P07", "Crimson glow far", [-0.15], 1.05, 0.0, 3, (.070, .060, .046), [CRIMSON, WHITE, IVORY], .28, "Cormorant Garamond"),
-    ("P08", "Sunset peach punch", [0.0], 0.88, 0.0, 2, (.076, .066, .048), [SUNSET_PEACH, IVORY, WHITE], .30, "Playfair Display Italic"),
-    ("P09", "Pearl split-side", [-0.35, 0.35], 0.85, 0.0, 3, (.068, .058, .044), [PEARL, LAVENDER, WHITE], .26, "Cinzel"),
-    ("P10", "Gold ivory compact", [0.0], 0.8, 0.0, 3, (.064, .054, .040), [CHAMPAGNE_GOLD, IVORY, CREAM], .34, "Montserrat Light"),
-    ("P11", "Cyan silver step", [0.4, 0.0, -0.4], 0.9, 0.0, 3, (.070, .060, .046), [ICY_CYAN, SILVER, WHITE], .28, "Cormorant Garamond"),
-    ("P12", "Rose gold upper-right", [-0.5], 0.95, 0.0, 2, (.072, .062, .048), [SOFT_ROSE, CHAMPAGNE_GOLD, WHITE], .22, "Playfair Display Italic"),
-    ("P13", "Lavender wave", [-0.4, 0.0, 0.4, 0.0], 0.85, 0.0, 3, (.068, .058, .044), [LAVENDER, PEARL, SILVER], .30, "Cinzel"),
-    ("P14", "Amber mint mix", [0.0], 0.82, 0.02, 3, (.066, .056, .042), [AMBER, MINT, IVORY], .32, "Montserrat Medium"),
-    ("P15", "Crimson cream lower", [0.45], 1.0, 0.0, 2, (.070, .060, .046), [CRIMSON, CREAM, WHITE], .40, "Cormorant Garamond"),
-    ("P16", "Peach silver diagonal", [-0.3, 0.2], 0.88, 0.0, 3, (.068, .058, .044), [SUNSET_PEACH, SILVER, IVORY], .26, "Playfair Display Italic"),
-    ("P17", "Ivory cyan compact", [0.0], 0.78, 0.0, 3, (.064, .054, .040), [IVORY, ICY_CYAN, WHITE], .34, "Cinzel"),
-    ("P18", "Gold rose upper", [-0.48], 0.9, 0.0, 2, (.072, .062, .048), [CHAMPAGNE_GOLD, SOFT_ROSE, PEARL], .22, "Montserrat Light"),
-    ("P19", "Mint lavender step-down", [-0.55, 0.0, 0.55], 0.85, 0.0, 3, (.070, .060, .046), [MINT, LAVENDER, WHITE], .28, "Cormorant Garamond"),
-    ("P20", "Silver pearl far", [-0.1], 1.1, 0.0, 3, (.068, .058, .044), [SILVER, PEARL, IVORY], .30, "Playfair Display Italic"),
+    # id, name, y-rhythm, gap, nudge, words, (key, key_long, filler), palette, no_face_y
+    ("P01", "Original beside-mid (approved)", [0.0], 0.9, 0.0, 3, (.098, .082, .052), [CYAN, PINK, YELLOW, PURPLE], .30),
+    ("P02", "Beside-upper", [-0.65], 0.9, 0.0, 3, (.098, .082, .052), [PINK, CYAN, YELLOW, ORANGE], .22),
+    ("P03", "Beside-lower", [0.75], 0.9, 0.0, 3, (.096, .080, .050), [YELLOW, PINK, CYAN, LIME], .45),
+    ("P04", "Stepping down beside", [-0.6, 0.0, 0.6], 0.9, 0.0, 3, (.098, .082, .052), [CYAN, PINK, PURPLE, GOLD], .30),
+    ("P05", "Stepping up beside", [0.6, 0.0, -0.6], 0.9, 0.0, 3, (.098, .082, .052), [PINK, TEAL, YELLOW, PURPLE], .30),
+    ("P06", "Close + nudge to centre", [0.0], 0.75, 0.035, 3, (.094, .080, .050), [PINK, ORANGE, CYAN, YELLOW], .30),
+    ("P07", "Far beside", [-0.2], 1.25, 0.0, 3, (.098, .082, .052), [PURPLE, PINK, CYAN, LIME], .28),
+    ("P08", "2-word punch, mid", [0.0], 0.9, 0.0, 2, (.108, .090, .052), [PINK, YELLOW, SKY, ORANGE], .30),
+    ("P09", "2-word upper", [-0.55], 0.95, 0.0, 2, (.104, .088, .050), [CYAN, PINK, GOLD, PURPLE], .24),
+    ("P10", "Big keys, tiny fillers", [0.0], 0.9, 0.0, 3, (.116, .096, .042), [PINK, CYAN, YELLOW, PURPLE, ORANGE], .30),
+    ("P11", "Even mix", [-0.1], 0.9, 0.0, 3, (.088, .078, .064), [PINK, LIME, CYAN, YELLOW], .30),
+    ("P12", "Upper/lower tick-tock beside", [-0.55, 0.55], 0.9, 0.0, 3, (.098, .082, .052), [PINK, SKY, YELLOW, PURPLE], .30),
+    ("P13", "Wave beside (up-mid-down-mid), 2 words", [-0.55, 0.0, 0.55, 0.0], 0.9, 0.0, 2, (.102, .086, .050), [ORANGE, PINK, CYAN, LIME], .30),
+    ("P14", "Upper + nudge, bold keys", [-0.5], 0.8, 0.03, 3, (.106, .088, .050), [PINK, PURPLE, GOLD, CYAN, CORAL], .24),
+    ("P15", "Lower far, 2 words", [0.6], 1.15, 0.0, 2, (.100, .084, .050), [TEAL, PINK, YELLOW, ORANGE], .42),
 ]
-
-PATTERNS = [{"id": i, "name": n, "y": y, "gap": g, "nudge": nu, "words": w,
-             "key": k[0], "key_long": k[1], "filler": k[2], "keys": pal,
-             "no_face_y": nf, "font_hint": fh, "classic": i == "P01"}
-            for i, n, y, g, nu, w, k, pal, nf, fh in _P]
-
+PATTERNS = [{"id": i, "name": n, "y": y, "gap": g, "nudge": nu, "words": w, "key": k[0], "key_long": k[1],
+             "filler": k[2], "keys": pal, "no_face_y": nf, "classic": i == "P01"}
+            for i, n, y, g, nu, w, k, pal, nf in _P]
 ROTATION = [p["id"] for p in PATTERNS]
 BY_ID = {p["id"]: p for p in PATTERNS}
 BY_ID["P00"] = BY_ID["original_gta"] = BY_ID["P01"]
-
-HISTORY_PATH = Path(__file__).parent / "history.json"
-
-
-def load_history() -> dict:
-    if HISTORY_PATH.exists():
-        try:
-            return json.loads(HISTORY_PATH.read_text())
-        except Exception:
-            pass
-    return {"used_patterns": [], "uploaded": []}
-
-
-def save_history(h: dict) -> None:
-    HISTORY_PATH.write_text(json.dumps(h, indent=2))
-
-
-def pick_pattern(avoid_days: int = 3) -> dict:
-    """Pick a pattern not used in the last ~21 videos (3 days at 7/day)."""
-    h = load_history()
-    used = set(h.get("used_patterns", [])[-21:])
-    candidates = [p for p in PATTERNS if p["id"] not in used]
-    if not candidates:
-        candidates = PATTERNS
-    chosen = candidates[0]  # sequential for reproducibility; randomize if needed
-    h.setdefault("used_patterns", []).append(chosen["id"])
-    save_history(h)
-    return chosen
+assert all(PINK in p["keys"] and 4 <= len(p["keys"]) <= 5 for p in PATTERNS)
 
 
 def get(pid: str | None) -> dict:
     return BY_ID.get(pid or "P01", PATTERNS[0])
+

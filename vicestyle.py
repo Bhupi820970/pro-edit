@@ -225,12 +225,11 @@ def seg_filter(seg: Seg, W: int, H: int) -> str:
     if seg.gamma and abs(seg.gamma - 1) > 0.01:
         f.append(f"eq=gamma={seg.gamma}")
     f.append(GRADE)
-    # Uniform 21:9 letterbox bars for BOTH montage and dialogue (no frame jump)
-    bar = int(round((H - W * 9 / 21) / 2))
-    f.append(f"drawbox=x=0:y=0:w={W}:h={bar}:color=black:t=fill")
-    f.append(f"drawbox=x=0:y={H - bar}:w={W}:h={bar}:color=black:t=fill")
     if seg.kind == "dialogue":
         f.append("vignette=angle=PI/4.6")
+        bar = int(round((H - W * 9 / 21) / 2))
+        f.append(f"drawbox=x=0:y=0:w={W}:h={bar}:color=black:t=fill")
+        f.append(f"drawbox=x=0:y={H - bar}:w={W}:h={bar}:color=black:t=fill")
     f.append("noise=alls=5:allf=t")
     f.append(f"fps={FPS},format=yuv420p")
     return ",".join(f)
@@ -412,7 +411,7 @@ def glass_logo_box(text: str, W: int, H: int, fpath: str, frac: float = WM_BOTTO
 
 
 def apply_glass_logo(im: Image.Image, text: str, fpath: str, frac: float = WM_BOTTOM) -> Image.Image:
-    """Paste the glass RIYIO mark, blurring the live frame under the letters."""
+    """Paste the glass VICE CARTEL mark, blurring the live frame under the letters."""
     im = im.convert("RGBA")
     W, H = im.size
     x, y, bw, bh, f, bb, pad = glass_logo_box(text, W, H, fpath, frac)
@@ -802,9 +801,7 @@ def composite(base: Path, events: list[dict], wm: Image.Image | None, W: int, H:
                             "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
     enc = subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
                             "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", str(audio),
-                            "-map", "0:v", "-map", "1:a",
-                            "-vf", "hqdn3d=1.5:1.5:6:6,unsharp=5:5:0.45:5:5:0.0",
-                            "-c:v", "libx264", "-preset", "medium",
+                            "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium",
                             "-crf", str(crf), "-maxrate", "60M", "-bufsize", "120M", "-pix_fmt", "yuv420p", "-profile:v", "high",
                             "-c:a", "aac", "-b:a", "320k", "-shortest", "-movflags", "+faststart",
                             str(out)], stdin=subprocess.PIPE)
@@ -850,21 +847,10 @@ def composite(base: Path, events: list[dict], wm: Image.Image | None, W: int, H:
 
 # ---------------------------------------------------------------- audio
 def mix_audio(song: Path, song_start: float, total: float, segs: list[Seg], out: Path,
-              duck: float = 0.18, ramp: float = 0.25, tail_fade: float = 1.8,
-              slowed_reverb: bool = False):
+              duck: float = 0.18, ramp: float = 0.25, tail_fade: float = 1.8):
     sr = 48000
     n = int(round(total * sr))
     music = load_audio(song, sr, song_start, total)
-    if slowed_reverb:
-        # -6% speed/pitch + subtle hall reverb for cinematic vibe + copyright safety
-        music = np.interp(np.linspace(0, len(music) * 0.94, int(len(music) * 0.94)),
-                          np.arange(len(music)), music.mean(axis=1) if music.ndim > 1 else music)
-        if music.ndim == 1:
-            music = np.stack([music, music], axis=1)
-        # simple reverb approximation (delay + decay)
-        delay = int(0.08 * sr)
-        if len(music) > delay:
-            music[delay:] += 0.18 * music[:-delay]
     env = np.ones(n, np.float32)
     voice = np.zeros((n, 2), np.float32)
     for seg in segs:
@@ -916,9 +902,8 @@ def layout(segs: list[Seg], binfo: dict, song_start: float) -> float:
 
 def render(segs: list[Seg], song: Path, song_start: float | None, out: Path, mode: str,
            res: str, hook: str | None, watermark: str | None, font: str | None,
-           black_tail: float = 0.6, workers: int = 4, crf: int = 16,
-           name_pops: bool = False, pattern: str | None = None,
-           slowed_reverb: bool = False) -> dict:
+           black_tail: float = 0.6, workers: int = 4, crf: int = 15,
+           name_pops: bool = False, pattern: str | None = None) -> dict:
     W, H = map(int, res.lower().split("x"))
     fpath = font_path(font)
     binfo = detect_beats(song)
@@ -947,7 +932,7 @@ def render(segs: list[Seg], song: Path, song_start: float | None, out: Path, mod
     nframes = segs[-1].f1 + tail_fr
     total = nframes / FPS
     wav = tmp / "mix.wav"
-    mix_audio(song, song_start, total_cut, segs, wav, slowed_reverb=slowed_reverb)
+    mix_audio(song, song_start, total_cut, segs, wav)
     # black tail = silence (hard cut on the beat)
     import soundfile as sf
     a, sr = sf.read(str(wav))
@@ -958,16 +943,13 @@ def render(segs: list[Seg], song: Path, song_start: float | None, out: Path, mod
     if name_pops:  # off by default: big character-name pops are opt-in only
         events += build_name_pops(segs, W, H, fpath)
     wm = (watermark, fpath) if watermark else None
-    # Dual 4K render: YouTube/X 16:9 + Instagram 9:16
-    wide_out = out.with_suffix(".wide.mp4") if mode == "dual" else (out if mode == "wide" else tmp / "wide.mp4")
-    composite(base, events, wm, W, H, wav, wide_out, nframes, crf)
-    shorts_out = out.with_suffix(".shorts.mp4") if mode == "dual" else (out if mode == "shorts" else None)
-    if mode in ("shorts", "dual"):
-        make_shorts(wide_out, shorts_out or out, hook or "", fpath)
+    wide = out if mode == "wide" else tmp / "wide.mp4"
+    composite(base, events, wm, W, H, wav, wide, nframes, crf)
+    if mode == "shorts":
+        make_shorts(wide, out, hook or "", fpath)
     meta = {
         "out": str(out), "mode": mode, "song": str(song), "song_start": song_start,
         "duration": total, "shots": len(segs), "tempo": binfo["tempo"],
-        "wide": str(wide_out), "shorts": str(shorts_out) if shorts_out else None,
         "segments": [{k: v for k, v in asdict(s).items() if k in
                       ("kind", "src", "start", "beats", "name", "t0", "t1")} for s in segs],
         "captions": [{"t": round(e["f0"] / FPS, 2), "text": e["text"]} for e in events if not e.get("sub")],
@@ -981,7 +963,7 @@ def render(segs: list[Seg], song: Path, song_start: float | None, out: Path, mod
     }
     Path(str(out) + ".json").write_text(json.dumps(meta, indent=1))
     shutil.rmtree(tmp, ignore_errors=True)
-    log("wrote", wide_out if mode == "dual" else out)
+    log("wrote", out)
     return meta
 
 
@@ -1316,10 +1298,10 @@ def main(argv=None):
         p = sub.add_parser(name)
         p.add_argument("--song", required=True, type=Path)
         p.add_argument("--out", required=True, type=Path)
-        p.add_argument("--mode", choices=["wide", "shorts", "dual"], default="dual")
-        p.add_argument("--res", default="3840x2160")
+        p.add_argument("--mode", choices=["wide", "shorts"], default="wide")
+        p.add_argument("--res", default="2560x1440")
         p.add_argument("--hook", default=None, help="hook-bar text (shorts mode)")
-        p.add_argument("--watermark", default="RIYIO")
+        p.add_argument("--watermark", default="VICE CARTEL")
         p.add_argument("--font", default=None)
         p.add_argument("--song-start", type=float, default=None)
         p.add_argument("--workers", type=int, default=4)
