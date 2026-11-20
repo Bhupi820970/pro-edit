@@ -68,8 +68,9 @@ Every render also writes `OUT.mp4.json` with the song window, shot list and ever
 
 # Automated pipeline (Skywalker-style)
 
-`pipeline.py` turns the editor above into a hands-off content factory. **It never uploads to
-YouTube / Instagram / X** — finished videos wait in a ready queue until the owner approves them.
+`pipeline.py` turns the editor above into a hands-off content factory. Finished videos land in the
+draft release `vc-ready`. The `upload` workflow posts them to YouTube (`@vicecartelgta`) and Instagram
+(`@benreelr`) — scheduled only when `SCHEDULE_ENABLED=true`, or one test upload via `workflow_dispatch`.
 
 ```
 official channels ─► download (yt-dlp, client fallbacks) ─► Gemini WATCHES each clip ─► reject logos /
@@ -80,6 +81,7 @@ vicestyle auto edit (approved look) + rotating caption pattern ─► QA ─► 
 | Piece | File |
 |---|---|
 | CLI (`produce`, `ensure`, `status`, `mark`, `cleanup`, `attach-release`, `merge-status`) | `pipeline.py` |
+| YouTube Data API v3 + Buffer Instagram upload, captions, posted ledger | `pipeline_lib/publish/`, `scripts/upload.py`, `ledger/posted.json` |
 | Disk cleanup after a video is marked `posted` (source clips + temp; finals kept 24h unless `--keep`) | `pipeline_lib/cleanup.py` |
 | Gemini REST client — keys `GEMINI_API_KEY_1..6` from env only, rotation + failover on 429/quota/5xx, model fallback | `pipeline_lib/gemini.py` |
 | Sourcing: links inbox → official channels (Rockstar Games etc.) → fallback YouTube search / Gemini Google-search discovery / box-fetched clips; Gemini Files-API vetting, bad-range (title cards, text) exclusion | `pipeline_lib/sourcing.py` |
@@ -89,7 +91,26 @@ vicestyle auto edit (approved look) + rotating caption pattern ─► QA ─► 
 | 15 caption patterns (all variations of the approved beside-speaker look) | `caption_patterns.py`, grid: `tools/pattern_grid.py` |
 | Daily plan, channels, categories, buffer size | `config/pipeline.json` |
 | Box-side downloader fallback | `box_fetch.py` |
-| GitHub Actions (schedule + manual) | `.github/workflows/produce.yml` |
+| GitHub Actions (produce, upload, ci) | `.github/workflows/produce.yml`, `upload.yml`, `ci.yml` |
+
+
+## Auto-upload (YouTube + Instagram)
+
+Five slots a day, both platforms, all times IST: **08:00, 11:30, 15:00, 18:30, 21:30**.
+
+* YouTube: Data API v3 resumable upload, public, not made for kids, channel `@vicecartelgta`.
+* Instagram: Buffer API, channel selected by username `benreelr` (never a hardcoded channel id).
+* The same video is never posted twice (`ledger/posted.json`). A failed upload is retried once, then the other platform still runs.
+* Ready stock is the draft release **`vc-ready`**. If unposted stock on either platform drops below 3, the upload job warns and dispatches `produce.yml` to refill.
+* Scheduled posting stays off until the repo variable `SCHEDULE_ENABLED` is set to `true`. A manual test:
+
+```bash
+# from the Actions tab: upload → Run workflow → mode=test
+# or:
+gh workflow run upload.yml -R Bhupi820970/pro-edit -f mode=test
+```
+
+Secrets (Actions only, never in the repo): `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN`, `BUFFER_API_KEY`.
 
 ## Daily plan (config)
 * **YouTube (Vice Cartel)**: 5–6 per day, GTA (4–6) + other gaming (0–1), 16:9 2560×1440.

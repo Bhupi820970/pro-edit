@@ -9,8 +9,9 @@
   python pipeline.py cleanup                                       # age-based sweep of posted finals + stale work
   python pipeline.py attach-release --tag videos-2026-11-19         # (Actions) upload ready mp4s, store URLs
 
-Nothing is ever uploaded to YouTube / Instagram / X: videos wait in the ready queue until the owner approves.
-Env: GEMINI_API_KEY_1..6 (never printed), VICE_PIPELINE_HOME (state, sources, ready videos, status.json).
+Finished videos land in the draft release `vc-ready`. The upload workflow (gated by
+SCHEDULE_ENABLED, plus a manual test-upload dispatch) posts them to YouTube and Instagram.
+Env: GEMINI_API_KEY_1..13 (never printed), VICE_PIPELINE_HOME (state, sources, ready videos, status.json).
 """
 from __future__ import annotations
 
@@ -35,6 +36,19 @@ from pipeline_lib.state import State  # noqa: E402
 from pipeline_lib.qa import qa_video  # noqa: E402
 
 CFG = json.loads((HERE / "config" / "pipeline.json").read_text())
+
+
+def _posted_ids() -> set:
+    try:
+        from pipeline_lib.publish.ledger import posted_ids
+        return posted_ids()
+    except Exception:
+        return set()
+
+
+def ready_unposted(state: State, platform: str) -> list:
+    posted = _posted_ids()
+    return [v for v in state.videos(platform, "ready") if v["id"] not in posted]
 
 
 def pick_category(state: State, platform: str) -> str:
@@ -187,7 +201,7 @@ def write_status(state: State, extra: dict | None = None) -> dict:
     tgt, warn_at = CFG.get("buffer_target", 7), CFG.get("buffer_warn_at", 3)
     plats, msgs = {}, []
     for p in CFG["platforms"]:
-        ready = state.videos(p, "ready")
+        ready = ready_unposted(state, p)
         n = len(ready)
         w = n <= warn_at
         plats[p] = {"ready": n, "target": tgt, "warning": w, "produced_today": len(state.produced_today(p)),
@@ -199,7 +213,7 @@ def write_status(state: State, extra: dict | None = None) -> dict:
         "updated": now_local().isoformat(), "timezone": "Asia/Calcutta (IST)",
         "warning": bool(msgs), "message": " | ".join(msgs) if msgs else "OK",
         "platforms": plats,
-        "ready": [v for v in state.d["videos"] if v["state"] == "ready"],
+        "ready": [v for v in state.d["videos"] if v["state"] == "ready" and v["id"] not in _posted_ids()],
         "approved": [v for v in state.d["videos"] if v["state"] == "approved"],
         "recent_failures": state.d.get("failures", [])[-15:],
         "pattern_history": state.d["patterns"][-20:],
@@ -347,7 +361,7 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
             log("time budget reached")
             return False
         if until_target:
-            return len(state.videos(a.platform, "ready")) < target
+            return len(ready_unposted(state, a.platform)) < target
         return len(made) < count
 
     max_attempts = (count or target or 1) * 4 + 2
@@ -405,7 +419,7 @@ def main(argv=None):
                    help="keep the final mp4 after posting (skip the 24h age sweep)")
     sub.add_parser("cleanup", help="sweep posted finals older than 24h and stale work/temp older than 3 days")
     p = sub.add_parser("attach-release")
-    p.add_argument("--tag", required=True)
+    p.add_argument("--tag", default="vc-ready")
     p.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", "Bhupi820970/pro-edit"))
     a = ap.parse_args(argv)
     if a.cmd == "status":
@@ -466,17 +480,44 @@ def main(argv=None):
         write_status(s)
         return 0
     if a.cmd == "attach-release":
+        from pipeline_lib.publish import stock as vc_stock
         s = State()
-        new = [v for v in s.d["videos"] if v["state"] == "ready" and not v.get("release_url") and Path(v["path"]).exists()]
+        posted = _posted_ids()
+        new = [v for v in s.d["videos"]
+               if v["state"] == "ready" and v["id"] not in posted and Path(v.get("path") or "").exists()]
+        # Stable stock tag: re-attach anything not yet on vc-ready. Test tags only get new files.
+        if a.tag == vc_stock.STOCK_TAG:
+            new = [v for v in new if f"/download/{a.tag}/" not in (v.get("release_url") or "")]
+        else:
+            new = [v for v in new if not v.get("release_url")]
         if new:
             r = run(["gh", "release", "view", a.tag, "--repo", a.repo], check=False)
             if r.returncode != 0:
-                run(["gh", "release", "create", a.tag, "--repo", a.repo, "--title", a.tag, "--draft",
-                     "--notes", "DRAFT: rendered videos waiting for owner approval (not posted anywhere). Keep draft so assets stay private if the repo is public."])
+                notes = ("DRAFT: Vice Cartel ready stock (unposted renders). Keep draft so "
+                         "footage stays private. The upload workflow reads from here.")
+                if a.tag != vc_stock.STOCK_TAG:
+                    notes = ("DRAFT: rendered videos waiting for owner approval (not posted anywhere). "
+                             "Keep draft so assets stay private if the repo is public.")
+                title = "Vice Cartel ready stock" if a.tag == vc_stock.STOCK_TAG else a.tag
+                run(["gh", "release", "create", a.tag, "--repo", a.repo, "--title", title, "--draft",
+                     "--notes", notes])
                 time.sleep(2)
             for v in new:
                 attach_video_assets(a.tag, a.repo, v)
             s.save()
+        if a.tag == vc_stock.STOCK_TAG:
+            recs = [vc_stock.video_record(v) for v in s.d["videos"]
+                    if v["state"] == "ready" and v["id"] not in posted
+                    and (f"/download/{a.tag}/" in (v.get("release_url") or "") or v in new)]
+            dest_dir = Path("/tmp/vc-ready-man")
+            dest_dir.mkdir(parents=True, exist_ok=True)
+            run(["gh", "release", "download", a.tag, "--repo", a.repo, "-p", vc_stock.MANIFEST_NAME,
+                 "-D", str(dest_dir), "--clobber"], check=False)
+            dest = dest_dir / vc_stock.MANIFEST_NAME
+            man = vc_stock.upsert_manifest(dest, recs)
+            run(["gh", "release", "upload", a.tag, str(dest), "--repo", a.repo, "--clobber"],
+                timeout=120, check=False)
+            log(f"vc-ready manifest: {len(man.get('videos') or [])} videos")
         write_status(s)
         return 0
     with Lock():

@@ -3,18 +3,25 @@
 This repo is designed to be safe even if it is made **public**.
 
 ## Secrets
-* Gemini keys live only in **GitHub Actions secrets** `GEMINI_API_KEY_1..6` (set with `gh secret set` from env,
+* Gemini keys live only in **GitHub Actions secrets** `GEMINI_API_KEY_1..13` (set with `gh secret set` from env,
   never echoed) and in the box environment. Code reads them from `os.environ` only and never logs them.
+* YouTube upload uses `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, and `YT_REFRESH_TOKEN` (Actions secrets only).
+  The access token is requested at run time and immediately masked with `::add-mask::`. It is never committed
+  or printed. Instagram posting uses `BUFFER_API_KEY` the same way.
 * No cookies, tokens, `.env` files or media are ever committed (`.gitignore` blocks `*.mp4`, `*.wav`, `cookies*.txt`,
   `.env`, `*.key`, …). Git history was audited before any visibility change: only code, README and JSON plans.
+  The posted ledger (`ledger/posted.json`) stores only video ids and public post URLs, never credentials.
 
 ## GitHub Actions
-* `produce.yml` triggers **only** on `schedule` and `workflow_dispatch` — no `pull_request` / `pull_request_target`
+* Workflows trigger **only** on `push`, `schedule`, and `workflow_dispatch` — no `pull_request` / `pull_request_target`
   / `issue_comment` triggers, so code from forks, PRs or issues never runs with secrets.
-* Jobs run only in `Bhupi820970/pro-edit` (never on forks), manual runs only when the actor is the repo
-  owner, scheduled runs only when the repo variable `SCHEDULE_ENABLED=true`.
-* Workflow-level permissions are empty. The `plan` job gets none; the `produce` job gets `contents: write`
-  (draft releases + the `pipeline-state` branch) and `actions: write` (artifacts).
+* Jobs run only in `Bhupi820970/pro-edit` (never on forks). Manual runs of produce/upload are limited to the
+  repo owner (produce also accepts `github-actions[bot]` so the upload workflow can request a refill).
+  Scheduled produce and upload runs only when the repo variable `SCHEDULE_ENABLED=true`. Do not set that
+  variable until a test upload has been approved.
+* Workflow-level permissions are empty. `produce` gets `contents: write` (draft releases + the
+  `pipeline-state` branch) and `actions: write` (artifacts). `upload` gets `contents: write` (the posted
+  ledger) and `actions: write` (to dispatch a produce refill). `ci` is read-only.
 * Third-party Actions are pinned to a full commit SHA (`actions/checkout`, `setup-python`, `cache`,
   `upload-artifact`). Checkout uses `persist-credentials: false`; later git/gh steps pass `GH_TOKEN` explicitly.
 * Secrets are not available to workflows triggered from forks (GitHub default) and no workflow passes them to
@@ -41,8 +48,17 @@ This repo is designed to be safe even if it is made **public**.
   written to the repo, releases, logs or manifests.
 
 ## Content
-* Source clips and rendered videos are copyrighted footage/music used for fan edits. They are stored only as
-  **draft GitHub releases** (visible to users with write access, not to the public) and as short-lived workflow
-  artifacts. Never publish those draft releases, even if the repo itself is public for free Actions minutes.
-* Nothing is uploaded to YouTube / Instagram / X by this code; the owner approves every video.
+* Source clips and rendered videos are copyrighted footage/music used for fan edits. Ready stock lives in the
+  **draft** release `vc-ready`. Source clips and official audio stay in the draft releases `sources` and `songs`.
+  Never publish those draft releases, even if the repo itself is public for free Actions minutes.
+* The upload workflow posts to YouTube (Data API v3, channel `@vicecartelgta`) and Instagram (Buffer API,
+  `@benreelr`) only after `SCHEDULE_ENABLED=true` or a manual `upload` test dispatch by the owner. A video id
+  in `ledger/posted.json` is never posted again.
+* Buffer cannot fetch draft-release URLs. For each Instagram post the runner copies that one file to a
+  short-lived **published** release `vc-xfer-<run>-<hex>` with a random filename, uses `shareNow`, waits until
+  Buffer reports the post as sent, then deletes only that transfer release. Protected tags (`vc-ready`,
+  `sources`, `songs`, `test-renders`) are never deleted. YouTube uploads go straight through the resumable
+  API and do not need a public file URL.
+* After an upload the runner may delete used files on the Actions runner only. It never deletes ready/source
+  stock, the songs library, backups, or the repo.
 

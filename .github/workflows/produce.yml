@@ -13,7 +13,7 @@ on:
       youtube_category: {description: "optional category override for the youtube job only", default: "", required: false}
       instagram_category: {description: "optional category override for the instagram job only", default: "", required: false}
       max_minutes: {description: "time budget per platform job", default: "320", required: false}
-      release_tag: {description: "TEST runs: draft release tag for the mp4s (e.g. test-renders); empty = videos-<platform>-<date>. Nothing is ever posted to YouTube/Instagram.", default: "", required: false}
+      release_tag: {description: "TEST runs: draft release tag for the mp4s (e.g. test-renders); empty = vc-ready (production stock). The upload workflow, not this one, posts to YouTube/Instagram.", default: "", required: false}
 
 # Triggers are schedule + workflow_dispatch only (no pull_request / pull_request_target), so code from
 # forks or PRs never runs with these secrets. Fork PRs cannot receive repository secrets.
@@ -24,7 +24,8 @@ jobs:
     # never on forks; manual runs only by the owner; scheduled runs only when SCHEDULE_ENABLED=true
     if: >-
       github.repository == 'Bhupi820970/pro-edit' &&
-      ((github.event_name == 'workflow_dispatch' && github.actor == github.repository_owner) ||
+      ((github.event_name == 'workflow_dispatch' &&
+        (github.actor == github.repository_owner || github.actor == 'github-actions[bot]')) ||
        (github.event_name == 'schedule' && vars.SCHEDULE_ENABLED == 'true'))
     runs-on: ubuntu-latest
     permissions: {}
@@ -158,7 +159,7 @@ jobs:
         if: always()
         env:
           REL_TAG: ${{ github.event.inputs.release_tag }}
-        run: python pipeline.py attach-release --tag "${REL_TAG:-videos-${{ matrix.platform }}-$(date -u +%Y%m%d)}"
+        run: python pipeline.py attach-release --tag "${REL_TAG:-vc-ready}"
 
       - name: Ready videos, previews + logs as artifact
         if: always()

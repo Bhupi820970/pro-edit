@@ -1,0 +1,108 @@
+name: upload
+
+# Posts 1 YouTube video (@vicecartelgta, YouTube Data API v3) and 1 Instagram
+# video (@benreelr via Buffer) per IST slot. Idempotent via ledger/posted.json.
+# Scheduled runs require repo variable SCHEDULE_ENABLED=true (do not set it here).
+# workflow_dispatch mode=test posts exactly 1+1 regardless of SCHEDULE_ENABLED.
+on:
+  schedule:
+    # 08:00, 11:30, 15:00, 18:30, 21:30 IST (UTC+5:30)
+    - cron: "30 2 * * *"
+    - cron: "0 6 * * *"
+    - cron: "30 9 * * *"
+    - cron: "0 13 * * *"
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "test = 1 video to YouTube + 1 to Instagram, ignores SCHEDULE_ENABLED. slot = same as the cron."
+        type: choice
+        options: [test, slot]
+        default: test
+      dry_run:
+        description: "Print what would be posted, post nothing"
+        type: boolean
+        default: false
+
+# Triggers are schedule + workflow_dispatch only (no pull_request / pull_request_target).
+# Fork PRs never receive repository secrets.
+permissions: {}
+
+concurrency:
+  group: vice-upload
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    if: >-
+      github.repository == 'Bhupi820970/pro-edit' &&
+      ((github.event_name == 'workflow_dispatch' && github.actor == github.repository_owner) ||
+       (github.event_name == 'schedule' && vars.SCHEDULE_ENABLED == 'true'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+      actions: write
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+      GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+      GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+      GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+      GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+      GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+      GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+      GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+      GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+      GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+      GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
+      GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+      GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with: {python-version: "3.12"}
+
+      - name: Upload one video per platform
+        id: up
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ github.event.inputs.mode }}"
+          else
+            MODE=slot
+          fi
+          python scripts/upload.py --mode "$MODE" --repo "$GITHUB_REPOSITORY"
+
+      - name: Commit posted ledger
+        if: always()
+        run: |
+          git config user.name "vice-pipeline-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git add ledger/posted.json
+          git diff --cached --quiet && exit 0
+          git commit -m "upload: ledger run ${{ github.run_id }}"
+          for i in 1 2 3 4; do
+            timeout 30 git pull --rebase -q && timeout 30 git push && break
+            sleep $((i * 7))
+          done
+
+      - name: Remove local runner copies
+        if: always()
+        run: rm -rf /tmp/vc-stock /tmp/vc-xfer
+
+      - name: Warn and refill if stock is under 3
+        if: always() && steps.up.outputs.low_stock == 'true'
+        run: |
+          echo "::warning::Ready stock is under 3 (YouTube ${{ steps.up.outputs.stock_youtube }}, Instagram ${{ steps.up.outputs.stock_instagram }}). Triggering produce.yml to refill."
+          timeout 30 gh workflow run produce.yml --repo "$GITHUB_REPOSITORY" -f platform=both -f mode=ensure
