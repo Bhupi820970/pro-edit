@@ -1,0 +1,17 @@
+{
+ "requests": [
+  {
+   "id": "youtube-202611201414-gta",
+   "category": "gta",
+   "limit": 3,
+   "at": "2026-11-20T14:14:32.107766+05:30",
+   "reason": "thin=True download_failed=107 bot_checks=94",
+   "queries": [
+    "Grand Theft Auto V Official Gameplay Video Rockstar Games",
+    "GTA Online official gameplay Rockstar Games"
+   ],
+   "links": []
+  }
+ ],
+ "updated": "2026-11-20T14:14:32.107831+05:30"
+}

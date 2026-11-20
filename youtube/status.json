@@ -1,0 +1,62 @@
+{
+ "updated": "2026-11-20T14:14:33.741195+05:30",
+ "timezone": "Asia/Calcutta (IST)",
+ "warning": true,
+ "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
+ "platforms": {
+  "youtube": {
+   "ready": 0,
+   "target": 7,
+   "warning": true,
+   "produced_today": 0,
+   "per_day": [
+    5,
+    6
+   ],
+   "message": "BACKUP LOW: refill youtube (0/7 ready)"
+  },
+  "instagram": {
+   "ready": 0,
+   "target": 7,
+   "warning": true,
+   "produced_today": 0,
+   "per_day": [
+    6,
+    7
+   ],
+   "message": "BACKUP LOW: refill instagram (0/7 ready)"
+  }
+ },
+ "ready": [],
+ "approved": [],
+ "recent_failures": [
+  {
+   "at": "2026-11-20T13:10:16.570713+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T14:14:32.103573+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "RuntimeError: only 0 clean sources for gta"
+  }
+ ],
+ "pattern_history": [],
+ "box_fetcher": {
+  "last_run": "2026-11-20T10:31:47.605988+05:30",
+  "age_hours": 3.7,
+  "healthy": false,
+  "pool": {
+   "gta": 21,
+   "gaming": 15,
+   "movie": 21,
+   "sports": 15,
+   "romance": 15,
+   "series": 15
+  },
+  "errors": [],
+  "message": "BOX FETCHER DOWN for 4h: run `bash scripts/box_fetch_service.sh start` on the box"
+ }
+}

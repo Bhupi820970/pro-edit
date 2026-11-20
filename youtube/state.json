@@ -1,0 +1,4454 @@
+{
+ "patterns": [],
+ "songs": [],
+ "windows": [],
+ "sources_used": [],
+ "segments_used": [
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 76.77,
+   "end": 77.903,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 27.67,
+   "end": 28.77,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 101.07,
+   "end": 102.203,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 25.07,
+   "end": 25.637,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 76.97,
+   "end": 77.537,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 60.77,
+   "end": 61.903,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 120.97,
+   "end": 122.07,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 19.47,
+   "end": 20.603,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 68.97,
+   "end": 70.103,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 52.17,
+   "end": 52.737,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 59.77,
+   "end": 60.337,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 89.77,
+   "end": 90.87,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 70.57,
+   "end": 71.703,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 41.87,
+   "end": 43.003,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 9.24,
+   "end": 22.74,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 64.87,
+   "end": 66.003,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 142.07,
+   "end": 142.603,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 29.27,
+   "end": 29.837,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 19.07,
+   "end": 20.203,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 73.07,
+   "end": 74.203,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 34.87,
+   "end": 35.437,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 9.87,
+   "end": 10.437,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 114.97,
+   "end": 116.07,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 49.95,
+   "end": 60.083,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 66.97,
+   "end": 67.537,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 140.27,
+   "end": 140.837,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 35.97,
+   "end": 37.07,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 94.57,
+   "end": 95.137,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 20.97,
+   "end": 21.537,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 151.07,
+   "end": 151.637,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 32.57,
+   "end": 33.703,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 37.67,
+   "end": 38.237,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 111.57,
+   "end": 112.137,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 23.57,
+   "end": 24.103,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 32.87,
+   "end": 34.003,
+   "at": "2026-11-19T10:57:43.528884+05:30",
+   "video": "yo-gta-20261119-104157",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 76.77,
+   "end": 77.703,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 25.07,
+   "end": 26.003,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 101.07,
+   "end": 102.003,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 68.97,
+   "end": 69.437,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 118.17,
+   "end": 118.637,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 27.67,
+   "end": 28.603,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 88.47,
+   "end": 89.403,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 64.87,
+   "end": 65.77,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 70.57,
+   "end": 71.503,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 79.67,
+   "end": 80.137,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 60.77,
+   "end": 61.237,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 19.47,
+   "end": 20.403,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 52.17,
+   "end": 53.103,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 73.07,
+   "end": 74.003,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 9.24,
+   "end": 22.74,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "dialogue"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 111.57,
+   "end": 112.503,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 67.97,
+   "end": 68.437,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 120.97,
+   "end": 121.437,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 32.57,
+   "end": 33.503,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 32.87,
+   "end": 33.803,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 41.87,
+   "end": 42.303,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 20.97,
+   "end": 21.437,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 19.07,
+   "end": 20.003,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 49.95,
+   "end": 60.183,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 23.57,
+   "end": 24.037,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 94.57,
+   "end": 95.037,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 2.97,
+   "end": 3.903,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 151.07,
+   "end": 151.537,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 35.97,
+   "end": 36.437,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 89.77,
+   "end": 90.237,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 37.67,
+   "end": 38.603,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 119.07,
+   "end": 119.537,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 63.87,
+   "end": 64.337,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 140.27,
+   "end": 140.737,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 9.87,
+   "end": 10.803,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 142.07,
+   "end": 142.537,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 31.27,
+   "end": 31.737,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 34.87,
+   "end": 35.337,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 50.07,
+   "end": 51.003,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mkv",
+   "start": 21.97,
+   "end": 22.437,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 114.97,
+   "end": 115.437,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 149.57,
+   "end": 150.037,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 129.67,
+   "end": 130.57,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 98.77,
+   "end": 99.237,
+   "at": "2026-11-19T10:41:57.307769+05:30",
+   "video": "yo-gta-20261119-102406",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 52.47,
+   "end": 53.503,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 46.57,
+   "end": 47.637,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 54.67,
+   "end": 55.703,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 54.27,
+   "end": 54.803,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 38.57,
+   "end": 39.07,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 48.47,
+   "end": 49.537,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 55.27,
+   "end": 56.303,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 70.57,
+   "end": 71.637,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 44.67,
+   "end": 45.703,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 76.77,
+   "end": 77.303,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 20.77,
+   "end": 21.27,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 11.17,
+   "end": 12.237,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 18.57,
+   "end": 19.603,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 27.67,
+   "end": 28.703,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 2.39,
+   "end": 13.89,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "dialogue"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 34.67,
+   "end": 35.737,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 25.07,
+   "end": 25.57,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 72.37,
+   "end": 72.903,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 40.07,
+   "end": 41.103,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 64.47,
+   "end": 65.537,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 64.87,
+   "end": 65.37,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 69.57,
+   "end": 70.103,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 19.47,
+   "end": 20.503,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "QdBZY2fkU-0.mp4",
+   "start": 61.02,
+   "end": 68.887,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "dialogue"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 25.97,
+   "end": 26.47,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 59.77,
+   "end": 60.303,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 66.47,
+   "end": 67.503,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 29.27,
+   "end": 29.803,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 68.17,
+   "end": 68.703,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 42.67,
+   "end": 43.17,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 36.07,
+   "end": 37.137,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 68.97,
+   "end": 69.47,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 62.77,
+   "end": 63.303,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 60.77,
+   "end": 61.303,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 9.57,
+   "end": 10.603,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 67.97,
+   "end": 68.503,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 14.77,
+   "end": 15.303,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 35.97,
+   "end": 36.47,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 6.57,
+   "end": 7.637,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 63.87,
+   "end": 64.37,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 27.47,
+   "end": 28.003,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 37.67,
+   "end": 38.203,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 50.97,
+   "end": 52.003,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 73.07,
+   "end": 73.603,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 40.07,
+   "end": 40.57,
+   "at": "2026-11-19T00:27:29.329177+05:30",
+   "video": "yo-gta-20261119-001756",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 52.47,
+   "end": 53.437,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 46.57,
+   "end": 47.503,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 17.57,
+   "end": 18.537,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 46.57,
+   "end": 47.037,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_468",
+   "file": "el_468.mp4",
+   "start": 71.47,
+   "end": 71.97,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 54.67,
+   "end": 55.603,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 18.67,
+   "end": 19.637,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 51.47,
+   "end": 52.403,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 51.87,
+   "end": 52.837,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_468",
+   "file": "el_468.mp4",
+   "start": 11.37,
+   "end": 11.837,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 76.77,
+   "end": 77.27,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 48.47,
+   "end": 49.403,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 24.17,
+   "end": 25.137,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 10.77,
+   "end": 11.737,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 9.24,
+   "end": 22.607,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "dialogue"
+  },
+  {
+   "id": "el_468",
+   "file": "el_468.mp4",
+   "start": 14.17,
+   "end": 15.103,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 54.27,
+   "end": 54.737,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 72.37,
+   "end": 72.87,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 30.17,
+   "end": 31.103,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 43.27,
+   "end": 44.237,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 48.87,
+   "end": 49.337,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 32.37,
+   "end": 32.87,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 34.47,
+   "end": 35.403,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 2.39,
+   "end": 13.857,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "dialogue"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 45.27,
+   "end": 45.737,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 55.27,
+   "end": 55.77,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 44.67,
+   "end": 45.603,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 41.87,
+   "end": 42.37,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 26.47,
+   "end": 26.937,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 59.77,
+   "end": 60.237,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 38.57,
+   "end": 39.537,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 120.97,
+   "end": 121.437,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 22.57,
+   "end": 23.037,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 18.67,
+   "end": 19.17,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 18.57,
+   "end": 19.503,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 34.87,
+   "end": 35.37,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 14.67,
+   "end": 15.137,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 70.57,
+   "end": 71.037,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 20.77,
+   "end": 21.737,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 119.87,
+   "end": 120.337,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 32.07,
+   "end": 32.57,
+   "at": "2026-11-18T22:40:40.197589+05:30",
+   "video": "vice_style_code",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 19.05,
+   "end": 20.483,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 11.6,
+   "end": 12.567,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 0.05,
+   "end": 0.517,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 25.55,
+   "end": 26.983,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 71.0,
+   "end": 71.933,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 34.6,
+   "end": 35.567,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 18.6,
+   "end": 19.567,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 140.1,
+   "end": 141.033,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 76.6,
+   "end": 77.567,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 48.6,
+   "end": 49.567,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 118.05,
+   "end": 118.517,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 52.55,
+   "end": 53.517,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 67.8,
+   "end": 85.433,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 11.05,
+   "end": 12.017,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 21.6,
+   "end": 22.567,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 147.55,
+   "end": 148.017,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 148.1,
+   "end": 148.567,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 33.0,
+   "end": 33.5,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 54.6,
+   "end": 55.533,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 38.6,
+   "end": 39.1,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 52.05,
+   "end": 52.983,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 4.6,
+   "end": 15.6,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 31.05,
+   "end": 31.517,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 101.05,
+   "end": 101.517,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 124.6,
+   "end": 125.067,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 59.05,
+   "end": 59.55,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 29.05,
+   "end": 29.517,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 127.05,
+   "end": 127.517,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 44.6,
+   "end": 45.1,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 144.1,
+   "end": 144.567,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 66.6,
+   "end": 67.067,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 153.1,
+   "end": 153.6,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 40.0,
+   "end": 40.933,
+   "at": "2026-11-18T22:33:17.918108+05:30",
+   "video": "vice_style_hand",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 19.05,
+   "end": 20.483,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 11.6,
+   "end": 12.567,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 0.05,
+   "end": 0.517,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 25.55,
+   "end": 26.983,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 71.0,
+   "end": 71.933,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 34.6,
+   "end": 35.567,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 18.6,
+   "end": 19.567,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 140.1,
+   "end": 141.033,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 76.6,
+   "end": 77.567,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 48.6,
+   "end": 49.567,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 118.05,
+   "end": 118.517,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 52.55,
+   "end": 53.517,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 67.8,
+   "end": 85.433,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 11.05,
+   "end": 12.017,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 21.6,
+   "end": 22.567,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 147.55,
+   "end": 148.017,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 148.1,
+   "end": 148.567,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 33.0,
+   "end": 33.5,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 54.6,
+   "end": 55.533,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 38.6,
+   "end": 39.1,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 52.05,
+   "end": 52.983,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 4.6,
+   "end": 15.6,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 31.05,
+   "end": 31.517,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 101.05,
+   "end": 101.517,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 124.6,
+   "end": 125.067,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 59.05,
+   "end": 59.55,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "GTAVI_Trailer_1.mp4",
+   "start": 29.05,
+   "end": 29.517,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 127.05,
+   "end": 127.517,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 44.6,
+   "end": 45.1,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 144.1,
+   "end": 144.567,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 66.6,
+   "end": 67.067,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "VQRLujxTm3c.mkv",
+   "start": 153.1,
+   "end": 153.6,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "rz1B4B2yBZY.mkv",
+   "start": 40.0,
+   "end": 40.933,
+   "at": "2026-11-18T23:08:58.889332+05:30",
+   "video": "vice_style_hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 19.05,
+   "end": 20.7,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 11.6,
+   "end": 12.7,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 0.05,
+   "end": 0.6,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 25.55,
+   "end": 27.2,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 71.0,
+   "end": 72.1,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 34.6,
+   "end": 35.7,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 18.6,
+   "end": 19.7,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 140.1,
+   "end": 141.2,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 76.6,
+   "end": 77.7,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 48.6,
+   "end": 49.7,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 118.05,
+   "end": 118.6,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 52.55,
+   "end": 53.65,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 67.8,
+   "end": 88.15,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 11.05,
+   "end": 12.15,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 21.6,
+   "end": 22.7,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 147.55,
+   "end": 148.1,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 148.1,
+   "end": 148.65,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 33.0,
+   "end": 33.55,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 54.6,
+   "end": 55.7,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 38.6,
+   "end": 39.15,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 52.05,
+   "end": 53.15,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 4.6,
+   "end": 17.25,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 31.05,
+   "end": 31.6,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 101.05,
+   "end": 101.6,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 124.6,
+   "end": 125.15,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 59.05,
+   "end": 59.6,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 29.05,
+   "end": 29.6,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 127.05,
+   "end": 127.6,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 44.6,
+   "end": 45.15,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 144.1,
+   "end": 144.65,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 66.6,
+   "end": 67.15,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 153.1,
+   "end": 153.65,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 40.0,
+   "end": 41.1,
+   "at": "2026-11-18T22:28:22.425956+05:30",
+   "video": "hand_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 19.05,
+   "end": 20.7,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 11.6,
+   "end": 12.7,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 0.05,
+   "end": 0.6,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 25.55,
+   "end": 27.2,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 71.0,
+   "end": 72.1,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 34.6,
+   "end": 35.7,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 18.6,
+   "end": 19.7,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 140.1,
+   "end": 141.2,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 76.6,
+   "end": 77.7,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 48.6,
+   "end": 49.7,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 118.05,
+   "end": 118.6,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 52.55,
+   "end": 53.65,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 67.8,
+   "end": 88.15,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 11.05,
+   "end": 12.15,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 21.6,
+   "end": 22.7,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 147.55,
+   "end": 148.1,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 148.1,
+   "end": 148.65,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 33.0,
+   "end": 33.55,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 54.6,
+   "end": 55.7,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 38.6,
+   "end": 39.15,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 52.05,
+   "end": 53.15,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 4.6,
+   "end": 17.25,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "dialogue"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 31.05,
+   "end": 31.6,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 101.05,
+   "end": 101.6,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 124.6,
+   "end": 125.15,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 59.05,
+   "end": 59.6,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 29.05,
+   "end": 29.6,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 127.05,
+   "end": 127.6,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 44.6,
+   "end": 45.15,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 144.1,
+   "end": 144.65,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 66.6,
+   "end": 67.15,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 153.1,
+   "end": 153.65,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 40.0,
+   "end": 41.1,
+   "at": "2026-11-18T23:06:35.869247+05:30",
+   "video": "hand_v2",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 52.47,
+   "end": 53.57,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 46.57,
+   "end": 47.67,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 17.57,
+   "end": 18.67,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 46.57,
+   "end": 47.12,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_468",
+   "file": "el_468.mp4",
+   "start": 71.47,
+   "end": 72.02,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 54.67,
+   "end": 55.77,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 18.67,
+   "end": 19.77,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_823",
+   "file": "el_823.mp4",
+   "start": 51.47,
+   "end": 52.57,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 51.87,
+   "end": 52.97,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_468",
+   "file": "el_468.mp4",
+   "start": 11.37,
+   "end": 11.92,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 76.77,
+   "end": 77.32,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 48.47,
+   "end": 49.57,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 24.17,
+   "end": 25.27,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 10.77,
+   "end": 11.87,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 9.24,
+   "end": 24.64,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "dialogue"
+  },
+  {
+   "id": "el_468",
+   "file": "el_468.mp4",
+   "start": 14.17,
+   "end": 15.27,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 54.27,
+   "end": 54.82,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 72.37,
+   "end": 72.92,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 30.17,
+   "end": 31.27,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 43.27,
+   "end": 44.37,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 48.87,
+   "end": 49.42,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 32.37,
+   "end": 32.92,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 34.47,
+   "end": 35.57,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 2.39,
+   "end": 15.59,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "dialogue"
+  },
+  {
+   "id": "el_250",
+   "file": "el_250.mp4",
+   "start": 45.27,
+   "end": 45.82,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 55.27,
+   "end": 55.82,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 44.67,
+   "end": 45.77,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 41.87,
+   "end": 42.42,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 26.47,
+   "end": 27.02,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 59.77,
+   "end": 60.32,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 38.57,
+   "end": 39.67,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 120.97,
+   "end": 121.52,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 22.57,
+   "end": 23.12,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 18.67,
+   "end": 19.22,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 18.57,
+   "end": 19.67,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 34.87,
+   "end": 35.42,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 14.67,
+   "end": 15.22,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "QdBZY2fkU-0",
+   "file": "trailer1.mp4",
+   "start": 70.57,
+   "end": 71.12,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "rz1B4B2yBZY",
+   "file": "launch_trailer.mkv",
+   "start": 20.77,
+   "end": 21.87,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "VQRLujxTm3c",
+   "file": "trailer2.mkv",
+   "start": 119.87,
+   "end": 120.42,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  },
+  {
+   "id": "el_1534",
+   "file": "el_1534.mp4",
+   "start": 32.07,
+   "end": 32.62,
+   "at": "2026-11-18T22:35:31.894039+05:30",
+   "video": "auto_v1",
+   "kind": "montage"
+  }
+ ],
+ "vet": {
+  "9NpPPCvj7m8": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Grand Theft Auto V | Official Gameplay Video (PS3)",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=9NpPPCvj7m8",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-20 05:56"
+  },
+  "_yl5ELcmugI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rockstar Games logo is present in the bottom-right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Grand Theft Auto VI: Out Now",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=_yl5ELcmugI",
+   "via": "official-channel",
+   "category": "gta",
+   "at": "2026-11-20 07:26"
+  },
+  "_rRTNvV_h7M": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA Online - The Cayo Perico Heist | PS4",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=_rRTNvV_h7M",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-20 07:27"
+  }
+ },
+ "videos": [],
+ "listing_cache": {
+  "https://www.youtube.com/@RockstarGames/videos|2026-11-20": [
+   {
+    "id": "_yl5ELcmugI",
+    "title": "Grand Theft Auto VI: Out Now",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=_yl5ELcmugI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "rz1B4B2yBZY",
+    "title": "Grand Theft Auto VI Launch Trailer",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=rz1B4B2yBZY",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "tJbzMqJGH4k",
+    "title": "Grand Theft Auto VI: An Extended Look",
+    "duration": 1609,
+    "url": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "qq76pQsI1iw",
+    "title": "Grand Theft Auto VI: An Extended Look Coming August 27",
+    "duration": 26,
+    "url": "https://www.youtube.com/watch?v=qq76pQsI1iw",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "vK_IL6V17Js",
+    "title": "GTA Online: The Kortz Center Heist Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=vK_IL6V17Js",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "EiQEBYDox_k",
+    "title": "Grand Theft Auto VI: Official Cover Art Reveal",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=EiQEBYDox_k",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "gxfMjFuJD7s",
+    "title": "LD Organics Presents: The 420 Event in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=gxfMjFuJD7s",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "T7aaNEW7zA0",
+    "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "n2EtF9sKW6w",
+    "title": "New Deadline Duet Mode in GTA Online",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=n2EtF9sKW6w",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "c7g4IRJXLSo",
+    "title": "Celebrate the Holidays in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=c7g4IRJXLSo",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "PrOfeyc0XRU",
+    "title": "The Futuristic New Progen Luiva Supercar Arrives in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=PrOfeyc0XRU",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "45--ZVLkmks",
+    "title": "GTA Online: A Safehouse in the Hills Now Available",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=45--ZVLkmks",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "APJ-lT0sBhg",
+    "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "tqLMoW7oEbA",
+    "title": "Red Dead Redemption: Out Now on Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=tqLMoW7oEbA",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "taD8vci4fGI",
+    "title": "GTA Online: A Safehouse in the Hills Coming This December",
+    "duration": 17,
+    "url": "https://www.youtube.com/watch?v=taD8vci4fGI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "SlkizyzZ8k4",
+    "title": "Red Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=SlkizyzZ8k4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "GbuCIrZSPDk",
+    "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "4Pcg9NVGMxg",
+    "title": "Red Dead Online: Strange Tales of the West",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=4Pcg9NVGMxg",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "GJAs5sjujHg",
+    "title": "GTA Online: Money Fronts Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=GJAs5sjujHg",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "VQRLujxTm3c",
+    "title": "Grand Theft Auto VI Trailer 2",
+    "duration": 167,
+    "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "dtJj0So2yq4",
+    "title": "Experience the Best Version of GTAV and GTA Online on PC with GTAV Enhanced",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=dtJj0So2yq4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "VrJZmOerpCE",
+    "title": "GTA Online: Oscar Guzman Flies Again Now Available",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=VrJZmOerpCE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "exoS8ZitDGE",
+    "title": "Three New Drift Races Now in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=exoS8ZitDGE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "iWrJLsLICI0",
+    "title": "Celebrate Lunar New Year in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=iWrJLsLICI0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "s5Ym4EuvinU",
+    "title": "Happy Holidays from GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=s5Ym4EuvinU",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "YW9VXUgoG6w",
+    "title": "GTA Online: Agents of Sabotage Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "T3ZaWDcPiIo",
+    "title": "GTA Online: Agents of Sabotage Coming December 10",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "LrUQojs0pGI",
+    "title": "Red Dead Redemption and Undead Nightmare Now on PC",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=LrUQojs0pGI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "XDX66qVWCXs",
+    "title": "New GTA Online Ludendorff Cemetery Survival",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=XDX66qVWCXs",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "mnvc6uC6xZE",
+    "title": "Red Dead Redemption and Undead Nightmare Coming to PC October 29",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=mnvc6uC6xZE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "8sGLMQMla8o",
+    "title": "Battle it Out in GTA Online's New Assault on ATT-16 Mode",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=8sGLMQMla8o",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "nWUj1my-rsU",
+    "title": "Dish Out Pies in New GTA Online Pizza Deliveries",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=nWUj1my-rsU",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "McGnGYu_H8I",
+    "title": "Paint the Town Red, White, and Blue With GTA Online Independence Day Bonuses",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=McGnGYu_H8I",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "_SgqsxXk8_E",
+    "title": "GTA Online: Bottom Dollar Bounties Out Now",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "ewAODca-3Bw",
+    "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=ewAODca-3Bw",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "4ki_how7P18",
+    "title": "Benefactor Takes Over the GTA Online Auto Scene",
+    "duration": 22,
+    "url": "https://www.youtube.com/watch?v=4ki_how7P18",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "TeoLfV5jBpQ",
+    "title": "Bask in Luxury With This Week’s GTA Online Dewbauchee Showcase",
+    "duration": 24,
+    "url": "https://www.youtube.com/watch?v=TeoLfV5jBpQ",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "R3HS6owS3P8",
+    "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=R3HS6owS3P8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "htg1EZE3LVk",
+    "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=htg1EZE3LVk",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "eXDB3XQyKDc",
+    "title": "Celebrate Lunar New Year in GTA Online",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=eXDB3XQyKDc",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "WcISFR43Jt4",
+    "title": "Speed to Victory in New GTA Online Drag Races",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=WcISFR43Jt4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "Sp1wvWZ_2MQ",
+    "title": "GTA Online: The Chop Shop Now Available",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "QdBZY2fkU-0",
+    "title": "Grand Theft Auto VI Trailer 1",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "X_9LogvOu7M",
+    "title": "Halloween in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=X_9LogvOu7M",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "MSpnhyTj7WI",
+    "title": "Celebrate Ten Years of Grand Theft Auto V",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=MSpnhyTj7WI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "KlylKoFgl80",
+    "title": "Red Dead Redemption and Undead Nightmare Now on Nintendo Switch and PS4",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=KlylKoFgl80",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "t5Nwgd_T1-4",
+    "title": "Red Dead Redemption and Undead Nightmare Coming to Switch and PS4",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=t5Nwgd_T1-4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "QGSF_8PQc5c",
+    "title": "GTA Online: The Mammoth Avenger",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=QGSF_8PQc5c",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "YlY9n7iM-5Q",
+    "title": "GTA Online: San Andreas Mercenaries Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "S1H8naXp8bE",
+    "title": "The Vinewood Car Club",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=S1H8naXp8bE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "IIm_pxD8Csk",
+    "title": "GTA Online: San Andreas Mercenaries Coming June 13",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=IIm_pxD8Csk",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "_kQ-v-yn8CM",
+    "title": "Los Santos Drug Wars: The Last Dose Out Now",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=_kQ-v-yn8CM",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "S0Q-Pbr2WP0",
+    "title": "Los Santos Drug Wars: The Last Dose Coming March 16",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=S0Q-Pbr2WP0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "0hzHIC_YdI4",
+    "title": "GTA Online: The New Eclipse Blvd Garage",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=0hzHIC_YdI4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "4PbJz21gVr8",
+    "title": "Discover the New Gun Van and Bolster Your Arsenal in GTA Online",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=4PbJz21gVr8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "_Xy-lF4DdMQ",
+    "title": "Expand Your Mind with GTA Online: Los Santos Drug Wars, Now Available",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=_Xy-lF4DdMQ",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "Ybq_FGtSCN8",
+    "title": "GTA Online: Los Santos Drug Wars Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=Ybq_FGtSCN8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "8342OEPIC1k",
+    "title": "The New BF Weevil Custom in GTA Online",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=8342OEPIC1k",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "nazn4-M9bZo",
+    "title": "The Dinka Kanjo SJ and Postlude",
+    "duration": 24,
+    "url": "https://www.youtube.com/watch?v=nazn4-M9bZo",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "lOzNwX9VvdQ",
+    "title": "The New Declasse Vigero ZX Muscle Car",
+    "duration": 22,
+    "url": "https://www.youtube.com/watch?v=lOzNwX9VvdQ",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "ncPdE1_oThA",
+    "title": "The New Declasse Draugur",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=ncPdE1_oThA",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "1xlr3-hK5rY",
+    "title": "GTA Online: The Criminal Enterprises Now Available",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=1xlr3-hK5rY",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "P3NBd3UjH5Y",
+    "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "lqiZdynJmag",
+    "title": "Grand Theft Auto V and GTA Online Out Now on PlayStation 5 and Xbox Series X|S",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=lqiZdynJmag",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "KfP8WyMs8PY",
+    "title": "GTA Online: Short Trips with Franklin and Lamar",
+    "duration": 25,
+    "url": "https://www.youtube.com/watch?v=KfP8WyMs8PY",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "HOZMnW4MBmM",
+    "title": "MOTOMAMI Los Santos",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=HOZMnW4MBmM",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "z9zGV59xj54",
+    "title": "GTA Online: The Contract - Out Now",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=z9zGV59xj54",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "aLUGHQq2aek",
+    "title": "GTA Online: The Contract – Coming December 15",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=aLUGHQq2aek",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "H4rYVsJ4v9Y",
+    "title": "Grand Theft Auto: San Andreas – The Definitive Edition Comparison Video",
+    "duration": 42,
+    "url": "https://www.youtube.com/watch?v=H4rYVsJ4v9Y",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "QYAMp13Yi04",
+    "title": "Grand Theft Auto: Vice City – The Definitive Edition Comparison Video",
+    "duration": 34,
+    "url": "https://www.youtube.com/watch?v=QYAMp13Yi04",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "lEQ4XD8KuUs",
+    "title": "Grand Theft Auto III – The Definitive Edition Comparison Video",
+    "duration": 43,
+    "url": "https://www.youtube.com/watch?v=lEQ4XD8KuUs",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "vFLHoGqL52A",
+    "title": "Red Dead Online: The Halloween Pass 2",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=vFLHoGqL52A",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "D71cBUeAL58",
+    "title": "Grand Theft Auto: The Trilogy – The Definitive Edition Trailer",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=D71cBUeAL58",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "7x7zr1onxfU",
+    "title": "Grand Theft Auto: The Trilogy – The Definitive Edition Coming Soon",
+    "duration": 26,
+    "url": "https://www.youtube.com/watch?v=7x7zr1onxfU",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "tp_umr12nxo",
+    "title": "The Quick Draw Club No. 4 in Red Dead Online",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=tp_umr12nxo",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "VNbONMSObfs",
+    "title": "Grand Theft Auto V and Grand Theft Auto Online for PS5 and Xbox Series X|S – Coming March 2022",
+    "duration": 71,
+    "url": "https://www.youtube.com/watch?v=VNbONMSObfs",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "IYoTuQuvFyY",
+    "title": "Red Dead Online: The Quick Draw Club No. 3",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=IYoTuQuvFyY",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "mCt3914hUO8",
+    "title": "Red Dead Online: The Quick Draw Club No. 2",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=mCt3914hUO8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "mP6KvFnltWc",
+    "title": "GTA Online: Los Santos Tuners — Out Now",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=mP6KvFnltWc",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "Iv28sAKcv6I",
+    "title": "Rockstar Games — GTA Online Tuners",
+    "duration": 12,
+    "url": "https://www.youtube.com/watch?v=Iv28sAKcv6I",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "sPLD6LS_TIk",
+    "title": "GTA Online: Los Santos Tuners",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=sPLD6LS_TIk",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "Dv4tiHBFcyM",
+    "title": "Red Dead Online: Blood Money — Out Now",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=Dv4tiHBFcyM",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "HA93zL3OONI",
+    "title": "New Survival Maps Arrive in GTA Online",
+    "duration": 13,
+    "url": "https://www.youtube.com/watch?v=HA93zL3OONI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "M-upEDKRxDk",
+    "title": "Red Dead Online: The Quick Draw Club",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=M-upEDKRxDk",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "2mPBTTi3PDo",
+    "title": "Red Dead Online: Blood Money",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=2mPBTTi3PDo",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "DkbW40UwPg8",
+    "title": "GTA Online: Deadline — Return of the Shotaro",
+    "duration": 13,
+    "url": "https://www.youtube.com/watch?v=DkbW40UwPg8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "framx7S6Uf0",
+    "title": "Introducing New GTA Online Stunt Races",
+    "duration": 13,
+    "url": "https://www.youtube.com/watch?v=framx7S6Uf0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "vW8ogR7IgdE",
+    "title": "Red Dead Online: The Outlaw Pass No. 5",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=vW8ogR7IgdE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "mUguDmiNH9E",
+    "title": "GTA Online: Visit the Island of Cayo Perico",
+    "duration": 29,
+    "url": "https://www.youtube.com/watch?v=mUguDmiNH9E",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "mN7JB9MFhSM",
+    "title": "Now Performing in Los Santos: Palms Trax",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=mN7JB9MFhSM",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "iDuKVJ1k-Ao",
+    "title": "Now Performing in Los Santos: Keinemusik",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=iDuKVJ1k-Ao",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "edkmTelgeME",
+    "title": "“1988” by Moodymann",
+    "duration": 88,
+    "url": "https://www.youtube.com/watch?v=edkmTelgeME",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "j1nF_MOfqwI",
+    "title": "Now Performing in Los Santos: Moodymann",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=j1nF_MOfqwI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "tyDRtSUYTRs",
+    "title": "GTA Online: The Cayo Perico Heist",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=tyDRtSUYTRs",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "S_r1AtXNJ3c",
+    "title": "Red Dead Online: The Outlaw Pass No. 4",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=S_r1AtXNJ3c",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "cWJzdDnrH_M",
+    "title": "Red Dead Online Standalone Now Available",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=cWJzdDnrH_M",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "RbsH6Yzdoqw",
+    "title": "Red Dead Online: Bounty Hunters",
+    "duration": 54,
+    "url": "https://www.youtube.com/watch?v=RbsH6Yzdoqw",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "m50a3OLCLBQ",
+    "title": "surveil.exe",
+    "duration": 11,
+    "url": "https://www.youtube.com/watch?v=m50a3OLCLBQ",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "bUIpeD0tA8g",
+    "title": "The Cayo Perico Heist: Coming December 15 to GTA Online",
+    "duration": 25,
+    "url": "https://www.youtube.com/watch?v=bUIpeD0tA8g",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "8BJ0P0TrSv0",
+    "title": "Red Dead Online: The Halloween Pass",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=8BJ0P0TrSv0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "StEaAZ_Ywj4",
+    "title": "GTA Online: Los Santos Summer Special",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=StEaAZ_Ywj4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "kXQ4or04Ll4",
+    "title": "Red Dead Online: The Outlaw Pass No. 3",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=kXQ4or04Ll4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "88xOfZEKEag",
+    "title": "Red Dead Online: The Naturalist",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=88xOfZEKEag",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "foUaOCzfIRU",
+    "title": "Grand Theft Auto V - Coming to New Generation Consoles",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=foUaOCzfIRU",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "_7i-GJTXFaA",
+    "title": "Live Performance of \"Far Away\" by Jose Gonzalez",
+    "duration": 150,
+    "url": "https://www.youtube.com/watch?v=_7i-GJTXFaA",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "2-jX9MrOXoE",
+    "title": "Red Dead Redemption 2 – Available on the Rockstar Games Launcher",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=2-jX9MrOXoE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "-HIv_Uj1ERE",
+    "title": "Grand Theft Auto V – Available on the Rockstar Games Launcher",
+    "duration": 75,
+    "url": "https://www.youtube.com/watch?v=-HIv_Uj1ERE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "KR2oMr4gdVU",
+    "title": "Max Payne 3 – Available on the Rockstar Games Launcher",
+    "duration": 75,
+    "url": "https://www.youtube.com/watch?v=KR2oMr4gdVU",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "rY37u6ykezc",
+    "title": "L.A. Noire – Available on the Rockstar Games Launcher",
+    "duration": 48,
+    "url": "https://www.youtube.com/watch?v=rY37u6ykezc",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "w6wXVLrISD0",
+    "title": "Bully: Scholarship Edition – Available on the Rockstar Games Launcher",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=w6wXVLrISD0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "ZQzIZkxsWYw",
+    "title": "Grand Theft Auto IV: Complete Edition – Available on the Rockstar Games Launcher",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=ZQzIZkxsWYw",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "NgO8TVaC24o",
+    "title": "GTA Online: Open Wheel Racing",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=NgO8TVaC24o",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "V6pobDNCx9Y",
+    "title": "Red Dead Online: The Outlaw Pass No. 2",
+    "duration": 29,
+    "url": "https://www.youtube.com/watch?v=V6pobDNCx9Y",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "J4nMeH6DaOI",
+    "title": "Red Dead Online: Moonshiners",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=J4nMeH6DaOI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "mZKi3ANavo8",
+    "title": "“Ready to Go” by Baauer and Channel Tres feat. Danny Brown",
+    "duration": 115,
+    "url": "https://www.youtube.com/watch?v=mZKi3ANavo8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "UUmKwJD76GY",
+    "title": "GTA Online: The Diamond Casino Heist",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=UUmKwJD76GY",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "g-WKpapqVU8",
+    "title": "Red Dead Redemption 2 PC Launch Trailer",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=g-WKpapqVU8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "SXvQ1nK4oxk",
+    "title": "Red Dead Redemption 2 PC Trailer",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=SXvQ1nK4oxk",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "NVgYg-8pxeI",
+    "title": "Red Dead Online: Legendary Bounties",
+    "duration": 37,
+    "url": "https://www.youtube.com/watch?v=NVgYg-8pxeI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "396Qe1T2GVw",
+    "title": "Red Dead Online: Frontier Pursuits",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=396Qe1T2GVw",
+    "channel": "Rockstar Games",
+    "verified": true
+   }
+  ]
+ },
+ "song_fail": {},
+ "pre_vet": {
+  "kfzrQGU6jhM": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:35"
+  },
+  "sPLD6LS_TIk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:37"
+  },
+  "GbuCIrZSPDk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:40"
+  },
+  "-HIv_Uj1ERE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:42"
+  },
+  "Sp1wvWZ_2MQ": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:45"
+  },
+  "T7aaNEW7zA0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:47"
+  },
+  "YW9VXUgoG6w": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:50"
+  },
+  "R3HS6owS3P8": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:52"
+  },
+  "dtJj0So2yq4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:55"
+  },
+  "tJbzMqJGH4k": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:56"
+  },
+  "9NpPPCvj7m8": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:56"
+  },
+  "vAAvocR04_Y": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:58"
+  },
+  "EiQEBYDox_k": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:01"
+  },
+  "Cm8CkXhPcrE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:03"
+  },
+  "ewAODca-3Bw": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:06"
+  },
+  "0hzHIC_YdI4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:08"
+  },
+  "aLUGHQq2aek": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:11"
+  },
+  "mP6KvFnltWc": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:14"
+  },
+  "_SgqsxXk8_E": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:16"
+  },
+  "StEaAZ_Ywj4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:19"
+  },
+  "wiW1mpHZb_Y": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:21"
+  },
+  "YlY9n7iM-5Q": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:24"
+  },
+  "UUmKwJD76GY": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:26"
+  },
+  "N-xHcvug3WI": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:28"
+  },
+  "VNbONMSObfs": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:29"
+  },
+  "1xlr3-hK5rY": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:32"
+  },
+  "HqZXw5M6qQY": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:33"
+  },
+  "foUaOCzfIRU": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:34"
+  },
+  "GJAs5sjujHg": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:37"
+  },
+  "BUeeLF2agZY": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:39"
+  },
+  "NgO8TVaC24o": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:42"
+  },
+  "n2EtF9sKW6w": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:45"
+  },
+  "QYAMp13Yi04": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:47"
+  },
+  "8-DRGbQ1IXc": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:50"
+  },
+  "T3ZaWDcPiIo": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:52"
+  },
+  "5FBipicBoJg": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:55"
+  },
+  "lX_IN4v-RnA": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:57"
+  },
+  "ZQzIZkxsWYw": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:00"
+  },
+  "htg1EZE3LVk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:02"
+  },
+  "P3NBd3UjH5Y": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:05"
+  },
+  "H4rYVsJ4v9Y": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:08"
+  },
+  "0M71BMAgSSs": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:09"
+  },
+  "tyDRtSUYTRs": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:10"
+  },
+  "olEGtoYs_8A": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:12"
+  },
+  "3PiR0G3rVw8": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:13"
+  },
+  "vK_IL6V17Js": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:16"
+  },
+  "45--ZVLkmks": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:18"
+  },
+  "APJ-lT0sBhg": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:21"
+  },
+  "IIm_pxD8Csk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:23"
+  },
+  "_yl5ELcmugI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rockstar Games logo is present in the bottom-right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:26"
+  },
+  "_rRTNvV_h7M": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:27"
+  },
+  "Ybq_FGtSCN8": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:28"
+  },
+  "lqiZdynJmag": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:31"
+  },
+  "DyQ5MNkl6SA": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:33"
+  },
+  "kMCtod_2iQ0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:36"
+  },
+  "lEQ4XD8KuUs": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:38"
+  },
+  "WY4IaylJXvA": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:02"
+  },
+  "Bf38HiYPMiI": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:18"
+  },
+  "zpkbwr0HpCc": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:20"
+  },
+  "587-lLYxzPw": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:31"
+  }
+ },
+ "failures": [
+  {
+   "at": "2026-11-20T13:10:16.570713+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T14:14:32.103573+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "RuntimeError: only 0 clean sources for gta"
+  }
+ ]
+}
