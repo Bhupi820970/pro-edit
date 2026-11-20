@@ -3081,6 +3081,23 @@
    "via": "official-channel",
    "category": "gta",
    "at": "2026-11-19 22:44"
+  },
+  "_rRTNvV_h7M": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA Online - The Cayo Perico Heist | PS4",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=_rRTNvV_h7M",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-20 06:26"
   }
  },
  "videos": [],
@@ -4373,6 +4390,57 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-19 22:56"
+  },
+  "kMCtod_2iQ0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:38"
+  },
+  "kfzrQGU6jhM": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 05:56"
+  },
+  "5FBipicBoJg": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:15"
+  },
+  "_rRTNvV_h7M": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:26"
+  },
+  "7oFmRN0oadI": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 06:31"
+  },
+  "R_WoJEId6Ag": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:09"
+  },
+  "yhZZa9jpGmY": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:11"
+  },
+  "XAOUlsrmzYM": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:26"
   }
  },
  "failures": [
@@ -4396,6 +4464,24 @@
   },
   {
    "at": "2026-11-20T07:19:07.835705+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T12:05:37.226587+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T13:02:34.944794+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T14:00:58.570320+05:30",
    "platform": "instagram",
    "category": "gta",
    "error": "RuntimeError: only 0 clean sources for gta"

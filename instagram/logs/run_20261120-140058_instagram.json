@@ -1,0 +1,391 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 152,
+  "vetted": 1,
+  "rejected": [
+   {
+    "id": "_rRTNvV_h7M",
+    "title": "GTA Online - The Cayo Perico Heist | PS4",
+    "reasons": [
+     "PlayStation channel logo in the top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 133,
+  "fallback_used": true,
+  "thin": [
+   "gta"
+  ],
+  "failed_ids": [
+   "Sp1wvWZ_2MQ",
+   "kMCtod_2iQ0",
+   "sPLD6LS_TIk",
+   "45--ZVLkmks",
+   "GJAs5sjujHg",
+   "lX_IN4v-RnA",
+   "0M71BMAgSSs",
+   "P3NBd3UjH5Y",
+   "UUmKwJD76GY",
+   "_SgqsxXk8_E",
+   "StEaAZ_Ywj4",
+   "GbuCIrZSPDk",
+   "lqiZdynJmag",
+   "Ybq_FGtSCN8",
+   "dtJj0So2yq4",
+   "ZQzIZkxsWYw",
+   "kfzrQGU6jhM",
+   "ewAODca-3Bw",
+   "NgO8TVaC24o",
+   "-HIv_Uj1ERE",
+   "lEQ4XD8KuUs",
+   "R3HS6owS3P8",
+   "1xlr3-hK5rY",
+   "YlY9n7iM-5Q",
+   "_yl5ELcmugI",
+   "APJ-lT0sBhg",
+   "n2EtF9sKW6w",
+   "0hzHIC_YdI4",
+   "wiW1mpHZb_Y",
+   "N-xHcvug3WI",
+   "aLUGHQq2aek",
+   "foUaOCzfIRU",
+   "5FBipicBoJg",
+   "olEGtoYs_8A",
+   "T3ZaWDcPiIo",
+   "T7aaNEW7zA0",
+   "tyDRtSUYTRs",
+   "vK_IL6V17Js",
+   "VNbONMSObfs",
+   "H4rYVsJ4v9Y",
+   "mP6KvFnltWc",
+   "3PiR0G3rVw8",
+   "DyQ5MNkl6SA",
+   "htg1EZE3LVk",
+   "EiQEBYDox_k",
+   "7oFmRN0oadI",
+   "QYAMp13Yi04",
+   "tJbzMqJGH4k",
+   "HqZXw5M6qQY",
+   "vAAvocR04_Y",
+   "IIm_pxD8Csk",
+   "T3ZaWDcPiIo",
+   "EiQEBYDox_k",
+   "hNmOP6_njhw",
+   "Sp1wvWZ_2MQ",
+   "0hzHIC_YdI4",
+   "lqiZdynJmag",
+   "IIm_pxD8Csk",
+   "0M71BMAgSSs",
+   "kfzrQGU6jhM",
+   "dtJj0So2yq4",
+   "H4rYVsJ4v9Y",
+   "htg1EZE3LVk",
+   "Ybq_FGtSCN8",
+   "_yl5ELcmugI",
+   "GJAs5sjujHg",
+   "DyQ5MNkl6SA",
+   "zpkbwr0HpCc",
+   "UUmKwJD76GY",
+   "GbuCIrZSPDk",
+   "P3NBd3UjH5Y",
+   "StEaAZ_Ywj4",
+   "lX_IN4v-RnA",
+   "foUaOCzfIRU",
+   "vK_IL6V17Js",
+   "R3HS6owS3P8",
+   "kMCtod_2iQ0",
+   "tyDRtSUYTRs",
+   "ewAODca-3Bw",
+   "NgO8TVaC24o",
+   "sPLD6LS_TIk",
+   "-HIv_Uj1ERE",
+   "HqZXw5M6qQY",
+   "mP6KvFnltWc",
+   "VNbONMSObfs",
+   "N-xHcvug3WI",
+   "YlY9n7iM-5Q",
+   "45--ZVLkmks",
+   "1xlr3-hK5rY",
+   "_SgqsxXk8_E",
+   "n2EtF9sKW6w",
+   "tJbzMqJGH4k",
+   "3PiR0G3rVw8",
+   "APJ-lT0sBhg",
+   "T7aaNEW7zA0",
+   "lEQ4XD8KuUs",
+   "olEGtoYs_8A",
+   "vAAvocR04_Y",
+   "ZQzIZkxsWYw",
+   "QYAMp13Yi04",
+   "aLUGHQq2aek",
+   "wiW1mpHZb_Y",
+   "UUmKwJD76GY",
+   "DyQ5MNkl6SA",
+   "HqZXw5M6qQY",
+   "kMCtod_2iQ0",
+   "kfzrQGU6jhM",
+   "45--ZVLkmks",
+   "NgO8TVaC24o",
+   "_SgqsxXk8_E",
+   "mP6KvFnltWc",
+   "foUaOCzfIRU",
+   "sPLD6LS_TIk",
+   "StEaAZ_Ywj4",
+   "n2EtF9sKW6w",
+   "VNbONMSObfs",
+   "zpkbwr0HpCc",
+   "APJ-lT0sBhg",
+   "N-xHcvug3WI",
+   "YlY9n7iM-5Q",
+   "GbuCIrZSPDk",
+   "_yl5ELcmugI",
+   "H4rYVsJ4v9Y",
+   "tJbzMqJGH4k",
+   "T3ZaWDcPiIo",
+   "QYAMp13Yi04",
+   "lqiZdynJmag",
+   "GJAs5sjujHg",
+   "lEQ4XD8KuUs",
+   "3PiR0G3rVw8",
+   "IIm_pxD8Csk",
+   "vAAvocR04_Y",
+   "P3NBd3UjH5Y",
+   "htg1EZE3LVk",
+   "R_WoJEId6Ag",
+   "yhZZa9jpGmY",
+   "-HIv_Uj1ERE",
+   "0hzHIC_YdI4",
+   "EiQEBYDox_k",
+   "Ybq_FGtSCN8",
+   "1xlr3-hK5rY",
+   "ZQzIZkxsWYw",
+   "T7aaNEW7zA0",
+   "vK_IL6V17Js",
+   "Sp1wvWZ_2MQ",
+   "ewAODca-3Bw",
+   "tyDRtSUYTRs",
+   "XAOUlsrmzYM",
+   "olEGtoYs_8A",
+   "aLUGHQq2aek",
+   "R3HS6owS3P8",
+   "dtJj0So2yq4"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}

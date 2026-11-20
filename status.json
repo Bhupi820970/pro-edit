@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T08:14:02.107308+05:30",
+ "updated": "2026-11-20T14:01:09.064444+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "instagram": {
@@ -46,12 +46,40 @@
    "platform": "instagram",
    "category": "gta",
    "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T12:05:37.226587+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T13:02:34.944794+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T14:00:58.570320+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "RuntimeError: only 0 clean sources for gta"
   }
  ],
  "box_fetcher": {
-  "last_run": null,
+  "last_run": "2026-11-20T10:31:47.605988+05:30",
+  "age_hours": 3.5,
   "healthy": false,
-  "message": "box fetcher has never reported"
+  "pool": {
+   "gta": 21,
+   "gaming": 15,
+   "movie": 21,
+   "sports": 15,
+   "romance": 15,
+   "series": 15
+  },
+  "errors": [],
+  "message": "BOX FETCHER DOWN for 3h: run `bash scripts/box_fetch_service.sh start` on the box"
  },
  "warning": true,
  "message": "BACKUP LOW: refill instagram (0/7 ready) | BACKUP LOW: refill youtube (0/7 ready)"
