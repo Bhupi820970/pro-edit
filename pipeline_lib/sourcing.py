@@ -25,6 +25,8 @@ from .util import home, log, run, probe, REPO
 from .gemini import GeminiError, LITE_MODELS, FULL_MODELS
 from .titles import SINGLE_WORK_CATEGORIES, is_full_scene_upload, is_gta_title, is_trailer_title, player_name, work_title
 
+BLOCKED_CHANNELS = {"clip kings", "clip empire"}
+
 YTDLP_CLIENT_FALLBACKS = [
     [],                                                        # default clients (+ PO-token plugin if installed)
     ["--extractor-args", "youtube:player_client=tv,web_safari"],
@@ -189,11 +191,24 @@ def fetch_ytimg(url: str, dest: Path, timeout: float = 12) -> bool:
 
 
 def ytdlp_cookie_args() -> list[str]:
-    """Cookies from the box Chrome profile, an explicit browser, or a cookies.txt path.
+    """Cookies from env (YT_COOKIES raw or base64), VICE_YT_COOKIES, browser, or cookies.txt.
 
-    Never committed. On GitHub Actions this stays off unless VICE_YT_COOKIES* is set.
+    If YT_COOKIES is set (raw Netscape or base64), write to temp and pass --cookies.
     """
     import os
+    import tempfile
+    import base64
+    cookies_env = (os.environ.get("YT_COOKIES") or "").strip()
+    if cookies_env:
+        try:
+            if not cookies_env.startswith("#") and not "\t" in cookies_env[:100]:
+                cookies_env = base64.b64decode(cookies_env).decode("utf-8", errors="ignore")
+            fd, path = tempfile.mkstemp(suffix=".txt", prefix="ytcookies_")
+            os.write(fd, cookies_env.encode())
+            os.close(fd)
+            return ["--cookies", path]
+        except Exception:
+            pass
     browser = (os.environ.get("VICE_YT_COOKIES_BROWSER") or "").strip()
     if not browser and not os.environ.get("GITHUB_ACTIONS"):
         chrome = Path.home() / ".config/google-chrome/Default/Cookies"

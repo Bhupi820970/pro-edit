@@ -2,8 +2,9 @@ name: produce-videos
 
 on:
   schedule:
-    # IST 05:30, 11:30, 17:30, 23:30 — keep 7 ready videos per platform (buffer top-up)
-    - cron: "0 0,6,12,18 * * *"
+    # 7x daily IST (approx 05:30, 08:30, 11:30, 14:30, 17:30, 20:30, 23:30)
+    # UTC equivalents: 00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00
+    - cron: "0 0,3,6,9,12,15,18 * * *"
   workflow_dispatch:
     inputs:
       platform: {description: "youtube | instagram | both", default: "both", required: true}
@@ -195,4 +196,13 @@ jobs:
             git push -q origin pipeline-state && break
             sleep $((i * 7))
           done
+
+      - name: Commit updated history.json + queue.json
+        if: always()
+        run: |
+          git config user.name "vice-pipeline-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add history.json inbox/queue.json || true
+          git commit -m "pipeline: update history + queue after run ${{ github.run_id }}" || true
+          git push || true
 
