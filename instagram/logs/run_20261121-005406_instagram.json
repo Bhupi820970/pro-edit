@@ -1,0 +1,707 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 221,
+  "vetted": 19,
+  "rejected": [
+   {
+    "id": "IXxqCr9YO5o",
+    "title": "I'm playing GTA 6 the proper way",
+    "reasons": [
+     "channel logo present in top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "-52PESMeWzE",
+    "title": "GTA 5 First Person Experience, Online Heists and Much More (Rockstar Games Q&A)",
+    "reasons": [
+     "channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "_SgqsxXk8_E",
+    "title": "GTA Online: Bottom Dollar Bounties Out Now",
+    "reasons": [
+     "Promotional trailer content is explicitly not allowed",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "T3ZaWDcPiIo",
+    "title": "GTA Online: Agents of Sabotage Coming December 10",
+    "reasons": [
+     "Trailer or promo material, not a full scene or episode",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "T7aaNEW7zA0",
+    "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+    "reasons": [
+     "Trailer or promotional teaser video which is rejected for scene edits.",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "GJAs5sjujHg",
+    "title": "GTA Online: Money Fronts Now Available",
+    "reasons": [
+     "trailer",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "IIm_pxD8Csk",
+    "title": "GTA Online: San Andreas Mercenaries Coming June 13",
+    "reasons": [
+     "only 360p (< 720p)"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "APJ-lT0sBhg",
+    "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+    "reasons": [
+     "trailers, teasers, promos and TV spots are rejected entirely",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "n2EtF9sKW6w",
+    "title": "New Deadline Duet Mode in GTA Online",
+    "reasons": [
+     "promo trailer or teaser",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "ewAODca-3Bw",
+    "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+    "reasons": [
+     "trailer",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "vK_IL6V17Js",
+    "title": "GTA Online: The Kortz Center Heist Now Available",
+    "reasons": [
+     "only 360p (< 720p)"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "GbuCIrZSPDk",
+    "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+    "reasons": [
+     "Trailer or promotional clip rather than full scene",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "EiQEBYDox_k",
+    "title": "Grand Theft Auto VI: Official Cover Art Reveal",
+    "reasons": [
+     "only 360p (< 720p)"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Sp1wvWZ_2MQ",
+    "title": "GTA Online: The Chop Shop Now Available",
+    "reasons": [
+     "trailers, teasers, promos and TV spots entirely are rejected",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "dtJj0So2yq4",
+    "title": "Experience the Best Version of GTAV and GTA Online on PC with GTAV Enhanced",
+    "reasons": [
+     "promotional trailer",
+     "burned-in text overlays throughout",
+     "flag:burned_subtitles",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "_yl5ELcmugI",
+    "title": "Grand Theft Auto VI: Out Now",
+    "reasons": [
+     "trailers teasers promos and TV spots entirely rejected",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "0hzHIC_YdI4",
+    "title": "GTA Online: The New Eclipse Blvd Garage",
+    "reasons": [
+     "promotional trailer",
+     "burned-in text overlays",
+     "flag:burned_subtitles",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "R3HS6owS3P8",
+    "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+    "reasons": [
+     "trailer",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "htg1EZE3LVk",
+    "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+    "reasons": [
+     "Source is a game update trailer/promo rather than a full scene or official clip",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 189,
+  "fallback_used": true,
+  "thin": [
+   "gta",
+   "movie",
+   "sports",
+   "romance"
+  ],
+  "failed_ids": [
+   "kfzrQGU6jhM",
+   "P3NBd3UjH5Y",
+   "lEQ4XD8KuUs",
+   "kMCtod_2iQ0",
+   "aLUGHQq2aek",
+   "HqZXw5M6qQY",
+   "mP6KvFnltWc",
+   "hNmOP6_njhw",
+   "N-xHcvug3WI",
+   "XAOUlsrmzYM",
+   "45--ZVLkmks",
+   "qaslWP_htu0",
+   "NgO8TVaC24o",
+   "Bf38HiYPMiI",
+   "QYAMp13Yi04",
+   "FAMuYy7E8rU",
+   "Ybq_FGtSCN8",
+   "OMfkFAB-nVY",
+   "zpkbwr0HpCc",
+   "tyDRtSUYTRs",
+   "8-DRGbQ1IXc",
+   "wiW1mpHZb_Y",
+   "lqiZdynJmag",
+   "UUmKwJD76GY",
+   "-HIv_Uj1ERE",
+   "olEGtoYs_8A",
+   "sPLD6LS_TIk",
+   "H4rYVsJ4v9Y",
+   "StEaAZ_Ywj4",
+   "lX_IN4v-RnA",
+   "DyQ5MNkl6SA",
+   "VNbONMSObfs",
+   "vAAvocR04_Y",
+   "ZQzIZkxsWYw",
+   "1xlr3-hK5rY",
+   "tJbzMqJGH4k",
+   "foUaOCzfIRU",
+   "0M71BMAgSSs",
+   "YlY9n7iM-5Q",
+   "45--ZVLkmks",
+   "-HIv_Uj1ERE",
+   "NgO8TVaC24o",
+   "lqiZdynJmag",
+   "N-xHcvug3WI",
+   "tyDRtSUYTRs",
+   "P3NBd3UjH5Y",
+   "mP6KvFnltWc",
+   "wiW1mpHZb_Y",
+   "vAAvocR04_Y",
+   "sPLD6LS_TIk",
+   "ZQzIZkxsWYw",
+   "zpkbwr0HpCc",
+   "kfzrQGU6jhM",
+   "DyQ5MNkl6SA",
+   "YlY9n7iM-5Q",
+   "olEGtoYs_8A",
+   "hNmOP6_njhw",
+   "QYAMp13Yi04",
+   "VNbONMSObfs",
+   "H4rYVsJ4v9Y",
+   "HqZXw5M6qQY",
+   "lX_IN4v-RnA",
+   "foUaOCzfIRU",
+   "FAMuYy7E8rU",
+   "UUmKwJD76GY",
+   "aLUGHQq2aek",
+   "tJbzMqJGH4k",
+   "1xlr3-hK5rY",
+   "Bf38HiYPMiI",
+   "XAOUlsrmzYM",
+   "Ybq_FGtSCN8",
+   "kMCtod_2iQ0",
+   "lEQ4XD8KuUs",
+   "8-DRGbQ1IXc",
+   "0M71BMAgSSs",
+   "StEaAZ_Ywj4",
+   "tyDRtSUYTRs",
+   "VNbONMSObfs",
+   "sPLD6LS_TIk",
+   "foUaOCzfIRU",
+   "mP6KvFnltWc",
+   "kMCtod_2iQ0",
+   "8-DRGbQ1IXc",
+   "45--ZVLkmks",
+   "DyQ5MNkl6SA",
+   "HqZXw5M6qQY",
+   "ZQzIZkxsWYw",
+   "N-xHcvug3WI",
+   "NgO8TVaC24o",
+   "kfzrQGU6jhM",
+   "StEaAZ_Ywj4",
+   "1xlr3-hK5rY",
+   "lX_IN4v-RnA",
+   "Bf38HiYPMiI",
+   "wiW1mpHZb_Y",
+   "YlY9n7iM-5Q",
+   "H4rYVsJ4v9Y",
+   "FAMuYy7E8rU",
+   "vAAvocR04_Y",
+   "lEQ4XD8KuUs",
+   "olEGtoYs_8A",
+   "Ybq_FGtSCN8",
+   "lqiZdynJmag",
+   "tJbzMqJGH4k",
+   "aLUGHQq2aek",
+   "QYAMp13Yi04",
+   "P3NBd3UjH5Y",
+   "UUmKwJD76GY",
+   "-HIv_Uj1ERE",
+   "foUaOCzfIRU",
+   "kMCtod_2iQ0",
+   "P3NBd3UjH5Y",
+   "vAAvocR04_Y",
+   "-HIv_Uj1ERE",
+   "zpkbwr0HpCc",
+   "FAMuYy7E8rU",
+   "Ybq_FGtSCN8",
+   "ZQzIZkxsWYw",
+   "hNmOP6_njhw",
+   "mP6KvFnltWc",
+   "DyQ5MNkl6SA",
+   "lEQ4XD8KuUs",
+   "UUmKwJD76GY",
+   "lqiZdynJmag",
+   "olEGtoYs_8A",
+   "aLUGHQq2aek",
+   "wiW1mpHZb_Y",
+   "YlY9n7iM-5Q",
+   "tJbzMqJGH4k",
+   "45--ZVLkmks",
+   "H4rYVsJ4v9Y",
+   "QYAMp13Yi04",
+   "N-xHcvug3WI",
+   "StEaAZ_Ywj4",
+   "0M71BMAgSSs",
+   "NgO8TVaC24o",
+   "tyDRtSUYTRs",
+   "1xlr3-hK5rY",
+   "lX_IN4v-RnA",
+   "sPLD6LS_TIk",
+   "VNbONMSObfs",
+   "8-DRGbQ1IXc",
+   "sO56CyHI5ek",
+   "-zd62MxKXp8",
+   "7a6gnRvQqHQ",
+   "o1BrK2KWifc",
+   "3oLh7QPp02Q",
+   "G3sYVK0c73k",
+   "3dWqAyPielA",
+   "Z67MBZTUQ2w",
+   "Fr3OrTNXR90",
+   "Le3FfVxbjEQ",
+   "-9lP95Qo-I0",
+   "XIW8e7Xi_l8",
+   "MQstdmVmZU8",
+   "XWISA6cBx34",
+   "0G10fR6EGwY",
+   "olEGtoYs_8A",
+   "H4rYVsJ4v9Y",
+   "foUaOCzfIRU",
+   "N-xHcvug3WI",
+   "sPLD6LS_TIk",
+   "aLUGHQq2aek",
+   "NgO8TVaC24o",
+   "ZQzIZkxsWYw",
+   "YlY9n7iM-5Q",
+   "lEQ4XD8KuUs",
+   "lqiZdynJmag",
+   "tJbzMqJGH4k",
+   "HqZXw5M6qQY",
+   "hNmOP6_njhw",
+   "-HIv_Uj1ERE",
+   "StEaAZ_Ywj4",
+   "8-DRGbQ1IXc",
+   "kfzrQGU6jhM",
+   "lX_IN4v-RnA",
+   "0M71BMAgSSs",
+   "1xlr3-hK5rY",
+   "tyDRtSUYTRs",
+   "vAAvocR04_Y",
+   "45--ZVLkmks",
+   "P3NBd3UjH5Y",
+   "wiW1mpHZb_Y",
+   "UUmKwJD76GY",
+   "kMCtod_2iQ0",
+   "DyQ5MNkl6SA",
+   "Ybq_FGtSCN8",
+   "mP6KvFnltWc",
+   "QYAMp13Yi04",
+   "zpkbwr0HpCc",
+   "VNbONMSObfs",
+   "o1BrK2KWifc",
+   "0G10fR6EGwY",
+   "TAyDe4Jepog",
+   "MQstdmVmZU8",
+   "3oLh7QPp02Q",
+   "3dWqAyPielA",
+   "XIW8e7Xi_l8",
+   "Le3FfVxbjEQ",
+   "Fr3OrTNXR90",
+   "7a6gnRvQqHQ",
+   "-9lP95Qo-I0",
+   "VlhU9OrikSA",
+   "sO56CyHI5ek",
+   "XWISA6cBx34",
+   "G3sYVK0c73k",
+   "XIW8e7Xi_l8",
+   "3oLh7QPp02Q",
+   "sO56CyHI5ek",
+   "TAyDe4Jepog",
+   "7a6gnRvQqHQ",
+   "G3sYVK0c73k",
+   "Le3FfVxbjEQ",
+   "0G10fR6EGwY",
+   "3dWqAyPielA",
+   "o1BrK2KWifc",
+   "MQstdmVmZU8",
+   "-9lP95Qo-I0",
+   "Fr3OrTNXR90",
+   "VlhU9OrikSA",
+   "XWISA6cBx34"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.1-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-flash-lite-latest",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3-flash-preview",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}

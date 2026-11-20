@@ -3390,6 +3390,783 @@
    "via": "youtube-search",
    "category": "gta",
    "at": "2026-11-20 08:21"
+  },
+  "IXxqCr9YO5o": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "I'm playing GTA 6 the proper way",
+   "channel": "Casual Kevduit",
+   "credit": "Casual Kevduit",
+   "url": "https://www.youtube.com/watch?v=IXxqCr9YO5o",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-20 15:01"
+  },
+  "-52PESMeWzE": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA 5 First Person Experience, Online Heists and Much More (Rockstar Games Q&A)",
+   "channel": "Olli43",
+   "credit": "Olli43",
+   "url": "https://www.youtube.com/watch?v=-52PESMeWzE",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-20 15:19"
+  },
+  "_SgqsxXk8_E": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "action-packed criminal bounty",
+   "summary": "A promotional trailer showcasing gameplay elements, character interactions, and action sequences from GTA Online Bottom Dollar Bounties.",
+   "reject_reasons": [
+    "Promotional trailer content is explicitly not allowed",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 8.0,
+     "end": 10.5,
+     "reason": "Title card"
+    },
+    {
+     "start": 22.0,
+     "end": 25.0,
+     "reason": "Title card transition"
+    },
+    {
+     "start": 26.0,
+     "end": 29.0,
+     "reason": "End slate with call to action"
+    }
+   ],
+   "characters": [
+    "Maude Eccles",
+    "Player Character"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: Bottom Dollar Bounties Out Now",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-20 15:45"
+  },
+  "T3ZaWDcPiIo": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "action packed criminal heist",
+   "summary": "Teaser trailer for GTA Online: Agents of Sabotage showing cutscenes, gameplay, and title cards.",
+   "reject_reasons": [
+    "Trailer or promo material, not a full scene or episode",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 25.0,
+     "end": 29.0,
+     "reason": "End title card and legal text"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: Agents of Sabotage Coming December 10",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-20 15:46"
+  },
+  "T7aaNEW7zA0": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "high speed street drift",
+   "summary": "An official promotional video/trailer showcasing drift tuning and events in GTA Online, featuring cinematic car drifting sequences, text cards, and promotional slates.",
+   "reject_reasons": [
+    "Trailer or promotional teaser video which is rejected for scene edits.",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 22.0,
+     "end": 29.0,
+     "reason": "Drift event title card and end slate with call to action text"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-20 15:46"
+  },
+  "GJAs5sjujHg": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "promotional game trailer",
+   "summary": "This is a promotional trailer for a GTA Online update, not a full scene or gameplay clip suitable for editing.",
+   "reject_reasons": [
+    "trailer",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 30.0,
+     "reason": "entire video is a promotional trailer"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: Money Fronts Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=GJAs5sjujHg",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-20 15:46"
+  },
+  "IIm_pxD8Csk": {
+   "accept": false,
+   "reject_reasons": [
+    "only 360p (< 720p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "GTA Online: San Andreas Mercenaries Coming June 13",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=IIm_pxD8Csk",
+   "via": "box-fetch",
+   "height": 360,
+   "duration": 30.000181,
+   "category": "gta",
+   "at": "2026-11-20 15:46"
+  },
+  "APJ-lT0sBhg": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "luxurious criminal action thriller",
+   "summary": "This footage is an official video game trailer for GTA Online: A Safehouse in the Hills, showcasing cinematic cutscenes, high-end real estate, luxury vehicles, and action sequences.",
+   "reject_reasons": [
+    "trailers, teasers, promos and TV spots are rejected entirely",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 9.5,
+     "end": 11.5,
+     "reason": "Title card"
+    },
+    {
+     "start": 54.2,
+     "end": 56.2,
+     "reason": "Title card / end slate"
+    }
+   ],
+   "characters": [
+    "Michael De Santa"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.0,
+    10.46,
+    17.92,
+    25.38,
+    32.84,
+    40.3,
+    47.77,
+    55.23
+   ],
+   "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 60.028,
+   "category": "gta",
+   "at": "2026-11-20 15:47"
+  },
+  "n2EtF9sKW6w": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "fast neon light cycle race",
+   "summary": "This video is an official promotional trailer for the Deadline Duet mode in GTA Online featuring light bikes, which must be rejected because it is a promo trailer rather than actual gameplay footage or a full scene.",
+   "reject_reasons": [
+    "promo trailer or teaser",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 25.0,
+     "end": 29.0,
+     "reason": "End title and play now card"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "New Deadline Duet Mode in GTA Online",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=n2EtF9sKW6w",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-20 15:47"
+  },
+  "ewAODca-3Bw": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "action crime trailer",
+   "summary": "This is a promotional trailer for a GTA Online update, not a clean scene for editing.",
+   "reject_reasons": [
+    "trailer",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0,
+     "end": 30
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=ewAODca-3Bw",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-20 15:47"
+  },
+  "vK_IL6V17Js": {
+   "accept": false,
+   "reject_reasons": [
+    "only 360p (< 720p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "GTA Online: The Kortz Center Heist Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=vK_IL6V17Js",
+   "via": "box-fetch",
+   "height": 360,
+   "duration": 30.069841,
+   "category": "gta",
+   "at": "2026-11-20 15:47"
+  },
+  "GbuCIrZSPDk": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "tense zombie survival action",
+   "summary": "An official promotional video and game trailer for GTA Online Cayo Perico Zombie Survival featuring gameplay footage of zombies and players.",
+   "reject_reasons": [
+    "Trailer or promotional clip rather than full scene",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 7.0,
+     "reason": "Rating screen and intro card"
+    },
+    {
+     "start": 23.0,
+     "end": 30.0,
+     "reason": "Title card and end slate promotional text"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-20 15:47"
+  },
+  "EiQEBYDox_k": {
+   "accept": false,
+   "reject_reasons": [
+    "only 360p (< 720p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "Grand Theft Auto VI: Official Cover Art Reveal",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=EiQEBYDox_k",
+   "via": "box-fetch",
+   "height": 360,
+   "duration": 32.725333,
+   "category": "gta",
+   "at": "2026-11-20 15:47"
+  },
+  "Sp1wvWZ_2MQ": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "action-packed criminal underworld",
+   "summary": "Official game trailer for GTA Online: The Chop Shop showcasing cars, action, and gameplay features.",
+   "reject_reasons": [
+    "trailers, teasers, promos and TV spots entirely are rejected",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "Rating screen"
+    },
+    {
+     "start": 26.0,
+     "end": 29.0,
+     "reason": "Title and end slate"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.96,
+    12.69,
+    16.42,
+    20.15,
+    23.88,
+    27.61
+   ],
+   "title": "GTA Online: The Chop Shop Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.008,
+   "category": "gta",
+   "at": "2026-11-20 15:48"
+  },
+  "dtJj0So2yq4": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "promotional gaming montage",
+   "summary": "This is a promotional trailer for GTA V on PC, featuring various gameplay clips overlaid with marketing text.",
+   "reject_reasons": [
+    "promotional trailer",
+    "burned-in text overlays throughout",
+    "flag:burned_subtitles",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 38.0,
+     "reason": "entire video is a promotional trailer with persistent text overlays"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.0,
+    6.98,
+    11.95,
+    16.93,
+    21.9,
+    26.88,
+    31.85,
+    36.83
+   ],
+   "title": "Experience the Best Version of GTAV and GTA Online on PC with GTAV Enhanced",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=dtJj0So2yq4",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 40.028,
+   "category": "gta",
+   "at": "2026-11-20 15:48"
+  },
+  "_yl5ELcmugI": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "promotional trailer teaser",
+   "summary": "Official promotional trailer for Grand Theft Auto VI featuring various in-game cinematic shots and promotional text overlays.",
+   "reject_reasons": [
+    "trailers teasers promos and TV spots entirely rejected",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 29.0,
+     "reason": "entire video is a promotional trailer"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.95,
+    12.68,
+    16.41,
+    20.13,
+    23.86,
+    27.59
+   ],
+   "title": "Grand Theft Auto VI: Out Now",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=_yl5ELcmugI",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 29.988,
+   "category": "gta",
+   "at": "2026-11-20 15:48"
+  },
+  "0hzHIC_YdI4": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "promotional luxury car showcase",
+   "summary": "A promotional trailer for a new GTA Online garage feature, containing persistent on-screen text overlays throughout the footage.",
+   "reject_reasons": [
+    "promotional trailer",
+    "burned-in text overlays",
+    "flag:burned_subtitles",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 30.0,
+     "reason": "persistent promotional text overlays throughout the entire clip"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: The New Eclipse Blvd Garage",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=0hzHIC_YdI4",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-20 15:48"
+  },
+  "R3HS6owS3P8": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "intense action heist",
+   "summary": "A promotional trailer for the GTA Online Cluckin' Bell Farm Raid, featuring cinematic shots of characters, police interactions, and high-speed combat sequences.",
+   "reject_reasons": [
+    "trailer",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.5,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 26.5,
+     "end": 30.0,
+     "reason": "end slate"
+    }
+   ],
+   "characters": [
+    "Vincent Effenburger"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=R3HS6owS3P8",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-20 15:50"
+  },
+  "htg1EZE3LVk": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "action packed crime raid",
+   "summary": "Trailer footage showing the GTA Online Cluckin Bell Farm Raid update with action sequences and police encounters.",
+   "reject_reasons": [
+    "Source is a game update trailer/promo rather than a full scene or official clip",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.5,
+     "reason": "ESRB rating card and opening intro"
+    },
+    {
+     "start": 25.0,
+     "end": 30.0,
+     "reason": "End title slate and release date card"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=htg1EZE3LVk",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-20 15:50"
   }
  },
  "videos": [],
@@ -17335,6 +18112,60 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-20 08:21"
+  },
+  "IXxqCr9YO5o": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-20 15:01"
+  },
+  "kMCtod_2iQ0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 15:02"
+  },
+  "XAOUlsrmzYM": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 15:08"
+  },
+  "qaslWP_htu0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 15:10"
+  },
+  "Bf38HiYPMiI": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 15:13"
+  },
+  "FAMuYy7E8rU": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 15:16"
+  },
+  "-52PESMeWzE": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-20 15:19"
+  },
+  "OMfkFAB-nVY": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 15:21"
   }
  },
  "failures": [
@@ -17460,6 +18291,186 @@
   },
   {
    "at": "2026-11-20T17:13:28.703933+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-20T21:20:23.672424+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T21:20:42.949251+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-20T21:21:29.086444+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-20T21:21:47.858306+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-20T21:22:34.613458+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-20T21:23:20.109644+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-20T21:23:38.986647+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-20T21:23:58.631307+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-20T22:01:02.883792+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T22:01:22.532941+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-20T22:35:45.486520+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T23:12:34.481003+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T23:13:23.859781+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-20T23:13:43.840875+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-20T23:14:03.282460+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-20T23:14:49.181804+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-20T23:15:08.279419+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-20T23:34:42.035171+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-20T23:35:00.655667+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-20T23:35:46.455357+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T00:11:28.427768+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T00:11:47.614172+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-21T00:31:20.693633+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T00:32:07.145396+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T00:32:52.861914+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T00:33:11.383045+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-21T00:33:30.240636+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-21T00:33:49.845574+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-21T00:53:20.547741+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T00:54:06.605755+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
