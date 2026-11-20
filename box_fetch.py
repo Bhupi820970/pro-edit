@@ -17,6 +17,7 @@ cached pool in the `sources` release -> the 7-video ready buffer covers the gap.
 
   python3 box_fetch.py once --category gta --limit 4 [--links urls.txt] [--query "..."]
   python3 box_fetch.py songs                         # top up official audio into draft release "songs"
+  python3 box_fetch.py sync                          # re-upload local / re-download clips missing from "sources"
   python3 box_fetch.py loop --interval 3600          # what scripts/box_fetch_service.sh runs
   bash scripts/box_fetch_service.sh start|stop|status|logs   # one command after a box reset: start
 
@@ -96,6 +97,52 @@ def gh(*a, check=True, timeout=7200):
     return run(["gh", *a], check=check, timeout=timeout)
 
 
+VIDEO_EXT = {".mkv", ".mp4", ".webm"}
+AUDIO_EXT = {".m4a", ".mp3", ".opus", ".webm", ".wav", ".aac"}
+
+
+def parse_commits_list(returncode, stdout, stderr=None) -> tuple[dict | None, str]:
+    """Parse `gh api .../commits` output. An empty list means the path has no history yet."""
+    raw = (stdout or "").strip()
+    if not raw:
+        rc = returncode if returncode is not None else -1
+        tail = (stderr or "").strip().replace("\n", " ")[:160]
+        extra = f": {tail}" if tail else ""
+        return None, f"could not read last commit (gh exit {rc}{extra})"
+    try:
+        data = json.loads(raw)
+    except Exception:
+        return None, "could not read last commit (invalid JSON)"
+    if isinstance(data, list):
+        if not data:
+            return None, "no queue file"
+        first = data[0]
+        if isinstance(first, dict) and first.get("sha"):
+            return first, "ok"
+        return None, "could not read last commit (malformed entry)"
+    if isinstance(data, dict):
+        msg = str(data.get("message") or data.get("error") or "unexpected object")[:160]
+        return None, f"could not read last commit ({msg})"
+    return None, "could not read last commit (unexpected response)"
+
+
+def asset_covers(sid: str, filename: str, assets: set[str]) -> bool:
+    if filename and filename in assets:
+        return True
+    if sid:
+        return any(Path(a).stem == sid for a in assets)
+    return False
+
+
+def local_media(directory: Path, sid: str, exts: set[str], min_size: int = 1000) -> Path | None:
+    if not sid:
+        return None
+    for p in directory.glob(f"{sid}.*"):
+        if p.suffix.lower() in exts and p.is_file() and p.stat().st_size > min_size:
+            return p
+    return None
+
+
 class Box:
     def __init__(self, a):
         self.a = a
@@ -142,18 +189,115 @@ class Box:
         except Exception:
             return None
 
+    def _last_queue_commit(self, path: str) -> tuple[dict | None, str]:
+        """Latest pipeline-state commit that touched a queue file, or (None, reason)."""
+        reason = "could not read last commit"
+        for attempt in range(1, 4):
+            c = gh("api", f"repos/{self.repo}/commits", "--method", "GET",
+                   "-f", "sha=pipeline-state", "-f", f"path={path}", "-F", "per_page=1",
+                   check=False, timeout=60)
+            commit, reason = parse_commits_list(c.returncode, c.stdout, c.stderr)
+            if commit or reason == "no queue file":
+                return commit, reason
+            if attempt < 3:
+                time.sleep(1.2 * attempt)
+        return None, reason
+
+    def release_assets(self, tag: str) -> set[str] | None:
+        """Asset names on a release. Empty set if the release does not exist; None if the lookup failed."""
+        r = gh("release", "view", tag, "--repo", self.repo, "--json", "assets", check=False, timeout=120)
+        if r.returncode != 0:
+            err = (r.stderr or r.stdout or "").lower()
+            if "not found" in err or "release not found" in err:
+                return set()
+            log("could not list release assets:", tag, (r.stderr or r.stdout or "")[-160:].replace("\n", " "))
+            return None
+        try:
+            data = json.loads(r.stdout or "{}")
+            return {a["name"] for a in (data.get("assets") or []) if isinstance(a, dict) and a.get("name")}
+        except Exception:
+            return None
+
+    def _download_clip(self, url: str, sid: str) -> Path | None:
+        url = safe_url(url)
+        if not url or not re.fullmatch(r"[\w-]{11}", sid or ""):
+            return None
+        existing = local_media(self.dir, sid, VIDEO_EXT, min_size=100_000)
+        if existing:
+            return existing
+        out = self.dir / f"{sid}.%(ext)s"
+        ok, _ = S.ytdlp([*self.extra, "-f", "bv*[height<=1440]+ba/b[height<=1440]/bv*+ba/b", "-S", "res:1440,fps",
+                         "--merge-output-format", "mkv", "--max-filesize", "1900M", "-o", str(out), url])
+        f = local_media(self.dir, sid, VIDEO_EXT, min_size=100_000)
+        if not ok or not f:
+            log("download failed:", url)
+            return None
+        return f
+
+    def sync_missing_clips(self, categories: list[str] | None = None, max_download: int = 25) -> int:
+        """Upload manifest clips that are missing from the sources release (re-download if needed)."""
+        man = self.manifest()
+        clips = [c for c in (man.get("clips") or []) if isinstance(c, dict) and c.get("id")]
+        assets = self.release_assets(TAG)
+        if assets is None:
+            log("sync skipped: could not list sources release assets")
+            return 0
+        want = list(categories or CFG["categories"])
+        order = [c for c in (["gta"] + [x for x in want if x != "gta"]) if c in want]
+        missing = []
+        for cat in order:
+            for rec in clips:
+                if rec.get("category") != cat:
+                    continue
+                if asset_covers(rec.get("id", ""), rec.get("file") or "", assets):
+                    continue
+                missing.append(rec)
+        if not missing:
+            return 0
+        got, updated, downloads = [], [], 0
+        for rec in missing:
+            sid = rec["id"]
+            f = local_media(self.dir, sid, VIDEO_EXT, min_size=100_000)
+            if not f:
+                if downloads >= max_download:
+                    continue
+                f = self._download_clip(rec.get("url") or "", sid)
+                if not f:
+                    continue
+                downloads += 1
+            rec = {**rec, "file": f.name}
+            got.append(f)
+            updated.append(rec)
+        if not got:
+            log(f"sync: {len(missing)} clip(s) still missing from the sources release")
+            return 0
+        by_id = {r["id"]: r for r in updated}
+        man["clips"] = [by_id.get(rec["id"], rec) for rec in clips]
+        (self.dir / "manifest.json").write_text(json.dumps(man, indent=1))
+        if not self.a.dry_run:
+            self.upload(got + [self.dir / "manifest.json"])
+            for f in got:
+                f.unlink(missing_ok=True)
+        log(f"sync: uploaded {len(got)} missing source clip(s)")
+        return len(got)
+
+    def _pool_count(self, man: dict, assets: set[str] | None) -> dict:
+        clips = man.get("clips") or []
+        names = assets if assets is not None else set()
+        return {cat: len({m["id"] for m in clips if isinstance(m, dict)
+                          and m.get("category") == cat
+                          and asset_covers(m.get("id") or "", m.get("file") or "", names)})
+                for cat in CFG["categories"]}
+
     def queue(self) -> list[dict]:
         """Read the plain-JSON queue (data only — never executed). The last commit touching each queue
         file must be on pipeline-state and either authored by the owner or by the workflow bot and
         tied to a produce.yml run (owner-triggered, no PR events). Every entry is validated."""
         reqs = []
         for path in ("youtube/fetch_queue.json", "instagram/fetch_queue.json"):
-            c = gh("api", f"repos/{self.repo}/commits?sha=pipeline-state&path={path}&per_page=1",
-                   check=False, timeout=60)
-            try:
-                commit = json.loads(c.stdout)[0]
-            except Exception:
-                log(f"queue {path}: could not read last commit -> ignored")
+            commit, reason = self._last_queue_commit(path)
+            if not commit:
+                log(f"queue {path}: {reason} -> ignored")
                 continue
             ok, reason = trust_queue_commit(commit, path=path, repo=self.repo or TRUST_REPO,
                                             get_run=self._get_run, get_compare=self._get_compare)
@@ -281,8 +425,19 @@ class Box:
         sdir = self.dir / "songs"
         sdir.mkdir(parents=True, exist_ok=True)
         man = self.song_manifest()
-        have = {_norm(f'{s.get("title","")} - {s.get("artist","")}') for s in man["songs"] if isinstance(s, dict)}
-        have_ids = {s.get("id") for s in man["songs"] if isinstance(s, dict)}
+        assets = self.release_assets(SONG_TAG)
+        if assets is None:
+            log("songs top-up skipped: could not list songs release assets")
+            return 0
+        have, have_ids = set(), set()
+        for s in man["songs"]:
+            if not isinstance(s, dict):
+                continue
+            # Skip only when the audio is already on the release (a local-only manifest
+            # after a repo switch would otherwise never re-upload the pool).
+            if asset_covers(s.get("id") or "", s.get("file") or "", assets):
+                have.add(_norm(f'{s.get("title","")} - {s.get("artist","")}'))
+                have_ids.add(s.get("id"))
         got, recs = [], []
         for o in catalogue(CFG):
             tag = f'{o["title"]} - {o["artist"]}'
@@ -354,10 +509,19 @@ class Box:
                 now_done.append(r["id"])
             except Exception as ex:
                 errors.append(f"queue {r.get('id')}: {str(ex)[:150]}")
+        # re-upload / re-download clips that are in the manifest but missing from the release
+        try:
+            fetched += self.sync_missing_clips()
+        except Exception as ex:
+            errors.append(f"sync: {str(ex)[:150]}")
         # pool top-up: keep >=15 distinct source ids per category using seed searches (no Gemini)
+        # Count only clips that actually exist as release assets so a stale local manifest
+        # cannot hide an empty GitHub pool.
         man = self.manifest()
+        assets = self.release_assets(TAG) or set()
         for cat, tgt in POOL_TARGET.items():
-            have = {m["id"] for m in man["clips"] if m.get("category") == cat}
+            have = {m["id"] for m in man["clips"] if isinstance(m, dict) and m.get("category") == cat
+                    and asset_covers(m.get("id") or "", m.get("file") or "", assets)}
             while len(have) < tgt:
                 need = tgt - len(have)
                 try:
@@ -371,14 +535,19 @@ class Box:
                 fetched += len(recs)
                 have |= {r["id"] for r in recs}
                 man = self.manifest()
-                have |= {m["id"] for m in man["clips"] if m.get("category") == cat}
+                assets = self.release_assets(TAG) or set()
+                have |= {m["id"] for m in man["clips"] if isinstance(m, dict) and m.get("category") == cat
+                         and asset_covers(m.get("id") or "", m.get("file") or "", assets)}
         try:
             fetched += self.fetch_songs()
         except Exception as ex:
             errors.append(f"songs: {str(ex)[:150]}")
         man = self.manifest()
-        pool = {cat: len({m["id"] for m in man["clips"] if m.get("category") == cat}) for cat in CFG["categories"]}
-        songs_n = len(self.song_manifest().get("songs") or [])
+        assets = self.release_assets(TAG) or set()
+        pool = self._pool_count(man, assets)
+        song_assets = self.release_assets(SONG_TAG) or set()
+        songs_n = sum(1 for s in (self.song_manifest().get("songs") or [])
+                      if isinstance(s, dict) and asset_covers(s.get("id") or "", s.get("file") or "", song_assets))
         self.heartbeat({"fetched_last_cycle": fetched, "errors": errors[-10:], "pool": pool, "songs": songs_n,
                         "processed_now": now_done, "interval_s": self.a.interval})
         log(f"cycle done: fetched {fetched}, pool {pool}, songs {songs_n}, errors {len(errors)}")
@@ -386,7 +555,7 @@ class Box:
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["once", "loop", "songs", "cycle"], nargs="?", default="once")
+    ap.add_argument("cmd", choices=["once", "loop", "songs", "cycle", "sync"], nargs="?", default="once")
     ap.add_argument("--category", choices=list(CFG["categories"]))
     ap.add_argument("--limit", type=int, default=4)
     ap.add_argument("--links", type=Path, default=None, help="file with YouTube / X URLs (one per line)")
@@ -401,8 +570,26 @@ def main():
     b = Box(a)
     if a.cmd == "songs":
         n = b.fetch_songs()
-        b.heartbeat({"mode": "songs", "songs": len(b.song_manifest().get("songs") or [])})
+        song_assets = b.release_assets(SONG_TAG) or set()
+        songs_n = sum(1 for s in (b.song_manifest().get("songs") or [])
+                      if isinstance(s, dict) and asset_covers(s.get("id") or "", s.get("file") or "", song_assets))
+        b.heartbeat({"mode": "songs", "songs": songs_n})
         log(f"songs command done: added {n}")
+        return
+    if a.cmd == "sync":
+        n = b.sync_missing_clips(max_download=80)
+        try:
+            n += b.fetch_songs()
+        except Exception as ex:
+            log("songs top-up failed:", str(ex)[:160])
+        man = b.manifest()
+        assets = b.release_assets(TAG) or set()
+        song_assets = b.release_assets(SONG_TAG) or set()
+        songs_n = sum(1 for s in (b.song_manifest().get("songs") or [])
+                      if isinstance(s, dict) and asset_covers(s.get("id") or "", s.get("file") or "", song_assets))
+        b.heartbeat({"mode": "sync", "fetched_last_cycle": n, "pool": b._pool_count(man, assets),
+                     "songs": songs_n, "errors": []})
+        log(f"sync command done: uploaded {n}, pool {b._pool_count(man, assets)}, songs {songs_n}")
         return
     if a.cmd == "cycle":
         b.cycle()
