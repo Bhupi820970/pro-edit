@@ -1,0 +1,792 @@
+{
+ "platform": "youtube",
+ "made": [],
+ "failures": [
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 319,
+  "vetted": 19,
+  "rejected": [
+   {
+    "id": "-52PESMeWzE",
+    "title": "GTA 5 First Person Experience, Online Heists and Much More (Rockstar Games Q&A)",
+    "reasons": [
+     "channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "LBw5xmgDFCM",
+    "title": "New GTA 6 Gameplay Looks Absolutely Unreal",
+    "reasons": [
+     "in-game HUD elements present (wanted stars and mini-map)",
+     "flag:watermark"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "_SgqsxXk8_E",
+    "title": "GTA Online: Bottom Dollar Bounties Out Now",
+    "reasons": [
+     "Promotional trailer / teaser",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "T3ZaWDcPiIo",
+    "title": "GTA Online: Agents of Sabotage Coming December 10",
+    "reasons": [
+     "trailers teasers and promos are rejected entirely",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "YW9VXUgoG6w",
+    "title": "GTA Online: Agents of Sabotage Now Available",
+    "reasons": [
+     "trailer",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "n2EtF9sKW6w",
+    "title": "New Deadline Duet Mode in GTA Online",
+    "reasons": [
+     "Trailer or promo content",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "GbuCIrZSPDk",
+    "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+    "reasons": [
+     "Trailer or promo video",
+     "Contains rating cards, title cards, and promotional end slates",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "T7aaNEW7zA0",
+    "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+    "reasons": [
+     "The source is an official promotional trailer/teaser from Rockstar Games, which is excluded from our requirements (we only want full scenes or official game clips)."
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "APJ-lT0sBhg",
+    "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+    "reasons": [
+     "Trailer or teaser promo which is explicitly rejected per instructions.",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "GJAs5sjujHg",
+    "title": "GTA Online: Money Fronts Now Available",
+    "reasons": [
+     "trailer",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Sp1wvWZ_2MQ",
+    "title": "GTA Online: The Chop Shop Now Available",
+    "reasons": [
+     "Trailer or promo content; rule states we must reject trailers, teasers, promos and TV spots entirely."
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "htg1EZE3LVk",
+    "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+    "reasons": [
+     "Source is a promotional trailer / teaser rather than a full scene or episode.",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "ewAODca-3Bw",
+    "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+    "reasons": [
+     "trailer",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "IIm_pxD8Csk",
+    "title": "GTA Online: San Andreas Mercenaries Coming June 13",
+    "reasons": [
+     "only 360p (< 720p)"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "0hzHIC_YdI4",
+    "title": "GTA Online: The New Eclipse Blvd Garage",
+    "reasons": [
+     "promotional trailer",
+     "persistent on-screen text",
+     "flag:burned_subtitles",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "R3HS6owS3P8",
+    "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+    "reasons": [
+     "Promotional game trailer and advertisement video, not a full scene or raw episode footage.",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "vK_IL6V17Js",
+    "title": "GTA Online: The Kortz Center Heist Now Available",
+    "reasons": [
+     "only 360p (< 720p)"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "dtJj0So2yq4",
+    "title": "Experience the Best Version of GTAV and GTA Online on PC with GTAV Enhanced",
+    "reasons": [
+     "promotional trailer",
+     "contains burned-in marketing text overlays throughout",
+     "flag:burned_subtitles",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "EiQEBYDox_k",
+    "title": "Grand Theft Auto VI: Official Cover Art Reveal",
+    "reasons": [
+     "only 360p (< 720p)"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 253,
+  "fallback_used": true,
+  "thin": [
+   "gta"
+  ],
+  "failed_ids": [
+   "lX_IN4v-RnA",
+   "UUmKwJD76GY",
+   "lEQ4XD8KuUs",
+   "tyDRtSUYTRs",
+   "StEaAZ_Ywj4",
+   "P3NBd3UjH5Y",
+   "lqiZdynJmag",
+   "H4rYVsJ4v9Y",
+   "HqZXw5M6qQY",
+   "QYAMp13Yi04",
+   "NgO8TVaC24o",
+   "Bf38HiYPMiI",
+   "sPLD6LS_TIk",
+   "1xlr3-hK5rY",
+   "tJbzMqJGH4k",
+   "XAOUlsrmzYM",
+   "DyQ5MNkl6SA",
+   "olEGtoYs_8A",
+   "vAAvocR04_Y",
+   "FAMuYy7E8rU",
+   "-HIv_Uj1ERE",
+   "ZQzIZkxsWYw",
+   "0M71BMAgSSs",
+   "zpkbwr0HpCc",
+   "aLUGHQq2aek",
+   "YlY9n7iM-5Q",
+   "kfzrQGU6jhM",
+   "foUaOCzfIRU",
+   "kMCtod_2iQ0",
+   "wiW1mpHZb_Y",
+   "hNmOP6_njhw",
+   "VNbONMSObfs",
+   "45--ZVLkmks",
+   "mP6KvFnltWc",
+   "8-DRGbQ1IXc",
+   "N-xHcvug3WI",
+   "at8pz2XJtPg",
+   "Ybq_FGtSCN8",
+   "HqZXw5M6qQY",
+   "8-DRGbQ1IXc",
+   "lqiZdynJmag",
+   "Ybq_FGtSCN8",
+   "0M71BMAgSSs",
+   "UUmKwJD76GY",
+   "StEaAZ_Ywj4",
+   "Bf38HiYPMiI",
+   "45--ZVLkmks",
+   "lEQ4XD8KuUs",
+   "zpkbwr0HpCc",
+   "NgO8TVaC24o",
+   "tyDRtSUYTRs",
+   "at8pz2XJtPg",
+   "ZQzIZkxsWYw",
+   "1xlr3-hK5rY",
+   "P3NBd3UjH5Y",
+   "H4rYVsJ4v9Y",
+   "sPLD6LS_TIk",
+   "DyQ5MNkl6SA",
+   "olEGtoYs_8A",
+   "YlY9n7iM-5Q",
+   "vAAvocR04_Y",
+   "kMCtod_2iQ0",
+   "aLUGHQq2aek",
+   "FAMuYy7E8rU",
+   "-HIv_Uj1ERE",
+   "QYAMp13Yi04",
+   "lX_IN4v-RnA",
+   "tJbzMqJGH4k",
+   "hNmOP6_njhw",
+   "wiW1mpHZb_Y",
+   "N-xHcvug3WI",
+   "XAOUlsrmzYM",
+   "VNbONMSObfs",
+   "foUaOCzfIRU",
+   "mP6KvFnltWc",
+   "kfzrQGU6jhM",
+   "sPLD6LS_TIk",
+   "wiW1mpHZb_Y",
+   "hNmOP6_njhw",
+   "Ybq_FGtSCN8",
+   "VNbONMSObfs",
+   "DyQ5MNkl6SA",
+   "foUaOCzfIRU",
+   "QYAMp13Yi04",
+   "vAAvocR04_Y",
+   "mP6KvFnltWc",
+   "H4rYVsJ4v9Y",
+   "1xlr3-hK5rY",
+   "N-xHcvug3WI",
+   "HqZXw5M6qQY",
+   "aLUGHQq2aek",
+   "tJbzMqJGH4k",
+   "olEGtoYs_8A",
+   "at8pz2XJtPg",
+   "XAOUlsrmzYM",
+   "8-DRGbQ1IXc",
+   "kfzrQGU6jhM",
+   "P3NBd3UjH5Y",
+   "kMCtod_2iQ0",
+   "ZQzIZkxsWYw",
+   "lEQ4XD8KuUs",
+   "YlY9n7iM-5Q",
+   "tyDRtSUYTRs",
+   "0M71BMAgSSs",
+   "Bf38HiYPMiI",
+   "StEaAZ_Ywj4",
+   "-HIv_Uj1ERE",
+   "NgO8TVaC24o",
+   "lqiZdynJmag",
+   "UUmKwJD76GY",
+   "45--ZVLkmks",
+   "lX_IN4v-RnA",
+   "FAMuYy7E8rU",
+   "StEaAZ_Ywj4",
+   "kfzrQGU6jhM",
+   "H4rYVsJ4v9Y",
+   "sPLD6LS_TIk",
+   "XAOUlsrmzYM",
+   "aLUGHQq2aek",
+   "P3NBd3UjH5Y",
+   "-HIv_Uj1ERE",
+   "mP6KvFnltWc",
+   "lEQ4XD8KuUs",
+   "VNbONMSObfs",
+   "NgO8TVaC24o",
+   "hNmOP6_njhw",
+   "DyQ5MNkl6SA",
+   "0M71BMAgSSs",
+   "olEGtoYs_8A",
+   "1xlr3-hK5rY",
+   "YlY9n7iM-5Q",
+   "wiW1mpHZb_Y",
+   "8-DRGbQ1IXc",
+   "Bf38HiYPMiI",
+   "zpkbwr0HpCc",
+   "QYAMp13Yi04",
+   "N-xHcvug3WI",
+   "ZQzIZkxsWYw",
+   "tJbzMqJGH4k",
+   "foUaOCzfIRU",
+   "lX_IN4v-RnA",
+   "lqiZdynJmag",
+   "UUmKwJD76GY",
+   "HqZXw5M6qQY",
+   "vAAvocR04_Y",
+   "Ybq_FGtSCN8",
+   "tyDRtSUYTRs",
+   "45--ZVLkmks",
+   "lX_IN4v-RnA",
+   "H4rYVsJ4v9Y",
+   "-HIv_Uj1ERE",
+   "45--ZVLkmks",
+   "NgO8TVaC24o",
+   "UUmKwJD76GY",
+   "kMCtod_2iQ0",
+   "N-xHcvug3WI",
+   "StEaAZ_Ywj4",
+   "hNmOP6_njhw",
+   "foUaOCzfIRU",
+   "sPLD6LS_TIk",
+   "Bf38HiYPMiI",
+   "DyQ5MNkl6SA",
+   "8-DRGbQ1IXc",
+   "lEQ4XD8KuUs",
+   "lqiZdynJmag",
+   "P3NBd3UjH5Y",
+   "tyDRtSUYTRs",
+   "olEGtoYs_8A",
+   "tJbzMqJGH4k",
+   "Ybq_FGtSCN8",
+   "vAAvocR04_Y",
+   "zpkbwr0HpCc",
+   "VNbONMSObfs",
+   "mP6KvFnltWc",
+   "HqZXw5M6qQY",
+   "0M71BMAgSSs",
+   "wiW1mpHZb_Y",
+   "aLUGHQq2aek",
+   "YlY9n7iM-5Q",
+   "kfzrQGU6jhM",
+   "QYAMp13Yi04",
+   "at8pz2XJtPg",
+   "ZQzIZkxsWYw",
+   "1xlr3-hK5rY",
+   "vAAvocR04_Y",
+   "foUaOCzfIRU",
+   "wiW1mpHZb_Y",
+   "1xlr3-hK5rY",
+   "StEaAZ_Ywj4",
+   "lqiZdynJmag",
+   "mP6KvFnltWc",
+   "8-DRGbQ1IXc",
+   "XAOUlsrmzYM",
+   "kfzrQGU6jhM",
+   "VNbONMSObfs",
+   "YlY9n7iM-5Q",
+   "lEQ4XD8KuUs",
+   "45--ZVLkmks",
+   "olEGtoYs_8A",
+   "Bf38HiYPMiI",
+   "at8pz2XJtPg",
+   "kMCtod_2iQ0",
+   "DyQ5MNkl6SA",
+   "sPLD6LS_TIk",
+   "-HIv_Uj1ERE",
+   "lX_IN4v-RnA",
+   "UUmKwJD76GY",
+   "aLUGHQq2aek",
+   "QYAMp13Yi04",
+   "N-xHcvug3WI",
+   "Ybq_FGtSCN8",
+   "P3NBd3UjH5Y",
+   "H4rYVsJ4v9Y",
+   "NgO8TVaC24o",
+   "ZQzIZkxsWYw",
+   "tJbzMqJGH4k",
+   "tyDRtSUYTRs",
+   "HqZXw5M6qQY",
+   "45--ZVLkmks",
+   "UUmKwJD76GY",
+   "tyDRtSUYTRs",
+   "StEaAZ_Ywj4",
+   "NgO8TVaC24o",
+   "P3NBd3UjH5Y",
+   "H4rYVsJ4v9Y",
+   "Bf38HiYPMiI",
+   "N-xHcvug3WI",
+   "mP6KvFnltWc",
+   "YlY9n7iM-5Q",
+   "DyQ5MNkl6SA",
+   "Ybq_FGtSCN8",
+   "lX_IN4v-RnA",
+   "ZQzIZkxsWYw",
+   "kfzrQGU6jhM",
+   "foUaOCzfIRU",
+   "lEQ4XD8KuUs",
+   "olEGtoYs_8A",
+   "lqiZdynJmag",
+   "tJbzMqJGH4k",
+   "-HIv_Uj1ERE",
+   "HqZXw5M6qQY",
+   "VNbONMSObfs",
+   "1xlr3-hK5rY",
+   "sPLD6LS_TIk",
+   "wiW1mpHZb_Y",
+   "QYAMp13Yi04",
+   "8-DRGbQ1IXc",
+   "aLUGHQq2aek",
+   "kMCtod_2iQ0",
+   "vAAvocR04_Y",
+   "hNmOP6_njhw",
+   "H4rYVsJ4v9Y",
+   "UUmKwJD76GY",
+   "wiW1mpHZb_Y",
+   "-HIv_Uj1ERE",
+   "foUaOCzfIRU",
+   "ZQzIZkxsWYw",
+   "sPLD6LS_TIk",
+   "45--ZVLkmks",
+   "P3NBd3UjH5Y",
+   "DyQ5MNkl6SA",
+   "aLUGHQq2aek",
+   "mP6KvFnltWc",
+   "lqiZdynJmag",
+   "0M71BMAgSSs",
+   "Ybq_FGtSCN8",
+   "N-xHcvug3WI",
+   "vAAvocR04_Y",
+   "tJbzMqJGH4k",
+   "StEaAZ_Ywj4",
+   "lEQ4XD8KuUs",
+   "HqZXw5M6qQY",
+   "olEGtoYs_8A",
+   "lX_IN4v-RnA",
+   "NgO8TVaC24o",
+   "VNbONMSObfs",
+   "8-DRGbQ1IXc",
+   "1xlr3-hK5rY",
+   "kMCtod_2iQ0",
+   "zpkbwr0HpCc",
+   "YlY9n7iM-5Q",
+   "QYAMp13Yi04",
+   "kfzrQGU6jhM",
+   "Bf38HiYPMiI",
+   "tyDRtSUYTRs",
+   "1xlr3-hK5rY",
+   "kfzrQGU6jhM",
+   "YlY9n7iM-5Q",
+   "H4rYVsJ4v9Y",
+   "-HIv_Uj1ERE",
+   "QYAMp13Yi04",
+   "olEGtoYs_8A",
+   "lqiZdynJmag",
+   "tJbzMqJGH4k",
+   "45--ZVLkmks",
+   "zpkbwr0HpCc",
+   "ZQzIZkxsWYw",
+   "sPLD6LS_TIk",
+   "HqZXw5M6qQY",
+   "vAAvocR04_Y",
+   "0M71BMAgSSs",
+   "StEaAZ_Ywj4",
+   "DyQ5MNkl6SA",
+   "lEQ4XD8KuUs",
+   "Bf38HiYPMiI",
+   "P3NBd3UjH5Y",
+   "aLUGHQq2aek",
+   "tyDRtSUYTRs",
+   "wiW1mpHZb_Y",
+   "lX_IN4v-RnA",
+   "mP6KvFnltWc",
+   "foUaOCzfIRU",
+   "N-xHcvug3WI",
+   "Ybq_FGtSCN8",
+   "VNbONMSObfs",
+   "kMCtod_2iQ0",
+   "NgO8TVaC24o",
+   "UUmKwJD76GY",
+   "8-DRGbQ1IXc"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}
