@@ -1,0 +1,657 @@
+{
+ "platform": "youtube",
+ "made": [],
+ "failures": [
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 233,
+  "vetted": 4,
+  "rejected": [
+   {
+    "id": "_rRTNvV_h7M",
+    "title": "GTA Online - The Cayo Perico Heist | PS4",
+    "reasons": [
+     "PlayStation channel logo in the top left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "_yl5ELcmugI",
+    "title": "Grand Theft Auto VI: Out Now",
+    "reasons": [
+     "Rockstar logo in bottom right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "9NpPPCvj7m8",
+    "title": "Grand Theft Auto V | Official Gameplay Video (PS3)",
+    "reasons": [
+     "PlayStation channel logo present in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "587-lLYxzPw",
+    "title": "GTA 6 Has So Much to Do... It's Actually RIDICULOUS!",
+    "reasons": [
+     "Grand Theft Auto VI logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 214,
+  "fallback_used": true,
+  "thin": [
+   "gta"
+  ],
+  "failed_ids": [
+   "N-xHcvug3WI",
+   "ZQzIZkxsWYw",
+   "YlY9n7iM-5Q",
+   "olEGtoYs_8A",
+   "ewAODca-3Bw",
+   "htg1EZE3LVk",
+   "1xlr3-hK5rY",
+   "DyQ5MNkl6SA",
+   "UUmKwJD76GY",
+   "tJbzMqJGH4k",
+   "lEQ4XD8KuUs",
+   "Sp1wvWZ_2MQ",
+   "T3ZaWDcPiIo",
+   "vAAvocR04_Y",
+   "dtJj0So2yq4",
+   "kMCtod_2iQ0",
+   "Ybq_FGtSCN8",
+   "tyDRtSUYTRs",
+   "foUaOCzfIRU",
+   "EiQEBYDox_k",
+   "lqiZdynJmag",
+   "-HIv_Uj1ERE",
+   "R3HS6owS3P8",
+   "sPLD6LS_TIk",
+   "YW9VXUgoG6w",
+   "T7aaNEW7zA0",
+   "mP6KvFnltWc",
+   "P3NBd3UjH5Y",
+   "0hzHIC_YdI4",
+   "VNbONMSObfs",
+   "3PiR0G3rVw8",
+   "IIm_pxD8Csk",
+   "QYAMp13Yi04",
+   "0M71BMAgSSs",
+   "zpkbwr0HpCc",
+   "45--ZVLkmks",
+   "NgO8TVaC24o",
+   "GJAs5sjujHg",
+   "H4rYVsJ4v9Y",
+   "APJ-lT0sBhg",
+   "StEaAZ_Ywj4",
+   "wiW1mpHZb_Y",
+   "n2EtF9sKW6w",
+   "vK_IL6V17Js",
+   "_SgqsxXk8_E",
+   "GbuCIrZSPDk",
+   "aLUGHQq2aek",
+   "vAAvocR04_Y",
+   "YlY9n7iM-5Q",
+   "n2EtF9sKW6w",
+   "zpkbwr0HpCc",
+   "mP6KvFnltWc",
+   "htg1EZE3LVk",
+   "dtJj0So2yq4",
+   "R3HS6owS3P8",
+   "wiW1mpHZb_Y",
+   "_SgqsxXk8_E",
+   "UUmKwJD76GY",
+   "GJAs5sjujHg",
+   "IIm_pxD8Csk",
+   "Ybq_FGtSCN8",
+   "T7aaNEW7zA0",
+   "tyDRtSUYTRs",
+   "tJbzMqJGH4k",
+   "lqiZdynJmag",
+   "APJ-lT0sBhg",
+   "QYAMp13Yi04",
+   "olEGtoYs_8A",
+   "-HIv_Uj1ERE",
+   "45--ZVLkmks",
+   "foUaOCzfIRU",
+   "YW9VXUgoG6w",
+   "vK_IL6V17Js",
+   "StEaAZ_Ywj4",
+   "1xlr3-hK5rY",
+   "ewAODca-3Bw",
+   "P3NBd3UjH5Y",
+   "aLUGHQq2aek",
+   "Sp1wvWZ_2MQ",
+   "EiQEBYDox_k",
+   "lEQ4XD8KuUs",
+   "VNbONMSObfs",
+   "H4rYVsJ4v9Y",
+   "DyQ5MNkl6SA",
+   "0hzHIC_YdI4",
+   "0M71BMAgSSs",
+   "ZQzIZkxsWYw",
+   "N-xHcvug3WI",
+   "sPLD6LS_TIk",
+   "NgO8TVaC24o",
+   "kMCtod_2iQ0",
+   "GbuCIrZSPDk",
+   "T3ZaWDcPiIo",
+   "Sp1wvWZ_2MQ",
+   "3PiR0G3rVw8",
+   "vAAvocR04_Y",
+   "n2EtF9sKW6w",
+   "ZQzIZkxsWYw",
+   "StEaAZ_Ywj4",
+   "GbuCIrZSPDk",
+   "mP6KvFnltWc",
+   "T3ZaWDcPiIo",
+   "0hzHIC_YdI4",
+   "lqiZdynJmag",
+   "tJbzMqJGH4k",
+   "1xlr3-hK5rY",
+   "45--ZVLkmks",
+   "olEGtoYs_8A",
+   "R3HS6owS3P8",
+   "YlY9n7iM-5Q",
+   "tyDRtSUYTRs",
+   "Ybq_FGtSCN8",
+   "dtJj0So2yq4",
+   "htg1EZE3LVk",
+   "wiW1mpHZb_Y",
+   "IIm_pxD8Csk",
+   "NgO8TVaC24o",
+   "EiQEBYDox_k",
+   "kMCtod_2iQ0",
+   "QYAMp13Yi04",
+   "UUmKwJD76GY",
+   "lEQ4XD8KuUs",
+   "T7aaNEW7zA0",
+   "sPLD6LS_TIk",
+   "APJ-lT0sBhg",
+   "P3NBd3UjH5Y",
+   "zpkbwr0HpCc",
+   "N-xHcvug3WI",
+   "-HIv_Uj1ERE",
+   "_SgqsxXk8_E",
+   "YW9VXUgoG6w",
+   "VNbONMSObfs",
+   "foUaOCzfIRU",
+   "H4rYVsJ4v9Y",
+   "vK_IL6V17Js",
+   "aLUGHQq2aek",
+   "DyQ5MNkl6SA",
+   "ewAODca-3Bw",
+   "GJAs5sjujHg",
+   "wiW1mpHZb_Y",
+   "H4rYVsJ4v9Y",
+   "foUaOCzfIRU",
+   "zpkbwr0HpCc",
+   "_SgqsxXk8_E",
+   "ZQzIZkxsWYw",
+   "aLUGHQq2aek",
+   "R3HS6owS3P8",
+   "NgO8TVaC24o",
+   "T3ZaWDcPiIo",
+   "QYAMp13Yi04",
+   "GJAs5sjujHg",
+   "GbuCIrZSPDk",
+   "DyQ5MNkl6SA",
+   "YlY9n7iM-5Q",
+   "UUmKwJD76GY",
+   "45--ZVLkmks",
+   "0M71BMAgSSs",
+   "T7aaNEW7zA0",
+   "1xlr3-hK5rY",
+   "dtJj0So2yq4",
+   "APJ-lT0sBhg",
+   "tyDRtSUYTRs",
+   "mP6KvFnltWc",
+   "lqiZdynJmag",
+   "n2EtF9sKW6w",
+   "kMCtod_2iQ0",
+   "StEaAZ_Ywj4",
+   "vK_IL6V17Js",
+   "0hzHIC_YdI4",
+   "ewAODca-3Bw",
+   "VNbONMSObfs",
+   "olEGtoYs_8A",
+   "lEQ4XD8KuUs",
+   "tJbzMqJGH4k",
+   "EiQEBYDox_k",
+   "vAAvocR04_Y",
+   "-HIv_Uj1ERE",
+   "sPLD6LS_TIk",
+   "Sp1wvWZ_2MQ",
+   "YW9VXUgoG6w",
+   "N-xHcvug3WI",
+   "htg1EZE3LVk",
+   "P3NBd3UjH5Y",
+   "Ybq_FGtSCN8",
+   "3PiR0G3rVw8",
+   "IIm_pxD8Csk",
+   "kMCtod_2iQ0",
+   "dtJj0So2yq4",
+   "3PiR0G3rVw8",
+   "foUaOCzfIRU",
+   "Sp1wvWZ_2MQ",
+   "APJ-lT0sBhg",
+   "VNbONMSObfs",
+   "QYAMp13Yi04",
+   "H4rYVsJ4v9Y",
+   "StEaAZ_Ywj4",
+   "NgO8TVaC24o",
+   "lqiZdynJmag",
+   "Ybq_FGtSCN8",
+   "R3HS6owS3P8",
+   "-HIv_Uj1ERE",
+   "zpkbwr0HpCc",
+   "T7aaNEW7zA0",
+   "UUmKwJD76GY",
+   "aLUGHQq2aek",
+   "lEQ4XD8KuUs",
+   "N-xHcvug3WI",
+   "mP6KvFnltWc",
+   "vK_IL6V17Js",
+   "EiQEBYDox_k",
+   "YlY9n7iM-5Q",
+   "tyDRtSUYTRs",
+   "n2EtF9sKW6w",
+   "_SgqsxXk8_E",
+   "htg1EZE3LVk",
+   "T3ZaWDcPiIo",
+   "wiW1mpHZb_Y",
+   "GJAs5sjujHg",
+   "ewAODca-3Bw",
+   "vAAvocR04_Y",
+   "ZQzIZkxsWYw",
+   "GbuCIrZSPDk",
+   "olEGtoYs_8A",
+   "0M71BMAgSSs",
+   "1xlr3-hK5rY",
+   "tJbzMqJGH4k",
+   "P3NBd3UjH5Y",
+   "IIm_pxD8Csk",
+   "sPLD6LS_TIk",
+   "0hzHIC_YdI4",
+   "YW9VXUgoG6w",
+   "DyQ5MNkl6SA",
+   "45--ZVLkmks"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}

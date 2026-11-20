@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:14:35.370037+05:30",
+ "updated": "2026-11-20T17:41:52.680049+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -29,15 +29,33 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-20T13:10:16.570713+05:30",
+   "at": "2026-11-20T14:07:12.118445+05:30",
    "platform": "youtube",
-   "category": "gta",
+   "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-20T14:14:32.103573+05:30",
+   "at": "2026-11-20T14:59:54.701288+05:30",
    "platform": "youtube",
-   "category": "gta",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T15:53:43.992933+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T16:47:40.593240+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T17:41:43.517602+05:30",
+   "platform": "youtube",
+   "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
   },
   {
@@ -84,8 +102,8 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-20T10:31:47.605988+05:30",
-  "age_hours": 3.7,
+  "last_run": "2026-11-20T11:31:54.087543+05:30",
+  "age_hours": 6.2,
   "healthy": false,
   "pool": {
    "gta": 21,
@@ -96,7 +114,7 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 4h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 6h: run `bash scripts/box_fetch_service.sh start` on the box"
  },
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)"

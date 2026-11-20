@@ -3048,44 +3048,10 @@
   }
  ],
  "vet": {
-  "9NpPPCvj7m8": {
-   "accept": false,
-   "reject_reasons": [
-    "PlayStation channel logo in the bottom-left corner",
-    "flag:channel_logo"
-   ],
-   "bad_ranges": [],
-   "checked_by": "gemini",
-   "vet_via": "preview",
-   "title": "Grand Theft Auto V | Official Gameplay Video (PS3)",
-   "channel": "PlayStation",
-   "credit": "PlayStation",
-   "url": "https://www.youtube.com/watch?v=9NpPPCvj7m8",
-   "via": "youtube-search",
-   "category": "gta",
-   "at": "2026-11-20 05:56"
-  },
-  "_yl5ELcmugI": {
-   "accept": false,
-   "reject_reasons": [
-    "Rockstar Games logo is present in the bottom-right corner",
-    "flag:channel_logo"
-   ],
-   "bad_ranges": [],
-   "checked_by": "gemini",
-   "vet_via": "preview",
-   "title": "Grand Theft Auto VI: Out Now",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=_yl5ELcmugI",
-   "via": "official-channel",
-   "category": "gta",
-   "at": "2026-11-20 07:26"
-  },
   "_rRTNvV_h7M": {
    "accept": false,
    "reject_reasons": [
-    "PlayStation channel logo in the top-left corner",
+    "PlayStation channel logo in the top left corner",
     "flag:channel_logo"
    ],
    "bad_ranges": [],
@@ -3097,7 +3063,58 @@
    "url": "https://www.youtube.com/watch?v=_rRTNvV_h7M",
    "via": "youtube-search",
    "category": "gta",
-   "at": "2026-11-20 07:27"
+   "at": "2026-11-20 07:40"
+  },
+  "_yl5ELcmugI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rockstar logo in bottom right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Grand Theft Auto VI: Out Now",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=_yl5ELcmugI",
+   "via": "official-channel",
+   "category": "gta",
+   "at": "2026-11-20 07:59"
+  },
+  "9NpPPCvj7m8": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Grand Theft Auto V | Official Gameplay Video (PS3)",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=9NpPPCvj7m8",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-20 08:10"
+  },
+  "587-lLYxzPw": {
+   "accept": false,
+   "reject_reasons": [
+    "Grand Theft Auto VI logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA 6 Has So Much to Do... It's Actually RIDICULOUS!",
+   "channel": "Hazard",
+   "credit": "Hazard",
+   "url": "https://www.youtube.com/watch?v=587-lLYxzPw",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-20 08:29"
   }
  },
  "videos": [],
@@ -4067,387 +4084,354 @@
  },
  "song_fail": {},
  "pre_vet": {
-  "kfzrQGU6jhM": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:35"
-  },
-  "sPLD6LS_TIk": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:37"
-  },
-  "GbuCIrZSPDk": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:40"
-  },
-  "-HIv_Uj1ERE": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:42"
-  },
-  "Sp1wvWZ_2MQ": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:45"
-  },
-  "T7aaNEW7zA0": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:47"
-  },
-  "YW9VXUgoG6w": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:50"
-  },
-  "R3HS6owS3P8": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:52"
-  },
-  "dtJj0So2yq4": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:55"
-  },
-  "tJbzMqJGH4k": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:56"
-  },
-  "9NpPPCvj7m8": {
-   "accept": false,
-   "reject_reasons": [
-    "PlayStation channel logo in the bottom-left corner",
-    "flag:channel_logo"
-   ],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:56"
-  },
-  "vAAvocR04_Y": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 05:58"
-  },
-  "EiQEBYDox_k": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:01"
-  },
-  "Cm8CkXhPcrE": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:03"
-  },
-  "ewAODca-3Bw": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:06"
-  },
-  "0hzHIC_YdI4": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:08"
-  },
-  "aLUGHQq2aek": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:11"
-  },
-  "mP6KvFnltWc": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:14"
-  },
-  "_SgqsxXk8_E": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:16"
-  },
-  "StEaAZ_Ywj4": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:19"
-  },
-  "wiW1mpHZb_Y": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:21"
-  },
-  "YlY9n7iM-5Q": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:24"
-  },
-  "UUmKwJD76GY": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:26"
-  },
   "N-xHcvug3WI": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 06:28"
-  },
-  "VNbONMSObfs": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:29"
-  },
-  "1xlr3-hK5rY": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:32"
-  },
-  "HqZXw5M6qQY": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:33"
-  },
-  "foUaOCzfIRU": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:34"
-  },
-  "GJAs5sjujHg": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:37"
-  },
-  "BUeeLF2agZY": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:39"
-  },
-  "NgO8TVaC24o": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:42"
-  },
-  "n2EtF9sKW6w": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:45"
-  },
-  "QYAMp13Yi04": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:47"
-  },
-  "8-DRGbQ1IXc": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:50"
-  },
-  "T3ZaWDcPiIo": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:52"
-  },
-  "5FBipicBoJg": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:55"
-  },
-  "lX_IN4v-RnA": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:57"
+   "at": "2026-11-20 06:43"
   },
   "ZQzIZkxsWYw": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 07:00"
+   "at": "2026-11-20 06:45"
   },
-  "htg1EZE3LVk": {
+  "YlY9n7iM-5Q": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 07:02"
-  },
-  "P3NBd3UjH5Y": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:05"
-  },
-  "H4rYVsJ4v9Y": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:08"
-  },
-  "0M71BMAgSSs": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:09"
-  },
-  "tyDRtSUYTRs": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:10"
+   "at": "2026-11-20 06:47"
   },
   "olEGtoYs_8A": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 07:12"
+   "at": "2026-11-20 06:48"
   },
-  "3PiR0G3rVw8": {
+  "ewAODca-3Bw": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 07:13"
+   "at": "2026-11-20 06:50"
   },
-  "vK_IL6V17Js": {
+  "htg1EZE3LVk": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 07:16"
+   "at": "2026-11-20 06:52"
   },
-  "45--ZVLkmks": {
+  "1xlr3-hK5rY": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 07:18"
-  },
-  "APJ-lT0sBhg": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:21"
-  },
-  "IIm_pxD8Csk": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:23"
-  },
-  "_yl5ELcmugI": {
-   "accept": false,
-   "reject_reasons": [
-    "Rockstar Games logo is present in the bottom-right corner",
-    "flag:channel_logo"
-   ],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:26"
-  },
-  "_rRTNvV_h7M": {
-   "accept": false,
-   "reject_reasons": [
-    "PlayStation channel logo in the top-left corner",
-    "flag:channel_logo"
-   ],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:27"
-  },
-  "Ybq_FGtSCN8": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:28"
-  },
-  "lqiZdynJmag": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:31"
+   "at": "2026-11-20 06:55"
   },
   "DyQ5MNkl6SA": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 07:33"
+   "at": "2026-11-20 06:57"
   },
-  "kMCtod_2iQ0": {
+  "UUmKwJD76GY": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 07:36"
+   "at": "2026-11-20 07:00"
+  },
+  "tJbzMqJGH4k": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:01"
   },
   "lEQ4XD8KuUs": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 07:38"
+   "at": "2026-11-20 07:02"
   },
-  "WY4IaylJXvA": {
+  "Sp1wvWZ_2MQ": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:05"
+  },
+  "T3ZaWDcPiIo": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:07"
+  },
+  "vAAvocR04_Y": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:10"
+  },
+  "dtJj0So2yq4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:12"
+  },
+  "kMCtod_2iQ0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:15"
+  },
+  "Ybq_FGtSCN8": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:17"
+  },
+  "tyDRtSUYTRs": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:20"
+  },
+  "foUaOCzfIRU": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:22"
+  },
+  "EiQEBYDox_k": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:25"
+  },
+  "lqiZdynJmag": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:27"
+  },
+  "-HIv_Uj1ERE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:30"
+  },
+  "R3HS6owS3P8": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:32"
+  },
+  "sPLD6LS_TIk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:35"
+  },
+  "YW9VXUgoG6w": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:37"
+  },
+  "_rRTNvV_h7M": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:40"
+  },
+  "T7aaNEW7zA0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:41"
+  },
+  "mP6KvFnltWc": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:44"
+  },
+  "P3NBd3UjH5Y": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:46"
+  },
+  "0hzHIC_YdI4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:49"
+  },
+  "VNbONMSObfs": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:52"
+  },
+  "3PiR0G3rVw8": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:54"
+  },
+  "IIm_pxD8Csk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:57"
+  },
+  "_yl5ELcmugI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rockstar logo in bottom right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-20 07:59"
+  },
+  "QYAMp13Yi04": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:01"
+  },
+  "0M71BMAgSSs": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-20 08:02"
   },
-  "Bf38HiYPMiI": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 08:18"
-  },
   "zpkbwr0HpCc": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 08:20"
+   "at": "2026-11-20 08:04"
   },
-  "587-lLYxzPw": {
+  "45--ZVLkmks": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
-   "at": "2026-11-20 08:31"
+   "at": "2026-11-20 08:06"
+  },
+  "NgO8TVaC24o": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:09"
+  },
+  "9NpPPCvj7m8": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:10"
+  },
+  "GJAs5sjujHg": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:11"
+  },
+  "H4rYVsJ4v9Y": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:14"
+  },
+  "APJ-lT0sBhg": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:16"
+  },
+  "StEaAZ_Ywj4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:19"
+  },
+  "wiW1mpHZb_Y": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:21"
+  },
+  "n2EtF9sKW6w": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:24"
+  },
+  "vK_IL6V17Js": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:26"
+  },
+  "587-lLYxzPw": {
+   "accept": false,
+   "reject_reasons": [
+    "Grand Theft Auto VI logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:29"
+  },
+  "_SgqsxXk8_E": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:30"
+  },
+  "GbuCIrZSPDk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:33"
+  },
+  "aLUGHQq2aek": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-20 08:35"
   }
  },
  "failures": [
   {
-   "at": "2026-11-20T13:10:16.570713+05:30",
+   "at": "2026-11-20T14:07:12.118445+05:30",
    "platform": "youtube",
-   "category": "gta",
+   "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-20T14:14:32.103573+05:30",
+   "at": "2026-11-20T14:59:54.701288+05:30",
    "platform": "youtube",
-   "category": "gta",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T15:53:43.992933+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T16:47:40.593240+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-20T17:41:43.517602+05:30",
+   "platform": "youtube",
+   "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
   }
  ]
