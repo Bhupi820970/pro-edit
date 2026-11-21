@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T06:35:38.203810+05:30",
+ "updated": "2026-11-21T11:10:14.868288+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -31,100 +31,100 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-21T02:54:08.987367+05:30",
+   "at": "2026-11-21T09:25:47.966562+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T09:26:06.728956+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-21T09:26:25.506501+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single title for movie"
   },
   {
-   "at": "2026-11-21T02:54:29.888814+05:30",
+   "at": "2026-11-21T09:27:11.570625+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T09:27:31.809252+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single title for romance"
   },
   {
-   "at": "2026-11-21T03:11:42.799247+05:30",
+   "at": "2026-11-21T09:27:50.814052+05:30",
    "platform": "instagram",
    "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
+   "error": "RuntimeError: no clips of a single title for romance"
   },
   {
-   "at": "2026-11-21T03:47:45.229049+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-21T03:48:34.148809+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-21T04:24:32.455859+05:30",
+   "at": "2026-11-21T10:00:48.497750+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-21T04:25:22.219597+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-21T05:00:15.580983+05:30",
+   "at": "2026-11-21T10:35:10.390249+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-21T05:00:36.069048+05:30",
+   "at": "2026-11-21T11:07:54.120141+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T11:08:12.079055+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-21T11:08:31.771806+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single title for movie"
   },
   {
-   "at": "2026-11-21T05:00:56.386007+05:30",
+   "at": "2026-11-21T11:08:50.356193+05:30",
    "platform": "instagram",
    "category": null,
-   "error": "RuntimeError: no clips of a single title for romance"
+   "error": "RuntimeError: no clips of a single title for movie"
   },
   {
-   "at": "2026-11-21T05:01:16.510939+05:30",
+   "at": "2026-11-21T11:09:09.103823+05:30",
    "platform": "instagram",
    "category": null,
-   "error": "RuntimeError: no clips of a single title for romance"
+   "error": "RuntimeError: no clips of a single title for movie"
   },
   {
-   "at": "2026-11-21T05:35:51.015553+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-21T05:36:35.944868+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single title for romance"
-  },
-  {
-   "at": "2026-11-21T06:12:44.283611+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-21T06:35:36.453905+05:30",
+   "at": "2026-11-21T11:09:54.334692+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T11:10:13.122971+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
   }
  ],
  "pattern_history": [],
  "box_fetcher": {
   "last_run": "2026-11-20T22:17:53.514156+05:30",
-  "age_hours": 8.3,
+  "age_hours": 12.9,
   "healthy": false,
   "pool": {
    "gta": 18,
@@ -135,6 +135,6 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 8h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 13h: run `bash scripts/box_fetch_service.sh start` on the box"
  }
 }
