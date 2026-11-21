@@ -3933,6 +3933,161 @@
    "via": "youtube-search",
    "category": "gta",
    "at": "2026-11-21 02:56"
+  },
+  "Ybq_FGtSCN8": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "wild chaotic drug trip",
+   "summary": "Promotional trailer for GTA Online Los Santos Drug Wars showcasing gameplay, characters, and psychedelic drug trip effects.",
+   "reject_reasons": [
+    "Promotional trailer / teaser content",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 26.0,
+     "end": 29.1,
+     "reason": "Title card and end slate"
+    }
+   ],
+   "characters": [
+    "Dax",
+    "Lab Rat"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: Los Santos Drug Wars Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=Ybq_FGtSCN8",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-21 12:59"
+  },
+  "YlY9n7iM-5Q": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "action packed game trailer",
+   "summary": "The provided footage is a promotional game trailer for GTA Online: San Andreas Mercenaries, featuring explosions, combat sequences, and title cards.",
+   "reject_reasons": [
+    "Promotional game trailer and teaser footage, not full gameplay or scenes.",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 10.0,
+     "reason": "ESRB rating and title card intro"
+    },
+    {
+     "start": 25.0,
+     "end": 28.0,
+     "reason": "End promotional card with play now text"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: San Andreas Mercenaries Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-21 12:59"
+  },
+  "45--ZVLkmks": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "action crime luxury lifestyle",
+   "summary": "A promotional trailer for a GTA Online property update featuring various gameplay clips and title cards.",
+   "reject_reasons": [
+    "promotional trailer",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 9.0,
+     "end": 12.0,
+     "reason": "title card"
+    },
+    {
+     "start": 54.0,
+     "end": 57.0,
+     "reason": "title card"
+    }
+   ],
+   "characters": [
+    "Michael De Santa"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.0,
+    10.46,
+    17.92,
+    25.38,
+    32.84,
+    40.3,
+    47.77,
+    55.23
+   ],
+   "title": "GTA Online: A Safehouse in the Hills Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=45--ZVLkmks",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 60.028,
+   "category": "gta",
+   "at": "2026-11-21 12:59"
   }
  },
  "videos": [],
@@ -5372,6 +5527,12 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-21 08:04"
+  },
+  "i9LHrsNmMWM": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:51"
   }
  },
  "failures": [
@@ -5743,6 +5904,66 @@
   },
   {
    "at": "2026-11-21T17:48:18.452894+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T18:29:31.519500+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T19:01:43.105695+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T19:34:02.831319+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T20:03:32.752129+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T20:35:47.171663+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T21:08:13.708235+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T21:41:46.778281+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T22:12:39.392490+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T22:46:15.705382+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T23:19:37.668894+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
