@@ -5360,6 +5360,18 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-21 02:56"
+  },
+  "He5pZypleqE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 08:03"
+  },
+  "EAB8eymRNaY": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 08:04"
   }
  },
  "failures": [
@@ -5551,6 +5563,186 @@
   },
   {
    "at": "2026-11-21T13:23:24.985841+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T13:34:32.306752+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T13:36:32.667946+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T13:38:29.443341+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T13:54:07.056314+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T13:59:30.954868+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T14:05:02.344605+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T14:10:55.494281+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T14:17:15.170072+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T14:23:27.859292+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T14:29:35.364137+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T14:35:18.122954+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T14:51:46.880813+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T14:57:50.515845+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T15:03:17.350798+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T15:09:17.917793+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T15:36:10.085826+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T15:46:51.427338+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T15:57:18.582603+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T16:03:04.111077+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T16:08:20.469475+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T16:14:02.790901+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T16:20:10.626764+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T16:25:55.565879+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T16:32:06.854870+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T16:38:00.996143+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T16:44:45.663441+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T17:10:14.978155+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T17:15:34.273978+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T17:42:16.187923+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T17:48:18.452894+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
