@@ -4167,6 +4167,176 @@
    "duration": 30.028,
    "category": "gta",
    "at": "2026-11-20 15:50"
+  },
+  "-sotY1wmm8M": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "THAT LIONEL MESSI Double For Argentina v Austria | 2026 FIFA World Cup | All Goals & Highlights",
+   "channel": "FIFA",
+   "credit": "FIFA",
+   "url": "https://www.youtube.com/watch?v=-sotY1wmm8M",
+   "via": "official-channel",
+   "category": "sports",
+   "at": "2026-11-21 05:58"
+  },
+  "8VIgdcabDHE": {
+   "accept": false,
+   "reject_reasons": [
+    "Apple TV logo visible in the top right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Messi Postgame Interview After Leading Inter Miami to First Leagues Cup Victory!",
+   "channel": "Major League Soccer",
+   "credit": "Major League Soccer",
+   "url": "https://www.youtube.com/watch?v=8VIgdcabDHE",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 05:59"
+  },
+  "XqJfuUZgx-M": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "EXCLUSIVE: Lionel Messi on whether he’ll play in the FIFA World Cup 2026",
+   "channel": "NBC News",
+   "credit": "NBC News",
+   "url": "https://www.youtube.com/watch?v=XqJfuUZgx-M",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 06:01"
+  },
+  "ehKRLYHxNgI": {
+   "accept": false,
+   "reject_reasons": [
+    "Apple TV and MLS channel logos present in the corners and upper area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Columbus Crew vs. Inter Miami CF | Full Match Highlights | STUNNING Messi FREE KICK & LATE WINNER!",
+   "channel": "Major League Soccer",
+   "credit": "Major League Soccer",
+   "url": "https://www.youtube.com/watch?v=ehKRLYHxNgI",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 06:02"
+  },
+  "b-KN6NyzpG0": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo (ESPN FC) present in the bottom left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "LIONEL MESSI BRACE ⚽️⚽️ Atlanta United vs. Inter Miami | MLS Highlights | ESPN FC",
+   "channel": "ESPN FC",
+   "credit": "ESPN FC",
+   "url": "https://www.youtube.com/watch?v=b-KN6NyzpG0",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 06:11"
+  },
+  "esB0AkFIDeE": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in top right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Lionel Messi Officially Announced for Inter Miami",
+   "channel": "Major League Soccer",
+   "credit": "Major League Soccer",
+   "url": "https://www.youtube.com/watch?v=esB0AkFIDeE",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 06:12"
+  },
+  "ByAhQmvqsyc": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo / broadcaster bug in top right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "FREE KICK MAGIC FROM LEO MESSI 🎯✨",
+   "channel": "Inter Miami CF ",
+   "credit": "Inter Miami CF",
+   "url": "https://www.youtube.com/watch?v=ByAhQmvqsyc",
+   "via": "official-channel",
+   "category": "sports",
+   "at": "2026-11-21 06:13"
+  },
+  "evs534bh0c0": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Lionel Messi's FIRST EVER World Cup Hat-Trick! | 2026 World Cup EXTENDED HIGHLIGHTS",
+   "channel": "FIFA",
+   "credit": "FIFA",
+   "url": "https://www.youtube.com/watch?v=evs534bh0c0",
+   "via": "official-channel",
+   "category": "sports",
+   "at": "2026-11-21 06:20"
+  },
+  "yz4T3O54joU": {
+   "accept": false,
+   "reject_reasons": [
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Back-To-Back MVP And FIRST MLS Cup Title! | Best of Messi in MLS",
+   "channel": "Major League Soccer",
+   "credit": "Major League Soccer",
+   "url": "https://www.youtube.com/watch?v=yz4T3O54joU",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 06:21"
+  },
+  "Nmk_RxkOyMg": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo (ESPN) present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "LIONEL MESSI EXCLUSIVE! Argentina striker says Inter Miami will be his LAST club | ESPN FC",
+   "channel": "ESPN FC",
+   "credit": "ESPN FC",
+   "url": "https://www.youtube.com/watch?v=Nmk_RxkOyMg",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 06:28"
   }
  },
  "videos": [],
@@ -18356,6 +18526,186 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-21 01:42"
+  },
+  "fmYSljB4cmQ": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 05:45"
+  },
+  "VJ5Dz8PbTxk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 05:48"
+  },
+  "x42z8NfLZS4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 05:50"
+  },
+  "pm8Dz3Eey_Y": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 05:53"
+  },
+  "tlo6BREg53M": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 05:55"
+  },
+  "-sotY1wmm8M": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 05:58"
+  },
+  "8VIgdcabDHE": {
+   "accept": false,
+   "reject_reasons": [
+    "Apple TV logo visible in the top right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 05:59"
+  },
+  "XqJfuUZgx-M": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:01"
+  },
+  "ehKRLYHxNgI": {
+   "accept": false,
+   "reject_reasons": [
+    "Apple TV and MLS channel logos present in the corners and upper area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:02"
+  },
+  "2mh_ZICm-EU": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:03"
+  },
+  "Y4jJgc5usC0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:06"
+  },
+  "zz_zC7xbhkA": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:08"
+  },
+  "b-KN6NyzpG0": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo (ESPN FC) present in the bottom left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:11"
+  },
+  "esB0AkFIDeE": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in top right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:12"
+  },
+  "ByAhQmvqsyc": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo / broadcaster bug in top right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:13"
+  },
+  "rzhd04I4s2Q": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:15"
+  },
+  "AWBTVCYHT3Q": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:17"
+  },
+  "evs534bh0c0": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:20"
+  },
+  "yz4T3O54joU": {
+   "accept": false,
+   "reject_reasons": [
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:21"
+  },
+  "QDikhiOkw1g": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:22"
+  },
+  "AL3d7PMQZ0g": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:25"
+  },
+  "Nmk_RxkOyMg": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo (ESPN) present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:28"
+  },
+  "LfksKqEfYug": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:29"
+  },
+  "LrsoZZ5a1Rc": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:31"
+  },
+  "95kBkPcKB64": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 06:34"
   }
  },
  "failures": [
@@ -19006,6 +19356,150 @@
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-21T12:05:47.091570+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T12:06:08.376505+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-21T12:06:28.573333+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-21T12:24:57.438282+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T12:25:17.754027+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-21T12:26:06.409252+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T12:26:26.440198+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-21T12:27:14.707474+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T13:02:08.115140+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T13:33:10.161713+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T13:33:31.413873+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-21T14:08:01.731736+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T14:08:21.840256+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-21T14:09:10.701137+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T14:09:31.208134+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-21T14:09:51.456796+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-21T14:10:10.981486+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-21T14:31:06.703837+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T15:07:12.203207+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T15:08:01.246122+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T15:25:08.628559+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T15:46:03.867595+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T16:20:51.109541+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T16:56:54.044796+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
   }
  ]
 }

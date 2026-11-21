@@ -1,0 +1,724 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 278,
+  "vetted": 10,
+  "rejected": [
+   {
+    "id": "-sotY1wmm8M",
+    "title": "THAT LIONEL MESSI Double For Argentina v Austria | 2026 FIFA World Cup | All Goals & Highlights",
+    "reasons": [
+     "channel logo present in the top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "8VIgdcabDHE",
+    "title": "Messi Postgame Interview After Leading Inter Miami to First Leagues Cup Victory!",
+    "reasons": [
+     "Apple TV logo visible in the top right corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "XqJfuUZgx-M",
+    "title": "EXCLUSIVE: Lionel Messi on whether he’ll play in the FIFA World Cup 2026",
+    "reasons": [
+     "Channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "ehKRLYHxNgI",
+    "title": "Columbus Crew vs. Inter Miami CF | Full Match Highlights | STUNNING Messi FREE KICK & LATE WINNER!",
+    "reasons": [
+     "Apple TV and MLS channel logos present in the corners and upper area",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "b-KN6NyzpG0",
+    "title": "LIONEL MESSI BRACE ⚽️⚽️ Atlanta United vs. Inter Miami | MLS Highlights | ESPN FC",
+    "reasons": [
+     "Channel logo (ESPN FC) present in the bottom left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "esB0AkFIDeE",
+    "title": "Lionel Messi Officially Announced for Inter Miami",
+    "reasons": [
+     "channel_logo present in top right corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "ByAhQmvqsyc",
+    "title": "FREE KICK MAGIC FROM LEO MESSI 🎯✨",
+    "reasons": [
+     "Channel logo / broadcaster bug in top right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "evs534bh0c0",
+    "title": "Lionel Messi's FIRST EVER World Cup Hat-Trick! | 2026 World Cup EXTENDED HIGHLIGHTS",
+    "reasons": [
+     "channel logo present in top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "yz4T3O54joU",
+    "title": "Back-To-Back MVP And FIRST MLS Cup Title! | Best of Messi in MLS",
+    "reasons": [
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "Nmk_RxkOyMg",
+    "title": "LIONEL MESSI EXCLUSIVE! Argentina striker says Inter Miami will be his LAST club | ESPN FC",
+    "reasons": [
+     "Channel logo (ESPN) present in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 235,
+  "fallback_used": true,
+  "thin": [
+   "sports",
+   "movie",
+   "romance",
+   "gta"
+  ],
+  "failed_ids": [
+   "fmYSljB4cmQ",
+   "VJ5Dz8PbTxk",
+   "x42z8NfLZS4",
+   "pm8Dz3Eey_Y",
+   "tlo6BREg53M",
+   "2mh_ZICm-EU",
+   "Y4jJgc5usC0",
+   "zz_zC7xbhkA",
+   "rzhd04I4s2Q",
+   "AWBTVCYHT3Q",
+   "QDikhiOkw1g",
+   "AL3d7PMQZ0g",
+   "LfksKqEfYug",
+   "LrsoZZ5a1Rc",
+   "95kBkPcKB64",
+   "MQstdmVmZU8",
+   "3oLh7QPp02Q",
+   "XWISA6cBx34",
+   "VlhU9OrikSA",
+   "o1BrK2KWifc",
+   "i9Dx4eg-0M0",
+   "-zd62MxKXp8",
+   "TAyDe4Jepog",
+   "Fr3OrTNXR90",
+   "Le3FfVxbjEQ",
+   "-9lP95Qo-I0",
+   "0G10fR6EGwY",
+   "G3sYVK0c73k",
+   "7a6gnRvQqHQ",
+   "VNbONMSObfs",
+   "kfzrQGU6jhM",
+   "ZQzIZkxsWYw",
+   "aLUGHQq2aek",
+   "wiW1mpHZb_Y",
+   "N-xHcvug3WI",
+   "tJbzMqJGH4k",
+   "lX_IN4v-RnA",
+   "zpkbwr0HpCc",
+   "1xlr3-hK5rY",
+   "foUaOCzfIRU",
+   "-HIv_Uj1ERE",
+   "YlY9n7iM-5Q",
+   "vAAvocR04_Y",
+   "Ybq_FGtSCN8",
+   "UUmKwJD76GY",
+   "HqZXw5M6qQY",
+   "XAOUlsrmzYM",
+   "DyQ5MNkl6SA",
+   "H4rYVsJ4v9Y",
+   "0M71BMAgSSs",
+   "lEQ4XD8KuUs",
+   "kMCtod_2iQ0",
+   "Bf38HiYPMiI",
+   "tyDRtSUYTRs",
+   "QYAMp13Yi04",
+   "mP6KvFnltWc",
+   "olEGtoYs_8A",
+   "45--ZVLkmks",
+   "lqiZdynJmag",
+   "NgO8TVaC24o",
+   "sPLD6LS_TIk",
+   "P3NBd3UjH5Y",
+   "at8pz2XJtPg",
+   "StEaAZ_Ywj4",
+   "sPLD6LS_TIk",
+   "mP6KvFnltWc",
+   "DyQ5MNkl6SA",
+   "1xlr3-hK5rY",
+   "lqiZdynJmag",
+   "P3NBd3UjH5Y",
+   "H4rYVsJ4v9Y",
+   "tJbzMqJGH4k",
+   "N-xHcvug3WI",
+   "QYAMp13Yi04",
+   "olEGtoYs_8A",
+   "XAOUlsrmzYM",
+   "kfzrQGU6jhM",
+   "YlY9n7iM-5Q",
+   "45--ZVLkmks",
+   "foUaOCzfIRU",
+   "vAAvocR04_Y",
+   "ZQzIZkxsWYw",
+   "tyDRtSUYTRs",
+   "aLUGHQq2aek",
+   "lEQ4XD8KuUs",
+   "StEaAZ_Ywj4",
+   "VNbONMSObfs",
+   "kMCtod_2iQ0",
+   "wiW1mpHZb_Y",
+   "Ybq_FGtSCN8",
+   "NgO8TVaC24o",
+   "Bf38HiYPMiI",
+   "UUmKwJD76GY",
+   "HqZXw5M6qQY",
+   "-HIv_Uj1ERE",
+   "zpkbwr0HpCc",
+   "kMCtod_2iQ0",
+   "5FBipicBoJg",
+   "StEaAZ_Ywj4",
+   "DyQ5MNkl6SA",
+   "Ybq_FGtSCN8",
+   "ZQzIZkxsWYw",
+   "H4rYVsJ4v9Y",
+   "mP6KvFnltWc",
+   "UUmKwJD76GY",
+   "N-xHcvug3WI",
+   "lX_IN4v-RnA",
+   "VNbONMSObfs",
+   "QYAMp13Yi04",
+   "YlY9n7iM-5Q",
+   "aLUGHQq2aek",
+   "NgO8TVaC24o",
+   "P3NBd3UjH5Y",
+   "1xlr3-hK5rY",
+   "olEGtoYs_8A",
+   "wiW1mpHZb_Y",
+   "lqiZdynJmag",
+   "tJbzMqJGH4k",
+   "lEQ4XD8KuUs",
+   "-HIv_Uj1ERE",
+   "tyDRtSUYTRs",
+   "45--ZVLkmks",
+   "vAAvocR04_Y",
+   "sPLD6LS_TIk",
+   "0M71BMAgSSs",
+   "foUaOCzfIRU",
+   "-9lP95Qo-I0",
+   "ayo-Ntj8Aec",
+   "o1BrK2KWifc",
+   "MQstdmVmZU8",
+   "7a6gnRvQqHQ",
+   "3dWqAyPielA",
+   "XIW8e7Xi_l8",
+   "Le3FfVxbjEQ",
+   "G3sYVK0c73k",
+   "3oLh7QPp02Q",
+   "Z67MBZTUQ2w",
+   "Fr3OrTNXR90",
+   "XWISA6cBx34",
+   "TAyDe4Jepog",
+   "0G10fR6EGwY",
+   "-zd62MxKXp8",
+   "kfzrQGU6jhM",
+   "tJbzMqJGH4k",
+   "olEGtoYs_8A",
+   "VNbONMSObfs",
+   "vAAvocR04_Y",
+   "N-xHcvug3WI",
+   "5FBipicBoJg",
+   "NgO8TVaC24o",
+   "zpkbwr0HpCc",
+   "QYAMp13Yi04",
+   "XAOUlsrmzYM",
+   "UUmKwJD76GY",
+   "sPLD6LS_TIk",
+   "-HIv_Uj1ERE",
+   "H4rYVsJ4v9Y",
+   "HqZXw5M6qQY",
+   "at8pz2XJtPg",
+   "45--ZVLkmks",
+   "tyDRtSUYTRs",
+   "0M71BMAgSSs",
+   "YlY9n7iM-5Q",
+   "lEQ4XD8KuUs",
+   "Bf38HiYPMiI",
+   "DyQ5MNkl6SA",
+   "mP6KvFnltWc",
+   "P3NBd3UjH5Y",
+   "foUaOCzfIRU",
+   "ZQzIZkxsWYw",
+   "aLUGHQq2aek",
+   "wiW1mpHZb_Y",
+   "lX_IN4v-RnA",
+   "Ybq_FGtSCN8",
+   "StEaAZ_Ywj4",
+   "lqiZdynJmag",
+   "1xlr3-hK5rY",
+   "kMCtod_2iQ0",
+   "3dWqAyPielA",
+   "XWISA6cBx34",
+   "Fr3OrTNXR90",
+   "G3sYVK0c73k",
+   "0G10fR6EGwY",
+   "-9lP95Qo-I0",
+   "Le3FfVxbjEQ",
+   "3oLh7QPp02Q",
+   "XIW8e7Xi_l8",
+   "Z67MBZTUQ2w",
+   "7a6gnRvQqHQ",
+   "MQstdmVmZU8",
+   "o1BrK2KWifc",
+   "ayo-Ntj8Aec",
+   "TAyDe4Jepog",
+   "3oLh7QPp02Q",
+   "0G10fR6EGwY",
+   "XIW8e7Xi_l8",
+   "Fr3OrTNXR90",
+   "o1BrK2KWifc",
+   "sO56CyHI5ek",
+   "XWISA6cBx34",
+   "Le3FfVxbjEQ",
+   "7a6gnRvQqHQ",
+   "3dWqAyPielA",
+   "G3sYVK0c73k",
+   "-9lP95Qo-I0",
+   "MQstdmVmZU8",
+   "DIc8gkrzjzQ",
+   "lX_IN4v-RnA",
+   "lqiZdynJmag",
+   "5FBipicBoJg",
+   "mP6KvFnltWc",
+   "lEQ4XD8KuUs",
+   "foUaOCzfIRU",
+   "8-DRGbQ1IXc",
+   "DyQ5MNkl6SA",
+   "olEGtoYs_8A",
+   "Ybq_FGtSCN8",
+   "Bf38HiYPMiI",
+   "VNbONMSObfs",
+   "1xlr3-hK5rY",
+   "-HIv_Uj1ERE",
+   "XAOUlsrmzYM",
+   "sPLD6LS_TIk",
+   "wiW1mpHZb_Y",
+   "NgO8TVaC24o",
+   "kfzrQGU6jhM",
+   "vAAvocR04_Y",
+   "45--ZVLkmks",
+   "StEaAZ_Ywj4",
+   "kMCtod_2iQ0",
+   "YlY9n7iM-5Q",
+   "tJbzMqJGH4k",
+   "H4rYVsJ4v9Y",
+   "tyDRtSUYTRs",
+   "UUmKwJD76GY",
+   "ZQzIZkxsWYw",
+   "N-xHcvug3WI",
+   "QYAMp13Yi04",
+   "HqZXw5M6qQY",
+   "0M71BMAgSSs",
+   "P3NBd3UjH5Y",
+   "aLUGHQq2aek",
+   "HqZXw5M6qQY",
+   "lqiZdynJmag",
+   "foUaOCzfIRU",
+   "lX_IN4v-RnA",
+   "tJbzMqJGH4k",
+   "H4rYVsJ4v9Y",
+   "VNbONMSObfs",
+   "-HIv_Uj1ERE",
+   "N-xHcvug3WI",
+   "45--ZVLkmks",
+   "Bf38HiYPMiI",
+   "Ybq_FGtSCN8",
+   "5FBipicBoJg",
+   "P3NBd3UjH5Y",
+   "olEGtoYs_8A",
+   "ZQzIZkxsWYw",
+   "DyQ5MNkl6SA",
+   "zpkbwr0HpCc",
+   "8-DRGbQ1IXc",
+   "1xlr3-hK5rY",
+   "StEaAZ_Ywj4",
+   "sPLD6LS_TIk",
+   "aLUGHQq2aek",
+   "QYAMp13Yi04",
+   "0M71BMAgSSs",
+   "tyDRtSUYTRs",
+   "YlY9n7iM-5Q",
+   "NgO8TVaC24o",
+   "kfzrQGU6jhM",
+   "vAAvocR04_Y",
+   "mP6KvFnltWc",
+   "lEQ4XD8KuUs",
+   "kMCtod_2iQ0",
+   "wiW1mpHZb_Y",
+   "UUmKwJD76GY",
+   "XAOUlsrmzYM"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}
