@@ -3899,6 +3899,40 @@
    "via": "youtube-search",
    "category": "gta",
    "at": "2026-11-20 21:22"
+  },
+  "yqJ7O9b_F_c": {
+   "accept": false,
+   "reject_reasons": [
+    "NVIDIA DLSS 5 watermark in the bottom-left corner",
+    "flag:watermark"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA 6 + DLSS 5 Looks Almost TOO REAL to Be a Game! [4K 60FPS HDR]",
+   "channel": "Champs Network",
+   "credit": "Champs Network",
+   "url": "https://www.youtube.com/watch?v=yqJ7O9b_F_c",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-21 02:36"
+  },
+  "eVtEKMUp08s": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA 5 PS5 - Mission #1 - Prologue [Gold Medal Guide - 4K 60fps]",
+   "channel": "GTA Series Videos",
+   "credit": "GTA Series Videos",
+   "url": "https://www.youtube.com/watch?v=eVtEKMUp08s",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-21 02:56"
   }
  },
  "videos": [],
@@ -5278,6 +5312,54 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-20 21:22"
+  },
+  "7oFmRN0oadI": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 02:19"
+  },
+  "yqJ7O9b_F_c": {
+   "accept": false,
+   "reject_reasons": [
+    "NVIDIA DLSS 5 watermark in the bottom-left corner",
+    "flag:watermark"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 02:36"
+  },
+  "Cm8CkXhPcrE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 02:39"
+  },
+  "gtOLVulhwzg": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 02:43"
+  },
+  "wrFZ3NNyKtE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 02:47"
+  },
+  "Ple3DDA24Tw": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 02:52"
+  },
+  "eVtEKMUp08s": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 02:56"
   }
  },
  "failures": [
@@ -5415,6 +5497,60 @@
   },
   {
    "at": "2026-11-21T07:39:21.286821+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T08:30:18.146420+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T09:06:26.082997+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T09:43:45.481965+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T10:19:50.467765+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T10:56:00.043609+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T11:33:09.094349+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T12:09:06.653778+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T12:46:14.265624+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T13:23:24.985841+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
