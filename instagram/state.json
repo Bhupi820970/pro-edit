@@ -1,8 +1,57 @@
 {
- "patterns": [],
- "songs": [],
- "windows": [],
- "sources_used": [],
+ "patterns": [
+  {
+   "id": "P04",
+   "at": "2026-11-21T23:43:54.504914+05:30",
+   "video": "in-movie-20261121-232543",
+   "platform": "instagram"
+  }
+ ],
+ "songs": [
+  {
+   "title": "Sweet Dreams (Are Made of This)",
+   "artist": "Eurythmics",
+   "url": "",
+   "at": "2026-11-21T23:43:54.504928+05:30",
+   "video": "in-movie-20261121-232543"
+  }
+ ],
+ "windows": [
+  {
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 113.15,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543"
+  },
+  {
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 36.03,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543"
+  }
+ ],
+ "sources_used": [
+  {
+   "id": "c8gim368JAU",
+   "at": "2026-11-21T23:43:54.505290+05:30",
+   "video": "in-movie-20261121-232543"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "at": "2026-11-21T23:43:54.505300+05:30",
+   "video": "in-movie-20261121-232543"
+  },
+  {
+   "id": "AzzwE0mOZEs",
+   "at": "2026-11-21T23:43:54.505304+05:30",
+   "video": "in-movie-20261121-232543"
+  },
+  {
+   "id": "AzzwE0mOZEs",
+   "at": "2026-11-21T23:43:54.505308+05:30",
+   "video": "in-movie-20261121-232543"
+  }
+ ],
  "segments_used": [
   {
    "id": "QdBZY2fkU-0",
@@ -3045,6 +3094,123 @@
    "at": "2026-11-18T22:35:31.894039+05:30",
    "video": "auto_v1",
    "kind": "montage"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 218.07000000000002,
+   "end": 220.47000000000003,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "AzzwE0mOZEs",
+   "file": "AzzwE0mOZEs.mkv",
+   "start": 12.77,
+   "end": 15.17,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "c8gim368JAU",
+   "file": "c8gim368JAU.mkv",
+   "start": 82.47000000000001,
+   "end": 84.87000000000002,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 83.57000000000001,
+   "end": 85.47000000000001,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 113.15,
+   "end": 122.25,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "dialogue"
+  },
+  {
+   "id": "AzzwE0mOZEs",
+   "file": "AzzwE0mOZEs.mkv",
+   "start": 145.17000000000002,
+   "end": 147.57000000000002,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "c8gim368JAU",
+   "file": "c8gim368JAU.mkv",
+   "start": 177.97,
+   "end": 179.90333333333334,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 36.03,
+   "end": 41.763333333333335,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "dialogue"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 194.37,
+   "end": 196.30333333333334,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "AzzwE0mOZEs",
+   "file": "AzzwE0mOZEs.mkv",
+   "start": 63.669999999999995,
+   "end": 65.57,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "c8gim368JAU",
+   "file": "c8gim368JAU.mkv",
+   "start": 62.169999999999995,
+   "end": 64.57,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 138.37,
+   "end": 140.27,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "AzzwE0mOZEs",
+   "file": "AzzwE0mOZEs.mkv",
+   "start": 133.97,
+   "end": 135.40333333333334,
+   "at": "2026-11-21T23:43:54.504940+05:30",
+   "video": "in-movie-20261121-232543",
+   "kind": "montage"
   }
  ],
  "vet": {
@@ -5956,6 +6122,74 @@
    "duration": 286.148,
    "category": "romance",
    "at": "2026-11-21 13:13"
+  },
+  "cNb1bUGWIrQ": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Lakers Postgame: LeBron James (1/25/20)",
+   "channel": "Los Angeles Lakers",
+   "credit": "Los Angeles Lakers",
+   "url": "https://www.youtube.com/watch?v=cNb1bUGWIrQ",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 17:28"
+  },
+  "7sQ80Qt5psI": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo or network bug present in top-left and top-right corners.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "LeBron James Defends the Knicks to Steve Nash: “Every Team Is Chasing Them” | NBA on Prime",
+   "channel": "Sports On Prime",
+   "credit": "Sports On Prime",
+   "url": "https://www.youtube.com/watch?v=7sQ80Qt5psI",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 17:31"
+  },
+  "t8tnELrsoeU": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "LeBron James' Ridiculous Court Vision 👀",
+   "channel": "NBA",
+   "credit": "NBA",
+   "url": "https://www.youtube.com/watch?v=t8tnELrsoeU",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 17:39"
+  },
+  "dSD27Mrr72c": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo or network watermark present in the corners and background.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "LeBron James NBA Finals Press Conference: \"It's Time\"",
+   "channel": "NBA",
+   "credit": "NBA",
+   "url": "https://www.youtube.com/watch?v=dSD27Mrr72c",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-21 17:44"
   }
  },
  "videos": [
@@ -6089,6 +6323,141 @@
      }
     }
    }
+  },
+  {
+   "id": "in-movie-20261121-232543",
+   "platform": "instagram",
+   "category": "movie",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-21T23:43:54.504248+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261121-232543.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-movie-20261121-232543.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 94.8,
+   "title": "Movie Scene Edit | Sweet Dreams (Are Made of This) Edit",
+   "hook": "MOVIE SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sweet Dreams (Are Made of This)\" – Eurythmics (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Eurythmics%20Sweet%20Dreams%20%28Are%20Made%20of%20This%29\n🎬 Footage: Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Sweet Dreams (Are Made of This)",
+    "artist": "Eurythmics",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Eurythmics%20Sweet%20Dreams%20%28Are%20Made%20of%20This%29"
+   },
+   "song_credit": "\"Sweet Dreams (Are Made of This)\" – Eurythmics",
+   "pattern": {
+    "id": "P04",
+    "name": "Stepping down beside"
+   },
+   "captions": [
+    "OF YOU THEY",
+    "TELL YOU YOU",
+    "GOT A CHANCE",
+    "BUT",
+    "I'M",
+    "SORRY IT'S A",
+    "LIE",
+    "BECAUSE",
+    "THEY HAD ALREADY",
+    "MADE UP THEIR",
+    "MIND AND THEY",
+    "KNEW WHAT THEY",
+    "WERE GOING TO",
+    "DO BEFORE YOU",
+    "WALKED IN THE",
+    "DOOR",
+    "I MEAN THAT",
+    "QUITE AS GOOD",
+    "AS SOME OF",
+    "THE OTHER KIDS",
+    "BUT THEY'RE GOOD",
+    "AND HER",
+    "RECOMMENDATIONS ARE",
+    "SOLID"
+   ],
+   "duration": 38.43,
+   "sources": [
+    {
+     "id": "c8gim368JAU",
+     "src_id": "c8gim368JAU",
+     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
+     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
+    },
+    {
+     "id": "ER4wFqmv75Q",
+     "src_id": "ER4wFqmv75Q",
+     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
+     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
+    },
+    {
+     "id": "AzzwE0mOZEs",
+     "src_id": "AzzwE0mOZEs",
+     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
+     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
+    },
+    {
+     "id": "AzzwE0mOZEs",
+     "src_id": "AzzwE0mOZEs",
+     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
+     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.43
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -19.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 24
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261121-232543.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261121-232543.preview.mp4"
   }
  ],
  "listing_cache": {
@@ -21165,6 +21534,60 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-21 13:13"
+  },
+  "cNb1bUGWIrQ": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 17:28"
+  },
+  "7sQ80Qt5psI": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo or network bug present in top-left and top-right corners.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 17:31"
+  },
+  "XX5ppgOTBp8": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 17:32"
+  },
+  "nSjU02GjH6o": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 17:35"
+  },
+  "t8tnELrsoeU": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 17:39"
+  },
+  "dSD27Mrr72c": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo or network watermark present in the corners and background.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 17:44"
+  },
+  "VkmJr0qmwX8": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-21 17:54"
   }
  },
  "failures": [
@@ -22034,6 +22457,174 @@
   },
   {
    "at": "2026-11-21T22:46:54.711432+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T23:25:43.377090+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T00:17:39.743764+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T00:19:06.089935+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T00:19:55.769468+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T00:53:38.046806+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T00:55:03.895003+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T00:56:30.079048+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 15.7700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/c8gim368JAU.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T00:57:55.300802+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T00:59:21.219659+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T01:00:47.261684+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T01:23:09.339050+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T01:56:57.337363+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T01:58:22.273716+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T02:00:27.817699+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T02:35:23.473946+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T02:37:29.979130+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T02:39:38.775038+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T02:41:04.347115+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T02:42:29.571734+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T02:44:35.321959+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T02:45:25.670902+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T03:15:24.033159+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T03:16:39.622758+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T03:18:36.918343+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T03:20:02.152495+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T03:43:35.406626+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T03:45:02.352788+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 22.1700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-22T04:17:32.913188+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
