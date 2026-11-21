@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T16:57:11.914155+05:30",
+ "updated": "2026-11-21T22:47:11.118292+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -19,7 +19,7 @@
    "ready": 0,
    "target": 7,
    "warning": true,
-   "produced_today": 0,
+   "produced_today": 1,
    "per_day": [
     6,
     7
@@ -31,84 +31,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-21T13:33:10.161713+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-21T13:33:31.413873+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single title for movie"
-  },
-  {
-   "at": "2026-11-21T14:08:01.731736+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-21T14:08:21.840256+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single title for movie"
-  },
-  {
-   "at": "2026-11-21T14:09:10.701137+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-21T14:09:31.208134+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single title for movie"
-  },
-  {
-   "at": "2026-11-21T14:09:51.456796+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single title for romance"
-  },
-  {
-   "at": "2026-11-21T14:10:10.981486+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single title for movie"
-  },
-  {
-   "at": "2026-11-21T14:31:06.703837+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-21T15:07:12.203207+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-21T15:08:01.246122+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-21T15:25:08.628559+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-21T15:46:03.867595+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
    "at": "2026-11-21T16:20:51.109541+05:30",
    "platform": "instagram",
    "category": null,
@@ -119,19 +41,97 @@
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T19:01:18.331525+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HIGHER YOU RISE\"]}}"
+  },
+  {
+   "at": "2026-11-21T19:34:48.559394+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T19:36:14.196806+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-romance-20261121-170127/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
+  },
+  {
+   "at": "2026-11-21T19:37:03.448233+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T19:38:27.545058+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 10.7700 -i /mnt/ph/instagram/work/in-romance-20261121-170127/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
+  },
+  {
+   "at": "2026-11-21T20:10:44.982526+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T20:32:53.274297+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T20:35:00.752636+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 143.1700 -i /mnt/ph/instagram/work/in-romance-20261121-170127/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=r"
+  },
+  {
+   "at": "2026-11-21T20:35:50.144624+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T21:07:47.757415+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T21:41:16.277676+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T22:14:33.319055+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T22:46:54.711432+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
   }
  ],
  "pattern_history": [],
  "box_fetcher": {
-  "last_run": "2026-11-21T10:15:39.271512+05:30",
-  "age_hours": 6.7,
+  "last_run": "2026-11-21T15:59:00.816050+05:30",
+  "age_hours": 6.8,
   "healthy": false,
   "pool": {
-   "gta": 15,
+   "gta": 21,
    "gaming": 15,
-   "movie": 15,
-   "sports": 15,
-   "romance": 15,
+   "movie": 18,
+   "sports": 18,
+   "romance": 18,
    "series": 15
   },
   "errors": [],

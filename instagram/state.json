@@ -4337,9 +4337,1760 @@
    "via": "youtube-search",
    "category": "sports",
    "at": "2026-11-21 06:28"
+  },
+  "a0ABSxq3K-w": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "PAW Patrol: The Dino Movie (2026) 4K - Meet Rex and Timmy! (3/9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=a0ABSxq3K-w",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:33"
+  },
+  "p86zNFq8j8E": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo overlay in bottom-left corner",
+    "4K badge overlay in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "PAW Patrol: The Dino Movie (2026) 4K - DINOSAUR STAMPEDE!!! (7/9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=p86zNFq8j8E",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:34"
+  },
+  "1xUErMbrJqM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "PAW Patrol: The Dino Movie (2026) 4K - Flying Over Dino Island! (4/9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=1xUErMbrJqM",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:35"
+  },
+  "L5ynlEtm8Z0": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "tense tactical standoff",
+   "summary": "SWAT officers deal with a suspect wearing a bomb vest in an industrial setting and outdoor courtyard.",
+   "reject_reasons": [
+    "channel watermark present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo",
+    "not editable"
+   ],
+   "bad_ranges": [],
+   "characters": [
+    "Daniel Harrelson",
+    "Christina Alonso"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    8.17,
+    28.48,
+    48.79,
+    69.1,
+    89.41,
+    109.72,
+    130.03,
+    150.34
+   ],
+   "title": "S.W.A.T. - He's Wearing a Bomb Vest?! (S3E16) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=L5ynlEtm8Z0",
+   "via": "official-channel",
+   "height": 1080,
+   "duration": 163.408,
+   "category": "romance",
+   "at": "2026-11-21 11:35"
+  },
+  "5KzhmS0Msqw": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips watermarks and logos are present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The World Is Not Enough (1999) 4K - Bond Ski Chase (2/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=5KzhmS0Msqw",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:37"
+  },
+  "SRUGt5yhB88": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "S.W.A.T. - Deacon Captured (S3E15) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=SRUGt5yhB88",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:38"
+  },
+  "nzl30-ThpuA": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in bottom left corner (Rotten Tomatoes/Movieclips logo)",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Better Call Saul - Lalo Gives Hector His Bell (S4E9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=nzl30-ThpuA",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:40"
+  },
+  "0u_cGUI4aH4": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo overlay in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Insidious: Out of the Further (2026) 4K - Dentist From Hell! (5/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=0u_cGUI4aH4",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:41"
+  },
+  "Wgc5G9-B2tc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Better Call Saul - Werner Blasts The Last Rock (S4E9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Wgc5G9-B2tc",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:42"
+  },
+  "SOO9YPlJCXI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo and 4K watermark present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Killer Whale (2026) 4K - Having a WHALE of a Bad Time (10/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=SOO9YPlJCXI",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:44"
+  },
+  "MgLT-YdAGuU": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel watermark 'RT' logo present in the bottom left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - Leonardo vs. Raphael! (8/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=MgLT-YdAGuU",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:45"
+  },
+  "VGTAdmVi2nc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K badge present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The World Is Not Enough (1999) 4K - Sophie Marceau: The Queen of Hearts (4/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=VGTAdmVi2nc",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:46"
+  },
+  "jEYGCYkkhjI": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - Nancy's Hallucination (S4E10) (6/6) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=jEYGCYkkhjI",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:47"
+  },
+  "Q5zPc9T2w14": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo watermark in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "PAW Patrol: The Dino Movie (2026) 4K - Chase & Skye Rope Rescue (8/9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Q5zPc9T2w14",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:49"
+  },
+  "UV2paizsX4k": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes watermark present in bottom left corner",
+    "4K logo present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "One Night Only (2026) 4K - Stealing the Last Condom (4/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=UV2paizsX4k",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:50"
+  },
+  "-zbXiInWmRU": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in the bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "S.W.A.T. - Chris Hacks a Phone (S3E15) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=-zbXiInWmRU",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:51"
+  },
+  "cN2IuhhXitA": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo visible in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Sing 2 (2021) - Could Have Been Me Scene | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=cN2IuhhXitA",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-21 11:53"
+  },
+  "hdD9rHsIacM": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - TMNT vs. The Stone Generals (10/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=hdD9rHsIacM",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:54"
+  },
+  "gzLHRcl--Pc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) and 4K channel logo/watermark overlays present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Insidious: Out of the Further (2026) 4K - This Made Me SCREAM! (6/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=gzLHRcl--Pc",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:56"
+  },
+  "7-4CglX4EEM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in bottom-left corner",
+    "4K badge present in bottom-left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "PAW Patrol: The Dino Movie (2026) 4K - Chase, Rocky, and Marshall Dino Rescue (6/9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=7-4CglX4EEM",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:57"
+  },
+  "P2BZBd8C6kI": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Better Call Saul - Gus Meets Lalo (S4E9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=P2BZBd8C6kI",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:58"
+  },
+  "CvRC2GEdGDo": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes watermark/logo present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - Monster Hunt! (6/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=CvRC2GEdGDo",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 11:59"
+  },
+  "XcRBBLpjsnQ": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel bug present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Insidious: Out of the Further (2026) 4K - Watch Me! (2/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=XcRBBLpjsnQ",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:01"
+  },
+  "EHV0zs0kVGg": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The Blues Brothers (1980) - Everybody Needs Somebody to Love Scene (6/9) | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=EHV0zs0kVGg",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-21 12:02"
+  },
+  "fb2ipdS52fk": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips channel watermark present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - Casey Jones Kisses April O’Neal (11/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=fb2ipdS52fk",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:03"
+  },
+  "Qe2m1wxb5_w": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel watermark logo is present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Mamma Mia! (2008) - Slipping Through My Fingers Scene (8/10) | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=Qe2m1wxb5_w",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-21 12:05"
+  },
+  "6kvqBfkI3cE": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo or watermark present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Insidious: Out of the Further (2026) 4K - Killed by a Ghost! (1/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=6kvqBfkI3cE",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:06"
+  },
+  "ZhUkGg2fXzE": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "dark supernatural horror tension",
+   "summary": "An official clip from Insidious featuring intense supernatural horror moments, demonic entities, and terrified characters.",
+   "reject_reasons": [
+    "persistent channel logo watermark in the bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo",
+    "not editable"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    10.31,
+    35.95,
+    61.58,
+    87.21,
+    112.85,
+    138.48,
+    164.11,
+    189.75
+   ],
+   "title": "Insidious: Out of the Further (2026) 4K - The Lipstick-Face Demon Returns! (11/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=ZhUkGg2fXzE",
+   "via": "official-channel",
+   "height": 1440,
+   "duration": 206.248,
+   "category": "romance",
+   "at": "2026-11-21 12:06"
+  },
+  "OLpLwmxMd1k": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "S.W.A.T. - Awww.. So Sweet! Vic's Girlfriend Meets His Mom (S3E15) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=OLpLwmxMd1k",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:07"
+  },
+  "C9fdm2gI-Zg": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo in the bottom-left corner",
+    "4K watermark badge in the bottom-left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "PAW Patrol: The Dino Movie (2026) 4K - Suit Up for Dino Island! (2/9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=C9fdm2gI-Zg",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:09"
+  },
+  "hlwhEQuYhyg": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo overlay in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Insidious: Out of the Further (2026) 4K - He's Coming! (Pillow Fort Scare) (3/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=hlwhEQuYhyg",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:10"
+  },
+  "L55PEyBMJWg": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) channel logo watermark is present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - Doug Smuggles His Girlfriend Across the Border (S4E10) (5/6) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=L55PEyBMJWg",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:11"
+  },
+  "hAl9UaY0tvw": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K watermark present in bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The World Is Not Enough (1999) 4K - London Q Boat Chase (On The Street!?) (1/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=hAl9UaY0tvw",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:12"
+  },
+  "b6E0W2H2acM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - Raphael: The Nightwatcher (3/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=b6E0W2H2acM",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:14"
+  },
+  "FioXHZZWRMY": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo is present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Better Call Saul - Jimmy & Kim Yell on the Parking Garage Roof (S4E9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=FioXHZZWRMY",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:15"
+  },
+  "wFU7EPLAAYM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - TMNT vs. The Yeti and The Foot Clan (5/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=wFU7EPLAAYM",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:16"
+  },
+  "uPpbQjHlrA4": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a prominent 'RT' logo and '4K' text overlay in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "PAW Patrol: The Dino Movie (2026) 4K - Marshall to the Rescue! (1/9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=uPpbQjHlrA4",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:18"
+  },
+  "7RvTSI8hfm8": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo/watermark in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "One Night Only (2026) 4K - EVERYBODY F***S! (1/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=7RvTSI8hfm8",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:20"
+  },
+  "2W7WM3CuXPU": {
+   "accept": false,
+   "reject_reasons": [
+    "watermark present in bottom left corner",
+    "flag:watermark"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Tully (2018) - The Seductive Nanny Scene (6/10) | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=2W7WM3CuXPU",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-21 12:21"
+  },
+  "LkAbRMecN04": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Better Call Saul - Is Jimmy Insincere? (S4E9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=LkAbRMecN04",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:22"
+  },
+  "JH531TUD3HY": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - The Ninja Turtles | Yaotl's Origin (1/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=JH531TUD3HY",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:24"
+  },
+  "4aCf1HXYclE": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - Nancy's Bad Trip (S4E10) (4/6) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=4aCf1HXYclE",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:25"
+  },
+  "JQAl4VNKkN4": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo overlay present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Better Call Saul - Werner Escapes (S4E9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=JQAl4VNKkN4",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:26"
+  },
+  "ahtEIHUPD8g": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo watermark in bottom-left corner",
+    "4K badge in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Insidious: Out of the Further (2026) 4K - Cyrus Lam Killed Her Mom! (8/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=ahtEIHUPD8g",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:28"
+  },
+  "0r4mFn_5BzM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) channel logo watermark in bottom-left corner",
+    "4K badge overlay in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "One Night Only (2026) 4K - Maybe We Should Wait (10/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=0r4mFn_5BzM",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:29"
+  },
+  "Lma8J8H53vo": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo overlay in the bottom left corner",
+    "4K badge overlay in the bottom left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The World Is Not Enough (1999) 4K - Choked Out on a SINKING Submarine (10/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Lma8J8H53vo",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:32"
+  },
+  "OTnkY7jimDg": {
+   "accept": false,
+   "reject_reasons": [
+    "bottom-left channel logo present",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - In Bed With Crime (S4E10) (1/6) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=OTnkY7jimDg",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:33"
+  },
+  "FDQdx-NEFlI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K graphic overlay in the bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "PAW Patrol: The Dino Movie (2026) 4K - Marshall Fights a VOLCANO?! (9/9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=FDQdx-NEFlI",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:34"
+  },
+  "1wlxpbl7EFs": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K watermark present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "One Night Only (2026) 4K - Julia Fox Is DTF (2/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=1wlxpbl7EFs",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:36"
+  },
+  "XiBB8pfiIbo": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo present in the bottom left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - Chris Evans Is Casey Jones (7/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=XiBB8pfiIbo",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:37"
+  },
+  "-BPbJepS4-o": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "terrifying dental torture session",
+   "summary": "A horror scene featuring a disturbing dental torture sequence in a dark room with a persistent channel logo watermark.",
+   "reject_reasons": [
+    "persistent channel watermark present in bottom left corner across all frames",
+    "end slate / outro card present at the end of the clip",
+    "flag:watermark",
+    "flag:channel_logo",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 50.0,
+     "end": 51.3,
+     "reason": "outro card / end slate"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.79,
+    9.72,
+    16.66,
+    23.59,
+    30.52,
+    37.46,
+    44.39,
+    51.32
+   ],
+   "title": "Insidious: Out of the Further (2026) 4K - Dentist Torture (12/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=-BPbJepS4-o",
+   "via": "official-channel",
+   "height": 1440,
+   "duration": 55.788,
+   "category": "romance",
+   "at": "2026-11-21 12:37"
+  },
+  "V8aEFsbC3Tk": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Insidious: Out of the Further (2026) 4K - Hiding in the Closet (9/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=V8aEFsbC3Tk",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:38"
+  },
+  "AzzwE0mOZEs": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense cat and mouse",
+   "summary": "Mike tails Lalo through a parking lot in Better Call Saul.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "characters": [
+    "Mike Ehrmantraut",
+    "Lalo Salamanca"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    11.36,
+    39.61,
+    67.86,
+    96.1,
+    124.35,
+    152.59,
+    180.84,
+    209.09
+   ],
+   "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs",
+   "via": "official-channel",
+   "height": 1080,
+   "duration": 227.268,
+   "category": "romance",
+   "at": "2026-11-21 12:38"
+  },
+  "t6e7m_Pky_8": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Insidious: Out of the Further (2026) 4K - Wake Those B*tches Up! (7/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=t6e7m_Pky_8",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:40"
+  },
+  "BBDsZXbuc2U": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel watermark present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - Celia's Intervention (S4E10) (3/6) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=BBDsZXbuc2U",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:41"
+  },
+  "Y-j1lzMN-tA": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "4K watermark present in the bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The World Is Not Enough (1999) 4K - Escaping The Silo with Christmas Jones (5/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Y-j1lzMN-tA",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:42"
+  },
+  "0VpbzNGguUA": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - Afraid to Have Sex? (S4E10) (2/6) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=0VpbzNGguUA",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:44"
+  },
+  "gxGLpgv1jhs": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - Splinter Loves Raphael (9/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=gxGLpgv1jhs",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:45"
+  },
+  "rK6zmMeYkZE": {
+   "accept": false,
+   "reject_reasons": [
+    "Watermark in bottom-left corner",
+    "flag:watermark"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "One Night Only (2026) 4K - Maya Hawke & Callum Turner Break Up (9/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=rK6zmMeYkZE",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:46"
+  },
+  "AC4FkPMXmT0": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "One Night Only (2026) 4K - Her Date Gets Arrested?! (5/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=AC4FkPMXmT0",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:48"
+  },
+  "XpOm8gSroE0": {
+   "accept": false,
+   "reject_reasons": [
+    "only 360p (< 720p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "S.W.A.T. - EXPLOSIVE Car Chase (S3E16) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=XpOm8gSroE0",
+   "via": "box-fetch",
+   "height": 360,
+   "duration": 131.866122,
+   "category": "romance",
+   "at": "2026-11-21 12:48"
+  },
+  "bHtVU5cquuk": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - Patrick Stewart Is Max Winters (4/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=bHtVU5cquuk",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:49"
+  },
+  "HyRKfEslWzo": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K watermark present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "One Night Only (2026) 4K - His Hookup ROBS Him?! (6/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=HyRKfEslWzo",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:50"
+  },
+  "q11DJuEZAgE": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo and 4K badge watermark present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The World Is Not Enough (1999) 4K - BUZZSAW HELICOPTERS?! (7/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=q11DJuEZAgE",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:52"
+  },
+  "amQlDOMleBk": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a persistent watermark/logo in the bottom-left corner (Rotten Tomatoes/Movieclips branding).",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "One Night Only (2026) 4K - Wanna F? (WEIRD Come-Ons) (3/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=amQlDOMleBk",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:53"
+  },
+  "g3-Q1cZpgzk": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+    "4K badge present in the bottom-left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "PAW Patrol: The Dino Movie (2026) 4K- Rhubarb, the Baby T-Rex (5/9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=g3-Q1cZpgzk",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:54"
+  },
+  "ER4wFqmv75Q": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense professional corporate drama",
+   "summary": "Jimmy McGill speaks with various individuals in a legal and corporate setting, including a meeting in a boardroom and an outdoor conversation.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "characters": [
+    "Jimmy McGill",
+    "Howard Hamlin"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    11.74,
+    40.92,
+    70.1,
+    99.27,
+    128.45,
+    157.63,
+    186.81,
+    215.99
+   ],
+   "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q",
+   "via": "official-channel",
+   "height": 1080,
+   "duration": 234.768,
+   "category": "romance",
+   "at": "2026-11-21 12:54"
+  },
+  "v39k-okPOZk": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a channel logo and watermark in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Killer Whale (2026) 4K - STAY OUT OF THE WATER!!! (11/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=v39k-okPOZk",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:56"
+  },
+  "ziYXBhTifhg": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes watermark present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Better Call Saul - Kim & Jimmy's New Baby Con (S4E9) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=ziYXBhTifhg",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:57"
+  },
+  "05qid4p_cfw": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel logo (FHD) present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Mamma Mia! (2008) - Honey Honey Scene (1/10) | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=05qid4p_cfw",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-21 12:58"
+  },
+  "Zhom9Ls0O74": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "TMNT (2007) - Leonardo: Ghost of the Jungle (2/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Zhom9Ls0O74",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 12:59"
+  },
+  "eoxqOwzuQj4": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "dark eerie horror suspense",
+   "summary": "A woman is terrorized by multiple ghostly entities in a dark residence, including a creepy figure drinking from a cup and a group of spirits led by a woman in a vintage dress holding a firearm.",
+   "reject_reasons": [
+    "persistent channel logo in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "characters": [
+    "screaming woman",
+    "ghostly woman in dress",
+    "creepy spirits"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    6.34,
+    22.1,
+    37.86,
+    53.61,
+    69.37,
+    85.13,
+    100.89,
+    116.64
+   ],
+   "title": "Insidious: Out of the Further (2026) 4K - The Dead Want Her BADLY (10/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=eoxqOwzuQj4",
+   "via": "official-channel",
+   "height": 1440,
+   "duration": 126.788,
+   "category": "romance",
+   "at": "2026-11-21 13:03"
+  },
+  "Mxs6VXiSVss": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo in the bottom left corner",
+    "4K badge overlay next to the logo",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Killer Whale (2026) 4K - Stabbing a Whale in the EYE!? (12/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Mxs6VXiSVss",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 13:04"
+  },
+  "xh4xd1bZNUE": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel watermark 'RT' logo present in the bottom-left corner.",
+    "Overlay '4K' present in the bottom-left area.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The World Is Not Enough (1999) 4K - I Never Miss (9/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=xh4xd1bZNUE",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 13:05"
+  },
+  "rqFhMPIGaXU": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "S.W.A.T. - Boxing Match | SWAT Rescue (S3E15) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=rqFhMPIGaXU",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 13:07"
+  },
+  "alhVUKh36_Q": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Mamma Mia! (2008) - Voulez-Vous Scene (6/10) | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=alhVUKh36_Q",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-21 13:08"
+  },
+  "oK2cdxggf5g": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo present in bottom-left corner",
+    "4K watermark badge present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The World Is Not Enough (1999) 4K - Getting Screwed To Death (8/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=oK2cdxggf5g",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 13:09"
+  },
+  "83xaxNv4Ptc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K watermark present in bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "One Night Only (2026) 4K - Sexy Pizza Time (8/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=83xaxNv4Ptc",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 13:11"
+  },
+  "Rb2-dxekiuI": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The World Is Not Enough (1999) 4K - X-Ray Glasses at the Casino (3/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Rb2-dxekiuI",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 13:12"
+  },
+  "ZNfJkIR5kUI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo in the bottom-left corner",
+    "4K logo overlay in the bottom-left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "One Night Only (2026) 4K - Cringiest Guy-with-a-Guitar Date (7/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=ZNfJkIR5kUI",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-21 13:13"
+  },
+  "rRJ2Fv6LvKM": {
+   "accept": false,
+   "reject_reasons": [
+    "only 360p (< 720p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "S.W.A.T. - Pool Party Kidnapping (S3E16) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=rRJ2Fv6LvKM",
+   "via": "box-fetch",
+   "height": 360,
+   "duration": 81.78068,
+   "category": "romance",
+   "at": "2026-11-21 13:13"
+  },
+  "c8gim368JAU": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "melancholic dramatic brotherhood tension",
+   "summary": "Jimmy and Chuck share a tense and emotional karaoke moment followed by a heavy exhausted quiet in a dark room.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "characters": [
+    "Jimmy McGill",
+    "Chuck McGill"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    14.31,
+    49.87,
+    85.44,
+    121.0,
+    156.56,
+    192.13,
+    227.69,
+    263.26
+   ],
+   "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=c8gim368JAU",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 286.148,
+   "category": "romance",
+   "at": "2026-11-21 13:13"
   }
  },
- "videos": [],
+ "videos": [
+  {
+   "id": "in-romance-20261121-170127",
+   "platform": "instagram",
+   "category": "romance",
+   "format": "shorts",
+   "state": "qa_failed",
+   "created": "2026-11-21T19:01:18.303989+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-romance-20261121-170127.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-romance-20261121-170127.mp4",
+   "preview_mb": 21.4,
+   "size_mb": 94.3,
+   "title": "Love Scene Edit | Die With A Smile Edit",
+   "hook": "LOVE SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Die With A Smile\" – Lady Gaga (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Lady%20Gaga%20Die%20With%20A%20Smile\n🎬 Footage: Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#RomanceEdit #LoveStory #MovieEdit",
+   "hashtags": [
+    "RomanceEdit",
+    "LoveStory",
+    "MovieEdit"
+   ],
+   "song": {
+    "title": "Die With A Smile",
+    "artist": "Lady Gaga",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Lady%20Gaga%20Die%20With%20A%20Smile"
+   },
+   "song_credit": "\"Die With A Smile\" – Lady Gaga",
+   "pattern": {
+    "id": "P03",
+    "name": "Beside-lower"
+   },
+   "captions": [
+    "YOU'RE GONNA BE",
+    "ON THE 50TH",
+    "FLOOR",
+    "YOU'RE GONNA BE",
+    "LOOKING DOWN ON",
+    "THEM AND THE",
+    "HIGHER YOU RISE",
+    "THE",
+    "MORE THEY'RE GONNA",
+    "HATE YOU",
+    "GOOD",
+    "GOOD",
+    "RUB THEIR",
+    "BECAUSE THEY HAD",
+    "ALREADY MADE UP",
+    "THEIR MIND AND",
+    "THEY KNEW WHAT",
+    "THEY WERE GONNA",
+    "DO BEFORE YOU",
+    "WALKED IN THE",
+    "DOOR"
+   ],
+   "duration": 38.57,
+   "sources": [
+    {
+     "id": "AzzwE0mOZEs",
+     "src_id": "AzzwE0mOZEs",
+     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
+     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
+    },
+    {
+     "id": "ER4wFqmv75Q",
+     "src_id": "ER4wFqmv75Q",
+     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
+     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
+    },
+    {
+     "id": "c8gim368JAU",
+     "src_id": "c8gim368JAU",
+     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
+     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
+    },
+    {
+     "id": "c8gim368JAU",
+     "src_id": "c8gim368JAU",
+     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
+     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.57
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -15.8
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 21
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "HIGHER YOU RISE"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  }
+ ],
  "listing_cache": {
   "https://www.youtube.com/@Movieclips/videos|2026-11-21": [
    {
@@ -18706,6 +20457,714 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-21 06:34"
+  },
+  "a0ABSxq3K-w": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:33"
+  },
+  "p86zNFq8j8E": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo overlay in bottom-left corner",
+    "4K badge overlay in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:34"
+  },
+  "1xUErMbrJqM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:35"
+  },
+  "5KzhmS0Msqw": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips watermarks and logos are present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:37"
+  },
+  "SRUGt5yhB88": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:38"
+  },
+  "nzl30-ThpuA": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in bottom left corner (Rotten Tomatoes/Movieclips logo)",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:40"
+  },
+  "0u_cGUI4aH4": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo overlay in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:41"
+  },
+  "Wgc5G9-B2tc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:42"
+  },
+  "SOO9YPlJCXI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo and 4K watermark present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:44"
+  },
+  "MgLT-YdAGuU": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel watermark 'RT' logo present in the bottom left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:45"
+  },
+  "VGTAdmVi2nc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K badge present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:46"
+  },
+  "jEYGCYkkhjI": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:47"
+  },
+  "Q5zPc9T2w14": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo watermark in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:49"
+  },
+  "UV2paizsX4k": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes watermark present in bottom left corner",
+    "4K logo present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:50"
+  },
+  "-zbXiInWmRU": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in the bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:51"
+  },
+  "cN2IuhhXitA": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo visible in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:53"
+  },
+  "hdD9rHsIacM": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:54"
+  },
+  "gzLHRcl--Pc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) and 4K channel logo/watermark overlays present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:56"
+  },
+  "7-4CglX4EEM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in bottom-left corner",
+    "4K badge present in bottom-left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:57"
+  },
+  "P2BZBd8C6kI": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:58"
+  },
+  "CvRC2GEdGDo": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes watermark/logo present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 11:59"
+  },
+  "XcRBBLpjsnQ": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel bug present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:01"
+  },
+  "EHV0zs0kVGg": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:02"
+  },
+  "fb2ipdS52fk": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips channel watermark present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:03"
+  },
+  "Qe2m1wxb5_w": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel watermark logo is present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:05"
+  },
+  "6kvqBfkI3cE": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo or watermark present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:06"
+  },
+  "OLpLwmxMd1k": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:07"
+  },
+  "C9fdm2gI-Zg": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo in the bottom-left corner",
+    "4K watermark badge in the bottom-left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:09"
+  },
+  "hlwhEQuYhyg": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo overlay in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:10"
+  },
+  "L55PEyBMJWg": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) channel logo watermark is present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:11"
+  },
+  "hAl9UaY0tvw": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K watermark present in bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:12"
+  },
+  "b6E0W2H2acM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:14"
+  },
+  "FioXHZZWRMY": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo is present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:15"
+  },
+  "wFU7EPLAAYM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:16"
+  },
+  "uPpbQjHlrA4": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a prominent 'RT' logo and '4K' text overlay in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:18"
+  },
+  "7RvTSI8hfm8": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo/watermark in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:20"
+  },
+  "2W7WM3CuXPU": {
+   "accept": false,
+   "reject_reasons": [
+    "watermark present in bottom left corner",
+    "flag:watermark"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:21"
+  },
+  "LkAbRMecN04": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:22"
+  },
+  "JH531TUD3HY": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:24"
+  },
+  "4aCf1HXYclE": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:25"
+  },
+  "JQAl4VNKkN4": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo overlay present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:26"
+  },
+  "ahtEIHUPD8g": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo watermark in bottom-left corner",
+    "4K badge in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:28"
+  },
+  "0r4mFn_5BzM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) channel logo watermark in bottom-left corner",
+    "4K badge overlay in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:29"
+  },
+  "Lma8J8H53vo": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo overlay in the bottom left corner",
+    "4K badge overlay in the bottom left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:32"
+  },
+  "OTnkY7jimDg": {
+   "accept": false,
+   "reject_reasons": [
+    "bottom-left channel logo present",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:33"
+  },
+  "FDQdx-NEFlI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K graphic overlay in the bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:34"
+  },
+  "1wlxpbl7EFs": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K watermark present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:36"
+  },
+  "XiBB8pfiIbo": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo present in the bottom left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:37"
+  },
+  "V8aEFsbC3Tk": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:38"
+  },
+  "t6e7m_Pky_8": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:40"
+  },
+  "BBDsZXbuc2U": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel watermark present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:41"
+  },
+  "Y-j1lzMN-tA": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "4K watermark present in the bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:42"
+  },
+  "0VpbzNGguUA": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:44"
+  },
+  "gxGLpgv1jhs": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:45"
+  },
+  "rK6zmMeYkZE": {
+   "accept": false,
+   "reject_reasons": [
+    "Watermark in bottom-left corner",
+    "flag:watermark"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:46"
+  },
+  "AC4FkPMXmT0": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:48"
+  },
+  "bHtVU5cquuk": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:49"
+  },
+  "HyRKfEslWzo": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K watermark present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:50"
+  },
+  "q11DJuEZAgE": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo and 4K badge watermark present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:52"
+  },
+  "amQlDOMleBk": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a persistent watermark/logo in the bottom-left corner (Rotten Tomatoes/Movieclips branding).",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:53"
+  },
+  "g3-Q1cZpgzk": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+    "4K badge present in the bottom-left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:54"
+  },
+  "v39k-okPOZk": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a channel logo and watermark in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:56"
+  },
+  "ziYXBhTifhg": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes watermark present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:57"
+  },
+  "05qid4p_cfw": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel logo (FHD) present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:58"
+  },
+  "Zhom9Ls0O74": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 12:59"
+  },
+  "Mxs6VXiSVss": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo in the bottom left corner",
+    "4K badge overlay next to the logo",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 13:04"
+  },
+  "xh4xd1bZNUE": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel watermark 'RT' logo present in the bottom-left corner.",
+    "Overlay '4K' present in the bottom-left area.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 13:05"
+  },
+  "rqFhMPIGaXU": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 13:07"
+  },
+  "alhVUKh36_Q": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 13:08"
+  },
+  "oK2cdxggf5g": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo present in bottom-left corner",
+    "4K watermark badge present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 13:09"
+  },
+  "83xaxNv4Ptc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K watermark present in bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 13:11"
+  },
+  "Rb2-dxekiuI": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 13:12"
+  },
+  "ZNfJkIR5kUI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo in the bottom-left corner",
+    "4K logo overlay in the bottom-left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-21 13:13"
   }
  },
  "failures": [
@@ -19497,6 +21956,84 @@
   },
   {
    "at": "2026-11-21T16:56:54.044796+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T19:01:18.331525+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HIGHER YOU RISE\"]}}"
+  },
+  {
+   "at": "2026-11-21T19:34:48.559394+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T19:36:14.196806+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-romance-20261121-170127/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
+  },
+  {
+   "at": "2026-11-21T19:37:03.448233+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T19:38:27.545058+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 10.7700 -i /mnt/ph/instagram/work/in-romance-20261121-170127/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
+  },
+  {
+   "at": "2026-11-21T20:10:44.982526+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T20:32:53.274297+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T20:35:00.752636+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 143.1700 -i /mnt/ph/instagram/work/in-romance-20261121-170127/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=r"
+  },
+  {
+   "at": "2026-11-21T20:35:50.144624+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-21T21:07:47.757415+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T21:41:16.277676+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T22:14:33.319055+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-21T22:46:54.711432+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
