@@ -1,0 +1,552 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 15.7700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/c8gim368JAU.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 131.9700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 182.1700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/c8gim368JAU.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs="
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 234,
+  "vetted": 7,
+  "rejected": [
+   {
+    "id": "1nYSARvO87g",
+    "title": "Better Call Saul - Jimmy Will Become Saul Goodman (S4E10) | Movieclips",
+    "reasons": [
+     "bottom-left channel logo present",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "P0iAZHRD10w",
+    "title": "Better Call Saul - Mike Deals With Werner (S4E10) | Movieclips",
+    "reasons": [
+     "channel_logo present in bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "ulJXiB5i_q0",
+    "title": "Les Misérables (2012) - I Dreamed A Dream Scene (1/10) | Movieclips",
+    "reasons": [
+     "Movieclips channel logo present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "LXe3rTH0EdQ",
+    "title": "S.W.A.T. - Hicks' Son Was Homeless (S3E16) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "oL9nlIwDPlo",
+    "title": "S.W.A.T. - Subway Bomb Vest Standoff (S3E16) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo watermark is present in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "deUgUoJ4z5I",
+    "title": "Les Misérables (2012) - On My Own Scene (5/10) | Movieclips",
+    "reasons": [
+     "Movieclips channel logo present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "QBu0NsKthvs",
+    "title": "LeBron James On the Money Against Milwaukee",
+    "reasons": [
+     "channel logo present in top left corner",
+     "watermark present in top left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 193,
+  "fallback_used": true,
+  "thin": [
+   "sports",
+   "gta"
+  ],
+  "failed_ids": [
+   "ZQzIZkxsWYw",
+   "HqZXw5M6qQY",
+   "H4rYVsJ4v9Y",
+   "1xlr3-hK5rY",
+   "StEaAZ_Ywj4",
+   "XAOUlsrmzYM",
+   "DyQ5MNkl6SA",
+   "lqiZdynJmag",
+   "olEGtoYs_8A",
+   "tyDRtSUYTRs",
+   "-HIv_Uj1ERE",
+   "NgO8TVaC24o",
+   "aLUGHQq2aek",
+   "vAAvocR04_Y",
+   "lEQ4XD8KuUs",
+   "VNbONMSObfs",
+   "UUmKwJD76GY",
+   "foUaOCzfIRU",
+   "QYAMp13Yi04",
+   "Bf38HiYPMiI",
+   "mP6KvFnltWc",
+   "N-xHcvug3WI",
+   "tJbzMqJGH4k",
+   "lX_IN4v-RnA",
+   "sPLD6LS_TIk",
+   "P3NBd3UjH5Y",
+   "kfzrQGU6jhM",
+   "kMCtod_2iQ0",
+   "0M71BMAgSSs",
+   "5FBipicBoJg",
+   "lEQ4XD8KuUs",
+   "UUmKwJD76GY",
+   "tyDRtSUYTRs",
+   "NgO8TVaC24o",
+   "vAAvocR04_Y",
+   "sPLD6LS_TIk",
+   "8-DRGbQ1IXc",
+   "olEGtoYs_8A",
+   "foUaOCzfIRU",
+   "StEaAZ_Ywj4",
+   "lX_IN4v-RnA",
+   "VNbONMSObfs",
+   "tJbzMqJGH4k",
+   "-HIv_Uj1ERE",
+   "HqZXw5M6qQY",
+   "H4rYVsJ4v9Y",
+   "Bf38HiYPMiI",
+   "kMCtod_2iQ0",
+   "1xlr3-hK5rY",
+   "ZQzIZkxsWYw",
+   "aLUGHQq2aek",
+   "zpkbwr0HpCc",
+   "N-xHcvug3WI",
+   "mP6KvFnltWc",
+   "kfzrQGU6jhM",
+   "QYAMp13Yi04",
+   "wiW1mpHZb_Y",
+   "DyQ5MNkl6SA",
+   "P3NBd3UjH5Y",
+   "XAOUlsrmzYM",
+   "lqiZdynJmag",
+   "ZQzIZkxsWYw",
+   "-HIv_Uj1ERE",
+   "zpkbwr0HpCc",
+   "XAOUlsrmzYM",
+   "foUaOCzfIRU",
+   "kfzrQGU6jhM",
+   "P3NBd3UjH5Y",
+   "lqiZdynJmag",
+   "mP6KvFnltWc",
+   "N-xHcvug3WI",
+   "kMCtod_2iQ0",
+   "lX_IN4v-RnA",
+   "sPLD6LS_TIk",
+   "1xlr3-hK5rY",
+   "0M71BMAgSSs",
+   "Bf38HiYPMiI",
+   "tJbzMqJGH4k",
+   "vAAvocR04_Y",
+   "StEaAZ_Ywj4",
+   "UUmKwJD76GY",
+   "tyDRtSUYTRs",
+   "NgO8TVaC24o",
+   "lEQ4XD8KuUs",
+   "HqZXw5M6qQY",
+   "olEGtoYs_8A",
+   "H4rYVsJ4v9Y",
+   "QYAMp13Yi04",
+   "VNbONMSObfs",
+   "aLUGHQq2aek",
+   "DyQ5MNkl6SA",
+   "foUaOCzfIRU",
+   "DyQ5MNkl6SA",
+   "5FBipicBoJg",
+   "sPLD6LS_TIk",
+   "tJbzMqJGH4k",
+   "NgO8TVaC24o",
+   "-HIv_Uj1ERE",
+   "UUmKwJD76GY",
+   "lEQ4XD8KuUs",
+   "kMCtod_2iQ0",
+   "lX_IN4v-RnA",
+   "vAAvocR04_Y",
+   "QYAMp13Yi04",
+   "HqZXw5M6qQY",
+   "wiW1mpHZb_Y",
+   "N-xHcvug3WI",
+   "H4rYVsJ4v9Y",
+   "aLUGHQq2aek",
+   "tyDRtSUYTRs",
+   "lqiZdynJmag",
+   "P3NBd3UjH5Y",
+   "StEaAZ_Ywj4",
+   "0M71BMAgSSs",
+   "olEGtoYs_8A",
+   "1xlr3-hK5rY",
+   "mP6KvFnltWc",
+   "VNbONMSObfs",
+   "8-DRGbQ1IXc",
+   "ZQzIZkxsWYw",
+   "3PiR0G3rVw8",
+   "foUaOCzfIRU",
+   "olEGtoYs_8A",
+   "H4rYVsJ4v9Y",
+   "zpkbwr0HpCc",
+   "wiW1mpHZb_Y",
+   "8-DRGbQ1IXc",
+   "tJbzMqJGH4k",
+   "DyQ5MNkl6SA",
+   "vAAvocR04_Y",
+   "N-xHcvug3WI",
+   "0M71BMAgSSs",
+   "StEaAZ_Ywj4",
+   "mP6KvFnltWc",
+   "-HIv_Uj1ERE",
+   "P3NBd3UjH5Y",
+   "sPLD6LS_TIk",
+   "5FBipicBoJg",
+   "kMCtod_2iQ0",
+   "lEQ4XD8KuUs",
+   "VNbONMSObfs",
+   "UUmKwJD76GY",
+   "lX_IN4v-RnA",
+   "1xlr3-hK5rY",
+   "NgO8TVaC24o",
+   "aLUGHQq2aek",
+   "ZQzIZkxsWYw",
+   "HqZXw5M6qQY",
+   "QYAMp13Yi04",
+   "tyDRtSUYTRs",
+   "lqiZdynJmag",
+   "kfzrQGU6jhM",
+   "ayo-Ntj8Aec",
+   "Le3FfVxbjEQ",
+   "MQstdmVmZU8",
+   "TAyDe4Jepog",
+   "-9lP95Qo-I0",
+   "o1BrK2KWifc",
+   "XIW8e7Xi_l8",
+   "YWcobWashmE",
+   "DIc8gkrzjzQ",
+   "7a6gnRvQqHQ",
+   "3oLh7QPp02Q",
+   "sO56CyHI5ek",
+   "3dWqAyPielA",
+   "XWISA6cBx34",
+   "Fr3OrTNXR90",
+   "G3sYVK0c73k",
+   "VlhU9OrikSA",
+   "0G10fR6EGwY",
+   "MQstdmVmZU8",
+   "Fr3OrTNXR90",
+   "0G10fR6EGwY",
+   "G3sYVK0c73k",
+   "-9lP95Qo-I0",
+   "Le3FfVxbjEQ",
+   "YWcobWashmE",
+   "3dWqAyPielA",
+   "Z67MBZTUQ2w",
+   "7a6gnRvQqHQ",
+   "DIc8gkrzjzQ",
+   "nSjU02GjH6o",
+   "3oLh7QPp02Q",
+   "XIW8e7Xi_l8",
+   "TAyDe4Jepog",
+   "o1BrK2KWifc",
+   "VlhU9OrikSA",
+   "XWISA6cBx34",
+   "sO56CyHI5ek",
+   "ZQzIZkxsWYw",
+   "Bf38HiYPMiI",
+   "kMCtod_2iQ0",
+   "5FBipicBoJg",
+   "tJbzMqJGH4k",
+   "HqZXw5M6qQY",
+   "DyQ5MNkl6SA",
+   "-HIv_Uj1ERE",
+   "P3NBd3UjH5Y",
+   "mP6KvFnltWc",
+   "sPLD6LS_TIk",
+   "1xlr3-hK5rY",
+   "vAAvocR04_Y",
+   "H4rYVsJ4v9Y",
+   "QYAMp13Yi04",
+   "lqiZdynJmag",
+   "0M71BMAgSSs",
+   "lEQ4XD8KuUs",
+   "VNbONMSObfs",
+   "kfzrQGU6jhM",
+   "olEGtoYs_8A",
+   "NgO8TVaC24o",
+   "UUmKwJD76GY",
+   "aLUGHQq2aek",
+   "lX_IN4v-RnA",
+   "tyDRtSUYTRs",
+   "StEaAZ_Ywj4",
+   "N-xHcvug3WI",
+   "foUaOCzfIRU",
+   "G3sYVK0c73k",
+   "TAyDe4Jepog",
+   "3dWqAyPielA",
+   "Le3FfVxbjEQ",
+   "7a6gnRvQqHQ",
+   "0G10fR6EGwY",
+   "-9lP95Qo-I0",
+   "sO56CyHI5ek",
+   "VlhU9OrikSA",
+   "XIW8e7Xi_l8",
+   "XWISA6cBx34",
+   "MQstdmVmZU8",
+   "Z67MBZTUQ2w",
+   "Fr3OrTNXR90",
+   "3oLh7QPp02Q",
+   "o1BrK2KWifc"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}
