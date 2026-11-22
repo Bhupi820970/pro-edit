@@ -4092,7 +4092,7 @@
  },
  "videos": [],
  "listing_cache": {
-  "https://www.youtube.com/@RockstarGames/videos|2026-11-21": [
+  "https://www.youtube.com/@RockstarGames/videos|2026-11-22": [
    {
     "id": "_yl5ELcmugI",
     "title": "Grand Theft Auto VI: Out Now",
@@ -5545,6 +5545,12 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-21 18:33"
+  },
+  "P1hO3-oafFc": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-22 00:07"
   }
  },
  "failures": [
@@ -6006,6 +6012,66 @@
   },
   {
    "at": "2026-11-22T04:25:02.683282+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T05:50:43.070580+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T06:26:14.567303+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T07:00:42.556297+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T07:33:49.134053+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T08:08:19.335979+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T08:36:30.360776+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T09:06:54.801607+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T09:38:50.514653+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T10:11:56.129139+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T10:47:53.917070+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
