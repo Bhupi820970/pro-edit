@@ -4088,6 +4088,40 @@
    "duration": 60.028,
    "category": "gta",
    "at": "2026-11-21 12:59"
+  },
+  "Zh6VrJuW_i8": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in top right corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA 6 - Prologue [Full Walkthrough - PS5 4K]",
+   "channel": "GTA Series Videos",
+   "credit": "GTA Series Videos",
+   "url": "https://www.youtube.com/watch?v=Zh6VrJuW_i8",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-22 16:39"
+  },
+  "4xURnKrnQSc": {
+   "accept": false,
+   "reject_reasons": [
+    "burnt-in subtitles in the bottom right corner"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA 6 - 15 Minutes of Gameplay (Grand Theft Auto 6)",
+   "channel": "Zanar",
+   "credit": "Zanar",
+   "url": "https://www.youtube.com/watch?v=4xURnKrnQSc",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-22 17:05"
   }
  },
  "videos": [],
@@ -5563,6 +5597,30 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-22 11:22"
+  },
+  "Zh6VrJuW_i8": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in top right corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-22 16:39"
+  },
+  "4xURnKrnQSc": {
+   "accept": false,
+   "reject_reasons": [
+    "burnt-in subtitles in the bottom right corner"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-22 17:05"
+  },
+  "QhS5a85d3Zc": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-22 17:07"
   }
  },
  "failures": [
@@ -6204,6 +6262,66 @@
   },
   {
    "at": "2026-11-22T22:00:57.755471+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T22:40:16.716720+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T23:11:12.357914+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T23:43:29.438468+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T00:14:31.202853+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T00:44:14.086503+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T01:15:05.131192+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T01:47:14.477711+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T02:16:36.472346+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T02:49:55.015385+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T03:21:59.594773+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
