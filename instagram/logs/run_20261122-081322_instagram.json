@@ -1,0 +1,449 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single title for romance",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 22.1700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 15.7700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/c8gim368JAU.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 179,
+  "vetted": 9,
+  "rejected": [
+   {
+    "id": "PIHPbvviS2w",
+    "title": "Yesterday (2019) - Ed Sheeran vs. The Beatles Scene (5/10) | Movieclips",
+    "reasons": [
+     "Movieclips watermark/logo present in the bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "hgqJjr7pBa0",
+    "title": "13 Hours: The Secret Soldiers of Benghazi (2016) - Welcome to Benghazi Scene (1/10) | Movieclips",
+    "reasons": [
+     "channel_logo in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "4Prc1UfuokY",
+    "title": "300 (2006) - This Is Sparta! Scene (1/5) | Movieclips",
+    "reasons": [
+     "Movieclips channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "QaUjGv3GLeg",
+    "title": "Allied (2016) - Testing Your Resolve Scene (2/10) | Movieclips",
+    "reasons": [
+     "Movieclips channel logo present in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "uDzsxya6I0U",
+    "title": "S.W.A.T. - LA Shootout & Foot Chase (S3E16) | Movieclips",
+    "reasons": [
+     "persistent channel watermark in bottom-left corner",
+     "channel outro slate at the end",
+     "flag:watermark",
+     "flag:channel_logo",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "wgzxSr6l9Y4",
+    "title": "Predator (1987) - Old Painless Is Waiting Scene (1/5) | Movieclips",
+    "reasons": [
+     "Channel logo overlay detected in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "yWeMWD-Yagg",
+    "title": "The Dictator (2012) - The Helicopter Scene (7/10) | Movieclips",
+    "reasons": [
+     "channel logo present in bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "5VgRuLQgeSE",
+    "title": "Yesterday (2019) - Playing Yesterday Scene (1/10) | Movieclips",
+    "reasons": [
+     "Movieclips channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "nHINIwGcba0",
+    "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 141,
+  "fallback_used": true,
+  "thin": [
+   "sports",
+   "romance",
+   "gta"
+  ],
+  "failed_ids": [
+   "lEQ4XD8KuUs",
+   "kfzrQGU6jhM",
+   "H4rYVsJ4v9Y",
+   "HqZXw5M6qQY",
+   "VNbONMSObfs",
+   "tJbzMqJGH4k",
+   "5FBipicBoJg",
+   "ZQzIZkxsWYw",
+   "UUmKwJD76GY",
+   "vAAvocR04_Y",
+   "QYAMp13Yi04",
+   "DyQ5MNkl6SA",
+   "olEGtoYs_8A",
+   "foUaOCzfIRU",
+   "8-DRGbQ1IXc",
+   "0M71BMAgSSs",
+   "NgO8TVaC24o",
+   "-HIv_Uj1ERE",
+   "tyDRtSUYTRs",
+   "N-xHcvug3WI",
+   "mP6KvFnltWc",
+   "lX_IN4v-RnA",
+   "aLUGHQq2aek",
+   "zpkbwr0HpCc",
+   "kMCtod_2iQ0",
+   "StEaAZ_Ywj4",
+   "P3NBd3UjH5Y",
+   "sPLD6LS_TIk",
+   "lqiZdynJmag",
+   "1xlr3-hK5rY",
+   "QhS5a85d3Zc",
+   "NgO8TVaC24o",
+   "wiW1mpHZb_Y",
+   "8-DRGbQ1IXc",
+   "P3NBd3UjH5Y",
+   "ZQzIZkxsWYw",
+   "hNmOP6_njhw",
+   "lEQ4XD8KuUs",
+   "0M71BMAgSSs",
+   "lqiZdynJmag",
+   "UUmKwJD76GY",
+   "HqZXw5M6qQY",
+   "StEaAZ_Ywj4",
+   "lX_IN4v-RnA",
+   "-HIv_Uj1ERE",
+   "5FBipicBoJg",
+   "kMCtod_2iQ0",
+   "vAAvocR04_Y",
+   "kfzrQGU6jhM",
+   "QYAMp13Yi04",
+   "tJbzMqJGH4k",
+   "DyQ5MNkl6SA",
+   "foUaOCzfIRU",
+   "N-xHcvug3WI",
+   "sPLD6LS_TIk",
+   "mP6KvFnltWc",
+   "tyDRtSUYTRs",
+   "aLUGHQq2aek",
+   "1xlr3-hK5rY",
+   "olEGtoYs_8A",
+   "H4rYVsJ4v9Y",
+   "VNbONMSObfs",
+   "Bf38HiYPMiI",
+   "-HIv_Uj1ERE",
+   "H4rYVsJ4v9Y",
+   "DyQ5MNkl6SA",
+   "lX_IN4v-RnA",
+   "UUmKwJD76GY",
+   "sPLD6LS_TIk",
+   "P3NBd3UjH5Y",
+   "vAAvocR04_Y",
+   "wiW1mpHZb_Y",
+   "tyDRtSUYTRs",
+   "olEGtoYs_8A",
+   "1xlr3-hK5rY",
+   "lEQ4XD8KuUs",
+   "StEaAZ_Ywj4",
+   "8-DRGbQ1IXc",
+   "kMCtod_2iQ0",
+   "N-xHcvug3WI",
+   "tJbzMqJGH4k",
+   "ZQzIZkxsWYw",
+   "NgO8TVaC24o",
+   "VNbONMSObfs",
+   "Bf38HiYPMiI",
+   "lqiZdynJmag",
+   "kfzrQGU6jhM",
+   "foUaOCzfIRU",
+   "aLUGHQq2aek",
+   "HqZXw5M6qQY",
+   "mP6KvFnltWc",
+   "QYAMp13Yi04",
+   "H4rYVsJ4v9Y",
+   "8-DRGbQ1IXc",
+   "tJbzMqJGH4k",
+   "tyDRtSUYTRs",
+   "StEaAZ_Ywj4",
+   "-HIv_Uj1ERE",
+   "HqZXw5M6qQY",
+   "sPLD6LS_TIk",
+   "UUmKwJD76GY",
+   "P3NBd3UjH5Y",
+   "kMCtod_2iQ0",
+   "DyQ5MNkl6SA",
+   "lqiZdynJmag",
+   "1xlr3-hK5rY",
+   "kfzrQGU6jhM",
+   "VNbONMSObfs",
+   "lEQ4XD8KuUs",
+   "olEGtoYs_8A",
+   "Bf38HiYPMiI",
+   "mP6KvFnltWc",
+   "wiW1mpHZb_Y",
+   "foUaOCzfIRU",
+   "vAAvocR04_Y",
+   "N-xHcvug3WI",
+   "ZQzIZkxsWYw",
+   "NgO8TVaC24o",
+   "aLUGHQq2aek",
+   "QYAMp13Yi04",
+   "vAAvocR04_Y",
+   "mP6KvFnltWc",
+   "VNbONMSObfs",
+   "wiW1mpHZb_Y",
+   "DyQ5MNkl6SA",
+   "lEQ4XD8KuUs",
+   "olEGtoYs_8A",
+   "8-DRGbQ1IXc",
+   "lX_IN4v-RnA",
+   "HqZXw5M6qQY",
+   "-HIv_Uj1ERE",
+   "lqiZdynJmag",
+   "tyDRtSUYTRs",
+   "5FBipicBoJg",
+   "Bf38HiYPMiI",
+   "1xlr3-hK5rY",
+   "kMCtod_2iQ0",
+   "N-xHcvug3WI",
+   "QYAMp13Yi04",
+   "kfzrQGU6jhM",
+   "tJbzMqJGH4k",
+   "ZQzIZkxsWYw",
+   "sPLD6LS_TIk",
+   "H4rYVsJ4v9Y",
+   "P3NBd3UjH5Y",
+   "UUmKwJD76GY",
+   "foUaOCzfIRU",
+   "StEaAZ_Ywj4",
+   "NgO8TVaC24o",
+   "aLUGHQq2aek",
+   "H4rYVsJ4v9Y",
+   "5FBipicBoJg",
+   "N-xHcvug3WI",
+   "lqiZdynJmag",
+   "zpkbwr0HpCc",
+   "P3NBd3UjH5Y",
+   "ZQzIZkxsWYw",
+   "HqZXw5M6qQY",
+   "olEGtoYs_8A",
+   "tyDRtSUYTRs",
+   "aLUGHQq2aek",
+   "kfzrQGU6jhM",
+   "foUaOCzfIRU",
+   "mP6KvFnltWc",
+   "DyQ5MNkl6SA",
+   "tJbzMqJGH4k",
+   "lX_IN4v-RnA",
+   "-HIv_Uj1ERE",
+   "lEQ4XD8KuUs",
+   "sPLD6LS_TIk",
+   "StEaAZ_Ywj4",
+   "1xlr3-hK5rY",
+   "0M71BMAgSSs",
+   "Bf38HiYPMiI",
+   "QYAMp13Yi04",
+   "UUmKwJD76GY",
+   "vAAvocR04_Y",
+   "NgO8TVaC24o",
+   "VNbONMSObfs"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}
