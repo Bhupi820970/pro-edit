@@ -6522,6 +6522,149 @@
    "via": "youtube-search",
    "category": "sports",
    "at": "2026-11-22 08:06"
+  },
+  "kGKNxWD3LU4": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Marry Me (2022) - On My Way Scene | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=kGKNxWD3LU4",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-22 10:09"
+  },
+  "9RJEjRC2hAI": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The Photograph (2020) - Echoes of Love Scene (7/10) | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=9RJEjRC2hAI",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-22 10:10"
+  },
+  "Qt81a0aQDkM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo watermark in bottom-left corner",
+    "4K channel overlay logo in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Reminders of Him (2026) 4K - Kenna And Ledger Make Love (7/11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Qt81a0aQDkM",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-22 10:11"
+  },
+  "Amq4kBfbqL8": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel watermark 'MOVIE CLIP HD' with logo present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Booksmart Movie Clip - Opening Scene (2019) | Movieclips Coming Soon",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=Amq4kBfbqL8",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-22 10:13"
+  },
+  "Oic7kJRg_F0": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Romeo + Juliet (1996) - 1,000 Times Goodnight Scene (3/5) | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=Oic7kJRg_F0",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-22 10:14"
+  },
+  "_CIMWDhgSWc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips channel watermark is present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Marry Me (2022) - Marry Me Scene | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=_CIMWDhgSWc",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-22 10:15"
+  },
+  "0FcI8KuetDE": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Marry Me (2022) - After Love Scene | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=0FcI8KuetDE",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-22 10:17"
+  },
+  "OkBaZLq7gnU": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips watermark/channel logo is present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Ocean's 8 (2018) - Con Artistry Scene (1/10) | Movieclips",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=OkBaZLq7gnU",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-22 10:18"
   }
  },
  "videos": [
@@ -6790,6 +6933,136 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261121-232543.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261121-232543.preview.mp4"
+  },
+  {
+   "id": "in-romance-20261122-153735",
+   "platform": "instagram",
+   "category": "romance",
+   "format": "shorts",
+   "state": "qa_failed",
+   "created": "2026-11-22T16:08:41.363007+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-romance-20261122-153735.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-romance-20261122-153735.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 95.1,
+   "title": "Love Scene Edit | Die With A Smile Edit",
+   "hook": "LOVE SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Die With A Smile\" – Lady Gaga (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Lady%20Gaga%20Die%20With%20A%20Smile\n🎬 Footage: Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#RomanceEdit #LoveStory #MovieEdit",
+   "hashtags": [
+    "RomanceEdit",
+    "LoveStory",
+    "MovieEdit"
+   ],
+   "song": {
+    "title": "Die With A Smile",
+    "artist": "Lady Gaga",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Lady%20Gaga%20Die%20With%20A%20Smile"
+   },
+   "song_credit": "\"Die With A Smile\" – Lady Gaga",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [
+    "YOU'RE GONNA BE",
+    "LOOKING DOWN ON",
+    "THEM AND THE",
+    "HIGHER YOU RISE",
+    "THE",
+    "MORE THEY'RE GONNA",
+    "HATE YOU",
+    "GOOD",
+    "GOOD",
+    "RUB THEIR",
+    "NOSES IN IT",
+    "YOU MAKE THEM",
+    "MICHAEL'S VERY",
+    "BUSY AND HE",
+    "ASKED ME TO",
+    "SPEAK WITH YOU",
+    "DO YOU REMEMBER",
+    "WHAT YOUR",
+    "INSTRUCTIONS WERE?",
+    "CERTAINLY"
+   ],
+   "duration": 38.57,
+   "sources": [
+    {
+     "id": "nHINIwGcba0",
+     "src_id": "nHINIwGcba0",
+     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
+     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
+    },
+    {
+     "id": "ER4wFqmv75Q",
+     "src_id": "ER4wFqmv75Q",
+     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
+     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
+    },
+    {
+     "id": "c8gim368JAU",
+     "src_id": "c8gim368JAU",
+     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
+     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
+    },
+    {
+     "id": "AzzwE0mOZEs",
+     "src_id": "AzzwE0mOZEs",
+     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
+     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.57
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -14.4
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 20
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "HIGHER YOU RISE"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
   }
  ],
  "listing_cache": {
@@ -21890,6 +22163,85 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-22 08:06"
+  },
+  "kGKNxWD3LU4": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-22 10:09"
+  },
+  "9RJEjRC2hAI": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-22 10:10"
+  },
+  "Qt81a0aQDkM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo watermark in bottom-left corner",
+    "4K channel overlay logo in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-22 10:11"
+  },
+  "Amq4kBfbqL8": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel watermark 'MOVIE CLIP HD' with logo present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-22 10:13"
+  },
+  "Oic7kJRg_F0": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-22 10:14"
+  },
+  "_CIMWDhgSWc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips channel watermark is present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-22 10:15"
+  },
+  "0FcI8KuetDE": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-22 10:17"
+  },
+  "OkBaZLq7gnU": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips watermark/channel logo is present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-22 10:18"
   }
  },
  "failures": [
@@ -23290,6 +23642,144 @@
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 182.1700 -i /mnt/ph/instagram/work/in-movie-20261121-232543/clips/c8gim368JAU.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs="
+  },
+  {
+   "at": "2026-11-22T16:08:41.392931+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HIGHER YOU RISE\"]}}"
+  },
+  {
+   "at": "2026-11-22T16:09:30.819700+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T16:11:38.876353+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
+  },
+  {
+   "at": "2026-11-22T16:13:47.684629+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
+  },
+  {
+   "at": "2026-11-22T16:15:14.120079+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 202.6700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=r"
+  },
+  {
+   "at": "2026-11-22T16:44:49.611871+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T16:45:38.515320+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T16:46:27.026834+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T17:04:51.373422+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T17:38:24.722906+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T18:11:39.260145+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T18:12:29.089751+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T18:13:55.331210+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 48.9700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/nHINIwGcba0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
+  },
+  {
+   "at": "2026-11-22T18:36:10.537233+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T19:08:32.324517+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T19:37:06.730341+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T19:38:01.785658+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T20:07:51.835570+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-22T20:30:06.371058+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T20:30:57.101650+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T20:31:47.069441+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T20:49:02.606448+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-22T21:08:50.113147+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
   }
  ]
 }
