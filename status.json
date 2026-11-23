@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T15:32:44.717159+05:30",
+ "updated": "2026-11-23T19:44:10.650250+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -255,110 +255,110 @@
    "error": "RuntimeError: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-23T11:11:23.585458+05:30",
+   "at": "2026-11-23T16:14:12.470170+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-23T16:48:47.297456+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-23T11:45:49.346438+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T11:46:37.122547+05:30",
+   "at": "2026-11-23T16:49:35.471159+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-23T11:48:47.310438+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
-  },
-  {
-   "at": "2026-11-23T11:50:49.205740+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-23T11:51:36.345511+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-23T11:53:41.955567+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
-  },
-  {
-   "at": "2026-11-23T12:15:40.501723+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-23T12:51:28.188217+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T12:51:47.717825+05:30",
+   "at": "2026-11-23T16:49:54.722485+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single title for movie"
   },
   {
-   "at": "2026-11-23T12:53:11.918256+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
-  },
-  {
-   "at": "2026-11-23T12:56:35.491739+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
-  },
-  {
-   "at": "2026-11-23T12:59:14.772998+05:30",
+   "at": "2026-11-23T16:51:20.554209+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
   },
   {
-   "at": "2026-11-23T13:23:45.214087+05:30",
+   "at": "2026-11-23T16:53:56.902220+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T16:55:21.607143+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T17:29:57.641194+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T17:57:05.366046+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-23T14:05:55.409289+05:30",
+   "at": "2026-11-23T17:58:29.811913+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 243.1700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/nHINIwGcba0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs="
+  },
+  {
+   "at": "2026-11-23T18:00:39.302461+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T18:35:29.172102+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T18:35:49.533202+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-23T19:13:03.644423+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T19:44:00.687823+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-22T20:59:13.731264+05:30",
-  "age_hours": 18.6,
+  "last_run": "2026-11-23T14:10:37.235901+05:30",
+  "age_hours": 5.6,
   "healthy": false,
   "pool": {
-   "gta": 21,
+   "gta": 15,
    "gaming": 15,
    "movie": 15,
-   "sports": 18,
+   "sports": 15,
    "romance": 15,
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 19h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 6h: run `bash scripts/box_fetch_service.sh start` on the box"
  },
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (1/7 ready)"
