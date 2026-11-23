@@ -1,0 +1,741 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HIGHER YOU RISE\"]}}",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: no clips of a single title for movie",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 230,
+  "vetted": 11,
+  "rejected": [
+   {
+    "id": "VWJFV-ltAHM",
+    "title": "Weeds - Saul Goodman Gets High (S4E11) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo present in the bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "lCvxXU4gnqA",
+    "title": "The Housemaid (2025) 4K - Brandon Sklenar Traps Amanda Seyfried (5/10) | Movieclips",
+    "reasons": [
+     "Watermark or channel logo present in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "_FAi7PSJamg",
+    "title": "Weeds - Nancy Calls the FBI (S4E11) | Movieclips",
+    "reasons": [
+     "channel_logo present in bottom-left corner (Rotten Tomatoes / Movieclips logo)",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "XYo7HnMm1gQ",
+    "title": "Weeds - Nothing Is Ever Enough (S4E11) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes Movieclips logo in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "nDWE4Yh5yGQ",
+    "title": "Weeds - Saul Goodman Goes to Therapy (S4E11) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "mVCLnL2jp_4",
+    "title": "Weeds - You're Too Fat? (S4E11) | Movieclips",
+    "reasons": [
+     "channel logo in bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "UWzV0AFXukI",
+    "title": "Grand Theft Auto V -- Coming for PlayStation 4 this Fall | E3 2014",
+    "reasons": [
+     "PlayStation channel logo in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "RC5seqQZBjs",
+    "title": "GTA VI - Trevor phillips on Radio station 😮",
+    "reasons": [
+     "channel_logo present in bottom right corner (OPTIKAT)",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "hDxIch5H7iE",
+    "title": "'Bigger than any movie': 'Grand Theft Auto VI' tops $1.5B in preorders",
+    "reasons": [
+     "CNN channel logo present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "YlY9n7iM-5Q",
+    "title": "GTA Online: San Andreas Mercenaries Now Available",
+    "reasons": [
+     "Footage is a promotional trailer / teaser rather than a full scene or episode.",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Ybq_FGtSCN8",
+    "title": "GTA Online: Los Santos Drug Wars Now Available",
+    "reasons": [
+     "Promotional trailer / teaser / promo video instead of full scene or clip",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 192,
+  "fallback_used": true,
+  "thin": [
+   "sports",
+   "gta",
+   "movie"
+  ],
+  "failed_ids": [
+   "XIW8e7Xi_l8",
+   "0G10fR6EGwY",
+   "Le3FfVxbjEQ",
+   "G3sYVK0c73k",
+   "VlhU9OrikSA",
+   "-9lP95Qo-I0",
+   "3dWqAyPielA",
+   "7a6gnRvQqHQ",
+   "MQstdmVmZU8",
+   "Fr3OrTNXR90",
+   "3oLh7QPp02Q",
+   "XWISA6cBx34",
+   "-zd62MxKXp8",
+   "o1BrK2KWifc",
+   "TAyDe4Jepog",
+   "foUaOCzfIRU",
+   "aLUGHQq2aek",
+   "kfzrQGU6jhM",
+   "N-xHcvug3WI",
+   "sPLD6LS_TIk",
+   "kMCtod_2iQ0",
+   "tJbzMqJGH4k",
+   "1xlr3-hK5rY",
+   "UUmKwJD76GY",
+   "P3NBd3UjH5Y",
+   "HqZXw5M6qQY",
+   "45--ZVLkmks",
+   "VNbONMSObfs",
+   "mP6KvFnltWc",
+   "QYAMp13Yi04",
+   "0M71BMAgSSs",
+   "lqiZdynJmag",
+   "DyQ5MNkl6SA",
+   "olEGtoYs_8A",
+   "8-DRGbQ1IXc",
+   "vAAvocR04_Y",
+   "lEQ4XD8KuUs",
+   "NgO8TVaC24o",
+   "ZQzIZkxsWYw",
+   "StEaAZ_Ywj4",
+   "-HIv_Uj1ERE",
+   "lX_IN4v-RnA",
+   "H4rYVsJ4v9Y",
+   "3PiR0G3rVw8",
+   "tyDRtSUYTRs",
+   "QYAMp13Yi04",
+   "VNbONMSObfs",
+   "-HIv_Uj1ERE",
+   "lX_IN4v-RnA",
+   "kfzrQGU6jhM",
+   "lqiZdynJmag",
+   "aLUGHQq2aek",
+   "ZQzIZkxsWYw",
+   "StEaAZ_Ywj4",
+   "tJbzMqJGH4k",
+   "mP6KvFnltWc",
+   "lEQ4XD8KuUs",
+   "45--ZVLkmks",
+   "foUaOCzfIRU",
+   "vAAvocR04_Y",
+   "P3NBd3UjH5Y",
+   "NgO8TVaC24o",
+   "olEGtoYs_8A",
+   "DyQ5MNkl6SA",
+   "UUmKwJD76GY",
+   "kMCtod_2iQ0",
+   "HqZXw5M6qQY",
+   "tyDRtSUYTRs",
+   "N-xHcvug3WI",
+   "1xlr3-hK5rY",
+   "sPLD6LS_TIk",
+   "H4rYVsJ4v9Y",
+   "3PiR0G3rVw8",
+   "Bf38HiYPMiI",
+   "XAOUlsrmzYM",
+   "N-xHcvug3WI",
+   "lX_IN4v-RnA",
+   "UUmKwJD76GY",
+   "H4rYVsJ4v9Y",
+   "8-DRGbQ1IXc",
+   "HqZXw5M6qQY",
+   "lqiZdynJmag",
+   "kfzrQGU6jhM",
+   "zpkbwr0HpCc",
+   "NgO8TVaC24o",
+   "olEGtoYs_8A",
+   "aLUGHQq2aek",
+   "foUaOCzfIRU",
+   "mP6KvFnltWc",
+   "tyDRtSUYTRs",
+   "ZQzIZkxsWYw",
+   "kMCtod_2iQ0",
+   "1xlr3-hK5rY",
+   "lEQ4XD8KuUs",
+   "P3NBd3UjH5Y",
+   "QYAMp13Yi04",
+   "5FBipicBoJg",
+   "-HIv_Uj1ERE",
+   "sPLD6LS_TIk",
+   "VNbONMSObfs",
+   "tJbzMqJGH4k",
+   "45--ZVLkmks",
+   "0M71BMAgSSs",
+   "vAAvocR04_Y",
+   "StEaAZ_Ywj4",
+   "kMCtod_2iQ0",
+   "8-DRGbQ1IXc",
+   "HqZXw5M6qQY",
+   "UUmKwJD76GY",
+   "45--ZVLkmks",
+   "DyQ5MNkl6SA",
+   "lX_IN4v-RnA",
+   "NgO8TVaC24o",
+   "tyDRtSUYTRs",
+   "lEQ4XD8KuUs",
+   "5FBipicBoJg",
+   "foUaOCzfIRU",
+   "StEaAZ_Ywj4",
+   "ZQzIZkxsWYw",
+   "tJbzMqJGH4k",
+   "N-xHcvug3WI",
+   "H4rYVsJ4v9Y",
+   "mP6KvFnltWc",
+   "VNbONMSObfs",
+   "3PiR0G3rVw8",
+   "-HIv_Uj1ERE",
+   "0M71BMAgSSs",
+   "P3NBd3UjH5Y",
+   "olEGtoYs_8A",
+   "1xlr3-hK5rY",
+   "QYAMp13Yi04",
+   "vAAvocR04_Y",
+   "kfzrQGU6jhM",
+   "sPLD6LS_TIk",
+   "aLUGHQq2aek",
+   "lqiZdynJmag",
+   "0G10fR6EGwY",
+   "TAyDe4Jepog",
+   "3dWqAyPielA",
+   "-9lP95Qo-I0",
+   "o1BrK2KWifc",
+   "XIW8e7Xi_l8",
+   "G3sYVK0c73k",
+   "Fr3OrTNXR90",
+   "XWISA6cBx34",
+   "Le3FfVxbjEQ",
+   "MQstdmVmZU8",
+   "-zd62MxKXp8",
+   "7a6gnRvQqHQ",
+   "olEGtoYs_8A",
+   "UUmKwJD76GY",
+   "lX_IN4v-RnA",
+   "3PiR0G3rVw8",
+   "XAOUlsrmzYM",
+   "ZQzIZkxsWYw",
+   "sPLD6LS_TIk",
+   "Bf38HiYPMiI",
+   "DyQ5MNkl6SA",
+   "tJbzMqJGH4k",
+   "-HIv_Uj1ERE",
+   "QYAMp13Yi04",
+   "1xlr3-hK5rY",
+   "0M71BMAgSSs",
+   "45--ZVLkmks",
+   "P3NBd3UjH5Y",
+   "HqZXw5M6qQY",
+   "H4rYVsJ4v9Y",
+   "lqiZdynJmag",
+   "wiW1mpHZb_Y",
+   "vAAvocR04_Y",
+   "kfzrQGU6jhM",
+   "StEaAZ_Ywj4",
+   "lEQ4XD8KuUs",
+   "VNbONMSObfs",
+   "aLUGHQq2aek",
+   "8-DRGbQ1IXc",
+   "tyDRtSUYTRs",
+   "NgO8TVaC24o",
+   "N-xHcvug3WI",
+   "mP6KvFnltWc",
+   "kMCtod_2iQ0",
+   "foUaOCzfIRU",
+   "o1BrK2KWifc",
+   "-zd62MxKXp8",
+   "7a6gnRvQqHQ",
+   "nSjU02GjH6o",
+   "G3sYVK0c73k",
+   "-9lP95Qo-I0",
+   "XIW8e7Xi_l8",
+   "XWISA6cBx34",
+   "Le3FfVxbjEQ",
+   "sO56CyHI5ek",
+   "MQstdmVmZU8",
+   "0G10fR6EGwY",
+   "Fr3OrTNXR90",
+   "3dWqAyPielA",
+   "TAyDe4Jepog",
+   "DyQ5MNkl6SA",
+   "VNbONMSObfs",
+   "StEaAZ_Ywj4",
+   "ZQzIZkxsWYw",
+   "HqZXw5M6qQY",
+   "aLUGHQq2aek",
+   "sPLD6LS_TIk",
+   "45--ZVLkmks",
+   "5FBipicBoJg",
+   "kMCtod_2iQ0",
+   "lX_IN4v-RnA",
+   "wrFZ3NNyKtE",
+   "lEQ4XD8KuUs",
+   "olEGtoYs_8A",
+   "wiW1mpHZb_Y",
+   "-HIv_Uj1ERE",
+   "mP6KvFnltWc",
+   "1xlr3-hK5rY",
+   "UUmKwJD76GY",
+   "N-xHcvug3WI",
+   "H4rYVsJ4v9Y",
+   "QYAMp13Yi04",
+   "Cm8CkXhPcrE",
+   "lqiZdynJmag",
+   "tJbzMqJGH4k",
+   "vAAvocR04_Y",
+   "P3NBd3UjH5Y",
+   "kfzrQGU6jhM",
+   "8-DRGbQ1IXc",
+   "tyDRtSUYTRs",
+   "foUaOCzfIRU",
+   "zpkbwr0HpCc",
+   "NgO8TVaC24o"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}

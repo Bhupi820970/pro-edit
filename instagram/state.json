@@ -6751,6 +6751,264 @@
    "via": "youtube-search",
    "category": "movie",
    "at": "2026-11-22 21:39"
+  },
+  "VWJFV-ltAHM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - Saul Goodman Gets High (S4E11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=VWJFV-ltAHM",
+   "via": "official-channel",
+   "category": "movie",
+   "at": "2026-11-23 03:03"
+  },
+  "lCvxXU4gnqA": {
+   "accept": false,
+   "reject_reasons": [
+    "Watermark or channel logo present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The Housemaid (2025) 4K - Brandon Sklenar Traps Amanda Seyfried (5/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=lCvxXU4gnqA",
+   "via": "youtube-search",
+   "category": "movie",
+   "at": "2026-11-23 03:04"
+  },
+  "_FAi7PSJamg": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in bottom-left corner (Rotten Tomatoes / Movieclips logo)",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - Nancy Calls the FBI (S4E11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=_FAi7PSJamg",
+   "via": "official-channel",
+   "category": "movie",
+   "at": "2026-11-23 03:05"
+  },
+  "XYo7HnMm1gQ": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - Nothing Is Ever Enough (S4E11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=XYo7HnMm1gQ",
+   "via": "official-channel",
+   "category": "movie",
+   "at": "2026-11-23 03:07"
+  },
+  "nDWE4Yh5yGQ": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - Saul Goodman Goes to Therapy (S4E11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=nDWE4Yh5yGQ",
+   "via": "official-channel",
+   "category": "movie",
+   "at": "2026-11-23 03:08"
+  },
+  "mVCLnL2jp_4": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Weeds - You're Too Fat? (S4E11) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=mVCLnL2jp_4",
+   "via": "official-channel",
+   "category": "movie",
+   "at": "2026-11-23 03:09"
+  },
+  "UWzV0AFXukI": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Grand Theft Auto V -- Coming for PlayStation 4 this Fall | E3 2014",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=UWzV0AFXukI",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-23 08:02"
+  },
+  "RC5seqQZBjs": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in bottom right corner (OPTIKAT)",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA VI - Trevor phillips on Radio station 😮",
+   "channel": "OptiKat Gaming",
+   "credit": "OptiKat Gaming",
+   "url": "https://www.youtube.com/watch?v=RC5seqQZBjs",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-23 08:21"
+  },
+  "hDxIch5H7iE": {
+   "accept": false,
+   "reject_reasons": [
+    "CNN channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "'Bigger than any movie': 'Grand Theft Auto VI' tops $1.5B in preorders",
+   "channel": "CNN",
+   "credit": "CNN",
+   "url": "https://www.youtube.com/watch?v=hDxIch5H7iE",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-23 08:31"
+  },
+  "YlY9n7iM-5Q": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "action packed game trailer",
+   "summary": "The provided footage is an official video game promotional trailer for GTA Online: San Andreas Mercenaries, featuring gameplay sequences, explosions, and title cards.",
+   "reject_reasons": [
+    "Footage is a promotional trailer / teaser rather than a full scene or episode.",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating and opening title card"
+    },
+    {
+     "start": 26.0,
+     "end": 28.0,
+     "reason": "End slate promo card"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: San Andreas Mercenaries Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-23 08:35"
+  },
+  "Ybq_FGtSCN8": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "wild chaotic drug trip",
+   "summary": "This is a promotional trailer for GTA Online Los Santos Drug Wars, featuring gameplay highlights, cutscenes, and characters.",
+   "reject_reasons": [
+    "Promotional trailer / teaser / promo video instead of full scene or clip",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "Rating intro card"
+    },
+    {
+     "start": 26.0,
+     "end": 29.0,
+     "reason": "Title card and end slate"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: Los Santos Drug Wars Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=Ybq_FGtSCN8",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-23 08:35"
   }
  },
  "videos": [
@@ -7123,6 +7381,137 @@
      "audio": {
       "ok": true,
       "mean_db": -14.4
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 20
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "HIGHER YOU RISE"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "in-movie-20261123-083139",
+   "platform": "instagram",
+   "category": "movie",
+   "format": "shorts",
+   "state": "qa_failed",
+   "created": "2026-11-23T08:59:25.125045+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261123-083139.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-movie-20261123-083139.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 92.9,
+   "title": "Movie Scene Edit | Believer Edit",
+   "hook": "MOVIE SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Believer\" – Imagine Dragons (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Imagine%20Dragons%20Believer\n🎬 Footage: Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Imagine%20Dragons%20Believer"
+   },
+   "song_credit": "\"Believer\" – Imagine Dragons",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [
+    "YOU'RE GONNA BE",
+    "LOOKING DOWN ON",
+    "THEM AND THE",
+    "HIGHER YOU RISE",
+    "THE",
+    "MORE THEY'RE GONNA",
+    "HATE YOU",
+    "GOOD",
+    "GOOD",
+    "RUB THEIR",
+    "NOSES IN IT",
+    "YOU MAKE THEM",
+    "THE LETTER HAS",
+    "SPECIFIC",
+    "INSTRUCTIONS",
+    "MY MEN WILL",
+    "BE ABLE TO",
+    "CONTINUE A FEW",
+    "DAYS WITHOUT ME",
+    "THE"
+   ],
+   "duration": 38.53,
+   "sources": [
+    {
+     "id": "nHINIwGcba0",
+     "src_id": "nHINIwGcba0",
+     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
+     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
+    },
+    {
+     "id": "c8gim368JAU",
+     "src_id": "c8gim368JAU",
+     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
+     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
+    },
+    {
+     "id": "ER4wFqmv75Q",
+     "src_id": "ER4wFqmv75Q",
+     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
+     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
+    },
+    {
+     "id": "AzzwE0mOZEs",
+     "src_id": "AzzwE0mOZEs",
+     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
+     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.53
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.7
      },
      "black_frames": {
       "ok": true,
@@ -22534,6 +22923,104 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-22 21:39"
+  },
+  "VWJFV-ltAHM": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-23 03:03"
+  },
+  "lCvxXU4gnqA": {
+   "accept": false,
+   "reject_reasons": [
+    "Watermark or channel logo present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-23 03:04"
+  },
+  "_FAi7PSJamg": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in bottom-left corner (Rotten Tomatoes / Movieclips logo)",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-23 03:05"
+  },
+  "XYo7HnMm1gQ": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-23 03:07"
+  },
+  "nDWE4Yh5yGQ": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-23 03:08"
+  },
+  "mVCLnL2jp_4": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-23 03:09"
+  },
+  "UWzV0AFXukI": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-23 08:02"
+  },
+  "wrFZ3NNyKtE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-23 08:09"
+  },
+  "RC5seqQZBjs": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in bottom right corner (OPTIKAT)",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-23 08:21"
+  },
+  "Cm8CkXhPcrE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-23 08:23"
+  },
+  "hDxIch5H7iE": {
+   "accept": false,
+   "reject_reasons": [
+    "CNN channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-23 08:31"
   }
  },
  "failures": [
@@ -24390,6 +24877,138 @@
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 48.9700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/nHINIwGcba0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
+  },
+  {
+   "at": "2026-11-23T08:59:25.155453+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HIGHER YOU RISE\"]}}"
+  },
+  {
+   "at": "2026-11-23T09:02:52.216241+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T09:04:56.698676+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-23T09:29:33.991106+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-23T10:04:06.923186+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T10:33:30.825322+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T10:35:28.165399+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T11:11:23.585458+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T11:45:49.346438+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T11:46:37.122547+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-23T11:48:47.310438+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T11:50:49.205740+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-23T11:51:36.345511+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-23T11:53:41.955567+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T12:15:40.501723+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-23T12:51:28.188217+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T12:51:47.717825+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-23T12:53:11.918256+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T12:56:35.491739+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T12:59:14.772998+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T13:23:45.214087+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-23T14:05:55.409289+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:26:58.707903+05:30",
+ "updated": "2026-11-23T14:05:58.981860+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (1/7 ready)",
@@ -19,7 +19,7 @@
    "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 0,
+   "produced_today": 1,
    "per_day": [
     6,
     7
@@ -167,94 +167,94 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-23T04:58:19.349722+05:30",
+   "at": "2026-11-23T11:11:23.585458+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T11:45:49.346438+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T11:46:37.122547+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-23T05:00:30.815176+05:30",
+   "at": "2026-11-23T11:48:47.310438+05:30",
    "platform": "instagram",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
   },
   {
-   "at": "2026-11-23T05:03:15.231314+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 48.9700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/nHINIwGcba0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
-  },
-  {
-   "at": "2026-11-23T05:04:05.455279+05:30",
+   "at": "2026-11-23T11:50:49.205740+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-23T05:36:14.686156+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T05:38:04.987051+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
-  },
-  {
-   "at": "2026-11-23T06:11:39.563023+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T06:35:43.421068+05:30",
+   "at": "2026-11-23T11:51:36.345511+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-23T07:07:59.571673+05:30",
+   "at": "2026-11-23T11:53:41.955567+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T12:15:40.501723+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-23T12:51:28.188217+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-23T07:41:29.713986+05:30",
+   "at": "2026-11-23T12:51:47.717825+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-23T12:53:11.918256+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T12:56:35.491739+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T12:59:14.772998+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261123-083139/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-23T13:23:45.214087+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-23T14:05:55.409289+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T08:16:03.197955+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T08:18:14.118809+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 43.6700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
-  },
-  {
-   "at": "2026-11-23T08:21:26.186383+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
-  },
-  {
-   "at": "2026-11-23T08:23:33.432315+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 139.5700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=r"
-  },
-  {
-   "at": "2026-11-23T08:26:55.768085+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 48.9700 -i /mnt/ph/instagram/work/in-romance-20261122-153735/clips/nHINIwGcba0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs"
   }
  ],
  "pattern_history": [
@@ -267,7 +267,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-22T20:59:13.731264+05:30",
-  "age_hours": 11.5,
+  "age_hours": 17.1,
   "healthy": false,
   "pool": {
    "gta": 21,
@@ -278,6 +278,6 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 11h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 17h: run `bash scripts/box_fetch_service.sh start` on the box"
  }
 }
