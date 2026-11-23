@@ -4126,7 +4126,7 @@
  },
  "videos": [],
  "listing_cache": {
-  "https://www.youtube.com/@RockstarGames/videos|2026-11-22": [
+  "https://www.youtube.com/@RockstarGames/videos|2026-11-23": [
    {
     "id": "_yl5ELcmugI",
     "title": "Grand Theft Auto VI: Out Now",
@@ -5621,6 +5621,18 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-22 17:07"
+  },
+  "FTyh1L52mbQ": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-22 22:48"
+  },
+  "2LySmj8f24U": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-22 22:54"
   }
  },
  "failures": [
@@ -6322,6 +6334,36 @@
   },
   {
    "at": "2026-11-23T03:21:59.594773+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T05:05:38.081131+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T05:59:18.574776+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T07:08:48.117015+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T08:04:41.638673+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T08:57:53.945275+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"

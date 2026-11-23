@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T03:52:00.163292+05:30",
+ "updated": "2026-11-23T09:42:21.364596+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -30,36 +30,6 @@
  "ready": [],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-22T19:46:17.097822+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-22T20:22:08.295814+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-22T20:53:01.514645+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-22T21:26:15.493347+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-22T22:00:57.755471+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
   {
    "at": "2026-11-22T22:40:16.716720+05:30",
    "platform": "youtube",
@@ -119,12 +89,42 @@
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T05:05:38.081131+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T05:59:18.574776+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T07:08:48.117015+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T08:04:41.638673+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T08:57:53.945275+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
   }
  ],
  "pattern_history": [],
  "box_fetcher": {
   "last_run": "2026-11-22T20:59:13.731264+05:30",
-  "age_hours": 6.9,
+  "age_hours": 12.7,
   "healthy": false,
   "pool": {
    "gta": 21,
@@ -135,6 +135,6 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 7h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 13h: run `bash scripts/box_fetch_service.sh start` on the box"
  }
 }
