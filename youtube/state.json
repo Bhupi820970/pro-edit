@@ -4122,6 +4122,23 @@
    "via": "youtube-search",
    "category": "gta",
    "at": "2026-11-22 17:05"
+  },
+  "hDxIch5H7iE": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo visible in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "'Bigger than any movie': 'Grand Theft Auto VI' tops $1.5B in preorders",
+   "channel": "CNN",
+   "credit": "CNN",
+   "url": "https://www.youtube.com/watch?v=hDxIch5H7iE",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-23 08:22"
   }
  },
  "videos": [],
@@ -5633,6 +5650,21 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-22 22:54"
+  },
+  "47g58iHPJtQ": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-23 08:02"
+  },
+  "hDxIch5H7iE": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo visible in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-23 08:22"
   }
  },
  "failures": [
@@ -6364,6 +6396,66 @@
   },
   {
    "at": "2026-11-23T08:57:53.945275+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T10:15:43.459942+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T10:50:13.968341+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T11:22:17.314840+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T11:54:27.100691+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T12:23:56.398275+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T12:57:14.456994+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T13:25:37.020241+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T14:00:17.294600+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T14:32:16.060632+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-23T15:01:37.024077+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
