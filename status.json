@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T06:34:05.539520+05:30",
+ "updated": "2026-11-24T08:18:32.611057+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -165,66 +165,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-23T18:55:11.921920+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T19:28:30.174888+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T19:59:17.677260+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T20:32:42.638530+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T21:05:00.455090+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T21:43:52.703088+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T22:19:48.972837+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T22:52:09.756967+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T23:24:25.422878+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-23T23:59:11.095357+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
    "at": "2026-11-24T00:27:31.560127+05:30",
    "platform": "youtube",
    "category": null,
@@ -250,6 +190,66 @@
   },
   {
    "at": "2026-11-24T02:38:53.422898+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T03:21:36.816219+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T03:58:50.196528+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T04:25:46.958631+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T05:00:23.773666+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T05:34:51.209201+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T06:09:09.469477+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T06:39:55.521420+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T07:12:02.934201+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T07:47:50.415389+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T08:18:28.438591+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
@@ -347,7 +347,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-23T20:06:04.697447+05:30",
-  "age_hours": 6.5,
+  "age_hours": 12.2,
   "healthy": false,
   "pool": {
    "gta": 18,
@@ -358,7 +358,7 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 7h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 12h: run `bash scripts/box_fetch_service.sh start` on the box"
  },
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (1/7 ready)"
