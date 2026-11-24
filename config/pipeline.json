@@ -63,7 +63,7 @@
   },
   "categories": {
     "gta": {
-      "sources_per_video": 4,
+      "sources_per_video": 6,
       "min_len": 30,
       "max_len": 2000,
       "channels": [

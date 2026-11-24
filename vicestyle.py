@@ -1151,6 +1151,20 @@ def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict
                 and not overlaps_long(source_id(s.src), s.s, s.e, taken))
     silent = [s for s in allshots if _ok(s, False)]
     spoken_ok = [s for s in allshots if _ok(s, True)]
+    # Fast-cut sources (official game update videos) rarely hold a shot for the full +1.5s.
+    # Only when there are too few long shots, fall back to a half extra hold (still on the beat).
+    need_shots = int(round(target / period)) // max(1, b1)
+    if len(silent) + len(spoken_ok) < need_shots:
+        fb1, fb2 = hold_beats(period, 1, HOLD_EXTRA_S / 2), hold_beats(period, 2, HOLD_EXTRA_S / 2)
+        if fb1 < b1:
+            log(f"only {len(silent) + len(spoken_ok)} long shots (< {need_shots}); short-hold fallback {b1}->{fb1} beats")
+            b1, b2 = fb1, fb2
+            hook_pat = [b2, b2, b2, b1, b1, b2]
+            mid_pat = [b2, b1, b1, b2]
+            end_pat = [b1, b1, b2, b1]
+            fill_pat = [b2, b1, b1, b2, b1, b1]
+            silent = [s for s in allshots if _ok(s, False)]
+            spoken_ok = [s for s in allshots if _ok(s, True)]
     montage = silent
     # A single-title trailer is often dialogue-heavy; keep silent shots first, then
     # fill from spoken shots so the edit can still be built. Chosen dialogue windows
