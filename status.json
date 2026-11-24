@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:32:14.355193+05:30",
+ "updated": "2026-11-25T02:17:37.277966+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -165,6 +165,24 @@
  "approved": [],
  "recent_failures": [
   {
+   "at": "2026-11-24T15:20:14.483644+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T15:52:17.714277+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T16:26:42.044003+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
    "at": "2026-11-24T16:59:58.331214+05:30",
    "platform": "youtube",
    "category": null,
@@ -201,58 +219,40 @@
    "error": "RuntimeError: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-24T20:24:01.784814+05:30",
+   "at": "2026-11-25T02:16:15.493198+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
-   "at": "2026-11-24T21:06:17.624505+05:30",
+   "at": "2026-11-25T02:16:30.410850+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
-   "at": "2026-11-24T21:38:40.822299+05:30",
+   "at": "2026-11-25T02:16:45.141418+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
-   "at": "2026-11-24T22:08:40.462444+05:30",
+   "at": "2026-11-25T02:16:59.930111+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
-   "at": "2026-11-24T22:40:54.506187+05:30",
+   "at": "2026-11-25T02:17:14.289375+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
-   "at": "2026-11-24T23:20:51.905252+05:30",
+   "at": "2026-11-25T02:17:28.905834+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-24T23:52:59.685528+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T00:30:13.988778+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T01:06:24.757726+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
    "at": "2026-11-24T15:54:37.380336+05:30",
@@ -347,7 +347,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-24T18:50:59.855524+05:30",
-  "age_hours": 6.7,
+  "age_hours": 7.4,
   "healthy": false,
   "pool": {
    "gta": 15,

@@ -3150,543 +3150,6 @@
    "category": "gta",
    "at": "2026-11-20 15:09"
   },
-  "_SgqsxXk8_E": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": true,
-   "mood": "action packed crime",
-   "summary": "Promotional trailer for GTA Online Bottom Dollar Bounties featuring bounty hunting scenes and dialogue.",
-   "reject_reasons": [
-    "Promotional trailer / teaser",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 30.0,
-     "reason": "Promotional trailer content containing title cards and game announcements"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Bottom Dollar Bounties Out Now",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-20 15:21"
-  },
-  "T3ZaWDcPiIo": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": true,
-   "mood": "action packed crime trailer",
-   "summary": "Official game trailer/teaser for GTA Online: Agents of Sabotage showing cutscenes and gameplay elements.",
-   "reject_reasons": [
-    "trailers teasers and promos are rejected entirely",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 25.0,
-     "end": 29.0,
-     "reason": "End title slate and legal text"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Agents of Sabotage Coming December 10",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-20 15:31"
-  },
-  "YW9VXUgoG6w": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": false,
-   "mood": "action-packed cinematic montage",
-   "summary": "A promotional trailer for the GTA Online Agents of Sabotage update featuring various gameplay clips.",
-   "reject_reasons": [
-    "trailer",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 25.0,
-     "end": 30.0,
-     "reason": "end title card and legal text"
-    }
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Agents of Sabotage Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-20 15:48"
-  },
-  "n2EtF9sKW6w": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": false,
-   "mood": "fast neon action",
-   "summary": "Trailer for GTA Online Deadline Duet mode featuring light bikes and glowing trails.",
-   "reject_reasons": [
-    "Trailer or promo content",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 4.0,
-     "end": 11.0,
-     "reason": "On-screen promotional text"
-    },
-    {
-     "start": 21.0,
-     "end": 29.0,
-     "reason": "End title card and call to action"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "New Deadline Duet Mode in GTA Online",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=n2EtF9sKW6w",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-20 15:48"
-  },
-  "GbuCIrZSPDk": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": false,
-   "mood": "dark zombie survival apocalypse",
-   "summary": "Official promotional trailer for GTA Online Cayo Perico Zombie Survival featuring gameplay footage of zombies and players.",
-   "reject_reasons": [
-    "Trailer or promo video",
-    "Contains rating cards, title cards, and promotional end slates",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 7.0,
-     "reason": "Rating card and promo intro graphics"
-    },
-    {
-     "start": 23.0,
-     "end": 29.0,
-     "reason": "Title card and promotional end slate"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-20 15:49"
-  },
-  "T7aaNEW7zA0": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "high speed street drift",
-   "summary": "Promotional gameplay and cinematic clips showcasing drift tuning and events in GTA Online.",
-   "reject_reasons": [
-    "The source is an official promotional trailer/teaser from Rockstar Games, which is excluded from our requirements (we only want full scenes or official game clips)."
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card at start"
-    },
-    {
-     "start": 21.0,
-     "end": 29.0,
-     "reason": "Drift Event title card and end slate"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-20 15:49"
-  },
-  "APJ-lT0sBhg": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": true,
-   "mood": "luxurious criminal action heist",
-   "summary": "This footage is an official video game trailer/promo from Rockstar Games titled A Safehouse in the Hills. It features cinematic cuts of safehouses, high-end cars, action sequences, and characters talking, but since it is a trailer/promo it is rejected per instructions.",
-   "reject_reasons": [
-    "Trailer or teaser promo which is explicitly rejected per instructions.",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 10.0,
-     "end": 11.0,
-     "reason": "Title card"
-    },
-    {
-     "start": 54.0,
-     "end": 56.0,
-     "reason": "End title card"
-    }
-   ],
-   "characters": [
-    "Michael De Santa"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    3.0,
-    10.46,
-    17.92,
-    25.38,
-    32.84,
-    40.3,
-    47.77,
-    55.23
-   ],
-   "title": "GTA Online: A Safehouse in the Hills Coming December 10",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 60.028,
-   "category": "gta",
-   "at": "2026-11-20 15:49"
-  },
-  "GJAs5sjujHg": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": false,
-   "mood": "promotional game trailer",
-   "summary": "This is a promotional trailer for a GTA Online update, not a full scene or gameplay clip suitable for editing.",
-   "reject_reasons": [
-    "trailer",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 30.0,
-     "reason": "entire video is a promotional trailer"
-    }
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Money Fronts Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=GJAs5sjujHg",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-20 15:49"
-  },
-  "Sp1wvWZ_2MQ": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "fast-paced crime action",
-   "summary": "Official game update trailer featuring high-speed car chases, heists, and gameplay footage from Grand Theft Auto Online: The Chop Shop.",
-   "reject_reasons": [
-    "Trailer or promo content; rule states we must reject trailers, teasers, promos and TV spots entirely."
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "End title card and Play Now screen"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.96,
-    12.69,
-    16.42,
-    20.15,
-    23.88,
-    27.61
-   ],
-   "title": "GTA Online: The Chop Shop Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.008,
-   "category": "gta",
-   "at": "2026-11-20 15:49"
-  },
-  "htg1EZE3LVk": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": true,
-   "mood": "action packed crime heist",
-   "summary": "Trailer footage showing the GTA Online Cluckin Bell Farm Raid update featuring heists, shootouts, and police confrontations.",
-   "reject_reasons": [
-    "Source is a promotional trailer / teaser rather than a full scene or episode.",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.1,
-     "reason": "End title card with release date"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=htg1EZE3LVk",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-20 15:50"
-  },
-  "ewAODca-3Bw": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": true,
-   "mood": "action crime trailer",
-   "summary": "This is a promotional trailer for a GTA Online update, not a full scene or gameplay clip suitable for editing.",
-   "reject_reasons": [
-    "trailer",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0,
-     "end": 30
-    }
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=ewAODca-3Bw",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-20 15:50"
-  },
   "IIm_pxD8Csk": {
    "accept": false,
    "reject_reasons": [
@@ -3744,59 +3207,6 @@
    "channel": "Rockstar Games",
    "credit": "Rockstar Games",
    "url": "https://www.youtube.com/watch?v=0hzHIC_YdI4",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-20 15:50"
-  },
-  "R3HS6owS3P8": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": true,
-   "mood": "action packed crime heist",
-   "summary": "This video is an official promotional game trailer for GTA Online: The Cluckin Bell Farm Raid, which features cutscenes, gunfights, and title cards.",
-   "reject_reasons": [
-    "Promotional game trailer and advertisement video, not a full scene or raw episode footage.",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "Title card and end slate"
-    }
-   ],
-   "characters": [
-    "Vincent Effenburger",
-    "Player Character"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=R3HS6owS3P8",
    "via": "box-fetch",
    "height": 1440,
    "duration": 30.028,
@@ -3934,161 +3344,6 @@
    "category": "gta",
    "at": "2026-11-21 02:56"
   },
-  "Ybq_FGtSCN8": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": true,
-   "mood": "wild chaotic drug trip",
-   "summary": "Promotional trailer for GTA Online Los Santos Drug Wars showcasing gameplay, characters, and psychedelic drug trip effects.",
-   "reject_reasons": [
-    "Promotional trailer / teaser content",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.1,
-     "reason": "Title card and end slate"
-    }
-   ],
-   "characters": [
-    "Dax",
-    "Lab Rat"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Los Santos Drug Wars Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=Ybq_FGtSCN8",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-21 12:59"
-  },
-  "YlY9n7iM-5Q": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": false,
-   "mood": "action packed game trailer",
-   "summary": "The provided footage is a promotional game trailer for GTA Online: San Andreas Mercenaries, featuring explosions, combat sequences, and title cards.",
-   "reject_reasons": [
-    "Promotional game trailer and teaser footage, not full gameplay or scenes.",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 10.0,
-     "reason": "ESRB rating and title card intro"
-    },
-    {
-     "start": 25.0,
-     "end": 28.0,
-     "reason": "End promotional card with play now text"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: San Andreas Mercenaries Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-21 12:59"
-  },
-  "45--ZVLkmks": {
-   "accept": false,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": false,
-   "has_dialogue": true,
-   "mood": "action crime luxury lifestyle",
-   "summary": "A promotional trailer for a GTA Online property update featuring various gameplay clips and title cards.",
-   "reject_reasons": [
-    "promotional trailer",
-    "not editable"
-   ],
-   "bad_ranges": [
-    {
-     "start": 9.0,
-     "end": 12.0,
-     "reason": "title card"
-    },
-    {
-     "start": 54.0,
-     "end": 57.0,
-     "reason": "title card"
-    }
-   ],
-   "characters": [
-    "Michael De Santa"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    3.0,
-    10.46,
-    17.92,
-    25.38,
-    32.84,
-    40.3,
-    47.77,
-    55.23
-   ],
-   "title": "GTA Online: A Safehouse in the Hills Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=45--ZVLkmks",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 60.028,
-   "category": "gta",
-   "at": "2026-11-21 12:59"
-  },
   "Zh6VrJuW_i8": {
    "accept": false,
    "reject_reasons": [
@@ -4139,6 +3394,234 @@
    "via": "youtube-search",
    "category": "gta",
    "at": "2026-11-23 08:22"
+  },
+  "45--ZVLkmks": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "luxurious criminal underground heist",
+   "summary": "Official Rockstar Games showcase featuring luxury properties, vehicles, character interactions, and action gameplay sequences for GTA Online.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 9.5,
+     "end": 11.5,
+     "reason": "title card"
+    },
+    {
+     "start": 54.2,
+     "end": 56.2,
+     "reason": "end slate"
+    }
+   ],
+   "characters": [
+    "Michael De Santa"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.0,
+    10.46,
+    17.92,
+    25.38,
+    32.84,
+    40.3,
+    47.77,
+    55.23
+   ],
+   "title": "GTA Online: A Safehouse in the Hills Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=45--ZVLkmks",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 60.028,
+   "category": "gta",
+   "at": "2026-11-24 20:29"
+  },
+  "Ybq_FGtSCN8": {
+   "accept": false,
+   "reject_reasons": [
+    "only 360p (< 720p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "GTA Online: Los Santos Drug Wars Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=Ybq_FGtSCN8",
+   "via": "box-fetch",
+   "height": 360,
+   "duration": 30.058667,
+   "category": "gta",
+   "at": "2026-11-24 20:33"
+  },
+  "YW9VXUgoG6w": {
+   "accept": false,
+   "reject_reasons": [
+    "Grand Theft Auto Online logo present in top right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA Online: Agents of Sabotage Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w",
+   "via": "official-channel",
+   "category": "gta",
+   "at": "2026-11-24 20:37"
+  },
+  "GbuCIrZSPDk": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "tense zombie survival action",
+   "summary": "Official Rockstar Games in-engine gameplay footage showcasing the Cayo Perico Zombie Survival update with hordes of undead attacking players.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating and title slate card"
+    },
+    {
+     "start": 26.0,
+     "end": 28.0,
+     "reason": "End slate with play now text and legal disclaimer"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-24 20:39"
+  },
+  "htg1EZE3LVk": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense action crime heist",
+   "summary": "Official gameplay trailer for the GTA Online Cluckin' Bell Farm Raid update featuring heist preparation and combat sequences.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 26.0,
+     "end": 30.0,
+     "reason": "End title card and legal text"
+    }
+   ],
+   "characters": [
+    "Vincent Effenburger"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=htg1EZE3LVk",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-24 20:43"
+  },
+  "R3HS6owS3P8": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "action packed crime heist",
+   "summary": "Official gameplay and cutscenes from GTA Online: The Cluckin’ Bell Farm Raid showcasing heists, shootouts, and police confrontations.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 26.0,
+     "end": 29.0,
+     "reason": "Title card and end slate"
+    }
+   ],
+   "characters": [
+    "Vincent Effenburger"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=R3HS6owS3P8",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-24 20:43"
   }
  },
  "videos": [],
@@ -5120,29 +4603,11 @@
    "vet_via": "preview",
    "at": "2026-11-20 06:45"
   },
-  "YlY9n7iM-5Q": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:47"
-  },
   "olEGtoYs_8A": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-20 06:48"
-  },
-  "ewAODca-3Bw": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:50"
-  },
-  "htg1EZE3LVk": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 06:52"
   },
   "1xlr3-hK5rY": {
    "accept": true,
@@ -5174,18 +4639,6 @@
    "vet_via": "preview",
    "at": "2026-11-20 07:02"
   },
-  "Sp1wvWZ_2MQ": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:05"
-  },
-  "T3ZaWDcPiIo": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:07"
-  },
   "vAAvocR04_Y": {
    "accept": true,
    "reject_reasons": [],
@@ -5203,12 +4656,6 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-20 07:15"
-  },
-  "Ybq_FGtSCN8": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:17"
   },
   "tyDRtSUYTRs": {
    "accept": true,
@@ -5240,23 +4687,11 @@
    "vet_via": "preview",
    "at": "2026-11-20 07:30"
   },
-  "R3HS6owS3P8": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:32"
-  },
   "sPLD6LS_TIk": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-20 07:35"
-  },
-  "YW9VXUgoG6w": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:37"
   },
   "_rRTNvV_h7M": {
    "accept": false,
@@ -5266,12 +4701,6 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-20 07:40"
-  },
-  "T7aaNEW7zA0": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:41"
   },
   "mP6KvFnltWc": {
    "accept": true,
@@ -5336,12 +4765,6 @@
    "vet_via": "preview",
    "at": "2026-11-20 08:04"
   },
-  "45--ZVLkmks": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 08:06"
-  },
   "NgO8TVaC24o": {
    "accept": true,
    "reject_reasons": [],
@@ -5357,23 +4780,11 @@
    "vet_via": "preview",
    "at": "2026-11-20 08:10"
   },
-  "GJAs5sjujHg": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 08:11"
-  },
   "H4rYVsJ4v9Y": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-20 08:14"
-  },
-  "APJ-lT0sBhg": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 08:16"
   },
   "StEaAZ_Ywj4": {
    "accept": true,
@@ -5386,12 +4797,6 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-20 08:21"
-  },
-  "n2EtF9sKW6w": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 08:24"
   },
   "vK_IL6V17Js": {
    "accept": true,
@@ -5407,18 +4812,6 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-20 08:29"
-  },
-  "_SgqsxXk8_E": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 08:30"
-  },
-  "GbuCIrZSPDk": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 08:33"
   },
   "aLUGHQq2aek": {
    "accept": true,
@@ -5683,6 +5076,45 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-24 03:13"
+  },
+  "T3ZaWDcPiIo": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 20:00"
+  },
+  "_SgqsxXk8_E": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 20:16"
+  },
+  "ewAODca-3Bw": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 20:27"
+  },
+  "T7aaNEW7zA0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 20:30"
+  },
+  "YW9VXUgoG6w": {
+   "accept": false,
+   "reject_reasons": [
+    "Grand Theft Auto Online logo present in top right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 20:37"
+  },
+  "WY4IaylJXvA": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 20:41"
   }
  },
  "failures": [
@@ -6737,58 +6169,41 @@
    "error": "RuntimeError: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-24T20:24:01.784814+05:30",
+   "at": "2026-11-25T02:16:15.493198+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
-   "at": "2026-11-24T21:06:17.624505+05:30",
+   "at": "2026-11-25T02:16:30.410850+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
-   "at": "2026-11-24T21:38:40.822299+05:30",
+   "at": "2026-11-25T02:16:45.141418+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
-   "at": "2026-11-24T22:08:40.462444+05:30",
+   "at": "2026-11-25T02:16:59.930111+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
-   "at": "2026-11-24T22:40:54.506187+05:30",
+   "at": "2026-11-25T02:17:14.289375+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
-   "at": "2026-11-24T23:20:51.905252+05:30",
+   "at": "2026-11-25T02:17:28.905834+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-24T23:52:59.685528+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T00:30:13.988778+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T01:06:24.757726+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
+   "category": "gta",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   }
- ]
+ ],
+ "vet_rules": "gta-rockstar-v1"
 }
