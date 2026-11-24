@@ -31,7 +31,7 @@ jobs:
         with: {python-version: "3.12"}
 
       - name: Python deps (light)
-        run: pip install -q pytest
+        run: pip install -q pytest numpy pillow
 
       - name: Compile all python
         run: python3 -m py_compile pipeline.py vicestyle.py box_fetch.py fanedit_stark.py caption_patterns.py scripts/upload.py pipeline_lib/*.py pipeline_lib/publish/*.py
