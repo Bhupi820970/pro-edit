@@ -7060,6 +7060,215 @@
    "via": "youtube-search",
    "category": "gta",
    "at": "2026-11-23 20:17"
+  },
+  "EotoP7Zks5k": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "How Good Was Ronaldo Nazário In His Prime? 🇧🇷",
+   "channel": "UEFA",
+   "credit": "UEFA",
+   "url": "https://www.youtube.com/watch?v=EotoP7Zks5k",
+   "via": "official-channel",
+   "category": "sports",
+   "at": "2026-11-24 01:14"
+  },
+  "rXpw-qQy4n0": {
+   "accept": false,
+   "reject_reasons": [
+    "A channel logo/watermark graphic reading 'GOOOAL' with an icon is present in the top-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Cristiano Ronaldo SCORES AGAIN! Closing in on 1,000! 🐐🔥",
+   "channel": "AlfonsoR10",
+   "credit": "AlfonsoR10",
+   "url": "https://www.youtube.com/watch?v=rXpw-qQy4n0",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 01:16"
+  },
+  "mDOhbQyOp2I": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "watermark present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Cristiano Ronaldo’s BEST Goals in the Roshn Saudi League 🎯",
+   "channel": "الدوري السعودي للمحترفين - Saudi Pro League",
+   "credit": "الدوري السعودي للمحترفين - Saudi Pro League",
+   "url": "https://www.youtube.com/watch?v=mDOhbQyOp2I",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 01:20"
+  },
+  "rTNAp1WP2gQ": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present at the bottom",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Cristiano Ronaldo interviews Cristiano Ronaldo",
+   "channel": "Sky Sports Retro",
+   "credit": "Sky Sports Retro",
+   "url": "https://www.youtube.com/watch?v=rTNAp1WP2gQ",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 01:21"
+  },
+  "qUFAYud9Q1A": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top-left and bottom-left corners",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Cristiano Ronaldo 🤯🔥 | All Goals in 2025/26 | Roshn Saudi League",
+   "channel": "الدوري السعودي للمحترفين - Saudi Pro League",
+   "credit": "الدوري السعودي للمحترفين - Saudi Pro League",
+   "url": "https://www.youtube.com/watch?v=qUFAYud9Q1A",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 01:22"
+  },
+  "E3uo8z5P29Y": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo visible in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "\"I'M BACK\" | Ronaldo Double Against Uzbekistan | 2026 World Cup EXTENDED HIGHLIGHTS",
+   "channel": "FIFA",
+   "credit": "FIFA",
+   "url": "https://www.youtube.com/watch?v=E3uo8z5P29Y",
+   "via": "official-channel",
+   "category": "sports",
+   "at": "2026-11-24 01:26"
+  },
+  "sw9CrxDFPHo": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "ALL EYES ON RONALDO FROM THE PENALTY SPOT! | Saudi Pro League | WATCH",
+   "channel": "KIJK",
+   "credit": "KIJK",
+   "url": "https://www.youtube.com/watch?v=sw9CrxDFPHo",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 01:30"
+  },
+  "iOLYdYkNpck": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "First And Final Goals | Ronaldo, Salah, Henry And More!",
+   "channel": "Premier League",
+   "credit": "Premier League",
+   "url": "https://www.youtube.com/watch?v=iOLYdYkNpck",
+   "via": "official-channel",
+   "category": "sports",
+   "at": "2026-11-24 01:36"
+  },
+  "IfUISdEl47A": {
+   "accept": false,
+   "reject_reasons": [
+    "Watermark or graphic overlay present in the top-left corner (\"GOOOAAAL\" with logos)",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Cristiano Ronaldo SCORES and Proves He's STILL THE BEST! 🐐❤️",
+   "channel": "AlfonsoR10",
+   "credit": "AlfonsoR10",
+   "url": "https://www.youtube.com/watch?v=IfUISdEl47A",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 01:40"
+  },
+  "xB_W3n5531g": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Cristiano Ronaldo scores TWO GOALS in Al-Nassr’s 4-0 win over Al-Hazem ⚽️ FOX SOCCER",
+   "channel": "FOX Soccer",
+   "credit": "FOX Soccer",
+   "url": "https://www.youtube.com/watch?v=xB_W3n5531g",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 01:44"
+  },
+  "Jfyay2eB2Ks": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present at the bottom center",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Cristiano Ronaldo interview after his final World Cup match",
+   "channel": "Sky Sports Football",
+   "credit": "Sky Sports Football",
+   "url": "https://www.youtube.com/watch?v=Jfyay2eB2Ks",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 01:45"
+  },
+  "99TxULQgleU": {
+   "accept": false,
+   "reject_reasons": [
+    "Sky Sports Retro channel logo present at the bottom of the frame",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Cristiano Ronaldo hilariously interviews Anderson",
+   "channel": "Sky Sports Retro",
+   "credit": "Sky Sports Retro",
+   "url": "https://www.youtube.com/watch?v=99TxULQgleU",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 01:46"
   }
  },
  "videos": [
@@ -7709,6 +7918,145 @@
       "covering": [
        "ON THE 50TH",
        "THE HIGHER YOU"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "in-movie-20261124-074634",
+   "platform": "instagram",
+   "category": "movie",
+   "format": "shorts",
+   "state": "qa_failed",
+   "created": "2026-11-24T07:59:40.350192+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261124-074634.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-movie-20261124-074634.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 93.1,
+   "title": "Movie Scene Edit | Believer Edit",
+   "hook": "MOVIE SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Believer\" – Imagine Dragons (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Imagine%20Dragons%20Believer\n🎬 Footage: Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Imagine%20Dragons%20Believer"
+   },
+   "song_credit": "\"Believer\" – Imagine Dragons",
+   "pattern": {
+    "id": "P02",
+    "name": "Beside-upper"
+   },
+   "captions": [
+    "THEY'RE ON THE",
+    "35TH FLOOR",
+    "YOU'RE GONNA BE",
+    "ON THE 50TH",
+    "FLOOR",
+    "YOU'RE GONNA BE",
+    "LOOKING DOWN ON",
+    "THEM",
+    "AND THE HIGHER",
+    "YOU RISE",
+    "THE MORE THEY'RE",
+    "GONNA HATE YOU",
+    "GOOD",
+    "DO YOU HEAR",
+    "ME?",
+    "YOU ARE NOT",
+    "GONNA PLAY BY",
+    "THE RULES",
+    "YOU'RE GONNA GO",
+    "YOUR OWN WAY",
+    "YOU'RE GONNA DO",
+    "WHAT THEY WON'T",
+    "DO",
+    "YOU'RE GONNA BE",
+    "SMART"
+   ],
+   "duration": 38.53,
+   "sources": [
+    {
+     "id": "nHINIwGcba0",
+     "src_id": "nHINIwGcba0",
+     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
+     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
+    },
+    {
+     "id": "ER4wFqmv75Q",
+     "src_id": "ER4wFqmv75Q",
+     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
+     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
+    },
+    {
+     "id": "c8gim368JAU",
+     "src_id": "c8gim368JAU",
+     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
+     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
+    },
+    {
+     "id": "AzzwE0mOZEs",
+     "src_id": "AzzwE0mOZEs",
+     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
+     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.53
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 25
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "ON THE 50TH",
+       "LOOKING DOWN ON",
+       "AND THE HIGHER",
+       "YOU'RE GONNA DO"
       ]
      },
      "captions_only_in_dialogue": {
@@ -23118,6 +23466,179 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-23 20:28"
+  },
+  "Cp9LC0JWX2c": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:09"
+  },
+  "Jh_cVHowtlQ": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:12"
+  },
+  "EotoP7Zks5k": {
+   "accept": false,
+   "reject_reasons": [
+    "channel_logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:14"
+  },
+  "rXpw-qQy4n0": {
+   "accept": false,
+   "reject_reasons": [
+    "A channel logo/watermark graphic reading 'GOOOAL' with an icon is present in the top-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:16"
+  },
+  "YpjwHazhknA": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:17"
+  },
+  "mDOhbQyOp2I": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "watermark present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:20"
+  },
+  "rTNAp1WP2gQ": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present at the bottom",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:21"
+  },
+  "qUFAYud9Q1A": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top-left and bottom-left corners",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:22"
+  },
+  "jYZt5kttLNs": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:24"
+  },
+  "E3uo8z5P29Y": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo visible in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:26"
+  },
+  "7luPd6Grrmk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:27"
+  },
+  "sw9CrxDFPHo": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:30"
+  },
+  "bhmuzF6gKCc": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:31"
+  },
+  "Doiq12y4078": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:34"
+  },
+  "iOLYdYkNpck": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:36"
+  },
+  "is8JWdOeinI": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:37"
+  },
+  "IfUISdEl47A": {
+   "accept": false,
+   "reject_reasons": [
+    "Watermark or graphic overlay present in the top-left corner (\"GOOOAAAL\" with logos)",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:40"
+  },
+  "DrZfU28kGKw": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:41"
+  },
+  "xB_W3n5531g": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:44"
+  },
+  "Jfyay2eB2Ks": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present at the bottom center",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:45"
+  },
+  "99TxULQgleU": {
+   "accept": false,
+   "reject_reasons": [
+    "Sky Sports Retro channel logo present at the bottom of the frame",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:46"
+  },
+  "WaCeChWKwW8": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 01:48"
   }
  },
  "failures": [
@@ -25613,6 +26134,96 @@
   },
   {
    "at": "2026-11-24T06:33:56.272152+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T07:19:32.340683+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T07:46:34.952865+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T07:59:40.381082+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"ON THE 50TH\", \"LOOKING DOWN ON\", \"AND THE HIGHER\", \"YOU'RE GONNA DO\"]}}"
+  },
+  {
+   "at": "2026-11-24T08:32:55.903390+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T09:02:35.788229+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T09:03:37.882263+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261124-074634/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-24T09:30:43.886507+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T09:31:45.308622+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261124-074634/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-24T10:03:59.561752+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T10:38:35.782054+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T11:06:47.809715+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T11:32:21.925712+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T11:33:26.793744+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261124-074634/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-24T11:35:44.833891+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261124-074634/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-24T12:02:33.020833+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
