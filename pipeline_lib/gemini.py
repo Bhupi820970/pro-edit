@@ -255,7 +255,8 @@ class Gemini:
     def _mark(self, label: str, msg: str):
         low = (msg or "").lower()
         per_min = ("per minute" in low) or ("per 60" in low)
-        daily = ("quota" in low) or ("per day" in low) or ("daily" in low) or ("exceeded your current" in low)
+        invalid = ("api key not valid" in low) or ("api_key_invalid" in low)
+        daily = invalid or ("quota" in low) or ("per day" in low) or ("daily" in low) or ("exceeded your current" in low)
         if daily and not per_min:
             until = next_quota_reset().timestamp()  # ~1:30 PM IST (midnight Pacific)
             when = datetime.fromtimestamp(until, next_quota_reset().tzinfo).strftime("%Y-%m-%d %H:%M IST")

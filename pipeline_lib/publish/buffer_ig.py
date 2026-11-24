@@ -125,6 +125,7 @@ def create_video_post(channel_id: str, text: str, video_url: str,
                 "metadata": {"thumbnailOffset": 2000},
             }
         }],
+        "metadata": {"instagram": {"type": "reel", "shouldShareToFeed": True}},
         "source": "pro-edit",
     }
     if not share_now and due_at_utc:

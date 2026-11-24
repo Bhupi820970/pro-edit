@@ -68,7 +68,7 @@ league account, treat the footage as official. Set official_quality=false ONLY f
 
 Accept it ONLY if it is official or full-quality scene footage that can be cleanly re-edited:
 - REJECT trailers, teasers, promos and TV spots entirely. We only want full scenes, official clips,
-  full episodes, official highlights, or press conferences.
+  full episodes, official highlights, or press conferences.{category_rule}
 - REJECT if there is any persistent watermark, channel logo / bug in a corner, burned-in subtitles or
   captions over dialogue, game HUD / minimap / scoreboard / score bug / live-broadcast graphics,
   reaction-cam or picture-in-picture, social-media frame or blurred side panels, or low / blurry /
@@ -86,6 +86,23 @@ Accept it ONLY if it is official or full-quality scene footage that can be clean
 - characters: names if known.
 Return JSON only."""
 
+
+
+# GTA: Rockstar's own uploads ("Now Available", update showcases, gameplay videos) are in-engine
+# game footage — the approved Give It Up edit is cut from exactly this. Title/rating/end cards are skipped
+# via bad_ranges instead of rejecting the whole source. Corner logos / HUD / subtitles still reject.
+GTA_ROCKSTAR_RULE = """
+  EXCEPTION for this source: it is an official Rockstar Games upload of in-engine game footage. Treat
+  update showcases / "Now Available" / gameplay videos as official gameplay (NOT a banned promo). Put any
+  rating card, title card, logo slate, "available now" text or end slate in bad_ranges, and set
+  editable=true if there are at least ~20 s of clean in-game shots outside those ranges."""
+VET_RULES_VERSION = "gta-rockstar-v1"
+
+
+def category_rule(category: str, channel: str) -> str:
+    if category == "gta" and "rockstar" in (channel or "").lower():
+        return GTA_ROCKSTAR_RULE
+    return ""
 
 
 # Preview-frame fetch (pre-download watermark vet). Hosts and paths are constructed here,
@@ -352,6 +369,26 @@ class Sourcer:
         self.proxies.mkdir(parents=True, exist_ok=True)
         self.stats = {"downloaded": 0, "download_failed": 0, "vetted": 0, "rejected": [], "accepted": [],
                       "bot_checks": 0, "fallback_used": False, "thin": []}
+        self._migrate_vet_rules()
+
+    def _migrate_vet_rules(self):
+        """Forget old GTA/Rockstar rejects that were only 'trailer/promo/not editable' so they get re-vetted
+        under GTA_ROCKSTAR_RULE. Watermark / logo / HUD / subtitle / low-res rejects stay rejected."""
+        d = self.state.d
+        if d.get("vet_rules") == VET_RULES_VERSION:
+            return
+        hard = re.compile(r"(?i)watermark|logo|subtitle|hud|minimap|\d{3,4}p|blur|upscal|reaction|picture")
+        vet = d.setdefault("vet", {})
+        for key, v in list(vet.items()):
+            if v.get("accept") or v.get("category") != "gta":
+                continue
+            if not category_rule("gta", v.get("channel") or v.get("credit") or ""):
+                continue
+            if any(hard.search(str(r)) for r in (v.get("reject_reasons") or [])):
+                continue
+            vet.pop(key, None)
+            (d.get("pre_vet") or {}).pop(key, None)
+        d["vet_rules"] = VET_RULES_VERSION
 
     # ---------------------------------------------------------------- candidates
     def candidates(self, category: str, fallback: bool = False) -> list[dict]:
@@ -593,7 +630,8 @@ class Sourcer:
             times = ", ".join(f"{ts:.1f}" for ts, _ in frames)
             prompt = VET_PROMPT.format(n=len(frames), times=times, category=category,
                                        title=e.get("title", ""), channel=e.get("channel", ""),
-                                       via=e.get("via", "?"))
+                                       via=e.get("via", "?"),
+                                       category_rule=category_rule(category, e.get("channel", "")))
             try:
                 res = self.gem.generate([{"text": prompt}], schema=VET_SCHEMA,
                                         images=[fp for _, fp in frames], temperature=0.1,
