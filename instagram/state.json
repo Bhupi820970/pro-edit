@@ -7269,6 +7269,58 @@
    "via": "youtube-search",
    "category": "sports",
    "at": "2026-11-24 01:46"
+  },
+  "45--ZVLkmks": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "action-packed criminal underworld heist",
+   "summary": "Trailer for GTA Online DLC showing safehouses, action sequences, characters conversing, and title cards.",
+   "reject_reasons": [
+    "Promotional game trailer rather than a full scene or official clip",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 10.0,
+     "end": 11.0,
+     "reason": "Title card"
+    },
+    {
+     "start": 54.0,
+     "end": 56.2,
+     "reason": "End title card"
+    }
+   ],
+   "characters": [
+    "Michael De Santa"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.0,
+    10.46,
+    17.92,
+    25.38,
+    32.84,
+    40.3,
+    47.77,
+    55.23
+   ],
+   "title": "GTA Online: A Safehouse in the Hills Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=45--ZVLkmks",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 60.028,
+   "category": "gta",
+   "at": "2026-11-24 07:13"
   }
  },
  "videos": [
@@ -8057,6 +8109,137 @@
        "LOOKING DOWN ON",
        "AND THE HIGHER",
        "YOU'RE GONNA DO"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "in-movie-20261124-124333",
+   "platform": "instagram",
+   "category": "movie",
+   "format": "shorts",
+   "state": "qa_failed",
+   "created": "2026-11-24T13:03:20.464358+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261124-124333.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-movie-20261124-124333.mp4",
+   "preview_mb": 21.7,
+   "size_mb": 94.7,
+   "title": "Movie Scene Edit | Believer Edit",
+   "hook": "MOVIE SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Believer\" – Imagine Dragons (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Imagine%20Dragons%20Believer\n🎬 Footage: Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Imagine%20Dragons%20Believer"
+   },
+   "song_credit": "\"Believer\" – Imagine Dragons",
+   "pattern": {
+    "id": "P03",
+    "name": "Beside-lower"
+   },
+   "captions": [
+    "YOU'RE GONNA BE",
+    "ON THE 50TH",
+    "FLOOR",
+    "YOU'RE GONNA BE",
+    "LOOKING DOWN ON",
+    "THEM AND THE",
+    "HIGHER YOU RISE",
+    "THE",
+    "MORE THEY'RE GONNA",
+    "HATE YOU",
+    "GOOD",
+    "GOOD",
+    "RUB THEIR",
+    "MICHAEL'S VERY",
+    "BUSY AND HE",
+    "ASKED ME TO",
+    "SPEAK WITH YOU",
+    "DO YOU REMEMBER",
+    "WHAT YOUR",
+    "INSTRUCTIONS WERE?"
+   ],
+   "duration": 38.53,
+   "sources": [
+    {
+     "id": "nHINIwGcba0",
+     "src_id": "nHINIwGcba0",
+     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
+     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
+    },
+    {
+     "id": "ER4wFqmv75Q",
+     "src_id": "ER4wFqmv75Q",
+     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
+     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
+    },
+    {
+     "id": "c8gim368JAU",
+     "src_id": "c8gim368JAU",
+     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
+     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
+    },
+    {
+     "id": "AzzwE0mOZEs",
+     "src_id": "AzzwE0mOZEs",
+     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
+     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.53
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 20
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "HIGHER YOU RISE"
       ]
      },
      "captions_only_in_dialogue": {
@@ -23639,6 +23822,12 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-24 01:48"
+  },
+  "BkzD-HRvuh0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 06:49"
   }
  },
  "failures": [
@@ -26224,6 +26413,72 @@
   },
   {
    "at": "2026-11-24T12:02:33.020833+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T12:43:33.876261+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T13:03:20.496774+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HIGHER YOU RISE\"]}}"
+  },
+  {
+   "at": "2026-11-24T13:36:37.284909+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T13:54:53.707423+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T14:15:39.056292+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T14:50:19.280384+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T15:22:25.156721+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T15:54:37.380336+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T16:30:08.961567+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T17:01:03.657921+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T17:28:09.487668+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
