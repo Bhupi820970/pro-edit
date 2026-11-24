@@ -5677,6 +5677,12 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-23 21:46"
+  },
+  "BkzD-HRvuh0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 03:13"
   }
  },
  "failures": [
@@ -6648,6 +6654,24 @@
   },
   {
    "at": "2026-11-24T08:18:28.438591+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T10:04:48.306015+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T11:36:02.097594+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T13:02:19.280713+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
