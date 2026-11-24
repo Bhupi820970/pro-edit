@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:28:13.625506+05:30",
+ "updated": "2026-11-24T23:58:29.193584+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (1/7 ready)",
@@ -167,72 +167,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-24T11:32:21.925712+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-24T11:33:26.793744+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261124-074634/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
-  },
-  {
-   "at": "2026-11-24T11:35:44.833891+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261124-074634/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
-  },
-  {
-   "at": "2026-11-24T12:02:33.020833+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-24T12:43:33.876261+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-24T13:03:20.496774+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HIGHER YOU RISE\"]}}"
-  },
-  {
-   "at": "2026-11-24T13:36:37.284909+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-24T13:54:53.707423+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-24T14:15:39.056292+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-24T14:50:19.280384+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-24T15:22:25.156721+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
    "at": "2026-11-24T15:54:37.380336+05:30",
    "platform": "instagram",
    "category": null,
@@ -255,6 +189,72 @@
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T18:56:30.475729+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T19:28:49.002351+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T19:51:05.042468+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T20:28:26.630930+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T21:06:05.768434+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T21:29:49.134208+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T21:53:28.006373+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T22:26:08.049669+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T23:00:54.615933+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-24T23:25:49.551884+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-24T23:58:25.351888+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
   }
  ],
  "pattern_history": [
@@ -266,18 +266,18 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-24T09:38:41.124668+05:30",
-  "age_hours": 7.8,
+  "last_run": "2026-11-24T17:50:46.146249+05:30",
+  "age_hours": 6.1,
   "healthy": false,
   "pool": {
-   "gta": 21,
+   "gta": 15,
    "gaming": 15,
-   "movie": 18,
-   "sports": 18,
+   "movie": 15,
+   "sports": 15,
    "romance": 15,
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 8h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 6h: run `bash scripts/box_fetch_service.sh start` on the box"
  }
 }
