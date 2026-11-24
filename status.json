@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-25T02:17:37.277966+05:30",
+ "updated": "2026-11-25T03:19:34.564115+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
-   "ready": 0,
+   "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 0,
+   "produced_today": 1,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (0/7 ready)"
+   "message": "BACKUP LOW: refill youtube (1/7 ready)"
   },
   "instagram": {
    "ready": 1,
@@ -26,6 +26,147 @@
   }
  },
  "ready": [
+  {
+   "id": "yo-gta-20261125-022228",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-25T03:19:14.974846+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261125-022228.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261125-022228.mp4",
+   "preview_mb": 21.3,
+   "size_mb": 175.4,
+   "title": "GTA 6 Vice City | Give It Up Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Give It Up\" – KC and the Sunshine Band (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/KC%20and%20the%20Sunshine%20Band%20Give%20It%20Up\n🎬 Footage: Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Give It Up",
+    "artist": "KC and the Sunshine Band",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/KC%20and%20the%20Sunshine%20Band%20Give%20It%20Up"
+   },
+   "song_credit": "\"Give It Up\" – KC and the Sunshine Band",
+   "pattern": {
+    "id": "P04",
+    "name": "Stepping down beside"
+   },
+   "captions": [
+    "NOW",
+    "IT'S MY JOB",
+    "TO LOOK INTO",
+    "HOW WE CAN",
+    "GET HIM",
+    "IF SOMETHING",
+    "GOES WRONG",
+    "WE CAN ALWAYS",
+    "BLAME HIM",
+    "I THINK IF",
+    "YOU WANNA LAY",
+    "LOW A WHILE"
+   ],
+   "duration": 38.5,
+   "sources": [
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.5
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -15.5
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 12
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/test-renders/yo-gta-20261125-022228.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/test-renders/yo-gta-20261125-022228.preview.mp4"
+  },
   {
    "id": "in-movie-20261121-232543",
    "platform": "instagram",
@@ -346,11 +487,11 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-24T18:50:59.855524+05:30",
-  "age_hours": 7.4,
-  "healthy": false,
+  "last_run": "2026-11-25T01:32:54.402448+05:30",
+  "age_hours": 1.8,
+  "healthy": true,
   "pool": {
-   "gta": 15,
+   "gta": 16,
    "gaming": 15,
    "movie": 15,
    "sports": 15,
@@ -358,8 +499,8 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 7h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "OK"
  },
  "warning": true,
- "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (1/7 ready)"
+ "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (1/7 ready)"
 }

@@ -1,0 +1,228 @@
+{
+ "platform": "youtube",
+ "made": [
+  "yo-gta-20261125-022228"
+ ],
+ "failures": [],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 38,
+  "vetted": 7,
+  "rejected": [
+   {
+    "id": "_WnJDZKnk6w",
+    "title": "GTA VI Official Gameplay 4K - Grand Theft Auto VI",
+    "reasons": [
+     "PlayStation logo in top-left corner",
+     "4K Ultra HD badge in top-right corner",
+     "PlayStation PS5 logo in bottom-left corner",
+     "Grand Theft Auto VI logo in bottom-right corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "n2EtF9sKW6w",
+    "title": "New Deadline Duet Mode in GTA Online",
+    "reasons": [
+     "only 360p (< 720p)"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "GJAs5sjujHg",
+    "title": "GTA Online: Money Fronts Now Available",
+    "reasons": [
+     "only 360p (< 720p)"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "Sp1wvWZ_2MQ",
+    "title": "GTA Online: The Chop Shop Now Available",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "APJ-lT0sBhg",
+    "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "YlY9n7iM-5Q",
+    "title": "GTA Online: San Andreas Mercenaries Now Available",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "T7aaNEW7zA0",
+    "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 32,
+  "fallback_used": false,
+  "thin": [],
+  "failed_ids": [
+   "R3HS6owS3P8",
+   "htg1EZE3LVk",
+   "QYAMp13Yi04",
+   "mP6KvFnltWc",
+   "BkzD-HRvuh0",
+   "5FBipicBoJg",
+   "NgO8TVaC24o",
+   "47g58iHPJtQ",
+   "sPLD6LS_TIk",
+   "UUmKwJD76GY",
+   "olEGtoYs_8A",
+   "tyDRtSUYTRs",
+   "tJbzMqJGH4k",
+   "0M71BMAgSSs",
+   "foUaOCzfIRU",
+   "StEaAZ_Ywj4",
+   "8-DRGbQ1IXc",
+   "-HIv_Uj1ERE",
+   "kfzrQGU6jhM",
+   "N-xHcvug3WI",
+   "kMCtod_2iQ0",
+   "lqiZdynJmag",
+   "DyQ5MNkl6SA",
+   "HqZXw5M6qQY",
+   "1xlr3-hK5rY",
+   "aLUGHQq2aek",
+   "QhS5a85d3Zc",
+   "ewAODca-3Bw",
+   "H4rYVsJ4v9Y",
+   "lX_IN4v-RnA",
+   "agBEh5aZ_Go",
+   "ZQzIZkxsWYw",
+   "P3NBd3UjH5Y",
+   "VNbONMSObfs",
+   "T3ZaWDcPiIo",
+   "_SgqsxXk8_E",
+   "vAAvocR04_Y",
+   "lEQ4XD8KuUs"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}
