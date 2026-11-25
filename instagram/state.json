@@ -8186,6 +8186,74 @@
    "via": "official-channel",
    "category": "romance",
    "at": "2026-11-25 11:20"
+  },
+  "VC-lJrNaQH4": {
+   "accept": false,
+   "reject_reasons": [
+    "Apple Music channel logo is visible in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Leo Messi: The Apple Music Interview with Zane Lowe",
+   "channel": "Apple Music",
+   "credit": "Apple Music",
+   "url": "https://www.youtube.com/watch?v=VC-lJrNaQH4",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-25 16:25"
+  },
+  "pGzdR9kjh9I": {
+   "accept": false,
+   "reject_reasons": [
+    "NBC News exclusive and channel logo overlay present in the corners",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Lionel Messi sat down in a rare and exclusive interview with NBC Nightly News’ Tom Llamas",
+   "channel": "NBC News",
+   "credit": "NBC News",
+   "url": "https://www.youtube.com/watch?v=pGzdR9kjh9I",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-25 16:28"
+  },
+  "2oldAfvhDzQ": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top-right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Lionel Messi’s BEST Free Kicks with Inter Miami!",
+   "channel": "Major League Soccer",
+   "credit": "Major League Soccer",
+   "url": "https://www.youtube.com/watch?v=2oldAfvhDzQ",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-25 16:29"
+  },
+  "fISJvstEnK8": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo present in the bottom right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "🚨 The ZIDANE interview with MESSI that EVERYONE is talking about",
+   "channel": "Marca in English ",
+   "credit": "Marca in English ",
+   "url": "https://www.youtube.com/watch?v=fISJvstEnK8",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-25 16:30"
   }
  },
  "videos": [
@@ -25757,6 +25825,42 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-25 11:20"
+  },
+  "VC-lJrNaQH4": {
+   "accept": false,
+   "reject_reasons": [
+    "Apple Music channel logo is visible in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 16:25"
+  },
+  "pGzdR9kjh9I": {
+   "accept": false,
+   "reject_reasons": [
+    "NBC News exclusive and channel logo overlay present in the corners",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 16:28"
+  },
+  "2oldAfvhDzQ": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top-right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 16:29"
+  },
+  "fISJvstEnK8": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo present in the bottom right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 16:30"
   }
  },
  "failures": [
@@ -28984,6 +29088,186 @@
   },
   {
    "at": "2026-11-25T21:45:36.029988+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:01:10.238331+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:04:53.803909+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:08:34.558173+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:12:02.717171+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:15:56.619929+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:18:24.636339+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:21:52.776658+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:24:33.880905+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:28:39.853444+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:32:58.101996+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:36:27.063915+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:40:08.254797+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:44:13.959595+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:48:06.124157+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:51:46.735454+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:55:51.772631+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T22:59:43.445991+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:03:35.547669+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:07:28.081402+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:11:33.393609+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:15:24.936198+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:19:05.985982+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:22:46.138007+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:26:15.322047+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:29:19.439432+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:33:49.273030+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:37:58.233524+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:42:05.216122+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:45:44.590787+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:49:51.091519+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"

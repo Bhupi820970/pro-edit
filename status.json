@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:18:09.524746+05:30",
+ "updated": "2026-11-25T23:49:58.100020+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -14,7 +14,7 @@
    "message": "BACKUP LOW: refill youtube (1/7 ready)"
   },
   "instagram": {
-   "ready": 2,
+   "ready": 1,
    "target": 7,
    "warning": true,
    "produced_today": 5,
@@ -22,7 +22,7 @@
     6,
     7
    ],
-   "message": "BACKUP LOW: refill instagram (2/7 ready)"
+   "message": "BACKUP LOW: refill instagram (1/7 ready)"
   }
  },
  "ready": [
@@ -159,140 +159,6 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-220912.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-220912.preview.mp4"
-  },
-  {
-   "id": "in-movie-20261125-014605",
-   "platform": "instagram",
-   "category": "movie",
-   "format": "shorts",
-   "state": "ready",
-   "created": "2026-11-25T02:06:34.969461+05:30",
-   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261125-014605.mp4",
-   "preview": "/mnt/ph/instagram/prev/in-movie-20261125-014605.mp4",
-   "preview_mb": 21.0,
-   "size_mb": 95.3,
-   "title": "Movie Scene Edit | Believer Edit",
-   "hook": "MOVIE SCENE EDIT",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Believer\" – Imagine Dragons (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Imagine%20Dragons%20Believer\n🎬 Footage: Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
-   "hashtags": [
-    "MovieEdit",
-    "MovieScenes",
-    "Cinema",
-    "FilmEdit"
-   ],
-   "song": {
-    "title": "Believer",
-    "artist": "Imagine Dragons",
-    "url": "",
-    "official_channel": "",
-    "spotify_search": "https://open.spotify.com/search/Imagine%20Dragons%20Believer"
-   },
-   "song_credit": "\"Believer\" – Imagine Dragons",
-   "pattern": {
-    "id": "P02",
-    "name": "Beside-upper"
-   },
-   "captions": [
-    "OF YOU THEY",
-    "TELL YOU YOU",
-    "GOT A CHANCE",
-    "BUT",
-    "I'M",
-    "SORRY IT'S A",
-    "LIE",
-    "BECAUSE",
-    "THEY HAD ALREADY",
-    "MADE UP THEIR",
-    "MIND AND THEY",
-    "KNEW WHAT THEY",
-    "WERE GOING TO",
-    "DO BEFORE YOU",
-    "WALKED IN THE",
-    "DOOR",
-    "MICHAEL'S VERY",
-    "BUSY AND HE",
-    "ASKED ME TO",
-    "SPEAK WITH YOU",
-    "DO YOU REMEMBER",
-    "WHAT YOUR",
-    "INSTRUCTIONS WERE?"
-   ],
-   "duration": 38.53,
-   "sources": [
-    {
-     "id": "c8gim368JAU",
-     "src_id": "c8gim368JAU",
-     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
-     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
-    },
-    {
-     "id": "AzzwE0mOZEs",
-     "src_id": "AzzwE0mOZEs",
-     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
-     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
-    },
-    {
-     "id": "nHINIwGcba0",
-     "src_id": "nHINIwGcba0",
-     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
-     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
-    },
-    {
-     "id": "ER4wFqmv75Q",
-     "src_id": "ER4wFqmv75Q",
-     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
-     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.53
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2160x3840",
-      "want": "2160x3840"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -15.0
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": false
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 23
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261125-014605.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261125-014605.preview.mp4"
   },
   {
    "id": "in-gta-20261125-170927",
@@ -522,91 +388,91 @@
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T15:22:51.388651+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/instagram/work/in-gta-20261125-104843/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03"
-  },
-  {
-   "at": "2026-11-25T17:09:27.410456+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"THE HIGHER YOU\"]}}"
-  },
-  {
-   "at": "2026-11-25T17:51:36.564446+05:30",
+   "at": "2026-11-25T22:55:51.772631+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T18:12:35.121626+05:30",
+   "at": "2026-11-25T22:59:43.445991+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T18:34:43.444474+05:30",
+   "at": "2026-11-25T23:03:35.547669+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T18:55:41.792203+05:30",
+   "at": "2026-11-25T23:07:28.081402+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T19:14:05.955891+05:30",
+   "at": "2026-11-25T23:11:33.393609+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T19:32:29.797712+05:30",
+   "at": "2026-11-25T23:15:24.936198+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T19:54:42.240204+05:30",
+   "at": "2026-11-25T23:19:05.985982+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T20:13:13.484273+05:30",
+   "at": "2026-11-25T23:22:46.138007+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T20:31:41.059687+05:30",
+   "at": "2026-11-25T23:26:15.322047+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T20:51:31.044930+05:30",
+   "at": "2026-11-25T23:29:19.439432+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T21:08:40.185442+05:30",
+   "at": "2026-11-25T23:33:49.273030+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T21:24:37.221445+05:30",
+   "at": "2026-11-25T23:37:58.233524+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T21:45:36.029988+05:30",
+   "at": "2026-11-25T23:42:05.216122+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:45:44.590787+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T23:49:51.091519+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
@@ -628,5 +494,5 @@
   "message": "BOX FETCHER DOWN for 13h: run `bash scripts/box_fetch_service.sh start` on the box"
  },
  "warning": true,
- "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (2/7 ready)"
+ "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (1/7 ready)"
 }
