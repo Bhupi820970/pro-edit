@@ -2,7 +2,9 @@ name: song-stock
 
 # Keep ~30 official songs per video genre in the draft release "songs".
 # A genre at or below stock.refill_at (config/songs.json) is refilled from curated seeds + Gemini picks,
-# each Gemini-vetted for the genre vibe. Triggers: schedule + workflow_dispatch only (no PR triggers).
+# each Gemini-vetted for the genre vibe. CI fetch order: SoundCloud, YouTube frontends (Piped/Invidious
+# + yt-dlp player clients), Internet Archive, Pixabay Music last. Triggers: schedule + workflow_dispatch
+# only (no PR triggers).
 on:
   schedule:
     - cron: "15 21 * * *"   # IST 02:45 daily
@@ -19,7 +21,7 @@ jobs:
       ((github.event_name == 'workflow_dispatch' && github.actor == github.repository_owner) ||
        (github.event_name == 'schedule' && vars.SCHEDULE_ENABLED == 'true'))
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     permissions:
       contents: write   # upload to the draft release "songs"
     concurrency: {group: song-stock, cancel-in-progress: false}

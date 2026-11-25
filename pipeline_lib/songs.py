@@ -7,7 +7,6 @@ import urllib.parse
 from pathlib import Path
 
 from .util import REPO, home, log, run
-from .sourcing import ytdlp
 
 SONG_SCHEMA = {"type": "ARRAY", "items": {"type": "OBJECT", "properties": {
     "title": {"type": "STRING"}, "artist": {"type": "STRING"}, "year": {"type": "INTEGER"},
@@ -278,23 +277,11 @@ def _remember_new_song(sdir: Path, rec: dict) -> None:
 
 
 def download_official(o: dict, sdir: Path, genres: list[str], by: str, extra: list | None = None) -> dict | None:
-    """Official-upload search + audio download (m4a). Returns a manifest record or None.
-    Title/artist are validated plain search terms; the URL is rebuilt from an 11-char YouTube id (data only)."""
-    off = find_official(o["title"], o["artist"], extra=extra)
-    if not off:
-        return None
-    vid = off["id"]
-    f = next((p for p in sdir.glob(f"{vid}.*") if p.suffix.lower() in AUDIO_EXT and p.stat().st_size > 1000), None)
-    if not f:
-        ok, _ = ytdlp([*(extra or []), "-f", "ba/b", "-x", "--audio-format", "m4a", "--audio-quality", "0",
-                       "-o", str(sdir / f"{vid}.%(ext)s"), off["url"]], timeout=900)
-        f = next((p for p in sdir.glob(f"{vid}.*") if p.suffix.lower() in AUDIO_EXT and p.stat().st_size > 1000), None)
-        if not ok or not f:
-            return None
-    from .util import now_local
-    return {"id": vid, "file": f.name, "url": off["url"], "title": o["title"], "artist": o["artist"],
-            "channel": off.get("channel", ""), "why": o.get("why", ""), "genres": genres,
-            "added": now_local().isoformat(), "by": by}
+    """Search + download one ORIGINAL studio recording (m4a). Title/artist must be plain search terms
+    (data only — never used as a URL or shell). Tries SoundCloud, YouTube frontends, Archive, Pixabay
+    (and official YouTube first when not on GitHub Actions). See pipeline_lib.song_fetch."""
+    from .song_fetch import fetch_original
+    return fetch_original(o, sdir, genres, by, extra=extra)
 
 
 def pick_song(gem, state, category: str, clips: list[dict], cfg: dict, banned: set, rng=None) -> dict:
