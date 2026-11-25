@@ -61,7 +61,8 @@ def catalogue(cfg: dict | None = None) -> list[dict]:
         if tag in seen:
             return
         seen.add(tag)
-        songs.append({"title": title, "artist": artist, "why": item.get("why") or ""})
+        songs.append({"title": title, "artist": artist, "why": item.get("why") or "",
+                      "genres": clean_genres(item.get("genres"))})
 
     p = REPO / "config" / "songs.json"
     if p.exists():
@@ -70,10 +71,43 @@ def catalogue(cfg: dict | None = None) -> list[dict]:
                 add(item)
         except Exception as ex:
             log("songs catalogue unreadable:", str(ex)[:160])
-    for c in (cfg or {}).get("categories", {}).values():
+    for name, c in (cfg or {}).get("categories", {}).items():
         for item in c.get("fallback_songs") or []:
-            add(item)
+            add({**item, "genres": item.get("genres") or [name]})
     return songs
+
+
+GENRES = ("gta", "gaming", "movie", "sports", "romance", "series")
+
+
+def clean_genres(g) -> list[str]:
+    if isinstance(g, str):
+        g = [g]
+    return [x for x in (g or []) if isinstance(x, str) and x in GENRES]
+
+
+def tag_key(title: str, artist: str) -> str:
+    return _norm(f"{title} - {artist}")
+
+
+def genres_of(rec: dict, index: dict | None = None) -> list[str]:
+    """Genres from the record itself, else from the tagged config catalogue (title match)."""
+    g = clean_genres(rec.get("genres"))
+    if g or not index:
+        return g
+    hit = index.get(tag_key(rec.get("title") or "", rec.get("artist") or ""))
+    if hit is None:
+        hit = index.get("t:" + _norm(rec.get("title") or ""))
+    return list(hit or [])
+
+
+def genre_index(cfg: dict | None = None) -> dict:
+    idx = {}
+    for s in catalogue(cfg):
+        if s["genres"]:
+            idx[tag_key(s["title"], s["artist"])] = s["genres"]
+            idx.setdefault("t:" + _norm(s["title"]), s["genres"])
+    return idx
 
 
 # --no-playlist would collapse ytsearchN to a single hit, so search uses a slimmer flag set.
@@ -213,69 +247,149 @@ def _result(title: str, artist: str, why: str, wav: Path, rec: dict, how: str) -
             "spotify_search": f"https://open.spotify.com/search/{q}", "picked_by": how}
 
 
-def pick_song(gem, state, category: str, clips: list[dict], cfg: dict, banned: set) -> dict:
+SONG_PROMPT_GENRE = """Pick ONE song for a ~38 second beat-synced {category} fan edit (hard cuts on the beat,
+dialogue scenes with the music ducked). The whole edit uses this single song from start to end.
+Footage: {footage}
+Moods seen by the footage checker: {moods}
+Genre vibe: {hint}
+Songs already in our {category} stock (prefer one of these if it truly fits): {stock}
+Rules:
+- The song must truly match the {category} vibe and these scenes; if no stock song fits well you may name a
+  different well-known ORIGINAL studio recording (no remixes, covers, sped-up/slowed, live, mashups, AI songs)
+  that has an official upload (artist channel / VEVO / "Artist - Topic") on YouTube.
+- Steady, punchy beat (roughly 90-135 BPM) with an energetic section.
+- Do NOT pick any of these recently used songs: {recent}
+Return the 6 best options, best first, as JSON."""
+
+
+def _remember_new_song(sdir: Path, rec: dict) -> None:
+    """Add a song the runner downloaded to the local manifest + new_songs.json (published to the stock later)."""
+    for name in ("manifest.json", "new_songs.json"):
+        p = sdir / name
+        try:
+            data = json.loads(p.read_text()) if p.exists() else {"songs": []}
+        except Exception:
+            data = {"songs": []}
+        if not isinstance(data.get("songs"), list):
+            data = {"songs": []}
+        if not any(r.get("id") == rec["id"] for r in data["songs"] if isinstance(r, dict)):
+            data["songs"].append(rec)
+        p.write_text(json.dumps(data, indent=1))
+
+
+def download_official(o: dict, sdir: Path, genres: list[str], by: str, extra: list | None = None) -> dict | None:
+    """Official-upload search + audio download (m4a). Returns a manifest record or None.
+    Title/artist are validated plain search terms; the URL is rebuilt from an 11-char YouTube id (data only)."""
+    off = find_official(o["title"], o["artist"], extra=extra)
+    if not off:
+        return None
+    vid = off["id"]
+    f = next((p for p in sdir.glob(f"{vid}.*") if p.suffix.lower() in AUDIO_EXT and p.stat().st_size > 1000), None)
+    if not f:
+        ok, _ = ytdlp([*(extra or []), "-f", "ba/b", "-x", "--audio-format", "m4a", "--audio-quality", "0",
+                       "-o", str(sdir / f"{vid}.%(ext)s"), off["url"]], timeout=900)
+        f = next((p for p in sdir.glob(f"{vid}.*") if p.suffix.lower() in AUDIO_EXT and p.stat().st_size > 1000), None)
+        if not ok or not f:
+            return None
+    from .util import now_local
+    return {"id": vid, "file": f.name, "url": off["url"], "title": o["title"], "artist": o["artist"],
+            "channel": off.get("channel", ""), "why": o.get("why", ""), "genres": genres,
+            "added": now_local().isoformat(), "by": by}
+
+
+def pick_song(gem, state, category: str, clips: list[dict], cfg: dict, banned: set, rng=None) -> dict:
+    """ONE song per video, from the songs tagged with this video's genre, rotated by song_cooldown_days.
+    Gemini may rank the genre stock or ask for a specific song not in stock; that song is then fetched from
+    its official upload, used for this edit and added to the genre stock (new_songs.json -> songs release)."""
+    import random
+    rng = rng or random.Random()
     moods = "; ".join(sorted({c.get("mood") or "" for c in clips if c.get("mood")}))[:600]
     footage = "; ".join(sorted({f'{c.get("title")} ({c.get("credit")})' for c in clips}))[:600]
     recent = state.recent_songs(cfg.get("song_cooldown_days", 10)) + sorted(banned)
-    try:
-        opts = gem.generate([{"text": SONG_PROMPT.format(category=category, footage=footage, moods=moods or "n/a",
-                                                         hint=cfg["categories"][category].get("song_hint", ""),
-                                                         recent=", ".join(recent[-60:]) or "none")}],
-                            schema=SONG_SCHEMA, temperature=0.8)
-    except Exception as ex:
-        log("gemini song pick failed, using config fallback list:", str(ex)[:160])
-        opts = []
-    opts = list(opts or []) + cfg["categories"][category].get("fallback_songs", [])
     recent_l = {_norm(x) for x in recent}
     sdir = home() / "songs"
     sdir.mkdir(exist_ok=True)
+    idx = genre_index(cfg)
     cached = load_box_songs(sdir)
+    pool = [r for r in cached if category in genres_of(r, idx)]
+    log(f"song stock for {category}: {len(pool)} tagged songs with audio")
 
     def usable(o: dict) -> bool:
         tag = f'{o["title"]} - {o["artist"]}'
         return _norm(tag) not in recent_l and tag not in banned
 
-    # 1) box-provided audio matching Gemini / fallback picks
-    for o in opts:
-        if not usable(o):
-            continue
-        rec = match_cached(cached, o["title"], o["artist"])
-        if not rec:
-            continue
-        wav = as_wav(song_audio_path(sdir, rec), sdir)
-        if wav:
-            log("using box song:", f'{o["title"]} - {o["artist"]}')
-            return _result(o["title"], o["artist"], o.get("why", ""), wav, rec,
-                           "gemini" if o.get("why") else "box-cache")
+    fresh = [r for r in pool if usable(r)]
+    rng.shuffle(fresh)
+    opts = []
+    if gem is not None:
+        try:
+            opts = gem.generate([{"text": SONG_PROMPT_GENRE.format(
+                category=category, footage=footage, moods=moods or "n/a",
+                hint=cfg["categories"][category].get("song_hint", ""),
+                stock="; ".join(f'{r["title"]} - {r["artist"]}' for r in fresh[:40]) or "none",
+                recent=", ".join(recent[-60:]) or "none")}], schema=SONG_SCHEMA, temperature=0.7)
+        except Exception as ex:
+            log("gemini song pick failed, rotating the genre stock:", str(ex)[:160])
+            opts = []
+    opts = [o for o in (opts or []) if isinstance(o, dict) and safe_search_term(o.get("title") or "")
+            and safe_search_term(o.get("artist") or "")][:6]
 
-    # 2) runner yt-dlp only if the box pool had no match
+    # 1) Gemini's choice when it is in the genre stock (or any cached song Gemini names for this genre)
     for o in opts:
         if not usable(o):
+            continue
+        rec = match_cached(pool, o["title"], o["artist"]) or match_cached(cached, o["title"], o["artist"])
+        if rec:
+            wav = as_wav(song_audio_path(sdir, rec), sdir)
+            if wav:
+                log("using stock song (gemini pick):", f'{rec["title"]} - {rec["artist"]}')
+                return _result(rec["title"], rec["artist"], o.get("why", ""), wav, rec, "gemini-stock")
+    # 2) Gemini wants a song we don't have: fetch it once (best option only), use it, add it to the stock
+    for o in opts[:2]:
+        if not usable(o) or match_cached(cached, o["title"], o["artist"]):
             continue
         tag = f'{o["title"]} - {o["artist"]}'
-        off = find_official(o["title"], o["artist"])
-        if not off:
-            log("no official upload found for", tag)
+        rec = download_official(o, sdir, [category], "runner-gemini")
+        if not rec:
+            log("gemini song not fetchable:", tag)
             banned.add(tag)
             continue
-        wav = sdir / f"{off['id']}.wav"
-        if not wav.exists():
-            ok, _ = ytdlp(["-f", "ba/b", "-x", "--audio-format", "wav", "-o", str(sdir / f"{off['id']}.%(ext)s"),
-                           off["url"]], timeout=900)
-            if not ok or not wav.exists():
-                log("song download failed:", tag)
-                banned.add(tag)
-                continue
-        return _result(o["title"], o["artist"], o.get("why", ""), wav, off, o.get("why") and "gemini")
-
-    # 3) any unused song already in the box pool
-    for rec in cached:
-        o = {"title": rec["title"], "artist": rec["artist"], "why": rec.get("why", "")}
-        if not usable(o):
-            continue
+        wav = as_wav(sdir / rec["file"], sdir)
+        if wav:
+            _remember_new_song(sdir, rec)
+            log("using new song (gemini request, added to stock):", tag)
+            return _result(rec["title"], rec["artist"], o.get("why", ""), wav, rec, "gemini-new")
+    # 3) rotate the genre stock: random unused song tagged with this genre
+    for rec in fresh:
         wav = as_wav(song_audio_path(sdir, rec), sdir)
         if wav:
-            log("using box song pool:", f'{o["title"]} - {o["artist"]}')
-            return _result(o["title"], o["artist"], o.get("why", ""), wav, rec, "box-pool")
+            log("using genre stock song:", f'{rec["title"]} - {rec["artist"]}')
+            return _result(rec["title"], rec["artist"], rec.get("why", ""), wav, rec, "genre-stock")
+    # 4) genre-tagged catalogue / seed songs not yet downloaded
+    seeds = [s for s in catalogue(cfg) if category in s["genres"]]
+    seeds += [{**x, "genres": [category]} for x in (load_songs_cfg().get("seeds") or {}).get(category, [])
+              if isinstance(x, dict)]
+    for o in seeds[:12]:
+        if not usable(o) or match_cached(cached, o["title"], o["artist"]):
+            continue
+        rec = download_official(o, sdir, [category], "runner-seed")
+        wav = as_wav(sdir / rec["file"], sdir) if rec else None
+        if wav:
+            _remember_new_song(sdir, rec)
+            return _result(rec["title"], rec["artist"], o.get("why", ""), wav, rec, "genre-seed")
+        banned.add(f'{o["title"]} - {o["artist"]}')
+    # 5) last resort: any unused song in the pool (logged loudly; genre stock is empty)
+    for rec in cached:
+        if usable(rec):
+            wav = as_wav(song_audio_path(sdir, rec), sdir)
+            if wav:
+                log(f"WARNING: {category} song stock empty; using untagged pool song")
+                return _result(rec["title"], rec["artist"], rec.get("why", ""), wav, rec, "box-pool")
     raise RuntimeError("no usable song found")
 
+
+def load_songs_cfg() -> dict:
+    try:
+        return json.loads((REPO / "config" / "songs.json").read_text())
+    except Exception:
+        return {}

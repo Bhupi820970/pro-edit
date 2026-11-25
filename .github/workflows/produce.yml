@@ -150,6 +150,11 @@ jobs:
           if [ "$MODE" = "produce" ]; then python pipeline.py produce $ARGS --count "${{ github.event.inputs.count || '1' }}";
           else python pipeline.py ensure $ARGS; fi
 
+      - name: Add songs this run fetched (Gemini requests) to the genre song stock
+        if: always()
+        continue-on-error: true
+        run: python -m pipeline_lib.song_stock publish
+
       - name: Share accepted clips to the source pool (draft release "sources")
         if: always()
         continue-on-error: true

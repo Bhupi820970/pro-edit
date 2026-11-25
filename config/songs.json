@@ -3,153 +3,801 @@
     {
       "title": "Give It Up",
       "artist": "KC and the Sunshine Band",
-      "why": "approved reference song"
+      "why": "approved reference song",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Blinding Lights",
       "artist": "The Weeknd",
-      "why": "retro synth"
+      "why": "retro synth",
+      "genres": [
+        "gta",
+        "gaming"
+      ]
     },
     {
       "title": "Starboy",
       "artist": "The Weeknd",
-      "why": "neon pop"
+      "why": "neon pop",
+      "genres": [
+        "gta",
+        "gaming"
+      ]
     },
     {
       "title": "Save Your Tears",
       "artist": "The Weeknd",
-      "why": "retro synth"
+      "why": "retro synth",
+      "genres": [
+        "romance",
+        "gta"
+      ]
     },
     {
       "title": "In Your Eyes",
       "artist": "The Weeknd",
-      "why": "synth pop"
+      "why": "synth pop",
+      "genres": [
+        "romance"
+      ]
     },
     {
       "title": "Midnight City",
       "artist": "M83",
-      "why": "synthwave"
+      "why": "synthwave",
+      "genres": [
+        "gta",
+        "gaming",
+        "movie"
+      ]
     },
     {
       "title": "Self Control",
       "artist": "Laura Branigan",
-      "why": "80s vice"
+      "why": "80s vice",
+      "genres": [
+        "gta",
+        "series"
+      ]
     },
     {
       "title": "Stayin' Alive",
       "artist": "Bee Gees",
-      "why": "disco"
+      "why": "disco",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Cruel Summer",
       "artist": "Bananarama",
-      "why": "80s pop"
+      "why": "80s pop",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Out of Touch",
       "artist": "Daryl Hall & John Oates",
-      "why": "80s pop"
+      "why": "80s pop",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Murder on the Dancefloor",
       "artist": "Sophie Ellis-Bextor",
-      "why": "dance pop"
+      "why": "dance pop",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Somebody's Watching Me",
       "artist": "Rockwell",
-      "why": "80s pop"
+      "why": "80s pop",
+      "genres": [
+        "movie",
+        "series"
+      ]
     },
     {
       "title": "Obsession",
       "artist": "Animotion",
-      "why": "80s synth"
+      "why": "80s synth",
+      "genres": [
+        "gta",
+        "series"
+      ]
     },
     {
       "title": "Tell It to My Heart",
       "artist": "Taylor Dayne",
-      "why": "80s dance"
+      "why": "80s dance",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
       "artist": "ABBA",
-      "why": "disco"
+      "why": "disco",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Sunglasses at Night",
       "artist": "Corey Hart",
-      "why": "80s synth"
+      "why": "80s synth",
+      "genres": [
+        "gta",
+        "series"
+      ]
     },
     {
       "title": "Blue Monday",
       "artist": "New Order",
-      "why": "synth"
+      "why": "synth",
+      "genres": [
+        "movie",
+        "series",
+        "gaming"
+      ]
     },
     {
       "title": "One Thing Leads to Another",
       "artist": "The Fixx",
-      "why": "80s new wave"
+      "why": "80s new wave",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Easy Lover",
       "artist": "Philip Bailey & Phil Collins",
-      "why": "80s pop"
+      "why": "80s pop",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Party All the Time",
       "artist": "Eddie Murphy",
-      "why": "80s funk"
+      "why": "80s funk",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Flashing Lights",
       "artist": "Kanye West",
-      "why": "hip-hop"
+      "why": "hip-hop",
+      "genres": [
+        "gta",
+        "gaming"
+      ]
     },
     {
       "title": "Hypnotize",
       "artist": "The Notorious B.I.G.",
-      "why": "hip-hop"
+      "why": "hip-hop",
+      "genres": [
+        "gta",
+        "gaming"
+      ]
     },
     {
       "title": "The Message",
       "artist": "Grandmaster Flash & The Furious Five",
-      "why": "hip-hop"
+      "why": "hip-hop",
+      "genres": [
+        "gta"
+      ]
     },
     {
       "title": "Rock Box",
       "artist": "Run-D.M.C.",
-      "why": "hip-hop"
+      "why": "hip-hop",
+      "genres": [
+        "sports",
+        "gaming"
+      ]
     },
     {
       "title": "Money In The Grave",
       "artist": "Drake",
-      "why": "hip-hop"
+      "why": "hip-hop",
+      "genres": [
+        "movie",
+        "series",
+        "gta"
+      ]
     },
     {
       "title": "Win",
       "artist": "Jay Rock",
-      "why": "hip-hop"
+      "why": "hip-hop",
+      "genres": [
+        "sports"
+      ]
     },
     {
       "title": "Believer",
       "artist": "Imagine Dragons",
-      "why": "hype"
+      "why": "hype",
+      "genres": [
+        "sports",
+        "gaming"
+      ]
     },
     {
       "title": "Sweet Dreams (Are Made of This)",
       "artist": "Eurythmics",
-      "why": "cinematic"
+      "why": "cinematic",
+      "genres": [
+        "movie",
+        "series"
+      ]
     },
     {
       "title": "Till I Collapse",
       "artist": "Eminem",
-      "why": "hype"
+      "why": "hype",
+      "genres": [
+        "sports",
+        "gaming"
+      ]
     },
     {
       "title": "Die With A Smile",
       "artist": "Lady Gaga",
-      "why": "romance"
+      "why": "romance",
+      "genres": [
+        "romance"
+      ]
     }
-  ]
+  ],
+  "stock": {
+    "target": 30,
+    "refill_at": 8,
+    "max_per_run": 12
+  },
+  "seeds": {
+    "gta": [
+      {
+        "title": "Lose Yourself",
+        "artist": "Eminem"
+      },
+      {
+        "title": "HUMBLE.",
+        "artist": "Kendrick Lamar"
+      },
+      {
+        "title": "SICKO MODE",
+        "artist": "Travis Scott"
+      },
+      {
+        "title": "In Da Club",
+        "artist": "50 Cent"
+      },
+      {
+        "title": "Gangsta's Paradise",
+        "artist": "Coolio"
+      },
+      {
+        "title": "Still D.R.E.",
+        "artist": "Dr. Dre"
+      },
+      {
+        "title": "Nightcall",
+        "artist": "Kavinsky"
+      },
+      {
+        "title": "Africa",
+        "artist": "Toto"
+      },
+      {
+        "title": "Take On Me",
+        "artist": "a-ha"
+      },
+      {
+        "title": "Billie Jean",
+        "artist": "Michael Jackson"
+      },
+      {
+        "title": "Push It",
+        "artist": "Salt-N-Pepa"
+      },
+      {
+        "title": "Mo Money Mo Problems",
+        "artist": "The Notorious B.I.G."
+      },
+      {
+        "title": "Gold Digger",
+        "artist": "Kanye West"
+      },
+      {
+        "title": "Power",
+        "artist": "Kanye West"
+      },
+      {
+        "title": "Miami",
+        "artist": "Will Smith"
+      },
+      {
+        "title": "Mask Off",
+        "artist": "Future"
+      },
+      {
+        "title": "Goosebumps",
+        "artist": "Travis Scott"
+      },
+      {
+        "title": "Thriller",
+        "artist": "Michael Jackson"
+      },
+      {
+        "title": "Don't You Want Me",
+        "artist": "The Human League"
+      },
+      {
+        "title": "Mr. Brightside",
+        "artist": "The Killers"
+      }
+    ],
+    "gaming": [
+      {
+        "title": "Enemy",
+        "artist": "Imagine Dragons"
+      },
+      {
+        "title": "Legends Never Die",
+        "artist": "League of Legends"
+      },
+      {
+        "title": "Warriors",
+        "artist": "Imagine Dragons"
+      },
+      {
+        "title": "Centuries",
+        "artist": "Fall Out Boy"
+      },
+      {
+        "title": "Remember the Name",
+        "artist": "Fort Minor"
+      },
+      {
+        "title": "Sail",
+        "artist": "AWOLNATION"
+      },
+      {
+        "title": "Radioactive",
+        "artist": "Imagine Dragons"
+      },
+      {
+        "title": "Monster",
+        "artist": "Skillet"
+      },
+      {
+        "title": "Rise",
+        "artist": "League of Legends"
+      },
+      {
+        "title": "Can't Hold Us",
+        "artist": "Macklemore & Ryan Lewis"
+      },
+      {
+        "title": "Bad Guy",
+        "artist": "Billie Eilish"
+      },
+      {
+        "title": "Animals",
+        "artist": "Martin Garrix"
+      },
+      {
+        "title": "Faded",
+        "artist": "Alan Walker"
+      },
+      {
+        "title": "Titanium",
+        "artist": "David Guetta"
+      },
+      {
+        "title": "Thunder",
+        "artist": "Imagine Dragons"
+      },
+      {
+        "title": "Natural",
+        "artist": "Imagine Dragons"
+      },
+      {
+        "title": "Stronger",
+        "artist": "Kanye West"
+      },
+      {
+        "title": "X Gon' Give It to Ya",
+        "artist": "DMX"
+      },
+      {
+        "title": "Bring Me to Life",
+        "artist": "Evanescence"
+      },
+      {
+        "title": "Numb",
+        "artist": "Linkin Park"
+      },
+      {
+        "title": "In the End",
+        "artist": "Linkin Park"
+      },
+      {
+        "title": "Kill Bill",
+        "artist": "SZA"
+      }
+    ],
+    "movie": [
+      {
+        "title": "Paint It Black",
+        "artist": "The Rolling Stones"
+      },
+      {
+        "title": "Seven Nation Army",
+        "artist": "The White Stripes"
+      },
+      {
+        "title": "Bad Liar",
+        "artist": "Imagine Dragons"
+      },
+      {
+        "title": "Running Up That Hill (A Deal with God)",
+        "artist": "Kate Bush"
+      },
+      {
+        "title": "In the Air Tonight",
+        "artist": "Phil Collins"
+      },
+      {
+        "title": "Hurt",
+        "artist": "Johnny Cash"
+      },
+      {
+        "title": "Mad World",
+        "artist": "Gary Jules"
+      },
+      {
+        "title": "Everybody Wants to Rule the World",
+        "artist": "Tears for Fears"
+      },
+      {
+        "title": "Way Down We Go",
+        "artist": "KALEO"
+      },
+      {
+        "title": "Bury a Friend",
+        "artist": "Billie Eilish"
+      },
+      {
+        "title": "Unstoppable",
+        "artist": "Sia"
+      },
+      {
+        "title": "Heathens",
+        "artist": "twenty one pilots"
+      },
+      {
+        "title": "I Ran (So Far Away)",
+        "artist": "A Flock of Seagulls"
+      },
+      {
+        "title": "Smells Like Teen Spirit",
+        "artist": "Nirvana"
+      },
+      {
+        "title": "Bohemian Rhapsody",
+        "artist": "Queen"
+      },
+      {
+        "title": "Another One Bites the Dust",
+        "artist": "Queen"
+      },
+      {
+        "title": "Somebody That I Used to Know",
+        "artist": "Gotye"
+      },
+      {
+        "title": "Feeling Good",
+        "artist": "Michael Buble"
+      },
+      {
+        "title": "Do I Wanna Know?",
+        "artist": "Arctic Monkeys"
+      },
+      {
+        "title": "Sweater Weather",
+        "artist": "The Neighbourhood"
+      },
+      {
+        "title": "Location",
+        "artist": "Khalid"
+      },
+      {
+        "title": "Writing's on the Wall",
+        "artist": "Sam Smith"
+      }
+    ],
+    "sports": [
+      {
+        "title": "Eye of the Tiger",
+        "artist": "Survivor"
+      },
+      {
+        "title": "We Will Rock You",
+        "artist": "Queen"
+      },
+      {
+        "title": "Thunderstruck",
+        "artist": "AC/DC"
+      },
+      {
+        "title": "Hall of Fame",
+        "artist": "The Script"
+      },
+      {
+        "title": "Lose Control",
+        "artist": "Missy Elliott"
+      },
+      {
+        "title": "Remember the Name",
+        "artist": "Fort Minor"
+      },
+      {
+        "title": "Can't Be Touched",
+        "artist": "Roy Jones Jr."
+      },
+      {
+        "title": "Power",
+        "artist": "Kanye West"
+      },
+      {
+        "title": "All I Do Is Win",
+        "artist": "DJ Khaled"
+      },
+      {
+        "title": "Stronger",
+        "artist": "Kanye West"
+      },
+      {
+        "title": "Lose Yourself",
+        "artist": "Eminem"
+      },
+      {
+        "title": "Seven Nation Army",
+        "artist": "The White Stripes"
+      },
+      {
+        "title": "The Champion",
+        "artist": "Carrie Underwood"
+      },
+      {
+        "title": "Whatever It Takes",
+        "artist": "Imagine Dragons"
+      },
+      {
+        "title": "Born for This",
+        "artist": "The Score"
+      },
+      {
+        "title": "Legend",
+        "artist": "The Score"
+      },
+      {
+        "title": "Unstoppable",
+        "artist": "The Score"
+      },
+      {
+        "title": "Hey Brother",
+        "artist": "Avicii"
+      },
+      {
+        "title": "Jump Around",
+        "artist": "House of Pain"
+      },
+      {
+        "title": "Can't Hold Us",
+        "artist": "Macklemore & Ryan Lewis"
+      },
+      {
+        "title": "Sicko Mode",
+        "artist": "Travis Scott"
+      },
+      {
+        "title": "Started From the Bottom",
+        "artist": "Drake"
+      }
+    ],
+    "romance": [
+      {
+        "title": "Perfect",
+        "artist": "Ed Sheeran"
+      },
+      {
+        "title": "Tum Hi Ho",
+        "artist": "Arijit Singh"
+      },
+      {
+        "title": "Kesariya",
+        "artist": "Arijit Singh"
+      },
+      {
+        "title": "Raataan Lambiyan",
+        "artist": "Jubin Nautiyal"
+      },
+      {
+        "title": "Pehle Bhi Main",
+        "artist": "Vishal Mishra"
+      },
+      {
+        "title": "Tujhe Kitna Chahne Lage",
+        "artist": "Arijit Singh"
+      },
+      {
+        "title": "Apna Bana Le",
+        "artist": "Arijit Singh"
+      },
+      {
+        "title": "Tere Vaaste",
+        "artist": "Varun Jain"
+      },
+      {
+        "title": "Shayad",
+        "artist": "Arijit Singh"
+      },
+      {
+        "title": "Agar Tum Saath Ho",
+        "artist": "Alka Yagnik"
+      },
+      {
+        "title": "Satranga",
+        "artist": "Arijit Singh"
+      },
+      {
+        "title": "Heeriye",
+        "artist": "Jasleen Royal"
+      },
+      {
+        "title": "Thinking Out Loud",
+        "artist": "Ed Sheeran"
+      },
+      {
+        "title": "All of Me",
+        "artist": "John Legend"
+      },
+      {
+        "title": "Until I Found You",
+        "artist": "Stephen Sanchez"
+      },
+      {
+        "title": "Lover",
+        "artist": "Taylor Swift"
+      },
+      {
+        "title": "Love Me Like You Do",
+        "artist": "Ellie Goulding"
+      },
+      {
+        "title": "Stay",
+        "artist": "Rihanna"
+      },
+      {
+        "title": "Earned It",
+        "artist": "The Weeknd"
+      },
+      {
+        "title": "Photograph",
+        "artist": "Ed Sheeran"
+      },
+      {
+        "title": "Shape of You",
+        "artist": "Ed Sheeran"
+      },
+      {
+        "title": "Sajni",
+        "artist": "Arijit Singh"
+      }
+    ],
+    "series": [
+      {
+        "title": "Bella Ciao",
+        "artist": "Manu Pilas"
+      },
+      {
+        "title": "Way Down We Go",
+        "artist": "KALEO"
+      },
+      {
+        "title": "Running Up That Hill (A Deal with God)",
+        "artist": "Kate Bush"
+      },
+      {
+        "title": "Paint It Black",
+        "artist": "The Rolling Stones"
+      },
+      {
+        "title": "Red Right Hand",
+        "artist": "Nick Cave & The Bad Seeds"
+      },
+      {
+        "title": "Bad Guy",
+        "artist": "Billie Eilish"
+      },
+      {
+        "title": "Lovely",
+        "artist": "Billie Eilish"
+      },
+      {
+        "title": "Another Love",
+        "artist": "Tom Odell"
+      },
+      {
+        "title": "Daylight",
+        "artist": "David Kushner"
+      },
+      {
+        "title": "Everybody Wants to Rule the World",
+        "artist": "Tears for Fears"
+      },
+      {
+        "title": "Smalltown Boy",
+        "artist": "Bronski Beat"
+      },
+      {
+        "title": "Master of Puppets",
+        "artist": "Metallica"
+      },
+      {
+        "title": "Heathens",
+        "artist": "twenty one pilots"
+      },
+      {
+        "title": "Bloody Mary",
+        "artist": "Lady Gaga"
+      },
+      {
+        "title": "Goo Goo Muck",
+        "artist": "The Cramps"
+      },
+      {
+        "title": "I Ran (So Far Away)",
+        "artist": "A Flock of Seagulls"
+      },
+      {
+        "title": "Mad World",
+        "artist": "Gary Jules"
+      },
+      {
+        "title": "Hurt",
+        "artist": "Johnny Cash"
+      },
+      {
+        "title": "Sweater Weather",
+        "artist": "The Neighbourhood"
+      },
+      {
+        "title": "Devil Eyes",
+        "artist": "Hippie Sabotage"
+      },
+      {
+        "title": "Seven Nation Army",
+        "artist": "The White Stripes"
+      },
+      {
+        "title": "Rehab",
+        "artist": "Amy Winehouse"
+      }
+    ]
+  },
+  "_comment": "songs = tagged genre stock seed (box fetches audio into draft release 'songs'). seeds = curated per-genre refill candidates; song_stock.py refills a genre to stock.target when it drops to stock.refill_at, Gemini-validating fit."
 }
-

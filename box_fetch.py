@@ -464,7 +464,7 @@ class Box:
                     log("song download failed:", tag)
                     continue
             rec = {"id": off["id"], "file": f.name, "url": url, "title": o["title"], "artist": o["artist"],
-                   "channel": off.get("channel", ""), "why": o.get("why", ""),
+                   "channel": off.get("channel", ""), "why": o.get("why", ""), "genres": o.get("genres") or [],
                    "added": now_local().isoformat(), "by": "box"}
             got.append(f)
             recs.append(rec)
@@ -540,6 +540,9 @@ class Box:
                          and asset_covers(m.get("id") or "", m.get("file") or "", assets)}
         try:
             fetched += self.fetch_songs()
+            # per-genre stock: refill any genre at/below stock.refill_at from curated seeds (box cookies)
+            from pipeline_lib import song_stock
+            fetched += song_stock.refill(dry_run=self.a.dry_run, extra=self.extra or None)
         except Exception as ex:
             errors.append(f"songs: {str(ex)[:150]}")
         man = self.manifest()
