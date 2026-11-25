@@ -37,7 +37,9 @@ jobs:
         run: python3 -m py_compile pipeline.py vicestyle.py box_fetch.py fanedit_stark.py caption_patterns.py scripts/upload.py pipeline_lib/*.py pipeline_lib/publish/*.py
 
       - name: Unit tests (publish + stdlib suites)
-        run: python3 -m pytest -q tests/test_publish_upload.py tests/test_publish_captions.py tests/test_cleanup.py tests/test_queue_trust.py tests/test_titles.py tests/test_ytdlp_cookies.py
+        env:
+          VICE_PIPELINE_HOME: /tmp/vice-ph
+        run: python3 -m pytest -q tests/test_publish_upload.py tests/test_publish_captions.py tests/test_cleanup.py tests/test_queue_trust.py tests/test_titles.py tests/test_ytdlp_cookies.py tests/test_song_stock.py
 
       - name: actionlint
         env:

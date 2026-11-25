@@ -108,6 +108,14 @@ class Pick(unittest.TestCase):
         self.assertEqual(new[0]["genres"], ["romance"])
 
 
+try:
+    import vicestyle as _V  # noqa: F401  (needs soundfile/cv2; CI installs a slimmer set)
+    HAVE_V = True
+except Exception:
+    HAVE_V = False
+
+
+@unittest.skipUnless(HAVE_V, "vicestyle deps not installed")
 class Dialogue(unittest.TestCase):
     def test_low_confidence_or_music_bed_is_not_dialogue(self):
         import numpy as np
