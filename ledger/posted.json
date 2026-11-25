@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-25T17:04:58.926688+05:30",
+ "updated": "2026-11-25T22:20:58.370725+05:30",
  "posted": [
   {
    "id": "yo-gta-20261125-070541",
@@ -50,6 +50,23 @@
    "slot": "2026-11-25T11:30",
    "updated_at": "2026-11-25T17:04:58.926656+05:30",
    "posted_at": "2026-11-25T17:04:58.926656+05:30"
+  },
+  {
+   "id": "in-gta-20261125-170927",
+   "platform": "instagram",
+   "title": "GTA 6 Vice City | Obsession Edit",
+   "youtube_id": null,
+   "youtube_url": null,
+   "instagram_url": "https://www.instagram.com/reel/DgK_3U6qcSb/",
+   "ig_media_id": "17905833786377413",
+   "ig_container_id": "18190686610423233",
+   "buffer_post_id": null,
+   "buffer_status": null,
+   "run_id": "45657899548",
+   "status": "posted",
+   "slot": "2026-11-25T15:00",
+   "updated_at": "2026-11-25T22:20:58.370677+05:30",
+   "posted_at": "2026-11-25T22:20:58.370677+05:30"
   }
  ]
 }
