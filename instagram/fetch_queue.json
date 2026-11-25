@@ -1,17 +1,41 @@
 {
  "requests": [
   {
-   "id": "instagram-202611252349-sports",
+   "id": "instagram-202611260230-sports",
    "category": "sports",
    "limit": 3,
-   "at": "2026-11-25T23:49:51.114128+05:30",
-   "reason": "thin=True download_failed=428 bot_checks=428",
+   "at": "2026-11-26T02:30:35.841228+05:30",
+   "reason": "thin=True download_failed=390 bot_checks=375",
    "queries": [
     "LeBron James official interview NBA Lakers",
     "LeBron James official highlights NBA no commentary"
    ],
    "links": []
+  },
+  {
+   "id": "instagram-202611260230-romance",
+   "category": "romance",
+   "limit": 3,
+   "at": "2026-11-26T02:30:35.841309+05:30",
+   "reason": "thin=True download_failed=390 bot_checks=375",
+   "queries": [
+    "official romance movie clip scene",
+    "official romantic scene clip studio"
+   ],
+   "links": []
+  },
+  {
+   "id": "instagram-202611260230-movie",
+   "category": "movie",
+   "limit": 3,
+   "at": "2026-11-26T02:30:35.841357+05:30",
+   "reason": "thin=True download_failed=390 bot_checks=375",
+   "queries": [
+    "official movie clip scene Movieclips",
+    "official movie scene clip Universal Pictures"
+   ],
+   "links": []
   }
  ],
- "updated": "2026-11-25T23:49:51.114195+05:30"
+ "updated": "2026-11-26T02:30:35.841386+05:30"
 }

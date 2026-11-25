@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:49:55.531957+05:30",
+ "updated": "2026-11-26T02:30:46.855321+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (1/7 ready)",
@@ -29,95 +29,92 @@
  },
  "ready": [
   {
-   "id": "in-gta-20261125-170927",
+   "id": "in-movie-20261126-010121",
    "platform": "instagram",
-   "category": "gta",
+   "category": "movie",
    "format": "shorts",
    "state": "ready",
-   "created": "2026-11-25T17:26:55.884592+05:30",
-   "path": "/mnt/ph/instagram/ready/instagram/in-gta-20261125-170927.mp4",
-   "preview": "/mnt/ph/instagram/prev/in-gta-20261125-170927.mp4",
-   "preview_mb": 22.3,
-   "size_mb": 136.6,
-   "title": "GTA 6 Vice City | Obsession Edit",
-   "hook": "GTA 6 VICE CITY",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Obsession\" – Animotion (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Animotion%20Obsession\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "created": "2026-11-26T01:14:04.437534+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261126-010121.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-movie-20261126-010121.mp4",
+   "preview_mb": 22.1,
+   "size_mb": 90.4,
+   "title": "Movie Scene Edit | Midnight City Edit",
+   "hook": "MOVIE SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Midnight City\" – M83 (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/M83%20Midnight%20City\n🎬 Footage: Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
    "hashtags": [
-    "GTA6",
-    "GTAVI",
-    "GrandTheftAuto6",
-    "ViceCity",
-    "GTA6Edit",
-    "RockstarGames"
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
    ],
    "song": {
-    "title": "Obsession",
-    "artist": "Animotion",
+    "title": "Midnight City",
+    "artist": "M83",
     "url": "",
     "official_channel": "",
-    "spotify_search": "https://open.spotify.com/search/Animotion%20Obsession"
+    "spotify_search": "https://open.spotify.com/search/M83%20Midnight%20City"
    },
-   "song_credit": "\"Obsession\" – Animotion",
+   "song_credit": "\"Midnight City\" – M83",
    "pattern": {
-    "id": "P04",
-    "name": "Stepping down beside"
+    "id": "P03",
+    "name": "Beside-lower"
    },
    "captions": [
-    "MY COUSIN YUSUF",
-    "HERE KEEPS A",
-    "LIST OF ALL",
-    "THE CARS HE",
-    "WANTS"
+    "I MEAN THAT",
+    "QUITE AS GOOD",
+    "AS SOME OF",
+    "THE OTHER KIDS",
+    "BUT THEY'RE GOOD",
+    "AND HER",
+    "RECOMMENDATIONS ARE",
+    "SOLID",
+    "AND YEAH",
+    "SHE'S HAD SOME",
+    "TROUBLE",
+    "BUT",
+    "SHE",
+    "THE LETTER HAS",
+    "SPECIFIC",
+    "INSTRUCTIONS",
+    "MY MEN WILL",
+    "BE ABLE TO",
+    "CONTINUE A FEW",
+    "DAYS WITHOUT ME"
    ],
-   "duration": 38.6,
+   "duration": 38.3,
    "sources": [
     {
-     "id": "Sp1wvWZ_2MQ",
-     "src_id": "Sp1wvWZ_2MQ",
-     "path": "/mnt/ph/instagram/sources/Sp1wvWZ_2MQ.mkv",
-     "title": "GTA Online: The Chop Shop Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+     "id": "c8gim368JAU",
+     "src_id": "c8gim368JAU",
+     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
+     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
     },
     {
-     "id": "GbuCIrZSPDk",
-     "src_id": "GbuCIrZSPDk",
-     "path": "/mnt/ph/instagram/sources/GbuCIrZSPDk.mkv",
-     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+     "id": "ER4wFqmv75Q",
+     "src_id": "ER4wFqmv75Q",
+     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
+     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
     },
     {
-     "id": "45--ZVLkmks",
-     "src_id": "45--ZVLkmks",
-     "path": "/mnt/ph/instagram/sources/45--ZVLkmks.mkv",
-     "title": "GTA Online: A Safehouse in the Hills Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+     "id": "nHINIwGcba0",
+     "src_id": "nHINIwGcba0",
+     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
+     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
     },
     {
-     "id": "APJ-lT0sBhg",
-     "src_id": "APJ-lT0sBhg",
-     "path": "/mnt/ph/instagram/sources/APJ-lT0sBhg.mkv",
-     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
-    },
-    {
-     "id": "T7aaNEW7zA0",
-     "src_id": "T7aaNEW7zA0",
-     "path": "/mnt/ph/instagram/sources/T7aaNEW7zA0.mkv",
-     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
-    },
-    {
-     "id": "YlY9n7iM-5Q",
-     "src_id": "YlY9n7iM-5Q",
-     "path": "/mnt/ph/instagram/sources/YlY9n7iM-5Q.mkv",
-     "title": "GTA Online: San Andreas Mercenaries Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+     "id": "AzzwE0mOZEs",
+     "src_id": "AzzwE0mOZEs",
+     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
+     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
     }
    ],
    "qa": {
@@ -125,7 +122,7 @@
     "checks": {
      "duration": {
       "ok": true,
-      "value": 38.6
+      "value": 38.3
      },
      "resolution": {
       "ok": true,
@@ -134,7 +131,7 @@
      },
      "audio": {
       "ok": true,
-      "mean_db": -9.8
+      "mean_db": -16.6
      },
      "black_frames": {
       "ok": true,
@@ -144,7 +141,7 @@
      "captions_safe_area": {
       "ok": true,
       "outside": [],
-      "count": 5
+      "count": 20
      },
      "captions_clear_of_faces": {
       "ok": true,
@@ -159,98 +156,98 @@
      }
     }
    },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-gta-20261125-170927.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-gta-20261125-170927.preview.mp4"
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261126-010121.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261126-010121.preview.mp4"
   }
  ],
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-25T22:55:51.772631+05:30",
+   "at": "2026-11-26T01:23:19.969249+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T22:59:43.445991+05:30",
+   "at": "2026-11-26T01:36:01.786617+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"THEM AND THE\", \"HIGHER YOU RISE\", \"TO COME BACK\"]}}"
+  },
+  {
+   "at": "2026-11-26T01:40:27.675653+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:03:35.547669+05:30",
+   "at": "2026-11-26T01:44:28.536680+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:07:28.081402+05:30",
+   "at": "2026-11-26T01:48:44.093526+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:11:33.393609+05:30",
+   "at": "2026-11-26T01:53:11.079733+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:15:24.936198+05:30",
+   "at": "2026-11-26T01:57:13.266840+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:19:05.985982+05:30",
+   "at": "2026-11-26T02:00:27.766043+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:22:46.138007+05:30",
+   "at": "2026-11-26T02:04:52.444207+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:26:15.322047+05:30",
+   "at": "2026-11-26T02:09:44.040978+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:29:19.439432+05:30",
+   "at": "2026-11-26T02:12:58.287795+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:33:49.273030+05:30",
+   "at": "2026-11-26T02:17:50.133323+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:37:58.233524+05:30",
+   "at": "2026-11-26T02:22:03.746120+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:42:05.216122+05:30",
+   "at": "2026-11-26T02:25:53.814222+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-25T23:45:44.590787+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "RuntimeError: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-25T23:49:51.091519+05:30",
+   "at": "2026-11-26T02:30:35.815113+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
@@ -274,11 +271,17 @@
    "at": "2026-11-25T17:26:55.885551+05:30",
    "video": "in-gta-20261125-170927",
    "platform": "instagram"
+  },
+  {
+   "id": "P03",
+   "at": "2026-11-26T01:14:04.438196+05:30",
+   "video": "in-movie-20261126-010121",
+   "platform": "instagram"
   }
  ],
  "box_fetcher": {
   "last_run": "2026-11-25T10:08:38.272921+05:30",
-  "age_hours": 13.7,
+  "age_hours": 16.4,
   "healthy": false,
   "pool": {
    "gta": 15,
@@ -289,6 +292,6 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 14h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 16h: run `bash scripts/box_fetch_service.sh start` on the box"
  }
 }
