@@ -3935,6 +3935,53 @@
    "duration": 60.028,
    "category": "gta",
    "at": "2026-11-25 02:20"
+  },
+  "Sp1wvWZ_2MQ": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "fast paced crime action",
+   "summary": "Official gameplay and cinematic showcase for GTA Online: The Chop Shop featuring car customization, drifting, underwater exploration, and high speed chases.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 26.0,
+     "end": 29.0,
+     "reason": "Title card and Play Now end slate"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.96,
+    12.69,
+    16.42,
+    20.15,
+    23.88,
+    27.61
+   ],
+   "title": "GTA Online: The Chop Shop Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.008,
+   "category": "gta",
+   "at": "2026-11-25 06:46"
   }
  },
  "videos": [
@@ -4080,6 +4127,140 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-070541.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-070541.preview.mp4"
+  },
+  {
+   "id": "yo-gta-20261125-104840",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-25T12:25:15.220560+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261125-104840.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261125-104840.mp4",
+   "preview_mb": 21.4,
+   "size_mb": 133.0,
+   "title": "GTA 6 Vice City | Stayin' Alive Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Stayin' Alive\" – Bee Gees (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Bee%20Gees%20Stayin%27%20Alive\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Bee%20Gees%20Stayin%27%20Alive"
+   },
+   "song_credit": "\"Stayin' Alive\" – Bee Gees",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [
+    "MY COUSIN YUSUF",
+    "HERE KEEPS A",
+    "LIST OF ALL",
+    "THE CARS HE",
+    "WANTS"
+   ],
+   "duration": 31.93,
+   "sources": [
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 31.93
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.2
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 5
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "MY COUSIN YUSUF"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
   }
  ],
  "listing_cache": {
@@ -5569,6 +5750,12 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-25 02:14"
+  },
+  "e2NfPuECiE4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 06:19"
   }
  },
  "failures": [
@@ -6753,6 +6940,30 @@
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: not enough distinct montage shots in --clips"
+  },
+  {
+   "at": "2026-11-25T12:25:15.225771+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"MY COUSIN YUSUF\"]}}"
+  },
+  {
+   "at": "2026-11-25T13:36:20.292361+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T15:04:50.943126+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T16:10:21.567057+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
   }
  ],
  "vet_rules": "gta-rockstar-v1"

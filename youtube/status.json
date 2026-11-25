@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:44:53.436066+05:30",
+ "updated": "2026-11-25T16:10:24.971648+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -8,7 +8,7 @@
    "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 1,
+   "produced_today": 2,
    "per_day": [
     5,
     6
@@ -175,30 +175,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-25T00:30:13.988778+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T01:06:24.757726+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T02:12:32.281031+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T02:51:07.790904+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
    "at": "2026-11-25T03:25:52.483380+05:30",
    "platform": "youtube",
    "category": null,
@@ -263,6 +239,30 @@
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: not enough distinct montage shots in --clips"
+  },
+  {
+   "at": "2026-11-25T12:25:15.225771+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"MY COUSIN YUSUF\"]}}"
+  },
+  {
+   "at": "2026-11-25T13:36:20.292361+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T15:04:50.943126+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T16:10:21.567057+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
   }
  ],
  "pattern_history": [
@@ -274,11 +274,11 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-25T01:32:54.402448+05:30",
-  "age_hours": 9.2,
+  "last_run": "2026-11-25T10:08:38.272921+05:30",
+  "age_hours": 6.0,
   "healthy": false,
   "pool": {
-   "gta": 16,
+   "gta": 15,
    "gaming": 15,
    "movie": 15,
    "sports": 15,
@@ -286,6 +286,6 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 9h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 6h: run `bash scripts/box_fetch_service.sh start` on the box"
  }
 }
