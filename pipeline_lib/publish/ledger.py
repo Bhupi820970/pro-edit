@@ -62,3 +62,42 @@ def record(d: dict, entry: dict) -> dict:
     rows.append(entry)
     d["posted"] = rows
     return entry
+
+
+def due_slot(conf: dict, led: dict | None = None, now=None) -> str | None:
+    """Earliest IST slot today that has already started and is not in the ledger.
+
+    Used so a frequent GitHub cron (or repository_dispatch) can catch up missed
+    slots without posting more than once per slot. Returns 'YYYY-MM-DDTHH:MM' or None.
+    """
+    now = now or now_local()
+    day = now.strftime("%Y-%m-%d")
+    slotted, yt_n, ig_n = set(), 0, 0
+    for e in (led or {}).get("posted") or []:
+        if not isinstance(e, dict):
+            continue
+        sl = str(e.get("slot") or "")
+        if sl.startswith(day):
+            slotted.add(sl)
+            continue
+        ts = str(e.get("posted_at") or e.get("updated_at") or "")
+        if ts.startswith(day):
+            if e.get("platform") == "youtube":
+                yt_n += 1
+            elif e.get("platform") == "instagram":
+                ig_n += 1
+    used = len(slotted) + max(yt_n, ig_n)
+    elapsed = []
+    for raw in conf.get("slots_ist") or []:
+        try:
+            hh, mm = map(int, str(raw).split(":"))
+        except (TypeError, ValueError):
+            continue
+        t = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
+        if now >= t:
+            elapsed.append(t.strftime("%Y-%m-%dT%H:%M"))
+    # already-consumed slots (named or anonymous) map to the earliest elapsed ones
+    remaining = [k for k in elapsed if k not in slotted]
+    skip = max(0, used - len(slotted))
+    remaining = remaining[skip:]
+    return remaining[0] if remaining else None

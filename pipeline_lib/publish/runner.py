@@ -298,6 +298,15 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
         _log("WARNING: " + msg)
         print(f"::warning::{msg}", flush=True)
 
+    slot = None
+    if mode == "slot" and not dry_run:
+        slot = ledger.due_slot(conf, led)
+        if not slot:
+            _log("no due IST slot (already posted or none elapsed yet)")
+            _write_summary([], counts, low, warn_at)
+            _outputs([], counts, low)
+            return {"results": [], "counts": counts, "low_stock": low, "ok": True, "skipped": "no_due_slot"}
+
     if not dry_run and (os.environ.get("GITHUB_ACTIONS") == "true" or os.environ.get("VC_CLEAN_XFER") == "1"):
         try:
             transfer.cleanup_stale(repo)
@@ -324,7 +333,7 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
             else:
                 rec = _upload_instagram(item, text, conf, dry_run, repo)
             if rec.get("ok") and rec.get("status") != "dry_run":
-                ledger.record(led, {
+                row = {
                     "id": item["id"],
                     "platform": platform,
                     "title": rec.get("title") or text["title"],
@@ -337,7 +346,10 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
                     "buffer_status": rec.get("buffer_status"),
                     "run_id": os.environ.get("GITHUB_RUN_ID"),
                     "status": rec.get("status"),
-                })
+                }
+                if slot:
+                    row["slot"] = slot
+                ledger.record(led, row)
                 ledger.save(led, ledger_path)
             results.append(rec)
         except Exception as e:

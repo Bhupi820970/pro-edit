@@ -14,6 +14,11 @@ on:
     - cron: "30 9 * * *"
     - cron: "0 13 * * *"
     - cron: "0 16 * * *"
+    # Fallback sweeper: GitHub often delays or drops the exact-slot crons after
+    # workflow edits. The runner posts only when an IST slot is due and unposted.
+    - cron: "7,27,47 * * * *"
+  repository_dispatch:
+    types: [upload-slot]
   workflow_dispatch:
     inputs:
       mode:
@@ -30,7 +35,7 @@ on:
         type: boolean
         default: false
 
-# Triggers are schedule + workflow_dispatch only (no pull_request / pull_request_target).
+# Triggers are schedule + owner workflow_dispatch + owner repository_dispatch (no pull_request / pull_request_target).
 # Fork PRs never receive repository secrets.
 permissions: {}
 
@@ -68,7 +73,8 @@ jobs:
     if: >-
       github.repository == 'Bhupi820970/pro-edit' &&
       ((github.event_name == 'workflow_dispatch' && github.actor == github.repository_owner && github.event.inputs.ig_token_check != 'true') ||
-       (github.event_name == 'schedule' && vars.SCHEDULE_ENABLED == 'true'))
+       (github.event_name == 'schedule' && vars.SCHEDULE_ENABLED == 'true') ||
+       (github.event_name == 'repository_dispatch' && github.event.action == 'upload-slot' && github.actor == github.repository_owner && vars.SCHEDULE_ENABLED == 'true'))
     runs-on: ubuntu-latest
     timeout-minutes: 45
     permissions:

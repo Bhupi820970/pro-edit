@@ -119,60 +119,62 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
     work = home() / "work" / vid
     cdir = work / "clips"
     cdir.mkdir(parents=True, exist_ok=True)
-    exclude = {}
-    for c in clips:
-        p = Path(c["path"])
-        link = cdir / f"{c['id']}{p.suffix}"
-        if not link.exists():
-            link.symlink_to(p.resolve())
-        exclude[p.name] = c.get("bad_ranges", [])   # auto_plan sees resolved file names
-        exclude[link.name] = c.get("bad_ranges", [])
-    song_p = Path(song["path"])
-    binfo = V.detect_beats(song_p)
-    prefer_dlg = []
-    if category == "sports":
-        pref_re = re.compile(r"interview|press conference|presser|media day|speaks|exit interview", re.I)
-        prefer_dlg = [c["path"] for c in clips if pref_re.search(c.get("title") or "")]
-    segs, _ = V.auto_plan(song_p, cdir, CFG["duration"], binfo, exclude=exclude, seed=attempt_seed,
-                          avoid=state.avoid_windows(), open_with_dialogue=(category == "sports"),
-                          prefer_dialogue_from=prefer_dlg)
-    wide = work / f"{vid}_wide.mp4"
-    meta = V.render(segs, song_p, None, wide, "wide", pcfg["res"], None, "VICE CARTEL", None,
-                    workers=os.cpu_count() or 4, crf=18, pattern=pattern)
-    lines = [c["text"] for c in meta["captions"]]
-    m = write_meta(gem, platform, "Short/Reel" if fmt == "shorts" else "video", category, song, clips, lines, CFG)
-    rdir = home() / "ready" / platform
-    rdir.mkdir(parents=True, exist_ok=True)
-    out = rdir / f"{vid}.mp4"
-    if fmt == "shorts":
-        V.make_shorts(wide, out, m["hook"], V.font_path())
-    else:
-        shutil.move(str(wide), out)
-    qa = qa_video(str(out), meta, fmt, {**CFG, "platform_res": pcfg["res"]})
-    prev = home() / "prev" / f"{vid}.mp4"
-    make_preview(out, prev, fmt)
-    entry = {
-        "id": vid, "platform": platform, "category": category, "format": fmt, "state": "ready" if qa["pass"] else "qa_failed",
-        "created": now_local().isoformat(), "path": str(out), "preview": str(prev),
-        "preview_mb": round(prev.stat().st_size / 1e6, 1), "size_mb": round(out.stat().st_size / 1e6, 1),
-        "title": m["title"], "hook": m["hook"], "description": m["description"], "hashtags": m["hashtags"],
-        "song": {k: song[k] for k in ("title", "artist", "url", "official_channel", "spotify_search")},
-        "song_credit": f'"{song["title"]}" – {song["artist"]}',
-        "pattern": {"id": pattern, "name": CP.get(pattern)["name"]},
-        "captions": lines, "duration": round(meta["duration"], 2),
-        "sources": [{"id": c["id"], "src_id": c.get("src_id"), "path": c.get("path"),
-                     "title": c.get("title"), "credit": c.get("credit"), "url": c.get("url")} for c in clips],
-        "qa": qa,
-    }
-    save_json(Path(str(out) + ".json"), {**entry, "render": {k: meta[k] for k in ("song_start", "tempo", "shots", "segments")}})
-    if qa["pass"]:
-        state.use_pattern(pattern, vid, platform)
-        state.use_song(song, vid)
-        state.use_windows(meta["segments"], vid, binfo.get("period"))
-        state.use_sources([c["src_id"] for c in clips], vid)
-    state.add_video(entry)
-    state.save()
-    shutil.rmtree(work, ignore_errors=True)
+    try:
+        exclude = {}
+        for c in clips:
+            p = Path(c["path"])
+            link = cdir / f"{c['id']}{p.suffix}"
+            if not link.exists():
+                link.symlink_to(p.resolve())
+            exclude[p.name] = c.get("bad_ranges", [])   # auto_plan sees resolved file names
+            exclude[link.name] = c.get("bad_ranges", [])
+        song_p = Path(song["path"])
+        binfo = V.detect_beats(song_p)
+        prefer_dlg = []
+        if category == "sports":
+            pref_re = re.compile(r"interview|press conference|presser|media day|speaks|exit interview", re.I)
+            prefer_dlg = [c["path"] for c in clips if pref_re.search(c.get("title") or "")]
+        segs, _ = V.auto_plan(song_p, cdir, CFG["duration"], binfo, exclude=exclude, seed=attempt_seed,
+                              avoid=state.avoid_windows(), open_with_dialogue=(category == "sports"),
+                              prefer_dialogue_from=prefer_dlg)
+        wide = work / f"{vid}_wide.mp4"
+        meta = V.render(segs, song_p, None, wide, "wide", pcfg["res"], None, "VICE CARTEL", None,
+                        workers=os.cpu_count() or 4, crf=18, pattern=pattern)
+        lines = [c["text"] for c in meta["captions"]]
+        m = write_meta(gem, platform, "Short/Reel" if fmt == "shorts" else "video", category, song, clips, lines, CFG)
+        rdir = home() / "ready" / platform
+        rdir.mkdir(parents=True, exist_ok=True)
+        out = rdir / f"{vid}.mp4"
+        if fmt == "shorts":
+            V.make_shorts(wide, out, m["hook"], V.font_path())
+        else:
+            shutil.move(str(wide), out)
+        qa = qa_video(str(out), meta, fmt, {**CFG, "platform_res": pcfg["res"]})
+        prev = home() / "prev" / f"{vid}.mp4"
+        make_preview(out, prev, fmt)
+        entry = {
+            "id": vid, "platform": platform, "category": category, "format": fmt, "state": "ready" if qa["pass"] else "qa_failed",
+            "created": now_local().isoformat(), "path": str(out), "preview": str(prev),
+            "preview_mb": round(prev.stat().st_size / 1e6, 1), "size_mb": round(out.stat().st_size / 1e6, 1),
+            "title": m["title"], "hook": m["hook"], "description": m["description"], "hashtags": m["hashtags"],
+            "song": {k: song[k] for k in ("title", "artist", "url", "official_channel", "spotify_search")},
+            "song_credit": f'"{song["title"]}" – {song["artist"]}',
+            "pattern": {"id": pattern, "name": CP.get(pattern)["name"]},
+            "captions": lines, "duration": round(meta["duration"], 2),
+            "sources": [{"id": c["id"], "src_id": c.get("src_id"), "path": c.get("path"),
+                         "title": c.get("title"), "credit": c.get("credit"), "url": c.get("url")} for c in clips],
+            "qa": qa,
+        }
+        save_json(Path(str(out) + ".json"), {**entry, "render": {k: meta[k] for k in ("song_start", "tempo", "shots", "segments")}})
+        if qa["pass"]:
+            state.use_pattern(pattern, vid, platform)
+            state.use_song(song, vid)
+            state.use_windows(meta["segments"], vid, binfo.get("period"))
+            state.use_sources([c["src_id"] for c in clips], vid)
+        state.add_video(entry)
+        state.save()
+    finally:
+        shutil.rmtree(work, ignore_errors=True)
     log(f"=== {vid}: QA {'PASS' if qa['pass'] else 'FAIL'} -> {out}")
     if not qa["pass"]:
         bad = {k: v for k, v in qa["checks"].items() if not v["ok"]}

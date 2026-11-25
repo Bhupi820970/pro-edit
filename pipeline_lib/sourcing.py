@@ -232,6 +232,7 @@ def ytdlp(args: list, timeout=1800) -> tuple[bool, str]:
     """Run yt-dlp with --remote-components ejs:github, box cookies, and client fallbacks."""
     err = ""
     cookies = [] if _cookie_flags_in(args) else ytdlp_cookie_args()
+    bot_hits = 0
     for i, extra in enumerate(YTDLP_CLIENT_FALLBACKS):
         r = run(["yt-dlp", *COMMON, *cookies, *extra, *args], timeout=timeout, check=False)
         if r.returncode == 0:
@@ -243,6 +244,12 @@ def ytdlp(args: list, timeout=1800) -> tuple[bool, str]:
         bot = "not a bot" in err or "confirm you" in err or "bot" in err.lower()
         log(f"yt-dlp attempt {i + 1}/{len(YTDLP_CLIENT_FALLBACKS)} failed{' (bot check)' if bot else ''}: "
             f"{err.strip().splitlines()[-1][:160] if err.strip() else '?'}")
+        if bot:
+            bot_hits += 1
+            # CI has no YouTube cookies; 5 client retries just hang the produce job for hours
+            if bot_hits >= 2:
+                log("yt-dlp: bot check persists, skipping remaining clients")
+                return False, err
         time.sleep(3 + 4 * i)
     return False, err
 

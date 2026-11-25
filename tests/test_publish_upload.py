@@ -329,6 +329,91 @@ class StyleAndSecurityTests(unittest.TestCase):
         self.assertIn("vars.SCHEDULE_ENABLED == 'true'", text)
         self.assertIn("options: [test, slot]", text)
         self.assertIn("persist-credentials: false", text)
+        self.assertIn('"7,27,47 * * * *"', text)
+        self.assertIn("repository_dispatch:", text)
+        self.assertIn("upload-slot", text)
+        self.assertIn("github.event.action == 'upload-slot'", text)
+        self.assertIn("github.actor == github.repository_owner", text)
+
+
+class DueSlotTests(unittest.TestCase):
+    def setUp(self):
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        self.slots = {"slots_ist": ["08:00", "11:30", "15:00", "18:30", "21:30"]}
+        self.tz = ZoneInfo("Asia/Kolkata")
+
+    def _now(self, h, m):
+        from datetime import datetime
+        return datetime(2026, 11, 25, h, m, tzinfo=self.tz)
+
+    def test_before_first_slot(self):
+        self.assertIsNone(ledger.due_slot(self.slots, {"posted": []}, self._now(7, 0)))
+
+    def test_first_slot_due(self):
+        self.assertEqual(
+            ledger.due_slot(self.slots, {"posted": []}, self._now(8, 0)),
+            "2026-11-25T08:00",
+        )
+
+    def test_midday_catches_earliest_unposted(self):
+        self.assertEqual(
+            ledger.due_slot(self.slots, {"posted": []}, self._now(16, 10)),
+            "2026-11-25T08:00",
+        )
+
+    def test_named_slot_consumed(self):
+        led = {"posted": [{"id": "a", "platform": "youtube", "slot": "2026-11-25T08:00"}]}
+        self.assertEqual(
+            ledger.due_slot(self.slots, led, self._now(16, 10)),
+            "2026-11-25T11:30",
+        )
+
+    def test_unslotted_today_posts_consume_earliest(self):
+        led = {"posted": [
+            {"id": "a", "platform": "youtube", "posted_at": "2026-11-25T16:20:00+05:30"},
+            {"id": "b", "platform": "instagram", "posted_at": "2026-11-25T16:21:00+05:30"},
+        ]}
+        self.assertEqual(
+            ledger.due_slot(self.slots, led, self._now(16, 30)),
+            "2026-11-25T11:30",
+        )
+
+    def test_all_elapsed_slots_filled(self):
+        led = {"posted": [
+            {"id": "a", "platform": "youtube", "slot": "2026-11-25T08:00"},
+            {"id": "b", "platform": "youtube", "slot": "2026-11-25T11:30"},
+            {"id": "c", "platform": "youtube", "slot": "2026-11-25T15:00"},
+        ]}
+        self.assertIsNone(ledger.due_slot(self.slots, led, self._now(16, 10)))
+
+
+class ScanClipCacheTests(unittest.TestCase):
+    def test_cached_shots_rewrite_src_to_current_path(self):
+        td = tempfile.TemporaryDirectory()
+        prev = os.environ.get("VICESTYLE_CACHE")
+        try:
+            root = Path(td.name)
+            os.environ["VICESTYLE_CACHE"] = str(root / "cache")
+            clip = root / "clip.mp4"
+            clip.write_bytes(b"x" * 100)
+            ck = V.cache_dir() / f"shots_ov4_{V.file_key(clip)}.json"
+            ck.write_text(json.dumps([{
+                "src": "/mnt/ph/instagram/work/old/clips/T7aaNEW7zA0.mkv",
+                "s": 0.0, "e": 2.0, "motion": 0.1, "color": 0.4, "speech": 0.0, "bad": "",
+            }]))
+            shots = V.scan_clip(clip)
+            self.assertEqual(len(shots), 1)
+            self.assertEqual(shots[0].src, str(clip))
+            self.assertEqual(shots[0].s, 0.0)
+            self.assertEqual(shots[0].e, 2.0)
+        finally:
+            td.cleanup()
+            if prev is None:
+                os.environ.pop("VICESTYLE_CACHE", None)
+            else:
+                os.environ["VICESTYLE_CACHE"] = prev
+
 
 
 if __name__ == "__main__":

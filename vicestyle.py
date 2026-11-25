@@ -1013,7 +1013,10 @@ def scan_clip(path: Path) -> list[Shot]:
     """Scene-cut + per-shot stats from a 10 fps 320px proxy (cached)."""
     ck = cache_dir() / f"shots_ov4_{file_key(path)}.json"
     if ck.exists():
-        return [Shot(**d) for d in json.loads(ck.read_text())]
+        # file_key follows the resolved source, but cached Shot.src may be a
+        # deleted work-dir symlink from an earlier video — always use this path.
+        here = str(path)
+        return [Shot(**{**d, "src": here}) for d in json.loads(ck.read_text())]
     w, h, fps = 320, 180, 10
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-i", str(path), "-vf",
                           f"fps={fps},scale={w}:{h}:force_original_aspect_ratio=decrease,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2",
