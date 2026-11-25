@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:53:23.375942+05:30",
+ "updated": "2026-11-26T04:44:49.650020+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -385,91 +385,91 @@
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T01:23:19.969249+05:30",
+   "at": "2026-11-26T03:44:44.125244+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T01:36:01.786617+05:30",
-   "platform": "instagram",
-   "category": null,
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"THEM AND THE\", \"HIGHER YOU RISE\", \"TO COME BACK\"]}}"
-  },
-  {
-   "at": "2026-11-26T01:40:27.675653+05:30",
+   "at": "2026-11-26T03:49:11.328968+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T01:44:28.536680+05:30",
+   "at": "2026-11-26T03:53:37.858635+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T01:48:44.093526+05:30",
+   "at": "2026-11-26T03:57:29.776695+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T01:53:11.079733+05:30",
+   "at": "2026-11-26T04:01:32.674509+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T01:57:13.266840+05:30",
+   "at": "2026-11-26T04:06:02.403094+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T02:00:27.766043+05:30",
+   "at": "2026-11-26T04:10:30.951991+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T02:04:52.444207+05:30",
+   "at": "2026-11-26T04:15:10.870465+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T02:09:44.040978+05:30",
+   "at": "2026-11-26T04:18:38.345371+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T02:12:58.287795+05:30",
+   "at": "2026-11-26T04:22:52.179597+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T02:17:50.133323+05:30",
+   "at": "2026-11-26T04:27:19.672629+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T02:22:03.746120+05:30",
+   "at": "2026-11-26T04:31:48.764663+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T02:25:53.814222+05:30",
+   "at": "2026-11-26T04:36:17.758623+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T02:30:35.815113+05:30",
+   "at": "2026-11-26T04:40:37.834958+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T04:44:43.404541+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
