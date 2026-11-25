@@ -1,0 +1,587 @@
+{
+ "platform": "instagram",
+ "made": [
+  "in-movie-20261125-014605"
+ ],
+ "failures": [
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 139.5700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: only 0 clean sources for gta",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 97.3700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/c8gim368JAU.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 131.9700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0",
+  "RuntimeError: cmd failed: ffmpeg -y -v error -ss 202.6700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: only 0 clean sources for gta"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 222,
+  "vetted": 2,
+  "rejected": [
+   {
+    "id": "c47twX9c4_I",
+    "title": "Messi's Scoring Streak Continues | Jordan v Argentina | 2026 World Cup EXTENDED HIGHLIGHTS",
+    "reasons": [
+     "channel logo present in the top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "Y2sPf-4JAIw",
+    "title": "Lionel Messi on his contribution to grow America’s interest in soccer",
+    "reasons": [
+     "NBC NEWS channel logo present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 202,
+  "fallback_used": true,
+  "thin": [
+   "sports",
+   "gta"
+  ],
+  "failed_ids": [
+   "AL3d7PMQZ0g",
+   "rzhd04I4s2Q",
+   "95kBkPcKB64",
+   "DdoaU-r_HRk",
+   "Y4jJgc5usC0",
+   "zz_zC7xbhkA",
+   "pm8Dz3Eey_Y",
+   "fmYSljB4cmQ",
+   "VJ5Dz8PbTxk",
+   "x42z8NfLZS4",
+   "LrsoZZ5a1Rc",
+   "QDikhiOkw1g",
+   "AWBTVCYHT3Q",
+   "LfksKqEfYug",
+   "0G10fR6EGwY",
+   "-9lP95Qo-I0",
+   "3oLh7QPp02Q",
+   "G3sYVK0c73k",
+   "VkmJr0qmwX8",
+   "YWcobWashmE",
+   "XIW8e7Xi_l8",
+   "Le3FfVxbjEQ",
+   "3dWqAyPielA",
+   "-zd62MxKXp8",
+   "7a6gnRvQqHQ",
+   "i9Dx4eg-0M0",
+   "XWISA6cBx34",
+   "VlhU9OrikSA",
+   "o1BrK2KWifc",
+   "DIc8gkrzjzQ",
+   "sO56CyHI5ek",
+   "Fr3OrTNXR90",
+   "MQstdmVmZU8",
+   "TAyDe4Jepog",
+   "3dWqAyPielA",
+   "sO56CyHI5ek",
+   "o1BrK2KWifc",
+   "Le3FfVxbjEQ",
+   "XWISA6cBx34",
+   "XIW8e7Xi_l8",
+   "0G10fR6EGwY",
+   "3oLh7QPp02Q",
+   "TAyDe4Jepog",
+   "VlhU9OrikSA",
+   "i9Dx4eg-0M0",
+   "-9lP95Qo-I0",
+   "nSjU02GjH6o",
+   "7a6gnRvQqHQ",
+   "-zd62MxKXp8",
+   "MQstdmVmZU8",
+   "DIc8gkrzjzQ",
+   "G3sYVK0c73k",
+   "Fr3OrTNXR90",
+   "Fr3OrTNXR90",
+   "-9lP95Qo-I0",
+   "MQstdmVmZU8",
+   "o1BrK2KWifc",
+   "VlhU9OrikSA",
+   "TAyDe4Jepog",
+   "sO56CyHI5ek",
+   "G3sYVK0c73k",
+   "3oLh7QPp02Q",
+   "-zd62MxKXp8",
+   "DIc8gkrzjzQ",
+   "XWISA6cBx34",
+   "Le3FfVxbjEQ",
+   "7a6gnRvQqHQ",
+   "0G10fR6EGwY",
+   "i9Dx4eg-0M0",
+   "7oFmRN0oadI",
+   "-HIv_Uj1ERE",
+   "1xlr3-hK5rY",
+   "tyDRtSUYTRs",
+   "P3NBd3UjH5Y",
+   "mP6KvFnltWc",
+   "HqZXw5M6qQY",
+   "3PiR0G3rVw8",
+   "5FBipicBoJg",
+   "StEaAZ_Ywj4",
+   "8-DRGbQ1IXc",
+   "lX_IN4v-RnA",
+   "sPLD6LS_TIk",
+   "kMCtod_2iQ0",
+   "VNbONMSObfs",
+   "N-xHcvug3WI",
+   "olEGtoYs_8A",
+   "QYAMp13Yi04",
+   "tJbzMqJGH4k",
+   "NgO8TVaC24o",
+   "DyQ5MNkl6SA",
+   "foUaOCzfIRU",
+   "vAAvocR04_Y",
+   "lEQ4XD8KuUs",
+   "aLUGHQq2aek",
+   "ZQzIZkxsWYw",
+   "lqiZdynJmag",
+   "H4rYVsJ4v9Y",
+   "0M71BMAgSSs",
+   "He5pZypleqE",
+   "UUmKwJD76GY",
+   "BkzD-HRvuh0",
+   "DIc8gkrzjzQ",
+   "XWISA6cBx34",
+   "VlhU9OrikSA",
+   "-9lP95Qo-I0",
+   "Le3FfVxbjEQ",
+   "YWcobWashmE",
+   "sO56CyHI5ek",
+   "MQstdmVmZU8",
+   "G3sYVK0c73k",
+   "7a6gnRvQqHQ",
+   "TAyDe4Jepog",
+   "Fr3OrTNXR90",
+   "3oLh7QPp02Q",
+   "XIW8e7Xi_l8",
+   "i9Dx4eg-0M0",
+   "o1BrK2KWifc",
+   "0G10fR6EGwY",
+   "lX_IN4v-RnA",
+   "mP6KvFnltWc",
+   "lqiZdynJmag",
+   "UUmKwJD76GY",
+   "OMfkFAB-nVY",
+   "tyDRtSUYTRs",
+   "ZQzIZkxsWYw",
+   "lEQ4XD8KuUs",
+   "N-xHcvug3WI",
+   "olEGtoYs_8A",
+   "8-DRGbQ1IXc",
+   "3PiR0G3rVw8",
+   "NgO8TVaC24o",
+   "DyQ5MNkl6SA",
+   "1xlr3-hK5rY",
+   "tJbzMqJGH4k",
+   "HqZXw5M6qQY",
+   "Bf38HiYPMiI",
+   "QYAMp13Yi04",
+   "zpkbwr0HpCc",
+   "foUaOCzfIRU",
+   "kfzrQGU6jhM",
+   "P3NBd3UjH5Y",
+   "VNbONMSObfs",
+   "vAAvocR04_Y",
+   "StEaAZ_Ywj4",
+   "H4rYVsJ4v9Y",
+   "aLUGHQq2aek",
+   "BkzD-HRvuh0",
+   "5FBipicBoJg",
+   "0M71BMAgSSs",
+   "sPLD6LS_TIk",
+   "-HIv_Uj1ERE",
+   "Fr3OrTNXR90",
+   "nSjU02GjH6o",
+   "3oLh7QPp02Q",
+   "-zd62MxKXp8",
+   "G3sYVK0c73k",
+   "YWcobWashmE",
+   "sO56CyHI5ek",
+   "3dWqAyPielA",
+   "XWISA6cBx34",
+   "XIW8e7Xi_l8",
+   "-9lP95Qo-I0",
+   "TAyDe4Jepog",
+   "VlhU9OrikSA",
+   "MQstdmVmZU8",
+   "7a6gnRvQqHQ",
+   "o1BrK2KWifc",
+   "0G10fR6EGwY",
+   "Le3FfVxbjEQ",
+   "7a6gnRvQqHQ",
+   "XWISA6cBx34",
+   "VlhU9OrikSA",
+   "i9Dx4eg-0M0",
+   "-9lP95Qo-I0",
+   "Fr3OrTNXR90",
+   "3oLh7QPp02Q",
+   "sO56CyHI5ek",
+   "o1BrK2KWifc",
+   "Le3FfVxbjEQ",
+   "TAyDe4Jepog",
+   "G3sYVK0c73k",
+   "-zd62MxKXp8",
+   "0G10fR6EGwY",
+   "MQstdmVmZU8",
+   "XIW8e7Xi_l8",
+   "3dWqAyPielA",
+   "DIc8gkrzjzQ",
+   "wiW1mpHZb_Y",
+   "5FBipicBoJg",
+   "HqZXw5M6qQY",
+   "P3NBd3UjH5Y",
+   "lqiZdynJmag",
+   "-HIv_Uj1ERE",
+   "Cm8CkXhPcrE",
+   "kfzrQGU6jhM",
+   "Bf38HiYPMiI",
+   "lX_IN4v-RnA",
+   "BkzD-HRvuh0",
+   "StEaAZ_Ywj4",
+   "ZQzIZkxsWYw",
+   "1xlr3-hK5rY",
+   "DyQ5MNkl6SA",
+   "NgO8TVaC24o",
+   "N-xHcvug3WI",
+   "UUmKwJD76GY",
+   "kMCtod_2iQ0",
+   "tyDRtSUYTRs",
+   "sPLD6LS_TIk",
+   "lEQ4XD8KuUs",
+   "vAAvocR04_Y",
+   "H4rYVsJ4v9Y",
+   "aLUGHQq2aek",
+   "He5pZypleqE",
+   "mP6KvFnltWc",
+   "VNbONMSObfs",
+   "tJbzMqJGH4k",
+   "8-DRGbQ1IXc",
+   "0M71BMAgSSs",
+   "QYAMp13Yi04",
+   "olEGtoYs_8A",
+   "foUaOCzfIRU",
+   "3PiR0G3rVw8"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  }
+ ]
+}

@@ -5,6 +5,12 @@
    "at": "2026-11-21T23:43:54.504914+05:30",
    "video": "in-movie-20261121-232543",
    "platform": "instagram"
+  },
+  {
+   "id": "P02",
+   "at": "2026-11-25T02:06:34.970218+05:30",
+   "video": "in-movie-20261125-014605",
+   "platform": "instagram"
   }
  ],
  "songs": [
@@ -14,6 +20,13 @@
    "url": "",
    "at": "2026-11-21T23:43:54.504928+05:30",
    "video": "in-movie-20261121-232543"
+  },
+  {
+   "title": "Believer",
+   "artist": "Imagine Dragons",
+   "url": "",
+   "at": "2026-11-25T02:06:34.970232+05:30",
+   "video": "in-movie-20261125-014605"
   }
  ],
  "windows": [
@@ -28,6 +41,18 @@
    "start": 36.03,
    "at": "2026-11-21T23:43:54.504940+05:30",
    "video": "in-movie-20261121-232543"
+  },
+  {
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 113.15,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605"
+  },
+  {
+   "file": "nHINIwGcba0.mkv",
+   "start": 224.0,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605"
   }
  ],
  "sources_used": [
@@ -50,6 +75,26 @@
    "id": "AzzwE0mOZEs",
    "at": "2026-11-21T23:43:54.505308+05:30",
    "video": "in-movie-20261121-232543"
+  },
+  {
+   "id": "c8gim368JAU",
+   "at": "2026-11-25T02:06:34.970577+05:30",
+   "video": "in-movie-20261125-014605"
+  },
+  {
+   "id": "AzzwE0mOZEs",
+   "at": "2026-11-25T02:06:34.970585+05:30",
+   "video": "in-movie-20261125-014605"
+  },
+  {
+   "id": "nHINIwGcba0",
+   "at": "2026-11-25T02:06:34.970589+05:30",
+   "video": "in-movie-20261125-014605"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "at": "2026-11-25T02:06:34.970593+05:30",
+   "video": "in-movie-20261125-014605"
   }
  ],
  "segments_used": [
@@ -3210,6 +3255,123 @@
    "end": 135.40333333333334,
    "at": "2026-11-21T23:43:54.504940+05:30",
    "video": "in-movie-20261121-232543",
+   "kind": "montage"
+  },
+  {
+   "id": "AzzwE0mOZEs",
+   "file": "AzzwE0mOZEs.mkv",
+   "start": 12.77,
+   "end": 15.17,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "nHINIwGcba0",
+   "file": "nHINIwGcba0.mkv",
+   "start": 50.97,
+   "end": 53.37,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 218.07000000000002,
+   "end": 220.47000000000003,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "c8gim368JAU",
+   "file": "c8gim368JAU.mkv",
+   "start": 177.97,
+   "end": 179.90333333333334,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 113.15,
+   "end": 122.25,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "dialogue"
+  },
+  {
+   "id": "AzzwE0mOZEs",
+   "file": "AzzwE0mOZEs.mkv",
+   "start": 145.17000000000002,
+   "end": 147.57000000000002,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "nHINIwGcba0",
+   "file": "nHINIwGcba0.mkv",
+   "start": 279.16999999999996,
+   "end": 281.1033333333333,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "nHINIwGcba0",
+   "file": "nHINIwGcba0.mkv",
+   "start": 224.0,
+   "end": 230.23333333333335,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "dialogue"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 138.37,
+   "end": 140.30333333333334,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "c8gim368JAU",
+   "file": "c8gim368JAU.mkv",
+   "start": 82.47000000000001,
+   "end": 84.37,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "AzzwE0mOZEs",
+   "file": "AzzwE0mOZEs.mkv",
+   "start": 45.669999999999995,
+   "end": 48.06999999999999,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "nHINIwGcba0",
+   "file": "nHINIwGcba0.mkv",
+   "start": 136.97,
+   "end": 138.90333333333334,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "ER4wFqmv75Q",
+   "file": "ER4wFqmv75Q.mkv",
+   "start": 83.57000000000001,
+   "end": 84.53666666666666,
+   "at": "2026-11-25T02:06:34.970243+05:30",
+   "video": "in-movie-20261125-014605",
    "kind": "montage"
   }
  ],
@@ -7321,6 +7483,40 @@
    "duration": 60.028,
    "category": "gta",
    "at": "2026-11-24 07:13"
+  },
+  "c47twX9c4_I": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Messi's Scoring Streak Continues | Jordan v Argentina | 2026 World Cup EXTENDED HIGHLIGHTS",
+   "channel": "FIFA",
+   "credit": "FIFA",
+   "url": "https://www.youtube.com/watch?v=c47twX9c4_I",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 18:42"
+  },
+  "Y2sPf-4JAIw": {
+   "accept": false,
+   "reject_reasons": [
+    "NBC NEWS channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Lionel Messi on his contribution to grow America’s interest in soccer",
+   "channel": "NBC News",
+   "credit": "NBC News",
+   "url": "https://www.youtube.com/watch?v=Y2sPf-4JAIw",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-24 18:47"
   }
  },
  "videos": [
@@ -8251,6 +8447,140 @@
      }
     }
    }
+  },
+  {
+   "id": "in-movie-20261125-014605",
+   "platform": "instagram",
+   "category": "movie",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-25T02:06:34.969461+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261125-014605.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-movie-20261125-014605.mp4",
+   "preview_mb": 21.0,
+   "size_mb": 95.3,
+   "title": "Movie Scene Edit | Believer Edit",
+   "hook": "MOVIE SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Believer\" – Imagine Dragons (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Imagine%20Dragons%20Believer\n🎬 Footage: Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Imagine%20Dragons%20Believer"
+   },
+   "song_credit": "\"Believer\" – Imagine Dragons",
+   "pattern": {
+    "id": "P02",
+    "name": "Beside-upper"
+   },
+   "captions": [
+    "OF YOU THEY",
+    "TELL YOU YOU",
+    "GOT A CHANCE",
+    "BUT",
+    "I'M",
+    "SORRY IT'S A",
+    "LIE",
+    "BECAUSE",
+    "THEY HAD ALREADY",
+    "MADE UP THEIR",
+    "MIND AND THEY",
+    "KNEW WHAT THEY",
+    "WERE GOING TO",
+    "DO BEFORE YOU",
+    "WALKED IN THE",
+    "DOOR",
+    "MICHAEL'S VERY",
+    "BUSY AND HE",
+    "ASKED ME TO",
+    "SPEAK WITH YOU",
+    "DO YOU REMEMBER",
+    "WHAT YOUR",
+    "INSTRUCTIONS WERE?"
+   ],
+   "duration": 38.53,
+   "sources": [
+    {
+     "id": "c8gim368JAU",
+     "src_id": "c8gim368JAU",
+     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
+     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
+    },
+    {
+     "id": "AzzwE0mOZEs",
+     "src_id": "AzzwE0mOZEs",
+     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
+     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
+    },
+    {
+     "id": "nHINIwGcba0",
+     "src_id": "nHINIwGcba0",
+     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
+     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
+    },
+    {
+     "id": "ER4wFqmv75Q",
+     "src_id": "ER4wFqmv75Q",
+     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
+     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.53
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -15.0
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 23
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261125-014605.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261125-014605.preview.mp4"
   }
  ],
  "listing_cache": {
@@ -23834,6 +24164,30 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-24 13:10"
+  },
+  "DdoaU-r_HRk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-24 18:38"
+  },
+  "c47twX9c4_I": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 18:42"
+  },
+  "Y2sPf-4JAIw": {
+   "accept": false,
+   "reject_reasons": [
+    "NBC NEWS channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-24 18:47"
   }
  },
  "failures": [
@@ -26551,6 +26905,132 @@
   },
   {
    "at": "2026-11-24T23:58:25.351888+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-25T00:25:26.970871+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T00:52:42.859469+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T01:18:41.885285+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T01:46:05.286058+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T02:42:42.400513+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-25T02:44:51.176441+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 38.1700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-25T02:48:16.643495+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-25T03:14:16.389256+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T03:15:44.152466+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-25T03:17:09.231679+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 139.5700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs="
+  },
+  {
+   "at": "2026-11-25T03:18:40.671871+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-25T03:20:08.206962+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 56.6700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-25T03:23:38.968120+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-25T04:01:23.455956+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-25T04:02:50.847885+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 97.3700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/c8gim368JAU.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-25T04:04:59.952405+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 131.9700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs="
+  },
+  {
+   "at": "2026-11-25T04:07:40.814559+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 91.2700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/ER4wFqmv75Q.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0"
+  },
+  {
+   "at": "2026-11-25T04:09:07.288072+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 202.6700 -i /mnt/ph/instagram/work/in-movie-20261125-014605/clips/AzzwE0mOZEs.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs="
+  },
+  {
+   "at": "2026-11-25T04:36:18.962856+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T05:03:31.362468+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T05:39:25.505367+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
