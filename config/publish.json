@@ -1,7 +1,13 @@
 {
   "timezone": "Asia/Kolkata",
   "utc_offset": "+05:30",
-  "slots_ist": ["08:00", "11:30", "15:00", "18:30", "21:30"],
+  "slots_ist": [
+    "08:00",
+    "11:30",
+    "15:00",
+    "18:30",
+    "21:30"
+  ],
   "stock_release": "vc-ready",
   "stock_warn_below": 3,
   "youtube_channel": "@vicecartelgta",
@@ -9,6 +15,14 @@
   "instagram_username": "benreelr",
   "retry_once": true,
   "transfer_prefix": "vc-xfer-",
-  "protected_releases": ["vc-ready", "sources", "songs", "test-renders"],
-  "note": "Five slots/day IST for YouTube (@vicecartelgta) and Instagram (@benreelr). Scheduled runs require repo variable SCHEDULE_ENABLED=true. Stock lives in the DRAFT release vc-ready. Never publish vc-ready, sources, or songs."
+  "protected_releases": [
+    "vc-ready",
+    "sources",
+    "songs",
+    "test-renders"
+  ],
+  "note": "Five slots/day IST for YouTube (@vicecartelgta) and Instagram (@benreelr via Instagram Graph API). Scheduled runs require repo variable SCHEDULE_ENABLED=true. Stock lives in the DRAFT release vc-ready. Never publish vc-ready, sources, or songs.",
+  "instagram_backend": "graph",
+  "instagram_graph_version": "v26.0",
+  "instagram_buffer_fallback": false
 }

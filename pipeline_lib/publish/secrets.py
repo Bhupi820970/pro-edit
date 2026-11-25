@@ -10,6 +10,7 @@ SECRET_ENV = (
     "YT_REFRESH_TOKEN",
     "YT_ACCESS_TOKEN",
     "BUFFER_API_KEY",
+    "IG_ACCESS_TOKEN",
 )
 
 _EXTRA: list[str] = []

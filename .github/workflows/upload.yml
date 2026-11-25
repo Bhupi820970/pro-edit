@@ -1,9 +1,11 @@
 name: upload
 
 # Posts 1 YouTube video (@vicecartelgta, YouTube Data API v3) and 1 Instagram
-# video (@benreelr via Buffer) per IST slot. Idempotent via ledger/posted.json.
+# Reel (@benreelr via Instagram Graph API; Buffer fallback off by default) per IST slot.
+# Idempotent via ledger/posted.json.
 # Scheduled runs require repo variable SCHEDULE_ENABLED=true (do not set it here).
 # workflow_dispatch mode=test posts exactly 1+1 regardless of SCHEDULE_ENABLED.
+# workflow_dispatch ig_token_check=true runs a read-only GET check without publishing.
 on:
   schedule:
     # 08:00, 11:30, 15:00, 18:30, 21:30 IST (UTC+5:30)
@@ -23,6 +25,10 @@ on:
         description: "Print what would be posted, post nothing"
         type: boolean
         default: false
+      ig_token_check:
+        description: "Read-only check: GET IG username + content_publishing_limit (publishes nothing)"
+        type: boolean
+        default: false
 
 # Triggers are schedule + workflow_dispatch only (no pull_request / pull_request_target).
 # Fork PRs never receive repository secrets.
@@ -33,10 +39,35 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  ig-token-check:
+    if: >-
+      github.repository == 'Bhupi820970/pro-edit' &&
+      github.event_name == 'workflow_dispatch' &&
+      github.actor == github.repository_owner &&
+      github.event.inputs.ig_token_check == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with: {python-version: "3.12"}
+
+      - name: Verify Instagram Graph API token and quota (read-only)
+        run: python scripts/upload.py --ig-token-check
+
   upload:
     if: >-
       github.repository == 'Bhupi820970/pro-edit' &&
-      ((github.event_name == 'workflow_dispatch' && github.actor == github.repository_owner) ||
+      ((github.event_name == 'workflow_dispatch' && github.actor == github.repository_owner && github.event.inputs.ig_token_check != 'true') ||
        (github.event_name == 'schedule' && vars.SCHEDULE_ENABLED == 'true'))
     runs-on: ubuntu-latest
     timeout-minutes: 45
@@ -47,6 +78,8 @@ jobs:
       YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
       BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
       GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
       GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}

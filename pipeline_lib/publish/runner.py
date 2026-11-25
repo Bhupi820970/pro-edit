@@ -8,7 +8,7 @@ from pathlib import Path
 
 from pipeline_lib.util import now_local
 
-from . import buffer_ig, captions, cfg as cfgmod, ledger, stock, transfer, youtube
+from . import buffer_ig, captions, cfg as cfgmod, instagram_api, ledger, stock, transfer, youtube
 from . import secrets as S
 
 
@@ -119,11 +119,16 @@ def _upload_youtube(item: dict, text: dict, conf: dict, dry: bool) -> dict:
     }
 
 
-def _upload_instagram(item: dict, text: dict, conf: dict, dry: bool, repo: str) -> dict:
-    if dry:
-        _log(f"DRY_RUN instagram {item['id']}: {text['title']!r}")
-        return {"platform": "instagram", "video_id": item["id"], "ok": True, "status": "dry_run",
-                "title": text["title"]}
+def _buffer_fallback_enabled(conf: dict) -> bool:
+    env_flag = (os.environ.get("IG_BUFFER_FALLBACK") or "").strip().lower()
+    if env_flag in {"1", "true", "yes"}:
+        return True
+    if env_flag in {"0", "false", "no"}:
+        return False
+    return bool(conf.get("instagram_buffer_fallback", False))
+
+
+def _upload_instagram_buffer(item: dict, text: dict, conf: dict, repo: str) -> dict:
     run_id = os.environ.get("GITHUB_RUN_ID") or "local"
     xfer = None
 
@@ -172,6 +177,90 @@ def _upload_instagram(item: dict, text: dict, conf: dict, dry: bool, repo: str) 
         "transfer_tag": None if xfer is None else xfer["tag"],
         "buffer_status": status,
     }
+
+
+def _upload_instagram_graph(item: dict, text: dict, conf: dict, repo: str) -> dict:
+    run_id = os.environ.get("GITHUB_RUN_ID") or "local"
+    retry_once = bool(conf.get("retry_once", True))
+    xfer = _retry(
+        lambda: transfer.create(repo, Path(item["path"]), run_id=run_id),
+        retry_once,
+        f"instagram transfer {item['id']}",
+    )
+    try:
+        res = instagram_api.publish_reel(
+            xfer["url"],
+            text["ig_caption"],
+            expected_username=conf.get("instagram_username") or "benreelr",
+            share_to_feed=True,
+            retry_once=retry_once,
+            version=conf.get("instagram_graph_version") or None,
+            log=_log,
+        )
+    finally:
+        try:
+            transfer.delete(repo, xfer["tag"])
+        except Exception as e:
+            _log(f"could not delete transfer {xfer['tag']}: {e}")
+    return {
+        "platform": "instagram",
+        "video_id": item["id"],
+        "ok": True,
+        "status": "posted",
+        "ig_media_id": res.get("media_id"),
+        "ig_container_id": res.get("container_id"),
+        "url": res.get("url"),
+        "title": text["title"],
+        "transfer_tag": None,
+    }
+
+
+def _upload_instagram(item: dict, text: dict, conf: dict, dry: bool, repo: str) -> dict:
+    if dry:
+        _log(f"DRY_RUN instagram {item['id']}: {text['title']!r}")
+        return {"platform": "instagram", "video_id": item["id"], "ok": True, "status": "dry_run",
+                "title": text["title"]}
+    if (conf.get("instagram_backend") or "graph").strip().lower() == "buffer":
+        return _upload_instagram_buffer(item, text, conf, repo)
+    try:
+        return _upload_instagram_graph(item, text, conf, repo)
+    except Exception as e:
+        if not _buffer_fallback_enabled(conf):
+            raise
+        _log(f"instagram graph failed ({S.redact(str(e)[:200])}); falling back to Buffer")
+        return _upload_instagram_buffer(item, text, conf, repo)
+
+
+def run_ig_token_check() -> dict:
+    conf = cfgmod.load()
+    res = instagram_api.check_token(
+        expected_username=conf.get("instagram_username") or "benreelr",
+        version=conf.get("instagram_graph_version") or None,
+    )
+    _log(
+        f"IG token check OK: @{res.get('username')} (id={res.get('id')}, "
+        f"quota={res.get('quota_usage')}/{res.get('quota_total')}, "
+        f"duration={res.get('quota_duration')}s, api={res.get('graph_version')})"
+    )
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        lines = [
+            "## Instagram Graph API token check",
+            "",
+            f"- **Username**: `@{res.get('username')}`",
+            f"- **IG User ID**: `{res.get('id')}`",
+            f"- **Publishing quota**: `{res.get('quota_usage')}/{res.get('quota_total')}` (window `{res.get('quota_duration')}s`)",
+            f"- **Graph API version**: `{res.get('graph_version')}`",
+        ]
+        Path(summary_path).open("a").write("\n".join(lines) + "\n")
+    out_path = os.environ.get("GITHUB_OUTPUT")
+    if out_path:
+        with open(out_path, "a") as f:
+            f.write(f"username={res.get('username') or ''}\n")
+            f.write(f"ig_user_id={res.get('id') or ''}\n")
+            f.write(f"quota_usage={res.get('quota_usage')}\n")
+            f.write(f"quota_total={res.get('quota_total')}\n")
+    return res
 
 
 def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
@@ -242,6 +331,8 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
                     "youtube_id": rec.get("youtube_id"),
                     "youtube_url": rec.get("url") if platform == "youtube" else None,
                     "instagram_url": rec.get("url") if platform == "instagram" else None,
+                    "ig_media_id": rec.get("ig_media_id"),
+                    "ig_container_id": rec.get("ig_container_id"),
                     "buffer_post_id": rec.get("buffer_post_id"),
                     "buffer_status": rec.get("buffer_status"),
                     "run_id": os.environ.get("GITHUB_RUN_ID"),
