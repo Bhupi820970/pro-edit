@@ -11,6 +11,12 @@
    "at": "2026-11-25T02:06:34.970218+05:30",
    "video": "in-movie-20261125-014605",
    "platform": "instagram"
+  },
+  {
+   "id": "P04",
+   "at": "2026-11-25T17:26:55.885551+05:30",
+   "video": "in-gta-20261125-170927",
+   "platform": "instagram"
   }
  ],
  "songs": [
@@ -27,6 +33,13 @@
    "url": "",
    "at": "2026-11-25T02:06:34.970232+05:30",
    "video": "in-movie-20261125-014605"
+  },
+  {
+   "title": "Obsession",
+   "artist": "Animotion",
+   "url": "",
+   "at": "2026-11-25T17:26:55.885565+05:30",
+   "video": "in-gta-20261125-170927"
   }
  ],
  "windows": [
@@ -53,6 +66,12 @@
    "start": 224.0,
    "at": "2026-11-25T02:06:34.970243+05:30",
    "video": "in-movie-20261125-014605"
+  },
+  {
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 10.47,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927"
   }
  ],
  "sources_used": [
@@ -95,6 +114,36 @@
    "id": "ER4wFqmv75Q",
    "at": "2026-11-25T02:06:34.970593+05:30",
    "video": "in-movie-20261125-014605"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "at": "2026-11-25T17:26:55.886277+05:30",
+   "video": "in-gta-20261125-170927"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "at": "2026-11-25T17:26:55.886284+05:30",
+   "video": "in-gta-20261125-170927"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "at": "2026-11-25T17:26:55.886288+05:30",
+   "video": "in-gta-20261125-170927"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "at": "2026-11-25T17:26:55.886291+05:30",
+   "video": "in-gta-20261125-170927"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "at": "2026-11-25T17:26:55.886294+05:30",
+   "video": "in-gta-20261125-170927"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "at": "2026-11-25T17:26:55.886297+05:30",
+   "video": "in-gta-20261125-170927"
   }
  ],
  "segments_used": [
@@ -3372,6 +3421,420 @@
    "end": 84.53666666666666,
    "at": "2026-11-25T02:06:34.970243+05:30",
    "video": "in-movie-20261125-014605",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 11.469999999999999,
+   "end": 12.503333333333332,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 14.57,
+   "end": 15.603333333333333,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 33.37,
+   "end": 34.43666666666667,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 18.27,
+   "end": 18.77,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 6.970000000000001,
+   "end": 7.503333333333334,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 21.97,
+   "end": 23.00333333333333,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 15.07,
+   "end": 16.10333333333333,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 13.469999999999999,
+   "end": 14.536666666666665,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 18.57,
+   "end": 19.603333333333335,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 5.2700000000000005,
+   "end": 5.7700000000000005,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 23.77,
+   "end": 24.303333333333335,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 10.47,
+   "end": 15.17,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "dialogue"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 50.06999999999999,
+   "end": 51.103333333333325,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 9.969999999999999,
+   "end": 10.469999999999999,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 11.87,
+   "end": 12.403333333333332,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 10.07,
+   "end": 11.103333333333335,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 10.77,
+   "end": 11.803333333333331,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 44.87,
+   "end": 45.403333333333336,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 38.87,
+   "end": 39.90333333333333,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 7.37,
+   "end": 7.903333333333335,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 17.37,
+   "end": 17.903333333333332,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 18.87,
+   "end": 19.903333333333336,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 15.27,
+   "end": 15.77,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 27.169999999999998,
+   "end": 27.70333333333333,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 25.77,
+   "end": 26.803333333333335,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 14.17,
+   "end": 14.703333333333331,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 48.97,
+   "end": 49.47,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 20.97,
+   "end": 22.03666666666667,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 18.980468441348098,
+   "end": 19.480468441348098,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 7.680468441348101,
+   "end": 8.213801774681432,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 16.3009368826962,
+   "end": 17.334270216029534,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 12.5804684413481,
+   "end": 13.11380177468143,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 12.000936882696198,
+   "end": 12.500936882696198,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 45.580468441348096,
+   "end": 46.647135108014766,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 40.100936882696196,
+   "end": 40.600936882696196,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 20.1009368826962,
+   "end": 20.634270216029535,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 22.200936882696197,
+   "end": 23.23427021602953,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 19.690936882696196,
+   "end": 20.224270216029527,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 13.290936882696199,
+   "end": 13.790936882696199,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 40.811405324044294,
+   "end": 41.878071990710964,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 12.711405324044298,
+   "end": 13.211405324044298,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 46.811405324044294,
+   "end": 47.344738657377626,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 20.401405324044294,
+   "end": 21.434738657377626,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 42.04234220674049,
+   "end": 42.57567554007383,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 42.75281064808859,
+   "end": 43.25281064808859,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 43.46327908943669,
+   "end": 43.99661242277002,
+   "at": "2026-11-25T17:26:55.885575+05:30",
+   "video": "in-gta-20261125-170927",
    "kind": "montage"
   }
  ],
@@ -7224,6 +7687,505 @@
    "duration": 60.028,
    "category": "gta",
    "at": "2026-11-25 06:13"
+  },
+  "8fSjVrLGa7g": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo watermark in bottom-left corner",
+    "4K channel overlay in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Die Another Day (2002) 4K - A Hairy, Hunky Bond Escapes! (2/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=8fSjVrLGa7g",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 10:52"
+  },
+  "K4gMFe4Oe04": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense cold betrayal",
+   "summary": "James Bond confronts Gustav Graves and Miranda Frost in a tense standoff inside an ice palace facility.",
+   "reject_reasons": [
+    "Channel logo/watermark present in the bottom-left corner of all frames",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "characters": [
+    "James Bond",
+    "Gustav Graves",
+    "Miranda Frost"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    8.07,
+    28.15,
+    48.22,
+    68.29,
+    88.36,
+    108.43,
+    128.5,
+    148.57
+   ],
+   "title": "Die Another Day (2002) 4K - Rosamund Pike's Cold Betrayal (8/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=K4gMFe4Oe04",
+   "via": "official-channel",
+   "height": 1440,
+   "duration": 161.488,
+   "category": "romance",
+   "at": "2026-11-25 10:53"
+  },
+  "rXli5AhC3Yw": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Die Another Day (2002) 4K - John Cleese's Cutting-Edge Tech (5/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=rXli5AhC3Yw",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 10:54"
+  },
+  "p-FX_7SFSsM": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Hell or High Water (2016) - What Don't You Want? Scene | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=p-FX_7SFSsM",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-25 10:55"
+  },
+  "IGSCDqiag3Y": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - Dead Body Prank (4/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=IGSCDqiag3Y",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 10:57"
+  },
+  "6EzvVALTBB0": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel watermark (Rotten Tomatoes logo) present in the bottom-left corner.",
+    "Resolution badge ('4K') present in the bottom-left area.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - Swimming OUTSIDE The Submarine (7/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=6EzvVALTBB0",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 10:59"
+  },
+  "DJoIGjOya7Y": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense action combat thriller",
+   "summary": "Action clip featuring combat scenes and tension between characters from Die Another Day.",
+   "reject_reasons": [
+    "Persistent channel logo (Movieclips watermark) in the bottom left corner across frames.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 180.0,
+     "reason": "Persistent watermark throughout the clip"
+    }
+   ],
+   "characters": [
+    "Jinx Johnson",
+    "Miranda Frost",
+    "Damian Graves",
+    "M",
+    "Damian Falco"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    9.37,
+    32.68,
+    55.98,
+    79.28,
+    102.58,
+    125.88,
+    149.19,
+    172.49
+   ],
+   "title": "Die Another Day (2002) 4K - Halle Berry vs. Rosamund Pike! (10/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=DJoIGjOya7Y",
+   "via": "official-channel",
+   "height": 1440,
+   "duration": 187.488,
+   "category": "romance",
+   "at": "2026-11-25 10:59"
+  },
+  "LqAsaGUyFC8": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo (RT) and 4K channel overlay present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - Zach Galifianakis vs. Depth Charges (3/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=LqAsaGUyFC8",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:00"
+  },
+  "Q_TN2Ovcr2g": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes watermark present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - EMERGENCY DIVE! (5/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Q_TN2Ovcr2g",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:02"
+  },
+  "uDBWb1nZEb8": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes and 4K channel logos are present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - Freaky Mirror; Dead Crew (9/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=uDBWb1nZEb8",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:03"
+  },
+  "8sSxkjeB300": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in bottom left corner",
+    "4K watermark present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Die Another Day (2002) 4K - Halle Berry's Iconic Bikini Entrance (3/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=8sSxkjeB300",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:04"
+  },
+  "7aidi8SPI0o": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo (RT Movieclips) in bottom-left corner",
+    "Watermark (4K overlay) in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - WTF? Anti-Submarine Hooks?! (6/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=7aidi8SPI0o",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:06"
+  },
+  "a1GZ2cJmMd4": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) channel logo in bottom-left corner",
+    "4K watermark badge in bottom-left/center area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Die Another Day (2002) 4K - CRAZY Laser Fight! (7/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=a1GZ2cJmMd4",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:07"
+  },
+  "TBQckuyOsug": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in bottom-left corner",
+    "4K watermark badge present in bottom-left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - IMPALED BY THE SUBMARINE?! (10/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=TBQckuyOsug",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:08"
+  },
+  "Ka988MzE-bU": {
+   "accept": false,
+   "reject_reasons": [
+    "Watermark present in the bottom-left corner",
+    "flag:watermark"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - DIVE, DIVE, DIVE! (1/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Ka988MzE-bU",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:10"
+  },
+  "ZtGVEkJmTqw": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes watermark and 4K resolution badge are present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - Ghost In The Water (8/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=ZtGVEkJmTqw",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:11"
+  },
+  "NmxO5hFyCBo": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Die Another Day (2002) 4K - Bond's Hoverboard Chase! (1/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=NmxO5hFyCBo",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:12"
+  },
+  "IzwG6Zz7uv4": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "4K watermark present in the bottom left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - Going Down With the Ship (12/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=IzwG6Zz7uv4",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:14"
+  },
+  "0lUFxjpsAio": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo and 4K watermark present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Die Another Day (2002) 4K - Halle Berry Flirts (and a Second Sun?!) (6/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=0lUFxjpsAio",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:15"
+  },
+  "OvvaOCiSWis": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K badge are present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - Sonar Contact, Everybody SHUT UP (2/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=OvvaOCiSWis",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:17"
+  },
+  "U7Pd_jmeJGg": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo watermark in bottom-left corner",
+    "4K badge overlay in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Below (2002) 4K - A Pipe To The FACE (11/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=U7Pd_jmeJGg",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:18"
+  },
+  "1W9YPtVIcUw": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "action packed icy adventure",
+   "summary": "James Bond escapes a massive tsunami on an ice surfboard in a high-stakes Arctic sequence.",
+   "reject_reasons": [
+    "Persistent channel logo watermark visible in the bottom left corner across all frames",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "characters": [
+    "James Bond"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    7.85,
+    27.36,
+    46.88,
+    66.39,
+    85.91,
+    105.42,
+    124.93,
+    144.45
+   ],
+   "title": "Die Another Day (2002) 4K - Bond Surfs a Tsunami! (9/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=1W9YPtVIcUw",
+   "via": "official-channel",
+   "height": 1440,
+   "duration": 157.008,
+   "category": "romance",
+   "at": "2026-11-25 11:18"
+  },
+  "GxW32a6gUm4": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Die Another Day (2002) 4K - INTENSE Sword Fight (4/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=GxW32a6gUm4",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-25 11:20"
   }
  },
  "videos": [
@@ -8556,6 +9518,270 @@
      }
     }
    }
+  },
+  {
+   "id": "in-romance-20261125-162106",
+   "platform": "instagram",
+   "category": "romance",
+   "format": "shorts",
+   "state": "qa_failed",
+   "created": "2026-11-25T17:09:27.373506+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-romance-20261125-162106.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-romance-20261125-162106.mp4",
+   "preview_mb": 21.3,
+   "size_mb": 91.0,
+   "title": "Love Scene Edit | Die With A Smile Edit",
+   "hook": "LOVE SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Die With A Smile\" – Lady Gaga (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Lady%20Gaga%20Die%20With%20A%20Smile\n🎬 Footage: Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#RomanceEdit #LoveStory #MovieEdit",
+   "hashtags": [
+    "RomanceEdit",
+    "LoveStory",
+    "MovieEdit"
+   ],
+   "song": {
+    "title": "Die With A Smile",
+    "artist": "Lady Gaga",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Lady%20Gaga%20Die%20With%20A%20Smile"
+   },
+   "song_credit": "\"Die With A Smile\" – Lady Gaga",
+   "pattern": {
+    "id": "P04",
+    "name": "Stepping down beside"
+   },
+   "captions": [
+    "IT AS FAR",
+    "AS THEY'RE CONCERNED",
+    "YOUR",
+    "MISTAKE IS JUST",
+    "THAT'S WHO YOU",
+    "ARE AND",
+    "IT'S ALL YOU",
+    "ARE AND I'M",
+    "NOT JUST TALKING",
+    "ABOUT THE SCHOLARSHIP",
+    "HERE I'M",
+    "TALKING",
+    "YOU'RE GONNA BE",
+    "ON THE 50TH",
+    "FLOOR YOU'RE GONNA",
+    "BE LOOKING DOWN",
+    "ON THEM AND",
+    "THE HIGHER YOU",
+    "RISE",
+    "THE"
+   ],
+   "duration": 38.57,
+   "sources": [
+    {
+     "id": "nHINIwGcba0",
+     "src_id": "nHINIwGcba0",
+     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
+     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
+    },
+    {
+     "id": "c8gim368JAU",
+     "src_id": "c8gim368JAU",
+     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
+     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
+    },
+    {
+     "id": "AzzwE0mOZEs",
+     "src_id": "AzzwE0mOZEs",
+     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
+     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
+    },
+    {
+     "id": "ER4wFqmv75Q",
+     "src_id": "ER4wFqmv75Q",
+     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
+     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.57
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -14.9
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 20
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "THE HIGHER YOU"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "in-gta-20261125-170927",
+   "platform": "instagram",
+   "category": "gta",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-25T17:26:55.884592+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-gta-20261125-170927.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-gta-20261125-170927.mp4",
+   "preview_mb": 22.3,
+   "size_mb": 136.6,
+   "title": "GTA 6 Vice City | Obsession Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Obsession\" – Animotion (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Animotion%20Obsession\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Obsession",
+    "artist": "Animotion",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Animotion%20Obsession"
+   },
+   "song_credit": "\"Obsession\" – Animotion",
+   "pattern": {
+    "id": "P04",
+    "name": "Stepping down beside"
+   },
+   "captions": [
+    "MY COUSIN YUSUF",
+    "HERE KEEPS A",
+    "LIST OF ALL",
+    "THE CARS HE",
+    "WANTS"
+   ],
+   "duration": 38.6,
+   "sources": [
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/instagram/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/instagram/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/instagram/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/instagram/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/instagram/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/instagram/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.6
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.8
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 5
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-gta-20261125-170927.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-gta-20261125-170927.preview.mp4"
   }
  ],
  "listing_cache": {
@@ -24330,6 +25556,207 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-25 06:09"
+  },
+  "8fSjVrLGa7g": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo watermark in bottom-left corner",
+    "4K channel overlay in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 10:52"
+  },
+  "rXli5AhC3Yw": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 10:54"
+  },
+  "p-FX_7SFSsM": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 10:55"
+  },
+  "IGSCDqiag3Y": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 10:57"
+  },
+  "6EzvVALTBB0": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel watermark (Rotten Tomatoes logo) present in the bottom-left corner.",
+    "Resolution badge ('4K') present in the bottom-left area.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 10:59"
+  },
+  "LqAsaGUyFC8": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo (RT) and 4K channel overlay present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:00"
+  },
+  "Q_TN2Ovcr2g": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes watermark present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:02"
+  },
+  "uDBWb1nZEb8": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes and 4K channel logos are present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:03"
+  },
+  "8sSxkjeB300": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in bottom left corner",
+    "4K watermark present in bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:04"
+  },
+  "7aidi8SPI0o": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo (RT Movieclips) in bottom-left corner",
+    "Watermark (4K overlay) in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:06"
+  },
+  "a1GZ2cJmMd4": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) channel logo in bottom-left corner",
+    "4K watermark badge in bottom-left/center area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:07"
+  },
+  "TBQckuyOsug": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo present in bottom-left corner",
+    "4K watermark badge present in bottom-left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:08"
+  },
+  "Ka988MzE-bU": {
+   "accept": false,
+   "reject_reasons": [
+    "Watermark present in the bottom-left corner",
+    "flag:watermark"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:10"
+  },
+  "ZtGVEkJmTqw": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes watermark and 4K resolution badge are present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:11"
+  },
+  "NmxO5hFyCBo": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:12"
+  },
+  "IzwG6Zz7uv4": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo present in the bottom left corner",
+    "4K watermark present in the bottom left area",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:14"
+  },
+  "0lUFxjpsAio": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes channel logo and 4K watermark present in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:15"
+  },
+  "OvvaOCiSWis": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) logo and 4K badge are present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:17"
+  },
+  "U7Pd_jmeJGg": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes logo watermark in bottom-left corner",
+    "4K badge overlay in bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:18"
+  },
+  "GxW32a6gUm4": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 11:20"
   }
  },
  "failures": [
@@ -27476,6 +28903,90 @@
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/instagram/work/in-gta-20261125-104843/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03"
+  },
+  {
+   "at": "2026-11-25T17:09:27.410456+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"THE HIGHER YOU\"]}}"
+  },
+  {
+   "at": "2026-11-25T17:51:36.564446+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T18:12:35.121626+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T18:34:43.444474+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T18:55:41.792203+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T19:14:05.955891+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T19:32:29.797712+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T19:54:42.240204+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T20:13:13.484273+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T20:31:41.059687+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T20:51:31.044930+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T21:08:40.185442+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T21:24:37.221445+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-25T21:45:36.029988+05:30",
+   "platform": "instagram",
+   "category": null,
+   "error": "RuntimeError: no clips of a single star player for sports"
   }
  ],
  "vet_rules": "gta-rockstar-v1"

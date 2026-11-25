@@ -1,0 +1,713 @@
+{
+ "platform": "instagram",
+ "made": [
+  "in-gta-20261125-170927"
+ ],
+ "failures": [
+  "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"THE HIGHER YOU\"]}}",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports",
+  "RuntimeError: no clips of a single star player for sports"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 197,
+  "vetted": 23,
+  "rejected": [
+   {
+    "id": "8fSjVrLGa7g",
+    "title": "Die Another Day (2002) 4K - A Hairy, Hunky Bond Escapes! (2/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo watermark in bottom-left corner",
+     "4K channel overlay in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "K4gMFe4Oe04",
+    "title": "Die Another Day (2002) 4K - Rosamund Pike's Cold Betrayal (8/10) | Movieclips",
+    "reasons": [
+     "Channel logo/watermark present in the bottom-left corner of all frames",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "rXli5AhC3Yw",
+    "title": "Die Another Day (2002) 4K - John Cleese's Cutting-Edge Tech (5/10) | Movieclips",
+    "reasons": [
+     "channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "p-FX_7SFSsM",
+    "title": "Hell or High Water (2016) - What Don't You Want? Scene | Movieclips",
+    "reasons": [
+     "channel logo in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "IGSCDqiag3Y",
+    "title": "Below (2002) 4K - Dead Body Prank (4/12) | Movieclips",
+    "reasons": [
+     "channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "6EzvVALTBB0",
+    "title": "Below (2002) 4K - Swimming OUTSIDE The Submarine (7/12) | Movieclips",
+    "reasons": [
+     "Channel watermark (Rotten Tomatoes logo) present in the bottom-left corner.",
+     "Resolution badge ('4K') present in the bottom-left area.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "DJoIGjOya7Y",
+    "title": "Die Another Day (2002) 4K - Halle Berry vs. Rosamund Pike! (10/10) | Movieclips",
+    "reasons": [
+     "Persistent channel logo (Movieclips watermark) in the bottom left corner across frames.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "LqAsaGUyFC8",
+    "title": "Below (2002) 4K - Zach Galifianakis vs. Depth Charges (3/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo (RT) and 4K channel overlay present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Q_TN2Ovcr2g",
+    "title": "Below (2002) 4K - EMERGENCY DIVE! (5/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes watermark present in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "uDBWb1nZEb8",
+    "title": "Below (2002) 4K - Freaky Mirror; Dead Crew (9/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes and 4K channel logos are present in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "8sSxkjeB300",
+    "title": "Die Another Day (2002) 4K - Halle Berry's Iconic Bikini Entrance (3/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo present in bottom left corner",
+     "4K watermark present in bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "7aidi8SPI0o",
+    "title": "Below (2002) 4K - WTF? Anti-Submarine Hooks?! (6/12) | Movieclips",
+    "reasons": [
+     "Channel logo (RT Movieclips) in bottom-left corner",
+     "Watermark (4K overlay) in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "a1GZ2cJmMd4",
+    "title": "Die Another Day (2002) 4K - CRAZY Laser Fight! (7/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) channel logo in bottom-left corner",
+     "4K watermark badge in bottom-left/center area",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "TBQckuyOsug",
+    "title": "Below (2002) 4K - IMPALED BY THE SUBMARINE?! (10/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo present in bottom-left corner",
+     "4K watermark badge present in bottom-left area",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Ka988MzE-bU",
+    "title": "Below (2002) 4K - DIVE, DIVE, DIVE! (1/12) | Movieclips",
+    "reasons": [
+     "Watermark present in the bottom-left corner",
+     "flag:watermark"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "ZtGVEkJmTqw",
+    "title": "Below (2002) 4K - Ghost In The Water (8/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes watermark and 4K resolution badge are present in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "NmxO5hFyCBo",
+    "title": "Die Another Day (2002) 4K - Bond's Hoverboard Chase! (1/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "IzwG6Zz7uv4",
+    "title": "Below (2002) 4K - Going Down With the Ship (12/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo present in the bottom left corner",
+     "4K watermark present in the bottom left area",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "0lUFxjpsAio",
+    "title": "Die Another Day (2002) 4K - Halle Berry Flirts (and a Second Sun?!) (6/10) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes channel logo and 4K watermark present in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "OvvaOCiSWis",
+    "title": "Below (2002) 4K - Sonar Contact, Everybody SHUT UP (2/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) logo and 4K badge are present in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "U7Pd_jmeJGg",
+    "title": "Below (2002) 4K - A Pipe To The FACE (11/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes logo watermark in bottom-left corner",
+     "4K badge overlay in bottom-left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "1W9YPtVIcUw",
+    "title": "Die Another Day (2002) 4K - Bond Surfs a Tsunami! (9/10) | Movieclips",
+    "reasons": [
+     "Persistent channel logo watermark visible in the bottom left corner across all frames",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "GxW32a6gUm4",
+    "title": "Die Another Day (2002) 4K - INTENSE Sword Fight (4/10) | Movieclips",
+    "reasons": [
+     "channel logo present in bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 197,
+  "fallback_used": true,
+  "thin": [
+   "sports"
+  ],
+  "failed_ids": [
+   "DIc8gkrzjzQ",
+   "i9Dx4eg-0M0",
+   "VlhU9OrikSA",
+   "-zd62MxKXp8",
+   "Le3FfVxbjEQ",
+   "3oLh7QPp02Q",
+   "MQstdmVmZU8",
+   "XWISA6cBx34",
+   "7a6gnRvQqHQ",
+   "0G10fR6EGwY",
+   "o1BrK2KWifc",
+   "TAyDe4Jepog",
+   "XIW8e7Xi_l8",
+   "3dWqAyPielA",
+   "YWcobWashmE",
+   "VkmJr0qmwX8",
+   "sO56CyHI5ek",
+   "-9lP95Qo-I0",
+   "Fr3OrTNXR90",
+   "XIW8e7Xi_l8",
+   "Le3FfVxbjEQ",
+   "VkmJr0qmwX8",
+   "VlhU9OrikSA",
+   "Fr3OrTNXR90",
+   "i9Dx4eg-0M0",
+   "DIc8gkrzjzQ",
+   "-9lP95Qo-I0",
+   "o1BrK2KWifc",
+   "0G10fR6EGwY",
+   "MQstdmVmZU8",
+   "TAyDe4Jepog",
+   "7a6gnRvQqHQ",
+   "XWISA6cBx34",
+   "sO56CyHI5ek",
+   "3oLh7QPp02Q",
+   "i9Dx4eg-0M0",
+   "sO56CyHI5ek",
+   "-9lP95Qo-I0",
+   "Le3FfVxbjEQ",
+   "TAyDe4Jepog",
+   "XWISA6cBx34",
+   "MQstdmVmZU8",
+   "0G10fR6EGwY",
+   "VkmJr0qmwX8",
+   "7a6gnRvQqHQ",
+   "Fr3OrTNXR90",
+   "XIW8e7Xi_l8",
+   "VlhU9OrikSA",
+   "3oLh7QPp02Q",
+   "DIc8gkrzjzQ",
+   "nSjU02GjH6o",
+   "o1BrK2KWifc",
+   "-zd62MxKXp8",
+   "o1BrK2KWifc",
+   "VkmJr0qmwX8",
+   "XIW8e7Xi_l8",
+   "sO56CyHI5ek",
+   "VlhU9OrikSA",
+   "0G10fR6EGwY",
+   "Le3FfVxbjEQ",
+   "i9Dx4eg-0M0",
+   "7a6gnRvQqHQ",
+   "3oLh7QPp02Q",
+   "TAyDe4Jepog",
+   "XWISA6cBx34",
+   "MQstdmVmZU8",
+   "-9lP95Qo-I0",
+   "Fr3OrTNXR90",
+   "Le3FfVxbjEQ",
+   "Fr3OrTNXR90",
+   "sO56CyHI5ek",
+   "MQstdmVmZU8",
+   "TAyDe4Jepog",
+   "XWISA6cBx34",
+   "VlhU9OrikSA",
+   "o1BrK2KWifc",
+   "3oLh7QPp02Q",
+   "0G10fR6EGwY",
+   "-9lP95Qo-I0",
+   "7a6gnRvQqHQ",
+   "XIW8e7Xi_l8",
+   "VkmJr0qmwX8",
+   "Fr3OrTNXR90",
+   "Z67MBZTUQ2w",
+   "YWcobWashmE",
+   "3dWqAyPielA",
+   "-9lP95Qo-I0",
+   "XIW8e7Xi_l8",
+   "0G10fR6EGwY",
+   "sO56CyHI5ek",
+   "7a6gnRvQqHQ",
+   "o1BrK2KWifc",
+   "MQstdmVmZU8",
+   "VkmJr0qmwX8",
+   "Le3FfVxbjEQ",
+   "XWISA6cBx34",
+   "XIW8e7Xi_l8",
+   "-zd62MxKXp8",
+   "0G10fR6EGwY",
+   "Le3FfVxbjEQ",
+   "3dWqAyPielA",
+   "MQstdmVmZU8",
+   "VkmJr0qmwX8",
+   "o1BrK2KWifc",
+   "7a6gnRvQqHQ",
+   "Fr3OrTNXR90",
+   "TAyDe4Jepog",
+   "VlhU9OrikSA",
+   "3oLh7QPp02Q",
+   "-9lP95Qo-I0",
+   "XWISA6cBx34",
+   "sO56CyHI5ek",
+   "YWcobWashmE",
+   "0G10fR6EGwY",
+   "YWcobWashmE",
+   "XWISA6cBx34",
+   "Fr3OrTNXR90",
+   "sO56CyHI5ek",
+   "MQstdmVmZU8",
+   "o1BrK2KWifc",
+   "-9lP95Qo-I0",
+   "Z67MBZTUQ2w",
+   "3dWqAyPielA",
+   "XIW8e7Xi_l8",
+   "VkmJr0qmwX8",
+   "Le3FfVxbjEQ",
+   "7a6gnRvQqHQ",
+   "XWISA6cBx34",
+   "Le3FfVxbjEQ",
+   "0G10fR6EGwY",
+   "TAyDe4Jepog",
+   "3dWqAyPielA",
+   "XIW8e7Xi_l8",
+   "VkmJr0qmwX8",
+   "-9lP95Qo-I0",
+   "MQstdmVmZU8",
+   "3oLh7QPp02Q",
+   "VlhU9OrikSA",
+   "sO56CyHI5ek",
+   "o1BrK2KWifc",
+   "Fr3OrTNXR90",
+   "3oLh7QPp02Q",
+   "XIW8e7Xi_l8",
+   "VkmJr0qmwX8",
+   "TAyDe4Jepog",
+   "Fr3OrTNXR90",
+   "7a6gnRvQqHQ",
+   "0G10fR6EGwY",
+   "o1BrK2KWifc",
+   "-9lP95Qo-I0",
+   "sO56CyHI5ek",
+   "VlhU9OrikSA",
+   "MQstdmVmZU8",
+   "Le3FfVxbjEQ",
+   "XWISA6cBx34",
+   "i9Dx4eg-0M0",
+   "LrsoZZ5a1Rc",
+   "Y4jJgc5usC0",
+   "rzhd04I4s2Q",
+   "x42z8NfLZS4",
+   "QDikhiOkw1g",
+   "2mh_ZICm-EU",
+   "LfksKqEfYug",
+   "AWBTVCYHT3Q",
+   "95kBkPcKB64",
+   "VJ5Dz8PbTxk",
+   "fmYSljB4cmQ",
+   "pm8Dz3Eey_Y",
+   "zz_zC7xbhkA",
+   "sO56CyHI5ek",
+   "VkmJr0qmwX8",
+   "7a6gnRvQqHQ",
+   "MQstdmVmZU8",
+   "o1BrK2KWifc",
+   "Fr3OrTNXR90",
+   "XIW8e7Xi_l8",
+   "Z67MBZTUQ2w",
+   "XWISA6cBx34",
+   "0G10fR6EGwY",
+   "-9lP95Qo-I0",
+   "Le3FfVxbjEQ",
+   "VlhU9OrikSA",
+   "MQstdmVmZU8",
+   "TAyDe4Jepog",
+   "3oLh7QPp02Q",
+   "XIW8e7Xi_l8",
+   "VkmJr0qmwX8",
+   "Le3FfVxbjEQ",
+   "Fr3OrTNXR90",
+   "3dWqAyPielA",
+   "sO56CyHI5ek",
+   "XWISA6cBx34",
+   "0G10fR6EGwY",
+   "-9lP95Qo-I0",
+   "YWcobWashmE",
+   "o1BrK2KWifc",
+   "7a6gnRvQqHQ"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.1-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.1-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ]
+}
