@@ -5,6 +5,12 @@
    "at": "2026-11-25T08:02:17.663703+05:30",
    "video": "yo-gta-20261125-070541",
    "platform": "youtube"
+  },
+  {
+   "id": "P02",
+   "at": "2026-11-25T22:27:49.758515+05:30",
+   "video": "yo-gta-20261125-220912",
+   "platform": "youtube"
   }
  ],
  "songs": [
@@ -14,6 +20,13 @@
    "url": "",
    "at": "2026-11-25T08:02:17.663714+05:30",
    "video": "yo-gta-20261125-070541"
+  },
+  {
+   "title": "Miami",
+   "artist": "Will Smith",
+   "url": "https://soundcloud.com/oisin-donavan/will-smith-miami",
+   "at": "2026-11-25T22:27:49.758532+05:30",
+   "video": "yo-gta-20261125-220912"
   }
  ],
  "windows": [
@@ -28,6 +41,12 @@
    "start": 16.27,
    "at": "2026-11-25T08:02:17.663724+05:30",
    "video": "yo-gta-20261125-070541"
+  },
+  {
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 10.47,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912"
   }
  ],
  "sources_used": [
@@ -60,6 +79,36 @@
    "id": "APJ-lT0sBhg",
    "at": "2026-11-25T08:02:17.664007+05:30",
    "video": "yo-gta-20261125-070541"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "at": "2026-11-25T22:27:49.759536+05:30",
+   "video": "yo-gta-20261125-220912"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "at": "2026-11-25T22:27:49.759548+05:30",
+   "video": "yo-gta-20261125-220912"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "at": "2026-11-25T22:27:49.759554+05:30",
+   "video": "yo-gta-20261125-220912"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "at": "2026-11-25T22:27:49.759560+05:30",
+   "video": "yo-gta-20261125-220912"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "at": "2026-11-25T22:27:49.759566+05:30",
+   "video": "yo-gta-20261125-220912"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "at": "2026-11-25T22:27:49.759572+05:30",
+   "video": "yo-gta-20261125-220912"
   }
  ],
  "segments_used": [
@@ -3248,6 +3297,303 @@
    "at": "2026-11-25T08:02:17.663724+05:30",
    "video": "yo-gta-20261125-070541",
    "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 50.06999999999999,
+   "end": 51.03666666666666,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 21.97,
+   "end": 22.97,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 11.469999999999999,
+   "end": 12.436666666666666,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 9.469999999999999,
+   "end": 9.969999999999999,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 6.970000000000001,
+   "end": 7.470000000000001,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 18.27,
+   "end": 19.236666666666668,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 18.57,
+   "end": 19.57,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 13.469999999999999,
+   "end": 14.436666666666664,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 33.37,
+   "end": 34.37,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 23.77,
+   "end": 24.236666666666668,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 9.969999999999999,
+   "end": 10.469999999999999,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 14.57,
+   "end": 15.07,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 10.47,
+   "end": 15.37,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "dialogue"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 5.2700000000000005,
+   "end": 6.2700000000000005,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 27.169999999999998,
+   "end": 27.636666666666663,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 7.37,
+   "end": 7.87,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 10.07,
+   "end": 11.07,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 17.37,
+   "end": 18.33666666666667,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 19.669999999999998,
+   "end": 20.169999999999998,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 18.87,
+   "end": 19.836666666666666,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 15.27,
+   "end": 15.77,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 14.17,
+   "end": 14.67,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 25.77,
+   "end": 26.736666666666668,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 48.97,
+   "end": 49.47,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 20.97,
+   "end": 21.47,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 19.442069067021038,
+   "end": 20.408735733687703,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 12.642069067021039,
+   "end": 13.142069067021039,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 7.651034533510521,
+   "end": 8.151034533510522,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 21.651034533510515,
+   "end": 22.617701200177184,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 15.25103453351052,
+   "end": 15.75103453351052,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 20.04206906702104,
+   "end": 20.508735733687704,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 20.614138134042076,
+   "end": 21.614138134042076,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 22.823103600531553,
+   "end": 23.323103600531553,
+   "at": "2026-11-25T22:27:49.758547+05:30",
+   "video": "yo-gta-20261125-220912",
+   "kind": "montage"
   }
  ],
  "vet": {
@@ -4261,6 +4607,518 @@
      }
     }
    }
+  },
+  {
+   "id": "yo-gta-20261125-220912",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-25T22:27:49.757332+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261125-220912.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261125-220912.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 121.2,
+   "title": "GTA 6 Vice City | Miami Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Miami\" – Will Smith (original recording)\n🔗 Official audio: https://soundcloud.com/oisin-donavan/will-smith-miami\n🎧 Spotify: https://open.spotify.com/search/Will%20Smith%20Miami\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Miami",
+    "artist": "Will Smith",
+    "url": "https://soundcloud.com/oisin-donavan/will-smith-miami",
+    "official_channel": "Oisin Donavan",
+    "spotify_search": "https://open.spotify.com/search/Will%20Smith%20Miami"
+   },
+   "song_credit": "\"Miami\" – Will Smith",
+   "pattern": {
+    "id": "P02",
+    "name": "Beside-upper"
+   },
+   "captions": [
+    "MY COUSIN YUSUF",
+    "HERE KEEPS A",
+    "LIST OF ALL",
+    "THE CARS HE",
+    "WANTS"
+   ],
+   "duration": 28.6,
+   "sources": [
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 28.6
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 5
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-220912.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-220912.preview.mp4"
+  },
+  {
+   "id": "yo-gta-20261125-222749",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-25T22:41:35.453598+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261125-222749.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261125-222749.mp4",
+   "preview_mb": 20.6,
+   "size_mb": 80.7,
+   "title": "GTA 6 Vice City | One Thing Leads to Another Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"One Thing Leads to Another\" – The Fixx (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Fixx%20One%20Thing%20Leads%20to%20Another\n🎬 Footage: Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "One Thing Leads to Another",
+    "artist": "The Fixx",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/The%20Fixx%20One%20Thing%20Leads%20to%20Another"
+   },
+   "song_credit": "\"One Thing Leads to Another\" – The Fixx",
+   "pattern": {
+    "id": "P05",
+    "name": "Stepping up beside"
+   },
+   "captions": [],
+   "duration": 21.03,
+   "sources": [
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 21.03
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.4
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261125-224135",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-25T22:55:00.659664+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261125-224135.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261125-224135.mp4",
+   "preview_mb": 19.8,
+   "size_mb": 82.2,
+   "title": "GTA 6 Vice City | The Message Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"The Message\" – Grandmaster Flash & The Furious Five (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Grandmaster%20Flash%20%26%20The%20Furious%20Five%20The%20Message\n🎬 Footage: Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "The Message",
+    "artist": "Grandmaster Flash & The Furious Five",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Grandmaster%20Flash%20%26%20The%20Furious%20Five%20The%20Message"
+   },
+   "song_credit": "\"The Message\" – Grandmaster Flash & The Furious Five",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 22.13,
+   "sources": [
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 22.13
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.9
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261125-225622",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-25T23:10:33.669855+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261125-225622.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261125-225622.mp4",
+   "preview_mb": 20.8,
+   "size_mb": 82.3,
+   "title": "GTA 6 Vice City | One Thing Leads to Another Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"One Thing Leads to Another\" – The Fixx (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Fixx%20One%20Thing%20Leads%20to%20Another\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "One Thing Leads to Another",
+    "artist": "The Fixx",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/The%20Fixx%20One%20Thing%20Leads%20to%20Another"
+   },
+   "song_credit": "\"One Thing Leads to Another\" – The Fixx",
+   "pattern": {
+    "id": "P06",
+    "name": "Close + nudge to centre"
+   },
+   "captions": [],
+   "duration": 21.03,
+   "sources": [
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 21.03
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.4
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
   }
  ],
  "listing_cache": {
@@ -5223,6 +6081,2899 @@
     "duration": 61,
     "url": "https://www.youtube.com/watch?v=396Qe1T2GVw",
     "channel": "Rockstar Games",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@PlayStation/videos|2026-11-25": [
+   {
+    "id": "pH4wT5kdsC8",
+    "title": "Rayman Legends Retold - Story Trailer | PS5 Games",
+    "duration": 114,
+    "url": "https://www.youtube.com/watch?v=pH4wT5kdsC8",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "2-lmNjsyfos",
+    "title": "NBA 2K27 - Season 3 Trailer | PS5 Games",
+    "duration": 86,
+    "url": "https://www.youtube.com/watch?v=2-lmNjsyfos",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "dbovF0PJOl4",
+    "title": "Arcade Archives Dirt Dash - Out Now | PS5 Games",
+    "duration": 115,
+    "url": "https://www.youtube.com/watch?v=dbovF0PJOl4",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "1NaKZpKM4MA",
+    "title": "The Spell Brigade - Brotato Brigado and The Sinking Murk Launch Trailer | PS5 Games",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=1NaKZpKM4MA",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "7fc-ENn3Js4",
+    "title": "Sunstone of Time - Launch Trailer | PS VR2 Games",
+    "duration": 43,
+    "url": "https://www.youtube.com/watch?v=7fc-ENn3Js4",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "m8Y0a_zn1xk",
+    "title": "Origament: A Paper Adventure - Launch Trailer | PS5 Games",
+    "duration": 63,
+    "url": "https://www.youtube.com/watch?v=m8Y0a_zn1xk",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "L9DeimIaJmA",
+    "title": "Surviving Mars Relaunched - Machine Utopia Release Date Trailer | PS5 Games",
+    "duration": 71,
+    "url": "https://www.youtube.com/watch?v=L9DeimIaJmA",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "Yf19aOaG3fU",
+    "title": "Hela: of Mice & Magic - Playground Deep Dive | PS5 Games",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=Yf19aOaG3fU",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "-wJapkOeArE",
+    "title": "Dead by Daylight - Terrifier Chapter Launch Trailer | PS5 & PS4 Games",
+    "duration": 74,
+    "url": "https://www.youtube.com/watch?v=-wJapkOeArE",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "Ly9NJxllOiY",
+    "title": "Attack on Titan 3 - Explorations Within the Walls Gameplay Video | PS5 Games",
+    "duration": 451,
+    "url": "https://www.youtube.com/watch?v=Ly9NJxllOiY",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "TBzQebgt9Ww",
+    "title": "Tuesday Morning - Official Trailer | PS5 Games",
+    "duration": 89,
+    "url": "https://www.youtube.com/watch?v=TBzQebgt9Ww",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "u7u9yRu1Z1Q",
+    "title": "Stardust: Wish of Witch - Release Date Announcement Trailer | PS5 Games",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=u7u9yRu1Z1Q",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "PQQDar9go9g",
+    "title": "Nioh 3 - Bloody Insurrection DLC Vol. 2 First Look Trailer | PS5 Games",
+    "duration": 77,
+    "url": "https://www.youtube.com/watch?v=PQQDar9go9g",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "Ga7VMwMl_UA",
+    "title": "Marathon - Bishop Shell Cinematic | PS5 & PC Games",
+    "duration": 111,
+    "url": "https://www.youtube.com/watch?v=Ga7VMwMl_UA",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "AzDmwM79cAA",
+    "title": "Gothic 3 Classic - Release Trailer | PS5 Games",
+    "duration": 99,
+    "url": "https://www.youtube.com/watch?v=AzDmwM79cAA",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "c4Gme-OQiak",
+    "title": "Helldivers 2 - Secrets Beneath the Sands | PS5 & PC Games",
+    "duration": 32,
+    "url": "https://www.youtube.com/watch?v=c4Gme-OQiak",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "z0ZJqdrI7q8",
+    "title": "Ace Combat 8: Wings of Theve - Ace Combat Online Season 2 Trailer | PS5 Games",
+    "duration": 103,
+    "url": "https://www.youtube.com/watch?v=z0ZJqdrI7q8",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "plKjdsLwVDA",
+    "title": "A Fold Apart: Recrafted - Launch Trailer | PS5 Games",
+    "duration": 92,
+    "url": "https://www.youtube.com/watch?v=plKjdsLwVDA",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "fDRh01_DLhg",
+    "title": "The Spotter: Dig or Die - Out now! | PS5 Games",
+    "duration": 107,
+    "url": "https://www.youtube.com/watch?v=fDRh01_DLhg",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "vrIuiy_90-Y",
+    "title": "The Floor Above - Launch Trailer | PS5 Games",
+    "duration": 75,
+    "url": "https://www.youtube.com/watch?v=vrIuiy_90-Y",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "qv2ve1vmULY",
+    "title": "Arknights: Endfield - Meeting You in the World o'Shrooms Version Trailer | PS5 Games",
+    "duration": 130,
+    "url": "https://www.youtube.com/watch?v=qv2ve1vmULY",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "Yp3obVgBL6o",
+    "title": "Psycho Dead - Release Date Announcement Trailer | PS5 Games",
+    "duration": 148,
+    "url": "https://www.youtube.com/watch?v=Yp3obVgBL6o",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "TaAUEl4Q1bE",
+    "title": "Stupid Never Dies - Final Trailer | PS5 Games",
+    "duration": 111,
+    "url": "https://www.youtube.com/watch?v=TaAUEl4Q1bE",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "GByr1iCu1_Y",
+    "title": "Perceptum - Gameplay Trailer | PS5 Games",
+    "duration": 75,
+    "url": "https://www.youtube.com/watch?v=GByr1iCu1_Y",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "J2gT7_jI4s4",
+    "title": "Mr Magpie's Harmless Card Game - Launch Date Reveal Trailer | PS5 Games",
+    "duration": 34,
+    "url": "https://www.youtube.com/watch?v=J2gT7_jI4s4",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "sOdmxvqhBq0",
+    "title": "BrokenLore: Don't Play - Horror Game Awards Trailer | PS5 Games",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=sOdmxvqhBq0",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "E03YjOGFKiQ",
+    "title": "Ugly Within - Announcement Trailer | PS5 Games",
+    "duration": 95,
+    "url": "https://www.youtube.com/watch?v=E03YjOGFKiQ",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "E6dUJDCl-ko",
+    "title": "BrokenLore: Miki-Chan - Gameplay Trailer | PS5 Games",
+    "duration": 99,
+    "url": "https://www.youtube.com/watch?v=E6dUJDCl-ko",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "MOsermqqc5c",
+    "title": "Signal Veil - Cast Reveal | PS5 Games",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=MOsermqqc5c",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "OHCrenHN9oo",
+    "title": "Zenless Zone Zero - Version 3.4 Teaser - \"The Finality of the Day\" | PS5 Games",
+    "duration": 188,
+    "url": "https://www.youtube.com/watch?v=OHCrenHN9oo",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "y8Z3oEYOD-o",
+    "title": "Eilean Mor: The Lost Keepers - Announcement Trailer | PS5 Games",
+    "duration": 78,
+    "url": "https://www.youtube.com/watch?v=y8Z3oEYOD-o",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "ykjNhM5tR4I",
+    "title": "Scary Hot Dogs - Launch Trailer | PS VR2 Games",
+    "duration": 81,
+    "url": "https://www.youtube.com/watch?v=ykjNhM5tR4I",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "sW56vhbTjMc",
+    "title": "Epic Roller Coasters - Winx Club Launch Trailer | PS VR2 Games",
+    "duration": 48,
+    "url": "https://www.youtube.com/watch?v=sW56vhbTjMc",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "PYplTYmMEoI",
+    "title": "Grand Theft Auto VI - Out Now! | PS5 Games",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=PYplTYmMEoI",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "mvfEHW66GyM",
+    "title": "Goat Simulator 3 - Ticket to Dizzyworld Launch Trailer | PS5 & PS4 Games",
+    "duration": 100,
+    "url": "https://www.youtube.com/watch?v=mvfEHW66GyM",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "9aCVhYoLZ7s",
+    "title": "Poppy Playtime: Toybox 1 Bundle - Out Now | PS5 Games",
+    "duration": 25,
+    "url": "https://www.youtube.com/watch?v=9aCVhYoLZ7s",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "qE_Mo_g1ckw",
+    "title": "Calame - Gameplay Trailer | PS5 Games",
+    "duration": 141,
+    "url": "https://www.youtube.com/watch?v=qE_Mo_g1ckw",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "yeS7aAxxSDM",
+    "title": "Ranger's Path: National Park Simulator - Full Release Trailer | PS5 Games",
+    "duration": 87,
+    "url": "https://www.youtube.com/watch?v=yeS7aAxxSDM",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "DrmTMGp7O6U",
+    "title": "Hounded - Dev Diary: Meet Duke | PS5 Games",
+    "duration": 215,
+    "url": "https://www.youtube.com/watch?v=DrmTMGp7O6U",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "E2ocAP67VU0",
+    "title": "Popucom - Launch Trailer | PS5 Games",
+    "duration": 64,
+    "url": "https://www.youtube.com/watch?v=E2ocAP67VU0",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "J-Un-ZUq1Js",
+    "title": "Duck Side Of the Moon - Launch Trailer | PS5 Games",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=J-Un-ZUq1Js",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "uzAGtzL0-5Y",
+    "title": "The Blood of Dawnwalker — Update 1.2 with New Game+ | PS5 Games",
+    "duration": 37,
+    "url": "https://www.youtube.com/watch?v=uzAGtzL0-5Y",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "71ep0-aJJMQ",
+    "title": "NBA 2K27 - Meets Vice City Trailer | PS5 Games",
+    "duration": 88,
+    "url": "https://www.youtube.com/watch?v=71ep0-aJJMQ",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "5xGsiOB2nc8",
+    "title": "Crazy Taxi: World Tour - Welcome to India | PS5 Games",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=5xGsiOB2nc8",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "U3vfDjKSOKQ",
+    "title": "Machine Party - Reveal Trailer | PS5 Games",
+    "duration": 67,
+    "url": "https://www.youtube.com/watch?v=U3vfDjKSOKQ",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "Q747LpUuLTA",
+    "title": "Once Human - Season 5: Dissonant Resonance Gameplay Trailer | PS5 Games",
+    "duration": 171,
+    "url": "https://www.youtube.com/watch?v=Q747LpUuLTA",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "Hz9lmh9NBp0",
+    "title": "Fortnite - Treasure Hunters: Week 3 Gameplay Trailer | PS5 & PS4 Games",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=Hz9lmh9NBp0",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "xDfP2DVtNI8",
+    "title": "UEFA Champions League Challenge | PlayStation Tournaments",
+    "duration": 44,
+    "url": "https://www.youtube.com/watch?v=xDfP2DVtNI8",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "eL8FtjEmylI",
+    "title": "Derelikt - Launch Trailer | PS5 Games",
+    "duration": 90,
+    "url": "https://www.youtube.com/watch?v=eL8FtjEmylI",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "fzRshjBCWyU",
+    "title": "Stranger Than Heaven - Act 2: Kure Story Trailer | PS5 Games",
+    "duration": 211,
+    "url": "https://www.youtube.com/watch?v=fzRshjBCWyU",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "6PfsfL50gvg",
+    "title": "Sturmjäger - Co-Op Trailer | PS5 Games",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=6PfsfL50gvg",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "aupPY-1Ir9Q",
+    "title": "Mothergunship: Forge - Launch Trailer | PS VR2 Games",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=aupPY-1Ir9Q",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "pbKZ3IzvB4Q",
+    "title": "Guild Saga: Vanished Worlds - Announcement Trailer | PS5 Games",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=pbKZ3IzvB4Q",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "ANljgCRnrKA",
+    "title": "Bombanana! - Launch Trailer | PS5 Games",
+    "duration": 49,
+    "url": "https://www.youtube.com/watch?v=ANljgCRnrKA",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "Vuv1aC_1cyk",
+    "title": "Naruto To Boruto: Shinobi Striker - Kabuto Yakushi (Sage Mode) DLC Trailer | PS4 Games",
+    "duration": 161,
+    "url": "https://www.youtube.com/watch?v=Vuv1aC_1cyk",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "Ys5914f54mY",
+    "title": "Dragonkin: The Banished - The Harrower Update Trailer | PS5 Games",
+    "duration": 120,
+    "url": "https://www.youtube.com/watch?v=Ys5914f54mY",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "W2DPDjuL7Do",
+    "title": "Microsoft Flight Simulator 2024 - The Airbus A380 | PS5 & PS VR2 Games",
+    "duration": 103,
+    "url": "https://www.youtube.com/watch?v=W2DPDjuL7Do",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "enGnEY2-YTQ",
+    "title": "Ball x Pit - Risen Ballbylon Launch Trailer | PS5 Games",
+    "duration": 35,
+    "url": "https://www.youtube.com/watch?v=enGnEY2-YTQ",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "Gzk-oWaAgIw",
+    "title": "Supermarket Simulator - Launch Trailer | PS5 Games",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=Gzk-oWaAgIw",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "O5CPlL-1rYg",
+    "title": "Bus Simulator 27 - BYD Bus Pack Trailer | PS5 Games",
+    "duration": 76,
+    "url": "https://www.youtube.com/watch?v=O5CPlL-1rYg",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "GX-hxto7Q0A",
+    "title": "Hazard Levels - Launch Trailer | PS5 Games",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=GX-hxto7Q0A",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "YsdViJ1v1fc",
+    "title": "Edge of Memories - Animated Opening | PS5 Games",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=YsdViJ1v1fc",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "-9ffzWW-jhg",
+    "title": "Barbie Rewind - Launch Trailer | PS5 Games",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=-9ffzWW-jhg",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "VQjDInADRMM",
+    "title": "I Am Security - Launch Trailer | PS VR2 Games",
+    "duration": 74,
+    "url": "https://www.youtube.com/watch?v=VQjDInADRMM",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "qLUWYcbddJA",
+    "title": "World War Z - Viral State Launch Trailer | PS5 & PS4 Games",
+    "duration": 85,
+    "url": "https://www.youtube.com/watch?v=qLUWYcbddJA",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "R4Ql9j5O858",
+    "title": "Vindictus: Defying Fate - Game Overview Trailer | PS5 Games",
+    "duration": 201,
+    "url": "https://www.youtube.com/watch?v=R4Ql9j5O858",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "witRjoQP16I",
+    "title": "Rooftops & Alleys: The Parkour Game - Modding Update | PS5 Games",
+    "duration": 56,
+    "url": "https://www.youtube.com/watch?v=witRjoQP16I",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "e2IY4_8WUuQ",
+    "title": "Test Drive Unlimited Solar Crown - Initial D Collaboration Trailer | PS5 Games",
+    "duration": 93,
+    "url": "https://www.youtube.com/watch?v=e2IY4_8WUuQ",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "tFRa1e712Jw",
+    "title": "Where Winds Meet - Hutuo Gameplay Trailer | PS5 Games",
+    "duration": 129,
+    "url": "https://www.youtube.com/watch?v=tFRa1e712Jw",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "pBzUGSI03Xw",
+    "title": "The Road of Dust and Sorrow - Release Date Announcement | PS5 Games",
+    "duration": 96,
+    "url": "https://www.youtube.com/watch?v=pBzUGSI03Xw",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "619N217d480",
+    "title": "Exterminauts - Gameplay Trailer | PS5 Games",
+    "duration": 146,
+    "url": "https://www.youtube.com/watch?v=619N217d480",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "3g39ieG_fls",
+    "title": "Prinny Party: Going Overboard! - Launch Trailer | PS5 Games",
+    "duration": 88,
+    "url": "https://www.youtube.com/watch?v=3g39ieG_fls",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "bOpqPkOlCGA",
+    "title": "Marathon - Symbiosis Gameplay Trailer | PS5 & PC Games",
+    "duration": 156,
+    "url": "https://www.youtube.com/watch?v=bOpqPkOlCGA",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "u81XGvb_OZw",
+    "title": "Clive Barker's Hellraiser: Revival - Demo Trailer | PS5 Games",
+    "duration": 35,
+    "url": "https://www.youtube.com/watch?v=u81XGvb_OZw",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "9qOjJaeKTAQ",
+    "title": "Mistfall Hunter Season 2: Fires of the Past - Launch Trailer | PS5 Games",
+    "duration": 127,
+    "url": "https://www.youtube.com/watch?v=9qOjJaeKTAQ",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "zyxriGmW3BI",
+    "title": "Monster Train 2: The Punished - Launch Trailer | PS5 Games",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=zyxriGmW3BI",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "WjlWK1Wl6dc",
+    "title": "The Outer Worlds 2 - Side Effects Guaranteed Trailer | PS5 Games",
+    "duration": 119,
+    "url": "https://www.youtube.com/watch?v=WjlWK1Wl6dc",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "xQVTlPZILa0",
+    "title": "Armatus - The Ghoul & The Surgeon | PS5 Games",
+    "duration": 228,
+    "url": "https://www.youtube.com/watch?v=xQVTlPZILa0",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "is1iINNnzuw",
+    "title": "Shrek 2 Remastered - Launch Trailer | PS5 Games",
+    "duration": 63,
+    "url": "https://www.youtube.com/watch?v=is1iINNnzuw",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "n0eYRkaw8sc",
+    "title": "Marvel Cosmic Invasion - The Siege of Castle Doom DLC #2 Launch Trailer | PS5 & PS4 Games",
+    "duration": 70,
+    "url": "https://www.youtube.com/watch?v=n0eYRkaw8sc",
+    "channel": "PlayStation",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@Xbox/videos|2026-11-25": [],
+  "https://www.youtube.com/@CDPROJEKTRED/videos|2026-11-25": [
+   {
+    "id": "7FVhwvqDoDo",
+    "title": "AnsweRED Podcast Episode 35 | One Studio, Many Projects: Shared Development Services",
+    "duration": 3383,
+    "url": "https://www.youtube.com/watch?v=7FVhwvqDoDo",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "1J-loxwjo2o",
+    "title": "AnsweRED Podcast Episode 34 | Back to Night City – Cyberpunk: Edgerunners 2",
+    "duration": 3270,
+    "url": "https://www.youtube.com/watch?v=1J-loxwjo2o",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "pHrKr3a_e8s",
+    "title": "AnsweRED Podcast Episode 33 | Growing the Vision: Boston and the Future of Cyberpunk",
+    "duration": 3355,
+    "url": "https://www.youtube.com/watch?v=pHrKr3a_e8s",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "e4TisH_8GAY",
+    "title": "AnsweRED Podcast Episode 32 | Beyond the Feed: Community and Social Media",
+    "duration": 4693,
+    "url": "https://www.youtube.com/watch?v=e4TisH_8GAY",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "2NA6Jt92QGI",
+    "title": "AnsweRED Podcast Episode 31 | People and Purpose: Shaping Studio Culture",
+    "duration": 3970,
+    "url": "https://www.youtube.com/watch?v=2NA6Jt92QGI",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "en_ggVGHWKE",
+    "title": "AnsweRED Podcast Episode 30 | Paths and Possibilities: The Art of Level Design",
+    "duration": 4944,
+    "url": "https://www.youtube.com/watch?v=en_ggVGHWKE",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "v-CXzRJIrTE",
+    "title": "AnsweRED Podcast Episode 29 | Capturing Movement: Performance and Motion Capture",
+    "duration": 4016,
+    "url": "https://www.youtube.com/watch?v=v-CXzRJIrTE",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "Ls6c7bbxP30",
+    "title": "AnsweRED Podcast Episode 28 | More Than Testing: The Truth About Game QA",
+    "duration": 4182,
+    "url": "https://www.youtube.com/watch?v=Ls6c7bbxP30",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "L_GVgLyt99c",
+    "title": "AnsweRED Podcast Episode 27 | From Feedback to Fun: UX Research in Game Development",
+    "duration": 4289,
+    "url": "https://www.youtube.com/watch?v=L_GVgLyt99c",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "dFeLPMAtkEw",
+    "title": "AnsweRED Podcast Episode 26 | Every Frame Tells a Story: Game Animation",
+    "duration": 5152,
+    "url": "https://www.youtube.com/watch?v=dFeLPMAtkEw",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "A-PS6_5hi4M",
+    "title": "AnsweRED Podcast Episode 25 | Beyond the Concept: Giving Life to Characters and Monsters",
+    "duration": 4347,
+    "url": "https://www.youtube.com/watch?v=A-PS6_5hi4M",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "BtsdvPj401Q",
+    "title": "AnsweRED Podcast Episode 24 | Behind Game Dev Hiring — and a New Podcast Host",
+    "duration": 4060,
+    "url": "https://www.youtube.com/watch?v=BtsdvPj401Q",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "CqfhaInWzqY",
+    "title": "AnsweRED Podcast Episode 23 | From Monuments to Video Games: Sculpting Legacy and Inspiration",
+    "duration": 4178,
+    "url": "https://www.youtube.com/watch?v=CqfhaInWzqY",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "L2nqNzq3Puk",
+    "title": "AnsweRED Podcast Episode 22 | The Spider-Verse, VFX Mastery, and the Future of Animation",
+    "duration": 2499,
+    "url": "https://www.youtube.com/watch?v=L2nqNzq3Puk",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "bEEdC9j9TEA",
+    "title": "Explore CD PROJEKT RED’s New Building — Home of The Witcher 4",
+    "duration": 187,
+    "url": "https://www.youtube.com/watch?v=bEEdC9j9TEA",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "EH6Br66QqsI",
+    "title": "AnsweRED Podcast Episode 21 | Exploring Unreal Engine and Game Innovation",
+    "duration": 3029,
+    "url": "https://www.youtube.com/watch?v=EH6Br66QqsI",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "IUNyhbIXG3w",
+    "title": "AnsweRED Podcast Episode 20 | Animating Creativity: 'Alike', Blender, and Teaching the Future",
+    "duration": 2839,
+    "url": "https://www.youtube.com/watch?v=IUNyhbIXG3w",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "FgClt2GCVJo",
+    "title": "AnsweRED Podcast Episode 19 | Crafting Worlds and Spectacles: Art, VFX, and the Future of Film",
+    "duration": 3624,
+    "url": "https://www.youtube.com/watch?v=FgClt2GCVJo",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "6sYilj_DIGc",
+    "title": "AnsweRED Podcast Episode 18 | Celebrating 10 years of The Witcher 3: Wild Hunt",
+    "duration": 3970,
+    "url": "https://www.youtube.com/watch?v=6sYilj_DIGc",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "49XbcCEtkI8",
+    "title": "AnsweRED Podcast Episode 17 | Art Direction in Baldur's Gate 3 & Batman",
+    "duration": 3183,
+    "url": "https://www.youtube.com/watch?v=49XbcCEtkI8",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "rKjiPLNs0nU",
+    "title": "AnsweRED Podcast Episode 16 | From Worldbuilding to Immersion: Crafting Universes in Games",
+    "duration": 3665,
+    "url": "https://www.youtube.com/watch?v=rKjiPLNs0nU",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "ae-CkaX8Ulk",
+    "title": "AnsweRED Podcast Episode 15 | Crafting Emotions with Platige for The Witcher 4 Reveal Trailer",
+    "duration": 4249,
+    "url": "https://www.youtube.com/watch?v=ae-CkaX8Ulk",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "5_ElMtveGjI",
+    "title": "AnsweRED Podcast Episode 14 | Game Production: Insights from The Witcher 4 and Cyberpunk Producers",
+    "duration": 3964,
+    "url": "https://www.youtube.com/watch?v=5_ElMtveGjI",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "p2sVFLhPPYo",
+    "title": "AnsweRED Podcast Episode 13 | AI vs Fine Arts: The Relationship Between Technology and Creativity",
+    "duration": 3286,
+    "url": "https://www.youtube.com/watch?v=p2sVFLhPPYo",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "Wakzx9vVEzE",
+    "title": "AnsweRED Podcast Episode 12 | The Intersection of 2D Animation and 3D Worlds",
+    "duration": 3702,
+    "url": "https://www.youtube.com/watch?v=Wakzx9vVEzE",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "_rpY3FHAB9M",
+    "title": "Annyeong RED! — Let's talk about Korea",
+    "duration": 1311,
+    "url": "https://www.youtube.com/watch?v=_rpY3FHAB9M",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "TwE-Ighpg0A",
+    "title": "AnsweRED Podcast Episode 11 | Navigating the World of Freelance & Big Industry Names",
+    "duration": 3398,
+    "url": "https://www.youtube.com/watch?v=TwE-Ighpg0A",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "gAX3g-ZdnZc",
+    "title": "AnsweRED Podcast Episode 10 | Creating Promised Land Art Festival",
+    "duration": 2936,
+    "url": "https://www.youtube.com/watch?v=gAX3g-ZdnZc",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "VKrNOv7PGvU",
+    "title": "20 Years of CD PROJEKT RED Community — Tales from the Community",
+    "duration": 381,
+    "url": "https://www.youtube.com/watch?v=VKrNOv7PGvU",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "AzMCiiqPLzI",
+    "title": "REDstreams | Celebrating Our Community",
+    "duration": 3677,
+    "url": "https://www.youtube.com/watch?v=AzMCiiqPLzI",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "XvSue_85NCk",
+    "title": "AnsweRED Podcast Episode 9 | The Lore of Two Worlds: Cyberpunk vs. Witcher",
+    "duration": 3977,
+    "url": "https://www.youtube.com/watch?v=XvSue_85NCk",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "r-RdHWqJk1w",
+    "title": "AnsweRED Podcast Episode 8 | The power of Audio in Video Games",
+    "duration": 4331,
+    "url": "https://www.youtube.com/watch?v=r-RdHWqJk1w",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "lHBpEDCZMvo",
+    "title": "AnsweRED Podcast Episode 7 | CD PROJEKT RED in Boston",
+    "duration": 5097,
+    "url": "https://www.youtube.com/watch?v=lHBpEDCZMvo",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "B8YxIdK6mj8",
+    "title": "AnsweRED Podcast Episode 6 | Games as an Art Form",
+    "duration": 3220,
+    "url": "https://www.youtube.com/watch?v=B8YxIdK6mj8",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "r3BlpFMCc1w",
+    "title": "AnsweRED Podcast Episode 5 | Creative Adaptation in Games",
+    "duration": 4046,
+    "url": "https://www.youtube.com/watch?v=r3BlpFMCc1w",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "ArDkrYEC7mk",
+    "title": "It’s All About You! — S02E02: Imbaelk",
+    "duration": 129,
+    "url": "https://www.youtube.com/watch?v=ArDkrYEC7mk",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "rdUOa1WFGd0",
+    "title": "Let's Meet at GDC 2024 |  Alexander Radkevich",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=rdUOa1WFGd0",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "ksyf-SG6-BY",
+    "title": "Let's Meet at GDC 2024 | Paweł Sasko",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=ksyf-SG6-BY",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "eenwa_wMDfc",
+    "title": "Let's Meet at GDC 2024 | Amelia Kołat and Sebastian Siejka",
+    "duration": 44,
+    "url": "https://www.youtube.com/watch?v=eenwa_wMDfc",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "VOu44TP2ACc",
+    "title": "Let's Meet at GDC 2024 | Charles Tremblay",
+    "duration": 50,
+    "url": "https://www.youtube.com/watch?v=VOu44TP2ACc",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "MQNTRP5rKCE",
+    "title": "Let's Meet at GDC 2024 | Magdalena Zych",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=MQNTRP5rKCE",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "DsZkj_jQjB8",
+    "title": "Let's Meet at GDC 2024 | Mathieu Girard",
+    "duration": 49,
+    "url": "https://www.youtube.com/watch?v=DsZkj_jQjB8",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "DYd8RNmMzYg",
+    "title": "Let's Meet at GDC 2024 | Paweł Mielniczuk and Kacper Niepokólczycki",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=DYd8RNmMzYg",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "CsEzh_qLgR8",
+    "title": "Let's Meet at GDC 2024 | Sarah Gruemmer",
+    "duration": 43,
+    "url": "https://www.youtube.com/watch?v=CsEzh_qLgR8",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "76KRUTVWEMo",
+    "title": "Let's Meet at GDC 2024 | Kajetan Kasprowicz",
+    "duration": 46,
+    "url": "https://www.youtube.com/watch?v=76KRUTVWEMo",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "5V9kbLdCmsU",
+    "title": "Let's Meet at GDC 2024 | Ania Bulavina",
+    "duration": 55,
+    "url": "https://www.youtube.com/watch?v=5V9kbLdCmsU",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "eKC361n3iJY",
+    "title": "Let's Meet at GDC 2024 | Colin Walder and Giuseppe Marano",
+    "duration": 52,
+    "url": "https://www.youtube.com/watch?v=eKC361n3iJY",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "Dnmz5Xm13-s",
+    "title": "Let's Meet at GDC 2024 | Karolina Niewęgłowska",
+    "duration": 55,
+    "url": "https://www.youtube.com/watch?v=Dnmz5Xm13-s",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "lBIdHMgogyI",
+    "title": "AnsweRED Podcast Episode 4 | How Do Voice Actors Bring Characters to Life",
+    "duration": 4514,
+    "url": "https://www.youtube.com/watch?v=lBIdHMgogyI",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "UqRdXTyV64s",
+    "title": "AnsweRED Podcast Episode 3 | Does Business Hamper Creativity?",
+    "duration": 3224,
+    "url": "https://www.youtube.com/watch?v=UqRdXTyV64s",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "bphFsoKBMB0",
+    "title": "AnsweRED Podcast Episode 2 | What Makes a Great Quest Great?",
+    "duration": 5612,
+    "url": "https://www.youtube.com/watch?v=bphFsoKBMB0",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "wRi8ddUgRBw",
+    "title": "AnsweRED Podcast Episode 1 | Creating Captivating Stories",
+    "duration": 3892,
+    "url": "https://www.youtube.com/watch?v=wRi8ddUgRBw",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "59A6vpJRlnM",
+    "title": "AnsweRED Podcast  - Welcome to the AnsweRED Podcast",
+    "duration": 83,
+    "url": "https://www.youtube.com/watch?v=59A6vpJRlnM",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "YcK2g06-pXo",
+    "title": "AnsweRED – Episode 9: Przemysław and Olga | Open World",
+    "duration": 587,
+    "url": "https://www.youtube.com/watch?v=YcK2g06-pXo",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "gQwka_lPKp8",
+    "title": "It’s All About You! — S02E01: Nothing to doubt",
+    "duration": 98,
+    "url": "https://www.youtube.com/watch?v=gQwka_lPKp8",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "DPWCnisaIzo",
+    "title": "AnsweRED – Episode 8: Piotr and Maciej | Audio",
+    "duration": 444,
+    "url": "https://www.youtube.com/watch?v=DPWCnisaIzo",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "A4-RaKNWV2s",
+    "title": "AnsweRED – Episode 7: Adam and Sebastian | Head of Studio & Game Director",
+    "duration": 647,
+    "url": "https://www.youtube.com/watch?v=A4-RaKNWV2s",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "s_90UGe0KSA",
+    "title": "Let’s meet at GDC Showcase 2023 | Arkadiusz Antonik - Engineering Director",
+    "duration": 27,
+    "url": "https://www.youtube.com/watch?v=s_90UGe0KSA",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "AKPU5N8Ltts",
+    "title": "AnsweRED – Episode 6: Ben and Kamil | Global Brand Marketing",
+    "duration": 367,
+    "url": "https://www.youtube.com/watch?v=AKPU5N8Ltts",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "YgOExffKMTY",
+    "title": "AnsweRED – Episode 5: Ania and Kacper | Environment Art",
+    "duration": 453,
+    "url": "https://www.youtube.com/watch?v=YgOExffKMTY",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "GPgNTppePAM",
+    "title": "AnsweRED – Episode 4: Miles and Sebastian | Level Design",
+    "duration": 391,
+    "url": "https://www.youtube.com/watch?v=GPgNTppePAM",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "t_1qlLW9GMY",
+    "title": "It's All About You – Episode 12: Nocturne OP55N1",
+    "duration": 103,
+    "url": "https://www.youtube.com/watch?v=t_1qlLW9GMY",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "Uqd1c1sgfFc",
+    "title": "Let’s meet at GDC 2023 | Charles Tremblay - VP of Technology",
+    "duration": 48,
+    "url": "https://www.youtube.com/watch?v=Uqd1c1sgfFc",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "Mr0SvSLgIxw",
+    "title": "Let’s meet at GDC 2023 | Colin Walder - Engineering Director",
+    "duration": 37,
+    "url": "https://www.youtube.com/watch?v=Mr0SvSLgIxw",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "Mbs-Vk2h-og",
+    "title": "AnsweRED – Episode 3: Gabi and Dilara | Brand Creative",
+    "duration": 404,
+    "url": "https://www.youtube.com/watch?v=Mbs-Vk2h-og",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "qTrc1aTPN-s",
+    "title": "Let’s meet at GDC 2023 | Marek Bielawski - Senior Audio Programmer",
+    "duration": 46,
+    "url": "https://www.youtube.com/watch?v=qTrc1aTPN-s",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "Fia55GNgi54",
+    "title": "Let’s meet at GDC 2023 | Paweł Sasko - Quest Director",
+    "duration": 32,
+    "url": "https://www.youtube.com/watch?v=Fia55GNgi54",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "uTEtAsSONQI",
+    "title": "Let’s meet at GDC 2023 | Mikołaj Szwed - Localization Director & Tommi Nykopp - Engineering Manager",
+    "duration": 63,
+    "url": "https://www.youtube.com/watch?v=uTEtAsSONQI",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "PNZtbeSTl6I",
+    "title": "Let's meet at GDC 2023 | Kajetan Kasprowicz – Cinematic Designer",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=PNZtbeSTl6I",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "Zad2j1Obg00",
+    "title": "Let's meet at GDC 2023 | Kacper Niepokólczycki – Lead Environment Artist",
+    "duration": 53,
+    "url": "https://www.youtube.com/watch?v=Zad2j1Obg00",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "lU8BjH2-jrA",
+    "title": "AnsweRED – Episode 2: Kajetan and Maciej | Cinematics",
+    "duration": 365,
+    "url": "https://www.youtube.com/watch?v=lU8BjH2-jrA",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "FAORj1AdwnA",
+    "title": "Let's meet at GDC 2023 | Miles Tost – Lead Level Designer",
+    "duration": 53,
+    "url": "https://www.youtube.com/watch?v=FAORj1AdwnA",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "sokrgt-9CEw",
+    "title": "It's All About You – Episode 11: Back on the Path",
+    "duration": 137,
+    "url": "https://www.youtube.com/watch?v=sokrgt-9CEw",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "CbnllFPQGMw",
+    "title": "AnsweRED – Episode 1: Colin and Piotr | Engineering",
+    "duration": 343,
+    "url": "https://www.youtube.com/watch?v=CbnllFPQGMw",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "hVf0Xy6gn4A",
+    "title": "It's All About You – Episode 10: Stay At Your House",
+    "duration": 146,
+    "url": "https://www.youtube.com/watch?v=hVf0Xy6gn4A",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "BJKWjc_ht_E",
+    "title": "Lucca Comics and Games 2022 | The Aftermovie",
+    "duration": 215,
+    "url": "https://www.youtube.com/watch?v=BJKWjc_ht_E",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "GceQyxIssE8",
+    "title": "20 years of CD PROJEKT RED",
+    "duration": 1087,
+    "url": "https://www.youtube.com/watch?v=GceQyxIssE8",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "F_V4SsILPcA",
+    "title": "It's All About You – Episode 9: Dream On!",
+    "duration": 134,
+    "url": "https://www.youtube.com/watch?v=F_V4SsILPcA",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "hr2aj_XtboY",
+    "title": "20 years of CD PROJEKT RED: Anniversary Streams — GWENT: Rogue Mage",
+    "duration": 3753,
+    "url": "https://www.youtube.com/watch?v=hr2aj_XtboY",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   },
+   {
+    "id": "pm_R7MnRT2I",
+    "title": "20 years of CD PROJEKT RED: Anniversary Streams — Cyberpunk 2077",
+    "duration": 3348,
+    "url": "https://www.youtube.com/watch?v=pm_R7MnRT2I",
+    "channel": "CD PROJEKT RED",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@CallofDuty/videos|2026-11-25": [
+   {
+    "id": "XjWvcBTbwCo",
+    "title": "Creating a Mode + Medal of Honor Recipient Kyle Carpenter | COD POD Ep. 13",
+    "duration": 2134,
+    "url": "https://www.youtube.com/watch?v=XjWvcBTbwCo",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "bIqyYMTN0aA",
+    "title": "Call of Duty: Modern Warfare 4 | Season 1 DMZ Intelligence Briefing Trailer",
+    "duration": 64,
+    "url": "https://www.youtube.com/watch?v=bIqyYMTN0aA",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "iOfYGojxFE0",
+    "title": "Call of Duty: Warzone | Hajin Conflict | Season 1 Launch Trailer",
+    "duration": 152,
+    "url": "https://www.youtube.com/watch?v=iOfYGojxFE0",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "yyE83Qn_T8I",
+    "title": "From Launch to Live - From The Ward Ep. 8 (Series Finale) | MW4",
+    "duration": 970,
+    "url": "https://www.youtube.com/watch?v=yyE83Qn_T8I",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "nemUC34Q2hQ",
+    "title": "Call of Duty: Modern Warfare 4 | Season 1 Launch Trailer",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=nemUC34Q2hQ",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "oiGCr8pklMg",
+    "title": "Call of Duty: Modern Warfare 4 | Accolades Trailer",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=oiGCr8pklMg",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "LtHK15qClkU",
+    "title": "Call of Duty Endowment (C.O.D.E.) Valor Pack",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=LtHK15qClkU",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "X2thjvAu23E",
+    "title": "Calm. Forward. Relentless. - Forged in Valor Ep. 3",
+    "duration": 207,
+    "url": "https://www.youtube.com/watch?v=X2thjvAu23E",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "B6knlnOCGv4",
+    "title": "Built to Endure - Forged in Valor Ep. 2",
+    "duration": 329,
+    "url": "https://www.youtube.com/watch?v=B6knlnOCGv4",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "tTKfKjWpxmA",
+    "title": "The Man Behind the Medal - Forged in Valor Ep. 1",
+    "duration": 334,
+    "url": "https://www.youtube.com/watch?v=tTKfKjWpxmA",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "cqVHSmKuV_E",
+    "title": "Barry Sloane & María Elisa Camargo Bring MW4’s Price and Valeria Garza to Life | COD POD Ep 12",
+    "duration": 2452,
+    "url": "https://www.youtube.com/watch?v=cqVHSmKuV_E",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "N9zgRhM7YdM",
+    "title": "Coming Soon - Forged in Valor",
+    "duration": 42,
+    "url": "https://www.youtube.com/watch?v=N9zgRhM7YdM",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "SV5vKAAkQkQ",
+    "title": "Call of Duty: Modern Warfare 4 | DMZ Early Access Gameplay Trailer",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=SV5vKAAkQkQ",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "UOBzK6UaOtA",
+    "title": "Call of Duty: Modern Warfare 4 | DMZ Bounty Systems",
+    "duration": 105,
+    "url": "https://www.youtube.com/watch?v=UOBzK6UaOtA",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "jJ35S0s1Gtw",
+    "title": "Call of Duty: Modern Warfare 4 | DMZ Story Missions",
+    "duration": 73,
+    "url": "https://www.youtube.com/watch?v=jJ35S0s1Gtw",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "DLGc9WYbIyE",
+    "title": "Call of Duty: Modern Warfare 4 | DMZ Progression",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=DLGc9WYbIyE",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "3SDjdkTp4HI",
+    "title": "Call of Duty: Modern Warfare 4 | DMZ Dynamic Ops",
+    "duration": 86,
+    "url": "https://www.youtube.com/watch?v=3SDjdkTp4HI",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "5VVW6Z6fZcY",
+    "title": "DMZ: Addition By Extraction - From The Ward Ep. 7 | MW4",
+    "duration": 958,
+    "url": "https://www.youtube.com/watch?v=5VVW6Z6fZcY",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "ivVCmP9I_Lo",
+    "title": "Call of Duty: Modern Warfare 4 | DMZ Worldbuilder Trailer",
+    "duration": 148,
+    "url": "https://www.youtube.com/watch?v=ivVCmP9I_Lo",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "nYN3MPRuznU",
+    "title": "Combatting Wallhacks with Server Culling | Call of Duty Modern Warfare 4",
+    "duration": 77,
+    "url": "https://www.youtube.com/watch?v=nYN3MPRuznU",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "OGpH751r3jA",
+    "title": "콜 오브 듀티 모던 워페어 사  |  희생",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=OGpH751r3jA",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "zuzBlGUDxx4",
+    "title": "Call of Duty: Modern Warfare 4 | Official PC Trailer in Ultrawide & HDR",
+    "duration": 123,
+    "url": "https://www.youtube.com/watch?v=zuzBlGUDxx4",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "cKExoO-Gq64",
+    "title": "Call of Duty x DOOM Event Pass Trailer | Black Ops 7 & Warzone",
+    "duration": 26,
+    "url": "https://www.youtube.com/watch?v=cKExoO-Gq64",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "yLFRQaQT0qM",
+    "title": "Call of Duty: Modern Warfare 4 | Campaign Trailer",
+    "duration": 153,
+    "url": "https://www.youtube.com/watch?v=yLFRQaQT0qM",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "tmCV1hj6z5Y",
+    "title": "Call of Duty: Modern Warfare | A Narrative Recap",
+    "duration": 144,
+    "url": "https://www.youtube.com/watch?v=tmCV1hj6z5Y",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "8AsIiHK2Q6k",
+    "title": "Season 06 Multiplayer Maps | Call of Duty: Black Ops 7",
+    "duration": 43,
+    "url": "https://www.youtube.com/watch?v=8AsIiHK2Q6k",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "jWcjHH5g6IA",
+    "title": "The Haunting Launch Trailer | Call of Duty: Warzone & Black Ops 7",
+    "duration": 133,
+    "url": "https://www.youtube.com/watch?v=jWcjHH5g6IA",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "oTUB9AeH9Rc",
+    "title": "Call of Duty Modern Warfare 4 Campaign First Look - Stranded",
+    "duration": 38,
+    "url": "https://www.youtube.com/watch?v=oTUB9AeH9Rc",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "k1zRdIxiO3I",
+    "title": "Zodiac New Call of Duty: Warzone Resurgence Map | Playable in Weekend 2 Modern Warfare 4 Beta",
+    "duration": 24,
+    "url": "https://www.youtube.com/watch?v=k1zRdIxiO3I",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "qeFVhw4YNbM",
+    "title": "Call of Duty: Modern Warfare 4 | Multiplayer Trailer",
+    "duration": 180,
+    "url": "https://www.youtube.com/watch?v=qeFVhw4YNbM",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "VGQoDkezJ0Y",
+    "title": "Call of Duty Modern Warfare 4 Beta Weekend One First Look",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=VGQoDkezJ0Y",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "GLhNXlrUrvQ",
+    "title": "TPM 2.0 and Secure Boot PC Tutorial | Call of Duty Modern Warfare 4",
+    "duration": 276,
+    "url": "https://www.youtube.com/watch?v=GLhNXlrUrvQ",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "qqf2T1ctbAM",
+    "title": "Call of Duty Modern Warfare 4 Campaign First Look - Entrenched | Playable in the MW4 Beta",
+    "duration": 32,
+    "url": "https://www.youtube.com/watch?v=qqf2T1ctbAM",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "uHzq830dd7Y",
+    "title": "Rex Infernus Zombies Trailer | Call of Duty: Black Ops 7",
+    "duration": 112,
+    "url": "https://www.youtube.com/watch?v=uHzq830dd7Y",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "2VugSq0Hmxk",
+    "title": "Rex Infernus Cinematic - Season 05 Reloaded Zombies | Call of Duty: Black Ops 7",
+    "duration": 98,
+    "url": "https://www.youtube.com/watch?v=2VugSq0Hmxk",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "BrNglFVnMMw",
+    "title": "Call of Duty Modern Warfare 4 Campaign First Look - Traffic",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=BrNglFVnMMw",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "cDs27H1CdAU",
+    "title": "Kill Block at Fanatics Fest - From The Ward Ep. 6 | MW4",
+    "duration": 588,
+    "url": "https://www.youtube.com/watch?v=cDs27H1CdAU",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "gbujB-AZzko",
+    "title": "Call of Duty Modern Warfare 4 Campaign First Look - Losing Ground",
+    "duration": 29,
+    "url": "https://www.youtube.com/watch?v=gbujB-AZzko",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "5hIMlQBrGDw",
+    "title": "Season 05 Multiplayer Maps | Call of Duty: Black Ops 7",
+    "duration": 49,
+    "url": "https://www.youtube.com/watch?v=5hIMlQBrGDw",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "4P_7B40c7KA",
+    "title": "Season 05 BlackCell Battle Pass Upgrade | Call of Duty: Warzone & Black Ops 7",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=4P_7B40c7KA",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "j_F2jgnQVcE",
+    "title": "Modern Warfare 4 Kill Block Hype Cut feat. Ca$ino by Baby Keem",
+    "duration": 150,
+    "url": "https://www.youtube.com/watch?v=j_F2jgnQVcE",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "0UCmCkIDANU",
+    "title": "Victory is Universal | Black Ops 7 and Call of Duty: Warzone",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=0UCmCkIDANU",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "JPA3om2ln04",
+    "title": "Call of Duty: Modern Warfare 4 | Aston Martin Dreadnought Reveal",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=JPA3om2ln04",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "hcMEBicsxIU",
+    "title": "Crafting the Weapons of Modern Warfare 4 - From The Ward Ep. 5 | MW4",
+    "duration": 637,
+    "url": "https://www.youtube.com/watch?v=hcMEBicsxIU",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "SJt5bbgQ-TQ",
+    "title": "Call of Duty: Modern Warfare 4 | Welcome To Kill Block",
+    "duration": 25,
+    "url": "https://www.youtube.com/watch?v=SJt5bbgQ-TQ",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "kfDcQB6KPME",
+    "title": "Season 05 Launch Trailer | Call of Duty: Warzone & Black Ops 7",
+    "duration": 87,
+    "url": "https://www.youtube.com/watch?v=kfDcQB6KPME",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "M-bfz-il35g",
+    "title": "Season 04 Reloaded Multiplayer Maps | Call of Duty: Black Ops 7",
+    "duration": 36,
+    "url": "https://www.youtube.com/watch?v=M-bfz-il35g",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "yIgDOdumUc0",
+    "title": "Kowakujō Zombies Trailer | Call of Duty: Black Ops 7",
+    "duration": 103,
+    "url": "https://www.youtube.com/watch?v=yIgDOdumUc0",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "W824eTd2bFc",
+    "title": "S04 Reloaded ‘Summer of Action’ Trailer | Call of Duty: Black Ops 7 & Call of Duty: Warzone",
+    "duration": 64,
+    "url": "https://www.youtube.com/watch?v=W824eTd2bFc",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "-hOXQfWyYIA",
+    "title": "Kowakujō Cinematic | Call of Duty: Black Ops 7",
+    "duration": 100,
+    "url": "https://www.youtube.com/watch?v=-hOXQfWyYIA",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "qmkmQ1AWPVE",
+    "title": "DMZ First Look | COD POD Ep. 11 w/ Infinity Ward | Call of Duty: Modern Warfare 4",
+    "duration": 2344,
+    "url": "https://www.youtube.com/watch?v=qmkmQ1AWPVE",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "iP5sQzgMUqo",
+    "title": "Season 04 BlackCell Trailer | Black Ops 7 and Call of Duty: Warzone",
+    "duration": 51,
+    "url": "https://www.youtube.com/watch?v=iP5sQzgMUqo",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "59AgHBmGozI",
+    "title": "Season 04 Launch Trailer | Call of Duty: Warzone & Black Ops 7",
+    "duration": 102,
+    "url": "https://www.youtube.com/watch?v=59AgHBmGozI",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "L40tBfKiyww",
+    "title": "Sounds of Warfare - From The Ward Ep. 4 | MW4",
+    "duration": 273,
+    "url": "https://www.youtube.com/watch?v=L40tBfKiyww",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "3V6Y591Zrkg",
+    "title": "Call of Duty: Modern Warfare 4 | Key Art Behind The Scenes",
+    "duration": 71,
+    "url": "https://www.youtube.com/watch?v=3V6Y591Zrkg",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "28yybXEERCg",
+    "title": "Call of Duty: Modern Warfare 4 | Vault Edition Trailer",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=28yybXEERCg",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "M0AgFnqaeoo",
+    "title": "The Art of Ghost  - From The Ward Ep. 3 | MW4",
+    "duration": 545,
+    "url": "https://www.youtube.com/watch?v=M0AgFnqaeoo",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "NKvnPNzqqTk",
+    "title": "Philosophy of Multiplayer - From The Ward Ep. 2  | MW4",
+    "duration": 521,
+    "url": "https://www.youtube.com/watch?v=NKvnPNzqqTk",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "J4O6xQOXLIs",
+    "title": "A New Chapter of Modern Warfare - From The Ward Ep. 1 | MW4",
+    "duration": 545,
+    "url": "https://www.youtube.com/watch?v=J4O6xQOXLIs",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "jLbst85USN8",
+    "title": "Call of Duty: Modern Warfare 4 | Reveal Trailer",
+    "duration": 170,
+    "url": "https://www.youtube.com/watch?v=jLbst85USN8",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "1QZ7pMRBASs",
+    "title": "Season 04 Story Cinematic | Call of Duty: Black Ops 7",
+    "duration": 80,
+    "url": "https://www.youtube.com/watch?v=1QZ7pMRBASs",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "061JRPXxcDs",
+    "title": "Rapid-fire with Infinity Ward’s Studio Heads | COD POD: Off Duty Ep. 002",
+    "duration": 877,
+    "url": "https://www.youtube.com/watch?v=061JRPXxcDs",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "xQ0hR2dczGM",
+    "title": "Making the Music of Zombies | COD POD: Off Duty Ep. 001 ft. Kevin Sherwood",
+    "duration": 2352,
+    "url": "https://www.youtube.com/watch?v=xQ0hR2dczGM",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "wCKP3JW7Mrk",
+    "title": "Season 03 Reloaded Modes Trailer | Call of Duty: Warzone & Black Ops 7",
+    "duration": 46,
+    "url": "https://www.youtube.com/watch?v=wCKP3JW7Mrk",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "Z77-fgRP6mo",
+    "title": "Totenreich Gameplay Trailer | Call of Duty: Black Ops 7 Zombies",
+    "duration": 90,
+    "url": "https://www.youtube.com/watch?v=Z77-fgRP6mo",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "C-0RAVoCD8U",
+    "title": "Totenreich Cinematic | Call of Duty: Black Ops 7 Zombies",
+    "duration": 88,
+    "url": "https://www.youtube.com/watch?v=C-0RAVoCD8U",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "FsHJPuZL4YQ",
+    "title": "Season 03 Free Trial Trailer | Call of Duty: Black Ops 7",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=FsHJPuZL4YQ",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "3f1CYOk0BwA",
+    "title": "Season 03 BlackCell Battle Pass Upgrade | Call of Duty: Warzone & Black Ops 7",
+    "duration": 72,
+    "url": "https://www.youtube.com/watch?v=3f1CYOk0BwA",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "_bjlynGrtgY",
+    "title": "Season 03 Multiplayer Maps | Call of Duty: Black Ops 7",
+    "duration": 90,
+    "url": "https://www.youtube.com/watch?v=_bjlynGrtgY",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "DGibdlrwYMg",
+    "title": "Season 03 Launch Trailer | Call of Duty: Warzone & Black Ops 7",
+    "duration": 116,
+    "url": "https://www.youtube.com/watch?v=DGibdlrwYMg",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "SSYsnSiReKM",
+    "title": "Season 03 Story Cinematic | Call of Duty: Black Ops 7",
+    "duration": 117,
+    "url": "https://www.youtube.com/watch?v=SSYsnSiReKM",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "FHtGmVVQGYk",
+    "title": "New Avalon POI Flythrough | Call of Duty: Warzone",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=FHtGmVVQGYk",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "XongtZXPfao",
+    "title": "Black Ops Royale First Gameplay Is Here (Team JoeWo vs Team Repullze) | COD POD Ep. 10",
+    "duration": 2722,
+    "url": "https://www.youtube.com/watch?v=XongtZXPfao",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "MAb3p7Gebog",
+    "title": "How to Play Black Ops Royale | Call of Duty: Warzone",
+    "duration": 92,
+    "url": "https://www.youtube.com/watch?v=MAb3p7Gebog",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "3Gx6xK9zX-s",
+    "title": "Season 02 Reloaded Multiplayer Maps | Call of Duty: Black Ops 7",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=3Gx6xK9zX-s",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "5RYgd3Cm-rg",
+    "title": "COD X Triumph | Call of Duty: Warzone & Black Ops 7",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=5RYgd3Cm-rg",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "-vEtqH2RN1s",
+    "title": "Paradox Junction Gameplay Trailer | Call of Duty: Black Ops 7 Zombies",
+    "duration": 83,
+    "url": "https://www.youtube.com/watch?v=-vEtqH2RN1s",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "SIZI5bfjsUI",
+    "title": "Black Ops Royale Developer Briefing Intel Drop | Call of Duty: Warzone",
+    "duration": 302,
+    "url": "https://www.youtube.com/watch?v=SIZI5bfjsUI",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "orSc3zHP6-g",
+    "title": "Black Ops Royale Launch Trailer | Call of Duty: Warzone",
+    "duration": 138,
+    "url": "https://www.youtube.com/watch?v=orSc3zHP6-g",
+    "channel": "Call of Duty",
+    "verified": true
+   },
+   {
+    "id": "D5WTHS5Cnnk",
+    "title": "Paradox Junction Cinematic | Call of Duty: Black Ops 7 Zombies",
+    "duration": 128,
+    "url": "https://www.youtube.com/watch?v=D5WTHS5Cnnk",
+    "channel": "Call of Duty",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@Ubisoft/videos|2026-11-25": [
+   {
+    "id": "S3AqMNf_2Hg",
+    "title": "The Division 2: Spearfall Season - Dev Diary",
+    "duration": 370,
+    "url": "https://www.youtube.com/watch?v=S3AqMNf_2Hg",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "hXLrSLQVv9w",
+    "title": "Rayman Legends Retold - Story Trailer",
+    "duration": 112,
+    "url": "https://www.youtube.com/watch?v=hXLrSLQVv9w",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "CWm9cVjrPNk",
+    "title": "The Division 2: Spearfall - Official Launch Trailer",
+    "duration": 95,
+    "url": "https://www.youtube.com/watch?v=CWm9cVjrPNk",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "I7y4fKS8ZAE",
+    "title": "The Crew Motorfest: Lara Croft's Garage Reward",
+    "duration": 42,
+    "url": "https://www.youtube.com/watch?v=I7y4fKS8ZAE",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "YO8r9GHDULM",
+    "title": "Anno 117: Pax Romana - Dawn of the Delta & Update 3.0 Overview",
+    "duration": 554,
+    "url": "https://www.youtube.com/watch?v=YO8r9GHDULM",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "Bw8Kl8TUS0o",
+    "title": "For Honor: Content Of The Week - November 19",
+    "duration": 27,
+    "url": "https://www.youtube.com/watch?v=Bw8Kl8TUS0o",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "012X9c9ViDw",
+    "title": "Heroes of Might and Magic III Remake - Closed Playtest Trailer",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=012X9c9ViDw",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "N056DTwmxgA",
+    "title": "For Honor: Content Of The Week - November 12",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=N056DTwmxgA",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "X2QEJDOFjY0",
+    "title": "The Crew Motorfest - Cadillac CT5-V Blackwing Trailer",
+    "duration": 46,
+    "url": "https://www.youtube.com/watch?v=X2QEJDOFjY0",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "PFZFU9ImI5k",
+    "title": "Anno 117: Pax Romana - Dawn of the Delta Launch Trailer",
+    "duration": 230,
+    "url": "https://www.youtube.com/watch?v=PFZFU9ImI5k",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "cUeQ0dbbvLo",
+    "title": "The Division 2: Echoes of Central Park - Launch Trailer",
+    "duration": 92,
+    "url": "https://www.youtube.com/watch?v=cUeQ0dbbvLo",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "1KWGHZ26T3g",
+    "title": "The Crew Motorfest: Ivory Tower Ogmios Radiant Ed.",
+    "duration": 40,
+    "url": "https://www.youtube.com/watch?v=1KWGHZ26T3g",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "Hg9oGOwrJ_M",
+    "title": "The Division 2: New Horror Twist, Endgame, and Skill Variants",
+    "duration": 342,
+    "url": "https://www.youtube.com/watch?v=Hg9oGOwrJ_M",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "rnvKOp-Xajc",
+    "title": "Rayman Legends Retold - Astro Bot Outfit Trailer",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=rnvKOp-Xajc",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "5hBZ9H-Dhfc",
+    "title": "For Honor: Content Of The Week - October 22",
+    "duration": 227,
+    "url": "https://www.youtube.com/watch?v=5hBZ9H-Dhfc",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "rRCvZ7tbMPA",
+    "title": "Rayman Legends Retold - Baguette Outfits Trailer",
+    "duration": 25,
+    "url": "https://www.youtube.com/watch?v=rRCvZ7tbMPA",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "jVJoNF8RRqE",
+    "title": "Riders Republic: Nintendo Switch 2 Announcement",
+    "duration": 69,
+    "url": "https://www.youtube.com/watch?v=jVJoNF8RRqE",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "-znFlz_m67g",
+    "title": "The Crew Motorfest: Lamborghini Huracán Sterrato",
+    "duration": 53,
+    "url": "https://www.youtube.com/watch?v=-znFlz_m67g",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "-GJRV4FteX0",
+    "title": "40 years of Passion, Tech and Creativity at play",
+    "duration": 301,
+    "url": "https://www.youtube.com/watch?v=-GJRV4FteX0",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "l6sNtXZCfmc",
+    "title": "Riders Republic: 5th Anniversary Teaser featuring Henri PFR",
+    "duration": 29,
+    "url": "https://www.youtube.com/watch?v=l6sNtXZCfmc",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "tYGJG5DMJrY",
+    "title": "For Honor: The Bloodletting Halloween Trailer",
+    "duration": 88,
+    "url": "https://www.youtube.com/watch?v=tYGJG5DMJrY",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "xJSq0A4DWww",
+    "title": "For Honor: Content Of The Week - October 15",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=xJSq0A4DWww",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "ZEyQm76ySbE",
+    "title": "The Crew Motorfest: Bugatti Tourbillon",
+    "duration": 67,
+    "url": "https://www.youtube.com/watch?v=ZEyQm76ySbE",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "EN5Lc6tI9Jw",
+    "title": "The Division 2: Red Moon Unleashed Event Teaser",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=EN5Lc6tI9Jw",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "-TrFpEuWgOM",
+    "title": "The Crew Motorfest: Tomb Raider RC",
+    "duration": 34,
+    "url": "https://www.youtube.com/watch?v=-TrFpEuWgOM",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "v9wOZ8cVvp0",
+    "title": "The Crew Motorfest: Hyundai Crater Concept",
+    "duration": 50,
+    "url": "https://www.youtube.com/watch?v=v9wOZ8cVvp0",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "Lue0PiP7LCY",
+    "title": "For Honor: Content Of The Week - October 8",
+    "duration": 92,
+    "url": "https://www.youtube.com/watch?v=Lue0PiP7LCY",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "IhjCbB0vtNM",
+    "title": "The Crew Motorfest: Nintendo Switch 2 Launch Trailer",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=IhjCbB0vtNM",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "wo-neUPxKoA",
+    "title": "March of Giants | Official Premiere – Pioneer Playtest",
+    "duration": 2117,
+    "url": "https://www.youtube.com/watch?v=wo-neUPxKoA",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "j1Rd1HsUbjA",
+    "title": "Riders Republic: Season 20 Launch Trailer",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=j1Rd1HsUbjA",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "AZEtxljPsbY",
+    "title": "The Crew Motorfest: SEASON 11 EXPEDITIONS LAUNCH TRAILER",
+    "duration": 132,
+    "url": "https://www.youtube.com/watch?v=AZEtxljPsbY",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "bHRnX6xZA3I",
+    "title": "Skull and Bones: Valhalla's Call Ship Skin Trailer",
+    "duration": 29,
+    "url": "https://www.youtube.com/watch?v=bHRnX6xZA3I",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "Hu-wzPdgZ4g",
+    "title": "Morbid Metal - Kaizu Trailer",
+    "duration": 42,
+    "url": "https://www.youtube.com/watch?v=Hu-wzPdgZ4g",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "PzrjUWOkmTA",
+    "title": "For Honor: Content Of The Week - October 1",
+    "duration": 92,
+    "url": "https://www.youtube.com/watch?v=PzrjUWOkmTA",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "voabt1Y3tmY",
+    "title": "Trackmania Fall 2026",
+    "duration": 48,
+    "url": "https://www.youtube.com/watch?v=voabt1Y3tmY",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "7E7zCUZO4yc",
+    "title": "For Honor: Return of the Otherworld Throwback Event Trailer",
+    "duration": 71,
+    "url": "https://www.youtube.com/watch?v=7E7zCUZO4yc",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "KaMmnHzkBtk",
+    "title": "The Crew Motorfest: Tomb Raider: Secrets of Ni’ihau Trailer",
+    "duration": 138,
+    "url": "https://www.youtube.com/watch?v=KaMmnHzkBtk",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "GM7AU-gd8Mc",
+    "title": "UNO™: FLEX DLC Launch Trailer",
+    "duration": 48,
+    "url": "https://www.youtube.com/watch?v=GM7AU-gd8Mc",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "Ng0Mo6odVt8",
+    "title": "40 Years, Countless Player Stories | Community Memories Compilation",
+    "duration": 121,
+    "url": "https://www.youtube.com/watch?v=Ng0Mo6odVt8",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "J8cZJeSnYjE",
+    "title": "The Division 2: Echoes of Central Park Showcase",
+    "duration": 1190,
+    "url": "https://www.youtube.com/watch?v=J8cZJeSnYjE",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "E4zUvfg32c0",
+    "title": "The Division 2: Echoes of Central Park DLC - Gameplay Overview",
+    "duration": 241,
+    "url": "https://www.youtube.com/watch?v=E4zUvfg32c0",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "wML2lyl42sA",
+    "title": "The Division 2: Echoes of Central Park DLC - Announce Trailer",
+    "duration": 120,
+    "url": "https://www.youtube.com/watch?v=wML2lyl42sA",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "YF3TawfltPs",
+    "title": "The Crew Motorfest: YEAR 4 DEEP DIVE",
+    "duration": 674,
+    "url": "https://www.youtube.com/watch?v=YF3TawfltPs",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "w3JsAX5cuho",
+    "title": "Rayman Legends Retold - Game Overview Trailer",
+    "duration": 348,
+    "url": "https://www.youtube.com/watch?v=w3JsAX5cuho",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "BeGSjKv3uVo",
+    "title": "For Honor: Content Of The Week - September 17",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=BeGSjKv3uVo",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "wvfuSJQ4cus",
+    "title": "The Rogue Prince of Persia - The Anniversary Update Trailer",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=wvfuSJQ4cus",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "NXPYdf0Pslc",
+    "title": "Skull and Bones: Y3S2 Community AMA - The Deck Devstream",
+    "duration": 5372,
+    "url": "https://www.youtube.com/watch?v=NXPYdf0Pslc",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "RetVbc8YBHM",
+    "title": "The Crew Showcase 2026: New Island, Tomb Raider partnership, Trucks and more…",
+    "duration": 1267,
+    "url": "https://www.youtube.com/watch?v=RetVbc8YBHM",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "TqE_rjCHR5k",
+    "title": "Anno 117: Pax Romana - Echoes of Kassandra",
+    "duration": 80,
+    "url": "https://www.youtube.com/watch?v=TqE_rjCHR5k",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "9VAacR6xlBI",
+    "title": "The Division Resurgence: Season 2 Phase 2 is now Live",
+    "duration": 99,
+    "url": "https://www.youtube.com/watch?v=9VAacR6xlBI",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "U8vEkWcJCSk",
+    "title": "40 Years Through Our People’s Stories",
+    "duration": 208,
+    "url": "https://www.youtube.com/watch?v=U8vEkWcJCSk",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "nH46dNsKlEk",
+    "title": "Skull and Bones: Abyssal Envoy Gameplay Trailer",
+    "duration": 25,
+    "url": "https://www.youtube.com/watch?v=nH46dNsKlEk",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "bPCuvac7k7E",
+    "title": "The Crew Motorfest: Ringbrothers Chevrolet Trailer",
+    "duration": 42,
+    "url": "https://www.youtube.com/watch?v=bPCuvac7k7E",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "TucrIx4nDlc",
+    "title": "The Crew Motorfest: Chevrolet Corvette C1 Trailer",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=TucrIx4nDlc",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "WMyC1RwLkUk",
+    "title": "For Honor: Content Of The Week - September 10",
+    "duration": 106,
+    "url": "https://www.youtube.com/watch?v=WMyC1RwLkUk",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "c-2qsR7GOJ0",
+    "title": "For Honor: Year 10 Season 3 - BLOOD HUNT STORY TRAILER",
+    "duration": 50,
+    "url": "https://www.youtube.com/watch?v=c-2qsR7GOJ0",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "YeIKvef5TNs",
+    "title": "For Honor: Year 10 Season 3 - BLOOD HUNT GAMEPLAY TRAILER",
+    "duration": 92,
+    "url": "https://www.youtube.com/watch?v=YeIKvef5TNs",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "FSYDYaYHtJs",
+    "title": "Riders Republic: Scooter Behind the Scenes",
+    "duration": 122,
+    "url": "https://www.youtube.com/watch?v=FSYDYaYHtJs",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "TcGBAjbSGUA",
+    "title": "For Honor: Content Of The Week - September 3",
+    "duration": 43,
+    "url": "https://www.youtube.com/watch?v=TcGBAjbSGUA",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "650OF2QfnA4",
+    "title": "Ubisoft at gamescom 2026: Wrap-up video",
+    "duration": 96,
+    "url": "https://www.youtube.com/watch?v=650OF2QfnA4",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "vehoY3-avv0",
+    "title": "Morbid Metal - The Void Opens Trailer",
+    "duration": 56,
+    "url": "https://www.youtube.com/watch?v=vehoY3-avv0",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "kDJkK-Cf3o8",
+    "title": "For Honor: Content Of The Week - August 27",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=kDJkK-Cf3o8",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "LRDUmDpYaDs",
+    "title": "For Honor: Ranked Dominion Trailer",
+    "duration": 67,
+    "url": "https://www.youtube.com/watch?v=LRDUmDpYaDs",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "t6TvnyPwTEQ",
+    "title": "The Division 2: Red Horizon Season - Dev Diary",
+    "duration": 259,
+    "url": "https://www.youtube.com/watch?v=t6TvnyPwTEQ",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "sh-Ggp6Zkos",
+    "title": "The Division 2: Red Horizon - Official Launch Trailer",
+    "duration": 76,
+    "url": "https://www.youtube.com/watch?v=sh-Ggp6Zkos",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "ylI3RYtcZ5Y",
+    "title": "Introducing The Player Council",
+    "duration": 72,
+    "url": "https://www.youtube.com/watch?v=ylI3RYtcZ5Y",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "UOO0ncKoO58",
+    "title": "Heroes of Might and Magic III Remake - Gameplay Overview Trailer",
+    "duration": 548,
+    "url": "https://www.youtube.com/watch?v=UOO0ncKoO58",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "wj7b3iIUiXk",
+    "title": "Rayman Legends Retold - \"Macarena\" Musical Level",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=wj7b3iIUiXk",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "yBUckLZ5QRk",
+    "title": "Heroes of Might and Magic III Remake - Reveal Trailer",
+    "duration": 109,
+    "url": "https://www.youtube.com/watch?v=yBUckLZ5QRk",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "YtqVROmrJB8",
+    "title": "Skull and Bones: Y3S2 Smuggler Pass Trailer",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=YtqVROmrJB8",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "eHwt4ds4g0g",
+    "title": "The Crew Motorfest: Lamborghini Fenomeno Trailer",
+    "duration": 47,
+    "url": "https://www.youtube.com/watch?v=eHwt4ds4g0g",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "gvz5i05F1_U",
+    "title": "For Honor: Content Of The Week - August 20",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=gvz5i05F1_U",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "9oFSb6_0UNA",
+    "title": "Anno 117: Pax Romana - The Hippodrome Launch Trailer",
+    "duration": 90,
+    "url": "https://www.youtube.com/watch?v=9oFSb6_0UNA",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "kDCf3lIRAm0",
+    "title": "The Crew Motorfest: Rayman Raycer Trailer",
+    "duration": 66,
+    "url": "https://www.youtube.com/watch?v=kDCf3lIRAm0",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "pqqp_5L9L_Y",
+    "title": "Skull and Bones: Y3S2 Crimson Waters Gameplay Trailer",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=pqqp_5L9L_Y",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "ExqAHxvnG0E",
+    "title": "Skull and Bones: Y3S2 Crimson Waters Story Trailer",
+    "duration": 48,
+    "url": "https://www.youtube.com/watch?v=ExqAHxvnG0E",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "AgrN7vfzG9k",
+    "title": "Skull and Bones: Y3S2 First Look - The Deck Devstream",
+    "duration": 5857,
+    "url": "https://www.youtube.com/watch?v=AgrN7vfzG9k",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "trLoT5RMgzc",
+    "title": "For Honor: Content Of The Week - August 13",
+    "duration": 52,
+    "url": "https://www.youtube.com/watch?v=trLoT5RMgzc",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "SLYVCLurGJA",
+    "title": "For Honor: Metal Trials Throwback Event Trailer",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=SLYVCLurGJA",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "eJVGEonIjqY",
+    "title": "The Division 2: Broken Rain Incursion Trailer",
+    "duration": 77,
+    "url": "https://www.youtube.com/watch?v=eJVGEonIjqY",
+    "channel": "Ubisoft",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@EA/videos|2026-11-25": [],
+  "https://www.youtube.com/@BethesdaSoftworks/videos|2026-11-25": [],
+  "https://www.youtube.com/@NaughtyDog/videos|2026-11-25": [
+   {
+    "id": "OKtVbq7XBVE",
+    "title": "The Last of Us Day 2026 Subway Ambience",
+    "duration": 3600,
+    "url": "https://www.youtube.com/watch?v=OKtVbq7XBVE",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "lroOUAEqqiA",
+    "title": "Naughty Dog 40th Anniversary Gallery Nucleus Showcase",
+    "duration": 150,
+    "url": "https://www.youtube.com/watch?v=lroOUAEqqiA",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "rT_EIOxtOVY",
+    "title": "Naughty Dog 40th Anniversary Retrospective",
+    "duration": 451,
+    "url": "https://www.youtube.com/watch?v=rT_EIOxtOVY",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "u20XrLxVfYk",
+    "title": "The Last of Us Part II Remastered: Naughty Dog No Retournament",
+    "duration": 151,
+    "url": "https://www.youtube.com/watch?v=u20XrLxVfYk",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "arcEUz_BiI4",
+    "title": "The Last of Us Season 2, Episode 6 - Neil Druckmann on Directing",
+    "duration": 542,
+    "url": "https://www.youtube.com/watch?v=arcEUz_BiI4",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "0hFd8BISz9Q",
+    "title": "The Last of Us Complete - Launch Trailer",
+    "duration": 87,
+    "url": "https://www.youtube.com/watch?v=0hFd8BISz9Q",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "EZsrGZVx4xA",
+    "title": "The Last of Us Part II Remastered PC Launch Trailer (Audio Description Available)",
+    "duration": 85,
+    "url": "https://www.youtube.com/watch?v=EZsrGZVx4xA",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "IjPSLuAvq9E",
+    "title": "Intergalactic: The Heretic Prophet Announcement Trailer - Descriptive Audio",
+    "duration": 274,
+    "url": "https://www.youtube.com/watch?v=IjPSLuAvq9E",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "o7TVPoxwi74",
+    "title": "Intergalactic: The Heretic Prophet Announcement Trailer",
+    "duration": 274,
+    "url": "https://www.youtube.com/watch?v=o7TVPoxwi74",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "AsOJ1JJJ4Zc",
+    "title": "The Last of Us Part II Remastered PC Announcement Trailer",
+    "duration": 71,
+    "url": "https://www.youtube.com/watch?v=AsOJ1JJJ4Zc",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "SC3C7GMMfDU",
+    "title": "Grounded II: Making The Last of Us Part II",
+    "duration": 7234,
+    "url": "https://www.youtube.com/watch?v=SC3C7GMMfDU",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "4fgu5fuyGFc",
+    "title": "Grounded II: Making The Last of Us Part II Teaser Trailer",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=4fgu5fuyGFc",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "Nw1zvXyktWI",
+    "title": "The Last of Us Part II Remastered - (Descriptive Audio) Launch Trailer",
+    "duration": 104,
+    "url": "https://www.youtube.com/watch?v=Nw1zvXyktWI",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "g5YL1Dncr6M",
+    "title": "The Last of Us Part II Remastered Launch Trailer",
+    "duration": 104,
+    "url": "https://www.youtube.com/watch?v=g5YL1Dncr6M",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "yEmz3A0V3Zg",
+    "title": "The Last of Us Part II Remastered No Return Mode Trailer",
+    "duration": 96,
+    "url": "https://www.youtube.com/watch?v=yEmz3A0V3Zg",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "xwLCUlLK3Cc",
+    "title": "The Last of Us Part II Remastered Announce Trailer",
+    "duration": 110,
+    "url": "https://www.youtube.com/watch?v=xwLCUlLK3Cc",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "5J2JEinZZRc",
+    "title": "The Last of Us Part II Remastered Features Trailer",
+    "duration": 197,
+    "url": "https://www.youtube.com/watch?v=5J2JEinZZRc",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "TxCrkSlOVa8",
+    "title": "Grounded II: Making The Last of Us Part II Trailer",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=TxCrkSlOVa8",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "c2XuzgGifWM",
+    "title": "The Last of Us Day 2023 Stream + Troy Baker Concert",
+    "duration": 1880,
+    "url": "https://www.youtube.com/watch?v=c2XuzgGifWM",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "AYujwF_NFyU",
+    "title": "The Last of Us Ellie and Joel Actors Reflect on Game Legacy, HBO Series Roles",
+    "duration": 234,
+    "url": "https://www.youtube.com/watch?v=AYujwF_NFyU",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "bc2dee-ryf0",
+    "title": "The Last of Us Part I PC Features – Unlocked Framerate, Speedrun, Permadeath, and More",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=bc2dee-ryf0",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "0tKJe89VkRw",
+    "title": "The Last of Us: Bringing Ellie and Joel’s Story to Life in Game and HBO Show",
+    "duration": 267,
+    "url": "https://www.youtube.com/watch?v=0tKJe89VkRw",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "vh7W9trCZTE",
+    "title": "The Last of Us Part I PC Features – Audio Descriptions, Controller Support, and More",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=vh7W9trCZTE",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "zgvAMY1xOwk",
+    "title": "The Last of Us Part I PC Features - Ultra-Wide Support, Left Behind, and More",
+    "duration": 26,
+    "url": "https://www.youtube.com/watch?v=zgvAMY1xOwk",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "ZNqYXxRoYJM",
+    "title": "The Last of Us Developers, HBO Creators on Building the World Around Joel and Ellie",
+    "duration": 367,
+    "url": "https://www.youtube.com/watch?v=ZNqYXxRoYJM",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "iNzLOyp4rA0",
+    "title": "The Last of Us Developers on Clicker Creation, HBO Producers on Adapting TLOU Action",
+    "duration": 328,
+    "url": "https://www.youtube.com/watch?v=iNzLOyp4rA0",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "Vbzz6A2ElB4",
+    "title": "A Father’s Love – Building The Last of Us Episode 1",
+    "duration": 434,
+    "url": "https://www.youtube.com/watch?v=Vbzz6A2ElB4",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "K7duFd4kJy8",
+    "title": "The Last of Us Part I | Sniper Comparison",
+    "duration": 14,
+    "url": "https://www.youtube.com/watch?v=K7duFd4kJy8",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "cBXmJdDR84Y",
+    "title": "The Last of Us Part I | Left Behind Ellie & Riley in the Arcade Comparison",
+    "duration": 14,
+    "url": "https://www.youtube.com/watch?v=cBXmJdDR84Y",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "dyBA6JpCtkU",
+    "title": "The Last of Us Part I: Gameplay | Bill's Town",
+    "duration": 435,
+    "url": "https://www.youtube.com/watch?v=dyBA6JpCtkU",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "jbjK9sQCmHM",
+    "title": "The Last of Us: Part I vs. Remastered | Capitol Comparison",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=jbjK9sQCmHM",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "_5qpdtjB9QM",
+    "title": "The Last of Us: Part I vs. Remastered | Boston Docks Comparison",
+    "duration": 12,
+    "url": "https://www.youtube.com/watch?v=_5qpdtjB9QM",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "u3Dah9Xx7OU",
+    "title": "The Last of Us: Part I vs. Remaster | The Burning Barn Comparison",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=u3Dah9Xx7OU",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "Cn1qsX-MScU",
+    "title": "The Last of Us: Part I vs. Remaster | Joel & Tommy on Horseback Comparison",
+    "duration": 14,
+    "url": "https://www.youtube.com/watch?v=Cn1qsX-MScU",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "bubJPYz10K4",
+    "title": "Uncharted's Nathan Drake & Chloe Frazer Come to the Fortnite Island || Gameplay Trailer",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=bubJPYz10K4",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "iip_oYymxMI",
+    "title": "Jak and Daxter: The Precursor Legacy || 2001 Teaser",
+    "duration": 35,
+    "url": "https://www.youtube.com/watch?v=iip_oYymxMI",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "FC-eYFDLTD0",
+    "title": "A Special Message from Neil Druckmann About The Last of Us Part II",
+    "duration": 157,
+    "url": "https://www.youtube.com/watch?v=FC-eYFDLTD0",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "fRrAGIbGp14",
+    "title": "Naughty Dog Live: Left Behind Charity Stream",
+    "duration": 7549,
+    "url": "https://www.youtube.com/watch?v=fRrAGIbGp14",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "h8FQX_0NFB8",
+    "title": "Technical Direction at Naughty Dog",
+    "duration": 195,
+    "url": "https://www.youtube.com/watch?v=h8FQX_0NFB8",
+    "channel": "Naughty Dog",
+    "verified": true
+   },
+   {
+    "id": "3PtKSDsJLUs",
+    "title": "Celebrating International Women's Day - Naughty Dog",
+    "duration": 156,
+    "url": "https://www.youtube.com/watch?v=3PtKSDsJLUs",
+    "channel": "Naughty Dog",
     "verified": true
    }
   ]
@@ -7012,6 +10763,180 @@
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T22:41:35.463501+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.03}}"
+  },
+  {
+   "at": "2026-11-25T22:55:00.667889+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.13}}"
+  },
+  {
+   "at": "2026-11-25T22:55:45.294062+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T22:56:04.023043+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T22:56:22.110319+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:10:33.680441+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.03}}"
+  },
+  {
+   "at": "2026-11-25T23:10:53.124298+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:11:11.859494+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:11:30.344319+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:11:49.649863+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:12:07.785620+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:12:26.692361+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:12:45.111943+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:13:03.559050+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:13:22.104864+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:13:40.054533+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:13:58.588315+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:14:17.458201+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:14:35.836429+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:14:54.776097+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:15:13.719271+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:15:32.060930+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:15:50.540518+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:16:08.752365+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:16:27.588937+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:16:46.007459+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:17:04.715717+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:17:23.353576+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:17:41.852320+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
   }
  ],
  "vet_rules": "gta-rockstar-v1"

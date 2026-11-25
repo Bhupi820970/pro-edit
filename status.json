@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-25T22:06:37.997651+05:30",
+ "updated": "2026-11-25T23:18:09.524746+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
-   "ready": 0,
+   "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 2,
+   "produced_today": 6,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (0/7 ready)"
+   "message": "BACKUP LOW: refill youtube (1/7 ready)"
   },
   "instagram": {
    "ready": 2,
@@ -26,6 +26,140 @@
   }
  },
  "ready": [
+  {
+   "id": "yo-gta-20261125-220912",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-25T22:27:49.757332+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261125-220912.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261125-220912.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 121.2,
+   "title": "GTA 6 Vice City | Miami Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Miami\" – Will Smith (original recording)\n🔗 Official audio: https://soundcloud.com/oisin-donavan/will-smith-miami\n🎧 Spotify: https://open.spotify.com/search/Will%20Smith%20Miami\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Miami",
+    "artist": "Will Smith",
+    "url": "https://soundcloud.com/oisin-donavan/will-smith-miami",
+    "official_channel": "Oisin Donavan",
+    "spotify_search": "https://open.spotify.com/search/Will%20Smith%20Miami"
+   },
+   "song_credit": "\"Miami\" – Will Smith",
+   "pattern": {
+    "id": "P02",
+    "name": "Beside-upper"
+   },
+   "captions": [
+    "MY COUSIN YUSUF",
+    "HERE KEEPS A",
+    "LIST OF ALL",
+    "THE CARS HE",
+    "WANTS"
+   ],
+   "duration": 28.6,
+   "sources": [
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 28.6
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 5
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-220912.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-220912.preview.mp4"
+  },
   {
    "id": "in-movie-20261125-014605",
    "platform": "instagram",
@@ -298,94 +432,94 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-25T09:19:54.572357+05:30",
+   "at": "2026-11-25T23:13:22.104864+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T10:01:53.451125+05:30",
+   "at": "2026-11-25T23:13:40.054533+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T10:41:00.194794+05:30",
+   "at": "2026-11-25T23:13:58.588315+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T12:25:15.225771+05:30",
+   "at": "2026-11-25T23:14:17.458201+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"MY COUSIN YUSUF\"]}}"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T13:36:20.292361+05:30",
+   "at": "2026-11-25T23:14:35.836429+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T15:04:50.943126+05:30",
+   "at": "2026-11-25T23:14:54.776097+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T16:10:21.567057+05:30",
+   "at": "2026-11-25T23:15:13.719271+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T17:03:38.617948+05:30",
+   "at": "2026-11-25T23:15:32.060930+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T17:44:31.425260+05:30",
+   "at": "2026-11-25T23:15:50.540518+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T18:25:20.883883+05:30",
+   "at": "2026-11-25T23:16:08.752365+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T19:01:38.150818+05:30",
+   "at": "2026-11-25T23:16:27.588937+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T19:40:20.063595+05:30",
+   "at": "2026-11-25T23:16:46.007459+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T20:20:23.607559+05:30",
+   "at": "2026-11-25T23:17:04.715717+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T20:59:13.393586+05:30",
+   "at": "2026-11-25T23:17:23.353576+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-25T21:39:23.898956+05:30",
+   "at": "2026-11-25T23:17:41.852320+05:30",
    "platform": "youtube",
    "category": null,
-   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+   "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
    "at": "2026-11-25T15:22:51.388651+05:30",
@@ -480,7 +614,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-25T10:08:38.272921+05:30",
-  "age_hours": 12.0,
+  "age_hours": 13.2,
   "healthy": false,
   "pool": {
    "gta": 15,
@@ -491,8 +625,8 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 12h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 13h: run `bash scripts/box_fetch_service.sh start` on the box"
  },
  "warning": true,
- "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (2/7 ready)"
+ "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (2/7 ready)"
 }

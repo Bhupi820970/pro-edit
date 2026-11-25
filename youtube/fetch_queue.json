@@ -1,23 +1,11 @@
 {
  "requests": [
   {
-   "id": "youtube-202611251610-gta",
-   "category": "gta",
-   "limit": 3,
-   "at": "2026-11-25T16:10:21.572844+05:30",
-   "reason": "thin=False download_failed=151 bot_checks=79",
-   "queries": [
-    "Grand Theft Auto V Official Gameplay Video Rockstar Games",
-    "GTA Online official gameplay Rockstar Games"
-   ],
-   "links": []
-  },
-  {
-   "id": "youtube-202611251610-gaming",
+   "id": "youtube-202611252317-gaming",
    "category": "gaming",
    "limit": 3,
-   "at": "2026-11-25T16:10:21.572906+05:30",
-   "reason": "thin=False download_failed=151 bot_checks=79",
+   "at": "2026-11-25T23:17:41.863184+05:30",
+   "reason": "thin=True download_failed=149 bot_checks=119",
    "queries": [
     "Red Dead Redemption 2 official gameplay Rockstar",
     "Cyberpunk 2077 official gameplay CD PROJEKT"
@@ -25,5 +13,5 @@
    "links": []
   }
  ],
- "updated": "2026-11-25T16:10:21.572932+05:30"
+ "updated": "2026-11-25T23:17:41.863268+05:30"
 }
