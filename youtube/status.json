@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T16:10:24.971648+05:30",
+ "updated": "2026-11-25T22:06:35.538765+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
+ "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
  "platforms": {
   "youtube": {
-   "ready": 1,
+   "ready": 0,
    "target": 7,
    "warning": true,
    "produced_today": 2,
@@ -13,7 +13,7 @@
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (1/7 ready)"
+   "message": "BACKUP LOW: refill youtube (0/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -27,201 +27,9 @@
    "message": "BACKUP LOW: refill instagram (0/7 ready)"
   }
  },
- "ready": [
-  {
-   "id": "yo-gta-20261125-070541",
-   "platform": "youtube",
-   "category": "gta",
-   "format": "wide",
-   "state": "ready",
-   "created": "2026-11-25T08:02:17.663085+05:30",
-   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261125-070541.mp4",
-   "preview": "/mnt/ph/youtube/prev/yo-gta-20261125-070541.mp4",
-   "preview_mb": 21.5,
-   "size_mb": 185.0,
-   "title": "GTA 6 Vice City | Give It Up Edit",
-   "hook": "GTA 6 VICE CITY",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Give It Up\" – KC and the Sunshine Band (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/KC%20and%20the%20Sunshine%20Band%20Give%20It%20Up\n🎬 Footage: Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
-   "hashtags": [
-    "GTA6",
-    "GTAVI",
-    "GrandTheftAuto6",
-    "ViceCity",
-    "GTA6Edit",
-    "RockstarGames"
-   ],
-   "song": {
-    "title": "Give It Up",
-    "artist": "KC and the Sunshine Band",
-    "url": "",
-    "official_channel": "",
-    "spotify_search": "https://open.spotify.com/search/KC%20and%20the%20Sunshine%20Band%20Give%20It%20Up"
-   },
-   "song_credit": "\"Give It Up\" – KC and the Sunshine Band",
-   "pattern": {
-    "id": "P04",
-    "name": "Stepping down beside"
-   },
-   "captions": [
-    "I HAVE ACCESS",
-    "TO EVERY",
-    "SERVER",
-    "PROGRAM",
-    "AND FRONT",
-    "WHAT I DON'T",
-    "HAVE IS A",
-    "FIELD OPERATIVE",
-    "AND PERSONAL",
-    "MATTERS",
-    "I THINK IF",
-    "YOU'D WANT TO",
-    "LAY LOW A",
-    "WHILE"
-   ],
-   "duration": 38.5,
-   "sources": [
-    {
-     "id": "YlY9n7iM-5Q",
-     "src_id": "YlY9n7iM-5Q",
-     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
-     "title": "GTA Online: San Andreas Mercenaries Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
-    },
-    {
-     "id": "T7aaNEW7zA0",
-     "src_id": "T7aaNEW7zA0",
-     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
-     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
-    },
-    {
-     "id": "YW9VXUgoG6w",
-     "src_id": "YW9VXUgoG6w",
-     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
-     "title": "GTA Online: Agents of Sabotage Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
-    },
-    {
-     "id": "45--ZVLkmks",
-     "src_id": "45--ZVLkmks",
-     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
-     "title": "GTA Online: A Safehouse in the Hills Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
-    },
-    {
-     "id": "GbuCIrZSPDk",
-     "src_id": "GbuCIrZSPDk",
-     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
-     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
-    },
-    {
-     "id": "APJ-lT0sBhg",
-     "src_id": "APJ-lT0sBhg",
-     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
-     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.5
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2560x1440",
-      "want": "2560x1440"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -15.3
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": true
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 14
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-070541.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-070541.preview.mp4"
-  }
- ],
+ "ready": [],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-25T03:25:52.483380+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T04:03:16.861723+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T04:40:36.154393+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T05:15:25.282526+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T05:48:58.640224+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T06:23:31.206863+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T06:59:27.714045+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-25T08:41:42.797212+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
-  },
   {
    "at": "2026-11-25T09:19:54.572357+05:30",
    "platform": "youtube",
@@ -263,6 +71,54 @@
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T17:03:38.617948+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T17:44:31.425260+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T18:25:20.883883+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T19:01:38.150818+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T19:40:20.063595+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T20:20:23.607559+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T20:59:13.393586+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T21:39:23.898956+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
   }
  ],
  "pattern_history": [
@@ -275,7 +131,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-25T10:08:38.272921+05:30",
-  "age_hours": 6.0,
+  "age_hours": 12.0,
   "healthy": false,
   "pool": {
    "gta": 15,
@@ -286,6 +142,6 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 6h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 12h: run `bash scripts/box_fetch_service.sh start` on the box"
  }
 }

@@ -6964,6 +6964,54 @@
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T17:03:38.617948+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T17:44:31.425260+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T18:25:20.883883+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T19:01:38.150818+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T19:40:20.063595+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T20:20:23.607559+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T20:59:13.393586+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
+  },
+  {
+   "at": "2026-11-25T21:39:23.898956+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 9.4700 -i /mnt/ph/youtube/work/yo-gta-20261125-104840/clips/T7aaNEW7zA0.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:g"
   }
  ],
  "vet_rules": "gta-rockstar-v1"
