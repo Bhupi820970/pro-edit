@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T10:44:46.246808+05:30",
+ "updated": "2026-11-25T10:44:55.750939+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
    "ready": 0,
    "target": 7,
    "warning": true,
-   "produced_today": 0,
+   "produced_today": 1,
    "per_day": [
     5,
     6
@@ -299,24 +299,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-24T22:08:40.462444+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-24T22:40:54.506187+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-24T23:20:51.905252+05:30",
-   "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gta"
-  },
-  {
    "at": "2026-11-24T23:52:59.685528+05:30",
    "platform": "youtube",
    "category": null,
@@ -387,6 +369,24 @@
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-25T10:42:21.049084+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"MY COUSIN YUSUF\"]}}"
+  },
+  {
+   "at": "2026-11-25T10:43:14.006601+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 18.2700 -i /mnt/ph/youtube/work/yo-gta-20261125-094454/clips/YW9VXUgoG6w.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:"
+  },
+  {
+   "at": "2026-11-25T10:44:06.528644+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "RuntimeError: cmd failed: ffmpeg -y -v error -ss 18.2700 -i /mnt/ph/youtube/work/yo-gta-20261125-094454/clips/YW9VXUgoG6w.mkv -ss 2.0000 -vf scale=2662:1497:force_original_aspect_ratio=increase:flags=lanczos,crop=2560:1440,setsar=1,eq=contrast=1.13:saturation=1.38:brightness=0.012:gamma=0.97,colorbalance=rs=0.03:"
   },
   {
    "at": "2026-11-25T07:11:15.433750+05:30",
@@ -480,11 +480,11 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-25T01:32:54.402448+05:30",
-  "age_hours": 5.4,
-  "healthy": false,
+  "last_run": "2026-11-25T08:40:16.829988+05:30",
+  "age_hours": 2.1,
+  "healthy": true,
   "pool": {
-   "gta": 16,
+   "gta": 15,
    "gaming": 15,
    "movie": 15,
    "sports": 15,
@@ -492,7 +492,7 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 5h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "OK"
  },
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (2/7 ready)"
