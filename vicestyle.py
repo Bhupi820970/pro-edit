@@ -847,7 +847,7 @@ def composite(base: Path, events: list[dict], wm: Image.Image | None, W: int, H:
 
 # ---------------------------------------------------------------- audio
 def mix_audio(song: Path, song_start: float, total: float, segs: list[Seg], out: Path,
-              duck: float = 0.18, ramp: float = 0.25, tail_fade: float = 1.8):
+              duck: float = 0.28, ramp: float = 0.25, tail_fade: float = 1.8):
     sr = 48000
     n = int(round(total * sr))
     music = load_audio(song, sr, song_start, total)
@@ -1096,8 +1096,100 @@ def dialogue_windows(path: Path, shots: list[Shot]) -> list[dict]:
             nw = sum(len(g) for g in group)
             p = float(np.mean([w["p"] for g in group for w in g]))
             wins.append({"src": str(path), "s": s, "e": e, "score": nw * p * (1 + 0.04 * (e - s)),
+                         "p": p, "nw": nw,
+                         "spans": [(w["s"], w["e"]) for g in group for w in g],
                          "text": " ".join(w["w"] for g in group for w in g)})
     return wins
+
+
+DLG_MIN_P = 0.55          # whisper word confidence: sung / foreign lyrics forced to English score lower
+DLG_MAX_GAP_RATIO = 0.6   # loudness between words vs during words: a music bed keeps the gaps loud
+_DLG_CACHE: dict = {}
+
+
+def _frame_at(src: str, t: float, w: int = 640, h: int = 360) -> np.ndarray | None:
+    r = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{max(0, t):.3f}", "-i", src, "-frames:v", "1",
+                        "-vf", f"scale={w}:{h}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True)
+    a = np.frombuffer(r.stdout, np.uint8)
+    return a.reshape(h, w, 3) if len(a) == w * h * 3 else None
+
+
+def speech_not_music(win: dict, audio: np.ndarray | None = None, sr: int = 16000) -> tuple[bool, str]:
+    """Reject sung lyrics / songs in the source (e.g. a Spanish track forced through English whisper)."""
+    if win.get("p", 1.0) < DLG_MIN_P:
+        return False, f"low word confidence {win.get('p', 0):.2f}"
+    dur = max(0.1, win["e"] - win["s"])
+    rate = win.get("nw", 0) / dur
+    if win.get("nw") and not (1.2 <= rate <= 5.5):
+        return False, f"word rate {rate:.1f}/s"
+    spans = win.get("spans") or []
+    if audio is None:
+        try:
+            audio = load_audio(Path(win["src"]), sr, win["s"], dur).mean(axis=1)
+        except Exception:
+            return True, "no audio check"
+    if spans and len(audio):
+        mask = np.zeros(len(audio), bool)
+        for a, b in spans:
+            mask[max(0, int((a - win["s"]) * sr)):max(0, int((b - win["s"]) * sr))] = True
+        if mask.sum() > sr * 0.3 and (~mask).sum() > sr * 0.4:
+            on = float(np.sqrt(np.mean(audio[mask] ** 2)) + 1e-9)
+            off = float(np.sqrt(np.mean(audio[~mask] ** 2)) + 1e-9)
+            if off / on > DLG_MAX_GAP_RATIO:
+                return False, f"music bed between words ({off / on:.2f})"
+    return True, "ok"
+
+
+def is_real_dialogue(win: dict) -> bool:
+    """A dialogue scene (21:9 bars + ducked music) must be speech, not a song, with a face on screen."""
+    key = (win["src"], round(win["s"], 2), round(win["e"], 2))
+    if key in _DLG_CACHE:
+        return _DLG_CACHE[key]
+    ok, why = speech_not_music(win)
+    if ok:
+        hits = 0
+        for t in (win["s"] + 0.3, (win["s"] + win["e"]) / 2, win["e"] - 0.3):
+            fr = _frame_at(win["src"], t)
+            try:
+                hits += fr is not None and find_face(fr) is not None
+            except Exception:
+                hits += 1      # no face model available: do not block dialogue on it
+        ok = hits >= 2
+        why = f"faces in {hits}/3 frames"
+    if not ok:
+        log(f"not a dialogue scene ({why}): {Path(win['src']).name} {win['s']:.1f}-{win['e']:.1f}")
+    _DLG_CACHE[key] = ok
+    return ok
+
+
+def clip_signature(path: Path) -> tuple[float, np.ndarray | None]:
+    dur = probe_duration(path)
+    frames = []
+    for frac in (0.2, 0.45, 0.7):
+        f = _frame_at(str(path), dur * frac, 32, 18)
+        if f is None:
+            return dur, None
+        frames.append(f.astype(np.float32).mean(axis=2))
+    return dur, np.stack(frames)
+
+
+def dedupe_clips(files: list[Path]) -> list[Path]:
+    """Drop files that are the same video under another id (re-uploads); they made the edit loop footage."""
+    keep, sigs = [], []
+    for f in files:
+        try:
+            d, sig = clip_signature(f)
+        except Exception:
+            keep.append(f)
+            continue
+        dup = sig is not None and any(abs(d - d2) < 1.5 and s2 is not None and float(np.abs(sig - s2).mean()) < 10
+                                      for d2, s2 in sigs)
+        if dup:
+            log("duplicate source footage skipped:", f.name)
+            continue
+        keep.append(f)
+        sigs.append((d, sig))
+    return keep
 
 
 def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict | None = None,
@@ -1118,7 +1210,7 @@ def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict
     mid_pat = [b2, b1, b1, b2]
     end_pat = [b1, b1, b2, b1]
     fill_pat = [b2, b1, b1, b2, b1, b1]
-    files = sorted(p for p in clips.iterdir() if p.suffix.lower() in VIDEO_EXT)
+    files = dedupe_clips(sorted(p for p in clips.iterdir() if p.suffix.lower() in VIDEO_EXT))
     log("scanning", len(files), "clips")
     allshots, wins = [], []
     for f in files:
@@ -1138,6 +1230,7 @@ def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict
     prefer = {Path(p).name for p in (prefer_dialogue_from or [])}
     # recent videos: treat used long ranges as already taken (short <1.5s overlap is ok)
     taken = list(avoid or [])
+    here = []   # ranges used in THIS video: no reuse at all (any overlap > 0.05s is a repeat)
     for w in wins:
         if overlaps_long(source_id(w["src"]), w["s"], w["e"], taken):
             w["score"] *= 0.02
@@ -1197,7 +1290,9 @@ def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict
             return False
         if any(_text_overlap(w["text"], c["text"]) >= 0.40 for c in chosen):
             return False
-        return all(w["src"] != c["src"] or w["e"] < c["s"] - 5 or w["s"] > c["e"] + 5 for c in chosen)
+        if not all(w["src"] != c["src"] or w["e"] < c["s"] - 5 or w["s"] > c["e"] + 5 for c in chosen):
+            return False
+        return is_real_dialogue(w)
 
     for w in wins:
         if _can_pick(w):
@@ -1224,6 +1319,9 @@ def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict
     # +0.95s so the last spoken word is not cut off after the 0.25s early in-point
     dlg_b = [int(math.ceil((c["e"] - c["s"] + 0.95) / period)) for c in chosen]
     end_b = max(8, total_beats - hook_b - mid_b - sum(dlg_b))
+    for c, nb in zip(chosen, dlg_b):   # the full on-screen dialogue range, not just the spoken words
+        here.append((source_id(c["src"]), max(0.0, c["s"] - 0.25), max(0.0, c["s"] - 0.25) + nb * period))
+    short = []
     # interleave sources round-robin, best first
     by_src = {}
     for s in sorted(montage, key=lambda s: -s.score):
@@ -1248,7 +1346,8 @@ def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict
                 keep = []
                 for cand in leftover:
                     mid = cand.s + 0.15
-                    if cand.e - cand.s >= need + 0.1 and not overlaps_long(source_id(cand.src), mid, mid + need, taken):
+                    if cand.e - cand.s >= need + 0.1 and not overlaps_long(source_id(cand.src), mid, mid + need, taken) \
+                            and not overlaps_long(source_id(cand.src), mid, mid + need, here, 0.05):
                         if sh is None:
                             sh = cand
                         else:
@@ -1263,9 +1362,13 @@ def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict
                 sh, keep = pick(dur)
             leftover[:] = keep
             if sh is None:
-                raise RuntimeError("not enough distinct montage shots in --clips")
+                # never loop footage: end cleanly on the last beat instead
+                log(f"out of fresh montage footage; ending {left} beats early")
+                short.append(left)
+                break
             mid = sh.s + 0.15
             taken.append((source_id(sh.src), mid, mid + dur))
+            here.append((source_id(sh.src), mid, mid + dur))
             out.append(Seg("montage", sh.src, mid, b, zoom=1.04))
             rest_s = mid + dur + 0.04
             if sh.e - rest_s >= period + 0.05:
@@ -1285,8 +1388,10 @@ def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict
             segs.append(Seg("dialogue", c["src"], max(0.0, c["s"] - 0.25), dlg_b[i]))
             segs += montage_block(mid_b if i == 0 else end_b, mid_pat if i == 0 else end_pat)
     have = sum(s.beats for s in segs)
-    if have < total_beats - 4:  # fewer than 2 dialogue scenes found: finish with montage
+    if have < total_beats - 4 and not short:  # fewer than 2 dialogue scenes found: finish with montage
         segs += montage_block(total_beats - have, fill_pat)
+    if not segs or segs[0].kind != "montage" and not open_with_dialogue:
+        raise RuntimeError("not enough distinct montage shots in --clips")
     return segs, None
 
 

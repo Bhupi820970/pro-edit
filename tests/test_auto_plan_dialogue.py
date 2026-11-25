@@ -26,6 +26,22 @@ def _shots(src: str, start: float = 24.0, n: int = 24):
     return out
 
 
+
+_PATCHES = []
+
+
+def setUpModule():
+    # these tests use fake clips: skip the real ffmpeg face / duplicate-footage probes
+    _PATCHES.extend([patch.object(V, "is_real_dialogue", return_value=True),
+                     patch.object(V, "dedupe_clips", side_effect=lambda fs: fs)])
+    for p in _PATCHES:
+        p.start()
+
+
+def tearDownModule():
+    for p in _PATCHES:
+        p.stop()
+
 class OpenWithDialogue(unittest.TestCase):
     def _plan(self, open_with_dialogue: bool):
         with tempfile.TemporaryDirectory() as td:
@@ -189,7 +205,7 @@ class DialogueWindowBounds(unittest.TestCase):
 class MixAudioAndDuration(unittest.TestCase):
     def test_mix_audio_defaults(self):
         sig = inspect.signature(V.mix_audio)
-        self.assertEqual(sig.parameters["duck"].default, 0.18)
+        self.assertEqual(sig.parameters["duck"].default, 0.28)  # duck to ~28%, never mute
         self.assertEqual(sig.parameters["ramp"].default, 0.25)
         self.assertEqual(sig.parameters["tail_fade"].default, 1.8)
 
@@ -218,3 +234,22 @@ class MixAudioAndDuration(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
+
+
+class NoReuseInVideo(unittest.TestCase):
+    def test_no_segment_overlaps_and_short_footage_ends_cleanly(self):
+        with tempfile.TemporaryDirectory() as td:
+            clips = Path(td)
+            a = clips / "a.mp4"
+            a.write_bytes(b"x")
+            wins = [{"src": str(a), "s": 12.0, "e": 17.0, "score": 10.0, "text": "we run this city tonight"}]
+            with patch.object(V, "scan_clip", side_effect=lambda p: _shots(str(p), start=0.0, n=9)), \
+                 patch.object(V, "dialogue_windows", side_effect=lambda p, sh: wins):
+                segs, _ = V.auto_plan(a, clips, 38.0, {"period": 0.5, "tempo": 120})
+        rng = []
+        for s in segs:
+            dur = s.beats * 0.5
+            for r0, r1 in rng:
+                self.assertLessEqual(min(r1, s.start + dur) - max(r0, s.start), 0.05, "footage reused")
+            rng.append((s.start, s.start + dur))
+        self.assertLess(sum(s.beats for s in segs) * 0.5, 38.0)   # ran out: ended early, no loop
