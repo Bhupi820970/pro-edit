@@ -1258,6 +1258,17 @@ def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict
             fill_pat = [b2, b1, b1, b2, b1, b1]
             silent = [s for s in allshots if _ok(s, False)]
             spoken_ok = [s for s in allshots if _ok(s, True)]
+    # Official Rockstar updates are often faster than a 3-beat hold. Last resort: 1/2-beat
+    # cuts still on the grid, still no in-video reuse, rather than ending an 8s edit.
+    if len(silent) + len(spoken_ok) < need_shots and b1 > 1:
+        log(f"only {len(silent) + len(spoken_ok)} mid-length shots (< {need_shots}); last-resort 1-beat holds")
+        b1, b2 = 1, 2
+        hook_pat = [b2, b2, b2, b1, b1, b2]
+        mid_pat = [b2, b1, b1, b2]
+        end_pat = [b1, b1, b2, b1]
+        fill_pat = [b2, b1, b1, b2, b1, b1]
+        silent = [s for s in allshots if _ok(s, False)]
+        spoken_ok = [s for s in allshots if _ok(s, True)]
     montage = silent
     # A single-title trailer is often dialogue-heavy; keep silent shots first, then
     # fill from spoken shots so the edit can still be built. Chosen dialogue windows
