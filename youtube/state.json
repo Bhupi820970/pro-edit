@@ -4328,6 +4328,227 @@
    "duration": 30.008,
    "category": "gta",
    "at": "2026-11-25 06:46"
+  },
+  "w2BiBSiw0ow": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo visible in the bottom right corner (IGN)",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Halo 3 Xbox 360 Gameplay - Standoff (HD)",
+   "channel": "IGN",
+   "credit": "IGN",
+   "url": "https://www.youtube.com/watch?v=w2BiBSiw0ow",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 17:56"
+  },
+  "grZigSpVDno": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Marvel's Spider-Man 2 - Expanded Marvel's New York | PS5 Games",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=grZigSpVDno",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 17:57"
+  },
+  "fhMma6QzR3E": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The Last of Us Part II - Inside the Demo | PS4",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=fhMma6QzR3E",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 17:57"
+  },
+  "lU8BjH2-jrA": {
+   "accept": false,
+   "reject_reasons": [
+    "CD PROJEKT RED channel logo present in the bottom right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "AnsweRED – Episode 2: Kajetan and Maciej | Cinematics",
+   "channel": "CD PROJEKT RED",
+   "credit": "CD PROJEKT RED",
+   "url": "https://www.youtube.com/watch?v=lU8BjH2-jrA",
+   "via": "official-channel",
+   "category": "gaming",
+   "at": "2026-11-25 17:58"
+  },
+  "tL-U3e7ZjjQ": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Naughty Dog Has Two 'The Last of Us' Projects In the Works - IGN Daily Fix",
+   "channel": "IGN",
+   "credit": "IGN",
+   "url": "https://www.youtube.com/watch?v=tL-U3e7ZjjQ",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 17:59"
+  },
+  "_pOv4ovN-dM": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "God of War Ragnarök - Combat and Enemies Elevated | PS5 & PS4 Games",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=_pOv4ovN-dM",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 18:00"
+  },
+  "5zAOgv1a0x0": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in top left corner (THE GAME FIX)",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Naughty Dog Has No Involvement in TLOU Season 3, But Teased More Games - IGN Daily Fix",
+   "channel": "IGN",
+   "credit": "IGN",
+   "url": "https://www.youtube.com/watch?v=5zAOgv1a0x0",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 18:01"
+  },
+  "sUIlA2PVtYI": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Cyberpunk 2077 - The Gig | PS4",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=sUIlA2PVtYI",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 18:10"
+  },
+  "ASAJfbLILg8": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation 4 Pro branding overlay in bottom left corner",
+    "flag:watermark"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Red Dead Redemption 2 | Official Gameplay Video | PS4",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=ASAJfbLILg8",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 18:10"
+  },
+  "Qgal95AMZ8o": {
+   "accept": false,
+   "reject_reasons": [
+    "XBOX logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Red Dead Redemption 2: Official Gameplay Video Part 2",
+   "channel": "",
+   "credit": "",
+   "url": "https://www.youtube.com/watch?v=Qgal95AMZ8o",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 18:10"
+  },
+  "-E-1BcILTPk": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo or promotional badge present in the top-right and bottom-left corners",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Halo Infinite - Official Campaign Gameplay Premiere",
+   "channel": "XBOX",
+   "credit": "XBOX",
+   "url": "https://www.youtube.com/watch?v=-E-1BcILTPk",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 18:10"
+  },
+  "2NdGeJNB5eY": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The Last of Us Part II - Inside the Gameplay | PS4",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=2NdGeJNB5eY",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 18:10"
+  },
+  "PYplTYmMEoI": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Grand Theft Auto VI - Out Now! | PS5 Games",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=PYplTYmMEoI",
+   "via": "official-channel",
+   "category": "gaming",
+   "at": "2026-11-25 18:11"
   }
  },
  "videos": [
@@ -5095,6 +5316,762 @@
      "audio": {
       "ok": true,
       "mean_db": -10.4
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-000108",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T00:16:58.486716+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-000108.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-000108.mp4",
+   "preview_mb": 19.9,
+   "size_mb": 77.4,
+   "title": "GTA 6 Vice City | Murder on the Dancefloor Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Murder on the Dancefloor\" – Sophie Ellis-Bextor (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Sophie%20Ellis-Bextor%20Murder%20on%20the%20Dancefloor\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Murder on the Dancefloor",
+    "artist": "Sophie Ellis-Bextor",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Sophie%20Ellis-Bextor%20Murder%20on%20the%20Dancefloor"
+   },
+   "song_credit": "\"Murder on the Dancefloor\" – Sophie Ellis-Bextor",
+   "pattern": {
+    "id": "P05",
+    "name": "Stepping up beside"
+   },
+   "captions": [],
+   "duration": 20.03,
+   "sources": [
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 20.03
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.2
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-001658",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T00:28:13.594258+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-001658.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-001658.mp4",
+   "preview_mb": 20.1,
+   "size_mb": 64.9,
+   "title": "GTA 6 Vice City | The Message Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"The Message\" – Grandmaster Flash & The Furious Five (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Grandmaster%20Flash%20%26%20The%20Furious%20Five%20The%20Message\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "The Message",
+    "artist": "Grandmaster Flash & The Furious Five",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Grandmaster%20Flash%20%26%20The%20Furious%20Five%20The%20Message"
+   },
+   "song_credit": "\"The Message\" – Grandmaster Flash & The Furious Five",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 17.93,
+   "sources": [
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 17.93
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.9
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-002813",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T00:40:26.710786+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-002813.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-002813.mp4",
+   "preview_mb": 21.4,
+   "size_mb": 74.0,
+   "title": "GTA 6 Vice City | Still D.R.E. Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Still D.R.E.\" – Dr. Dre (original recording)\n🔗 Official audio: https://soundcloud.com/user-717462432/dr-dre-still-d-r-e-ft-snoop\n🎧 Spotify: https://open.spotify.com/search/Dr.%20Dre%20Still%20D.R.E.\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Still D.R.E.",
+    "artist": "Dr. Dre",
+    "url": "https://soundcloud.com/user-717462432/dr-dre-still-d-r-e-ft-snoop",
+    "official_channel": "alf haze",
+    "spotify_search": "https://open.spotify.com/search/Dr.%20Dre%20Still%20D.R.E."
+   },
+   "song_credit": "\"Still D.R.E.\" – Dr. Dre",
+   "pattern": {
+    "id": "P03",
+    "name": "Beside-lower"
+   },
+   "captions": [],
+   "duration": 19.87,
+   "sources": [
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 19.87
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-004026",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T00:51:49.461246+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-004026.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-004026.mp4",
+   "preview_mb": 19.9,
+   "size_mb": 66.4,
+   "title": "GTA 6 Vice City | Gimme! Gimme! Gimme! (A Man After Midnight) Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Gimme! Gimme! Gimme! (A Man After Midnight)\" – ABBA (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/ABBA%20Gimme%21%20Gimme%21%20Gimme%21%20%28A%20Man%20After%20Midnight%29\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+    "artist": "ABBA",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/ABBA%20Gimme%21%20Gimme%21%20Gimme%21%20%28A%20Man%20After%20Midnight%29"
+   },
+   "song_credit": "\"Gimme! Gimme! Gimme! (A Man After Midnight)\" – ABBA",
+   "pattern": {
+    "id": "P03",
+    "name": "Beside-lower"
+   },
+   "captions": [],
+   "duration": 17.23,
+   "sources": [
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 17.23
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-005649",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T01:09:36.820672+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-005649.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-005649.mp4",
+   "preview_mb": 20.0,
+   "size_mb": 81.4,
+   "title": "GTA 6 Vice City | Sunglasses at Night Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sunglasses at Night\" – Corey Hart (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Corey%20Hart%20Sunglasses%20at%20Night\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Sunglasses at Night",
+    "artist": "Corey Hart",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Corey%20Hart%20Sunglasses%20at%20Night"
+   },
+   "song_credit": "\"Sunglasses at Night\" – Corey Hart",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 21.33,
+   "sources": [
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 21.33
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -15.4
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-010936",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T01:23:46.573708+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-010936.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-010936.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 102.0,
+   "title": "GTA 6 Vice City | Money In The Grave Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Money In The Grave\" – Drake (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Drake%20Money%20In%20The%20Grave\n🎬 Footage: Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Money In The Grave",
+    "artist": "Drake",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Drake%20Money%20In%20The%20Grave"
+   },
+   "song_credit": "\"Money In The Grave\" – Drake",
+   "pattern": {
+    "id": "P06",
+    "name": "Close + nudge to centre"
+   },
+   "captions": [],
+   "duration": 26.9,
+   "sources": [
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 26.9
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -7.9
      },
      "black_frames": {
       "ok": true,
@@ -9507,6 +10484,339 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-25 06:19"
+  },
+  "1QZ7pMRBASs": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:54"
+  },
+  "HZtc5-syeAk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:54"
+  },
+  "u20XrLxVfYk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:55"
+  },
+  "Dw_oH5oiUSE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:55"
+  },
+  "iNzLOyp4rA0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:55"
+  },
+  "YlyDJVYqfpA": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:55"
+  },
+  "w2BiBSiw0ow": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo visible in the bottom right corner (IGN)",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:56"
+  },
+  "-hOXQfWyYIA": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:56"
+  },
+  "oZfL-3mk68A": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:56"
+  },
+  "grZigSpVDno": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:57"
+  },
+  "AYujwF_NFyU": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:57"
+  },
+  "fhMma6QzR3E": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:57"
+  },
+  "arcEUz_BiI4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:57"
+  },
+  "dyBA6JpCtkU": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:57"
+  },
+  "0tKJe89VkRw": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:58"
+  },
+  "lU8BjH2-jrA": {
+   "accept": false,
+   "reject_reasons": [
+    "CD PROJEKT RED channel logo present in the bottom right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:58"
+  },
+  "tL-U3e7ZjjQ": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:59"
+  },
+  "Vbzz6A2ElB4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:59"
+  },
+  "MB2RtqyCReg": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:59"
+  },
+  "2VugSq0Hmxk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 17:59"
+  },
+  "1gvGn8NtIpE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:00"
+  },
+  "_pOv4ovN-dM": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:00"
+  },
+  "C-0RAVoCD8U": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:01"
+  },
+  "FC-eYFDLTD0": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:01"
+  },
+  "ZNqYXxRoYJM": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:01"
+  },
+  "5zAOgv1a0x0": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo in top left corner (THE GAME FIX)",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:01"
+  },
+  "mtaPyj1yIEw": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:02"
+  },
+  "D5WTHS5Cnnk": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:02"
+  },
+  "RbsH6Yzdoqw": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:02"
+  },
+  "mnvc6uC6xZE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:03"
+  },
+  "cWJzdDnrH_M": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:03"
+  },
+  "396Qe1T2GVw": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:04"
+  },
+  "2mPBTTi3PDo": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:04"
+  },
+  "KlylKoFgl80": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:05"
+  },
+  "tqLMoW7oEbA": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:05"
+  },
+  "88xOfZEKEag": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:06"
+  },
+  "2-jX9MrOXoE": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:06"
+  },
+  "t5Nwgd_T1-4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:07"
+  },
+  "J4nMeH6DaOI": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:08"
+  },
+  "SSYsnSiReKM": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:08"
+  },
+  "JyLANjfQ9Ko": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:09"
+  },
+  "lb-tlY6ytk8": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:09"
+  },
+  "sUIlA2PVtYI": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:10"
+  },
+  "ASAJfbLILg8": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation 4 Pro branding overlay in bottom left corner",
+    "flag:watermark"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:10"
+  },
+  "Qgal95AMZ8o": {
+   "accept": false,
+   "reject_reasons": [
+    "XBOX logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:10"
+  },
+  "-E-1BcILTPk": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo or promotional badge present in the top-right and bottom-left corners",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:10"
+  },
+  "2NdGeJNB5eY": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo in the top left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:10"
+  },
+  "SlkizyzZ8k4": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:10"
+  },
+  "PYplTYmMEoI": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation channel logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 18:11"
   }
  },
  "failures": [
@@ -10934,6 +12244,186 @@
   },
   {
    "at": "2026-11-25T23:17:41.852320+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:41:23.721823+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:46:29.489859+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:51:36.194680+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-25T23:56:36.785641+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T00:01:08.283006+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T00:16:58.495954+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 20.03}}"
+  },
+  {
+   "at": "2026-11-26T00:28:13.607061+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 17.93}}"
+  },
+  {
+   "at": "2026-11-26T00:40:26.719934+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.87}}"
+  },
+  {
+   "at": "2026-11-26T00:51:49.475431+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 17.23}}"
+  },
+  {
+   "at": "2026-11-26T00:56:49.506956+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T01:09:36.829848+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.33}}"
+  },
+  {
+   "at": "2026-11-26T01:23:46.592422+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 26.9}}"
+  },
+  {
+   "at": "2026-11-26T01:28:15.956424+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T01:33:00.964723+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T01:38:01.250444+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T01:42:56.245892+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T01:47:56.034941+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T01:52:39.361198+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T01:57:43.805112+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:02:44.650710+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:07:55.042372+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:12:43.597057+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:17:49.460000+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:22:57.952527+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:27:41.334116+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:32:47.812363+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:37:56.468886+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:43:03.067555+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:47:52.142631+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T02:53:04.185667+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
