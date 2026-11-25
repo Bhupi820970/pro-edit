@@ -46,6 +46,8 @@ class Refill(unittest.TestCase):
         self.assertNotIn("gta", need)
         self.assertEqual(need["romance"], 29)
         self.assertEqual(need["sports"], 30)
+        need2 = ST.plan_refill(man, {}, {"stock": {"target": 30, "refill_at": 8}}, to_target=True)
+        self.assertEqual(need2["gta"], 10)
 
     def test_vet_drops_gemini_rejections(self):
         class G:

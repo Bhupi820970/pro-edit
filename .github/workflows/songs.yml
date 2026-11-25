@@ -57,5 +57,7 @@ jobs:
         env:
           DRY: ${{ github.event.inputs.dry_run }}
         run: |
-          if [ "$DRY" = "true" ]; then python -m pipeline_lib.song_stock refill --dry-run;
-          else python -m pipeline_lib.song_stock refill; fi
+          FLAGS=()
+          [ "${{ github.event_name }}" = "workflow_dispatch" ] && FLAGS+=(--to-target)
+          if [ "$DRY" = "true" ]; then python -m pipeline_lib.song_stock refill --dry-run "${FLAGS[@]}";
+          else python -m pipeline_lib.song_stock refill "${FLAGS[@]}"; fi

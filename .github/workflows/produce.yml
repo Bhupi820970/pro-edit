@@ -130,12 +130,12 @@ jobs:
           gh release download sources --dir "$VICE_PIPELINE_HOME/sources" --skip-existing 2>/dev/null || true
           gh release download sources --pattern manifest.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
           gh release download sources --pattern box_heartbeat.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
-          ls -la "$VICE_PIPELINE_HOME/sources" | head -30
+          find "$VICE_PIPELINE_HOME/sources" -maxdepth 1 -printf "%f\n" | head -30
           # official audio the box fetched (box_fetch.py -> DRAFT release "songs"); runner uses these first
           mkdir -p "$VICE_PIPELINE_HOME/songs"
           gh release download songs --dir "$VICE_PIPELINE_HOME/songs" --skip-existing 2>/dev/null || true
           gh release download songs --pattern manifest.json --dir "$VICE_PIPELINE_HOME/songs" --clobber 2>/dev/null || true
-          ls -la "$VICE_PIPELINE_HOME/songs" | head -40
+          find "$VICE_PIPELINE_HOME/songs" -maxdepth 1 -printf "%f\n" | head -40
 
       - name: Produce
         run: |
@@ -145,10 +145,10 @@ jobs:
           ICAT="${{ github.event.inputs.instagram_category }}"
           if [ "${{ matrix.platform }}" = "youtube" ] && [ -n "$YCAT" ]; then CAT="$YCAT"; fi
           if [ "${{ matrix.platform }}" = "instagram" ] && [ -n "$ICAT" ]; then CAT="$ICAT"; fi
-          ARGS="--platform ${{ matrix.platform }} --max-minutes ${{ github.event.inputs.max_minutes || '320' }}"
-          [ -n "$CAT" ] && ARGS="$ARGS --category $CAT"
-          if [ "$MODE" = "produce" ]; then python pipeline.py produce $ARGS --count "${{ github.event.inputs.count || '1' }}";
-          else python pipeline.py ensure $ARGS; fi
+          ARGS=(--platform "${{ matrix.platform }}" --max-minutes "${{ github.event.inputs.max_minutes || '320' }}")
+          [ -n "$CAT" ] && ARGS+=(--category "$CAT")
+          if [ "$MODE" = "produce" ]; then python pipeline.py produce "${ARGS[@]}" --count "${{ github.event.inputs.count || '1' }}";
+          else python pipeline.py ensure "${ARGS[@]}"; fi
 
       - name: Add songs this run fetched (Gemini requests) to the genre song stock
         if: always()

@@ -120,21 +120,24 @@ def vet(gem, genre: str, cands: list[dict]) -> list[dict]:
     return kept
 
 
-def plan_refill(man: dict, idx: dict, cfg: dict) -> dict:
+def plan_refill(man: dict, idx: dict, cfg: dict, to_target: bool = False) -> dict:
     st = cfg.get("stock") or {}
     target, low = int(st.get("target", 30)), int(st.get("refill_at", 8))
     c = counts(man, idx)
+    if to_target:
+        return {g: target - n for g, n in c.items() if n < target}
     return {g: target - n for g, n in c.items() if n <= low}
 
 
-def refill(dry_run: bool = False, extra: list | None = None, gem=None, workdir: Path | None = None) -> int:
+def refill(dry_run: bool = False, extra: list | None = None, gem=None, workdir: Path | None = None,
+           to_target: bool = False) -> int:
     cfg = load_songs_cfg()
     idx = genre_index(None)
     sdir = Path(workdir or tempfile.mkdtemp(prefix="songstock-"))
     sdir.mkdir(parents=True, exist_ok=True)
     man = remote_manifest(sdir)
     retagged = tag_manifest(man, idx)
-    need = plan_refill(man, idx, cfg)
+    need = plan_refill(man, idx, cfg, to_target=to_target)
     log("song stock per genre:", counts(man, idx), "refill:", need or "none")
     max_run = int((cfg.get("stock") or {}).get("max_per_run", 12))
     have_keys = {tag_key(r.get("title", ""), r.get("artist", "")) for r in man["songs"] if isinstance(r, dict)}
@@ -210,6 +213,8 @@ def main(argv=None):
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--cookies-from-browser", default="")
     ap.add_argument("--no-gemini", action="store_true")
+    ap.add_argument("--to-target", action="store_true",
+                    help="top up every genre below target (not only those at/below refill_at)")
     ap.add_argument("--songs-dir", default="")
     a = ap.parse_args(argv)
     if a.cmd == "status":
@@ -229,7 +234,7 @@ def main(argv=None):
         except Exception as ex:
             log("no Gemini for song vetting (curated seeds only):", str(ex)[:120])
     extra = ["--cookies-from-browser", a.cookies_from_browser] if a.cookies_from_browser else None
-    refill(dry_run=a.dry_run, extra=extra, gem=gem)
+    refill(dry_run=a.dry_run, extra=extra, gem=gem, to_target=a.to_target)
 
 
 if __name__ == "__main__":
