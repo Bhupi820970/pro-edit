@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T21:33:23.182727+05:30",
+ "updated": "2026-11-26T21:33:36.011314+05:30",
  "posted": [
   {
    "id": "yo-gta-20261125-070541",
@@ -190,13 +190,20 @@
   {
    "id": "yo-gta-20261126-180400",
    "platform": "youtube",
-   "status": "posting",
+   "status": "posted",
    "run_id": "45855055001",
    "intent_at": "2026-11-26T21:33:22.895550+05:30",
    "title": "GTA 6 Vice City | Murder on the Dancefloor Edit",
    "slot": "2026-11-26T21:30",
-   "updated_at": "2026-11-26T21:33:23.182699+05:30",
-   "posted_at": "2026-11-26T21:33:23.182699+05:30"
+   "updated_at": "2026-11-26T21:33:36.011286+05:30",
+   "posted_at": "2026-11-26T21:33:36.011286+05:30",
+   "youtube_id": "IPsFQG-LhiM",
+   "youtube_url": "https://www.youtube.com/watch?v=IPsFQG-LhiM",
+   "instagram_url": null,
+   "ig_media_id": null,
+   "ig_container_id": null,
+   "buffer_post_id": null,
+   "buffer_status": null
   }
  ],
  "duplicates": [
