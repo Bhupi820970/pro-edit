@@ -17,6 +17,36 @@
    "at": "2026-11-26T13:50:42.690048+05:30",
    "video": "yo-gta-20261126-133632",
    "platform": "youtube"
+  },
+  {
+   "id": "P01",
+   "at": "2026-11-26T17:48:04.667839+05:30",
+   "video": "yo-gta-20261126-173604",
+   "platform": "youtube"
+  },
+  {
+   "id": "P08",
+   "at": "2026-11-26T18:03:47.820979+05:30",
+   "video": "yo-gta-20261126-174815",
+   "platform": "youtube"
+  },
+  {
+   "id": "P06",
+   "at": "2026-11-26T18:17:33.258933+05:30",
+   "video": "yo-gta-20261126-180400",
+   "platform": "youtube"
+  },
+  {
+   "id": "P10",
+   "at": "2026-11-26T18:30:00.643515+05:30",
+   "video": "yo-gta-20261126-181743",
+   "platform": "youtube"
+  },
+  {
+   "id": "P05",
+   "at": "2026-11-26T18:42:03.898584+05:30",
+   "video": "yo-gta-20261126-183011",
+   "platform": "youtube"
   }
  ],
  "songs": [
@@ -40,6 +70,41 @@
    "url": "",
    "at": "2026-11-26T13:50:42.690059+05:30",
    "video": "yo-gta-20261126-133632"
+  },
+  {
+   "title": "Don't You Want Me",
+   "artist": "The Human League",
+   "url": "https://soundcloud.com/user-180738321/dont-you-want-me-1",
+   "at": "2026-11-26T17:48:04.667853+05:30",
+   "video": "yo-gta-20261126-173604"
+  },
+  {
+   "title": "Get Lucky",
+   "artist": "Daft Punk ft. Pharrell Williams",
+   "url": "https://soundcloud.com/danilo-lima-64/daft-punk-get-lucky-official",
+   "at": "2026-11-26T18:03:47.820995+05:30",
+   "video": "yo-gta-20261126-174815"
+  },
+  {
+   "title": "Murder on the Dancefloor",
+   "artist": "Sophie Ellis-Bextor",
+   "url": "",
+   "at": "2026-11-26T18:17:33.258945+05:30",
+   "video": "yo-gta-20261126-180400"
+  },
+  {
+   "title": "Out of Touch",
+   "artist": "Daryl Hall & John Oates",
+   "url": "",
+   "at": "2026-11-26T18:30:00.643528+05:30",
+   "video": "yo-gta-20261126-181743"
+  },
+  {
+   "title": "Still D.R.E.",
+   "artist": "Dr. Dre",
+   "url": "https://soundcloud.com/user-717462432/dr-dre-still-d-r-e-ft-snoop",
+   "at": "2026-11-26T18:42:03.898597+05:30",
+   "video": "yo-gta-20261126-183011"
   }
  ],
  "windows": [
@@ -66,6 +131,24 @@
    "start": 42.75,
    "at": "2026-11-26T13:50:42.690070+05:30",
    "video": "yo-gta-20261126-133632"
+  },
+  {
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 32.04,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604"
+  },
+  {
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 18.73,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604"
+  },
+  {
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 34.22,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815"
   }
  ],
  "sources_used": [
@@ -158,6 +241,221 @@
    "id": "45--ZVLkmks",
    "at": "2026-11-26T13:50:42.690828+05:30",
    "video": "yo-gta-20261126-133632"
+  },
+  {
+   "id": "ewAODca-3Bw",
+   "at": "2026-11-26T17:48:04.668593+05:30",
+   "video": "yo-gta-20261126-173604"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "at": "2026-11-26T17:48:04.668599+05:30",
+   "video": "yo-gta-20261126-173604"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "at": "2026-11-26T17:48:04.668603+05:30",
+   "video": "yo-gta-20261126-173604"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "at": "2026-11-26T17:48:04.668607+05:30",
+   "video": "yo-gta-20261126-173604"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "at": "2026-11-26T17:48:04.668611+05:30",
+   "video": "yo-gta-20261126-173604"
+  },
+  {
+   "id": "htg1EZE3LVk",
+   "at": "2026-11-26T17:48:04.668614+05:30",
+   "video": "yo-gta-20261126-173604"
+  },
+  {
+   "id": "ewAODca-3Bw",
+   "at": "2026-11-26T18:03:47.821776+05:30",
+   "video": "yo-gta-20261126-174815"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "at": "2026-11-26T18:03:47.821781+05:30",
+   "video": "yo-gta-20261126-174815"
+  },
+  {
+   "id": "htg1EZE3LVk",
+   "at": "2026-11-26T18:03:47.821785+05:30",
+   "video": "yo-gta-20261126-174815"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "at": "2026-11-26T18:03:47.821788+05:30",
+   "video": "yo-gta-20261126-174815"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "at": "2026-11-26T18:03:47.821792+05:30",
+   "video": "yo-gta-20261126-174815"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "at": "2026-11-26T18:03:47.821795+05:30",
+   "video": "yo-gta-20261126-174815"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "at": "2026-11-26T18:03:47.821799+05:30",
+   "video": "yo-gta-20261126-174815"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "at": "2026-11-26T18:03:47.821802+05:30",
+   "video": "yo-gta-20261126-174815"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "at": "2026-11-26T18:03:47.821806+05:30",
+   "video": "yo-gta-20261126-174815"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "at": "2026-11-26T18:17:33.259933+05:30",
+   "video": "yo-gta-20261126-180400"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "at": "2026-11-26T18:17:33.259939+05:30",
+   "video": "yo-gta-20261126-180400"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "at": "2026-11-26T18:17:33.259943+05:30",
+   "video": "yo-gta-20261126-180400"
+  },
+  {
+   "id": "ewAODca-3Bw",
+   "at": "2026-11-26T18:17:33.259947+05:30",
+   "video": "yo-gta-20261126-180400"
+  },
+  {
+   "id": "htg1EZE3LVk",
+   "at": "2026-11-26T18:17:33.259950+05:30",
+   "video": "yo-gta-20261126-180400"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "at": "2026-11-26T18:17:33.259954+05:30",
+   "video": "yo-gta-20261126-180400"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "at": "2026-11-26T18:17:33.259957+05:30",
+   "video": "yo-gta-20261126-180400"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "at": "2026-11-26T18:17:33.259960+05:30",
+   "video": "yo-gta-20261126-180400"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "at": "2026-11-26T18:17:33.259964+05:30",
+   "video": "yo-gta-20261126-180400"
+  },
+  {
+   "id": "ewAODca-3Bw",
+   "at": "2026-11-26T18:30:00.644495+05:30",
+   "video": "yo-gta-20261126-181743"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "at": "2026-11-26T18:30:00.644501+05:30",
+   "video": "yo-gta-20261126-181743"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "at": "2026-11-26T18:30:00.644505+05:30",
+   "video": "yo-gta-20261126-181743"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "at": "2026-11-26T18:30:00.644509+05:30",
+   "video": "yo-gta-20261126-181743"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "at": "2026-11-26T18:30:00.644512+05:30",
+   "video": "yo-gta-20261126-181743"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "at": "2026-11-26T18:30:00.644516+05:30",
+   "video": "yo-gta-20261126-181743"
+  },
+  {
+   "id": "htg1EZE3LVk",
+   "at": "2026-11-26T18:30:00.644519+05:30",
+   "video": "yo-gta-20261126-181743"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "at": "2026-11-26T18:30:00.644522+05:30",
+   "video": "yo-gta-20261126-181743"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "at": "2026-11-26T18:30:00.644526+05:30",
+   "video": "yo-gta-20261126-181743"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "at": "2026-11-26T18:42:03.899456+05:30",
+   "video": "yo-gta-20261126-183011"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "at": "2026-11-26T18:42:03.899464+05:30",
+   "video": "yo-gta-20261126-183011"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "at": "2026-11-26T18:42:03.899469+05:30",
+   "video": "yo-gta-20261126-183011"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "at": "2026-11-26T18:42:03.899475+05:30",
+   "video": "yo-gta-20261126-183011"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "at": "2026-11-26T18:42:03.899480+05:30",
+   "video": "yo-gta-20261126-183011"
+  },
+  {
+   "id": "htg1EZE3LVk",
+   "at": "2026-11-26T18:42:03.899486+05:30",
+   "video": "yo-gta-20261126-183011"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "at": "2026-11-26T18:42:03.899492+05:30",
+   "video": "yo-gta-20261126-183011"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "at": "2026-11-26T18:42:03.899497+05:30",
+   "video": "yo-gta-20261126-183011"
+  },
+  {
+   "id": "ewAODca-3Bw",
+   "at": "2026-11-26T18:42:03.899503+05:30",
+   "video": "yo-gta-20261126-183011"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "at": "2026-11-26T18:42:03.899509+05:30",
+   "video": "yo-gta-20261126-183011"
   }
  ],
  "segments_used": [
@@ -4111,6 +4409,2130 @@
    "at": "2026-11-26T13:50:42.690070+05:30",
    "video": "yo-gta-20261126-133632",
    "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 22.47,
+   "end": 23.503333333333334,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 13.67,
+   "end": 14.703333333333333,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 20.27,
+   "end": 21.27,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 18.97,
+   "end": 19.50333333333333,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 30.37,
+   "end": 30.87,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 3.97,
+   "end": 5.003333333333334,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 8.67,
+   "end": 9.703333333333333,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 7.87,
+   "end": 8.870000000000001,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 17.27,
+   "end": 18.30333333333333,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 20.47,
+   "end": 21.00333333333333,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 45.37,
+   "end": 45.87,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 32.04,
+   "end": 38.70666666666666,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "dialogue"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 40.87,
+   "end": 41.90333333333333,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 16.97,
+   "end": 17.47,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 4.57,
+   "end": 5.07,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 26.97,
+   "end": 28.00333333333333,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 24.77,
+   "end": 25.803333333333335,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 21.37,
+   "end": 21.87,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 18.73,
+   "end": 23.863333333333333,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "dialogue"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 48.06999999999999,
+   "end": 48.603333333333325,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 18.07,
+   "end": 18.57,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 42.56999999999999,
+   "end": 43.603333333333325,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 50.87,
+   "end": 51.37,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 20.169999999999998,
+   "end": 20.703333333333333,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 28.669999999999998,
+   "end": 29.169999999999998,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 10.57,
+   "end": 11.603333333333332,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 46.37,
+   "end": 46.87,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 22.37,
+   "end": 22.87,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 21.485648712068325,
+   "end": 22.01898204540166,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 5.18564871206833,
+   "end": 6.218982045401665,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 31.072824356034165,
+   "end": 31.572824356034165,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 9.085648712068329,
+   "end": 9.585648712068329,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 18.485648712068325,
+   "end": 19.018982045401657,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 5.272824356034166,
+   "end": 6.306157689367497,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 25.985648712068325,
+   "end": 26.485648712068325,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 29.37282435603416,
+   "end": 29.87282435603416,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 22.18847306810249,
+   "end": 22.72180640143582,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 9.788473068102492,
+   "end": 10.788473068102492,
+   "at": "2026-11-26T17:48:04.667864+05:30",
+   "video": "yo-gta-20261126-173604",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 22.47,
+   "end": 23.636666666666667,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 13.67,
+   "end": 14.87,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 8.67,
+   "end": 9.836666666666666,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 23.77,
+   "end": 24.37,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 10.07,
+   "end": 10.636666666666667,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 13.469999999999999,
+   "end": 14.636666666666665,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 33.37,
+   "end": 34.57,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 38.87,
+   "end": 40.03666666666666,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 17.37,
+   "end": 18.53666666666667,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 34.22,
+   "end": 39.519999999999996,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "dialogue"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 42.56999999999999,
+   "end": 43.736666666666665,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 18.97,
+   "end": 19.569999999999997,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 41.87,
+   "end": 42.47,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 7.7700000000000005,
+   "end": 8.936666666666667,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 10.57,
+   "end": 11.736666666666665,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 40.23650044117524,
+   "end": 41.43650044117524,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 50.06999999999999,
+   "end": 50.636666666666656,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 20.47,
+   "end": 21.069999999999997,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 41.60300088235048,
+   "end": 42.76966754901714,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 48.06999999999999,
+   "end": 48.669999999999995,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 5.2700000000000005,
+   "end": 5.869999999999998,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 42.96950132352572,
+   "end": 44.13616799019239,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 16.97,
+   "end": 17.536666666666665,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 45.37,
+   "end": 45.97,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 21.37,
+   "end": 21.970000000000002,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 18.07,
+   "end": 18.636666666666667,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 15.27,
+   "end": 15.870000000000001,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 22.37,
+   "end": 22.97,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 27.169999999999998,
+   "end": 27.736666666666665,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 20.169999999999998,
+   "end": 20.77,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 48.97,
+   "end": 49.57,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 50.87,
+   "end": 51.43666666666667,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 14.17,
+   "end": 14.769999999999998,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 35.269999999999996,
+   "end": 35.87,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 25.77,
+   "end": 26.336666666666662,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 46.37,
+   "end": 46.97,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 34.169999999999995,
+   "end": 34.769999999999996,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 9.136500441175242,
+   "end": 9.703167107841912,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 32.47,
+   "end": 33.63666666666666,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 11.469999999999999,
+   "end": 12.07,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 30.37,
+   "end": 30.970000000000002,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 40.87,
+   "end": 42.03666666666666,
+   "at": "2026-11-26T18:03:47.821008+05:30",
+   "video": "yo-gta-20261126-174815",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 14.57,
+   "end": 15.603333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 13.67,
+   "end": 14.67,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 41.87,
+   "end": 42.90333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 20.47,
+   "end": 20.97,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 18.97,
+   "end": 19.50333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 8.67,
+   "end": 9.67,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 21.97,
+   "end": 23.003333333333334,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 22.47,
+   "end": 23.50333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 42.56999999999999,
+   "end": 43.603333333333325,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 50.87,
+   "end": 51.37,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 7.37,
+   "end": 7.87,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 10.57,
+   "end": 11.603333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 16.97,
+   "end": 17.47,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 20.169999999999998,
+   "end": 20.703333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 21.37,
+   "end": 21.87,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 18.07,
+   "end": 18.57,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 48.06999999999999,
+   "end": 48.603333333333325,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 22.37,
+   "end": 22.87,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 45.37,
+   "end": 45.87,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 34.169999999999995,
+   "end": 34.703333333333326,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 35.269999999999996,
+   "end": 35.769999999999996,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 46.37,
+   "end": 46.87,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 32.47,
+   "end": 33.50333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 30.37,
+   "end": 30.87,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 40.87,
+   "end": 41.40333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 39.56999999999999,
+   "end": 40.56999999999999,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 58.169999999999995,
+   "end": 58.70333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 18.57,
+   "end": 19.07,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 62.769999999999996,
+   "end": 63.80333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 36.56999999999999,
+   "end": 37.06999999999999,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 20.27,
+   "end": 20.803333333333335,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 26.97,
+   "end": 27.97,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 18.27,
+   "end": 18.803333333333335,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 11.87,
+   "end": 12.37,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 28.87,
+   "end": 29.903333333333332,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 24.169999999999998,
+   "end": 24.669999999999998,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 28.669999999999998,
+   "end": 29.169999999999998,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 24.77,
+   "end": 25.803333333333335,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 10.77,
+   "end": 11.27,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 48.37,
+   "end": 48.90333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 19.27,
+   "end": 20.27,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 15.07,
+   "end": 15.603333333333335,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 3.97,
+   "end": 4.470000000000001,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 7.87,
+   "end": 8.903333333333332,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 17.27,
+   "end": 17.77,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 4.57,
+   "end": 5.07,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 52.269999999999996,
+   "end": 53.30333333333333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 31.07152097032001,
+   "end": 31.57152097032001,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 41.57152097032,
+   "end": 42.10485430365333,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 63.983041940640014,
+   "end": 65.01637527397335,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 40.78304194064001,
+   "end": 41.28304194064001,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 58.87152097032,
+   "end": 59.37152097032,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 37.27152097032,
+   "end": 38.304854303653336,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 19.271520970320008,
+   "end": 19.771520970320008,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 20.971520970320007,
+   "end": 21.50485430365334,
+   "at": "2026-11-26T18:17:33.258955+05:30",
+   "video": "yo-gta-20261126-180400",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 33.37,
+   "end": 34.40333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 10.07,
+   "end": 11.103333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 13.67,
+   "end": 14.703333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 18.97,
+   "end": 19.47,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 20.47,
+   "end": 21.003333333333334,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 41.87,
+   "end": 42.90333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 8.67,
+   "end": 9.703333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 22.47,
+   "end": 23.50333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 13.469999999999999,
+   "end": 14.503333333333334,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 23.77,
+   "end": 24.27,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 5.2700000000000005,
+   "end": 5.803333333333334,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 50.06999999999999,
+   "end": 51.103333333333325,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 48.06999999999999,
+   "end": 48.56999999999999,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 27.169999999999998,
+   "end": 27.703333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 42.56999999999999,
+   "end": 43.603333333333325,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 20.169999999999998,
+   "end": 20.669999999999998,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 16.97,
+   "end": 17.50333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 17.37,
+   "end": 18.403333333333336,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 18.07,
+   "end": 18.57,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 21.37,
+   "end": 21.903333333333336,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 25.77,
+   "end": 26.803333333333335,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 15.27,
+   "end": 15.77,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 45.37,
+   "end": 45.90333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 10.57,
+   "end": 11.603333333333335,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 48.97,
+   "end": 49.47,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 50.87,
+   "end": 51.40333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 14.17,
+   "end": 14.67,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 35.269999999999996,
+   "end": 35.80333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 22.37,
+   "end": 22.87,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 34.169999999999995,
+   "end": 34.669999999999995,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 46.37,
+   "end": 46.90333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 32.47,
+   "end": 33.50333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 11.469999999999999,
+   "end": 11.969999999999999,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 30.37,
+   "end": 30.903333333333332,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 40.87,
+   "end": 41.903333333333336,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 39.56999999999999,
+   "end": 40.06999999999999,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 58.169999999999995,
+   "end": 58.703333333333326,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 62.769999999999996,
+   "end": 63.80333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 36.56999999999999,
+   "end": 37.06999999999999,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 20.27,
+   "end": 20.80333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 44.87,
+   "end": 45.903333333333336,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 38.87,
+   "end": 39.37,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 26.97,
+   "end": 27.50333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 28.87,
+   "end": 29.903333333333336,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 24.169999999999998,
+   "end": 24.669999999999998,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 28.669999999999998,
+   "end": 29.20333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 24.77,
+   "end": 25.803333333333338,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 48.37,
+   "end": 48.87,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 19.27,
+   "end": 19.80333333333333,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 18.87,
+   "end": 19.903333333333332,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 3.97,
+   "end": 4.470000000000001,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 7.87,
+   "end": 8.403333333333332,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 20.97,
+   "end": 22.003333333333337,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 17.27,
+   "end": 17.77,
+   "at": "2026-11-26T18:30:00.643539+05:30",
+   "video": "yo-gta-20261126-181743",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 22.47,
+   "end": 23.77,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "_SgqsxXk8_E",
+   "file": "_SgqsxXk8_E.mkv",
+   "start": 13.67,
+   "end": 14.936666666666667,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 13.469999999999999,
+   "end": 14.77,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 33.37,
+   "end": 34.00333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 5.2700000000000005,
+   "end": 5.903333333333334,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 42.56999999999999,
+   "end": 43.86999999999999,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 10.57,
+   "end": 11.836666666666666,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 41.87,
+   "end": 42.50333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 48.06999999999999,
+   "end": 48.73666666666666,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 8.67,
+   "end": 9.303333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 50.06999999999999,
+   "end": 50.703333333333326,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 16.97,
+   "end": 17.60333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 18.97,
+   "end": 19.636666666666663,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 23.77,
+   "end": 24.403333333333332,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 10.07,
+   "end": 10.703333333333335,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "R3HS6owS3P8",
+   "file": "R3HS6owS3P8.mkv",
+   "start": 21.37,
+   "end": 22.03666666666667,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 27.169999999999998,
+   "end": 27.80333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 45.37,
+   "end": 46.00333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 15.27,
+   "end": 15.903333333333332,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 50.87,
+   "end": 51.53666666666666,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 17.37,
+   "end": 18.003333333333334,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 22.37,
+   "end": 23.003333333333334,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 14.17,
+   "end": 14.803333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 20.169999999999998,
+   "end": 20.836666666666666,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 48.97,
+   "end": 49.60333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 34.169999999999995,
+   "end": 34.80333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 25.77,
+   "end": 26.403333333333336,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 35.269999999999996,
+   "end": 35.93666666666666,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 32.47,
+   "end": 33.736666666666665,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "T7aaNEW7zA0",
+   "file": "T7aaNEW7zA0.mkv",
+   "start": 11.469999999999999,
+   "end": 12.136666666666667,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 30.37,
+   "end": 31.003333333333334,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 40.87,
+   "end": 42.13666666666667,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 39.56999999999999,
+   "end": 40.23666666666666,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 58.169999999999995,
+   "end": 58.80333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 62.769999999999996,
+   "end": 64.03666666666666,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 36.56999999999999,
+   "end": 37.23666666666666,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "T3ZaWDcPiIo",
+   "file": "T3ZaWDcPiIo.mkv",
+   "start": 20.27,
+   "end": 20.903333333333332,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 44.87,
+   "end": 46.13666666666667,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "APJ-lT0sBhg",
+   "file": "APJ-lT0sBhg.mkv",
+   "start": 38.87,
+   "end": 39.53666666666666,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 26.97,
+   "end": 27.60333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 18.27,
+   "end": 19.53666666666667,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 11.87,
+   "end": 12.536666666666664,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 28.87,
+   "end": 29.503333333333334,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 24.169999999999998,
+   "end": 25.470000000000002,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 28.669999999999998,
+   "end": 29.30333333333333,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "P3NBd3UjH5Y",
+   "file": "P3NBd3UjH5Y.mkv",
+   "start": 24.77,
+   "end": 25.403333333333332,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 48.37,
+   "end": 49.669999999999995,
+   "at": "2026-11-26T18:42:03.898608+05:30",
+   "video": "yo-gta-20261126-183011",
+   "kind": "montage"
   }
  ],
  "vet": {
@@ -5309,6 +7731,364 @@
    "duration": 183.168,
    "category": "gta",
    "at": "2026-11-26 08:07"
+  },
+  "tJbzMqJGH4k": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "tense crime action",
+   "summary": "Compilation of gameplay scenes and cinematic cutscenes featuring criminal activities, heists, and lifestyle shots in Vice City.",
+   "reject_reasons": [
+    "Promotional game footage / trailer structure",
+    "Persistent HUD overlay present in several shots",
+    "flag:hud_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 275.0,
+     "end": 285.0,
+     "reason": "HUD overlay visible in top right corner"
+    },
+    {
+     "start": 675.0,
+     "end": 685.0,
+     "reason": "HUD overlay visible in top right corner"
+    }
+   ],
+   "characters": [
+    "Lucia",
+    "Jason"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    80.41,
+    280.27,
+    480.14,
+    680.0,
+    879.86,
+    1079.73,
+    1279.59,
+    1479.46
+   ],
+   "title": "Grand Theft Auto VI: An Extended Look",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 1608.108,
+   "category": "gta",
+   "at": "2026-11-26 11:51"
+  },
+  "R3HS6owS3P8": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "action-packed criminal heist",
+   "summary": "Official gameplay and cutscene showcase of the GTA Online Cluckin Bell Farm Raid update featuring heist planning, shootouts, and tactical action.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 26.0,
+     "end": 29.0,
+     "reason": "Title card and play now end slate"
+    }
+   ],
+   "characters": [
+    "Vincent Effenburger"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=R3HS6owS3P8",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-26 11:51"
+  },
+  "htg1EZE3LVk": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense criminal heist action",
+   "summary": "Official game update showcase featuring characters planning and executing a raid on a Cluckin Bell facility with intense shootouts and vehicle chases.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 26.0,
+     "end": 29.0,
+     "reason": "Title card and release date screen"
+    }
+   ],
+   "characters": [
+    "Vincent Effenburger",
+    "Player character"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=htg1EZE3LVk",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-26 11:51"
+  },
+  "P3NBd3UjH5Y": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "action-packed criminal underworld",
+   "summary": "Official gameplay and cinematic trailer footage showcasing criminal enterprise updates in Los Santos with motorcycle clubs, weapons, and tactical operations.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 53.0,
+     "end": 55.2,
+     "reason": "Title card and release date logo slate"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.0,
+    10.46,
+    17.92,
+    25.38,
+    32.84,
+    40.3,
+    47.77,
+    55.23
+   ],
+   "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 60.028,
+   "category": "gta",
+   "at": "2026-11-26 11:51"
+  },
+  "_SgqsxXk8_E": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "intense criminal bounty hunting",
+   "summary": "Official gameplay showcase for the GTA Online Bottom Dollar Bounties update featuring character interactions and action sequences.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 8.0,
+     "end": 10.0,
+     "reason": "Title card"
+    },
+    {
+     "start": 26.0,
+     "end": 29.0,
+     "reason": "End slate with text"
+    }
+   ],
+   "characters": [
+    "Maude Eccles",
+    "Jenette Eccles"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: Bottom Dollar Bounties Out Now",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-26 11:51"
+  },
+  "T3ZaWDcPiIo": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "action-packed criminal heist thriller",
+   "summary": "Official update showcase footage for GTA Online featuring cinematic scenes, tactical operations, and police chases.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 26.0,
+     "end": 29.0,
+     "reason": "Title and release date slate"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: Agents of Sabotage Coming December 10",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-26 11:51"
+  },
+  "ewAODca-3Bw": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense crime action",
+   "summary": "Official gameplay showcase and update preview for GTA Online Bottom Dollar Bounties featuring bounty hunting action and cutscenes.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 8.0,
+     "end": 10.5,
+     "reason": "Title card"
+    },
+    {
+     "start": 22.0,
+     "end": 25.5,
+     "reason": "Title card fade"
+    },
+    {
+     "start": 26.0,
+     "end": 29.0,
+     "reason": "End slate with release date and legal text"
+    }
+   ],
+   "characters": [
+    "Maude Frasier",
+    "Player Character"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63
+   ],
+   "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=ewAODca-3Bw",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-26 11:51"
   }
  },
  "videos": [
@@ -11042,6 +13822,977 @@
      }
     }
    }
+  },
+  {
+   "id": "yo-gta-20261126-172047",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T17:36:04.016614+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-172047.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-172047.mp4",
+   "preview_mb": 21.5,
+   "size_mb": 170.4,
+   "title": "GTA 6 Vice City | Money In The Grave Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Money In The Grave\" – Drake (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Drake%20Money%20In%20The%20Grave\n🎬 Footage: Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Out Now\"; Rockstar Games – \"GTA Online: Agents of Sabotage Coming December 10\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Coming June 25\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Money In The Grave",
+    "artist": "Drake",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Drake%20Money%20In%20The%20Grave"
+   },
+   "song_credit": "\"Money In The Grave\" – Drake",
+   "pattern": {
+    "id": "P07",
+    "name": "Far beside"
+   },
+   "captions": [
+    "YOU EVER HEARD",
+    "OF THE DUGGINS?",
+    "OIL AND GAS",
+    "PEOPLE MAKING SOME",
+    "SERIOUS DOLLAR WITH",
+    "THE PRICES BEING",
+    "HIGH",
+    "YO",
+    "I KNOW YOU",
+    "CAN'T TELL",
+    "BUT I'M",
+    "THRILLED TO",
+    "MEET YOU"
+   ],
+   "duration": 38.83,
+   "sources": [
+    {
+     "id": "R3HS6owS3P8",
+     "src_id": "R3HS6owS3P8",
+     "path": "/mnt/ph/youtube/sources/R3HS6owS3P8.mkv",
+     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
+    },
+    {
+     "id": "htg1EZE3LVk",
+     "src_id": "htg1EZE3LVk",
+     "path": "/mnt/ph/youtube/sources/htg1EZE3LVk.mkv",
+     "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=htg1EZE3LVk"
+    },
+    {
+     "id": "P3NBd3UjH5Y",
+     "src_id": "P3NBd3UjH5Y",
+     "path": "/mnt/ph/youtube/sources/P3NBd3UjH5Y.mkv",
+     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
+    },
+    {
+     "id": "_SgqsxXk8_E",
+     "src_id": "_SgqsxXk8_E",
+     "path": "/mnt/ph/youtube/sources/_SgqsxXk8_E.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Out Now",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E"
+    },
+    {
+     "id": "T3ZaWDcPiIo",
+     "src_id": "T3ZaWDcPiIo",
+     "path": "/mnt/ph/youtube/sources/T3ZaWDcPiIo.mkv",
+     "title": "GTA Online: Agents of Sabotage Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo"
+    },
+    {
+     "id": "ewAODca-3Bw",
+     "src_id": "ewAODca-3Bw",
+     "path": "/mnt/ph/youtube/sources/ewAODca-3Bw.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=ewAODca-3Bw"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.83
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.5
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 13
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "YOU EVER HEARD"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 59.7,
+    "song": 0.4,
+    "beats": 10.2,
+    "scan_plan": 168.3,
+    "render": 606.3,
+    "gemini_meta": 0.0,
+    "qa": 10.7,
+    "preview": 61.1
+   }
+  },
+  {
+   "id": "yo-gta-20261126-173604",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-26T17:48:04.666904+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-173604.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-173604.mp4",
+   "preview_mb": 21.9,
+   "size_mb": 170.4,
+   "title": "GTA 6 Vice City | Don't You Want Me Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Don't You Want Me\" – The Human League (original recording)\n🔗 Official audio: https://soundcloud.com/user-180738321/dont-you-want-me-1\n🎧 Spotify: https://open.spotify.com/search/The%20Human%20League%20Don%27t%20You%20Want%20Me\n🎬 Footage: Rockstar Games – \"GTA Online: Bottom Dollar Bounties Coming June 25\"; Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Coming December 10\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Out Now\"; Rockstar Games – \"The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Don't You Want Me",
+    "artist": "The Human League",
+    "url": "https://soundcloud.com/user-180738321/dont-you-want-me-1",
+    "official_channel": "The Human League Tribute",
+    "spotify_search": "https://open.spotify.com/search/The%20Human%20League%20Don%27t%20You%20Want%20Me"
+   },
+   "song_credit": "\"Don't You Want Me\" – The Human League",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [
+    "YOU EVER HEARD",
+    "OF THE DUGGINS?",
+    "OIL AND GAS",
+    "PEOPLE MAKING SOME",
+    "SERIOUS DOLLAR WITH",
+    "THE PRICES BEING",
+    "HIGH YO",
+    "I KNOW YOU",
+    "CAN'T TELL",
+    "BUT I'M",
+    "THRILLED TO",
+    "MEET YOU"
+   ],
+   "duration": 38.53,
+   "sources": [
+    {
+     "id": "ewAODca-3Bw",
+     "src_id": "ewAODca-3Bw",
+     "path": "/mnt/ph/youtube/sources/ewAODca-3Bw.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=ewAODca-3Bw"
+    },
+    {
+     "id": "R3HS6owS3P8",
+     "src_id": "R3HS6owS3P8",
+     "path": "/mnt/ph/youtube/sources/R3HS6owS3P8.mkv",
+     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
+    },
+    {
+     "id": "T3ZaWDcPiIo",
+     "src_id": "T3ZaWDcPiIo",
+     "path": "/mnt/ph/youtube/sources/T3ZaWDcPiIo.mkv",
+     "title": "GTA Online: Agents of Sabotage Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo"
+    },
+    {
+     "id": "P3NBd3UjH5Y",
+     "src_id": "P3NBd3UjH5Y",
+     "path": "/mnt/ph/youtube/sources/P3NBd3UjH5Y.mkv",
+     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
+    },
+    {
+     "id": "_SgqsxXk8_E",
+     "src_id": "_SgqsxXk8_E",
+     "path": "/mnt/ph/youtube/sources/_SgqsxXk8_E.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Out Now",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E"
+    },
+    {
+     "id": "htg1EZE3LVk",
+     "src_id": "htg1EZE3LVk",
+     "path": "/mnt/ph/youtube/sources/htg1EZE3LVk.mkv",
+     "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=htg1EZE3LVk"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.53
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -15.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 12
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 14.7,
+    "song": 0.3,
+    "beats": 0.6,
+    "scan_plan": 14.3,
+    "render": 618.5,
+    "gemini_meta": 0.0,
+    "qa": 10.6,
+    "preview": 61.6
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-173604.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-173604.preview.mp4"
+  },
+  {
+   "id": "yo-gta-20261126-174815",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-26T18:03:47.819959+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-174815.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-174815.mp4",
+   "preview_mb": 22.8,
+   "size_mb": 161.9,
+   "title": "GTA 6 Vice City | Get Lucky Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Get Lucky\" – Daft Punk ft. Pharrell Williams (original recording)\n🔗 Official audio: https://soundcloud.com/danilo-lima-64/daft-punk-get-lucky-official\n🎧 Spotify: https://open.spotify.com/search/Daft%20Punk%20ft.%20Pharrell%20Williams%20Get%20Lucky\n🎬 Footage: Rockstar Games – \"GTA Online: Bottom Dollar Bounties Coming June 25\"; Rockstar Games – \"GTA Online: Agents of Sabotage Coming December 10\"; Rockstar Games – \"The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Out Now\"; Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Get Lucky",
+    "artist": "Daft Punk ft. Pharrell Williams",
+    "url": "https://soundcloud.com/danilo-lima-64/daft-punk-get-lucky-official",
+    "official_channel": "Danilo Lima 64",
+    "spotify_search": "https://open.spotify.com/search/Daft%20Punk%20ft.%20Pharrell%20Williams%20Get%20Lucky"
+   },
+   "song_credit": "\"Get Lucky\" – Daft Punk ft. Pharrell Williams",
+   "pattern": {
+    "id": "P08",
+    "name": "2-word punch, mid"
+   },
+   "captions": [
+    "BUT AT",
+    "THE SAME",
+    "TIME",
+    "I REALLY",
+    "WANT THE",
+    "OTHER STUFF",
+    "TOO"
+   ],
+   "duration": 38.83,
+   "sources": [
+    {
+     "id": "ewAODca-3Bw",
+     "src_id": "ewAODca-3Bw",
+     "path": "/mnt/ph/youtube/sources/ewAODca-3Bw.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=ewAODca-3Bw"
+    },
+    {
+     "id": "T3ZaWDcPiIo",
+     "src_id": "T3ZaWDcPiIo",
+     "path": "/mnt/ph/youtube/sources/T3ZaWDcPiIo.mkv",
+     "title": "GTA Online: Agents of Sabotage Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo"
+    },
+    {
+     "id": "htg1EZE3LVk",
+     "src_id": "htg1EZE3LVk",
+     "path": "/mnt/ph/youtube/sources/htg1EZE3LVk.mkv",
+     "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=htg1EZE3LVk"
+    },
+    {
+     "id": "P3NBd3UjH5Y",
+     "src_id": "P3NBd3UjH5Y",
+     "path": "/mnt/ph/youtube/sources/P3NBd3UjH5Y.mkv",
+     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
+    },
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "_SgqsxXk8_E",
+     "src_id": "_SgqsxXk8_E",
+     "path": "/mnt/ph/youtube/sources/_SgqsxXk8_E.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Out Now",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E"
+    },
+    {
+     "id": "R3HS6owS3P8",
+     "src_id": "R3HS6owS3P8",
+     "path": "/mnt/ph/youtube/sources/R3HS6owS3P8.mkv",
+     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.83
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.9
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 7
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 61.8,
+    "song": 0.4,
+    "beats": 0.8,
+    "scan_plan": 171.5,
+    "more_clips": 14.6,
+    "render": 611.8,
+    "gemini_meta": 0.0,
+    "qa": 10.2,
+    "preview": 61.3
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-174815.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-174815.preview.mp4"
+  },
+  {
+   "id": "yo-gta-20261126-180400",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-26T18:17:33.257795+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-180400.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-180400.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 147.5,
+   "title": "GTA 6 Vice City | Murder on the Dancefloor Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Murder on the Dancefloor\" – Sophie Ellis-Bextor (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Sophie%20Ellis-Bextor%20Murder%20on%20the%20Dancefloor\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Coming June 25\"; Rockstar Games – \"The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online\"; Rockstar Games – \"GTA Online: Agents of Sabotage Coming December 10\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Out Now\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Murder on the Dancefloor",
+    "artist": "Sophie Ellis-Bextor",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Sophie%20Ellis-Bextor%20Murder%20on%20the%20Dancefloor"
+   },
+   "song_credit": "\"Murder on the Dancefloor\" – Sophie Ellis-Bextor",
+   "pattern": {
+    "id": "P06",
+    "name": "Close + nudge to centre"
+   },
+   "captions": [],
+   "duration": 38.47,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "R3HS6owS3P8",
+     "src_id": "R3HS6owS3P8",
+     "path": "/mnt/ph/youtube/sources/R3HS6owS3P8.mkv",
+     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
+    },
+    {
+     "id": "P3NBd3UjH5Y",
+     "src_id": "P3NBd3UjH5Y",
+     "path": "/mnt/ph/youtube/sources/P3NBd3UjH5Y.mkv",
+     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
+    },
+    {
+     "id": "ewAODca-3Bw",
+     "src_id": "ewAODca-3Bw",
+     "path": "/mnt/ph/youtube/sources/ewAODca-3Bw.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=ewAODca-3Bw"
+    },
+    {
+     "id": "htg1EZE3LVk",
+     "src_id": "htg1EZE3LVk",
+     "path": "/mnt/ph/youtube/sources/htg1EZE3LVk.mkv",
+     "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=htg1EZE3LVk"
+    },
+    {
+     "id": "T3ZaWDcPiIo",
+     "src_id": "T3ZaWDcPiIo",
+     "path": "/mnt/ph/youtube/sources/T3ZaWDcPiIo.mkv",
+     "title": "GTA Online: Agents of Sabotage Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo"
+    },
+    {
+     "id": "_SgqsxXk8_E",
+     "src_id": "_SgqsxXk8_E",
+     "path": "/mnt/ph/youtube/sources/_SgqsxXk8_E.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Out Now",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.47
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.5
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 14.7,
+    "song": 0.4,
+    "beats": 0.6,
+    "scan_plan": 94.4,
+    "more_clips": 13.9,
+    "render": 619.5,
+    "gemini_meta": 0.0,
+    "qa": 9.8,
+    "preview": 59.5
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-180400.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-180400.preview.mp4"
+  },
+  {
+   "id": "yo-gta-20261126-181743",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-26T18:30:00.642386+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-181743.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-181743.mp4",
+   "preview_mb": 21.6,
+   "size_mb": 150.5,
+   "title": "GTA 6 Vice City | Out of Touch Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Out of Touch\" – Daryl Hall & John Oates (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Daryl%20Hall%20%26%20John%20Oates%20Out%20of%20Touch\n🎬 Footage: Rockstar Games – \"GTA Online: Bottom Dollar Bounties Coming June 25\"; Rockstar Games – \"GTA Online: Agents of Sabotage Coming December 10\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Out Now\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online\"; Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Out of Touch",
+    "artist": "Daryl Hall & John Oates",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Daryl%20Hall%20%26%20John%20Oates%20Out%20of%20Touch"
+   },
+   "song_credit": "\"Out of Touch\" – Daryl Hall & John Oates",
+   "pattern": {
+    "id": "P10",
+    "name": "Big keys, tiny fillers"
+   },
+   "captions": [],
+   "duration": 38.8,
+   "sources": [
+    {
+     "id": "ewAODca-3Bw",
+     "src_id": "ewAODca-3Bw",
+     "path": "/mnt/ph/youtube/sources/ewAODca-3Bw.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=ewAODca-3Bw"
+    },
+    {
+     "id": "T3ZaWDcPiIo",
+     "src_id": "T3ZaWDcPiIo",
+     "path": "/mnt/ph/youtube/sources/T3ZaWDcPiIo.mkv",
+     "title": "GTA Online: Agents of Sabotage Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo"
+    },
+    {
+     "id": "_SgqsxXk8_E",
+     "src_id": "_SgqsxXk8_E",
+     "path": "/mnt/ph/youtube/sources/_SgqsxXk8_E.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Out Now",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "htg1EZE3LVk",
+     "src_id": "htg1EZE3LVk",
+     "path": "/mnt/ph/youtube/sources/htg1EZE3LVk.mkv",
+     "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=htg1EZE3LVk"
+    },
+    {
+     "id": "R3HS6owS3P8",
+     "src_id": "R3HS6owS3P8",
+     "path": "/mnt/ph/youtube/sources/R3HS6owS3P8.mkv",
+     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
+    },
+    {
+     "id": "P3NBd3UjH5Y",
+     "src_id": "P3NBd3UjH5Y",
+     "path": "/mnt/ph/youtube/sources/P3NBd3UjH5Y.mkv",
+     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.8
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.6
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 14.1,
+    "song": 0.4,
+    "beats": 0.7,
+    "scan_plan": 18.1,
+    "more_clips": 15.7,
+    "render": 618.5,
+    "gemini_meta": 0.0,
+    "qa": 10.0,
+    "preview": 59.5
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-181743.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-181743.preview.mp4"
+  },
+  {
+   "id": "yo-gta-20261126-183011",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-26T18:42:03.897541+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-183011.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-183011.mp4",
+   "preview_mb": 21.7,
+   "size_mb": 147.8,
+   "title": "GTA 6 Vice City | Still D.R.E. Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Still D.R.E.\" – Dr. Dre (original recording)\n🔗 Official audio: https://soundcloud.com/user-717462432/dr-dre-still-d-r-e-ft-snoop\n🎧 Spotify: https://open.spotify.com/search/Dr.%20Dre%20Still%20D.R.E.\n🎬 Footage: Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Out Now\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online\"; Rockstar Games – \"GTA Online: Agents of Sabotage Coming December 10\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Coming June 25\"; Rockstar Games – \"Grand Theft Auto V: Michael\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Still D.R.E.",
+    "artist": "Dr. Dre",
+    "url": "https://soundcloud.com/user-717462432/dr-dre-still-d-r-e-ft-snoop",
+    "official_channel": "alf haze",
+    "spotify_search": "https://open.spotify.com/search/Dr.%20Dre%20Still%20D.R.E."
+   },
+   "song_credit": "\"Still D.R.E.\" – Dr. Dre",
+   "pattern": {
+    "id": "P05",
+    "name": "Stepping up beside"
+   },
+   "captions": [],
+   "duration": 38.5,
+   "sources": [
+    {
+     "id": "R3HS6owS3P8",
+     "src_id": "R3HS6owS3P8",
+     "path": "/mnt/ph/youtube/sources/R3HS6owS3P8.mkv",
+     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
+    },
+    {
+     "id": "_SgqsxXk8_E",
+     "src_id": "_SgqsxXk8_E",
+     "path": "/mnt/ph/youtube/sources/_SgqsxXk8_E.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Out Now",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "P3NBd3UjH5Y",
+     "src_id": "P3NBd3UjH5Y",
+     "path": "/mnt/ph/youtube/sources/P3NBd3UjH5Y.mkv",
+     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "htg1EZE3LVk",
+     "src_id": "htg1EZE3LVk",
+     "path": "/mnt/ph/youtube/sources/htg1EZE3LVk.mkv",
+     "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=htg1EZE3LVk"
+    },
+    {
+     "id": "T3ZaWDcPiIo",
+     "src_id": "T3ZaWDcPiIo",
+     "path": "/mnt/ph/youtube/sources/T3ZaWDcPiIo.mkv",
+     "title": "GTA Online: Agents of Sabotage Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "ewAODca-3Bw",
+     "src_id": "ewAODca-3Bw",
+     "path": "/mnt/ph/youtube/sources/ewAODca-3Bw.mkv",
+     "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=ewAODca-3Bw"
+    },
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.5
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.8
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 15.1,
+    "song": 0.3,
+    "beats": 0.8,
+    "scan_plan": 19.5,
+    "more_clips": 14.5,
+    "render": 592.9,
+    "gemini_meta": 0.0,
+    "qa": 9.7,
+    "preview": 59.5
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-183011.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-183011.preview.mp4"
   }
  ],
  "listing_cache": {
@@ -18051,6 +21802,18 @@
    "platform": "youtube",
    "category": "gta",
    "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.73}}"
+  },
+  {
+   "at": "2026-11-26T17:36:04.035160+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
+  },
+  {
+   "at": "2026-11-26T18:42:34.745793+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "CategoryUnavailable: only 0 clean sources for gaming"
   }
  ],
  "vet_rules": "gta-rockstar-v1"
