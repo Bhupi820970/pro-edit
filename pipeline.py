@@ -39,11 +39,17 @@ CFG = json.loads((HERE / "config" / "pipeline.json").read_text())
 
 
 def _posted_ids() -> set:
+    ids = set()
     try:
-        from pipeline_lib.publish.ledger import posted_ids
-        return posted_ids()
+        from pipeline_lib.publish.ledger import posted_ids, fetch_remote
+        ids = set(posted_ids())
+        repo = os.environ.get("GITHUB_REPOSITORY", "")
+        if repo and os.environ.get("GITHUB_ACTIONS"):   # the checkout's ledger goes stale during a long run
+            remote = fetch_remote(repo) or {}
+            ids |= {r.get("id") for r in remote.get("posted") or [] if r.get("status") == "posted"}
     except Exception:
-        return set()
+        pass
+    return ids
 
 
 def ready_unposted(state: State, platform: str) -> list:
@@ -351,7 +357,7 @@ def box_health() -> dict:
     return {"last_run": hb["last_run"], "age_hours": round(age, 1), "healthy": age <= lim, "pool": hb.get("pool"),
             "errors": hb.get("errors", [])[-3:],
             "message": "OK" if age <= lim else
-            f"BOX FETCHER DOWN for {age:.0f}h: run `bash scripts/box_fetch_service.sh start` on the box"}
+            f"BOX FETCHER DOWN for {age:.0f}h: check the box crontab entry for box/fetch_sources.sh"}
 
 
 def write_status(state: State, extra: dict | None = None) -> dict:
@@ -380,6 +386,46 @@ def write_status(state: State, extra: dict | None = None) -> dict:
     st["box_fetcher"] = box_health()
     save_json(home() / "status.json", st)
     return st
+
+
+def status_after_video(state: State, platform: str, video: dict, made: list) -> None:
+    """After every finished video: move posted files out of vc-ready, refresh status.json (stock per platform,
+    posted / unposted, last video) and push it to the pipeline-state branch so it is live mid-run."""
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    if not repo:
+        write_status(state, {"platform": platform, "last_video": video.get("id"), "made": [v["id"] for v in made]})
+        return
+    from pipeline_lib.publish import archive_posted as ap
+    try:
+        ap.move(repo)
+    except Exception as ex:
+        log("archive posted (non-fatal):", str(ex)[:200])
+    st = write_status(state, {"platform": platform, "in_progress": True, "made": [v["id"] for v in made],
+                              "last_video": {"id": video.get("id"), "category": video.get("category"),
+                                             "title": video.get("title"), "at": now_local().isoformat()}})
+    try:
+        st["stock"] = ap.stock_status(repo)
+        save_json(home() / "status.json", st)
+        push_status_file(repo, f"{platform}/status.json", home() / "status.json")
+    except Exception as ex:
+        log("status push (non-fatal):", str(ex)[:200])
+
+
+def push_status_file(repo: str, path: str, src: Path, branch: str = "pipeline-state") -> None:
+    """PUT one file on the state branch via the contents API (argument lists, no shell)."""
+    import base64
+    import subprocess
+    body = base64.b64encode(src.read_bytes()).decode()
+    for _ in range(3):
+        r = subprocess.run(["gh", "api", f"repos/{repo}/contents/{path}?ref={branch}", "-q", ".sha"],
+                           capture_output=True, text=True, timeout=30)
+        args = ["gh", "api", "-X", "PUT", f"repos/{repo}/contents/{path}", "-f", f"message=status: {path}",
+                "-f", f"branch={branch}", "-f", f"content={body}"]
+        if r.returncode == 0 and r.stdout.strip():
+            args += ["-f", f"sha={r.stdout.strip()}"]
+        if subprocess.run(args, capture_output=True, text=True, timeout=60).returncode == 0:
+            return
+    log("status push: gave up after 3 tries")
 
 
 def queue_fetch(gem, sourcer, platform: str, made: list, fails: list, extra_cats=()):
@@ -594,6 +640,10 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
                     attach_release(state, each_tag, os.environ.get("GITHUB_REPOSITORY", "Bhupi820970/pro-edit"))
                 except Exception as aex:
                     log("per-video stock attach failed (end-of-run step retries):", str(aex)[:200])
+            try:
+                status_after_video(state, a.platform, made[-1], made)
+            except Exception as sex:
+                log("status after video (non-fatal):", str(sex)[:200])
         except Exception as ex:   # never a failed slot: log and retry with new sources / song / seed
             msg = f"{type(ex).__name__}: {str(ex)[:300]}"
             log("attempt failed, retrying with different sources/song:", msg)
