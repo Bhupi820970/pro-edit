@@ -10562,6 +10562,91 @@
    "via": "youtube-search",
    "category": "sports",
    "at": "2026-11-26 17:20"
+  },
+  "Sa4e3nf7PSg": {
+   "accept": false,
+   "reject_reasons": [
+    "only 480p (< 1080p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "LeBron’s FIRST Triple-Double As A Sixer! Isaiah Thomas & Crew React | The Association",
+   "channel": "NBA",
+   "credit": "NBA",
+   "url": "https://www.youtube.com/watch?v=Sa4e3nf7PSg",
+   "via": "box-fetch",
+   "height": 480,
+   "duration": 557.108,
+   "category": "sports",
+   "at": "2026-11-26 18:09"
+  },
+  "IS0S2rOFnFQ": {
+   "accept": false,
+   "reject_reasons": [
+    "only 720p (< 1080p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "LeBron James FULL Interview Before Game 5 | Media Day Availability",
+   "channel": "NBA",
+   "credit": "NBA",
+   "url": "https://www.youtube.com/watch?v=IS0S2rOFnFQ",
+   "via": "box-fetch",
+   "height": 720,
+   "duration": 718.948,
+   "category": "sports",
+   "at": "2026-11-26 18:09"
+  },
+  "-zd62MxKXp8": {
+   "accept": false,
+   "reject_reasons": [
+    "only 720p (< 1080p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "LeBron James' Historic Block on Andre Iguodala From All Angles",
+   "channel": "NBA",
+   "credit": "NBA",
+   "url": "https://www.youtube.com/watch?v=-zd62MxKXp8",
+   "via": "box-fetch",
+   "height": 720,
+   "duration": 57.248,
+   "category": "sports",
+   "at": "2026-11-26 18:09"
+  },
+  "sO56CyHI5ek": {
+   "accept": false,
+   "reject_reasons": [
+    "only 720p (< 1080p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "LeBron James BEST PLAY EVERY GAME | 2016-2017 Season",
+   "channel": "NBA",
+   "credit": "NBA",
+   "url": "https://www.youtube.com/watch?v=sO56CyHI5ek",
+   "via": "box-fetch",
+   "height": 720,
+   "duration": 1390.548,
+   "category": "sports",
+   "at": "2026-11-26 18:09"
+  },
+  "3dWqAyPielA": {
+   "accept": false,
+   "reject_reasons": [
+    "only 720p (< 1080p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "LeBron No-Look Pass to Kyrie vs. the Nets | 01.06.17",
+   "channel": "NBA",
+   "credit": "NBA",
+   "url": "https://www.youtube.com/watch?v=3dWqAyPielA",
+   "via": "box-fetch",
+   "height": 720,
+   "duration": 32.488,
+   "category": "sports",
+   "at": "2026-11-26 18:09"
   }
  },
  "videos": [
@@ -16752,6 +16837,180 @@
     "shorts_9x16": 218.2,
     "qa": 11.4,
     "preview": 57.4
+   }
+  },
+  {
+   "id": "in-gta-20261126-231953",
+   "platform": "instagram",
+   "category": "gta",
+   "format": "shorts",
+   "state": "qa_failed",
+   "created": "2026-11-26T23:38:19.931792+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-gta-20261126-231953.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-gta-20261126-231953.mp4",
+   "preview_mb": 21.5,
+   "size_mb": 129.0,
+   "title": "GTA 6 Vice City | One Thing Leads to Another Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"One Thing Leads to Another\" – The Fixx (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Fixx%20One%20Thing%20Leads%20to%20Another\n🎬 Footage: Rockstar Games – \"GTA Online: Open Wheel Racing\"; Rockstar Games – \"Grand Theft Auto V – Available on the Rockstar Games Launcher\"; Rockstar Games – \"GTA Online: The Contract – Coming December 15\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"GTA Online: Los Santos Tuners\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "One Thing Leads to Another",
+    "artist": "The Fixx",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/The%20Fixx%20One%20Thing%20Leads%20to%20Another"
+   },
+   "song_credit": "\"One Thing Leads to Another\" – The Fixx",
+   "pattern": {
+    "id": "P09",
+    "name": "2-word upper"
+   },
+   "captions": [
+    "WHAT WAS",
+    "THAT IN",
+    "93?",
+    "YOU PROBABLY",
+    "WASN'T EVEN",
+    "BORN DREY",
+    "I THINK",
+    "YOU NEED",
+    "TO TRADE",
+    "THE REINS",
+    "FOR THE",
+    "SAME",
+    "I'M LAMAR",
+    "DAVIS",
+    "I'M SURE",
+    "MY COLLEAGUES",
+    "YOU EVER",
+    "HEARD OF",
+    "THE DUGGINS",
+    "OIL AND",
+    "GAS PEOPLE",
+    "MAKING SOME",
+    "SERIOUS DOLLAR",
+    "WITH THE",
+    "PRICES BEING",
+    "HIGH YO?"
+   ],
+   "duration": 38.47,
+   "sources": [
+    {
+     "id": "NgO8TVaC24o",
+     "src_id": "NgO8TVaC24o",
+     "path": "/mnt/ph/instagram/sources/NgO8TVaC24o.mkv",
+     "title": "GTA Online: Open Wheel Racing",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=NgO8TVaC24o"
+    },
+    {
+     "id": "-HIv_Uj1ERE",
+     "src_id": "-HIv_Uj1ERE",
+     "path": "/mnt/ph/instagram/sources/-HIv_Uj1ERE.mkv",
+     "title": "Grand Theft Auto V – Available on the Rockstar Games Launcher",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=-HIv_Uj1ERE"
+    },
+    {
+     "id": "aLUGHQq2aek",
+     "src_id": "aLUGHQq2aek",
+     "path": "/mnt/ph/instagram/sources/aLUGHQq2aek.mkv",
+     "title": "GTA Online: The Contract – Coming December 15",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=aLUGHQq2aek"
+    },
+    {
+     "id": "P3NBd3UjH5Y",
+     "src_id": "P3NBd3UjH5Y",
+     "path": "/mnt/ph/instagram/sources/P3NBd3UjH5Y.mkv",
+     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
+    },
+    {
+     "id": "R3HS6owS3P8",
+     "src_id": "R3HS6owS3P8",
+     "path": "/mnt/ph/instagram/sources/R3HS6owS3P8.mkv",
+     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
+    },
+    {
+     "id": "sPLD6LS_TIk",
+     "src_id": "sPLD6LS_TIk",
+     "path": "/mnt/ph/instagram/sources/sPLD6LS_TIk.mkv",
+     "title": "GTA Online: Los Santos Tuners",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=sPLD6LS_TIk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.47
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 26
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "TO TRADE",
+       "THE REINS",
+       "FOR THE",
+       "YOU EVER",
+       "HEARD OF"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 14.9,
+    "song": 0.9,
+    "beats": 9.2,
+    "scan_plan": 200.2,
+    "render": 589.2,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 222.5,
+    "qa": 12.6,
+    "preview": 56.9
    }
   }
  ],
@@ -37621,6 +37880,18 @@
    "platform": "instagram",
    "category": "gta",
    "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"TO TRADE\", \"THE REINS\", \"FOR THE\"]}}"
+  },
+  {
+   "at": "2026-11-26T23:38:19.971254+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"TO TRADE\", \"THE REINS\", \"FOR THE\", \"YOU EVER\", \"HEARD OF\"]}}"
+  },
+  {
+   "at": "2026-11-26T23:40:28.499570+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
   }
  ],
  "vet_rules": "no-text-v2"
