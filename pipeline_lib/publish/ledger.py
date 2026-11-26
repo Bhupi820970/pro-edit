@@ -108,3 +108,76 @@ def due_slot(conf: dict, led: dict | None = None, now=None) -> str | None:
     # day (no stock / GitHub dropped the cron) is skipped instead of burst-posting several videos in a
     # row, so fresh stock is kept for the next slot (e.g. 21:30) at the normal spacing.
     return remaining[-1] if remaining[-1] == elapsed[-1] else None
+
+
+# ---------------------------------------------------------------- race guard (two upload runs, one slot)
+def merge(a: dict, b: dict | None) -> dict:
+    """Union of two ledgers keyed by video id (fields merged, nothing dropped)."""
+    out: dict = {}
+    out.update({k: v for k, v in (a or {}).items() if k != "posted"})
+    rows: dict[str, dict] = {}
+    order: list[str] = []
+    for src in ((b or {}).get("posted") or [], (a or {}).get("posted") or []):
+        for e in src:
+            if not isinstance(e, dict) or not e.get("id"):
+                continue
+            k = str(e["id"])
+            if k not in rows:
+                order.append(k)
+                rows[k] = dict(e)
+            else:
+                rows[k] = {**rows[k], **e}
+    out["version"] = (a or {}).get("version", 1)
+    out["posted"] = sorted((rows[k] for k in order), key=lambda e: str(e.get("posted_at") or ""))
+    return out
+
+
+def slot_taken(d: dict, slot: str | None, platform: str) -> dict | None:
+    """The row that already used this IST slot on this platform, if any."""
+    if not slot:
+        return None
+    for e in d.get("posted") or []:
+        if str(e.get("slot") or "") == slot and e.get("platform") == platform:
+            return e
+    return None
+
+
+def fetch_remote(repo: str, ref: str = "main") -> dict | None:
+    """Current ledger on GitHub main (plain gh api call, argument list). None if unreadable."""
+    import json
+    import subprocess
+    try:
+        r = subprocess.run(["gh", "api", "-H", "Accept: application/vnd.github.raw",
+                            f"repos/{repo}/contents/ledger/posted.json?ref={ref}"],
+                           capture_output=True, text=True, timeout=30)
+        if r.returncode != 0:
+            return None
+        d = json.loads(r.stdout)
+        return d if isinstance(d, dict) and isinstance(d.get("posted"), list) else None
+    except Exception:
+        return None
+
+
+def _main(argv=None) -> int:
+    """python -m pipeline_lib.publish.ledger merge-file --ours ledger/posted.json --theirs other.json"""
+    import argparse
+    import json
+    ap = argparse.ArgumentParser()
+    ap.add_argument("cmd", choices=["merge-file"])
+    ap.add_argument("--ours", required=True)
+    ap.add_argument("--theirs", required=True)
+    a = ap.parse_args(argv)
+    ours = load(Path(a.ours))
+    try:
+        theirs = json.loads(Path(a.theirs).read_text())
+    except Exception:
+        theirs = None
+    m = merge(ours, theirs)
+    m["updated"] = ours.get("updated")
+    save_json(Path(a.ours), m)
+    print(f"ledger merged: {len(m['posted'])} rows")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(_main())

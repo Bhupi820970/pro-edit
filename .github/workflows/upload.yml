@@ -113,6 +113,16 @@ jobs:
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with: {python-version: "3.12"}
 
+      - name: Use the newest posting ledger from main (a queued run may have checked out an older one)
+        if: github.event.inputs.ig_token_check != 'true'
+        run: |
+          for i in 1 2 3; do
+            if timeout 30 git fetch -q "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" main; then
+              git show FETCH_HEAD:ledger/posted.json > /tmp/led-main.json && python -m pipeline_lib.publish.ledger merge-file --ours ledger/posted.json --theirs /tmp/led-main.json && break
+            fi
+            sleep $((i * 5))
+          done
+
       - name: Upload one video per platform
         id: up
         env:
@@ -131,11 +141,18 @@ jobs:
           git config user.name "vice-pipeline-bot"
           git config user.email "actions@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git add ledger/posted.json
-          git diff --cached --quiet && exit 0
-          git commit -m "upload: ledger run ${{ github.run_id }}"
-          for i in 1 2 3 4; do
-            timeout 30 git pull --rebase -q && timeout 30 git push && break
+          cp ledger/posted.json /tmp/led-ours.json
+          for i in 1 2 3 4 5; do
+            # union-merge with whatever main has now (never a rebase conflict on the ledger)
+            timeout 30 git fetch -q origin main || { sleep $((i * 5)); continue; }
+            git show FETCH_HEAD:ledger/posted.json > /tmp/led-main.json || echo '{"posted": []}' > /tmp/led-main.json
+            git reset -q --hard FETCH_HEAD
+            cp /tmp/led-ours.json ledger/posted.json
+            python -m pipeline_lib.publish.ledger merge-file --ours ledger/posted.json --theirs /tmp/led-main.json
+            git add ledger/posted.json
+            git diff --cached --quiet && exit 0
+            git commit -qm "upload: ledger run ${{ github.run_id }}"
+            timeout 30 git push origin HEAD:main && break
             sleep $((i * 7))
           done
 

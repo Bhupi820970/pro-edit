@@ -332,7 +332,23 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
         except Exception as e:
             _log(f"Gemini caption check failed; template captions would be used: {type(e).__name__}: {S.redact(str(e)[:200])}")
     results = []
+    remote_guard = not dry_run and (os.environ.get("GITHUB_ACTIONS") == "true" or os.environ.get("VC_REMOTE_LEDGER") == "1")
     for platform in ("youtube", "instagram"):
+        if remote_guard:
+            # another upload run may have posted since this one checked out: re-read main's ledger first
+            remote = ledger.fetch_remote(repo)
+            if remote is None and slot:
+                _log(f"{platform}: cannot read the ledger on main -> not posting (idempotency guard)")
+                results.append({"platform": platform, "ok": True, "status": "skipped_ledger_unreadable"})
+                continue
+            if remote is not None:
+                led = ledger.merge(led, remote)
+        taken = ledger.slot_taken(led, slot, platform)
+        if taken:
+            _log(f"{platform}: slot {slot} already has {taken.get('id')} (run {taken.get('run_id')}) -> skip")
+            results.append({"platform": platform, "ok": True, "status": "slot_already_posted",
+                            "video_id": taken.get("id")})
+            continue
         item = stock.pick_next(items, platform, ledger.posted_ids(led))
         if not item:
             results.append({
