@@ -1,0 +1,77 @@
+{
+ "picks": [
+  {
+   "id": "59waRb6_PNc",
+   "category": "romance",
+   "accept": true,
+   "has_dialogue": true,
+   "reasons": [
+    "official Sony exclusive 6-minute scene, 1080p, no watermark or corner logo"
+   ]
+  },
+  {
+   "id": "FOG4fN0h9pA",
+   "category": "romance",
+   "accept": true,
+   "has_dialogue": true,
+   "reasons": [
+    "official Sony exclusive scene, 1080p, clean corners, characters talking"
+   ]
+  },
+  {
+   "id": "Od80-5LbCfg",
+   "category": "romance",
+   "accept": true,
+   "has_dialogue": true,
+   "reasons": [
+    "official Lionsgate clip, 1440p, no watermark or corner logo"
+   ]
+  },
+  {
+   "id": "33Cd8y4BHbM",
+   "category": "movie",
+   "accept": true,
+   "has_dialogue": false,
+   "reasons": [
+    "official Lionsgate clip, 1080p, no ticket overlay or corner logo in sampled frames"
+   ]
+  },
+  {
+   "id": "VJUZ1BMrNtI",
+   "category": "movie",
+   "accept": false,
+   "has_dialogue": true,
+   "reasons": [
+    "persistent burned-in BEWARE BOIUNA and GET TICKETS NOW overlays on every frame"
+   ]
+  },
+  {
+   "id": "TojL-cBwhpk",
+   "category": "movie",
+   "accept": false,
+   "has_dialogue": false,
+   "reasons": [
+    "only 640x338, below 720p minimum"
+   ]
+  },
+  {
+   "id": "jLA767FLod0",
+   "category": "series",
+   "accept": false,
+   "has_dialogue": true,
+   "reasons": [
+    "persistent Prime channel logo bug in the lower-left corner"
+   ]
+  },
+  {
+   "id": "iy-ueq0JQyY",
+   "category": "series",
+   "accept": false,
+   "has_dialogue": true,
+   "reasons": [
+    "persistent Prime channel logo bug in the lower-left corner"
+   ]
+  }
+ ],
+ "note": "manual picks 2026-11-26 while Gemini quota is exhausted until 2026-11-27 13:30 IST; 3 frames each, official studio sources only"
+}
