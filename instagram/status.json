@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:46:21.457098+05:30",
+ "updated": "2026-11-26T19:54:59.132192+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -30,30 +30,6 @@
  "ready": [],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-26T17:11:34.694041+05:30",
-   "platform": "instagram",
-   "category": "sports",
-   "error": "CategoryUnavailable: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-26T17:40:23.640545+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\", \"OF THE DUGGINS?\", \"OIL AND GAS\", \"PEOPLE MAKING SOME\"]}}"
-  },
-  {
-   "at": "2026-11-26T17:55:41.925191+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
-  },
-  {
-   "at": "2026-11-26T18:10:32.527546+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
-  },
   {
    "at": "2026-11-26T18:12:07.039022+05:30",
    "platform": "instagram",
@@ -119,6 +95,30 @@
    "platform": "instagram",
    "category": "movie",
    "error": "CategoryUnavailable: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-26T19:52:58.876872+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T19:53:13.591183+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T19:54:02.474343+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-26T19:54:54.119191+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "CategoryUnavailable: no clips of a single title for romance"
   }
  ],
  "pattern_history": [
@@ -161,7 +161,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-26T18:41:22.164581+05:30",
-  "age_hours": 1.1,
+  "age_hours": 1.2,
   "healthy": true,
   "pool": {
    "gta": 16,

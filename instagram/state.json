@@ -9702,6 +9702,23 @@
    "via": "youtube-search",
    "category": "romance",
    "at": "2026-11-26 14:13"
+  },
+  "mNprfV38VaE": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Lionel Messi & Inter Miami CF vs CF Montréal Highlights ⚽️ FOX Soccer",
+   "channel": "FOX Soccer",
+   "credit": "FOX Soccer",
+   "url": "https://www.youtube.com/watch?v=mNprfV38VaE",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-26 14:22"
   }
  },
  "videos": [
@@ -31844,6 +31861,15 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-26 14:14"
+  },
+  "mNprfV38VaE": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:22"
   }
  },
  "failures": [
@@ -36364,6 +36390,30 @@
    "platform": "instagram",
    "category": "movie",
    "error": "CategoryUnavailable: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-26T19:52:58.876872+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T19:53:13.591183+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T19:54:02.474343+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-26T19:54:54.119191+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "CategoryUnavailable: no clips of a single title for romance"
   }
  ],
  "vet_rules": "gta-rockstar-v1"
