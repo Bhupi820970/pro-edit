@@ -47,9 +47,15 @@ def info(tok: str) -> dict:
     out = {"family": fam, "valid": None, "days_left": None, "refreshable_without_app_secret": fam == "instagram-login"}
     try:
         if fam == "facebook-login":
+            try:     # validity without an app token: the token reads its own IG user id
+                uid = os.environ.get("IG_USER_ID", "").strip() or "me"
+                out["valid"] = bool(_get(f"https://graph.facebook.com/{urllib.parse.quote(uid)}?" + urllib.parse.urlencode(
+                    {"fields": "id", "access_token": tok})).get("id"))
+            except Exception:
+                out["valid"] = False
             d = (_get("https://graph.facebook.com/debug_token?" + urllib.parse.urlencode(
                 {"input_token": tok, "access_token": tok})).get("data") or {})
-            out["valid"] = d.get("is_valid")
+            out["valid"] = d.get("is_valid", out["valid"])
             out["type"] = d.get("type")
             exp = int(d.get("expires_at") or 0)
             out["days_left"] = None if exp == 0 else round((exp - time.time()) / 86400, 1)
@@ -117,7 +123,8 @@ def main(argv=None) -> int:
         if res["family"] != "instagram-login":
             res["result"] = ("not refreshable without app id + app secret (Facebook-Login token)"
                              if res["family"] == "facebook-login" else "no usable token")
-            rc = 0 if res.get("never_expires") else 3
+            # a Facebook-Login token is not a refresh failure: report it; an unusable token is
+            rc = 0 if res["family"] == "facebook-login" and res.get("valid") is not False else 3
         else:
             try:
                 new, exp = refresh_instagram(tok)
