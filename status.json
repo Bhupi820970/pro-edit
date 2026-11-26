@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:55:01.607801+05:30",
+ "updated": "2026-11-26T23:10:59.612802+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -17,7 +17,7 @@
    "ready": 0,
    "target": 7,
    "warning": true,
-   "produced_today": 32,
+   "produced_today": 34,
    "per_day": [
     6,
     7
@@ -617,30 +617,6 @@
    "error": "CategoryUnavailable: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-26T18:12:07.039022+05:30",
-   "platform": "instagram",
-   "category": "sports",
-   "error": "CategoryUnavailable: no clips of a single star player for sports"
-  },
-  {
-   "at": "2026-11-26T18:26:08.079423+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
-  },
-  {
-   "at": "2026-11-26T18:40:47.205794+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
-  },
-  {
-   "at": "2026-11-26T18:50:31.119859+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
    "at": "2026-11-26T18:51:24.241515+05:30",
    "platform": "instagram",
    "category": "sports",
@@ -705,22 +681,46 @@
    "platform": "instagram",
    "category": "romance",
    "error": "CategoryUnavailable: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-26T22:09:45.152877+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"TO TRADE\", \"FOR THE\", \"YOU EVER\", \"HEARD OF\", \"THE DUGGINS?\"]}}"
+  },
+  {
+   "at": "2026-11-26T22:41:48.504314+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "AttemptTimeout: render + QA took longer than 15 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-26T22:53:25.872445+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T23:08:06.716426+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"TO TRADE\", \"THE REINS\", \"FOR THE\"]}}"
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-26T18:41:22.164581+05:30",
-  "age_hours": 1.2,
-  "healthy": true,
+  "last_run": "2026-11-26T20:09:29.783799+05:30",
+  "age_hours": 3.0,
+  "healthy": false,
   "pool": {
-   "gta": 16,
+   "gta": 15,
    "gaming": 15,
-   "movie": 23,
-   "sports": 23,
-   "romance": 23,
+   "movie": 17,
+   "sports": 16,
+   "romance": 21,
    "series": 15
   },
   "errors": [],
-  "message": "OK"
+  "message": "BOX FETCHER DOWN for 3h: check the box crontab entry for box/fetch_sources.sh"
  },
  "warning": true,
  "message": "BACKUP LOW: refill youtube (3/7 ready) | BACKUP LOW: refill instagram (0/7 ready)"

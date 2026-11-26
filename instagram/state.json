@@ -6013,45 +6013,6 @@
    "category": "romance",
    "at": "2026-11-21 12:38"
   },
-  "AzzwE0mOZEs": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "tense cat and mouse",
-   "summary": "Mike tails Lalo through a parking lot in Better Call Saul.",
-   "reject_reasons": [],
-   "bad_ranges": [],
-   "characters": [
-    "Mike Ehrmantraut",
-    "Lalo Salamanca"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    11.36,
-    39.61,
-    67.86,
-    96.1,
-    124.35,
-    152.59,
-    180.84,
-    209.09
-   ],
-   "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
-   "channel": "Movieclips",
-   "credit": "Movieclips",
-   "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs",
-   "via": "official-channel",
-   "height": 1080,
-   "duration": 227.268,
-   "category": "romance",
-   "at": "2026-11-21 12:38"
-  },
   "t6e7m_Pky_8": {
    "accept": false,
    "reject_reasons": [
@@ -6278,45 +6239,6 @@
    "credit": "Movieclips",
    "url": "https://www.youtube.com/watch?v=g3-Q1cZpgzk",
    "via": "official-channel",
-   "category": "romance",
-   "at": "2026-11-21 12:54"
-  },
-  "ER4wFqmv75Q": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "tense professional corporate drama",
-   "summary": "Jimmy McGill speaks with various individuals in a legal and corporate setting, including a meeting in a boardroom and an outdoor conversation.",
-   "reject_reasons": [],
-   "bad_ranges": [],
-   "characters": [
-    "Jimmy McGill",
-    "Howard Hamlin"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    11.74,
-    40.92,
-    70.1,
-    99.27,
-    128.45,
-    157.63,
-    186.81,
-    215.99
-   ],
-   "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
-   "channel": "Movieclips",
-   "credit": "Movieclips",
-   "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q",
-   "via": "official-channel",
-   "height": 1080,
-   "duration": 234.768,
    "category": "romance",
    "at": "2026-11-21 12:54"
   },
@@ -6596,45 +6518,6 @@
    "category": "romance",
    "at": "2026-11-21 13:13"
   },
-  "c8gim368JAU": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "melancholic dramatic brotherhood tension",
-   "summary": "Jimmy and Chuck share a tense and emotional karaoke moment followed by a heavy exhausted quiet in a dark room.",
-   "reject_reasons": [],
-   "bad_ranges": [],
-   "characters": [
-    "Jimmy McGill",
-    "Chuck McGill"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    14.31,
-    49.87,
-    85.44,
-    121.0,
-    156.56,
-    192.13,
-    227.69,
-    263.26
-   ],
-   "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
-   "channel": "Movieclips",
-   "credit": "Movieclips",
-   "url": "https://www.youtube.com/watch?v=c8gim368JAU",
-   "via": "box-fetch",
-   "height": 1080,
-   "duration": 286.148,
-   "category": "romance",
-   "at": "2026-11-21 13:13"
-  },
   "cNb1bUGWIrQ": {
    "accept": false,
    "reject_reasons": [
@@ -6820,47 +6703,6 @@
    "duration": 101.928,
    "category": "movie",
    "at": "2026-11-21 22:59"
-  },
-  "nHINIwGcba0": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "tense crime surveillance drama",
-   "summary": "Lalo Salamanca visits a travel wire to track down information on Werner Ziegler, keeping watch and gathering clues.",
-   "reject_reasons": [],
-   "bad_ranges": [],
-   "characters": [
-    "Lalo Salamanca",
-    "Fred",
-    "Werner Ziegler",
-    "Mike Ehrmantraut"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    14.74,
-    51.38,
-    88.03,
-    124.67,
-    161.31,
-    197.96,
-    234.6,
-    271.24
-   ],
-   "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
-   "channel": "Movieclips",
-   "credit": "Movieclips",
-   "url": "https://www.youtube.com/watch?v=nHINIwGcba0",
-   "via": "box-fetch",
-   "height": 1080,
-   "duration": 294.828,
-   "category": "movie",
-   "at": "2026-11-21 23:00"
   },
   "wgzxSr6l9Y4": {
    "accept": false,
@@ -7870,100 +7712,6 @@
    "category": "gta",
    "at": "2026-11-25 01:35"
   },
-  "T7aaNEW7zA0": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "fast-paced street racing",
-   "summary": "Official Rockstar Games showcase of drift tuning and events in GTA Online, featuring cars drifting through city streets and industrial areas.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 22.0,
-     "end": 29.0,
-     "reason": "Title card and end slate with text"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-25 05:54"
-  },
-  "GbuCIrZSPDk": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "tense zombie survival action",
-   "summary": "Official Rockstar Games gameplay showcase of the Cayo Perico Zombie Survival update featuring hordes of undead attacking players across the island.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 7.0,
-     "reason": "ESRB rating card and title introduction slate"
-    },
-    {
-     "start": 25.0,
-     "end": 30.0,
-     "reason": "Play Now end slate with copyright text"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-25 05:58"
-  },
   "eVtEKMUp08s": {
    "accept": false,
    "reject_reasons": [
@@ -7980,199 +7728,6 @@
    "via": "youtube-search",
    "category": "gta",
    "at": "2026-11-25 06:03"
-  },
-  "45--ZVLkmks": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "luxurious criminal underground action",
-   "summary": "Rockstar Games official gameplay showcase featuring safehouses, vehicles, character dialogue and action sequences in Los Santos.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 9.5,
-     "end": 11.5,
-     "reason": "title card"
-    },
-    {
-     "start": 54.0,
-     "end": 56.2,
-     "reason": "end slate title card"
-    }
-   ],
-   "characters": [
-    "Michael De Santa"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    3.0,
-    10.46,
-    17.92,
-    25.38,
-    32.84,
-    40.3,
-    47.77,
-    55.23
-   ],
-   "title": "GTA Online: A Safehouse in the Hills Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=45--ZVLkmks",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 60.028,
-   "category": "gta",
-   "at": "2026-11-25 06:08"
-  },
-  "Sp1wvWZ_2MQ": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "intense high-speed crime action",
-   "summary": "Official Rockstar Games trailer for GTA Online: The Chop Shop, featuring in-engine gameplay of car theft, drifting, and submarine exploration.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 30.0,
-     "reason": "End title card and legal text"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.96,
-    12.69,
-    16.42,
-    20.15,
-    23.88,
-    27.61
-   ],
-   "title": "GTA Online: The Chop Shop Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.008,
-   "category": "gta",
-   "at": "2026-11-25 06:13"
-  },
-  "YlY9n7iM-5Q": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "action packed criminal chaos",
-   "summary": "An official Rockstar Games gameplay trailer and update showcase for Grand Theft Auto Online featuring high-octane combat, explosions, military operations, and tactical missions.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "rating card and logo slate"
-    },
-    {
-     "start": 26.0,
-     "end": 27.6,
-     "reason": "end slate with play now text and copyright info"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: San Andreas Mercenaries Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-25 06:13"
-  },
-  "APJ-lT0sBhg": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "tense crime action",
-   "summary": "Official gameplay and cutscene footage from GTA Online featuring high stakes action, dialogue, and scenic locations.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 10.0,
-     "end": 11.0,
-     "reason": "Title card"
-    },
-    {
-     "start": 54.5,
-     "end": 55.2,
-     "reason": "End slate title card"
-    }
-   ],
-   "characters": [
-    "Franklin Clinton",
-    "Michael De Santa"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    3.0,
-    10.46,
-    17.92,
-    25.38,
-    32.84,
-    40.3,
-    47.77,
-    55.23
-   ],
-   "title": "GTA Online: A Safehouse in the Hills Coming December 10",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 60.028,
-   "category": "gta",
-   "at": "2026-11-25 06:13"
   },
   "8fSjVrLGa7g": {
    "accept": false,
@@ -8975,48 +8530,6 @@
    "category": "gta",
    "at": "2026-11-26 08:09"
   },
-  "P3NBd3UjH5Y": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "action-packed criminal underworld",
-   "summary": "An official Rockstar Games gameplay showcase for GTA Online: The Criminal Enterprises featuring city overviews, gang meetings, motorcycle clubs, and combat preparation.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 50.0,
-     "end": 55.2,
-     "reason": "Title and release date card slate"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    3.0,
-    10.46,
-    17.92,
-    25.38,
-    32.84,
-    40.3,
-    47.77,
-    55.23
-   ],
-   "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 60.028,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
   "tJbzMqJGH4k": {
    "accept": false,
    "official_quality": true,
@@ -9068,258 +8581,6 @@
    "via": "box-fetch",
    "height": 1440,
    "duration": 1608.108,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
-  "HqZXw5M6qQY": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "gritty cinematic crime drama",
-   "summary": "Official Grand Theft Auto V character showcase for Michael featuring scenes of family life, crime action, and scenic Los Santos driving.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 8.0,
-     "reason": "ESRB rating card and title card overlay"
-    },
-    {
-     "start": 65.0,
-     "end": 75.0,
-     "reason": "End slate with title logo and release date"
-    }
-   ],
-   "characters": [
-    "Michael De Santa"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    3.88,
-    13.52,
-    23.17,
-    32.81,
-    42.45,
-    52.09,
-    61.74,
-    71.38
-   ],
-   "title": "Grand Theft Auto V: Michael",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY",
-   "via": "box-fetch",
-   "height": 1080,
-   "duration": 77.588,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
-  "T3ZaWDcPiIo": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "action-packed criminal underworld heist",
-   "summary": "Official update showcase featuring in-game cutscenes, action sequences, and gameplay elements from GTA Online Agents of Sabotage.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "Title card and release date slate"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Agents of Sabotage Coming December 10",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
-  "R3HS6owS3P8": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "tense crime action heist",
-   "summary": "Official Rockstar Games in-engine gameplay footage showcasing the Cluckin Bell Farm Raid update with action sequences and character dialogue.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "Title card and end slate"
-    }
-   ],
-   "characters": [
-    "Vincent Effenburger",
-    "Player Character"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=R3HS6owS3P8",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
-  "_SgqsxXk8_E": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "gritty criminal underground bounty action",
-   "summary": "An official Rockstar Games gameplay showcase for GTA Online Bottom Dollar Bounties featuring character dialogue and explosive nighttime action scenes.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 4.5,
-     "end": 6.0,
-     "reason": "Title card"
-    },
-    {
-     "start": 22.0,
-     "end": 24.5,
-     "reason": "Title transition"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "End slate and play now text"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Bottom Dollar Bounties Out Now",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
-  "htg1EZE3LVk": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "tense criminal action heist",
-   "summary": "Official game update showcase featuring in-engine character dialogue, planning, and high-octane vehicular action sequences from GTA Online.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "Title card and release date screen"
-    }
-   ],
-   "characters": [
-    "Vincent Effenburger"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=htg1EZE3LVk",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
    "category": "gta",
    "at": "2026-11-26 11:51"
   },
@@ -9719,6 +8980,1588 @@
    "via": "youtube-search",
    "category": "sports",
    "at": "2026-11-26 14:22"
+  },
+  "1xlr3-hK5rY": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "cinematic action crime",
+   "summary": "Official Rockstar Games trailer for GTA Online: The Criminal Enterprises, featuring in-engine gameplay footage of vehicles, motorcycles, and characters.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 2.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 25.0,
+     "end": 30.0,
+     "reason": "End title card with text"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.48,
+    5.15,
+    8.82,
+    12.49,
+    16.16,
+    19.83,
+    23.5,
+    27.17,
+    16.16
+   ],
+   "title": "GTA Online: The Criminal Enterprises Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=1xlr3-hK5rY",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 29.528,
+   "category": "gta",
+   "at": "2026-11-26 15:39"
+  },
+  "R3HS6owS3P8": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense action crime heist",
+   "summary": "Official gameplay trailer for the GTA Online Cluckin' Bell Farm Raid update featuring heist preparation and action sequences.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 26.0,
+     "end": 30.0,
+     "reason": "End slate with title and call to action"
+    }
+   ],
+   "characters": [
+    "Vincent Effenburger"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63,
+    16.43
+   ],
+   "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=R3HS6owS3P8",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-26 15:40"
+  },
+  "StEaAZ_Ywj4": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "energetic sunny action",
+   "summary": "Official gameplay showcase for the GTA Online Los Santos Summer Special update, featuring various vehicles, aircraft, and locations.",
+   "reject_reasons": [
+    "flag:burned_subtitles",
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 9.0,
+     "end": 12.0,
+     "reason": "Title card with text overlay"
+    },
+    {
+     "start": 24.0,
+     "end": 27.0,
+     "reason": "Text overlay"
+    },
+    {
+     "start": 46.0,
+     "end": 49.0,
+     "reason": "Text overlay"
+    },
+    {
+     "start": 53.0,
+     "end": 60.0,
+     "reason": "End slate with text and logos"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.0,
+    10.45,
+    17.9,
+    25.36,
+    32.81,
+    40.26,
+    47.72,
+    55.17,
+    32.81
+   ],
+   "title": "GTA Online: Los Santos Summer Special",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=StEaAZ_Ywj4",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 59.968,
+   "category": "gta",
+   "at": "2026-11-26 15:40"
+  },
+  "foUaOCzfIRU": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "action packed cinematic gameplay",
+   "summary": "Official Rockstar Games trailer for GTA V featuring various in-game cinematic shots and gameplay sequences.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 89.0,
+     "end": 95.0,
+     "reason": "End slate with text overlay"
+    }
+   ],
+   "characters": [
+    "Franklin Clinton"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    4.84,
+    16.87,
+    28.9,
+    40.93,
+    52.96,
+    64.99,
+    77.02,
+    89.04,
+    52.96
+   ],
+   "title": "Grand Theft Auto V - Coming to New Generation Consoles",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=foUaOCzfIRU",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 96.788,
+   "category": "gta",
+   "at": "2026-11-26 15:41"
+  },
+  "aLUGHQq2aek": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense professional studio atmosphere",
+   "summary": "Official Rockstar Games trailer for GTA Online: The Contract featuring Franklin Clinton and Dr. Dre in a recording studio.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0,
+     "end": 5,
+     "reason": "opening title card"
+    },
+    {
+     "start": 50,
+     "end": 60,
+     "reason": "closing title card and legal text"
+    }
+   ],
+   "characters": [
+    "Franklin Clinton",
+    "Dr. Dre"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.88,
+    10.03,
+    17.19,
+    24.34,
+    31.5,
+    38.65,
+    45.81,
+    52.96,
+    31.5
+   ],
+   "title": "GTA Online: The Contract – Coming December 15",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=aLUGHQq2aek",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 57.568,
+   "category": "gta",
+   "at": "2026-11-26 15:41"
+  },
+  "hzOHcW-mUkY": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "chaotic urban crime",
+   "summary": "A compilation of gameplay footage from Grand Theft Auto 6, featuring various scenes of driving, combat, and exploration, heavily overlaid with game HUD elements and interspersed with social media commentary.",
+   "reject_reasons": [
+    "persistent game HUD elements",
+    "on-screen text overlays",
+    "not a clean scene",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not official/full quality",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 89.9,
+     "end": 89.9,
+     "reason": "gameplay footage with HUD"
+    },
+    {
+     "start": 313.4,
+     "end": 313.4,
+     "reason": "gameplay footage with HUD"
+    },
+    {
+     "start": 536.9,
+     "end": 536.9,
+     "reason": "social media commentary overlay"
+    },
+    {
+     "start": 760.4,
+     "end": 760.4,
+     "reason": "gameplay footage with HUD"
+    },
+    {
+     "start": 983.8,
+     "end": 983.8,
+     "reason": "gameplay footage with HUD"
+    },
+    {
+     "start": 1207.3,
+     "end": 1207.3,
+     "reason": "web content overlay"
+    },
+    {
+     "start": 1430.8,
+     "end": 1430.8,
+     "reason": "gameplay footage with HUD"
+    },
+    {
+     "start": 1654.3,
+     "end": 1654.3,
+     "reason": "gameplay footage with HUD"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    89.91,
+    313.39,
+    536.88,
+    760.36,
+    983.84,
+    1207.33,
+    1430.81,
+    1654.3,
+    983.84
+   ],
+   "title": "Rockstar in Full Panic as GTA 6 Crisis Worsens...",
+   "channel": "LegacyKillaHD",
+   "credit": "LegacyKillaHD",
+   "url": "https://www.youtube.com/watch?v=hzOHcW-mUkY",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 1798.148,
+   "category": "gta",
+   "at": "2026-11-26 15:43"
+  },
+  "tyDRtSUYTRs": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "tense tropical heist atmosphere",
+   "summary": "Cinematic gameplay footage showcasing the Cayo Perico Heist, featuring character movement, club scenes, and heist planning.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 46.5,
+     "end": 53.8,
+     "reason": "End title card with text"
+    }
+   ],
+   "characters": [
+    "KDJ",
+    "Moodymann"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.92,
+    10.19,
+    17.46,
+    24.73,
+    32.0,
+    39.27,
+    46.54,
+    53.81,
+    32.0
+   ],
+   "title": "GTA Online: The Cayo Perico Heist",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=tyDRtSUYTRs",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 58.488,
+   "category": "gta",
+   "at": "2026-11-26 15:44"
+  },
+  "N-xHcvug3WI": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "chaotic open world gameplay",
+   "summary": "This is an official Rockstar Games gameplay trailer for Grand Theft Auto V, which contains persistent in-game HUD elements, minimaps, and title cards throughout the footage, making it unsuitable for clean editing.",
+   "reject_reasons": [
+    "persistent game HUD and minimap",
+    "title card present",
+    "not suitable for clean re-editing",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0,
+     "end": 30,
+     "reason": "title card and gameplay with HUD"
+    },
+    {
+     "start": 30,
+     "end": 300,
+     "reason": "persistent HUD and minimap throughout gameplay"
+    }
+   ],
+   "characters": [
+    "Michael De Santa",
+    "Franklin Clinton",
+    "Trevor Philips"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    14.51,
+    50.56,
+    86.62,
+    122.67,
+    158.73,
+    194.79,
+    230.84,
+    266.9,
+    158.73
+   ],
+   "title": "Grand Theft Auto V: Official Gameplay Video",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=N-xHcvug3WI",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 290.108,
+   "category": "gta",
+   "at": "2026-11-26 15:44"
+  },
+  "zpkbwr0HpCc": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "commentary video essay",
+   "summary": "This is a commentary video featuring a creator talking over various clips, including game footage, social media posts, and text overlays. It is not a clean source for editing.",
+   "reject_reasons": [
+    "channel_logo",
+    "watermark",
+    "text_overlay",
+    "burned_subtitles",
+    "hud_overlay",
+    "not_full_scene",
+    "flag:watermark",
+    "flag:channel_logo",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not official/full quality",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0,
+     "end": 750,
+     "reason": "Entire video is a commentary piece with persistent overlays, watermarks, and non-scene content."
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    36.68,
+    127.85,
+    219.02,
+    310.19,
+    401.36,
+    492.53,
+    583.69,
+    674.86,
+    401.36
+   ],
+   "title": "Rockstar Just Revealed a TON of NEW GTA 6 Information...",
+   "channel": "Hazard",
+   "credit": "Hazard",
+   "url": "https://www.youtube.com/watch?v=zpkbwr0HpCc",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 733.548,
+   "category": "gta",
+   "at": "2026-11-26 15:45"
+  },
+  "5FBipicBoJg": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "energetic nightlife club scene",
+   "summary": "Official Rockstar Games trailer for GTA Online: After Hours, featuring club scenes, characters, and gameplay.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 5.0,
+     "reason": "Rockstar logo intro"
+    },
+    {
+     "start": 60.0,
+     "end": 70.0,
+     "reason": "End title card and platform logos"
+    }
+   ],
+   "characters": [
+    "Gay Tony"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.41,
+    11.89,
+    20.37,
+    28.85,
+    37.33,
+    45.81,
+    54.29,
+    62.77,
+    37.33
+   ],
+   "title": "GTA Online: After Hours",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=5FBipicBoJg",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 68.228,
+   "category": "gta",
+   "at": "2026-11-26 15:45"
+  },
+  "VNbONMSObfs": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense cinematic crime drama",
+   "summary": "Official Rockstar Games trailer for GTA V PS5/Xbox Series X|S featuring gameplay, character interactions, and city shots.",
+   "reject_reasons": [
+    "flag:burned_subtitles",
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 12.0,
+     "end": 13.0,
+     "reason": "Title card text overlay"
+    },
+    {
+     "start": 21.0,
+     "end": 22.0,
+     "reason": "Text overlay"
+    }
+   ],
+   "characters": [
+    "Michael De Santa",
+    "Franklin Clinton",
+    "Trevor Philips"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.54,
+    12.35,
+    21.17,
+    29.98,
+    38.79,
+    47.6,
+    56.41,
+    65.22,
+    38.79
+   ],
+   "title": "Grand Theft Auto V and Grand Theft Auto Online for PS5 and Xbox Series X|S – Coming March 2022",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=VNbONMSObfs",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 70.888,
+   "category": "gta",
+   "at": "2026-11-26 15:45"
+  },
+  "3PiR0G3rVw8": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "tense crime mission",
+   "summary": "Gameplay footage of a GTA mission featuring persistent on-screen HUD elements, minimap, and objective text overlays throughout the video.",
+   "reject_reasons": [
+    "persistent game HUD",
+    "minimap overlay",
+    "on-screen objective text",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not official/full quality",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0,
+     "end": 900,
+     "reason": "persistent HUD and minimap throughout the entire gameplay"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    44.51,
+    155.13,
+    265.76,
+    376.39,
+    487.02,
+    597.64,
+    708.27,
+    818.9,
+    487.02
+   ],
+   "title": "GTA 6 PS5 Pro Gameplay - 15 Minutes of The First Mission",
+   "channel": "IGN",
+   "credit": "IGN",
+   "url": "https://www.youtube.com/watch?v=3PiR0G3rVw8",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 890.108,
+   "category": "gta",
+   "at": "2026-11-26 15:46"
+  },
+  "lX_IN4v-RnA": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "glamorous high-stakes casino crime",
+   "summary": "Official Rockstar Games trailer for the GTA Online Diamond Casino & Resort update featuring gameplay, character interactions, and action sequences.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 47.8,
+     "end": 55.3,
+     "reason": "End slate with promotional text and logos"
+    }
+   ],
+   "characters": [
+    "Agatha Baker",
+    "Vincent Effenburger"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.0,
+    10.47,
+    17.94,
+    25.41,
+    32.88,
+    40.34,
+    47.81,
+    55.28,
+    32.88
+   ],
+   "title": "GTA Online: The Diamond Casino & Resort",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=lX_IN4v-RnA",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 60.088,
+   "category": "gta",
+   "at": "2026-11-26 15:46"
+  },
+  "lEQ4XD8KuUs": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "gritty urban crime",
+   "summary": "This is a comparison video showing side-by-side or split-screen footage of the original GTA III and the Definitive Edition, featuring persistent text overlays and branding throughout the entire duration.",
+   "reject_reasons": [
+    "persistent text overlays",
+    "comparison video format",
+    "not a clean scene",
+    "flag:burned_subtitles",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 40.0,
+     "reason": "persistent text overlays and comparison branding throughout"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.1,
+    7.33,
+    12.56,
+    17.79,
+    23.02,
+    28.25,
+    33.47,
+    38.7,
+    23.02
+   ],
+   "title": "Grand Theft Auto III – The Definitive Edition Comparison Video",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=lEQ4XD8KuUs",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 42.068,
+   "category": "gta",
+   "at": "2026-11-26 15:46"
+  },
+  "NgO8TVaC24o": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "intense competitive racing",
+   "summary": "Official Rockstar Games gameplay footage showcasing open wheel racing in GTA Online.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 26.0,
+     "end": 30.0,
+     "reason": "End slate with title and call to action"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.24,
+    8.98,
+    12.71,
+    16.45,
+    20.19,
+    23.93,
+    27.66,
+    16.45
+   ],
+   "title": "GTA Online: Open Wheel Racing",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=NgO8TVaC24o",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 30.068,
+   "category": "gta",
+   "at": "2026-11-26 15:46"
+  },
+  "T3ZaWDcPiIo": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense tactical espionage",
+   "summary": "Official gameplay trailer for GTA Online: Agents of Sabotage featuring stealth, combat, and vehicle action.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 2.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 27.0,
+     "end": 30.0,
+     "reason": "End title card with text overlay"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63,
+    16.43
+   ],
+   "title": "GTA Online: Agents of Sabotage Coming December 10",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-26 15:47"
+  },
+  "_SgqsxXk8_E": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense criminal underworld",
+   "summary": "Official gameplay footage from the GTA Online Bottom Dollar Bounties update, featuring character interactions and action sequences.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 3.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 6.0,
+     "end": 8.0,
+     "reason": "Title card"
+    },
+    {
+     "start": 26.0,
+     "end": 30.0,
+     "reason": "End slate with text"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63,
+    16.43
+   ],
+   "title": "GTA Online: Bottom Dollar Bounties Out Now",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-26 15:47"
+  },
+  "htg1EZE3LVk": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense cinematic crime action",
+   "summary": "Official Rockstar Games trailer for the GTA Online Cluckin' Bell Farm Raid update, featuring in-engine cinematic gameplay.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 2.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 27.0,
+     "end": 30.0,
+     "reason": "End title card with text"
+    }
+   ],
+   "characters": [
+    "Vincent Effenburger"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63,
+    16.43
+   ],
+   "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=htg1EZE3LVk",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-26 15:47"
+  },
+  "e2NfPuECiE4": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "chaotic open world gameplay",
+   "summary": "This is a compilation of gameplay footage from Grand Theft Auto, featuring persistent HUD elements, on-screen text overlays, and a web-based article screenshot. It is not a clean scene suitable for editing.",
+   "reject_reasons": [
+    "persistent game HUD",
+    "on-screen text overlays",
+    "burned-in article screenshot",
+    "not a clean scene",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not official/full quality",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0,
+     "end": 750
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    35.86,
+    125.0,
+    214.14,
+    303.28,
+    392.42,
+    481.55,
+    570.69,
+    659.83,
+    392.42
+   ],
+   "title": "GTA 6 ONLINE RELEASE...",
+   "channel": "WesNemo",
+   "credit": "WesNemo",
+   "url": "https://www.youtube.com/watch?v=e2NfPuECiE4",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 717.208,
+   "category": "gta",
+   "at": "2026-11-26 15:48"
+  },
+  "lqiZdynJmag": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "cinematic urban night",
+   "summary": "A montage of cinematic shots showcasing Los Santos in Grand Theft Auto V, featuring cityscapes, landmarks, and nightlife.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 9.0,
+     "end": 11.0,
+     "reason": "Rockstar Games presents text overlay"
+    },
+    {
+     "start": 23.5,
+     "end": 25.0,
+     "reason": "Platform text overlay"
+    },
+    {
+     "start": 52.0,
+     "end": 54.0,
+     "reason": "End slate with game logo and platform text"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.88,
+    10.03,
+    17.19,
+    24.34,
+    31.5,
+    38.65,
+    45.81,
+    52.96,
+    31.5
+   ],
+   "title": "Grand Theft Auto V and GTA Online Out Now on PlayStation 5 and Xbox Series X|S",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=lqiZdynJmag",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 57.568,
+   "category": "gta",
+   "at": "2026-11-26 15:48"
+  },
+  "mP6KvFnltWc": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "high-octane street racing",
+   "summary": "A promotional gameplay showcase for the GTA Online Los Santos Tuners update, featuring car customization, heists, and street racing.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 10.0,
+     "end": 10.5,
+     "reason": "Union Depository text overlay"
+    },
+    {
+     "start": 53.0,
+     "end": 55.0,
+     "reason": "End title card with text"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.88,
+    10.03,
+    17.19,
+    24.34,
+    31.5,
+    38.65,
+    45.81,
+    52.96,
+    31.5
+   ],
+   "title": "GTA Online: Los Santos Tuners — Out Now",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=mP6KvFnltWc",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 57.568,
+   "category": "gta",
+   "at": "2026-11-26 15:48"
+  },
+  "P3NBd3UjH5Y": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense criminal underworld action",
+   "summary": "Official Rockstar Games gameplay showcase for GTA Online: The Criminal Enterprises update, featuring various in-game missions, character interactions, and vehicle combat.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 55.2,
+     "end": 60.0,
+     "reason": "End title card with game logo and release date."
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.0,
+    10.46,
+    17.92,
+    25.38,
+    32.84,
+    40.3,
+    47.77,
+    55.23,
+    32.84
+   ],
+   "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 60.028,
+   "category": "gta",
+   "at": "2026-11-26 15:48"
+  },
+  "ewAODca-3Bw": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense criminal underworld",
+   "summary": "Official Rockstar Games gameplay trailer for GTA Online: Bottom Dollar Bounties, featuring character interactions and action sequences.",
+   "reject_reasons": [
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 2.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 8.0,
+     "end": 10.0,
+     "reason": "Title card"
+    },
+    {
+     "start": 23.0,
+     "end": 28.0,
+     "reason": "End slate with text"
+    }
+   ],
+   "characters": [
+    "Maude Eccles",
+    "Jenette"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.23,
+    8.97,
+    12.7,
+    16.43,
+    20.16,
+    23.89,
+    27.63,
+    16.43
+   ],
+   "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=ewAODca-3Bw",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.028,
+   "category": "gta",
+   "at": "2026-11-26 15:49"
+  },
+  "ZQzIZkxsWYw": {
+   "accept": false,
+   "reject_reasons": [
+    "only 720p (< 1080p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "Grand Theft Auto IV: Complete Edition – Available on the Rockstar Games Launcher",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=ZQzIZkxsWYw",
+   "via": "box-fetch",
+   "height": 720,
+   "duration": 60.268,
+   "category": "gta",
+   "at": "2026-11-26 15:49"
+  },
+  "sPLD6LS_TIk": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "urban street racing culture",
+   "summary": "Official Rockstar Games trailer for GTA Online: Los Santos Tuners featuring car customization and street racing scenes.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 2.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 23.0,
+     "end": 28.0,
+     "reason": "End title card and Rockstar logo"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.46,
+    5.08,
+    8.71,
+    12.33,
+    15.96,
+    19.58,
+    23.21,
+    26.83,
+    15.96
+   ],
+   "title": "GTA Online: Los Santos Tuners",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=sPLD6LS_TIk",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 29.168,
+   "category": "gta",
+   "at": "2026-11-26 15:49"
+  },
+  "-HIv_Uj1ERE": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "cinematic atmospheric urban exploration",
+   "summary": "A montage of various locations and scenes from Grand Theft Auto V, showcasing the game's environment and character activities.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 68.0,
+     "end": 70.0,
+     "reason": "End slate with Rockstar Games logo"
+    }
+   ],
+   "characters": [
+    "Michael De Santa"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.72,
+    12.97,
+    22.22,
+    31.47,
+    40.72,
+    49.97,
+    59.22,
+    68.47,
+    40.72
+   ],
+   "title": "Grand Theft Auto V – Available on the Rockstar Games Launcher",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=-HIv_Uj1ERE",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 74.428,
+   "category": "gta",
+   "at": "2026-11-26 15:49"
+  },
+  "SQMErcMyEow": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "intense world cup soccer",
+   "summary": "The footage contains multiple instances of persistent on-screen text and graphics, including advertising boards (Hisense, Hyundai, Motorola, ADI Predictstreet) and a 'VAR NO GOAL' graphic overlay, which are unacceptable for clean re-editing.",
+   "reject_reasons": [
+    "burned-in subtitles",
+    "hud_overlay",
+    "text_overlay",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 30.7,
+     "end": 35.0,
+     "reason": "on-screen text/logos"
+    },
+    {
+     "start": 107.0,
+     "end": 112.0,
+     "reason": "on-screen text/logos"
+    },
+    {
+     "start": 183.2,
+     "end": 188.0,
+     "reason": "on-screen text/logos"
+    },
+    {
+     "start": 259.5,
+     "end": 265.0,
+     "reason": "on-screen text/logos"
+    },
+    {
+     "start": 335.8,
+     "end": 340.0,
+     "reason": "on-screen text/logos"
+    },
+    {
+     "start": 412.1,
+     "end": 417.0,
+     "reason": "on-screen text/logos"
+    },
+    {
+     "start": 488.4,
+     "end": 493.0,
+     "reason": "on-screen text/logos"
+    },
+    {
+     "start": 564.6,
+     "end": 570.0,
+     "reason": "hud_overlay"
+    }
+   ],
+   "characters": [
+    "Cristiano Ronaldo",
+    "Lionel Messi"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    30.69,
+    106.96,
+    183.24,
+    259.52,
+    335.8,
+    412.07,
+    488.35,
+    564.63,
+    335.8
+   ],
+   "title": "Legends Ronaldo & James Face Off | Colombia v Portugal | 2026 World Cup EXTENDED HIGHLIGHTS",
+   "channel": "FIFA",
+   "credit": "FIFA",
+   "url": "https://www.youtube.com/watch?v=SQMErcMyEow",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 613.728,
+   "category": "sports",
+   "at": "2026-11-26 17:14"
+  },
+  "is8JWdOeinI": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "energetic football highlights",
+   "summary": "The footage contains a persistent 'UEFA.tv' logo in the top-right corner of every frame. Additionally, several frames (98.6s, 139.6s, 303.8s) feature large, intrusive text overlays identifying the match and year, which are unacceptable for clean re-editing.",
+   "reject_reasons": [
+    "persistent watermark/channel logo",
+    "persistent text overlays",
+    "flag:watermark",
+    "flag:channel_logo",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 93.6,
+     "end": 103.6,
+     "reason": "text overlay"
+    },
+    {
+     "start": 134.6,
+     "end": 144.6,
+     "reason": "text overlay"
+    },
+    {
+     "start": 298.8,
+     "end": 308.8,
+     "reason": "text overlay"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    16.51,
+    57.55,
+    98.6,
+    139.64,
+    180.68,
+    221.72,
+    262.77,
+    303.81,
+    180.68
+   ],
+   "title": "Ronaldo's GREATEST Portugal Goals At The EURO",
+   "channel": "UEFA",
+   "credit": "UEFA",
+   "url": "https://www.youtube.com/watch?v=is8JWdOeinI",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 330.228,
+   "category": "sports",
+   "at": "2026-11-26 17:16"
+  },
+  "DrZfU28kGKw": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "energetic football highlights",
+   "summary": "The footage contains a persistent 'UEFA.tv' logo in the top-right corner of every frame, which is a grounds for rejection.",
+   "reject_reasons": [
+    "channel logo",
+    "flag:watermark",
+    "flag:channel_logo",
+    "not editable"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    16.56,
+    57.74,
+    98.91,
+    140.08,
+    181.25,
+    222.42,
+    263.59,
+    304.77,
+    181.25
+   ],
+   "title": "EVERY Ronaldo Champions League Goal",
+   "channel": "UEFA",
+   "credit": "UEFA",
+   "url": "https://www.youtube.com/watch?v=DrZfU28kGKw",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 331.268,
+   "category": "sports",
+   "at": "2026-11-26 17:18"
+  },
+  "gvYuXmZdrBM": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a large 'sky sports football' banner at the bottom.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "\"You've been trying to kill me for 23 years\" | Cristiano Ronaldo responds to criticism",
+   "channel": "Sky Sports Football",
+   "credit": "Sky Sports Football",
+   "url": "https://www.youtube.com/watch?v=gvYuXmZdrBM",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-26 17:19"
+  },
+  "EDmkXqJYzKk": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a watermark/logo in the top-right corner (AFC Champions League Elite).",
+    "flag:watermark"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "CR7 Hits 988 & Felix’s Unreal Bicycle Kick! | Al Nassr Club v Al Sadd SC | Highlights ACL Elite™",
+   "channel": "The AFC Hub",
+   "credit": "The AFC Hub",
+   "url": "https://www.youtube.com/watch?v=EDmkXqJYzKk",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-26 17:20"
   }
  },
  "videos": [
@@ -15558,6 +16401,357 @@
     "shorts_9x16": 215.0,
     "qa": 11.1,
     "preview": 57.1
+   }
+  },
+  {
+   "id": "in-gta-20261126-210926",
+   "platform": "instagram",
+   "category": "gta",
+   "format": "shorts",
+   "state": "qa_failed",
+   "created": "2026-11-26T22:09:45.109003+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-gta-20261126-210926.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-gta-20261126-210926.mp4",
+   "preview_mb": 21.3,
+   "size_mb": 123.2,
+   "title": "GTA 6 Vice City | Gimme! Gimme! Gimme! (A Man After Midnight) Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Gimme! Gimme! Gimme! (A Man After Midnight)\" – ABBA (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/ABBA%20Gimme%21%20Gimme%21%20Gimme%21%20%28A%20Man%20After%20Midnight%29\n🎬 Footage: Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"GTA Online: The Contract – Coming December 15\"; Rockstar Games – \"GTA Online: Open Wheel Racing\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"GTA Online: Los Santos Tuners\"; Rockstar Games – \"Grand Theft Auto V – Available on the Rockstar Games Launcher\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+    "artist": "ABBA",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/ABBA%20Gimme%21%20Gimme%21%20Gimme%21%20%28A%20Man%20After%20Midnight%29"
+   },
+   "song_credit": "\"Gimme! Gimme! Gimme! (A Man After Midnight)\" – ABBA",
+   "pattern": {
+    "id": "P09",
+    "name": "2-word upper"
+   },
+   "captions": [
+    "WHAT WAS",
+    "THAT IN",
+    "93 YOU",
+    "PROBABLY WASN'T",
+    "EVEN BORN",
+    "DREY",
+    "I THINK",
+    "YOU NEED",
+    "TO TRADE",
+    "THE REINS",
+    "FOR THE",
+    "SAME MISS",
+    "HANNA DAWG",
+    "I'M LAMAR",
+    "DAVIS",
+    "I'M SURE",
+    "MY COLLEAGUES",
+    "YOU EVER",
+    "HEARD OF",
+    "THE DUGGINS?",
+    "OIL AND",
+    "GAS PEOPLE",
+    "MAKING SOME",
+    "SERIOUS DOLLAR",
+    "WITH THE",
+    "PRICES BEING",
+    "HIGH YO"
+   ],
+   "duration": 38.37,
+   "sources": [
+    {
+     "id": "R3HS6owS3P8",
+     "src_id": "R3HS6owS3P8",
+     "path": "/mnt/ph/instagram/sources/R3HS6owS3P8.mkv",
+     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
+    },
+    {
+     "id": "aLUGHQq2aek",
+     "src_id": "aLUGHQq2aek",
+     "path": "/mnt/ph/instagram/sources/aLUGHQq2aek.mkv",
+     "title": "GTA Online: The Contract – Coming December 15",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=aLUGHQq2aek"
+    },
+    {
+     "id": "NgO8TVaC24o",
+     "src_id": "NgO8TVaC24o",
+     "path": "/mnt/ph/instagram/sources/NgO8TVaC24o.mkv",
+     "title": "GTA Online: Open Wheel Racing",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=NgO8TVaC24o"
+    },
+    {
+     "id": "P3NBd3UjH5Y",
+     "src_id": "P3NBd3UjH5Y",
+     "path": "/mnt/ph/instagram/sources/P3NBd3UjH5Y.mkv",
+     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
+    },
+    {
+     "id": "sPLD6LS_TIk",
+     "src_id": "sPLD6LS_TIk",
+     "path": "/mnt/ph/instagram/sources/sPLD6LS_TIk.mkv",
+     "title": "GTA Online: Los Santos Tuners",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=sPLD6LS_TIk"
+    },
+    {
+     "id": "-HIv_Uj1ERE",
+     "src_id": "-HIv_Uj1ERE",
+     "path": "/mnt/ph/instagram/sources/-HIv_Uj1ERE.mkv",
+     "title": "Grand Theft Auto V – Available on the Rockstar Games Launcher",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=-HIv_Uj1ERE"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.37
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.2
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 27
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "TO TRADE",
+       "FOR THE",
+       "YOU EVER",
+       "HEARD OF",
+       "THE DUGGINS?"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 1507.6,
+    "song": 512.0,
+    "beats": 10.8,
+    "scan_plan": 220.9,
+    "render": 560.5,
+    "gemini_meta": 520.2,
+    "shorts_9x16": 218.7,
+    "qa": 11.2,
+    "preview": 56.7
+   }
+  },
+  {
+   "id": "in-gta-20261126-225325",
+   "platform": "instagram",
+   "category": "gta",
+   "format": "shorts",
+   "state": "qa_failed",
+   "created": "2026-11-26T23:08:06.673015+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-gta-20261126-225325.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-gta-20261126-225325.mp4",
+   "preview_mb": 21.7,
+   "size_mb": 122.8,
+   "title": "GTA 6 Vice City | Sunglasses at Night Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sunglasses at Night\" – Corey Hart (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Corey%20Hart%20Sunglasses%20at%20Night\n🎬 Footage: Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"GTA Online: Open Wheel Racing\"; Rockstar Games – \"Grand Theft Auto V – Available on the Rockstar Games Launcher\"; Rockstar Games – \"GTA Online: The Contract – Coming December 15\"; Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"GTA Online: Los Santos Tuners\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Sunglasses at Night",
+    "artist": "Corey Hart",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Corey%20Hart%20Sunglasses%20at%20Night"
+   },
+   "song_credit": "\"Sunglasses at Night\" – Corey Hart",
+   "pattern": {
+    "id": "P09",
+    "name": "2-word upper"
+   },
+   "captions": [
+    "WHAT WAS",
+    "THAT IN",
+    "93?",
+    "YOU PROBABLY",
+    "WASN'T EVEN",
+    "BORN DREY",
+    "I THINK",
+    "YOU NEED",
+    "TO TRADE",
+    "THE REINS",
+    "FOR THE",
+    "SAME MISS",
+    "HANNA",
+    "DAWG I'M",
+    "LAMAR DAVIS",
+    "I'M SURE",
+    "MY",
+    "OKAY",
+    "WHAT YOU",
+    "TRYING TO",
+    "DO NOW",
+    "WHAT I'M",
+    "ALWAYS TRYING",
+    "TO DO",
+    "I'M TRYING",
+    "TO WORK",
+    "YOU WITH",
+    "ME",
+    "YES",
+    "LORD"
+   ],
+   "duration": 38.77,
+   "sources": [
+    {
+     "id": "P3NBd3UjH5Y",
+     "src_id": "P3NBd3UjH5Y",
+     "path": "/mnt/ph/instagram/sources/P3NBd3UjH5Y.mkv",
+     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
+    },
+    {
+     "id": "NgO8TVaC24o",
+     "src_id": "NgO8TVaC24o",
+     "path": "/mnt/ph/instagram/sources/NgO8TVaC24o.mkv",
+     "title": "GTA Online: Open Wheel Racing",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=NgO8TVaC24o"
+    },
+    {
+     "id": "-HIv_Uj1ERE",
+     "src_id": "-HIv_Uj1ERE",
+     "path": "/mnt/ph/instagram/sources/-HIv_Uj1ERE.mkv",
+     "title": "Grand Theft Auto V – Available on the Rockstar Games Launcher",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=-HIv_Uj1ERE"
+    },
+    {
+     "id": "aLUGHQq2aek",
+     "src_id": "aLUGHQq2aek",
+     "path": "/mnt/ph/instagram/sources/aLUGHQq2aek.mkv",
+     "title": "GTA Online: The Contract – Coming December 15",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=aLUGHQq2aek"
+    },
+    {
+     "id": "R3HS6owS3P8",
+     "src_id": "R3HS6owS3P8",
+     "path": "/mnt/ph/instagram/sources/R3HS6owS3P8.mkv",
+     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
+    },
+    {
+     "id": "sPLD6LS_TIk",
+     "src_id": "sPLD6LS_TIk",
+     "path": "/mnt/ph/instagram/sources/sPLD6LS_TIk.mkv",
+     "title": "GTA Online: Los Santos Tuners",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=sPLD6LS_TIk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.77
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -14.9
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 30
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "TO TRADE",
+       "THE REINS",
+       "FOR THE"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 14.8,
+    "song": 0.4,
+    "beats": 0.6,
+    "scan_plan": 6.9,
+    "render": 571.1,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 218.2,
+    "qa": 11.4,
+    "preview": 57.4
    }
   }
  ],
@@ -29082,12 +30276,6 @@
    "vet_via": "preview",
    "at": "2026-11-19 21:10"
   },
-  "HqZXw5M6qQY": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-19 21:14"
-  },
   "wiW1mpHZb_Y": {
    "accept": true,
    "reject_reasons": [],
@@ -29231,12 +30419,6 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-19 22:27"
-  },
-  "P3NBd3UjH5Y": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-19 22:29"
   },
   "vK_IL6V17Js": {
    "accept": true,
@@ -31283,35 +32465,17 @@
    "vet_via": "preview",
    "at": "2026-11-25 00:46"
   },
-  "T3ZaWDcPiIo": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-25 05:21"
-  },
   "ewAODca-3Bw": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-25 05:31"
   },
-  "_SgqsxXk8_E": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-25 05:44"
-  },
   "6E2cBXFCDyQ": {
    "accept": true,
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-25 05:55"
-  },
-  "htg1EZE3LVk": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-25 05:59"
   },
   "eVtEKMUp08s": {
    "accept": false,
@@ -31321,12 +32485,6 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-25 06:03"
-  },
-  "R3HS6owS3P8": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-25 06:04"
   },
   "agBEh5aZ_Go": {
    "accept": true,
@@ -31870,6 +33028,31 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-26 14:22"
+  },
+  "gvYuXmZdrBM": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a large 'sky sports football' banner at the bottom.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 17:19"
+  },
+  "EDmkXqJYzKk": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a watermark/logo in the top-right corner (AFC Champions League Elite).",
+    "flag:watermark"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 17:20"
+  },
+  "EpYAMVUIufc": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-26 17:21"
   }
  },
  "failures": [
@@ -36414,7 +37597,31 @@
    "platform": "instagram",
    "category": "romance",
    "error": "CategoryUnavailable: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-26T22:09:45.152877+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"TO TRADE\", \"FOR THE\", \"YOU EVER\", \"HEARD OF\", \"THE DUGGINS?\"]}}"
+  },
+  {
+   "at": "2026-11-26T22:41:48.504314+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "AttemptTimeout: render + QA took longer than 15 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-26T22:53:25.872445+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T23:08:06.716426+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"TO TRADE\", \"THE REINS\", \"FOR THE\"]}}"
   }
  ],
- "vet_rules": "gta-rockstar-v1"
+ "vet_rules": "no-text-v2"
 }

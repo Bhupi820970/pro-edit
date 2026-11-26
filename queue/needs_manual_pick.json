@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:55:01.441839+05:30",
+ "updated": "2026-11-26T23:10:59.444750+05:30",
  "platforms": {
   "youtube": {
    "platform": "youtube",
@@ -11,12 +11,63 @@
   },
   "instagram": {
    "platform": "instagram",
-   "updated": "2026-11-26T14:24:54+0000",
+   "updated": "2026-11-26T17:38:06+0000",
    "reason": "all Gemini keys quota-exhausted: these clips were not watch-checked (logo/watermark)",
    "gemini_quota_resets": "2026-11-27 13:30 IST",
-   "categories": {},
+   "categories": {
+    "sports": [
+     {
+      "id": "JUqxG4slgH8",
+      "url": "https://www.youtube.com/watch?v=JUqxG4slgH8",
+      "title": "Austria v Jordan | EXTENDED MATCH HIGHLIGHTS | 2026 FIFA World Cup",
+      "channel": "FIFA",
+      "via": "box-fetch",
+      "on_runner": true
+     },
+     {
+      "id": "laWrOoGrte8",
+      "url": "https://www.youtube.com/watch?v=laWrOoGrte8",
+      "title": "10-Minute Match | Jordan v Algeria | 2026 World Cup Group Stage",
+      "channel": "FIFA",
+      "via": "box-fetch",
+      "on_runner": true
+     },
+     {
+      "id": "5NZn0BiaFHw",
+      "url": "https://www.youtube.com/watch?v=5NZn0BiaFHw",
+      "title": "Michael Jordan plays but he looks increasingly more like the GOAT",
+      "channel": "CoshReport",
+      "via": "box-fetch",
+      "on_runner": true
+     },
+     {
+      "id": "Le3FfVxbjEQ",
+      "url": "https://www.youtube.com/watch?v=Le3FfVxbjEQ",
+      "title": "This Challenge Had LeBron Laughing HYSTERICALLY",
+      "channel": "Los Angeles Lakers",
+      "via": "box-fetch",
+      "on_runner": true
+     },
+     {
+      "id": "0G10fR6EGwY",
+      "url": "https://www.youtube.com/watch?v=0G10fR6EGwY",
+      "title": "LeBron James | 2021-22 Lakers Exit Interviews",
+      "channel": "Los Angeles Lakers",
+      "via": "box-fetch",
+      "on_runner": true
+     },
+     {
+      "id": "QDikhiOkw1g",
+      "url": "https://www.youtube.com/watch?v=QDikhiOkw1g",
+      "title": "A complete look at Messi’s MLS goals in 2025 ⭐️",
+      "channel": "Inter Miami CF ",
+      "via": "box-fetch",
+      "on_runner": true
+     }
+    ]
+   },
    "how_to_pick": "Check each clip for watermarks, channel logos, burned subtitles and HUD. Then write queue/manual_picks.json on branch pipeline-state: {\"picks\": [{\"id\": \"...\", \"category\": \"...\", \"accept\": true|false, \"has_dialogue\": true|false, \"reasons\": [\"...\"]}]}. The next produce run uses accepted picks."
   }
  },
- "waiting": 0
+ "waiting": 6
 }
