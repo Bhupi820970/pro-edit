@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T18:30:53.868287+05:30",
+ "updated": "2026-11-26T18:34:47.944458+05:30",
  "posted": [
   {
    "id": "yo-gta-20261125-070541",
@@ -152,6 +152,40 @@
    "slot": "2026-11-26T15:00",
    "updated_at": "2026-11-26T18:30:53.868259+05:30",
    "posted_at": "2026-11-26T18:30:53.868259+05:30"
+  },
+  {
+   "id": "yo-gta-20261126-174815",
+   "platform": "youtube",
+   "title": "GTA 6 Vice City | Get Lucky Edit",
+   "youtube_id": "4DJCHbfbcbk",
+   "youtube_url": "https://www.youtube.com/watch?v=4DJCHbfbcbk",
+   "instagram_url": null,
+   "ig_media_id": null,
+   "ig_container_id": null,
+   "buffer_post_id": null,
+   "buffer_status": null,
+   "run_id": "45825368025",
+   "status": "posted",
+   "slot": "2026-11-26T18:30",
+   "updated_at": "2026-11-26T18:33:28.445403+05:30",
+   "posted_at": "2026-11-26T18:33:28.445403+05:30"
+  },
+  {
+   "id": "in-movie-20261126-160820",
+   "platform": "instagram",
+   "title": "Movie Scene Edit | Somebody's Watching Me Edit",
+   "youtube_id": null,
+   "youtube_url": null,
+   "instagram_url": "https://www.instagram.com/reel/DgNKzWdhHL9/",
+   "ig_media_id": "18033167072922205",
+   "ig_container_id": "18190763965423233",
+   "buffer_post_id": null,
+   "buffer_status": null,
+   "run_id": "45825368025",
+   "status": "posted",
+   "slot": "2026-11-26T18:30",
+   "updated_at": "2026-11-26T18:34:47.944424+05:30",
+   "posted_at": "2026-11-26T18:34:47.944424+05:30"
   }
  ]
 }
