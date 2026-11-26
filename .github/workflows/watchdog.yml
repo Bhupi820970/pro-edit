@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
-      contents: read
+      contents: write    # read the DRAFT stock release (drafts are invisible to a read-only token); no pushes
       actions: write     # dispatch produce.yml
       issues: write      # the single health issue
     env:
@@ -75,4 +75,4 @@ jobs:
           GEMINI_API_KEY_11: ${{ secrets.GEMINI_API_KEY_11 }}
           GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
           GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
-        run: python pipeline.py gemini-check
+        run: python -m pipeline_lib.gemini check

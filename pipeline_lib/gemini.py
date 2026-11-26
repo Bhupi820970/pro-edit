@@ -394,3 +394,9 @@ def parse_json(txt: str):
             return json.loads(m.group(1))
         raise
 
+
+
+if __name__ == "__main__":   # python -m pipeline_lib.gemini check  (no heavy imports; names + codes only)
+    import sys
+    if sys.argv[1:2] == ["check"]:
+        print(json.dumps(check_models(), indent=1))
