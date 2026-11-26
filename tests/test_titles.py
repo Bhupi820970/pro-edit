@@ -121,7 +121,7 @@ class Players(unittest.TestCase):
         self.assertFalse(is_gta_title("Red Dead Redemption 2 Official Trailer"))
         self.assertTrue("movie" in SINGLE_WORK_CATEGORIES)
         self.assertNotIn("sports", SINGLE_WORK_CATEGORIES)
-        self.assertNotIn("gaming", SINGLE_WORK_CATEGORIES)
+        self.assertIn("gaming", SINGLE_WORK_CATEGORIES)      # one game per video (round 5)
         self.assertNotIn("gta", SINGLE_WORK_CATEGORIES)
 
 

@@ -160,80 +160,96 @@
       "max_len": 600,
       "channels": [
         {
-          "url": "https://www.youtube.com/@PlayStation/videos",
-          "title_re": "official gameplay|official gameplay|cinematic gameplay|Spider-Man|God of War|Red Dead|Cyberpunk|Call of Duty|The Last of Us|Horizon|Halo|Starfield|Witcher|Ghost of Tsushima|Uncharted|Black Myth|Elden Ring|Assassin's Creed|Grand Theft Auto",
-          "credit": "PlayStation",
-          "limit": 80,
-          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|behind the scenes|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
-          "url": "https://www.youtube.com/@Xbox/videos",
-          "title_re": "official gameplay|official gameplay|cinematic gameplay|Spider-Man|God of War|Red Dead|Cyberpunk|Call of Duty|The Last of Us|Horizon|Halo|Starfield|Witcher|Ghost of Tsushima|Uncharted|Black Myth|Elden Ring|Assassin's Creed|Grand Theft Auto",
-          "credit": "Xbox",
-          "limit": 80,
-          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|behind the scenes|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast"
-        },
-        {
           "url": "https://www.youtube.com/@RockstarGames/videos",
-          "limit": 80,
-          "title_re": "Red Dead|RDR2|Red Dead Redemption",
-          "skip_re": "livestream|podcast|soundtrack|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Rockstar Games"
+          "title_re": "Red Dead|RDR2",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "Rockstar Games",
+          "limit": 60
         },
         {
           "url": "https://www.youtube.com/@CDPROJEKTRED/videos",
-          "limit": 80,
-          "title_re": "Cyberpunk|official gameplay|cinematic|official gameplay",
-          "skip_re": "livestream|podcast|behind the scenes|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "CD PROJEKT RED"
+          "title_re": "Cyberpunk",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "CD PROJEKT RED",
+          "limit": 60
+        },
+        {
+          "url": "https://www.youtube.com/@SantaMonicaStudio/videos",
+          "title_re": "God of War",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "Santa Monica Studio",
+          "limit": 60
         },
         {
           "url": "https://www.youtube.com/@CallofDuty/videos",
-          "limit": 80,
-          "title_re": "official gameplay|official gameplay|cinematic|official gameplay|official gameplay",
-          "skip_re": "livestream|podcast|bundle|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Call of Duty"
+          "title_re": "Call of Duty|Black Ops|Modern Warfare|Warzone",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "Call of Duty",
+          "limit": 60
         },
         {
-          "url": "https://www.youtube.com/@Ubisoft/videos",
-          "limit": 80,
-          "title_re": "official gameplay|cinematic|official gameplay|Assassin|Ghost Recon|Far Cry",
-          "skip_re": "livestream|podcast|soundtrack|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Ubisoft"
-        },
-        {
-          "url": "https://www.youtube.com/@EA/videos",
-          "limit": 80,
-          "title_re": "official gameplay|cinematic|official gameplay|Battlefield|Apex",
-          "skip_re": "livestream|podcast|soundtrack|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Electronic Arts"
-        },
-        {
-          "url": "https://www.youtube.com/@BethesdaSoftworks/videos",
-          "limit": 80,
-          "title_re": "official gameplay|cinematic|official gameplay|Starfield|Elder Scrolls|Fallout",
-          "skip_re": "livestream|podcast|soundtrack|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Bethesda Softworks"
+          "url": "https://www.youtube.com/@InsomniacGames/videos",
+          "title_re": "Spider-Man",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "Insomniac Games",
+          "limit": 60
         },
         {
           "url": "https://www.youtube.com/@NaughtyDog/videos",
-          "limit": 40,
-          "title_re": "official gameplay|cinematic|official gameplay|The Last of Us|Uncharted",
-          "skip_re": "livestream|podcast|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
-          "credit": "Naughty Dog"
+          "title_re": "The Last of Us",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "Naughty Dog",
+          "limit": 60
+        },
+        {
+          "url": "https://www.youtube.com/@assassinscreed/videos",
+          "title_re": "Assassin'?s Creed",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "Assassin's Creed",
+          "limit": 60
+        },
+        {
+          "url": "https://www.youtube.com/@Ubisoft/videos",
+          "title_re": "Assassin'?s Creed",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "Ubisoft",
+          "limit": 60
+        },
+        {
+          "url": "https://www.youtube.com/@Fortnite/videos",
+          "title_re": "Fortnite|Chapter|Season",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "Fortnite",
+          "limit": 60
+        },
+        {
+          "url": "https://www.youtube.com/@minecraft/videos",
+          "title_re": "Minecraft|Update|Live",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "Minecraft",
+          "limit": 60
+        },
+        {
+          "url": "https://www.youtube.com/@PlayStation/videos",
+          "title_re": "God of War|Spider-Man|The Last of Us|Elden Ring|Call of Duty|Assassin'?s Creed|Fortnite|Minecraft|Cyberpunk|Red Dead",
+          "skip_re": "livestream|podcast|soundtrack|bundle|pre-order|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|dev diary|patch notes|esports|grand theft auto|\\bgta\\b",
+          "credit": "PlayStation",
+          "limit": 60
         }
       ],
       "search": [
-        "Red Dead Redemption 2 official gameplay Rockstar",
-        "Cyberpunk 2077 official gameplay CD PROJEKT",
-        "Marvel Spider-Man 2 official gameplay PlayStation",
-        "God of War Ragnarok official gameplay PlayStation",
-        "The Last of Us official gameplay Naughty Dog",
-        "Halo official gameplay Xbox",
-        "Call of Duty official gameplay",
-        "official gameplay cinematic PlayStation"
+        "Red Dead Redemption 2 official trailer Rockstar Games",
+        "Cyberpunk 2077 official gameplay trailer CD PROJEKT RED",
+        "God of War Ragnarok official gameplay reveal PlayStation",
+        "Elden Ring official gameplay reveal trailer Bandai Namco",
+        "Call of Duty official gameplay reveal trailer",
+        "Marvel's Spider-Man 2 official gameplay reveal PlayStation",
+        "The Last of Us Part II official trailer PlayStation",
+        "Assassin's Creed official cinematic trailer Ubisoft",
+        "Fortnite official cinematic trailer",
+        "Minecraft official trailer"
       ],
-      "discover": "Official gameplay and cinematic gameplay (never trailers, teasers, promos or TV spots) for Red Dead Redemption 2, Cyberpunk 2077, Call of Duty, Marvel Spider-Man, and God of War from official publisher channels",
+      "discover": "Official trailers and gameplay reveals ONLY from official publisher channels for: Red Dead Redemption 2, Cyberpunk 2077, God of War, Elden Ring, Call of Duty, Marvel's Spider-Man, The Last of Us, Assassin's Creed, Fortnite, Minecraft. Never GTA, never fan uploads.",
       "song_hint": "cinematic hype, hip-hop, rock or synthwave",
       "fallback_songs": [
         {
@@ -249,25 +265,41 @@
         "GameEdit"
       ],
       "allow_channels": [
-        "PlayStation",
-        "Xbox",
         "Rockstar Games",
         "CD PROJEKT RED",
-        "Call of Duty",
-        "Activision",
+        "Cyberpunk 2077",
+        "PlayStation",
         "Santa Monica Studio",
+        "Bandai Namco Entertainment America",
+        "BANDAI NAMCO Entertainment",
+        "FromSoftware",
+        "Call of Duty",
         "Insomniac Games",
-        "PlayStation Studios",
-        "Xbox Game Studios",
-        "Bethesda Softworks",
+        "Naughty Dog",
         "Ubisoft",
-        "Electronic Arts",
-        "EA",
-        "Naughty Dog"
+        "Assassin's Creed",
+        "Fortnite",
+        "Epic Games",
+        "Minecraft",
+        "Mojang"
       ],
       "mood": [
         "high-energy"
-      ]
+      ],
+      "allow_trailers": true,
+      "top_games": [
+        "Red Dead Redemption 2",
+        "Cyberpunk 2077",
+        "God of War",
+        "Elden Ring",
+        "Call of Duty",
+        "Marvel's Spider-Man",
+        "The Last of Us",
+        "Assassin's Creed",
+        "Fortnite",
+        "Minecraft"
+      ],
+      "top_games_re": "red dead|rdr2|cyberpunk|god of war|elden ring|call of duty|black ops|modern warfare|warzone|spider-man|spiderman|the last of us|assassin'?s creed|fortnite|minecraft"
     },
     "movie": {
       "sources_per_video": 4,
@@ -1077,8 +1109,8 @@
     }
   },
   "pool_target": {
-    "gta": 12,
-    "gaming": 9,
+    "gta": 8,
+    "gaming": 20,
     "movie": 12,
     "sports": 9,
     "romance": 9,

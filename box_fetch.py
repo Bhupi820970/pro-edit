@@ -140,12 +140,15 @@ def usable_for(category: str, title: str, channel: str = "") -> bool:
     """Same title rules the Actions pipeline applies (pipeline_lib/sourcing.py candidates/gather), so the
     box never fills the pool with clips the runner throws away: no trailers / teasers / promos anywhere,
     no GTA in "gaming", and sports clips must name a star player (sports edits lock to one player)."""
-    from pipeline_lib.titles import is_gta_title, is_trailer_title, player_name
+    from pipeline_lib.titles import is_gta_title, player_name, trailer_blocked
     title = title or ""
-    if is_trailer_title(title):
+    if trailer_blocked(title, category):
         return False
     if category == "gaming" and is_gta_title(title):
         return False
+    top = (CFG["categories"].get("gaming") or {}).get("top_games_re") if category == "gaming" else None
+    if top and not re.search(top, title, re.I):
+        return False            # gaming = the top-10 games only (one title per video)
     if category == "sports" and not player_name(title, channel or ""):
         return False
     return True
@@ -558,6 +561,19 @@ class Box:
                 if rx.search(e["title"]) and not skip.search(e["title"]) and \
                         c.get("min_len", 30) <= (e["duration"] or 0) <= min(c.get("max_len", 600), 1800):
                     cands.append({**e, "credit": ch.get("credit"), "via": "box-official-channel"})
+        # spread over channels / titles: round-robin the official-channel candidates so one channel (or one
+        # game / show) cannot fill the whole genre target
+        links_n = len(links)
+        chan = cands[links_n:]
+        groups: dict = {}
+        for e in chan:
+            groups.setdefault(e.get("credit") or "", []).append(e)
+        rr = []
+        while any(groups.values()):
+            for k in list(groups):
+                if groups[k]:
+                    rr.append(groups[k].pop(0))
+        cands = cands[:links_n] + rr
         allow = {a.lower() for a in c.get("allow_channels", [])}
         for q in list(queries) + c.get("search", []):
             for e in S.search_youtube(q, 15):

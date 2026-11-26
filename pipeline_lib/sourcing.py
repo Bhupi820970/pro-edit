@@ -25,7 +25,7 @@ from urllib.parse import urlparse
 from .util import home, log, run, probe, REPO
 from .used_clips import used_ids, is_used
 from .gemini import GeminiError, LITE_MODELS, FULL_MODELS, FALLBACK_MODELS
-from .titles import SINGLE_WORK_CATEGORIES, is_full_scene_upload, is_gta_title, is_trailer_title, player_name, work_title
+from .titles import SINGLE_WORK_CATEGORIES, is_full_scene_upload, is_gta_title, is_trailer_title, player_name, trailer_blocked, work_title
 
 YTDLP_CLIENT_FALLBACKS = [
     [],                                                        # default clients (+ PO-token plugin if installed)
@@ -46,6 +46,7 @@ VET_SCHEMA = {
         "channel_logo": {"type": "BOOLEAN"},
         "burned_subtitles": {"type": "BOOLEAN"},
         "hud_overlay": {"type": "BOOLEAN"},
+        "text_overlay": {"type": "BOOLEAN"},
         "editable": {"type": "BOOLEAN"},
         "has_dialogue": {"type": "BOOLEAN"},
         "mood": {"type": "STRING"},
@@ -57,7 +58,7 @@ VET_SCHEMA = {
             "required": ["start", "end"]}},
     },
     "required": ["accept", "official_quality", "watermark", "channel_logo", "burned_subtitles",
-                 "hud_overlay", "editable", "has_dialogue", "mood", "summary", "reject_reasons", "bad_ranges"],
+                 "hud_overlay", "text_overlay", "editable", "has_dialogue", "mood", "summary", "reject_reasons", "bad_ranges"],
 }
 
 VET_PROMPT = """You are the footage checker for a fan-edit channel. You are shown {n} still keyframes
@@ -82,6 +83,12 @@ Accept it ONLY if it is official or full-quality scene footage that can be clean
 - Carefully inspect ALL FOUR CORNERS (top-left, top-right, bottom-left, bottom-right) of every frame.
   REJECT if you see ANY corner logo or text (including "NETFLIX", "CLIP KINGS", "CLIP EMPIRE",
   channel watermarks, or italic burnt-in subtitles), even on official studio/streamer uploads.
+- NO captions, NO text, NO logos, NO watermarks anywhere in the picture: set burned_subtitles=true for
+  any burned-in captions / subtitles / lyric or meme text (any position, any colour, boxed or outlined),
+  text_overlay=true for any other persistent on-screen text overlay (titles, hashtags, channel names,
+  @handles, "subscribe", tickers, lower thirds), watermark / channel_logo for any logo or bug — and REJECT.
+  The ONLY logo our videos may carry is our own small "VICE CARTEL" logo, which is added later; anything
+  else (studio, streamer, network, channel or creator mark, even semi-transparent) is a reject.
 - Opening cards or end slates in a full scene should be listed in bad_ranges (seconds) so the editor
   skips them. Also list any other short stretch with on-screen text, HUD or black frames in bad_ranges.
 - editable = has enough clean, visually strong shots (at least ~20 s total) for a beat-synced edit.
@@ -102,12 +109,20 @@ GTA_ROCKSTAR_RULE = """
   update showcases / "Now Available" / gameplay videos as official gameplay (NOT a banned promo). Put any
   rating card, title card, logo slate, "available now" text or end slate in bad_ranges, and set
   editable=true if there are at least ~20 s of clean in-game shots outside those ranges."""
-VET_RULES_VERSION = "gta-rockstar-v1"
+VET_RULES_VERSION = "no-text-v2"
+
+
+GAMING_TRAILER_RULE = """
+  EXCEPTION for gaming: official publisher trailers and gameplay reveals ARE allowed (cinematic or in-engine
+  gameplay) for the top games. Put title cards, rating cards, logo slates and "available now" text in
+  bad_ranges; still REJECT if captions, text overlays, a corner logo or a watermark sit over the footage."""
 
 
 def category_rule(category: str, channel: str) -> str:
     if category == "gta" and "rockstar" in (channel or "").lower():
         return GTA_ROCKSTAR_RULE
+    if category == "gaming":
+        return GAMING_TRAILER_RULE
     return ""
 
 
@@ -141,7 +156,9 @@ There are {n} stills. There is no audio.
 
 Carefully inspect ALL FOUR CORNERS (top-left, top-right, bottom-left, bottom-right) of every frame.
 REJECT (accept=false) if you see ANY corner logo, channel bug, or watermark (including "NETFLIX",
-"CLIP KINGS", "CLIP EMPIRE", or other channel watermarks), or italic burnt-in subtitles.
+"CLIP KINGS", "CLIP EMPIRE", or other channel watermarks), any burnt-in subtitles / captions, or any
+on-screen text overlay over the footage (titles, handles, hashtags, tickers). Only a plain thumbnail
+title card is not a reject.
 A small official studio/streamer bug in a corner still counts as a reject.
 
 Accept (accept=true) if the corners are clean. Ignore JPEG compression, letterboxing, or a
@@ -450,22 +467,31 @@ class Sourcer:
         self._migrate_vet_rules()
 
     def _migrate_vet_rules(self):
-        """Forget old GTA/Rockstar rejects that were only 'trailer/promo/not editable' so they get re-vetted
-        under GTA_ROCKSTAR_RULE. Watermark / logo / HUD / subtitle / low-res rejects stay rejected."""
+        """On a rules change: re-vet earlier ACCEPTS (no-text-v2 adds the caption / text-overlay reject) and
+        old 'trailer/promo' rejects for Rockstar GTA and for gaming (trailers allowed now).
+        Watermark / logo / caption / HUD / low-res rejects stay rejected."""
         d = self.state.d
         if d.get("vet_rules") == VET_RULES_VERSION:
             return
-        hard = re.compile(r"(?i)watermark|logo|subtitle|hud|minimap|\d{3,4}p|blur|upscal|reaction|picture")
+        hard = re.compile(r"(?i)watermark|logo|subtitle|caption|text|hud|minimap|\d{3,4}p|blur|upscal|reaction|picture")
         vet = d.setdefault("vet", {})
         for key, v in list(vet.items()):
-            if v.get("accept") or v.get("category") != "gta":
+            if not isinstance(v, dict):
                 continue
-            if not category_rule("gta", v.get("channel") or v.get("credit") or ""):
-                continue
-            if any(hard.search(str(r)) for r in (v.get("reject_reasons") or [])):
-                continue
-            vet.pop(key, None)
-            (d.get("pre_vet") or {}).pop(key, None)
+            reasons = v.get("reject_reasons") or []
+            if v.get("accept"):
+                # no-text-v2: earlier accepts were judged without the caption / text-overlay rule -> re-vet
+                drop = True
+            elif any(hard.search(str(r)) for r in reasons):
+                drop = False
+            elif v.get("category") == "gta":
+                drop = bool(category_rule("gta", v.get("channel") or v.get("credit") or ""))
+            else:
+                # gaming trailers / gameplay reveals are allowed now
+                drop = v.get("category") == "gaming"
+            if drop:
+                vet.pop(key, None)
+                (d.get("pre_vet") or {}).pop(key, None)
         d["vet_rules"] = VET_RULES_VERSION
 
     # ---------------------------------------------------------------- candidates
@@ -510,7 +536,7 @@ class Sourcer:
                     xq = q if re.search(r"(?i)full\s+scene", q) else f"{q} full scene"
                     for e in search_x(xq, n=6):
                         title = e.get("title") or ""
-                        if is_trailer_title(title):
+                        if trailer_blocked(title, category):
                             continue
                         dur = e.get("duration") or 0
                         if dur and not (c.get("min_len", 30) <= dur <= c.get("max_len", 600)):
@@ -521,7 +547,7 @@ class Sourcer:
                 out.append({**e, "credit": e["channel"]})
         seen, uniq = set(), []
         for e in out:
-            if is_trailer_title(e.get("title") or ""):
+            if trailer_blocked(e.get("title") or "", category):
                 continue
             if e["id"] and e["id"] not in seen:
                 seen.add(e["id"])
@@ -767,7 +793,8 @@ class Sourcer:
             finally:
                 for _, fp in frames:
                     fp.unlink(missing_ok=True)
-            flags = [k for k in ("watermark", "channel_logo", "burned_subtitles", "hud_overlay") if res.get(k)]
+            flags = [k for k in ("watermark", "channel_logo", "burned_subtitles", "hud_overlay", "text_overlay")
+                     if res.get(k)]
             if flags or not res.get("official_quality") or not res.get("editable"):
                 res["accept"] = False
                 res.setdefault("reject_reasons", [])

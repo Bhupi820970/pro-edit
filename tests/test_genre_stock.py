@@ -83,3 +83,41 @@ class Songs(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class GamingAndCaptions(unittest.TestCase):
+    def test_gaming_allows_official_trailers_not_teasers(self):
+        from pipeline_lib.titles import trailer_blocked
+        self.assertFalse(trailer_blocked("Elden Ring - Official Gameplay Reveal Trailer", "gaming"))
+        self.assertFalse(trailer_blocked("Cyberpunk 2077 — Official Trailer", "gaming"))
+        self.assertTrue(trailer_blocked("Fortnite Chapter 6 Teaser", "gaming"))
+        self.assertTrue(trailer_blocked("GTA 6 Trailer Reaction", "gaming"))
+        self.assertTrue(trailer_blocked("Heat (1995) Official Trailer", "movie"))
+        self.assertTrue(B.usable_for("gaming", "God of War Ragnarok - Official Gameplay Reveal"))
+        self.assertFalse(B.usable_for("gaming", "Grand Theft Auto VI Trailer 2"))
+        cfg = json.loads((ROOT / "config" / "pipeline.json").read_text())
+        g = cfg["categories"]["gaming"]
+        self.assertEqual(len(g["top_games"]), 10)
+        self.assertTrue(all("gta" in ch["skip_re"].lower() for ch in g["channels"]))
+        self.assertIn("gaming", SINGLE_WORK_CATEGORIES)
+
+    def test_caption_rows_detected_plain_numpy(self):
+        import numpy as np
+        from pipeline_lib import overlay_check as O
+        rng = np.random.default_rng(1)
+
+        def frame(caption: bool, seed: int):
+            f = rng.uniform(60, 150, (O.H, O.W)).astype(np.float32)
+            f[100 + seed * 7:140 + seed * 7, 200 + seed * 13:300 + seed * 13] = 230     # moving bright object
+            if caption:
+                y = 495
+                for i in range(30):                                                 # glyph strokes + outline
+                    x = 300 + i * 12
+                    f[y - 2:y + 18, x - 2:x + 6] = 20
+                    f[y:y + 16, x:x + 4] = 245
+            return f
+        clean = O.caption_scores([frame(False, i) for i in range(20)])
+        subs = O.caption_scores([frame(i % 4 != 0, i) for i in range(20)])
+        self.assertLess(clean["share"], O.CAPTION_SHARE)
+        self.assertGreaterEqual(subs["share"], O.CAPTION_SHARE)
+        self.assertGreaterEqual(subs["text_frames"], O.CAPTION_MIN_FRAMES)

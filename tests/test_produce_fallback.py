@@ -245,16 +245,18 @@ class BoxPoolRuleTests(unittest.TestCase):
         self.assertFalse(usable_for("gaming", "Popucom - Launch Trailer | PS5 Games"))
         self.assertFalse(usable_for("gaming", "Grand Theft Auto VI gameplay"))
         self.assertTrue(usable_for("gaming", "Marvel's Spider-Man 2 official gameplay"))
+        self.assertTrue(usable_for("gaming", "Elden Ring - Official Gameplay Reveal Trailer"))   # top-10 + trailer ok
+        self.assertFalse(usable_for("gaming", "Halo Infinite official gameplay"))                 # not a top-10 game
         self.assertFalse(usable_for("sports", "ROCKETS AT NUGGETS | FULL GAME HIGHLIGHTS", "NBA"))
         self.assertTrue(usable_for("sports", "LeBron James postgame interview", "Lakers"))
 
     def test_pool_counts_only_usable_unrejected_release_clips(self):
         from box_fetch import rejected_from_states, usable_pool
         man = {"clips": [
-            {"id": "aaaaaaaaaaa", "file": "aaaaaaaaaaa.mkv", "category": "gaming", "title": "Halo official gameplay"},
-            {"id": "bbbbbbbbbbb", "file": "bbbbbbbbbbb.mkv", "category": "gaming", "title": "Halo Launch Trailer"},
-            {"id": "ccccccccccc", "file": "ccccccccccc.mkv", "category": "gaming", "title": "Halo cinematic gameplay"},
-            {"id": "ddddddddddd", "file": "ddddddddddd.mkv", "category": "gaming", "title": "Halo gameplay part 2"},
+            {"id": "aaaaaaaaaaa", "file": "aaaaaaaaaaa.mkv", "category": "gaming", "title": "Elden Ring official gameplay"},
+            {"id": "bbbbbbbbbbb", "file": "bbbbbbbbbbb.mkv", "category": "gaming", "title": "Elden Ring Teaser"},
+            {"id": "ccccccccccc", "file": "ccccccccccc.mkv", "category": "gaming", "title": "Elden Ring cinematic gameplay"},
+            {"id": "ddddddddddd", "file": "ddddddddddd.mkv", "category": "gaming", "title": "Elden Ring gameplay part 2"},
         ]}
         assets = {"aaaaaaaaaaa.mkv", "bbbbbbbbbbb.mkv", "ccccccccccc.mkv"}      # ddd not uploaded
         rej = rejected_from_states([{"vet": {"ccccccccccc": {"accept": False}, "aaaaaaaaaaa": {"accept": True}}},

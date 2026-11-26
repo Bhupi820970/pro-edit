@@ -114,8 +114,8 @@ class SeedAndPoolTests(unittest.TestCase):
                 self.assertIn("QdBZY2fkU-0", keys)
 
     def test_pool_target_40_and_queries_safe(self):
-        # ~100 clean clips spread over the genres (round 5): every genre >= 9, total >= 100
-        self.assertTrue(all(v >= 9 for v in POOL_TARGET.values()))
+        # ~100 clean clips spread over the genres (round 5): every genre >= 8 (GTA kept smaller), total >= 100
+        self.assertTrue(all(v >= 8 for v in POOL_TARGET.values()) and POOL_TARGET["gaming"] > POOL_TARGET["gta"])
         self.assertGreaterEqual(sum(POOL_TARGET.values()), 100)
         cfg = json.loads((HERE / "config" / "pipeline.json").read_text())
         self.assertEqual(cfg["pool_total"]["refill_below"], 40)

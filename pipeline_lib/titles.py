@@ -4,7 +4,7 @@ from __future__ import annotations
 import re
 from collections import defaultdict
 
-SINGLE_WORK_CATEGORIES = frozenset({"movie", "series", "romance", "marvel", "dc", "anime", "celebrity", "comedy"})
+SINGLE_WORK_CATEGORIES = frozenset({"movie", "series", "romance", "gaming", "marvel", "dc", "anime", "celebrity", "comedy"})
 
 # Longer aliases first so "cristiano ronaldo" wins over a bare "ronaldo".
 STAR_PLAYERS: list[tuple[str, tuple[str, ...]]] = [
@@ -36,6 +36,20 @@ GTA_RE = re.compile(r"\b(gta|grand theft auto)\b", re.I)
 TRAILER_TITLE_RE = re.compile(
     r"(?i)\b(trailers?|teasers?|promos?|tv\s*spots?)\b"
 )
+
+
+# Gaming: official publisher trailers and gameplay reveals ARE allowed (BiBi, round 5); teasers, TV spots,
+# promos and fan "trailer reactions" still are not.
+GAME_TRAILER_OK_RE = re.compile(r"(?i)\b(official\s+)?(gameplay\s+)?(trailer|reveal)\b")
+GAME_TRAILER_BAD_RE = re.compile(r"(?i)\b(teasers?|promos?|tv\s*spots?|reaction|breakdown|explained|fan[- ]made|concept)\b")
+
+
+def trailer_blocked(title: str, category: str | None = None) -> bool:
+    """is_trailer_title, except gaming keeps official trailers / gameplay reveals."""
+    if category == "gaming":
+        t = title or ""
+        return bool(GAME_TRAILER_BAD_RE.search(t)) or (is_trailer_title(t) and not GAME_TRAILER_OK_RE.search(t))
+    return is_trailer_title(title)
 
 
 def is_trailer_title(title: str) -> bool:
