@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-26T09:03:55.536267+05:30",
+ "updated": "2026-11-26T11:28:20.931860+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (1/7 ready)",
+ "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
  "platforms": {
   "youtube": {
    "ready": 0,
@@ -16,7 +16,7 @@
    "message": "BACKUP LOW: refill youtube (0/7 ready)"
   },
   "instagram": {
-   "ready": 1,
+   "ready": 0,
    "target": 7,
    "warning": true,
    "produced_today": 5,
@@ -24,230 +24,98 @@
     6,
     7
    ],
-   "message": "BACKUP LOW: refill instagram (1/7 ready)"
+   "message": "BACKUP LOW: refill instagram (0/7 ready)"
   }
  },
- "ready": [
-  {
-   "id": "in-movie-20261126-010121",
-   "platform": "instagram",
-   "category": "movie",
-   "format": "shorts",
-   "state": "ready",
-   "created": "2026-11-26T01:14:04.437534+05:30",
-   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261126-010121.mp4",
-   "preview": "/mnt/ph/instagram/prev/in-movie-20261126-010121.mp4",
-   "preview_mb": 22.1,
-   "size_mb": 90.4,
-   "title": "Movie Scene Edit | Midnight City Edit",
-   "hook": "MOVIE SCENE EDIT",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Midnight City\" – M83 (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/M83%20Midnight%20City\n🎬 Footage: Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
-   "hashtags": [
-    "MovieEdit",
-    "MovieScenes",
-    "Cinema",
-    "FilmEdit"
-   ],
-   "song": {
-    "title": "Midnight City",
-    "artist": "M83",
-    "url": "",
-    "official_channel": "",
-    "spotify_search": "https://open.spotify.com/search/M83%20Midnight%20City"
-   },
-   "song_credit": "\"Midnight City\" – M83",
-   "pattern": {
-    "id": "P03",
-    "name": "Beside-lower"
-   },
-   "captions": [
-    "I MEAN THAT",
-    "QUITE AS GOOD",
-    "AS SOME OF",
-    "THE OTHER KIDS",
-    "BUT THEY'RE GOOD",
-    "AND HER",
-    "RECOMMENDATIONS ARE",
-    "SOLID",
-    "AND YEAH",
-    "SHE'S HAD SOME",
-    "TROUBLE",
-    "BUT",
-    "SHE",
-    "THE LETTER HAS",
-    "SPECIFIC",
-    "INSTRUCTIONS",
-    "MY MEN WILL",
-    "BE ABLE TO",
-    "CONTINUE A FEW",
-    "DAYS WITHOUT ME"
-   ],
-   "duration": 38.3,
-   "sources": [
-    {
-     "id": "c8gim368JAU",
-     "src_id": "c8gim368JAU",
-     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
-     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
-    },
-    {
-     "id": "ER4wFqmv75Q",
-     "src_id": "ER4wFqmv75Q",
-     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
-     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
-    },
-    {
-     "id": "nHINIwGcba0",
-     "src_id": "nHINIwGcba0",
-     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
-     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
-    },
-    {
-     "id": "AzzwE0mOZEs",
-     "src_id": "AzzwE0mOZEs",
-     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
-     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.3
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2160x3840",
-      "want": "2160x3840"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -16.6
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": false
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 20
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261126-010121.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261126-010121.preview.mp4"
-  }
- ],
+ "ready": [],
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-26T08:10:05.820588+05:30",
+   "at": "2026-11-26T10:24:51.688216+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:14:45.492494+05:30",
+   "at": "2026-11-26T10:29:31.228082+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:19:00.479092+05:30",
+   "at": "2026-11-26T10:34:25.358574+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:21:25.363662+05:30",
+   "at": "2026-11-26T10:37:42.179360+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:25:53.137581+05:30",
+   "at": "2026-11-26T10:42:09.869052+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:30:29.767043+05:30",
+   "at": "2026-11-26T10:47:02.636346+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:34:37.099133+05:30",
+   "at": "2026-11-26T10:51:56.443375+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:38:05.137679+05:30",
+   "at": "2026-11-26T10:56:47.142169+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:42:33.965575+05:30",
+   "at": "2026-11-26T11:01:50.868114+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:46:47.780379+05:30",
+   "at": "2026-11-26T11:05:41.578949+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:51:15.094912+05:30",
+   "at": "2026-11-26T11:10:20.864492+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:55:03.457447+05:30",
+   "at": "2026-11-26T11:14:11.592556+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T08:57:39.360634+05:30",
+   "at": "2026-11-26T11:18:48.775697+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T09:01:40.947339+05:30",
+   "at": "2026-11-26T11:23:26.146068+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T09:03:51.965292+05:30",
+   "at": "2026-11-26T11:28:17.256530+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
@@ -281,7 +149,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-25T10:08:38.272921+05:30",
-  "age_hours": 22.9,
+  "age_hours": 25.3,
   "healthy": false,
   "pool": {
    "gta": 15,
@@ -292,6 +160,6 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 23h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 25h: run `bash scripts/box_fetch_service.sh start` on the box"
  }
 }
