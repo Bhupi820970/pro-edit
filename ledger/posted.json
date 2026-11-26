@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T16:47:36.031071+05:30",
+ "updated": "2026-11-26T18:30:53.868287+05:30",
  "posted": [
   {
    "id": "yo-gta-20261125-070541",
@@ -118,6 +118,40 @@
    "slot": "2026-11-26T11:30",
    "updated_at": "2026-11-26T16:47:36.031044+05:30",
    "posted_at": "2026-11-26T16:47:36.031044+05:30"
+  },
+  {
+   "id": "yo-gta-20261126-173604",
+   "platform": "youtube",
+   "title": "GTA 6 Vice City | Don't You Want Me Edit",
+   "youtube_id": "g8chFYnf4Wk",
+   "youtube_url": "https://www.youtube.com/watch?v=g8chFYnf4Wk",
+   "instagram_url": null,
+   "ig_media_id": null,
+   "ig_container_id": null,
+   "buffer_post_id": null,
+   "buffer_status": null,
+   "run_id": "45824746082",
+   "status": "posted",
+   "slot": "2026-11-26T15:00",
+   "updated_at": "2026-11-26T18:29:30.786906+05:30",
+   "posted_at": "2026-11-26T18:29:30.786906+05:30"
+  },
+  {
+   "id": "in-romance-20261126-153034",
+   "platform": "instagram",
+   "title": "Love Scene Edit | Save Your Tears Edit",
+   "youtube_id": null,
+   "youtube_url": null,
+   "instagram_url": "https://www.instagram.com/reel/DgNKWVFxm1U/",
+   "ig_media_id": "18100908209394635",
+   "ig_container_id": "18190763533423233",
+   "buffer_post_id": null,
+   "buffer_status": null,
+   "run_id": "45824746082",
+   "status": "posted",
+   "slot": "2026-11-26T15:00",
+   "updated_at": "2026-11-26T18:30:53.868259+05:30",
+   "posted_at": "2026-11-26T18:30:53.868259+05:30"
   }
  ]
 }
