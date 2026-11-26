@@ -332,7 +332,7 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
         except Exception as e:
             _log(f"Gemini caption check failed; template captions would be used: {type(e).__name__}: {S.redact(str(e)[:200])}")
     results = []
-    remote_guard = not dry_run and (os.environ.get("GITHUB_ACTIONS") == "true" or os.environ.get("VC_REMOTE_LEDGER") == "1")
+    remote_guard = not dry_run and os.environ.get("VC_REMOTE_LEDGER") == "1"   # set by upload.yml
     for platform in ("youtube", "instagram"):
         if remote_guard:
             # another upload run may have posted since this one checked out: re-read main's ledger first

@@ -81,6 +81,7 @@ jobs:
       contents: write
       actions: write
     env:
+      VC_REMOTE_LEDGER: "1"   # read the live ledger on main before each post (one post per platform per slot)
       YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}

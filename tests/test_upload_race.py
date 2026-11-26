@@ -51,7 +51,7 @@ class LedgerRace(unittest.TestCase):
                 return {"ok": True, "status": "posted", "platform": {"yt": "youtube", "ig": "instagram"}[kind]}
             return f
         with tempfile.TemporaryDirectory() as td, \
-                patch.dict("os.environ", {"GITHUB_ACTIONS": "true", "GITHUB_STEP_SUMMARY": str(Path(td) / "s"),
+                patch.dict("os.environ", {"GITHUB_ACTIONS": "true", "VC_REMOTE_LEDGER": "1", "GITHUB_STEP_SUMMARY": str(Path(td) / "s"),
                                           "GITHUB_OUTPUT": str(Path(td) / "o")}), \
                 patch.object(runner.ledger, "fetch_remote", return_value=remote), \
                 patch.object(runner.ledger, "due_slot", return_value="2026-11-26T18:30"), \
