@@ -4549,6 +4549,40 @@
    "via": "official-channel",
    "category": "gaming",
    "at": "2026-11-25 18:11"
+  },
+  "bW5Atc852hU": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation PS4 branding in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Red Dead Redemption 2 | Official Gameplay Video Part 2 | PS4",
+   "channel": "PlayStation Europe",
+   "credit": "PlayStation Europe",
+   "url": "https://www.youtube.com/watch?v=bW5Atc852hU",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 21:28"
+  },
+  "LHcT8XlfjGo": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation logo in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The Last of Us 2: REMASTERED LOST LEVELS FIRST GAMEPLAY (Naughty Dog)",
+   "channel": "DomTheBomb",
+   "credit": "DomTheBomb",
+   "url": "https://www.youtube.com/watch?v=LHcT8XlfjGo",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-25 21:29"
   }
  },
  "videos": [
@@ -10817,6 +10851,42 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-25 18:11"
+  },
+  "bW5Atc852hU": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation PS4 branding in bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 21:28"
+  },
+  "LHcT8XlfjGo": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation logo in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-25 21:29"
+  },
+  "xnS4d5nq1Gs": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 21:29"
+  },
+  "FHaQ_GTrB1Q": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 21:31"
+  },
+  "p4ziqn782Ro": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-25 21:31"
   }
  },
  "failures": [
@@ -12424,6 +12494,186 @@
   },
   {
    "at": "2026-11-26T02:53:04.185667+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:04:52.054547+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:10:06.935104+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:14:57.808831+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:20:12.720252+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:25:27.476082+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:30:16.721462+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:35:17.952228+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:40:34.858088+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:45:31.688869+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:50:48.879209+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T03:55:43.030509+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:00:36.957655+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:05:53.196221+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:10:55.611015+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:15:56.352483+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:20:58.183948+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:25:50.352166+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:30:57.622426+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:36:05.683834+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:41:32.556688+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:46:47.389923+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:51:28.232008+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T04:56:31.753464+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:01:39.861197+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:06:41.813406+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:11:57.204233+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:17:01.093830+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:22:14.883341+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:27:04.744491+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:32:29.288657+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"

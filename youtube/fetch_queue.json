@@ -1,11 +1,11 @@
 {
  "requests": [
   {
-   "id": "youtube-202611260253-gaming",
+   "id": "youtube-202611260532-gaming",
    "category": "gaming",
    "limit": 3,
-   "at": "2026-11-26T02:53:04.195597+05:30",
-   "reason": "thin=True download_failed=1006 bot_checks=589",
+   "at": "2026-11-26T05:32:29.296181+05:30",
+   "reason": "thin=True download_failed=989 bot_checks=520",
    "queries": [
     "Red Dead Redemption 2 official gameplay Rockstar",
     "Cyberpunk 2077 official gameplay CD PROJEKT"
@@ -13,5 +13,5 @@
    "links": []
   }
  ],
- "updated": "2026-11-26T02:53:04.195691+05:30"
+ "updated": "2026-11-26T05:32:29.296235+05:30"
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:53:07.354221+05:30",
+ "updated": "2026-11-26T05:32:32.694082+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -166,91 +166,91 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-26T01:42:56.245892+05:30",
+   "at": "2026-11-26T04:20:58.183948+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T01:47:56.034941+05:30",
+   "at": "2026-11-26T04:25:50.352166+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T01:52:39.361198+05:30",
+   "at": "2026-11-26T04:30:57.622426+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T01:57:43.805112+05:30",
+   "at": "2026-11-26T04:36:05.683834+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:02:44.650710+05:30",
+   "at": "2026-11-26T04:41:32.556688+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:07:55.042372+05:30",
+   "at": "2026-11-26T04:46:47.389923+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:12:43.597057+05:30",
+   "at": "2026-11-26T04:51:28.232008+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:17:49.460000+05:30",
+   "at": "2026-11-26T04:56:31.753464+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:22:57.952527+05:30",
+   "at": "2026-11-26T05:01:39.861197+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:27:41.334116+05:30",
+   "at": "2026-11-26T05:06:41.813406+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:32:47.812363+05:30",
+   "at": "2026-11-26T05:11:57.204233+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:37:56.468886+05:30",
+   "at": "2026-11-26T05:17:01.093830+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:43:03.067555+05:30",
+   "at": "2026-11-26T05:22:14.883341+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:47:52.142631+05:30",
+   "at": "2026-11-26T05:27:04.744491+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T02:53:04.185667+05:30",
+   "at": "2026-11-26T05:32:29.288657+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
@@ -272,7 +272,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-25T10:08:38.272921+05:30",
-  "age_hours": 16.7,
+  "age_hours": 19.4,
   "healthy": false,
   "pool": {
    "gta": 15,
@@ -283,6 +283,6 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 17h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 19h: run `bash scripts/box_fetch_service.sh start` on the box"
  }
 }
