@@ -772,7 +772,9 @@ class Box:
                     chn = (x.get("channel") or "")
                     if work.lower() not in t.lower():
                         continue
-                    if not (x.get("verified") or chn.lower() in allow_sib):
+                    # official channels only: the genre allowlist when there is one (a verified badge alone
+                    # let unrelated artists' uploads in), else a verified channel
+                    if not (chn.lower() in allow_sib if allow_sib else x.get("verified")):
                         continue
                     if not (c.get("min_len", 30) <= (x.get("duration") or 0) <= min(c.get("max_len", 600), 1800)):
                         continue
