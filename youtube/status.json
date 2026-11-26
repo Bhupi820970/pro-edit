@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-26T11:54:21.664900+05:30",
+ "updated": "2026-11-26T16:09:51.185626+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
+ "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
  "platforms": {
   "youtube": {
-   "ready": 0,
+   "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 6,
+   "produced_today": 36,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (0/7 ready)"
+   "message": "BACKUP LOW: refill youtube (1/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -27,98 +27,235 @@
    "message": "BACKUP LOW: refill instagram (0/7 ready)"
   }
  },
- "ready": [],
+ "ready": [
+  {
+   "id": "yo-gta-20261126-133632",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-26T13:50:42.689185+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-133632.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-133632.mp4",
+   "preview_mb": 21.5,
+   "size_mb": 153.2,
+   "title": "GTA 6 Vice City | Easy Lover Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Easy Lover\" – Philip Bailey & Phil Collins (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Philip%20Bailey%20%26%20Phil%20Collins%20Easy%20Lover\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Easy Lover",
+    "artist": "Philip Bailey & Phil Collins",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Philip%20Bailey%20%26%20Phil%20Collins%20Easy%20Lover"
+   },
+   "song_credit": "\"Easy Lover\" – Philip Bailey & Phil Collins",
+   "pattern": {
+    "id": "P03",
+    "name": "Beside-lower"
+   },
+   "captions": [
+    "AND YOU'RE",
+    "PLAINLY ADDICTED",
+    "TO CHAOS",
+    "WELL",
+    "I'M NOT SURE",
+    "THAT'S TRUE",
+    "DOC"
+   ],
+   "duration": 38.6,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.6
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -16.8
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 7
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-133632.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-133632.preview.mp4"
+  }
+ ],
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-26T10:58:06.584899+05:30",
+   "at": "2026-11-26T15:03:15.124033+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.47}}"
   },
   {
-   "at": "2026-11-26T11:01:56.450316+05:30",
+   "at": "2026-11-26T15:08:44.442281+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.3}}"
   },
   {
-   "at": "2026-11-26T11:05:56.780466+05:30",
+   "at": "2026-11-26T15:14:46.434892+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.43}}"
   },
   {
-   "at": "2026-11-26T11:10:09.034043+05:30",
+   "at": "2026-11-26T15:18:15.998935+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.4}}"
   },
   {
-   "at": "2026-11-26T11:14:09.623899+05:30",
+   "at": "2026-11-26T15:22:35.878947+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 17.43}}"
   },
   {
-   "at": "2026-11-26T11:18:23.274668+05:30",
+   "at": "2026-11-26T15:26:05.698317+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.6}}"
   },
   {
-   "at": "2026-11-26T11:22:23.030016+05:30",
+   "at": "2026-11-26T15:30:45.050597+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.57}}"
   },
   {
-   "at": "2026-11-26T11:26:11.748311+05:30",
+   "at": "2026-11-26T15:36:40.001374+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.87}}"
   },
   {
-   "at": "2026-11-26T11:30:12.467425+05:30",
+   "at": "2026-11-26T15:40:33.350154+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.4}}"
   },
   {
-   "at": "2026-11-26T11:34:36.953392+05:30",
+   "at": "2026-11-26T15:45:42.019765+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 20.53}}"
   },
   {
-   "at": "2026-11-26T11:38:36.677337+05:30",
+   "at": "2026-11-26T15:50:23.575542+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.93}}"
   },
   {
-   "at": "2026-11-26T11:42:23.788399+05:30",
+   "at": "2026-11-26T15:55:18.880254+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.33}}"
   },
   {
-   "at": "2026-11-26T11:46:18.278131+05:30",
+   "at": "2026-11-26T16:00:02.452618+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.17}}"
   },
   {
-   "at": "2026-11-26T11:50:18.320324+05:30",
+   "at": "2026-11-26T16:04:44.146679+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.83}}"
   },
   {
-   "at": "2026-11-26T11:54:18.347523+05:30",
+   "at": "2026-11-26T16:09:23.555751+05:30",
    "platform": "youtube",
-   "category": null,
-   "error": "RuntimeError: only 0 clean sources for gaming"
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.7}}"
   }
  ],
  "pattern_history": [
@@ -133,15 +270,21 @@
    "at": "2026-11-25T22:27:49.758515+05:30",
    "video": "yo-gta-20261125-220912",
    "platform": "youtube"
+  },
+  {
+   "id": "P03",
+   "at": "2026-11-26T13:50:42.690048+05:30",
+   "video": "yo-gta-20261126-133632",
+   "platform": "youtube"
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-26T09:24:37.427268+05:30",
-  "age_hours": 2.5,
+  "last_run": "2026-11-26T13:17:33.192141+05:30",
+  "age_hours": 2.9,
   "healthy": true,
   "pool": {
-   "gta": 15,
-   "gaming": 15,
+   "gta": 19,
+   "gaming": 19,
    "movie": 15,
    "sports": 15,
    "romance": 15,

@@ -11,6 +11,12 @@
    "at": "2026-11-25T22:27:49.758515+05:30",
    "video": "yo-gta-20261125-220912",
    "platform": "youtube"
+  },
+  {
+   "id": "P03",
+   "at": "2026-11-26T13:50:42.690048+05:30",
+   "video": "yo-gta-20261126-133632",
+   "platform": "youtube"
   }
  ],
  "songs": [
@@ -27,6 +33,13 @@
    "url": "https://soundcloud.com/oisin-donavan/will-smith-miami",
    "at": "2026-11-25T22:27:49.758532+05:30",
    "video": "yo-gta-20261125-220912"
+  },
+  {
+   "title": "Easy Lover",
+   "artist": "Philip Bailey & Phil Collins",
+   "url": "",
+   "at": "2026-11-26T13:50:42.690059+05:30",
+   "video": "yo-gta-20261126-133632"
   }
  ],
  "windows": [
@@ -47,6 +60,12 @@
    "start": 10.47,
    "at": "2026-11-25T22:27:49.758547+05:30",
    "video": "yo-gta-20261125-220912"
+  },
+  {
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 42.75,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632"
   }
  ],
  "sources_used": [
@@ -109,6 +128,36 @@
    "id": "YlY9n7iM-5Q",
    "at": "2026-11-25T22:27:49.759572+05:30",
    "video": "yo-gta-20261125-220912"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "at": "2026-11-26T13:50:42.690810+05:30",
+   "video": "yo-gta-20261126-133632"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "at": "2026-11-26T13:50:42.690816+05:30",
+   "video": "yo-gta-20261126-133632"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "at": "2026-11-26T13:50:42.690820+05:30",
+   "video": "yo-gta-20261126-133632"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "at": "2026-11-26T13:50:42.690823+05:30",
+   "video": "yo-gta-20261126-133632"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "at": "2026-11-26T13:50:42.690825+05:30",
+   "video": "yo-gta-20261126-133632"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "at": "2026-11-26T13:50:42.690828+05:30",
+   "video": "yo-gta-20261126-133632"
   }
  ],
  "segments_used": [
@@ -3594,6 +3643,474 @@
    "at": "2026-11-25T22:27:49.758547+05:30",
    "video": "yo-gta-20261125-220912",
    "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 21.97,
+   "end": 22.869999999999997,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 9.969999999999999,
+   "end": 10.87,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "file": "YW9VXUgoG6w.mkv",
+   "start": 20.27,
+   "end": 21.136666666666667,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 61.97,
+   "end": 62.43666666666667,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "file": "GbuCIrZSPDk.mkv",
+   "start": 9.469999999999999,
+   "end": 9.903333333333332,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 39.56999999999999,
+   "end": 40.46999999999999,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 18.57,
+   "end": 19.47,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 33.37,
+   "end": 34.269999999999996,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 6.970000000000001,
+   "end": 7.870000000000001,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 23.77,
+   "end": 24.203333333333333,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "file": "YW9VXUgoG6w.mkv",
+   "start": 12.37,
+   "end": 12.803333333333333,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 58.169999999999995,
+   "end": 59.06999999999999,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 42.75,
+   "end": 48.11666666666667,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "dialogue"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 14.57,
+   "end": 15.469999999999999,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 27.169999999999998,
+   "end": 27.60333333333333,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "Sp1wvWZ_2MQ",
+   "file": "Sp1wvWZ_2MQ.mkv",
+   "start": 19.669999999999998,
+   "end": 20.136666666666667,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "file": "YW9VXUgoG6w.mkv",
+   "start": 8.67,
+   "end": 9.569999999999999,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 24.169999999999998,
+   "end": 25.069999999999997,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 7.37,
+   "end": 7.803333333333334,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 50.06999999999999,
+   "end": 50.50333333333333,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 62.769999999999996,
+   "end": 63.67,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "file": "YW9VXUgoG6w.mkv",
+   "start": 10.17,
+   "end": 10.636666666666665,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 15.27,
+   "end": 15.703333333333333,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "file": "YW9VXUgoG6w.mkv",
+   "start": 4.57,
+   "end": 5.469999999999999,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 41.87,
+   "end": 42.30333333333333,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 17.37,
+   "end": 17.83666666666667,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 48.37,
+   "end": 49.236666666666665,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 14.17,
+   "end": 14.636666666666665,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 19.27,
+   "end": 19.703333333333333,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 25.77,
+   "end": 26.67,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 28.87,
+   "end": 29.336666666666666,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 48.97,
+   "end": 49.403333333333336,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 52.269999999999996,
+   "end": 53.169999999999995,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "file": "YW9VXUgoG6w.mkv",
+   "start": 21.354225626921657,
+   "end": 21.78755896025499,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 40.65422562692165,
+   "end": 41.12089229358832,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 25.254225626921656,
+   "end": 26.120892293588323,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "file": "YlY9n7iM-5Q.mkv",
+   "start": 19.654225626921658,
+   "end": 20.120892293588323,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 59.25422562692165,
+   "end": 59.68755896025499,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 63.854225626921654,
+   "end": 64.75422562692165,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 50.707112813460824,
+   "end": 51.17377948012749,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "file": "YW9VXUgoG6w.mkv",
+   "start": 5.6542256269216615,
+   "end": 6.087558960254995,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 19.907112813460827,
+   "end": 20.80711281346083,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "45--ZVLkmks",
+   "file": "45--ZVLkmks.mkv",
+   "start": 18.00711281346083,
+   "end": 18.44044614679416,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 29.50711281346083,
+   "end": 29.973779480127497,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 26.338451253843314,
+   "end": 27.20511792050998,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 53.354225626921654,
+   "end": 53.820892293588315,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "file": "YW9VXUgoG6w.mkv",
+   "start": 21.991338440382485,
+   "end": 22.424671773715822,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 64.93845125384333,
+   "end": 65.83845125384332,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "file": "YW9VXUgoG6w.mkv",
+   "start": 6.291338440382492,
+   "end": 6.724671773715829,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 20.991338440382485,
+   "end": 21.458005107049146,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "file": "HqZXw5M6qQY.mkv",
+   "start": 30.144225626921656,
+   "end": 31.044225626921662,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
+  },
+  {
+   "id": "YW9VXUgoG6w",
+   "file": "YW9VXUgoG6w.mkv",
+   "start": 6.928451253843322,
+   "end": 7.361784587176652,
+   "at": "2026-11-26T13:50:42.690070+05:30",
+   "video": "yo-gta-20261126-133632",
+   "kind": "montage"
   }
  ],
  "vet": {
@@ -4619,6 +5136,179 @@
    "via": "youtube-search",
    "category": "gaming",
    "at": "2026-11-26 02:14"
+  },
+  "N-xHcvug3WI": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "action-packed open world chaos",
+   "summary": "Official gameplay video featuring various open world activities, driving, and action sequences in Grand Theft Auto V.",
+   "reject_reasons": [
+    "flag:hud_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 48.0,
+     "end": 53.0,
+     "reason": "title card"
+    },
+    {
+     "start": 225.0,
+     "end": 235.0,
+     "reason": "HUD overlay and weapon wheel"
+    },
+    {
+     "start": 260.0,
+     "end": 270.0,
+     "reason": "minimap HUD overlay"
+    }
+   ],
+   "characters": [
+    "Michael",
+    "Franklin",
+    "Trevor"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    14.51,
+    50.57,
+    86.63,
+    122.68,
+    158.74,
+    194.8,
+    230.86,
+    266.92
+   ],
+   "title": "Grand Theft Auto V: Official Gameplay Video",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=N-xHcvug3WI",
+   "via": "box-fetch",
+   "height": 720,
+   "duration": 290.133333,
+   "category": "gta",
+   "at": "2026-11-26 08:06"
+  },
+  "He5pZypleqE": {
+   "accept": false,
+   "reject_reasons": [
+    "only 360p (< 720p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "Grand Theft Auto V - Introducing the Rockstar Editor",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=He5pZypleqE",
+   "via": "box-fetch",
+   "height": 360,
+   "duration": 132.95746,
+   "category": "gta",
+   "at": "2026-11-26 08:06"
+  },
+  "HqZXw5M6qQY": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "gritty cinematic crime drama",
+   "summary": "Official character showcase for Michael from Grand Theft Auto V, displaying his home life, criminal activities, driving, and action sequences.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 2.0,
+     "end": 6.0,
+     "reason": "ESRB rating card"
+    },
+    {
+     "start": 12.0,
+     "end": 15.0,
+     "reason": "Character name title card"
+    },
+    {
+     "start": 69.0,
+     "end": 74.0,
+     "reason": "Logo slate and pre-order release date end card"
+    }
+   ],
+   "characters": [
+    "Michael De Santa"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.88,
+    13.52,
+    23.17,
+    32.81,
+    42.45,
+    52.09,
+    61.74,
+    71.38
+   ],
+   "title": "Grand Theft Auto V: Michael",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 77.588,
+   "category": "gta",
+   "at": "2026-11-26 08:06"
+  },
+  "olEGtoYs_8A": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "action-packed open world crime",
+   "summary": "Gameplay footage showing cars driving, tennis playing, garage customization, and explosions in an open-world setting.",
+   "reject_reasons": [
+    "flag:hud_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 121.0,
+     "end": 125.0,
+     "reason": "Game HUD visible in top right and bottom left corners"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    9.16,
+    31.92,
+    54.69,
+    77.45,
+    100.22,
+    122.98,
+    145.75,
+    168.51
+   ],
+   "title": "Grand Theft Auto Online: Official Gameplay Video",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=olEGtoYs_8A",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 183.168,
+   "category": "gta",
+   "at": "2026-11-26 08:07"
   }
  },
  "videos": [
@@ -6142,6 +6832,3796 @@
      "audio": {
       "ok": true,
       "mean_db": -7.9
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-133632",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-26T13:50:42.689185+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-133632.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-133632.mp4",
+   "preview_mb": 21.5,
+   "size_mb": 153.2,
+   "title": "GTA 6 Vice City | Easy Lover Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Easy Lover\" – Philip Bailey & Phil Collins (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Philip%20Bailey%20%26%20Phil%20Collins%20Easy%20Lover\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Easy Lover",
+    "artist": "Philip Bailey & Phil Collins",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Philip%20Bailey%20%26%20Phil%20Collins%20Easy%20Lover"
+   },
+   "song_credit": "\"Easy Lover\" – Philip Bailey & Phil Collins",
+   "pattern": {
+    "id": "P03",
+    "name": "Beside-lower"
+   },
+   "captions": [
+    "AND YOU'RE",
+    "PLAINLY ADDICTED",
+    "TO CHAOS",
+    "WELL",
+    "I'M NOT SURE",
+    "THAT'S TRUE",
+    "DOC"
+   ],
+   "duration": 38.6,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.6
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -16.8
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 7
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-133632.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-133632.preview.mp4"
+  },
+  {
+   "id": "yo-gta-20261126-135042",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T13:56:32.576054+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-135042.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-135042.mp4",
+   "preview_mb": 22.2,
+   "size_mb": 73.0,
+   "title": "GTA 6 Vice City | Save Your Tears Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Save Your Tears\" – The Weeknd (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Weeknd%20Save%20Your%20Tears\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Save Your Tears",
+    "artist": "The Weeknd",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/The%20Weeknd%20Save%20Your%20Tears"
+   },
+   "song_credit": "\"Save Your Tears\" – The Weeknd",
+   "pattern": {
+    "id": "P07",
+    "name": "Far beside"
+   },
+   "captions": [],
+   "duration": 18.93,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 18.93
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.8
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-135632",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T13:59:57.418808+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-135632.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-135632.mp4",
+   "preview_mb": 20.7,
+   "size_mb": 48.8,
+   "title": "GTA 6 Vice City | Save Your Tears Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Save Your Tears\" – The Weeknd (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Weeknd%20Save%20Your%20Tears\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Save Your Tears",
+    "artist": "The Weeknd",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/The%20Weeknd%20Save%20Your%20Tears"
+   },
+   "song_credit": "\"Save Your Tears\" – The Weeknd",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 13.33,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 13.33
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.8
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-135957",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:05:11.390569+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-135957.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-135957.mp4",
+   "preview_mb": 21.1,
+   "size_mb": 82.5,
+   "title": "GTA 6 Vice City | Flashing Lights Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Flashing Lights\" – Kanye West (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Flashing Lights",
+    "artist": "Kanye West",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights"
+   },
+   "song_credit": "\"Flashing Lights\" – Kanye West",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 21.17,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 21.17
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-140511",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:10:44.266378+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-140511.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-140511.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 84.3,
+   "title": "GTA 6 Vice City | Don't You Want Me Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Don't You Want Me\" – The Human League (original recording)\n🔗 Official audio: https://soundcloud.com/user-180738321/dont-you-want-me-1\n🎧 Spotify: https://open.spotify.com/search/The%20Human%20League%20Don%27t%20You%20Want%20Me\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Don't You Want Me",
+    "artist": "The Human League",
+    "url": "https://soundcloud.com/user-180738321/dont-you-want-me-1",
+    "official_channel": "The Human League Tribute",
+    "spotify_search": "https://open.spotify.com/search/The%20Human%20League%20Don%27t%20You%20Want%20Me"
+   },
+   "song_credit": "\"Don't You Want Me\" – The Human League",
+   "pattern": {
+    "id": "P05",
+    "name": "Stepping up beside"
+   },
+   "captions": [],
+   "duration": 21.63,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 21.63
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -16.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-141044",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:14:08.011300+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-141044.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-141044.mp4",
+   "preview_mb": 20.6,
+   "size_mb": 47.6,
+   "title": "GTA 6 Vice City | Self Control Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Self Control\" – Laura Branigan (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Laura%20Branigan%20Self%20Control\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Self Control",
+    "artist": "Laura Branigan",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Laura%20Branigan%20Self%20Control"
+   },
+   "song_credit": "\"Self Control\" – Laura Branigan",
+   "pattern": {
+    "id": "P05",
+    "name": "Stepping up beside"
+   },
+   "captions": [],
+   "duration": 12.97,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 12.97
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.6
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-141408",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:19:40.148828+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-141408.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-141408.mp4",
+   "preview_mb": 21.6,
+   "size_mb": 87.6,
+   "title": "GTA 6 Vice City | Stayin' Alive Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Stayin' Alive\" – Bee Gees (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Bee%20Gees%20Stayin%27%20Alive\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Bee%20Gees%20Stayin%27%20Alive"
+   },
+   "song_credit": "\"Stayin' Alive\" – Bee Gees",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 22.63,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 22.63
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-141940",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:24:39.273839+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-141940.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-141940.mp4",
+   "preview_mb": 21.3,
+   "size_mb": 76.9,
+   "title": "GTA 6 Vice City | Money In The Grave Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Money In The Grave\" – Drake (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Drake%20Money%20In%20The%20Grave\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Money In The Grave",
+    "artist": "Drake",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Drake%20Money%20In%20The%20Grave"
+   },
+   "song_credit": "\"Money In The Grave\" – Drake",
+   "pattern": {
+    "id": "P07",
+    "name": "Far beside"
+   },
+   "captions": [],
+   "duration": 20.3,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 20.3
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -8.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-142439",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:28:05.965584+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-142439.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-142439.mp4",
+   "preview_mb": 20.8,
+   "size_mb": 49.3,
+   "title": "GTA 6 Vice City | Billie Jean Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Billie Jean\" – Michael Jackson (original recording)\n🔗 Official audio: https://soundcloud.com/michael-movie-jaafar-jackson/billie-jean-michael-movie\n🎧 Spotify: https://open.spotify.com/search/Michael%20Jackson%20Billie%20Jean\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "url": "https://soundcloud.com/michael-movie-jaafar-jackson/billie-jean-michael-movie",
+    "official_channel": "Michael Movie - Jaafar Jackson",
+    "spotify_search": "https://open.spotify.com/search/Michael%20Jackson%20Billie%20Jean"
+   },
+   "song_credit": "\"Billie Jean\" – Michael Jackson",
+   "pattern": {
+    "id": "P05",
+    "name": "Stepping up beside"
+   },
+   "captions": [],
+   "duration": 13.47,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 13.47
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -17.6
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-142805",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:31:38.531512+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-142805.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-142805.mp4",
+   "preview_mb": 21.0,
+   "size_mb": 50.4,
+   "title": "GTA 6 Vice City | The Message Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"The Message\" – Grandmaster Flash & The Furious Five (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Grandmaster%20Flash%20%26%20The%20Furious%20Five%20The%20Message\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "The Message",
+    "artist": "Grandmaster Flash & The Furious Five",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Grandmaster%20Flash%20%26%20The%20Furious%20Five%20The%20Message"
+   },
+   "song_credit": "\"The Message\" – Grandmaster Flash & The Furious Five",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 13.77,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 13.77
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-143138",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:37:24.413318+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-143138.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-143138.mp4",
+   "preview_mb": 21.9,
+   "size_mb": 87.8,
+   "title": "GTA 6 Vice City | Obsession Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Obsession\" – Animotion (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Animotion%20Obsession\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Obsession",
+    "artist": "Animotion",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Animotion%20Obsession"
+   },
+   "song_credit": "\"Obsession\" – Animotion",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 22.47,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 22.47
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.6
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-143724",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:42:06.900277+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-143724.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-143724.mp4",
+   "preview_mb": 21.2,
+   "size_mb": 72.6,
+   "title": "GTA 6 Vice City | In the Air Tonight Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"In the Air Tonight\" – Phil Collins (original recording)\n🔗 Official audio: https://soundcloud.com/user-71575480/in-the-air-tonight-by-the-phil-collins-experience\n🎧 Spotify: https://open.spotify.com/search/Phil%20Collins%20In%20the%20Air%20Tonight\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "In the Air Tonight",
+    "artist": "Phil Collins",
+    "url": "https://soundcloud.com/user-71575480/in-the-air-tonight-by-the-phil-collins-experience",
+    "official_channel": "Phil Collins Experience",
+    "spotify_search": "https://open.spotify.com/search/Phil%20Collins%20In%20the%20Air%20Tonight"
+   },
+   "song_credit": "\"In the Air Tonight\" – Phil Collins",
+   "pattern": {
+    "id": "P05",
+    "name": "Stepping up beside"
+   },
+   "captions": [],
+   "duration": 18.93,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 18.93
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-144206",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:47:21.595197+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-144206.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-144206.mp4",
+   "preview_mb": 21.5,
+   "size_mb": 82.6,
+   "title": "GTA 6 Vice City | Flashing Lights Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Flashing Lights\" – Kanye West (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Flashing Lights",
+    "artist": "Kanye West",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights"
+   },
+   "song_credit": "\"Flashing Lights\" – Kanye West",
+   "pattern": {
+    "id": "P07",
+    "name": "Far beside"
+   },
+   "captions": [],
+   "duration": 21.17,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 21.17
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-144721",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:52:50.054656+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-144721.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-144721.mp4",
+   "preview_mb": 21.6,
+   "size_mb": 84.1,
+   "title": "GTA 6 Vice City | Self Control Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Self Control\" – Laura Branigan (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Laura%20Branigan%20Self%20Control\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Self Control",
+    "artist": "Laura Branigan",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Laura%20Branigan%20Self%20Control"
+   },
+   "song_credit": "\"Self Control\" – Laura Branigan",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 21.97,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 21.97
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.5
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-145250",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T14:57:44.157454+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-145250.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-145250.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 73.0,
+   "title": "GTA 6 Vice City | Murder on the Dancefloor Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Murder on the Dancefloor\" – Sophie Ellis-Bextor (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Sophie%20Ellis-Bextor%20Murder%20on%20the%20Dancefloor\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Murder on the Dancefloor",
+    "artist": "Sophie Ellis-Bextor",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Sophie%20Ellis-Bextor%20Murder%20on%20the%20Dancefloor"
+   },
+   "song_credit": "\"Murder on the Dancefloor\" – Sophie Ellis-Bextor",
+   "pattern": {
+    "id": "P07",
+    "name": "Far beside"
+   },
+   "captions": [],
+   "duration": 19.0,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 19.0
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.2
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-145744",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:03:15.112216+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-145744.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-145744.mp4",
+   "preview_mb": 22.2,
+   "size_mb": 84.8,
+   "title": "GTA 6 Vice City | Tell It to My Heart Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Tell It to My Heart\" – Taylor Dayne (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Taylor%20Dayne%20Tell%20It%20to%20My%20Heart\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Tell It to My Heart",
+    "artist": "Taylor Dayne",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Taylor%20Dayne%20Tell%20It%20to%20My%20Heart"
+   },
+   "song_credit": "\"Tell It to My Heart\" – Taylor Dayne",
+   "pattern": {
+    "id": "P07",
+    "name": "Far beside"
+   },
+   "captions": [],
+   "duration": 21.47,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 21.47
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.5
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-150315",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:08:44.430343+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-150315.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-150315.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 86.1,
+   "title": "GTA 6 Vice City | Midnight City Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Midnight City\" – M83 (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/M83%20Midnight%20City\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Midnight City",
+    "artist": "M83",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/M83%20Midnight%20City"
+   },
+   "song_credit": "\"Midnight City\" – M83",
+   "pattern": {
+    "id": "P06",
+    "name": "Close + nudge to centre"
+   },
+   "captions": [],
+   "duration": 22.3,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 22.3
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-150844",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:14:46.422413+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-150844.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-150844.mp4",
+   "preview_mb": 22.1,
+   "size_mb": 87.9,
+   "title": "GTA 6 Vice City | Party All the Time Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Party All the Time\" – Eddie Murphy (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Eddie%20Murphy%20Party%20All%20the%20Time\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Party All the Time",
+    "artist": "Eddie Murphy",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Eddie%20Murphy%20Party%20All%20the%20Time"
+   },
+   "song_credit": "\"Party All the Time\" – Eddie Murphy",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 22.43,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 22.43
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.9
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-151446",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:18:15.987128+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-151446.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-151446.mp4",
+   "preview_mb": 20.6,
+   "size_mb": 50.6,
+   "title": "GTA 6 Vice City | Murder on the Dancefloor Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Murder on the Dancefloor\" – Sophie Ellis-Bextor (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Sophie%20Ellis-Bextor%20Murder%20on%20the%20Dancefloor\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Murder on the Dancefloor",
+    "artist": "Sophie Ellis-Bextor",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Sophie%20Ellis-Bextor%20Murder%20on%20the%20Dancefloor"
+   },
+   "song_credit": "\"Murder on the Dancefloor\" – Sophie Ellis-Bextor",
+   "pattern": {
+    "id": "P06",
+    "name": "Close + nudge to centre"
+   },
+   "captions": [],
+   "duration": 13.4,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 13.4
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.2
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-151816",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:22:35.864680+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-151816.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-151816.mp4",
+   "preview_mb": 20.8,
+   "size_mb": 66.2,
+   "title": "GTA 6 Vice City | Blinding Lights Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Blinding Lights\" – The Weeknd (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Weeknd%20Blinding%20Lights\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/The%20Weeknd%20Blinding%20Lights"
+   },
+   "song_credit": "\"Blinding Lights\" – The Weeknd",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 17.43,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 17.43
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -7.5
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-152235",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:26:05.682691+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-152235.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-152235.mp4",
+   "preview_mb": 20.4,
+   "size_mb": 50.9,
+   "title": "GTA 6 Vice City | Let's Groove Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Let's Groove\" – Earth, Wind & Fire (original recording)\n🔗 Official audio: https://soundcloud.com/ssssleepyyy/lets-groove-earth-wind-and-fire\n🎧 Spotify: https://open.spotify.com/search/Earth%2C%20Wind%20%26%20Fire%20Let%27s%20Groove\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Let's Groove",
+    "artist": "Earth, Wind & Fire",
+    "url": "https://soundcloud.com/ssssleepyyy/lets-groove-earth-wind-and-fire",
+    "official_channel": "cherryplate",
+    "spotify_search": "https://open.spotify.com/search/Earth%2C%20Wind%20%26%20Fire%20Let%27s%20Groove"
+   },
+   "song_credit": "\"Let's Groove\" – Earth, Wind & Fire",
+   "pattern": {
+    "id": "P06",
+    "name": "Close + nudge to centre"
+   },
+   "captions": [],
+   "duration": 13.6,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 13.6
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.8
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-152605",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:30:45.035110+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-152605.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-152605.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 71.3,
+   "title": "GTA 6 Vice City | Still D.R.E. Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Still D.R.E.\" – Dr. Dre (original recording)\n🔗 Official audio: https://soundcloud.com/user-717462432/dr-dre-still-d-r-e-ft-snoop\n🎧 Spotify: https://open.spotify.com/search/Dr.%20Dre%20Still%20D.R.E.\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Still D.R.E.",
+    "artist": "Dr. Dre",
+    "url": "https://soundcloud.com/user-717462432/dr-dre-still-d-r-e-ft-snoop",
+    "official_channel": "alf haze",
+    "spotify_search": "https://open.spotify.com/search/Dr.%20Dre%20Still%20D.R.E."
+   },
+   "song_credit": "\"Still D.R.E.\" – Dr. Dre",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 18.57,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 18.57
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.8
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-153045",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:36:39.986599+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-153045.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-153045.mp4",
+   "preview_mb": 22.4,
+   "size_mb": 87.3,
+   "title": "GTA 6 Vice City | One Thing Leads to Another Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"One Thing Leads to Another\" – The Fixx (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Fixx%20One%20Thing%20Leads%20to%20Another\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "One Thing Leads to Another",
+    "artist": "The Fixx",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/The%20Fixx%20One%20Thing%20Leads%20to%20Another"
+   },
+   "song_credit": "\"One Thing Leads to Another\" – The Fixx",
+   "pattern": {
+    "id": "P01",
+    "name": "Original beside-mid (approved)"
+   },
+   "captions": [],
+   "duration": 21.87,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 21.87
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.5
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-153640",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:40:33.334508+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-153640.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-153640.mp4",
+   "preview_mb": 21.4,
+   "size_mb": 54.0,
+   "title": "GTA 6 Vice City | Party All the Time Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Party All the Time\" – Eddie Murphy (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Eddie%20Murphy%20Party%20All%20the%20Time\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Party All the Time",
+    "artist": "Eddie Murphy",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Eddie%20Murphy%20Party%20All%20the%20Time"
+   },
+   "song_credit": "\"Party All the Time\" – Eddie Murphy",
+   "pattern": {
+    "id": "P06",
+    "name": "Close + nudge to centre"
+   },
+   "captions": [],
+   "duration": 14.4,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "45--ZVLkmks",
+     "src_id": "45--ZVLkmks",
+     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 14.4
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -14.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-154033",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:45:42.005056+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-154033.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-154033.mp4",
+   "preview_mb": 21.2,
+   "size_mb": 79.8,
+   "title": "GTA 6 Vice City | Hypnotize Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Hypnotize\" – The Notorious B.I.G. (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Notorious%20B.I.G.%20Hypnotize\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Hypnotize",
+    "artist": "The Notorious B.I.G.",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/The%20Notorious%20B.I.G.%20Hypnotize"
+   },
+   "song_credit": "\"Hypnotize\" – The Notorious B.I.G.",
+   "pattern": {
+    "id": "P07",
+    "name": "Far beside"
+   },
+   "captions": [],
+   "duration": 20.53,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YlY9n7iM-5Q",
+     "src_id": "YlY9n7iM-5Q",
+     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
+     "title": "GTA Online: San Andreas Mercenaries Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 20.53
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-154542",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:50:23.559381+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-154542.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-154542.mp4",
+   "preview_mb": 21.4,
+   "size_mb": 73.1,
+   "title": "GTA 6 Vice City | In the Air Tonight Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"In the Air Tonight\" – Phil Collins (original recording)\n🔗 Official audio: https://soundcloud.com/user-71575480/in-the-air-tonight-by-the-phil-collins-experience\n🎧 Spotify: https://open.spotify.com/search/Phil%20Collins%20In%20the%20Air%20Tonight\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "In the Air Tonight",
+    "artist": "Phil Collins",
+    "url": "https://soundcloud.com/user-71575480/in-the-air-tonight-by-the-phil-collins-experience",
+    "official_channel": "Phil Collins Experience",
+    "spotify_search": "https://open.spotify.com/search/Phil%20Collins%20In%20the%20Air%20Tonight"
+   },
+   "song_credit": "\"In the Air Tonight\" – Phil Collins",
+   "pattern": {
+    "id": "P07",
+    "name": "Far beside"
+   },
+   "captions": [],
+   "duration": 18.93,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 18.93
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-155023",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T15:55:18.864231+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-155023.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-155023.mp4",
+   "preview_mb": 22.1,
+   "size_mb": 73.5,
+   "title": "GTA 6 Vice City | Obsession Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Obsession\" – Animotion (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Animotion%20Obsession\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Obsession",
+    "artist": "Animotion",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Animotion%20Obsession"
+   },
+   "song_credit": "\"Obsession\" – Animotion",
+   "pattern": {
+    "id": "P06",
+    "name": "Close + nudge to centre"
+   },
+   "captions": [],
+   "duration": 19.33,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 19.33
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.0
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-155518",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T16:00:02.437052+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-155518.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-155518.mp4",
+   "preview_mb": 21.7,
+   "size_mb": 74.0,
+   "title": "GTA 6 Vice City | Flashing Lights Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Flashing Lights\" – Kanye West (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Flashing Lights",
+    "artist": "Kanye West",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights"
+   },
+   "song_credit": "\"Flashing Lights\" – Kanye West",
+   "pattern": {
+    "id": "P07",
+    "name": "Far beside"
+   },
+   "captions": [],
+   "duration": 19.17,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 19.17
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-160002",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T16:04:44.131365+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-160002.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-160002.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 72.1,
+   "title": "GTA 6 Vice City | In Da Club Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"In Da Club\" – 50 Cent (original recording)\n🔗 Official audio: https://soundcloud.com/leo-ali-306816420/50cent-in-da-club-hd\n🎧 Spotify: https://open.spotify.com/search/50%20Cent%20In%20Da%20Club\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "In Da Club",
+    "artist": "50 Cent",
+    "url": "https://soundcloud.com/leo-ali-306816420/50cent-in-da-club-hd",
+    "official_channel": "ganjhabhab",
+    "spotify_search": "https://open.spotify.com/search/50%20Cent%20In%20Da%20Club"
+   },
+   "song_credit": "\"In Da Club\" – 50 Cent",
+   "pattern": {
+    "id": "P06",
+    "name": "Close + nudge to centre"
+   },
+   "captions": [],
+   "duration": 18.83,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 18.83
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   }
+  },
+  {
+   "id": "yo-gta-20261126-160444",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T16:09:23.539022+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-160444.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-160444.mp4",
+   "preview_mb": 21.4,
+   "size_mb": 71.6,
+   "title": "GTA 6 Vice City | Starboy Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Starboy\" – The Weeknd (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Weeknd%20Starboy\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Starboy",
+    "artist": "The Weeknd",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/The%20Weeknd%20Starboy"
+   },
+   "song_credit": "\"Starboy\" – The Weeknd",
+   "pattern": {
+    "id": "P05",
+    "name": "Stepping up beside"
+   },
+   "captions": [],
+   "duration": 18.7,
+   "sources": [
+    {
+     "id": "HqZXw5M6qQY",
+     "src_id": "HqZXw5M6qQY",
+     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
+     "title": "Grand Theft Auto V: Michael",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
+    },
+    {
+     "id": "T7aaNEW7zA0",
+     "src_id": "T7aaNEW7zA0",
+     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
+     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
+    },
+    {
+     "id": "APJ-lT0sBhg",
+     "src_id": "APJ-lT0sBhg",
+     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
+     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
+    },
+    {
+     "id": "Sp1wvWZ_2MQ",
+     "src_id": "Sp1wvWZ_2MQ",
+     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
+     "title": "GTA Online: The Chop Shop Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
+    },
+    {
+     "id": "YW9VXUgoG6w",
+     "src_id": "YW9VXUgoG6w",
+     "path": "/mnt/ph/youtube/sources/YW9VXUgoG6w.mkv",
+     "title": "GTA Online: Agents of Sabotage Now Available",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w"
+    },
+    {
+     "id": "GbuCIrZSPDk",
+     "src_id": "GbuCIrZSPDk",
+     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
+     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": false,
+      "value": 18.7
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2560x1440",
+      "want": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -7.3
      },
      "black_frames": {
       "ok": true,
@@ -12983,6 +17463,180 @@
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T13:56:32.586323+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.93}}"
+  },
+  {
+   "at": "2026-11-26T13:59:57.429327+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.33}}"
+  },
+  {
+   "at": "2026-11-26T14:05:11.401261+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.17}}"
+  },
+  {
+   "at": "2026-11-26T14:10:44.277053+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.63}}"
+  },
+  {
+   "at": "2026-11-26T14:14:08.021893+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 12.97}}"
+  },
+  {
+   "at": "2026-11-26T14:19:40.159686+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.63}}"
+  },
+  {
+   "at": "2026-11-26T14:24:39.284772+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 20.3}}"
+  },
+  {
+   "at": "2026-11-26T14:28:05.976456+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.47}}"
+  },
+  {
+   "at": "2026-11-26T14:31:38.542891+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.77}}"
+  },
+  {
+   "at": "2026-11-26T14:37:24.424944+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.47}}"
+  },
+  {
+   "at": "2026-11-26T14:42:06.911695+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.93}}"
+  },
+  {
+   "at": "2026-11-26T14:47:21.606699+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.17}}"
+  },
+  {
+   "at": "2026-11-26T14:52:50.066511+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.97}}"
+  },
+  {
+   "at": "2026-11-26T14:57:44.169405+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.0}}"
+  },
+  {
+   "at": "2026-11-26T15:03:15.124033+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.47}}"
+  },
+  {
+   "at": "2026-11-26T15:08:44.442281+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.3}}"
+  },
+  {
+   "at": "2026-11-26T15:14:46.434892+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.43}}"
+  },
+  {
+   "at": "2026-11-26T15:18:15.998935+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.4}}"
+  },
+  {
+   "at": "2026-11-26T15:22:35.878947+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 17.43}}"
+  },
+  {
+   "at": "2026-11-26T15:26:05.698317+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.6}}"
+  },
+  {
+   "at": "2026-11-26T15:30:45.050597+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.57}}"
+  },
+  {
+   "at": "2026-11-26T15:36:40.001374+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.87}}"
+  },
+  {
+   "at": "2026-11-26T15:40:33.350154+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.4}}"
+  },
+  {
+   "at": "2026-11-26T15:45:42.019765+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 20.53}}"
+  },
+  {
+   "at": "2026-11-26T15:50:23.575542+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.93}}"
+  },
+  {
+   "at": "2026-11-26T15:55:18.880254+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.33}}"
+  },
+  {
+   "at": "2026-11-26T16:00:02.452618+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.17}}"
+  },
+  {
+   "at": "2026-11-26T16:04:44.146679+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.83}}"
+  },
+  {
+   "at": "2026-11-26T16:09:23.555751+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.7}}"
   }
  ],
  "vet_rules": "gta-rockstar-v1"

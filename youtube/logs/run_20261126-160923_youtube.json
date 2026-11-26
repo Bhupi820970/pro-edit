@@ -1,0 +1,187 @@
+{
+ "platform": "youtube",
+ "made": [
+  "yo-gta-20261126-133632"
+ ],
+ "failures": [
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.93}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.33}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.17}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.63}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 12.97}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.63}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 20.3}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.47}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.77}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.47}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.93}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.17}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.97}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.0}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.47}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.3}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 22.43}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.4}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 17.43}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.6}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.57}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.87}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.4}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 20.53}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.93}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.33}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.17}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.83}}",
+  "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.7}}"
+ ],
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 5,
+  "vetted": 4,
+  "rejected": [
+   {
+    "id": "N-xHcvug3WI",
+    "title": "Grand Theft Auto V: Official Gameplay Video",
+    "reasons": [
+     "flag:hud_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "He5pZypleqE",
+    "title": "Grand Theft Auto V - Introducing the Rockstar Editor",
+    "reasons": [
+     "only 360p (< 720p)"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "olEGtoYs_8A",
+    "title": "Grand Theft Auto Online: Official Gameplay Video",
+    "reasons": [
+     "flag:hud_overlay"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "HqZXw5M6qQY",
+    "title": "Grand Theft Auto V: Michael",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 4,
+  "fallback_used": false,
+  "thin": [],
+  "runner_skipped": 947,
+  "box_clips_used": 180,
+  "failed_ids": [
+   "ewAODca-3Bw",
+   "R3HS6owS3P8",
+   "QYAMp13Yi04",
+   "7oFmRN0oadI",
+   "3PiR0G3rVw8"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ],
+ "skipped_categories": []
+}
