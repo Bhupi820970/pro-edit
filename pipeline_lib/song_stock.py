@@ -18,7 +18,7 @@ from pathlib import Path
 
 from .songs import (GENRES, _norm, clean_genres, download_official, genre_index, genres_of,
                     load_songs_cfg, safe_search_term, tag_key)
-from .util import log
+from .util import log, now_local
 
 TAG = "songs"
 REPO_SLUG_ENV = "GITHUB_REPOSITORY"
@@ -207,9 +207,36 @@ def publish(songs_dir: Path) -> int:
     return len(files)
 
 
+def quarantine(dry_run: bool = False) -> list[dict]:
+    """Move songs that fail the official-uploader check from manifest "songs" to manifest "quarantine".
+    The audio files stay on the release (nothing is deleted); only the pool stops using them."""
+    from .song_official import check as official_check
+    tmp = Path(tempfile.mkdtemp(prefix="songq-"))
+    man = remote_manifest(tmp)
+    keep, moved = [], []
+    for r in man.get("songs") or []:
+        if not isinstance(r, dict):
+            continue
+        ok, why = official_check(r, r.get("artist"), r.get("title"))
+        if ok:
+            keep.append(r)
+        else:
+            moved.append({**r, "quarantined_at": now_local().isoformat(), "quarantine_reason": why})
+    if moved:
+        man["songs"] = keep
+        man["quarantine"] = list(man.get("quarantine") or []) + moved
+        log(f"quarantine: {len(moved)} unofficial song(s) moved out of the pool, {len(keep)} kept")
+        for r in moved:
+            log(f"  - {r.get('title')} - {r.get('artist')} [{r.get('channel')}] {r['quarantine_reason']}")
+        if not dry_run:
+            (tmp / "manifest.json").write_text(json.dumps(man, indent=1))
+            gh("release", "upload", TAG, "--repo", repo_slug(), "--clobber", str(tmp / "manifest.json"))
+    return moved
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["status", "refill", "publish"])
+    ap.add_argument("cmd", choices=["status", "refill", "publish", "quarantine"])
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--cookies-from-browser", default="")
     ap.add_argument("--no-gemini", action="store_true")
@@ -221,6 +248,9 @@ def main(argv=None):
         d = Path(tempfile.mkdtemp())
         man = remote_manifest(d)
         print(json.dumps(counts(man, genre_index(None))))
+        return
+    if a.cmd == "quarantine":
+        quarantine(dry_run=a.dry_run)
         return
     if a.cmd == "publish":
         from .util import home

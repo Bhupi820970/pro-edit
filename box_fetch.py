@@ -19,8 +19,7 @@ cached pool in the `sources` release -> the 7-video ready buffer covers the gap.
   python3 box_fetch.py songs                         # top up official audio into draft release "songs"
   python3 box_fetch.py sync                          # re-upload local / re-download clips missing from "sources"
   python3 box_fetch.py cycle --no-gemini --interval 10800   # what box/fetch_sources.sh (crontab) runs
-  python3 box_fetch.py loop --interval 3600          # old background loop (scripts/box_fetch_service.sh)
-  bash scripts/box_fetch_service.sh start|stop|status|logs   # one command after a box reset: start
+  (the old `loop` command and scripts/box_fetch_service.sh are retired: crontab runs box/fetch_sources.sh)
 
 --cookies-from-browser is OFF by default (opt-in; yt-dlp then reads the local browser cookies for that
 download only; cookies are never written to the repo, release, logs or manifest).
@@ -645,6 +644,11 @@ class Box:
             if not off or not url or not re.fullmatch(r"[\w-]{11}", off["id"]):
                 log("no official upload for", tag)
                 continue
+            from pipeline_lib.song_official import check as official_check
+            ok_off, why = official_check({**off, "source": "youtube"}, o["artist"], o["title"])
+            if not ok_off:
+                log(f"skip unofficial upload for {tag}: {why}")
+                continue
             if off["id"] in have_ids:
                 have.add(_norm(tag))
                 continue
@@ -778,6 +782,9 @@ def main():
     ap.add_argument("--dir", type=Path, default=Path(os.environ.get("BOX_FETCH_DIR", "/workspace/gta6/box_fetch")))
     ap.add_argument("--dry-run", action="store_true", help="download only, do not upload")
     a = ap.parse_args()
+    if a.cmd == "loop":   # retired 2026-11-26: the crontab fetcher (box/fetch_sources.sh) is the only fetcher
+        log("retired: the old 'loop' fetcher is off; the crontab fetcher (box/fetch_sources.sh) is the only fetcher")
+        return
     b = Box(a)
     if a.cmd == "songs":
         n = b.fetch_songs()

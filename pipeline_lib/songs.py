@@ -170,7 +170,8 @@ def find_official(title: str, artist: str, extra: list | None = None) -> dict | 
     vid = e["id"]
     if not re.fullmatch(r"[\w-]{11}", vid):
         return None
-    return {"id": vid, "url": f"https://www.youtube.com/watch?v={vid}", "channel": best[2]}
+    return {"id": vid, "url": f"https://www.youtube.com/watch?v={vid}", "channel": best[2],
+            "verified": e.get("channel_is_verified")}
 
 
 def load_box_songs(sdir: Path) -> list[dict]:
@@ -184,9 +185,14 @@ def load_box_songs(sdir: Path) -> list[dict]:
             break
         except Exception:
             continue
+    from .song_official import check as official_check
     out = []
     for rec in recs:
         if not isinstance(rec, dict) or not rec.get("title") or not rec.get("artist"):
+            continue
+        ok_off, why = official_check(rec, rec.get("artist"), rec.get("title"))
+        if not ok_off:      # covers / tributes / fan rips are never used, even before the box purges them
+            log(f"song pool: skip unofficial {rec.get('title')} - {rec.get('artist')}: {why}")
             continue
         if song_audio_path(sdir, rec):
             out.append(rec)

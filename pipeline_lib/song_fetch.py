@@ -21,6 +21,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from .song_official import check as official_check
 from .songs import AUDIO_EXT, SEARCH_OPTS, _artist_key, _norm, find_official, safe_search_term
 from .sourcing import ytdlp
 from .util import log, now_local, run
@@ -236,6 +237,11 @@ def find_soundcloud(title: str, artist: str, extra: list | None = None) -> dict 
             continue
         if not artist_hit(up, artist) and not artist_hit(et, artist):
             continue
+        ok_off, why = official_check({"source": "soundcloud", "url": url, "channel": up, "track_title": et},
+                                     artist, title)
+        if not ok_off:
+            log(f"skip unofficial SoundCloud upload ({why}):", up, url[:80])
+            continue
         score = 3 if artist_hit(up, artist) else 1
         if best is None or score > best[0]:
             best = (score, {"id": safe_id("soundcloud", str(e.get("id") or url)), "url": url,
@@ -295,6 +301,9 @@ def _pick_yt_entry(title: str, artist: str, entries: list[dict]) -> dict | None:
         if not title_hit(et, title) or is_junk(et, title) or not duration_ok(e.get("duration")):
             continue
         art = artist_hit(ch, artist) or artist_hit(et, artist)
+        if not official_check({"source": "youtube", "channel": ch, "verified": e.get("verified"),
+                               "track_title": et}, artist, title)[0]:
+            continue
         nch = _norm(ch)
         score = 0
         if ch.endswith(" - Topic") and art:
@@ -460,6 +469,10 @@ def fetch_original(o: dict, sdir: Path, genres: list[str], by: str, extra: list 
             log(f"{src} search failed:", type(ex).__name__, str(ex)[:80])
             hit = None
         if not hit or not allowed_url(hit.get("url") or ""):
+            continue
+        ok_off, why = official_check(hit, artist, title)
+        if not ok_off:
+            log(f"{src}: rejected unofficial upload for {title} - {artist}: {why}")
             continue
         sid = hit["id"]
         if not SAFE_ID.match(sid):
