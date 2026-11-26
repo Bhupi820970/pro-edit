@@ -29,7 +29,9 @@ FULL_MODELS = [m for m in os.environ.get("GEMINI_FULL_MODELS", "").split(",") if
 # Backup tier: older/cheaper models on the SAME keys. Quota is per key AND per model, so when the main models
 # are out for the day these usually still answer. Names are checked against the live list-models call.
 FALLBACK_MODELS = [m for m in os.environ.get("GEMINI_FALLBACK_MODELS", "").split(",") if m] or [
-    "gemini-2.5-flash-lite", "gemini-2.0-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"]
+    # checked 2026-11-26 with list-models + a test call: the 2.x models answer 404 "no longer available to new
+    # users", so the backup tier is the lite preview + other flash generations + Gemma 4 (own, larger quota)
+    "gemini-3.1-flash-lite-preview", "gemini-3.5-flash", "gemini-3.6-flash", "gemma-4-31b-it", "gemma-4-26b-a4b-it"]
 DEFAULT_MODELS = [m for m in os.environ.get("GEMINI_MODELS", "").split(",") if m] or (
     LITE_MODELS + FULL_MODELS + FALLBACK_MODELS)
 INVALID_RECHECK_S = 24 * 3600   # an invalid key is skipped for a day (a fixed secret is picked up next day)
