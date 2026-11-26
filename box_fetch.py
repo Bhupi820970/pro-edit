@@ -232,6 +232,12 @@ class Box:
         self.dir.mkdir(parents=True, exist_ok=True)
         self.extra = ["--cookies-from-browser", a.cookies_from_browser] if a.cookies_from_browser else []
         self.rejected: set[str] = set()
+        # clips the plain-script overlay check rejected at download time (never uploaded, never retried)
+        self.box_rejects_path = self.dir / "box_overlay_rejects.json"
+        try:
+            self.box_rejects: dict = json.loads(self.box_rejects_path.read_text())
+        except Exception:
+            self.box_rejects = {}
 
     # ------------------------------------------------------------ release helpers
     def ensure_release(self):
@@ -460,7 +466,7 @@ class Box:
             except Exception as ex:
                 log("gemini discovery skipped:", str(ex)[:120])
         got, recs = [], []
-        skip_ids = getattr(self, "rejected", set())
+        skip_ids = set(getattr(self, "rejected", set())) | set(getattr(self, "box_rejects", {}))
         n_sib = max(0, int(os.environ.get("BOX_FETCH_SIBLINGS", "3") or 3))
         min_free = float(os.environ.get("BOX_FETCH_MIN_FREE_GB", "10") or 10)
 
@@ -493,6 +499,25 @@ class Box:
             if not ok or not f:
                 log("download failed:", e["url"])
                 return False
+            # download-time watermark / logo / burned-text check (plain numpy + ffmpeg, no AI): reject and
+            # delete here so a bad source never reaches the release or wastes an edit attempt
+            if os.environ.get("BOX_FETCH_OVERLAY_CHECK", "1") != "0":
+                from pipeline_lib.overlay_check import check_clip
+                try:
+                    clean, why, _ = check_clip(f)
+                except Exception as ex:
+                    clean, why = False, f"overlay check error: {str(ex)[:80]}"
+                if not clean:
+                    f.unlink(missing_ok=True)
+                    self.box_rejects[e["id"]] = {"reason": why, "title": (e.get("title") or "")[:120],
+                                                 "category": category, "at": now_local().isoformat()}
+                    try:
+                        self.box_rejects_path.write_text(json.dumps(self.box_rejects, indent=1))
+                    except OSError:
+                        pass
+                    self.overlay_rejected = getattr(self, "overlay_rejected", 0) + 1
+                    log(f"REJECT at download [{e['id']}] {(e.get('title') or '')[:60]} — {why} (deleted; next candidate)")
+                    return False
             rec = {"id": e["id"], "file": f.name, "url": e["url"], "title": e.get("title", ""),
                    "channel": e.get("channel", ""), "credit": e.get("credit") or e.get("channel", ""),
                    "category": category, "via": e.get("via"), "added": now_local().isoformat(), "by": "box",
@@ -728,8 +753,10 @@ class Box:
         songs_n = sum(1 for s in (self.song_manifest().get("songs") or [])
                       if isinstance(s, dict) and asset_covers(s.get("id") or "", s.get("file") or "", song_assets))
         self.heartbeat({"fetched_last_cycle": fetched, "errors": errors[-10:], "pool": pool, "songs": songs_n,
+                        "overlay_rejected_last_cycle": getattr(self, "overlay_rejected", 0),
                         "processed_now": now_done, "interval_s": self.a.interval})
-        log(f"cycle done: fetched {fetched}, pool {pool}, songs {songs_n}, errors {len(errors)}")
+        log(f"cycle done: fetched {fetched}, overlay-rejected {getattr(self, 'overlay_rejected', 0)}, "
+            f"pool {pool}, songs {songs_n}, errors {len(errors)}")
 
 
 def main():

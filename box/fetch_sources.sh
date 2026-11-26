@@ -26,7 +26,7 @@ export PYTHONUNBUFFERED=1
 if [ -f "$RUN/box.env" ]; then
   while IFS='=' read -r k v; do
     case "$k" in
-      GH_CONFIG_DIR|VICE_YT_COOKIES_BROWSER|VICE_YTDLP_JS_RUNTIME|BOX_FETCH_MAX_PER_CAT|BOX_FETCH_MIN_FREE_GB|BOX_FETCH_SIBLINGS)
+      GH_CONFIG_DIR|VICE_YT_COOKIES_BROWSER|VICE_YTDLP_JS_RUNTIME|BOX_FETCH_MAX_PER_CAT|BOX_FETCH_MIN_FREE_GB|BOX_FETCH_SIBLINGS|BOX_FETCH_OVERLAY_CHECK)
         if [[ "$v" =~ ^[A-Za-z0-9:/._+-]{1,200}$ ]]; then export "$k=$v"; fi ;;
     esac
   done < "$RUN/box.env"

@@ -16,6 +16,8 @@ sys.path.insert(0, str(HERE))
 
 import box_fetch as B  # noqa: E402
 
+_CLEAN = patch("pipeline_lib.overlay_check.check_clip", return_value=(True, "clean", {}))
+
 
 def _e(i, title, ch="Movieclips", verified=True, dur=180):
     vid = f"{i:011d}"[-11:]
@@ -50,7 +52,7 @@ class TitleGroups(unittest.TestCase):
 
             def search(q, n=15):
                 return [main] if "Heat" not in q else [s for s in sibs if True]
-            with patch.object(B, "CFG", {**B.CFG}), \
+            with _CLEAN, patch.object(B, "CFG", {**B.CFG}), \
                     patch.object(B.S, "list_channel", return_value=[]), \
                     patch.object(B.S, "search_youtube", side_effect=search), \
                     patch.object(B.S, "ytdlp", side_effect=self._fake_ytdlp(td)), \
@@ -63,6 +65,29 @@ class TitleGroups(unittest.TestCase):
             self.assertTrue(all(r.get("work") == work for r in recs))
             self.assertTrue(all(r["url"].startswith("https://www.youtube.com/") for r in recs))
             self.assertFalse(list(Path(td).glob("*.mkv")))                 # freed after each batch
+
+    def test_overlay_reject_at_download_deletes_and_takes_replacement(self):
+        with tempfile.TemporaryDirectory() as td:
+            box = self._box(td)
+            bad = _e(1, "Heat (1995) - Bank Robbery Scene | Movieclips")
+            good = _e(2, "Collateral (2004) - Club Scene | Movieclips")
+
+            def chk(path):
+                return (False, "static overlay: bottom_right=0.05", {}) if bad["id"] in str(path) else \
+                    (True, "clean", {})
+            with patch("pipeline_lib.overlay_check.check_clip", side_effect=chk), \
+                    patch.dict(os.environ, {"BOX_FETCH_SIBLINGS": "0"}), \
+                    patch.object(B.S, "list_channel", return_value=[]), \
+                    patch.object(B.S, "search_youtube", return_value=[bad, good]), \
+                    patch.object(B.S, "ytdlp", side_effect=self._fake_ytdlp(td)), \
+                    patch.object(B.Box, "manifest", return_value={"clips": []}), \
+                    patch.object(B, "free_gb", return_value=50.0):
+                recs = box.fetch("movie", 1, use_gemini=False)
+            self.assertEqual([r["id"] for r in recs], [good["id"]])        # replacement keeps the target
+            self.assertFalse((Path(td) / f"{bad['id']}.mkv").exists())     # bad clip deleted
+            self.assertIn(bad["id"], box.box_rejects)
+            box2 = self._box(td)                                           # remembered: never retried
+            self.assertIn(bad["id"], box2.box_rejects)
 
     def test_disk_guard_stops_downloads(self):
         with tempfile.TemporaryDirectory() as td:
