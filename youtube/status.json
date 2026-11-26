@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T09:47:42.563169+05:30",
+ "updated": "2026-11-26T11:54:21.664900+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
+ "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
  "platforms": {
   "youtube": {
-   "ready": 1,
+   "ready": 0,
    "target": 7,
    "warning": true,
    "produced_today": 6,
@@ -13,7 +13,7 @@
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (1/7 ready)"
+   "message": "BACKUP LOW: refill youtube (0/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -27,230 +27,95 @@
    "message": "BACKUP LOW: refill instagram (0/7 ready)"
   }
  },
- "ready": [
-  {
-   "id": "yo-gta-20261125-220912",
-   "platform": "youtube",
-   "category": "gta",
-   "format": "wide",
-   "state": "ready",
-   "created": "2026-11-25T22:27:49.757332+05:30",
-   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261125-220912.mp4",
-   "preview": "/mnt/ph/youtube/prev/yo-gta-20261125-220912.mp4",
-   "preview_mb": 21.8,
-   "size_mb": 121.2,
-   "title": "GTA 6 Vice City | Miami Edit",
-   "hook": "GTA 6 VICE CITY",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Miami\" – Will Smith (original recording)\n🔗 Official audio: https://soundcloud.com/oisin-donavan/will-smith-miami\n🎧 Spotify: https://open.spotify.com/search/Will%20Smith%20Miami\n🎬 Footage: Rockstar Games – \"GTA Online: The Chop Shop Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Now Available\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
-   "hashtags": [
-    "GTA6",
-    "GTAVI",
-    "GrandTheftAuto6",
-    "ViceCity",
-    "GTA6Edit",
-    "RockstarGames"
-   ],
-   "song": {
-    "title": "Miami",
-    "artist": "Will Smith",
-    "url": "https://soundcloud.com/oisin-donavan/will-smith-miami",
-    "official_channel": "Oisin Donavan",
-    "spotify_search": "https://open.spotify.com/search/Will%20Smith%20Miami"
-   },
-   "song_credit": "\"Miami\" – Will Smith",
-   "pattern": {
-    "id": "P02",
-    "name": "Beside-upper"
-   },
-   "captions": [
-    "MY COUSIN YUSUF",
-    "HERE KEEPS A",
-    "LIST OF ALL",
-    "THE CARS HE",
-    "WANTS"
-   ],
-   "duration": 28.6,
-   "sources": [
-    {
-     "id": "Sp1wvWZ_2MQ",
-     "src_id": "Sp1wvWZ_2MQ",
-     "path": "/mnt/ph/youtube/sources/Sp1wvWZ_2MQ.mkv",
-     "title": "GTA Online: The Chop Shop Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ"
-    },
-    {
-     "id": "T7aaNEW7zA0",
-     "src_id": "T7aaNEW7zA0",
-     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
-     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
-    },
-    {
-     "id": "APJ-lT0sBhg",
-     "src_id": "APJ-lT0sBhg",
-     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
-     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
-    },
-    {
-     "id": "GbuCIrZSPDk",
-     "src_id": "GbuCIrZSPDk",
-     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
-     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
-    },
-    {
-     "id": "45--ZVLkmks",
-     "src_id": "45--ZVLkmks",
-     "path": "/mnt/ph/youtube/sources/45--ZVLkmks.mkv",
-     "title": "GTA Online: A Safehouse in the Hills Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=45--ZVLkmks"
-    },
-    {
-     "id": "YlY9n7iM-5Q",
-     "src_id": "YlY9n7iM-5Q",
-     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
-     "title": "GTA Online: San Andreas Mercenaries Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 28.6
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2560x1440",
-      "want": "2560x1440"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -10.3
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": true
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 5
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-220912.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261125-220912.preview.mp4"
-  }
- ],
+ "ready": [],
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-26T08:48:56.923819+05:30",
+   "at": "2026-11-26T10:58:06.584899+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T08:53:33.650619+05:30",
+   "at": "2026-11-26T11:01:56.450316+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T08:57:47.243679+05:30",
+   "at": "2026-11-26T11:05:56.780466+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:01:53.929375+05:30",
+   "at": "2026-11-26T11:10:09.034043+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:06:29.206898+05:30",
+   "at": "2026-11-26T11:14:09.623899+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:10:41.747041+05:30",
+   "at": "2026-11-26T11:18:23.274668+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:14:52.392613+05:30",
+   "at": "2026-11-26T11:22:23.030016+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:19:04.278266+05:30",
+   "at": "2026-11-26T11:26:11.748311+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:22:49.189502+05:30",
+   "at": "2026-11-26T11:30:12.467425+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:26:45.634857+05:30",
+   "at": "2026-11-26T11:34:36.953392+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:30:54.948263+05:30",
+   "at": "2026-11-26T11:38:36.677337+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:35:18.689559+05:30",
+   "at": "2026-11-26T11:42:23.788399+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:39:41.900781+05:30",
+   "at": "2026-11-26T11:46:18.278131+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:43:41.238864+05:30",
+   "at": "2026-11-26T11:50:18.320324+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
   },
   {
-   "at": "2026-11-26T09:47:39.202461+05:30",
+   "at": "2026-11-26T11:54:18.347523+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
@@ -271,9 +136,9 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-25T10:08:38.272921+05:30",
-  "age_hours": 23.7,
-  "healthy": false,
+  "last_run": "2026-11-26T09:24:37.427268+05:30",
+  "age_hours": 2.5,
+  "healthy": true,
   "pool": {
    "gta": 15,
    "gaming": 15,
@@ -283,6 +148,6 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 24h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "OK"
  }
 }
