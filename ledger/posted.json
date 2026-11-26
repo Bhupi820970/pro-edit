@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-25T22:20:58.370725+05:30",
+ "updated": "2026-11-26T08:44:10.017326+05:30",
  "posted": [
   {
    "id": "yo-gta-20261125-070541",
@@ -67,6 +67,40 @@
    "slot": "2026-11-25T15:00",
    "updated_at": "2026-11-25T22:20:58.370677+05:30",
    "posted_at": "2026-11-25T22:20:58.370677+05:30"
+  },
+  {
+   "id": "yo-gta-20261125-220912",
+   "platform": "youtube",
+   "title": "GTA 6 Vice City | Miami Edit",
+   "youtube_id": "qBGlelfce-8",
+   "youtube_url": "https://www.youtube.com/watch?v=qBGlelfce-8",
+   "instagram_url": null,
+   "ig_media_id": null,
+   "ig_container_id": null,
+   "buffer_post_id": null,
+   "buffer_status": null,
+   "run_id": "45747400544",
+   "status": "posted",
+   "slot": "2026-11-26T08:00",
+   "updated_at": "2026-11-26T08:42:46.205145+05:30",
+   "posted_at": "2026-11-26T08:42:46.205145+05:30"
+  },
+  {
+   "id": "in-movie-20261126-010121",
+   "platform": "instagram",
+   "title": "Movie Scene Edit | Midnight City Edit",
+   "youtube_id": null,
+   "youtube_url": null,
+   "instagram_url": "https://www.instagram.com/reel/DgMHNDzhXHw/",
+   "ig_media_id": "17915703753484832",
+   "ig_container_id": "18190726225423233",
+   "buffer_post_id": null,
+   "buffer_status": null,
+   "run_id": "45747400544",
+   "status": "posted",
+   "slot": "2026-11-26T08:00",
+   "updated_at": "2026-11-26T08:44:10.017291+05:30",
+   "posted_at": "2026-11-26T08:44:10.017291+05:30"
   }
  ]
 }
