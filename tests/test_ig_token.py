@@ -54,12 +54,13 @@ class IgToken(unittest.TestCase):
             return {"user_id": "1", "username": "benreelr"}
         with tempfile.TemporaryDirectory() as td, patch.object(T, "_get", side_effect=fake_get), \
                 patch.object(T, "PUBKEY", Path(td) / "pub.pem"), \
-                patch.dict(os.environ, {"IG_ACCESS_TOKEN": FAKE_IG}, clear=False):
+                patch.dict(os.environ, {"IG_ACCESS_TOKEN": FAKE_IG, "GITHUB_ACTIONS": ""}, clear=False):
             (Path(td) / "pub.pem").write_bytes(pub)
             buf = io.StringIO()
             with redirect_stdout(buf):
                 rc = T.main(["refresh", "--out", str(Path(td) / "h.bin")])
-            out = buf.getvalue()
+            # in Actions, publish.secrets emits "::add-mask::" lines (GitHub swallows them); judge the rest
+            out = "\n".join(x for x in buf.getvalue().splitlines() if not x.startswith("::add-mask::"))
             self.assertEqual(rc, 0)
             self.assertNotIn(FAKE_IG, out)
             self.assertNotIn(NEW_IG, out)
@@ -71,11 +72,11 @@ class IgToken(unittest.TestCase):
             self.assertNotIn("refresh_access_token", url)
             return {"data": {"is_valid": True, "type": "PAGE", "expires_at": 0}}
         with tempfile.TemporaryDirectory() as td, patch.object(T, "_get", side_effect=fake_get), \
-                patch.dict(os.environ, {"IG_ACCESS_TOKEN": "EAAfakefacebooktoken123"}, clear=False):
+                patch.dict(os.environ, {"IG_ACCESS_TOKEN": "EAAfakefacebooktoken123", "GITHUB_ACTIONS": ""}, clear=False):
             buf = io.StringIO()
             with redirect_stdout(buf):
                 rc = T.main(["refresh", "--out", str(Path(td) / "h.bin")])
-            res = json.loads(buf.getvalue())
+            res = json.loads(buf.getvalue().splitlines()[-1])
             self.assertEqual(rc, 0)                         # never-expiring page token: nothing to do
             self.assertIn("app id + app secret", res["result"])
             self.assertFalse((Path(td) / "h.bin").exists())
