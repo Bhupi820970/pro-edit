@@ -87,40 +87,13 @@ def problems(counts: dict, led: dict, slots: list[str], runs: list[dict], ig_day
     if produce_failed_twice(runs):
         out.append("The last 2 produce runs failed")
     if ig_days is not None and ig_days <= WARN_DAYS:
-        out.append(f"Instagram token expires in {max(ig_days, 0):.1f} days: renew secret IG_ACCESS_TOKEN"
-                   + (" (auto-refresh needs secrets IG_APP_ID, IG_APP_SECRET, GH_SECRETS_PAT)"
-                      if not os.environ.get("GH_SECRETS_PAT") else ""))
+        out.append(f"Instagram token expires in {max(ig_days, 0):.1f} days: renew secret IG_ACCESS_TOKEN")
+    st = (os.environ.get("IG_TOKEN_REFRESH") or "").strip()      # set by box/ig_token_refresh.sh (no secret)
+    if st.lower().startswith("failed"):
+        out.append("Instagram token auto-refresh failed: " + st[:160])
     if yt_ok is False:
         out.append("YouTube refresh token no longer works: re-authorise and update secret YT_REFRESH_TOKEN")
     return out
-
-
-def refresh_ig_token(days_left) -> str:
-    """Exchange the long-lived token for a new one and store it as the IG_ACCESS_TOKEN secret.
-    Needs IG_APP_ID + IG_APP_SECRET (Graph refresh) and GH_SECRETS_PAT (a token allowed to write secrets);
-    the workflow token cannot write secrets. The token is passed on stdin, never printed or logged."""
-    if days_left is None or days_left > WARN_DAYS:
-        return "not needed"
-    need = [n for n in ("IG_APP_ID", "IG_APP_SECRET", "GH_SECRETS_PAT") if not os.environ.get(n)]
-    if need:
-        return "skipped: missing secrets " + ", ".join(need)
-    from .publish import secrets as S
-    q = urllib.parse.urlencode({"grant_type": "fb_exchange_token", "client_id": os.environ["IG_APP_ID"],
-                                "client_secret": os.environ["IG_APP_SECRET"],
-                                "fb_exchange_token": os.environ["IG_ACCESS_TOKEN"]})
-    try:
-        with urllib.request.urlopen("https://graph.facebook.com/oauth/access_token?" + q, timeout=30) as r:
-            new = (json.loads(r.read().decode()) or {}).get("access_token") or ""
-    except Exception as e:
-        return "refresh failed: " + S.redact(str(e))[:120]
-    if not new:
-        return "refresh returned no token"
-    S.remember(new)
-    import subprocess
-    env = {**os.environ, "GH_TOKEN": os.environ["GH_SECRETS_PAT"]}
-    r = subprocess.run(["gh", "secret", "set", "IG_ACCESS_TOKEN", "--repo", REPO], input=new, text=True,
-                       capture_output=True, env=env, timeout=60)
-    return "refreshed" if r.returncode == 0 else "secret update failed: " + S.redact(r.stderr)[:120]
 
 
 def apply_issue(probs: list[str]) -> str:
@@ -155,7 +128,7 @@ def check(apply: bool) -> dict:
     probs = problems(counts, led, cfgmod.load().get("slots_ist") or [], produce_runs(10), days, yt_token_ok())
     res = {"problems": probs, "stock": counts,
            "ig_token_days_left": None if days is None else round(days, 1),
-           "ig_refresh": refresh_ig_token(days) if apply else "dry"}
+           "ig_refresh": os.environ.get("IG_TOKEN_REFRESH") or "box weekly refresh: no result yet"}
     if apply:
         res["issue"] = apply_issue(probs)
     log("health:", json.dumps(res))

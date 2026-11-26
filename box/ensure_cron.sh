@@ -12,6 +12,8 @@ KICK2='33 11,18,21 * * * /workspace/gta6/vicestyle/box/upload_slot_kick.sh'
 CLEAN='25 4 */2 * * /workspace/gta6/vicestyle/box/cleanup_posted.sh'
 # every 30 min: ask GitHub to run watchdog.yml (auto-produce when stock < 3, health issue)
 WATCH='28,58 * * * * /workspace/gta6/vicestyle/box/watchdog_kick.sh'
+# weekly Sun 03:17 IST: refresh the IG token without app secrets (encrypted handoff, gh secret set via stdin)
+IGTOK='17 3 * * 0 /workspace/gta6/vicestyle/box/ig_token_refresh.sh'
 MARK="vice-cartel-fetch-sources"
 HOOK_LINE='[ -x /workspace/gta6/vicestyle/box/ensure_cron.sh ] && /workspace/gta6/vicestyle/box/ensure_cron.sh >/dev/null 2>&1'
 
@@ -21,6 +23,7 @@ if [ "${1:-}" = "status" ]; then
   crontab -l 2>/dev/null | grep -F "box/upload_slot_kick.sh" || echo "no upload_slot_kick lines"
   crontab -l 2>/dev/null | grep -F "box/cleanup_posted.sh" || echo "no cleanup_posted line"
   crontab -l 2>/dev/null | grep -F "box/watchdog_kick.sh" || echo "no watchdog_kick line"
+  crontab -l 2>/dev/null | grep -F "box/ig_token_refresh.sh" || echo "no ig_token_refresh line"
   exit 0
 fi
 
@@ -45,6 +48,10 @@ fi
 if ! crontab -l 2>/dev/null | grep -qF "box/watchdog_kick.sh"; then
   { crontab -l 2>/dev/null; echo "$WATCH"; } | crontab -
   echo "watchdog kick line added"
+fi
+if ! crontab -l 2>/dev/null | grep -qF "box/ig_token_refresh.sh"; then
+  { crontab -l 2>/dev/null; echo "$IGTOK"; } | crontab -
+  echo "ig token refresh line added"
 fi
 for f in /home/box/.profile /home/box/.bashrc; do
   [ -f "$f" ] || continue
