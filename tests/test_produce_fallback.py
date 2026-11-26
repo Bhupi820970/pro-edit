@@ -106,6 +106,26 @@ class CmdProduceFallbackTests(unittest.TestCase):
             doc = json.loads((Path(td) / "queue" / "needs_manual_pick.json").read_text())
             self.assertEqual(doc["categories"]["gaming"][0]["id"], "abcdefghijk")
 
+    def test_each_finished_video_goes_to_stock_right_away(self):
+        import pipeline as P
+        with tempfile.TemporaryDirectory() as td, \
+                patch.dict(os.environ, {**_env(td), "VICE_ATTACH_EACH_TAG": "vc-ready"}, clear=True):
+            gem = MagicMock()
+            gem.quota_exhausted.return_value = False
+            gem.calls = []
+            src = MagicMock()
+            src.stats = {"thin": []}
+            src.manual_pick_doc.return_value = {"platform": "youtube", "categories": {}}
+            a = SimpleNamespace(platform="youtube", category="gta", max_minutes=0, target=7)
+            with patch.object(P, "produce_one", side_effect=lambda *x: {"id": "v", "category": "gta"}), \
+                    patch("pipeline_lib.gemini.Gemini", return_value=gem), \
+                    patch("pipeline_lib.sourcing.Sourcer", return_value=src), \
+                    patch.object(P, "attach_release") as att, \
+                    patch.object(P, "queue_fetch"), patch("pipeline_lib.cleanup.sweep"):
+                P.cmd_produce(a, count=2)
+            self.assertEqual(att.call_count, 2)
+            self.assertEqual(att.call_args.args[1], "vc-ready")
+
     def test_merge_manual_pick_per_platform(self):
         import pipeline as P
         with tempfile.TemporaryDirectory() as td:

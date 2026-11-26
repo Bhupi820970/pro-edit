@@ -434,6 +434,14 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
             break
         try:
             made.append(produce_one(a.platform, cat, state, gem, sourcer, seed))
+            # put each finished video into stock right away (Actions sets VICE_ATTACH_EACH_TAG), so an
+            # upload slot during a long run already has it; the end-of-run attach step is idempotent
+            each_tag = os.environ.get("VICE_ATTACH_EACH_TAG", "").strip()
+            if each_tag:
+                try:
+                    attach_release(state, each_tag, os.environ.get("GITHUB_REPOSITORY", "Bhupi820970/pro-edit"))
+                except Exception as aex:
+                    log("per-video stock attach failed (end-of-run step retries):", str(aex)[:200])
         except Exception as ex:   # never a failed slot: log and retry with new sources / song / seed
             msg = f"{type(ex).__name__}: {str(ex)[:300]}"
             log("attempt failed, retrying with different sources/song:", msg)
@@ -467,6 +475,47 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
     log(f"done: {len(made)} made, {len(fails)} failed attempts; {a.platform} buffer "
         f"{st['platforms'][a.platform]['ready']}/{st['platforms'][a.platform]['target']} — {st['message']}")
     return 0 if made or (until_target and not more()) else 1
+
+
+def attach_release(s: State, tag: str, repo: str) -> int:
+    """Upload ready, unposted videos (mp4 + preview + sidecar) to the draft release and update its manifest.
+    Idempotent; used per video during a produce run (stock is usable right away) and again at the end."""
+    from pipeline_lib.publish import stock as vc_stock
+    posted = _posted_ids()
+    new = [v for v in s.d["videos"]
+           if v["state"] == "ready" and v["id"] not in posted and Path(v.get("path") or "").exists()]
+    # Stable stock tag: re-attach anything not yet on vc-ready. Test tags only get new files.
+    if tag == vc_stock.STOCK_TAG:
+        new = [v for v in new if f"/download/{tag}/" not in (v.get("release_url") or "")]
+    else:
+        new = [v for v in new if not v.get("release_url")]
+    if new:
+        r = run(["gh", "release", "view", tag, "--repo", repo], check=False)
+        if r.returncode != 0:
+            notes = ("DRAFT: Vice Cartel ready stock (unposted renders). Keep draft so "
+                     "footage stays private. The upload workflow reads from here.")
+            if tag != vc_stock.STOCK_TAG:
+                notes = ("DRAFT: rendered videos waiting for owner approval (not posted anywhere). "
+                         "Keep draft so assets stay private if the repo is public.")
+            title = "Vice Cartel ready stock" if tag == vc_stock.STOCK_TAG else tag
+            run(["gh", "release", "create", tag, "--repo", repo, "--title", title, "--draft", "--notes", notes])
+            time.sleep(2)
+        for v in new:
+            attach_video_assets(tag, repo, v)
+        s.save()
+    if tag == vc_stock.STOCK_TAG:
+        recs = [vc_stock.video_record(v) for v in s.d["videos"]
+                if v["state"] == "ready" and v["id"] not in posted
+                and (f"/download/{tag}/" in (v.get("release_url") or "") or v in new)]
+        dest_dir = Path("/tmp/vc-ready-man")
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        run(["gh", "release", "download", tag, "--repo", repo, "-p", vc_stock.MANIFEST_NAME,
+             "-D", str(dest_dir), "--clobber"], check=False)
+        dest = dest_dir / vc_stock.MANIFEST_NAME
+        man = vc_stock.upsert_manifest(dest, recs)
+        run(["gh", "release", "upload", tag, str(dest), "--repo", repo, "--clobber"], timeout=120, check=False)
+        log(f"vc-ready manifest: {len(man.get('videos') or [])} videos")
+    return len(new)
 
 
 def main(argv=None):
@@ -562,44 +611,8 @@ def main(argv=None):
         write_status(s)
         return 0
     if a.cmd == "attach-release":
-        from pipeline_lib.publish import stock as vc_stock
         s = State()
-        posted = _posted_ids()
-        new = [v for v in s.d["videos"]
-               if v["state"] == "ready" and v["id"] not in posted and Path(v.get("path") or "").exists()]
-        # Stable stock tag: re-attach anything not yet on vc-ready. Test tags only get new files.
-        if a.tag == vc_stock.STOCK_TAG:
-            new = [v for v in new if f"/download/{a.tag}/" not in (v.get("release_url") or "")]
-        else:
-            new = [v for v in new if not v.get("release_url")]
-        if new:
-            r = run(["gh", "release", "view", a.tag, "--repo", a.repo], check=False)
-            if r.returncode != 0:
-                notes = ("DRAFT: Vice Cartel ready stock (unposted renders). Keep draft so "
-                         "footage stays private. The upload workflow reads from here.")
-                if a.tag != vc_stock.STOCK_TAG:
-                    notes = ("DRAFT: rendered videos waiting for owner approval (not posted anywhere). "
-                             "Keep draft so assets stay private if the repo is public.")
-                title = "Vice Cartel ready stock" if a.tag == vc_stock.STOCK_TAG else a.tag
-                run(["gh", "release", "create", a.tag, "--repo", a.repo, "--title", title, "--draft",
-                     "--notes", notes])
-                time.sleep(2)
-            for v in new:
-                attach_video_assets(a.tag, a.repo, v)
-            s.save()
-        if a.tag == vc_stock.STOCK_TAG:
-            recs = [vc_stock.video_record(v) for v in s.d["videos"]
-                    if v["state"] == "ready" and v["id"] not in posted
-                    and (f"/download/{a.tag}/" in (v.get("release_url") or "") or v in new)]
-            dest_dir = Path("/tmp/vc-ready-man")
-            dest_dir.mkdir(parents=True, exist_ok=True)
-            run(["gh", "release", "download", a.tag, "--repo", a.repo, "-p", vc_stock.MANIFEST_NAME,
-                 "-D", str(dest_dir), "--clobber"], check=False)
-            dest = dest_dir / vc_stock.MANIFEST_NAME
-            man = vc_stock.upsert_manifest(dest, recs)
-            run(["gh", "release", "upload", a.tag, str(dest), "--repo", a.repo, "--clobber"],
-                timeout=120, check=False)
-            log(f"vc-ready manifest: {len(man.get('videos') or [])} videos")
+        attach_release(s, a.tag, a.repo)
         write_status(s)
         return 0
     with Lock():

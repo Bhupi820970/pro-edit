@@ -144,6 +144,9 @@ jobs:
           find "$VICE_PIPELINE_HOME/songs" -maxdepth 1 -printf "%f\n" | head -40
 
       - name: Produce
+        env:
+          # production stock only: each video goes to vc-ready as soon as it passes QA (test runs wait for the end)
+          VICE_ATTACH_EACH_TAG: ${{ github.event.inputs.release_tag == '' && 'vc-ready' || '' }}
         run: |
           MODE="${{ github.event.inputs.mode || 'ensure' }}"
           CAT="${{ github.event.inputs.category }}"
