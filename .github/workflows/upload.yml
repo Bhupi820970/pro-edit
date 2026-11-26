@@ -76,7 +76,7 @@ jobs:
        (github.event_name == 'schedule' && vars.SCHEDULE_ENABLED == 'true') ||
        (github.event_name == 'repository_dispatch' && github.event.action == 'upload-slot' && github.actor == github.repository_owner && vars.SCHEDULE_ENABLED == 'true'))
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 20
     permissions:
       contents: write
       actions: write
@@ -161,8 +161,10 @@ jobs:
         if: always()
         run: rm -rf /tmp/vc-stock /tmp/vc-xfer
 
-      - name: Warn and refill if stock is under 3
+      - name: Refill stock if under 3 (auto-produce; never stacks, respects Gemini quota + cooldown)
         if: always() && steps.up.outputs.low_stock == 'true' && github.event.inputs.dry_run != 'true'
+        timeout-minutes: 3
+        continue-on-error: true
         run: |
-          echo "::warning::Ready stock is under 3 (YouTube ${{ steps.up.outputs.stock_youtube }}, Instagram ${{ steps.up.outputs.stock_instagram }}). Triggering produce.yml to refill."
-          timeout 30 gh workflow run produce.yml --repo "$GITHUB_REPOSITORY" -f platform=both -f mode=ensure
+          echo "::warning::Ready stock is under 3 (YouTube ${{ steps.up.outputs.stock_youtube }}, Instagram ${{ steps.up.outputs.stock_instagram }})."
+          python -m pipeline_lib.autoproduce check --dispatch

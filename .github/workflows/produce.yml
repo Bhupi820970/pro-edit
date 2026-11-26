@@ -1,4 +1,5 @@
 name: produce-videos
+run-name: ${{ github.event.inputs.auto == 'true' && 'produce (auto buffer refill)' || format('produce-videos ({0})', github.event_name) }}
 
 on:
   schedule:
@@ -12,12 +13,18 @@ on:
       category: {description: "force a category for every platform (gta, gaming, movie, series, sports, romance) or empty", default: "", required: false}
       youtube_category: {description: "optional category override for the youtube job only", default: "", required: false}
       instagram_category: {description: "optional category override for the instagram job only", default: "", required: false}
-      max_minutes: {description: "time budget per platform job", default: "320", required: false}
+      max_minutes: {description: "time budget per platform job (job timeout is 150 min)", default: "110", required: false}
+      auto: {description: "set by the watchdog: buffer refill, count per platform from current stock", default: "false", required: false}
       release_tag: {description: "TEST runs: draft release tag for the mp4s (e.g. test-renders); empty = vc-ready (production stock). The upload workflow, not this one, posts to YouTube/Instagram.", default: "", required: false}
 
 # Triggers are schedule + workflow_dispatch only (no pull_request / pull_request_target), so code from
 # forks or PRs never runs with these secrets. Fork PRs cannot receive repository secrets.
 permissions: {}
+
+# auto refills share one group, so two auto-produce runs never stack (manual / scheduled runs are unaffected)
+concurrency:
+  group: ${{ github.event.inputs.auto == 'true' && 'produce-auto' || format('produce-run-{0}', github.run_id) }}
+  cancel-in-progress: false
 
 jobs:
   plan:
@@ -28,6 +35,7 @@ jobs:
         (github.actor == github.repository_owner || github.actor == 'github-actions[bot]')) ||
        (github.event_name == 'schedule' && vars.SCHEDULE_ENABLED == 'true'))
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions: {}
     outputs:
       platforms: ${{ steps.p.outputs.platforms }}
@@ -37,14 +45,14 @@ jobs:
           P="${{ github.event.inputs.platform || 'both' }}"
           case "$P" in
             youtube|instagram) echo "platforms=[\"$P\"]" >> "$GITHUB_OUTPUT" ;;
-            both) echo 'platforms=["youtube","instagram"]' >> "$GITHUB_OUTPUT" ;;
+            both) echo 'platforms=["instagram","youtube"]' >> "$GITHUB_OUTPUT" ;;   # Instagram first (priority)
             *) echo "invalid platform: $P" >&2; exit 1 ;;
           esac
 
   produce:
     needs: plan
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 150   # nothing hangs for hours; produce stops at max_minutes (110) and saves state
     permissions:
       contents: write   # draft releases + pipeline-state branch
       actions: write    # upload artifacts
@@ -120,11 +128,15 @@ jobs:
           restore-keys: ph-${{ matrix.platform }}-
 
       - name: Restore pipeline state (branch pipeline-state)
+        timeout-minutes: 40
         run: |
+          retry() { for i in 1 2 3; do "$@" && return 0; sleep $((4 * i * i)); done; return 1; }
           mkdir -p "$VICE_PIPELINE_HOME"
           if git ls-remote --exit-code --heads "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" pipeline-state > /dev/null; then
             git fetch -q "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" pipeline-state
             git show "FETCH_HEAD:${{ matrix.platform }}/state.json" > "$VICE_PIPELINE_HOME/state.json" 2>/dev/null || rm -f "$VICE_PIPELINE_HOME/state.json"
+            # per key+model Gemini cool-downs / invalid keys (labels + timestamps only, no keys)
+            git show "FETCH_HEAD:${{ matrix.platform }}/gemini_quota.json" > "$VICE_PIPELINE_HOME/gemini_quota.json" 2>/dev/null || rm -f "$VICE_PIPELINE_HOME/gemini_quota.json"
             # manual picks (plain JSON data, used only while Gemini is out of quota; see queue/needs_manual_pick.json)
             mkdir -p "$VICE_PIPELINE_HOME/queue"
             git show "FETCH_HEAD:queue/manual_picks.json" > "$VICE_PIPELINE_HOME/queue/manual_picks.json" 2>/dev/null || rm -f "$VICE_PIPELINE_HOME/queue/manual_picks.json"
@@ -134,30 +146,38 @@ jobs:
           mkdir -p "$VICE_PIPELINE_HOME/sources"
           # Selective pull (pool is ~40 clips per category): Gemini-rejected clips are never pulled,
           # accepted first, then newest unvetted, up to 20 GB.
-          gh release download sources --pattern manifest.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
+          retry gh release download sources --pattern manifest.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
           timeout 1500 python pipeline.py pull-sources --max-gb 20 || true
-          gh release download sources --pattern box_heartbeat.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
+          retry gh release download sources --pattern box_heartbeat.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
           find "$VICE_PIPELINE_HOME/sources" -maxdepth 1 -printf "%f\n" | head -30
           # official audio the box fetched (box_fetch.py -> DRAFT release "songs"); runner uses these first
           mkdir -p "$VICE_PIPELINE_HOME/songs"
-          gh release download songs --dir "$VICE_PIPELINE_HOME/songs" --skip-existing 2>/dev/null || true
-          gh release download songs --pattern manifest.json --dir "$VICE_PIPELINE_HOME/songs" --clobber 2>/dev/null || true
+          retry gh release download songs --dir "$VICE_PIPELINE_HOME/songs" --skip-existing 2>/dev/null || true
+          retry gh release download songs --pattern manifest.json --dir "$VICE_PIPELINE_HOME/songs" --clobber 2>/dev/null || true
           find "$VICE_PIPELINE_HOME/songs" -maxdepth 1 -printf "%f\n" | head -40
 
       - name: Produce
+        timeout-minutes: 120
         env:
           # production stock only: each video goes to vc-ready as soon as it passes QA (test runs wait for the end)
           VICE_ATTACH_EACH_TAG: ${{ github.event.inputs.release_tag == '' && 'vc-ready' || '' }}
         run: |
           MODE="${{ github.event.inputs.mode || 'ensure' }}"
+          COUNT="${{ github.event.inputs.count || '1' }}"
+          if [ "${{ github.event.inputs.auto }}" = "true" ]; then
+            # buffer refill: 3-4 videos, Instagram the bigger batch; 0 = this platform is already full
+            COUNT="$(python -m pipeline_lib.autoproduce count --platform "${{ matrix.platform }}" || echo 3)"
+            echo "auto refill: $COUNT video(s) for ${{ matrix.platform }}"
+            if [ "$COUNT" = "0" ]; then exit 0; fi
+          fi
           CAT="${{ github.event.inputs.category }}"
           YCAT="${{ github.event.inputs.youtube_category }}"
           ICAT="${{ github.event.inputs.instagram_category }}"
           if [ "${{ matrix.platform }}" = "youtube" ] && [ -n "$YCAT" ]; then CAT="$YCAT"; fi
           if [ "${{ matrix.platform }}" = "instagram" ] && [ -n "$ICAT" ]; then CAT="$ICAT"; fi
-          ARGS=(--platform "${{ matrix.platform }}" --max-minutes "${{ github.event.inputs.max_minutes || '320' }}")
+          ARGS=(--platform "${{ matrix.platform }}" --max-minutes "${{ github.event.inputs.max_minutes || '110' }}")
           [ -n "$CAT" ] && ARGS+=(--category "$CAT")
-          if [ "$MODE" = "produce" ]; then python pipeline.py produce "${ARGS[@]}" --count "${{ github.event.inputs.count || '1' }}";
+          if [ "$MODE" = "produce" ]; then python pipeline.py produce "${ARGS[@]}" --count "$COUNT";
           else python pipeline.py ensure "${ARGS[@]}"; fi
 
       - name: Add songs this run fetched (Gemini requests) to the genre song stock
@@ -204,6 +224,7 @@ jobs:
             cp "$VICE_PIPELINE_HOME/state.json" "$P/" 2>/dev/null || true
             cp "$VICE_PIPELINE_HOME/status.json" "$P/" 2>/dev/null || true
             cp "$VICE_PIPELINE_HOME/fetch_queue.json" "$P/" 2>/dev/null || true
+            cp "$VICE_PIPELINE_HOME/gemini_quota.json" "$P/" 2>/dev/null || true
             if [ -f "$VICE_PIPELINE_HOME/queue/needs_manual_pick.json" ]; then
               mkdir -p queue
               python "$GITHUB_WORKSPACE/pipeline.py" merge-manual-pick --inputs "$VICE_PIPELINE_HOME/queue/needs_manual_pick.json" --out queue/needs_manual_pick.json || true

@@ -189,6 +189,33 @@ def free_gb(path: Path) -> float:
     return st.f_bavail * st.f_frsize / 1e9
 
 
+def prune_used_clips(directory: Path, min_free_gb: float) -> int:
+    """Disk under min_free_gb: delete the OLDEST clips in this fetcher's own cache whose source id is in
+    the used-clips ledger (already in a posted video), until there is room again. Only media files at
+    the top of `directory` (and its clips/ folder); never backups, renders or anything elsewhere."""
+    if free_gb(directory) >= min_free_gb:
+        return 0
+    try:
+        from pipeline_lib.used_clips import used_ids
+        used = set(used_ids())
+    except Exception:
+        return 0
+    files = []
+    for d in (directory, directory / "clips"):
+        if d.is_dir():
+            files += [f for f in d.iterdir() if f.is_file() and not f.is_symlink()
+                      and f.suffix.lower() in MEDIA_EXT and f.stem.split(".")[0] in used]
+    n = 0
+    for f in sorted(files, key=lambda f: f.stat().st_mtime):
+        if free_gb(directory) >= min_free_gb:
+            break
+        f.unlink(missing_ok=True)
+        n += 1
+    if n:
+        log(f"disk: freed space by deleting {n} oldest USED clip(s) from the box cache")
+    return n
+
+
 def prune_own_media(directory: Path, older_than_s: float) -> int:
     """Delete ONLY this fetcher's own leftover downloads (top level of its run dir, video/partial files).
     Clips are uploaded to the release and removed right after, so anything left here is a crashed/partial
@@ -491,6 +518,7 @@ class Box:
             if free_gb(self.dir) < min_free:
                 flush()
                 prune_own_media(self.dir, 3600)
+                prune_used_clips(self.dir, min_free)
                 if free_gb(self.dir) < min_free:
                     log(f"disk guard: only {free_gb(self.dir):.1f} GB free (< {min_free:g}) -> stop downloading")
                     self.disk_low = True
@@ -704,6 +732,7 @@ class Box:
         n = prune_own_media(self.dir, 6 * 3600)
         if n:
             log(f"disk: removed {n} stale partial/leftover download(s) from {self.dir}")
+        prune_used_clips(self.dir, float(os.environ.get("BOX_FETCH_MIN_FREE_GB", "10") or 10))
         log(f"disk: {free_gb(self.dir):.1f} GB free on {self.dir} (stop below "
             f"{os.environ.get('BOX_FETCH_MIN_FREE_GB', '10')} GB)")
         for r in self.queue():
