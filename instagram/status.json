@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T17:16:04.540061+05:30",
+ "updated": "2026-11-26T18:45:14.523608+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (2/7 ready)",
@@ -19,7 +19,7 @@
    "ready": 2,
    "target": 7,
    "warning": true,
-   "produced_today": 27,
+   "produced_today": 32,
    "per_day": [
     6,
     7
@@ -288,42 +288,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-26T14:47:09.129876+05:30",
-   "platform": "instagram",
-   "category": "romance",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"IT\", \"AS FAR AS\", \"THEY'RE CONCERNED\", \"YOUR MISTAKE\", \"IS JUST\"]}}"
-  },
-  {
-   "at": "2026-11-26T14:59:13.020965+05:30",
-   "platform": "instagram",
-   "category": "romance",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"IT'S ALL YOU\", \"TALKING ABOUT\", \"HIM MY LETTER?\"]}}"
-  },
-  {
-   "at": "2026-11-26T15:11:49.871229+05:30",
-   "platform": "instagram",
-   "category": "movie",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"IT\", \"AS FAR AS\", \"THEY'RE CONCERNED\", \"YOUR MISTAKE\", \"IS JUST\"]}}"
-  },
-  {
-   "at": "2026-11-26T15:18:20.757651+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 16.13}}"
-  },
-  {
-   "at": "2026-11-26T15:30:34.110503+05:30",
-   "platform": "instagram",
-   "category": "movie",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"THEY'RE ON THE\", \"HIGHER YOU RISE\", \"WHAT DO YOU\", \"THINK?\", \"HIM MY LETTER?\"]}}"
-  },
-  {
-   "at": "2026-11-26T15:55:51.644643+05:30",
-   "platform": "instagram",
-   "category": "movie",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"REALLY STRONG YEARS\", \"SINCE THEN\", \"AND HAVE YOU\", \"ALL READ THIS?\", \"WELL\"]}}"
-  },
-  {
    "at": "2026-11-26T16:08:20.003379+05:30",
    "platform": "instagram",
    "category": "movie",
@@ -376,6 +340,42 @@
    "platform": "instagram",
    "category": "sports",
    "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T17:40:23.640545+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\", \"OF THE DUGGINS?\", \"OIL AND GAS\", \"PEOPLE MAKING SOME\"]}}"
+  },
+  {
+   "at": "2026-11-26T17:55:41.925191+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
+  },
+  {
+   "at": "2026-11-26T18:10:32.527546+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
+  },
+  {
+   "at": "2026-11-26T18:12:07.039022+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T18:26:08.079423+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
+  },
+  {
+   "at": "2026-11-26T18:40:47.205794+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
   }
  ],
  "pattern_history": [
@@ -418,7 +418,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-26T13:55:54.566444+05:30",
-  "age_hours": 3.3,
+  "age_hours": 4.8,
   "healthy": true,
   "pool": {
    "gta": 10,

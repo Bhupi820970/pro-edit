@@ -1,67 +1,122 @@
-[2026-11-26 17:09:54 IST] === in-sports-20261126-170954: platform=instagram category=sports format=shorts seed=176489398
-[2026-11-26 17:10:43 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 17:10:44 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 17:10:46 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 17:10:56 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 17:10:56 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 17:10:58 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 3dWqAyPielA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 17:11:08 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 3dWqAyPielA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 17:11:08 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 17:11:10 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 17:11:20 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 17:11:20 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 17:11:22 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] DIc8gkrzjzQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 17:11:32 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] DIc8gkrzjzQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 17:11:32 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 17:11:32 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
-[2026-11-26 17:11:32 IST] gemini key1/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:32 IST] gemini: key1 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:32 IST] gemini key2/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:32 IST] gemini: key2 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:33 IST] gemini key3/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:33 IST] gemini: key3 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:33 IST] gemini key4/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:33 IST] gemini: key4 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:33 IST] gemini key5/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:33 IST] gemini: key5 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:33 IST] gemini key6/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:33 IST] gemini: key6 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:33 IST] gemini key7/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:33 IST] gemini: key7 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:34 IST] gemini key8/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:34 IST] gemini: key8 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:34 IST] gemini key9/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:34 IST] gemini: key9 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:34 IST] gemini key10/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:34 IST] gemini: key10 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:34 IST] gemini key11/gemini-3.5-flash-lite: HTTP 401 API key not valid. Please pass a valid API key.
-[2026-11-26 17:11:34 IST] gemini: key11 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:34 IST] gemini key12/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:34 IST] gemini: key12 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:34 IST] gemini key13/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 17:11:34 IST] gemini: key13 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 17:11:34 IST] gemini discovery failed: all Gemini keys/models failed: key8/gemini-3.5-flash-lite: 429 You exceeded your current quota, please check your plan and billing details. For more information on | key9/gemini-3.5-flash-lite: 429 Yo
-[2026-11-26 17:11:34 IST] content thin for sports (0/3) -> fallback search (15 candidates)
-[2026-11-26 17:11:34 IST] sports: no candidate names a star player (fallback)
-[2026-11-26 17:11:34 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single star player for sports
-[2026-11-26 17:11:34 IST] category sports: no usable sources -> fallback to gta
-[2026-11-26 17:11:34 IST] === in-gta-20261126-171134: platform=instagram category=gta format=shorts seed=249504537
-[2026-11-26 17:11:50 IST] vet error (will retry next run): htg1EZE3LVk skip new vet for htg1EZE3LVk: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] vet error (will retry next run): R3HS6owS3P8 skip new vet for R3HS6owS3P8: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] vet error (will retry next run): T3ZaWDcPiIo skip new vet for T3ZaWDcPiIo: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] vet error (will retry next run): tJbzMqJGH4k skip new vet for tJbzMqJGH4k: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] vet error (will retry next run): ewAODca-3Bw skip new vet for ewAODca-3Bw: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] vet error (will retry next run): P3NBd3UjH5Y skip new vet for P3NBd3UjH5Y: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] vet error (will retry next run): _SgqsxXk8_E skip new vet for _SgqsxXk8_E: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] vet error (will retry next run): 1xlr3-hK5rY skip new vet for 1xlr3-hK5rY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:11:50 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 17:11:50 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 17:11:50 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 17:11:50 IST] using genre stock song: Self Control - Laura Branigan
-[2026-11-26 17:11:50 IST] song: Self Control – Laura Branigan ()
-[2026-11-26 17:11:50 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 17:15:59 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 16
-[2026-11-26 17:16:04 IST] vc-ready manifest: 9 videos
+[2026-11-26 17:20:36 IST] pull-sources: +71 clips, 8 accepted / 63 unvetted listed, 9.6 GB local
+[2026-11-26 17:20:42 IST] === in-gta-20261126-172042: platform=instagram category=gta format=shorts seed=959042842
+[2026-11-26 17:21:04 IST] vet ACCEPT [P3NBd3UjH5Y] The Criminal Enterprises, Coming July 26 to GTA Online — action-packed criminal underworld
+[2026-11-26 17:21:11 IST] vet REJECT [tJbzMqJGH4k] Grand Theft Auto VI: An Extended Look — Trailer or promo content with HUD elements and multiple distinct scene cuts that violate full scene criteria; flag:hud_overlay; not editable
+[2026-11-26 17:21:16 IST] vet ACCEPT [HqZXw5M6qQY] Grand Theft Auto V: Michael — gritty cinematic crime drama
+[2026-11-26 17:21:20 IST] vet ACCEPT [T3ZaWDcPiIo] GTA Online: Agents of Sabotage Coming December 10 — action-packed criminal underworld heist
+[2026-11-26 17:21:26 IST] vet ACCEPT [R3HS6owS3P8] GTA Online: The Cluckin’ Bell Farm Raid Now Available — tense crime action heist
+[2026-11-26 17:21:31 IST] vet ACCEPT [_SgqsxXk8_E] GTA Online: Bottom Dollar Bounties Out Now — gritty criminal underground bounty action
+[2026-11-26 17:21:35 IST] vet ACCEPT [htg1EZE3LVk] The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online — tense criminal action heist
+[2026-11-26 17:21:35 IST] gemini key8/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:35 IST] gemini: key8 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:35 IST] gemini key9/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:35 IST] gemini: key9 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:36 IST] gemini key10/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:36 IST] gemini: key10 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:36 IST] gemini key11/gemini-3.5-flash-lite: HTTP 401 API key not valid. Please pass a valid API key.
+[2026-11-26 17:21:36 IST] gemini: key11 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:36 IST] gemini key12/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:36 IST] gemini: key12 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:36 IST] gemini key13/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:36 IST] gemini: key13 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:36 IST] gemini key1/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:36 IST] gemini: key1 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:36 IST] gemini key2/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:36 IST] gemini: key2 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:36 IST] gemini key3/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:36 IST] gemini: key3 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:36 IST] gemini key4/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:36 IST] gemini: key4 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:36 IST] gemini key5/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:36 IST] gemini: key5 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:36 IST] gemini key6/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:36 IST] gemini: key6 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:37 IST] gemini key7/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:21:37 IST] gemini: key7 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:21:37 IST] gemini discovery failed: all Gemini keys/models failed: key2/gemini-3.5-flash-lite: 429 You exceeded your current quota, please check your plan and billing details. For more information on | key3/gemini-3.5-flash-lite: 429 Yo
+[2026-11-26 17:21:37 IST] song stock for gta: 30 tagged songs with audio
+[2026-11-26 17:21:37 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-26 17:21:37 IST] using genre stock song: Out of Touch - Daryl Hall & John Oates
+[2026-11-26 17:21:37 IST] song: Out of Touch – Daryl Hall & John Oates ()
+[2026-11-26 17:21:37 IST] caption pattern: P06 Close + nudge to centre
+[2026-11-26 17:25:27 IST] plan 38.8s, 38 shots -> render
+[2026-11-26 17:40:23 IST] === in-gta-20261126-172042: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-172042.mp4
+[2026-11-26 17:40:23 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["YOU EVER HEARD", "OF THE DUGGINS?", "OIL AND GAS", "PEOPLE MAKING SOME"]}}
+[2026-11-26 17:40:23 IST] attempt 1 FAIL in 1181s: gather=54s, song=0s, beats=10s, scan_plan=220s, render=612s, gemini_meta=0s, shorts_9x16=216s, qa=12s, preview=57s, save=0s
+[2026-11-26 17:40:23 IST] === in-gta-20261126-174023: platform=instagram category=gta format=shorts seed=736437604
+[2026-11-26 17:40:38 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-26 17:40:38 IST] song stock for gta: 30 tagged songs with audio
+[2026-11-26 17:40:38 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-26 17:40:38 IST] using genre stock song: Don't You Want Me - The Human League
+[2026-11-26 17:40:38 IST] song: Don't You Want Me – The Human League (https://soundcloud.com/user-180738321/dont-you-want-me-1)
+[2026-11-26 17:40:38 IST] caption pattern: P05 Stepping up beside
+[2026-11-26 17:40:49 IST] plan 38.5s, 38 shots -> render
+[2026-11-26 17:55:41 IST] === in-gta-20261126-174023: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-174023.mp4
+[2026-11-26 17:55:41 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["YOU EVER HEARD"]}}
+[2026-11-26 17:55:41 IST] attempt 2 FAIL in 918s: gather=15s, song=0s, beats=1s, scan_plan=10s, render=608s, gemini_meta=0s, shorts_9x16=217s, qa=11s, preview=58s, save=0s
+[2026-11-26 17:55:41 IST] === in-gta-20261126-175541: platform=instagram category=gta format=shorts seed=373974310
+[2026-11-26 17:55:55 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-26 17:55:55 IST] song stock for gta: 30 tagged songs with audio
+[2026-11-26 17:55:55 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-26 17:55:56 IST] using genre stock song: Hypnotize - The Notorious B.I.G.
+[2026-11-26 17:55:56 IST] song: Hypnotize – The Notorious B.I.G. ()
+[2026-11-26 17:55:56 IST] caption pattern: P05 Stepping up beside
+[2026-11-26 17:56:08 IST] plan 38.5s, 31 shots -> render
+[2026-11-26 18:10:32 IST] === in-gta-20261126-175541: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-175541.mp4
+[2026-11-26 18:10:32 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["YOU EVER HEARD"]}}
+[2026-11-26 18:10:32 IST] attempt 3 FAIL in 891s: gather=14s, song=0s, beats=1s, scan_plan=12s, render=579s, gemini_meta=0s, shorts_9x16=216s, qa=11s, preview=57s, save=0s
+[2026-11-26 18:10:32 IST] === in-sports-20261126-181032: platform=instagram category=sports format=shorts seed=538246686
+[2026-11-26 18:11:18 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-26 18:11:19 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-26 18:11:21 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 18:11:31 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] -9lP95Qo-I0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 18:11:31 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 18:11:33 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 18:11:43 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] XIW8e7Xi_l8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 18:11:43 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 18:11:45 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 18:11:55 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 18:11:55 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 18:11:55 IST] pre-vet error (will retry next run): -_fUNJPR5x8 skip pre-vet for -_fUNJPR5x8: all Gemini keys quota-exhausted
+[2026-11-26 18:11:57 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] IS0S2rOFnFQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 18:12:07 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] IS0S2rOFnFQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 18:12:07 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 18:12:07 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
+[2026-11-26 18:12:07 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-26 18:12:07 IST] content thin for sports (0/3) -> fallback search (11 candidates)
+[2026-11-26 18:12:07 IST] sports: no candidate names a star player (fallback)
+[2026-11-26 18:12:07 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single star player for sports
+[2026-11-26 18:12:07 IST] category sports: no usable sources -> fallback to gta
+[2026-11-26 18:12:07 IST] attempt 4 FAIL in 94s: gather=94s
+[2026-11-26 18:12:07 IST] === in-gta-20261126-181207: platform=instagram category=gta format=shorts seed=6461282
+[2026-11-26 18:12:20 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-26 18:12:20 IST] song stock for gta: 30 tagged songs with audio
+[2026-11-26 18:12:20 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-26 18:12:21 IST] using genre stock song: Easy Lover - Philip Bailey & Phil Collins
+[2026-11-26 18:12:21 IST] song: Easy Lover – Philip Bailey & Phil Collins ()
+[2026-11-26 18:12:21 IST] caption pattern: P05 Stepping up beside
+[2026-11-26 18:12:30 IST] plan 38.6s, 20 shots -> render
+[2026-11-26 18:26:08 IST] === in-gta-20261126-181207: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-181207.mp4
+[2026-11-26 18:26:08 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["YOU EVER HEARD"]}}
+[2026-11-26 18:26:08 IST] attempt 5 FAIL in 841s: gather=14s, song=0s, beats=1s, scan_plan=9s, render=536s, gemini_meta=0s, shorts_9x16=213s, qa=11s, preview=56s, save=0s
+[2026-11-26 18:26:08 IST] === in-gta-20261126-182608: platform=instagram category=gta format=shorts seed=254184815
+[2026-11-26 18:26:21 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-26 18:26:21 IST] song stock for gta: 30 tagged songs with audio
+[2026-11-26 18:26:21 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-26 18:26:22 IST] using genre stock song: Blinding Lights - The Weeknd
+[2026-11-26 18:26:22 IST] song: Blinding Lights – The Weeknd ()
+[2026-11-26 18:26:22 IST] caption pattern: P05 Stepping up beside
+[2026-11-26 18:26:35 IST] plan 38.5s, 29 shots -> render
+[2026-11-26 18:40:47 IST] === in-gta-20261126-182608: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-182608.mp4
+[2026-11-26 18:40:47 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["YOU EVER HEARD"]}}
+[2026-11-26 18:40:47 IST] attempt 6 FAIL in 879s: gather=14s, song=0s, beats=0s, scan_plan=13s, render=568s, gemini_meta=0s, shorts_9x16=215s, qa=11s, preview=57s, save=0s
+[2026-11-26 18:40:47 IST] === in-gta-20261126-184047: platform=instagram category=gta format=shorts seed=624072886
+[2026-11-26 18:41:01 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-26 18:41:01 IST] song stock for gta: 30 tagged songs with audio
+[2026-11-26 18:41:01 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-26 18:41:02 IST] using genre stock song: Still D.R.E. - Dr. Dre
+[2026-11-26 18:41:02 IST] song: Still D.R.E. – Dr. Dre (https://soundcloud.com/user-717462432/dr-dre-still-d-r-e-ft-snoop)
+[2026-11-26 18:41:02 IST] caption pattern: P07 Far beside
+[2026-11-26 18:41:15 IST] plan 38.5s, 31 shots -> render
+[2026-11-26 18:45:11 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 27
+[2026-11-26 18:45:14 IST] vc-ready manifest: 14 videos
