@@ -4583,6 +4583,25 @@
    "via": "youtube-search",
    "category": "gaming",
    "at": "2026-11-25 21:29"
+  },
+  "bnf05EJsnFM": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation logo in the top-left corner",
+    "Marvel copyright text in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Marvel's Spider-Man 2 - Expanded Marvel's New York | PS5 Games",
+   "channel": "Marvel Entertainment",
+   "credit": "Marvel Entertainment",
+   "url": "https://www.youtube.com/watch?v=bnf05EJsnFM",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-26 00:07"
   }
  },
  "videos": [
@@ -6133,969 +6152,7 @@
   }
  ],
  "listing_cache": {
-  "https://www.youtube.com/@RockstarGames/videos|2026-11-25": [
-   {
-    "id": "_yl5ELcmugI",
-    "title": "Grand Theft Auto VI: Out Now",
-    "duration": 30,
-    "url": "https://www.youtube.com/watch?v=_yl5ELcmugI",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "rz1B4B2yBZY",
-    "title": "Grand Theft Auto VI Launch Trailer",
-    "duration": 91,
-    "url": "https://www.youtube.com/watch?v=rz1B4B2yBZY",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "tJbzMqJGH4k",
-    "title": "Grand Theft Auto VI: An Extended Look",
-    "duration": 1609,
-    "url": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "qq76pQsI1iw",
-    "title": "Grand Theft Auto VI: An Extended Look Coming August 27",
-    "duration": 26,
-    "url": "https://www.youtube.com/watch?v=qq76pQsI1iw",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "vK_IL6V17Js",
-    "title": "GTA Online: The Kortz Center Heist Now Available",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=vK_IL6V17Js",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "EiQEBYDox_k",
-    "title": "Grand Theft Auto VI: Official Cover Art Reveal",
-    "duration": 33,
-    "url": "https://www.youtube.com/watch?v=EiQEBYDox_k",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "gxfMjFuJD7s",
-    "title": "LD Organics Presents: The 420 Event in GTA Online",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=gxfMjFuJD7s",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "T7aaNEW7zA0",
-    "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "n2EtF9sKW6w",
-    "title": "New Deadline Duet Mode in GTA Online",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=n2EtF9sKW6w",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "c7g4IRJXLSo",
-    "title": "Celebrate the Holidays in GTA Online",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=c7g4IRJXLSo",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "PrOfeyc0XRU",
-    "title": "The Futuristic New Progen Luiva Supercar Arrives in GTA Online",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=PrOfeyc0XRU",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "45--ZVLkmks",
-    "title": "GTA Online: A Safehouse in the Hills Now Available",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=45--ZVLkmks",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "APJ-lT0sBhg",
-    "title": "GTA Online: A Safehouse in the Hills Coming December 10",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "tqLMoW7oEbA",
-    "title": "Red Dead Redemption: Out Now on Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
-    "duration": 62,
-    "url": "https://www.youtube.com/watch?v=tqLMoW7oEbA",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "taD8vci4fGI",
-    "title": "GTA Online: A Safehouse in the Hills Coming This December",
-    "duration": 17,
-    "url": "https://www.youtube.com/watch?v=taD8vci4fGI",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "SlkizyzZ8k4",
-    "title": "Red Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
-    "duration": 62,
-    "url": "https://www.youtube.com/watch?v=SlkizyzZ8k4",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "GbuCIrZSPDk",
-    "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "4Pcg9NVGMxg",
-    "title": "Red Dead Online: Strange Tales of the West",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=4Pcg9NVGMxg",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "GJAs5sjujHg",
-    "title": "GTA Online: Money Fronts Now Available",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=GJAs5sjujHg",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "VQRLujxTm3c",
-    "title": "Grand Theft Auto VI Trailer 2",
-    "duration": 167,
-    "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "dtJj0So2yq4",
-    "title": "Experience the Best Version of GTAV and GTA Online on PC with GTAV Enhanced",
-    "duration": 41,
-    "url": "https://www.youtube.com/watch?v=dtJj0So2yq4",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "VrJZmOerpCE",
-    "title": "GTA Online: Oscar Guzman Flies Again Now Available",
-    "duration": 23,
-    "url": "https://www.youtube.com/watch?v=VrJZmOerpCE",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "exoS8ZitDGE",
-    "title": "Three New Drift Races Now in GTA Online",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=exoS8ZitDGE",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "iWrJLsLICI0",
-    "title": "Celebrate Lunar New Year in GTA Online",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=iWrJLsLICI0",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "s5Ym4EuvinU",
-    "title": "Happy Holidays from GTA Online",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=s5Ym4EuvinU",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "YW9VXUgoG6w",
-    "title": "GTA Online: Agents of Sabotage Now Available",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "T3ZaWDcPiIo",
-    "title": "GTA Online: Agents of Sabotage Coming December 10",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "LrUQojs0pGI",
-    "title": "Red Dead Redemption and Undead Nightmare Now on PC",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=LrUQojs0pGI",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "XDX66qVWCXs",
-    "title": "New GTA Online Ludendorff Cemetery Survival",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=XDX66qVWCXs",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "mnvc6uC6xZE",
-    "title": "Red Dead Redemption and Undead Nightmare Coming to PC October 29",
-    "duration": 62,
-    "url": "https://www.youtube.com/watch?v=mnvc6uC6xZE",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "8sGLMQMla8o",
-    "title": "Battle it Out in GTA Online's New Assault on ATT-16 Mode",
-    "duration": 15,
-    "url": "https://www.youtube.com/watch?v=8sGLMQMla8o",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "nWUj1my-rsU",
-    "title": "Dish Out Pies in New GTA Online Pizza Deliveries",
-    "duration": 16,
-    "url": "https://www.youtube.com/watch?v=nWUj1my-rsU",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "McGnGYu_H8I",
-    "title": "Paint the Town Red, White, and Blue With GTA Online Independence Day Bonuses",
-    "duration": 15,
-    "url": "https://www.youtube.com/watch?v=McGnGYu_H8I",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "_SgqsxXk8_E",
-    "title": "GTA Online: Bottom Dollar Bounties Out Now",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "ewAODca-3Bw",
-    "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=ewAODca-3Bw",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "4ki_how7P18",
-    "title": "Benefactor Takes Over the GTA Online Auto Scene",
-    "duration": 22,
-    "url": "https://www.youtube.com/watch?v=4ki_how7P18",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "TeoLfV5jBpQ",
-    "title": "Bask in Luxury With This Week’s GTA Online Dewbauchee Showcase",
-    "duration": 24,
-    "url": "https://www.youtube.com/watch?v=TeoLfV5jBpQ",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "R3HS6owS3P8",
-    "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=R3HS6owS3P8",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "htg1EZE3LVk",
-    "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=htg1EZE3LVk",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "eXDB3XQyKDc",
-    "title": "Celebrate Lunar New Year in GTA Online",
-    "duration": 16,
-    "url": "https://www.youtube.com/watch?v=eXDB3XQyKDc",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "WcISFR43Jt4",
-    "title": "Speed to Victory in New GTA Online Drag Races",
-    "duration": 16,
-    "url": "https://www.youtube.com/watch?v=WcISFR43Jt4",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "Sp1wvWZ_2MQ",
-    "title": "GTA Online: The Chop Shop Now Available",
-    "duration": 30,
-    "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "QdBZY2fkU-0",
-    "title": "Grand Theft Auto VI Trailer 1",
-    "duration": 91,
-    "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "X_9LogvOu7M",
-    "title": "Halloween in GTA Online",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=X_9LogvOu7M",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "MSpnhyTj7WI",
-    "title": "Celebrate Ten Years of Grand Theft Auto V",
-    "duration": 16,
-    "url": "https://www.youtube.com/watch?v=MSpnhyTj7WI",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "KlylKoFgl80",
-    "title": "Red Dead Redemption and Undead Nightmare Now on Nintendo Switch and PS4",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=KlylKoFgl80",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "t5Nwgd_T1-4",
-    "title": "Red Dead Redemption and Undead Nightmare Coming to Switch and PS4",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=t5Nwgd_T1-4",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "QGSF_8PQc5c",
-    "title": "GTA Online: The Mammoth Avenger",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=QGSF_8PQc5c",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "YlY9n7iM-5Q",
-    "title": "GTA Online: San Andreas Mercenaries Now Available",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "S1H8naXp8bE",
-    "title": "The Vinewood Car Club",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=S1H8naXp8bE",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "IIm_pxD8Csk",
-    "title": "GTA Online: San Andreas Mercenaries Coming June 13",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=IIm_pxD8Csk",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "_kQ-v-yn8CM",
-    "title": "Los Santos Drug Wars: The Last Dose Out Now",
-    "duration": 15,
-    "url": "https://www.youtube.com/watch?v=_kQ-v-yn8CM",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "S0Q-Pbr2WP0",
-    "title": "Los Santos Drug Wars: The Last Dose Coming March 16",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=S0Q-Pbr2WP0",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "0hzHIC_YdI4",
-    "title": "GTA Online: The New Eclipse Blvd Garage",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=0hzHIC_YdI4",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "4PbJz21gVr8",
-    "title": "Discover the New Gun Van and Bolster Your Arsenal in GTA Online",
-    "duration": 15,
-    "url": "https://www.youtube.com/watch?v=4PbJz21gVr8",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "_Xy-lF4DdMQ",
-    "title": "Expand Your Mind with GTA Online: Los Santos Drug Wars, Now Available",
-    "duration": 16,
-    "url": "https://www.youtube.com/watch?v=_Xy-lF4DdMQ",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "Ybq_FGtSCN8",
-    "title": "GTA Online: Los Santos Drug Wars Now Available",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=Ybq_FGtSCN8",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "8342OEPIC1k",
-    "title": "The New BF Weevil Custom in GTA Online",
-    "duration": 23,
-    "url": "https://www.youtube.com/watch?v=8342OEPIC1k",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "nazn4-M9bZo",
-    "title": "The Dinka Kanjo SJ and Postlude",
-    "duration": 24,
-    "url": "https://www.youtube.com/watch?v=nazn4-M9bZo",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "lOzNwX9VvdQ",
-    "title": "The New Declasse Vigero ZX Muscle Car",
-    "duration": 22,
-    "url": "https://www.youtube.com/watch?v=lOzNwX9VvdQ",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "ncPdE1_oThA",
-    "title": "The New Declasse Draugur",
-    "duration": 23,
-    "url": "https://www.youtube.com/watch?v=ncPdE1_oThA",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "1xlr3-hK5rY",
-    "title": "GTA Online: The Criminal Enterprises Now Available",
-    "duration": 30,
-    "url": "https://www.youtube.com/watch?v=1xlr3-hK5rY",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "P3NBd3UjH5Y",
-    "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "lqiZdynJmag",
-    "title": "Grand Theft Auto V and GTA Online Out Now on PlayStation 5 and Xbox Series X|S",
-    "duration": 58,
-    "url": "https://www.youtube.com/watch?v=lqiZdynJmag",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "KfP8WyMs8PY",
-    "title": "GTA Online: Short Trips with Franklin and Lamar",
-    "duration": 25,
-    "url": "https://www.youtube.com/watch?v=KfP8WyMs8PY",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "HOZMnW4MBmM",
-    "title": "MOTOMAMI Los Santos",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=HOZMnW4MBmM",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "z9zGV59xj54",
-    "title": "GTA Online: The Contract - Out Now",
-    "duration": 28,
-    "url": "https://www.youtube.com/watch?v=z9zGV59xj54",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "aLUGHQq2aek",
-    "title": "GTA Online: The Contract – Coming December 15",
-    "duration": 58,
-    "url": "https://www.youtube.com/watch?v=aLUGHQq2aek",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "H4rYVsJ4v9Y",
-    "title": "Grand Theft Auto: San Andreas – The Definitive Edition Comparison Video",
-    "duration": 42,
-    "url": "https://www.youtube.com/watch?v=H4rYVsJ4v9Y",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "QYAMp13Yi04",
-    "title": "Grand Theft Auto: Vice City – The Definitive Edition Comparison Video",
-    "duration": 34,
-    "url": "https://www.youtube.com/watch?v=QYAMp13Yi04",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "lEQ4XD8KuUs",
-    "title": "Grand Theft Auto III – The Definitive Edition Comparison Video",
-    "duration": 43,
-    "url": "https://www.youtube.com/watch?v=lEQ4XD8KuUs",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "vFLHoGqL52A",
-    "title": "Red Dead Online: The Halloween Pass 2",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=vFLHoGqL52A",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "D71cBUeAL58",
-    "title": "Grand Theft Auto: The Trilogy – The Definitive Edition Trailer",
-    "duration": 59,
-    "url": "https://www.youtube.com/watch?v=D71cBUeAL58",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "7x7zr1onxfU",
-    "title": "Grand Theft Auto: The Trilogy – The Definitive Edition Coming Soon",
-    "duration": 26,
-    "url": "https://www.youtube.com/watch?v=7x7zr1onxfU",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "tp_umr12nxo",
-    "title": "The Quick Draw Club No. 4 in Red Dead Online",
-    "duration": 16,
-    "url": "https://www.youtube.com/watch?v=tp_umr12nxo",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "VNbONMSObfs",
-    "title": "Grand Theft Auto V and Grand Theft Auto Online for PS5 and Xbox Series X|S – Coming March 2022",
-    "duration": 71,
-    "url": "https://www.youtube.com/watch?v=VNbONMSObfs",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "IYoTuQuvFyY",
-    "title": "Red Dead Online: The Quick Draw Club No. 3",
-    "duration": 16,
-    "url": "https://www.youtube.com/watch?v=IYoTuQuvFyY",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "mCt3914hUO8",
-    "title": "Red Dead Online: The Quick Draw Club No. 2",
-    "duration": 16,
-    "url": "https://www.youtube.com/watch?v=mCt3914hUO8",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "mP6KvFnltWc",
-    "title": "GTA Online: Los Santos Tuners — Out Now",
-    "duration": 58,
-    "url": "https://www.youtube.com/watch?v=mP6KvFnltWc",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "Iv28sAKcv6I",
-    "title": "Rockstar Games — GTA Online Tuners",
-    "duration": 12,
-    "url": "https://www.youtube.com/watch?v=Iv28sAKcv6I",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "sPLD6LS_TIk",
-    "title": "GTA Online: Los Santos Tuners",
-    "duration": 30,
-    "url": "https://www.youtube.com/watch?v=sPLD6LS_TIk",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "Dv4tiHBFcyM",
-    "title": "Red Dead Online: Blood Money — Out Now",
-    "duration": 16,
-    "url": "https://www.youtube.com/watch?v=Dv4tiHBFcyM",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "HA93zL3OONI",
-    "title": "New Survival Maps Arrive in GTA Online",
-    "duration": 13,
-    "url": "https://www.youtube.com/watch?v=HA93zL3OONI",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "M-upEDKRxDk",
-    "title": "Red Dead Online: The Quick Draw Club",
-    "duration": 16,
-    "url": "https://www.youtube.com/watch?v=M-upEDKRxDk",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "2mPBTTi3PDo",
-    "title": "Red Dead Online: Blood Money",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=2mPBTTi3PDo",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "DkbW40UwPg8",
-    "title": "GTA Online: Deadline — Return of the Shotaro",
-    "duration": 13,
-    "url": "https://www.youtube.com/watch?v=DkbW40UwPg8",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "framx7S6Uf0",
-    "title": "Introducing New GTA Online Stunt Races",
-    "duration": 13,
-    "url": "https://www.youtube.com/watch?v=framx7S6Uf0",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "vW8ogR7IgdE",
-    "title": "Red Dead Online: The Outlaw Pass No. 5",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=vW8ogR7IgdE",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "mUguDmiNH9E",
-    "title": "GTA Online: Visit the Island of Cayo Perico",
-    "duration": 29,
-    "url": "https://www.youtube.com/watch?v=mUguDmiNH9E",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "mN7JB9MFhSM",
-    "title": "Now Performing in Los Santos: Palms Trax",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=mN7JB9MFhSM",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "iDuKVJ1k-Ao",
-    "title": "Now Performing in Los Santos: Keinemusik",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=iDuKVJ1k-Ao",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "edkmTelgeME",
-    "title": "“1988” by Moodymann",
-    "duration": 88,
-    "url": "https://www.youtube.com/watch?v=edkmTelgeME",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "j1nF_MOfqwI",
-    "title": "Now Performing in Los Santos: Moodymann",
-    "duration": 21,
-    "url": "https://www.youtube.com/watch?v=j1nF_MOfqwI",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "tyDRtSUYTRs",
-    "title": "GTA Online: The Cayo Perico Heist",
-    "duration": 59,
-    "url": "https://www.youtube.com/watch?v=tyDRtSUYTRs",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "S_r1AtXNJ3c",
-    "title": "Red Dead Online: The Outlaw Pass No. 4",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=S_r1AtXNJ3c",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "cWJzdDnrH_M",
-    "title": "Red Dead Online Standalone Now Available",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=cWJzdDnrH_M",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "RbsH6Yzdoqw",
-    "title": "Red Dead Online: Bounty Hunters",
-    "duration": 54,
-    "url": "https://www.youtube.com/watch?v=RbsH6Yzdoqw",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "m50a3OLCLBQ",
-    "title": "surveil.exe",
-    "duration": 11,
-    "url": "https://www.youtube.com/watch?v=m50a3OLCLBQ",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "bUIpeD0tA8g",
-    "title": "The Cayo Perico Heist: Coming December 15 to GTA Online",
-    "duration": 25,
-    "url": "https://www.youtube.com/watch?v=bUIpeD0tA8g",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "8BJ0P0TrSv0",
-    "title": "Red Dead Online: The Halloween Pass",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=8BJ0P0TrSv0",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "StEaAZ_Ywj4",
-    "title": "GTA Online: Los Santos Summer Special",
-    "duration": 60,
-    "url": "https://www.youtube.com/watch?v=StEaAZ_Ywj4",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "kXQ4or04Ll4",
-    "title": "Red Dead Online: The Outlaw Pass No. 3",
-    "duration": 30,
-    "url": "https://www.youtube.com/watch?v=kXQ4or04Ll4",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "88xOfZEKEag",
-    "title": "Red Dead Online: The Naturalist",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=88xOfZEKEag",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "foUaOCzfIRU",
-    "title": "Grand Theft Auto V - Coming to New Generation Consoles",
-    "duration": 97,
-    "url": "https://www.youtube.com/watch?v=foUaOCzfIRU",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "_7i-GJTXFaA",
-    "title": "Live Performance of \"Far Away\" by Jose Gonzalez",
-    "duration": 150,
-    "url": "https://www.youtube.com/watch?v=_7i-GJTXFaA",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "2-jX9MrOXoE",
-    "title": "Red Dead Redemption 2 – Available on the Rockstar Games Launcher",
-    "duration": 60,
-    "url": "https://www.youtube.com/watch?v=2-jX9MrOXoE",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "-HIv_Uj1ERE",
-    "title": "Grand Theft Auto V – Available on the Rockstar Games Launcher",
-    "duration": 75,
-    "url": "https://www.youtube.com/watch?v=-HIv_Uj1ERE",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "KR2oMr4gdVU",
-    "title": "Max Payne 3 – Available on the Rockstar Games Launcher",
-    "duration": 75,
-    "url": "https://www.youtube.com/watch?v=KR2oMr4gdVU",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "rY37u6ykezc",
-    "title": "L.A. Noire – Available on the Rockstar Games Launcher",
-    "duration": 48,
-    "url": "https://www.youtube.com/watch?v=rY37u6ykezc",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "w6wXVLrISD0",
-    "title": "Bully: Scholarship Edition – Available on the Rockstar Games Launcher",
-    "duration": 57,
-    "url": "https://www.youtube.com/watch?v=w6wXVLrISD0",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "ZQzIZkxsWYw",
-    "title": "Grand Theft Auto IV: Complete Edition – Available on the Rockstar Games Launcher",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=ZQzIZkxsWYw",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "NgO8TVaC24o",
-    "title": "GTA Online: Open Wheel Racing",
-    "duration": 31,
-    "url": "https://www.youtube.com/watch?v=NgO8TVaC24o",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "V6pobDNCx9Y",
-    "title": "Red Dead Online: The Outlaw Pass No. 2",
-    "duration": 29,
-    "url": "https://www.youtube.com/watch?v=V6pobDNCx9Y",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "J4nMeH6DaOI",
-    "title": "Red Dead Online: Moonshiners",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=J4nMeH6DaOI",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "mZKi3ANavo8",
-    "title": "“Ready to Go” by Baauer and Channel Tres feat. Danny Brown",
-    "duration": 115,
-    "url": "https://www.youtube.com/watch?v=mZKi3ANavo8",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "UUmKwJD76GY",
-    "title": "GTA Online: The Diamond Casino Heist",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=UUmKwJD76GY",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "g-WKpapqVU8",
-    "title": "Red Dead Redemption 2 PC Launch Trailer",
-    "duration": 60,
-    "url": "https://www.youtube.com/watch?v=g-WKpapqVU8",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "SXvQ1nK4oxk",
-    "title": "Red Dead Redemption 2 PC Trailer",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=SXvQ1nK4oxk",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "NVgYg-8pxeI",
-    "title": "Red Dead Online: Legendary Bounties",
-    "duration": 37,
-    "url": "https://www.youtube.com/watch?v=NVgYg-8pxeI",
-    "channel": "Rockstar Games",
-    "verified": true
-   },
-   {
-    "id": "396Qe1T2GVw",
-    "title": "Red Dead Online: Frontier Pursuits",
-    "duration": 61,
-    "url": "https://www.youtube.com/watch?v=396Qe1T2GVw",
-    "channel": "Rockstar Games",
-    "verified": true
-   }
-  ],
-  "https://www.youtube.com/@PlayStation/videos|2026-11-25": [
+  "https://www.youtube.com/@PlayStation/videos|2026-11-26": [
    {
     "id": "pH4wT5kdsC8",
     "title": "Rayman Legends Retold - Story Trailer | PS5 Games",
@@ -7737,8 +6794,650 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@Xbox/videos|2026-11-25": [],
-  "https://www.youtube.com/@CDPROJEKTRED/videos|2026-11-25": [
+  "https://www.youtube.com/@Xbox/videos|2026-11-26": [],
+  "https://www.youtube.com/@RockstarGames/videos|2026-11-26": [
+   {
+    "id": "_yl5ELcmugI",
+    "title": "Grand Theft Auto VI: Out Now",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=_yl5ELcmugI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "rz1B4B2yBZY",
+    "title": "Grand Theft Auto VI Launch Trailer",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=rz1B4B2yBZY",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "tJbzMqJGH4k",
+    "title": "Grand Theft Auto VI: An Extended Look",
+    "duration": 1609,
+    "url": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "qq76pQsI1iw",
+    "title": "Grand Theft Auto VI: An Extended Look Coming August 27",
+    "duration": 26,
+    "url": "https://www.youtube.com/watch?v=qq76pQsI1iw",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "vK_IL6V17Js",
+    "title": "GTA Online: The Kortz Center Heist Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=vK_IL6V17Js",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "EiQEBYDox_k",
+    "title": "Grand Theft Auto VI: Official Cover Art Reveal",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=EiQEBYDox_k",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "gxfMjFuJD7s",
+    "title": "LD Organics Presents: The 420 Event in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=gxfMjFuJD7s",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "T7aaNEW7zA0",
+    "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "n2EtF9sKW6w",
+    "title": "New Deadline Duet Mode in GTA Online",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=n2EtF9sKW6w",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "c7g4IRJXLSo",
+    "title": "Celebrate the Holidays in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=c7g4IRJXLSo",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "PrOfeyc0XRU",
+    "title": "The Futuristic New Progen Luiva Supercar Arrives in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=PrOfeyc0XRU",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "45--ZVLkmks",
+    "title": "GTA Online: A Safehouse in the Hills Now Available",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=45--ZVLkmks",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "APJ-lT0sBhg",
+    "title": "GTA Online: A Safehouse in the Hills Coming December 10",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "tqLMoW7oEbA",
+    "title": "Red Dead Redemption: Out Now on Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=tqLMoW7oEbA",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "taD8vci4fGI",
+    "title": "GTA Online: A Safehouse in the Hills Coming This December",
+    "duration": 17,
+    "url": "https://www.youtube.com/watch?v=taD8vci4fGI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "SlkizyzZ8k4",
+    "title": "Red Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=SlkizyzZ8k4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "GbuCIrZSPDk",
+    "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "4Pcg9NVGMxg",
+    "title": "Red Dead Online: Strange Tales of the West",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=4Pcg9NVGMxg",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "GJAs5sjujHg",
+    "title": "GTA Online: Money Fronts Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=GJAs5sjujHg",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "VQRLujxTm3c",
+    "title": "Grand Theft Auto VI Trailer 2",
+    "duration": 167,
+    "url": "https://www.youtube.com/watch?v=VQRLujxTm3c",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "dtJj0So2yq4",
+    "title": "Experience the Best Version of GTAV and GTA Online on PC with GTAV Enhanced",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=dtJj0So2yq4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "VrJZmOerpCE",
+    "title": "GTA Online: Oscar Guzman Flies Again Now Available",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=VrJZmOerpCE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "exoS8ZitDGE",
+    "title": "Three New Drift Races Now in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=exoS8ZitDGE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "iWrJLsLICI0",
+    "title": "Celebrate Lunar New Year in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=iWrJLsLICI0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "s5Ym4EuvinU",
+    "title": "Happy Holidays from GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=s5Ym4EuvinU",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "YW9VXUgoG6w",
+    "title": "GTA Online: Agents of Sabotage Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "T3ZaWDcPiIo",
+    "title": "GTA Online: Agents of Sabotage Coming December 10",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "LrUQojs0pGI",
+    "title": "Red Dead Redemption and Undead Nightmare Now on PC",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=LrUQojs0pGI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "XDX66qVWCXs",
+    "title": "New GTA Online Ludendorff Cemetery Survival",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=XDX66qVWCXs",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "mnvc6uC6xZE",
+    "title": "Red Dead Redemption and Undead Nightmare Coming to PC October 29",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=mnvc6uC6xZE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "8sGLMQMla8o",
+    "title": "Battle it Out in GTA Online's New Assault on ATT-16 Mode",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=8sGLMQMla8o",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "nWUj1my-rsU",
+    "title": "Dish Out Pies in New GTA Online Pizza Deliveries",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=nWUj1my-rsU",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "McGnGYu_H8I",
+    "title": "Paint the Town Red, White, and Blue With GTA Online Independence Day Bonuses",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=McGnGYu_H8I",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "_SgqsxXk8_E",
+    "title": "GTA Online: Bottom Dollar Bounties Out Now",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "ewAODca-3Bw",
+    "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=ewAODca-3Bw",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "4ki_how7P18",
+    "title": "Benefactor Takes Over the GTA Online Auto Scene",
+    "duration": 22,
+    "url": "https://www.youtube.com/watch?v=4ki_how7P18",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "TeoLfV5jBpQ",
+    "title": "Bask in Luxury With This Week’s GTA Online Dewbauchee Showcase",
+    "duration": 24,
+    "url": "https://www.youtube.com/watch?v=TeoLfV5jBpQ",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "R3HS6owS3P8",
+    "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=R3HS6owS3P8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "htg1EZE3LVk",
+    "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=htg1EZE3LVk",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "eXDB3XQyKDc",
+    "title": "Celebrate Lunar New Year in GTA Online",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=eXDB3XQyKDc",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "WcISFR43Jt4",
+    "title": "Speed to Victory in New GTA Online Drag Races",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=WcISFR43Jt4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "Sp1wvWZ_2MQ",
+    "title": "GTA Online: The Chop Shop Now Available",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "QdBZY2fkU-0",
+    "title": "Grand Theft Auto VI Trailer 1",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "X_9LogvOu7M",
+    "title": "Halloween in GTA Online",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=X_9LogvOu7M",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "MSpnhyTj7WI",
+    "title": "Celebrate Ten Years of Grand Theft Auto V",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=MSpnhyTj7WI",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "KlylKoFgl80",
+    "title": "Red Dead Redemption and Undead Nightmare Now on Nintendo Switch and PS4",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=KlylKoFgl80",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "t5Nwgd_T1-4",
+    "title": "Red Dead Redemption and Undead Nightmare Coming to Switch and PS4",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=t5Nwgd_T1-4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "QGSF_8PQc5c",
+    "title": "GTA Online: The Mammoth Avenger",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=QGSF_8PQc5c",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "YlY9n7iM-5Q",
+    "title": "GTA Online: San Andreas Mercenaries Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "S1H8naXp8bE",
+    "title": "The Vinewood Car Club",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=S1H8naXp8bE",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "IIm_pxD8Csk",
+    "title": "GTA Online: San Andreas Mercenaries Coming June 13",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=IIm_pxD8Csk",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "_kQ-v-yn8CM",
+    "title": "Los Santos Drug Wars: The Last Dose Out Now",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=_kQ-v-yn8CM",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "S0Q-Pbr2WP0",
+    "title": "Los Santos Drug Wars: The Last Dose Coming March 16",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=S0Q-Pbr2WP0",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "0hzHIC_YdI4",
+    "title": "GTA Online: The New Eclipse Blvd Garage",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=0hzHIC_YdI4",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "4PbJz21gVr8",
+    "title": "Discover the New Gun Van and Bolster Your Arsenal in GTA Online",
+    "duration": 15,
+    "url": "https://www.youtube.com/watch?v=4PbJz21gVr8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "_Xy-lF4DdMQ",
+    "title": "Expand Your Mind with GTA Online: Los Santos Drug Wars, Now Available",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=_Xy-lF4DdMQ",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "Ybq_FGtSCN8",
+    "title": "GTA Online: Los Santos Drug Wars Now Available",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=Ybq_FGtSCN8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "8342OEPIC1k",
+    "title": "The New BF Weevil Custom in GTA Online",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=8342OEPIC1k",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "nazn4-M9bZo",
+    "title": "The Dinka Kanjo SJ and Postlude",
+    "duration": 24,
+    "url": "https://www.youtube.com/watch?v=nazn4-M9bZo",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "lOzNwX9VvdQ",
+    "title": "The New Declasse Vigero ZX Muscle Car",
+    "duration": 22,
+    "url": "https://www.youtube.com/watch?v=lOzNwX9VvdQ",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "ncPdE1_oThA",
+    "title": "The New Declasse Draugur",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=ncPdE1_oThA",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "1xlr3-hK5rY",
+    "title": "GTA Online: The Criminal Enterprises Now Available",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=1xlr3-hK5rY",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "P3NBd3UjH5Y",
+    "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "lqiZdynJmag",
+    "title": "Grand Theft Auto V and GTA Online Out Now on PlayStation 5 and Xbox Series X|S",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=lqiZdynJmag",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "KfP8WyMs8PY",
+    "title": "GTA Online: Short Trips with Franklin and Lamar",
+    "duration": 25,
+    "url": "https://www.youtube.com/watch?v=KfP8WyMs8PY",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "HOZMnW4MBmM",
+    "title": "MOTOMAMI Los Santos",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=HOZMnW4MBmM",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "z9zGV59xj54",
+    "title": "GTA Online: The Contract - Out Now",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=z9zGV59xj54",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "aLUGHQq2aek",
+    "title": "GTA Online: The Contract – Coming December 15",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=aLUGHQq2aek",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "H4rYVsJ4v9Y",
+    "title": "Grand Theft Auto: San Andreas – The Definitive Edition Comparison Video",
+    "duration": 42,
+    "url": "https://www.youtube.com/watch?v=H4rYVsJ4v9Y",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "QYAMp13Yi04",
+    "title": "Grand Theft Auto: Vice City – The Definitive Edition Comparison Video",
+    "duration": 34,
+    "url": "https://www.youtube.com/watch?v=QYAMp13Yi04",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "lEQ4XD8KuUs",
+    "title": "Grand Theft Auto III – The Definitive Edition Comparison Video",
+    "duration": 43,
+    "url": "https://www.youtube.com/watch?v=lEQ4XD8KuUs",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "vFLHoGqL52A",
+    "title": "Red Dead Online: The Halloween Pass 2",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=vFLHoGqL52A",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "D71cBUeAL58",
+    "title": "Grand Theft Auto: The Trilogy – The Definitive Edition Trailer",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=D71cBUeAL58",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "7x7zr1onxfU",
+    "title": "Grand Theft Auto: The Trilogy – The Definitive Edition Coming Soon",
+    "duration": 26,
+    "url": "https://www.youtube.com/watch?v=7x7zr1onxfU",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "tp_umr12nxo",
+    "title": "The Quick Draw Club No. 4 in Red Dead Online",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=tp_umr12nxo",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "VNbONMSObfs",
+    "title": "Grand Theft Auto V and Grand Theft Auto Online for PS5 and Xbox Series X|S – Coming March 2022",
+    "duration": 71,
+    "url": "https://www.youtube.com/watch?v=VNbONMSObfs",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "IYoTuQuvFyY",
+    "title": "Red Dead Online: The Quick Draw Club No. 3",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=IYoTuQuvFyY",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "mCt3914hUO8",
+    "title": "Red Dead Online: The Quick Draw Club No. 2",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=mCt3914hUO8",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "mP6KvFnltWc",
+    "title": "GTA Online: Los Santos Tuners — Out Now",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=mP6KvFnltWc",
+    "channel": "Rockstar Games",
+    "verified": true
+   },
+   {
+    "id": "Iv28sAKcv6I",
+    "title": "Rockstar Games — GTA Online Tuners",
+    "duration": 12,
+    "url": "https://www.youtube.com/watch?v=Iv28sAKcv6I",
+    "channel": "Rockstar Games",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@CDPROJEKTRED/videos|2026-11-26": [
    {
     "id": "7FVhwvqDoDo",
     "title": "AnsweRED Podcast Episode 35 | One Studio, Many Projects: Shared Development Services",
@@ -8380,7 +8079,7 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@CallofDuty/videos|2026-11-25": [
+  "https://www.youtube.com/@CallofDuty/videos|2026-11-26": [
    {
     "id": "XjWvcBTbwCo",
     "title": "Creating a Mode + Medal of Honor Recipient Kyle Carpenter | COD POD Ep. 13",
@@ -8391,7 +8090,7 @@
    },
    {
     "id": "bIqyYMTN0aA",
-    "title": "Call of Duty: Modern Warfare 4 | Season 1 DMZ Intelligence Briefing Trailer",
+    "title": "Call of Duty: Modern Warfare 4 | Season 1 DMZ Intel Brief Trailer",
     "duration": 64,
     "url": "https://www.youtube.com/watch?v=bIqyYMTN0aA",
     "channel": "Call of Duty",
@@ -9022,7 +8721,7 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@Ubisoft/videos|2026-11-25": [
+  "https://www.youtube.com/@Ubisoft/videos|2026-11-26": [
    {
     "id": "S3AqMNf_2Hg",
     "title": "The Division 2: Spearfall Season - Dev Diary",
@@ -9664,9 +9363,9 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@EA/videos|2026-11-25": [],
-  "https://www.youtube.com/@BethesdaSoftworks/videos|2026-11-25": [],
-  "https://www.youtube.com/@NaughtyDog/videos|2026-11-25": [
+  "https://www.youtube.com/@EA/videos|2026-11-26": [],
+  "https://www.youtube.com/@BethesdaSoftworks/videos|2026-11-26": [],
+  "https://www.youtube.com/@NaughtyDog/videos|2026-11-26": [
    {
     "id": "OKtVbq7XBVE",
     "title": "The Last of Us Day 2026 Subway Ambience",
@@ -10887,6 +10586,23 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-25 21:31"
+  },
+  "bnf05EJsnFM": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation logo in the top-left corner",
+    "Marvel copyright text in the bottom-left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 00:07"
+  },
+  "bwPhwV220yI": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-26 00:11"
   }
  },
  "failures": [
@@ -12674,6 +12390,186 @@
   },
   {
    "at": "2026-11-26T05:32:29.288657+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:41:36.008057+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:45:36.259843+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:49:19.754295+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:53:31.353170+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T05:57:25.100917+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:01:25.759562+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:05:10.180247+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:09:28.602881+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:13:22.758722+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:17:10.321824+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:21:11.090181+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:25:16.649773+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:28:58.520548+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:33:11.147330+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:36:54.060224+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:40:54.302826+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:45:05.127036+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:49:11.060881+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:52:51.457708+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T06:56:44.304868+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T07:00:37.129872+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T07:05:00.222781+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T07:08:59.452768+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T07:13:10.793883+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T07:16:57.814994+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T07:21:08.587947+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T07:25:20.137179+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T07:28:49.177452+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T07:32:47.688883+05:30",
+   "platform": "youtube",
+   "category": null,
+   "error": "RuntimeError: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T07:36:41.071545+05:30",
    "platform": "youtube",
    "category": null,
    "error": "RuntimeError: only 0 clean sources for gaming"
