@@ -3,7 +3,8 @@
 Runs in the watchdog workflow (schedule + box kick) and after each upload. It never stacks runs:
 - no dispatch while any produce run is queued / in progress (plus produce.yml's `produce-auto` concurrency group)
 - cooldown 60 min after the last auto run, 3 h after two auto runs in a row produced nothing
-- no dispatch while Gemini is known to be out on every key and every backup model (until the daily reset)
+- no dispatch while Gemini is known to be out on every key and every backup model (until the daily reset;
+  status.json or the saved gemini_quota.json cool-downs, see quota_gate.py)
 Instagram has priority (it empties first): while it is low, the auto run is Instagram-only.
 
     python -m pipeline_lib.autoproduce check [--dispatch]
@@ -59,7 +60,13 @@ def gemini_out() -> tuple[bool, str]:
         outs.append((bool(g.get("exhausted")) and future, reset))
     if outs and all(o for o, _ in outs):
         return True, outs[0][1]
-    return False, ""
+    # the saved per key+model cool-downs are the source of truth (also when a run was quota-gated or
+    # cancelled before it wrote status.json)
+    try:
+        from .quota_gate import check as gate_check
+        return gate_check()
+    except Exception:
+        return False, ""
 
 
 def stock() -> dict[str, int]:
@@ -85,9 +92,9 @@ def decide(counts: dict[str, int], runs: list[dict], quota_out: tuple[bool, str]
         bad = [r for r in auto[:2] if r.get("conclusion") in ("failure", "timed_out", "startup_failure")]
         if len(bad) == 2 and age < BACKOFF_MIN:
             return {"dispatch": False, "reason": f"back-off: last 2 auto runs failed ({age:.0f} min ago)"}
-    # Instagram first: while Instagram is low it gets the run (and all of Gemini's quota) to itself;
-    # YouTube follows in the next auto run once Instagram's run has finished
-    platform = "instagram" if "instagram" in low else low[0]
+    # Both low -> one run, both jobs in parallel (matrix lists Instagram first; YouTube makes the
+    # smaller batch, see count_for). Only one low -> just that platform.
+    platform = "both" if len(low) == 2 else low[0]
     return {"dispatch": True, "platform": platform, "low": low, "counts": counts,
             "reason": f"stock below {LOW}: {counts}"}
 
@@ -108,7 +115,7 @@ def check(dispatch: bool) -> dict:
     if d["dispatch"] and dispatch:
         r = run(["gh", "workflow", "run", "produce.yml", "--repo", REPO, "--ref", "main",
                  "-f", f"platform={d['platform']}", "-f", "mode=produce", "-f", "count=4", "-f", "auto=true",
-                 "-f", "max_minutes=110"], timeout=60, check=False)
+                 "-f", "max_minutes=60"], timeout=60, check=False)
         d["dispatched"] = r.returncode == 0
         log("auto-produce dispatch:", "ok" if d["dispatched"] else (r.stderr or "")[-200:])
     out = os.environ.get("GITHUB_STEP_SUMMARY")

@@ -82,7 +82,9 @@ class CmdProduceFallbackTests(unittest.TestCase):
 
     def test_quota_out_skips_after_one_miss_and_writes_manual_pick(self):
         import pipeline as P
-        with tempfile.TemporaryDirectory() as td, patch.dict(os.environ, _env(td), clear=True):
+        # manual override (ignore_quota_gate): cached vets + manual picks are still tried
+        with tempfile.TemporaryDirectory() as td, \
+                patch.dict(os.environ, {**_env(td), "VICE_IGNORE_QUOTA_GATE": "true"}, clear=True):
             calls = []
 
             def fake_produce(platform, cat, state, gem, sourcer, seed, timer=None):
@@ -105,6 +107,24 @@ class CmdProduceFallbackTests(unittest.TestCase):
             self.assertEqual(sorted(calls), ["gaming", "gta"])          # each tried once, then stop
             doc = json.loads((Path(td) / "queue" / "needs_manual_pick.json").read_text())
             self.assertEqual(doc["categories"]["gaming"][0]["id"], "abcdefghijk")
+
+    def test_quota_out_ends_run_fast_without_attempts(self):
+        import pipeline as P
+        with tempfile.TemporaryDirectory() as td, patch.dict(os.environ, _env(td), clear=True):
+            gem = MagicMock()
+            gem.quota_exhausted.return_value = True
+            gem.status.return_value = {"exhausted": True, "reset_at": "2026-11-27 13:30 IST"}
+            gem.calls = []
+            a = SimpleNamespace(platform="youtube", category=None, max_minutes=60, target=7)
+            with patch.object(P, "produce_one") as po, \
+                    patch("pipeline_lib.gemini.Gemini", return_value=gem), \
+                    patch("pipeline_lib.sourcing.Sourcer", return_value=MagicMock()):
+                rc = P.cmd_produce(a, until_target=True)
+            po.assert_not_called()
+            self.assertEqual(rc, 0)
+            st = json.loads((Path(td) / "status.json").read_text())
+            self.assertTrue(st["last_run"]["quota_blocked"])
+            self.assertEqual(st["last_run"]["gemini"]["reset_at"], "2026-11-27 13:30 IST")
 
     def test_each_finished_video_goes_to_stock_right_away(self):
         import pipeline as P

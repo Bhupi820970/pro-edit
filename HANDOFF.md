@@ -67,6 +67,20 @@ If two computers run these lines, everything runs twice. Downloads are locked pe
 
 Scheduled runs only happen while repo variable `SCHEDULE_ENABLED=true`.
 
+### Produce time caps + Gemini quota gate (2026-11-26)
+- `pipeline_lib/quota_gate.py`: when every Gemini key AND every backup model is out of quota (per the
+  saved `{platform}/gemini_quota.json` cool-downs on pipeline-state; no Gemini call is made), produce.yml's
+  plan job ends the run in about a minute with a "Gemini quota out until ..." notice and no produce job.
+  `pipeline.py produce` checks again at start (ends at once, status.json `last_run.quota_blocked`) and
+  stops mid-run if the quota runs out. The watchdog (autoproduce) does not dispatch until the reset (~13:30 IST).
+  Manual override for manual-pick runs: dispatch input `ignore_quota_gate=true`.
+- Hard caps: attempt 10 min before render + 15 min render/QA (the cap can no longer be swallowed by an
+  `except Exception`), run budget `max_minutes` 60 and no attempt starts with < 25 min left,
+  Produce step 75 min, restore step 20 min, job 100 min.
+- Instagram + YouTube run in parallel in one run (matrix, Instagram listed first); the watchdog dispatches
+  `both` when both are low. Each platform job still has its own concurrency group, so a second run waits
+  for the same platform's job of the previous run (now at most ~100 min, usually far less).
+
 ## 4. Where things live
 
 | What | Where |

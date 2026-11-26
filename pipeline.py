@@ -97,8 +97,10 @@ def make_preview(src: Path, dst: Path, fmt: str, max_mb: float = 24.0):
         vb = int(vb * 0.8)
 
 
-class AttemptTimeout(RuntimeError):
-    """An attempt ran past its time cap (skipped so the run moves on to the next attempt)."""
+class AttemptTimeout(BaseException):
+    """An attempt ran past its time cap (skipped so the run moves on to the next attempt).
+    BaseException on purpose: the many `except Exception` blocks inside sourcing / vetting / song lookup
+    must not swallow the cap (that is how a 10 min cap turned into 11-12 min gathers)."""
 
 
 class StepTimer:
@@ -617,10 +619,33 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
     made, fails = [], []
     t0 = time.time()
     target = a.target if until_target else None
+    # One attempt can take up to pre_cap + render_cap minutes, so none starts with less time left:
+    # the job ends by max_minutes instead of max_minutes + a whole attempt.
+    attempt_cap = (float(os.environ.get("VICE_ATTEMPT_MAX_MIN", CFG.get("attempt_max_min", 10)))
+                   + float(os.environ.get("VICE_RENDER_MAX_MIN", CFG.get("render_max_min", 15))))
+
+    if gem.quota_exhausted() and os.environ.get("VICE_IGNORE_QUOTA_GATE", "").lower() not in ("1", "true", "yes"):
+        # Fail fast: with every key and every backup model out of quota nothing new can be vetted or
+        # QA'd, so attempts only burn the job (2 h, 0 videos on 26 Nov). End now with a clear status;
+        # the watchdog reads it (and gemini_quota.json) and waits for the daily reset.
+        gs = gem.status()
+        msg = (f"Gemini quota out on every key and every backup model until {gs.get('reset_at')}; "
+               "no attempts this run")
+        log(msg)
+        print(f"::warning title=Gemini quota out::{msg}", flush=True)
+        st = write_status(state, {"platform": a.platform, "made": [], "failures": [], "attempts": [],
+                                  "quota_blocked": True, "gemini": gs, "message": msg})
+        log(f"done: 0 made (quota blocked); {a.platform} buffer "
+            f"{st['platforms'][a.platform]['ready']}/{st['platforms'][a.platform]['target']}")
+        return 0
 
     def more():
-        if a.max_minutes and (time.time() - t0) / 60 > a.max_minutes:
+        left = (a.max_minutes - (time.time() - t0) / 60) if a.max_minutes else None
+        if left is not None and left <= 0:
             log("time budget reached")
+            return False
+        if left is not None and attempts and left < attempt_cap:
+            log(f"time budget reached ({left:.0f} min left < {attempt_cap:.0f} min for one more attempt)")
             return False
         if until_target:
             return len(ready_unposted(state, a.platform)) < target
@@ -632,6 +657,7 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
     cat_fails: dict[str, int] = {}
     forced = a.category
     attempt_log: list[dict] = []
+    quota_stop = False
     while more() and attempts < max_attempts:
         attempts += 1
         made_before = len(made)
@@ -664,7 +690,7 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
                 status_after_video(state, a.platform, made[-1], made)
             except Exception as sex:
                 log("status after video (non-fatal):", str(sex)[:200])
-        except Exception as ex:   # never a failed slot: log and retry with new sources / song / seed
+        except (Exception, AttemptTimeout) as ex:   # never a failed slot: retry with new sources / song / seed
             msg = f"{type(ex).__name__}: {str(ex)[:300]}"
             log("attempt failed, retrying with different sources/song:", msg)
             if not isinstance(ex, (QAFail, CategoryUnavailable, AttemptTimeout)):
@@ -681,6 +707,8 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
                     skip.add(cat)
                     nxt = pick_category(state, a.platform, skip)
                     log(f"category {cat}: no usable sources -> fallback to {nxt or 'nothing (all skipped)'}")
+            if gem.quota_exhausted() and os.environ.get("VICE_IGNORE_QUOTA_GATE", "").lower() not in ("1", "true", "yes"):
+                quota_stop = True
         finally:
             _disarm_budget()
             tm = timer.done()
@@ -689,6 +717,9 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
             log(f"attempt {attempts} {'OK' if ok else 'FAIL'} in {tm['total']:.0f}s: "
                 + ", ".join(f"{k}={v:.0f}s" for k, v in tm.items() if k != "total"))
         sourcer.cleanup(CFG.get("source_cache_gb", 12))
+        if quota_stop:
+            log("Gemini quota ran out on every key and backup model mid-run -> stop (watchdog waits for the reset)")
+            break
     step_tot: dict[str, float] = {}
     for at in attempt_log:
         for k, v in at["timings"].items():
@@ -704,6 +735,7 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
              "sourcing": sourcer.stats, "gemini_calls": [{"key": k, "model": m, "ok": ok, "note": n}
                                                          for k, m, ok, n in gem.calls[-60:]]}
     extra["skipped_categories"] = sorted(skip)
+    extra["quota_blocked"] = bool(quota_stop)
     try:
         gs = gem.status()                  # labels / model names only
         if isinstance(gs, dict):

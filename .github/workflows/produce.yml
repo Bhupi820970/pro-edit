@@ -13,8 +13,9 @@ on:
       category: {description: "force a category for every platform (gta, gaming, movie, series, sports, romance) or empty", default: "", required: false}
       youtube_category: {description: "optional category override for the youtube job only", default: "", required: false}
       instagram_category: {description: "optional category override for the instagram job only", default: "", required: false}
-      max_minutes: {description: "time budget per platform job (job timeout is 150 min)", default: "110", required: false}
+      max_minutes: {description: "time budget per platform job (Produce step cap 75 min, job cap 100 min)", default: "60", required: false}
       auto: {description: "set by the watchdog: buffer refill, count per platform from current stock", default: "false", required: false}
+      ignore_quota_gate: {description: "manual runs only: try anyway while Gemini is out on every key (cached vets + queue/manual_picks.json)", default: "false", required: false}
       release_tag: {description: "TEST runs: draft release tag for the mp4s (e.g. test-renders); empty = vc-ready (production stock). The upload workflow, not this one, posts to YouTube/Instagram.", default: "", required: false}
 
 # Triggers are schedule + workflow_dispatch only (no pull_request / pull_request_target), so code from
@@ -36,10 +37,38 @@ jobs:
        (github.event_name == 'schedule' && vars.SCHEDULE_ENABLED == 'true'))
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    permissions: {}
+    permissions:
+      contents: read    # read {platform}/gemini_quota.json on branch pipeline-state
     outputs:
       platforms: ${{ steps.p.outputs.platforms }}
+      blocked: ${{ steps.gate.outputs.blocked }}
     steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      # Fail fast: every Gemini key AND backup model out of quota -> no produce job at all (the run ends in
+      # about a minute with a notice; the watchdog waits for the ~13:30 IST reset). No Gemini call is made;
+      # the keys are only checked for presence (same list as the produce job below).
+      - id: gate
+        timeout-minutes: 2
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+          GEMINI_API_KEY_6: ${{ secrets.GEMINI_API_KEY_6 }}
+          GEMINI_API_KEY_7: ${{ secrets.GEMINI_API_KEY_7 }}
+          GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
+          GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
+          GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+          GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
+          GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
+          IGNORE_GATE: ${{ github.event.inputs.ignore_quota_gate }}
+        run: |
+          if [ "$IGNORE_GATE" = "true" ]; then echo "quota gate skipped (manual override)"; echo "blocked=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          python3 -m pipeline_lib.quota_gate check || echo "blocked=false" >> "$GITHUB_OUTPUT"
       - id: p
         run: |
           P="${{ github.event.inputs.platform || 'both' }}"
@@ -51,8 +80,10 @@ jobs:
 
   produce:
     needs: plan
+    if: needs.plan.outputs.blocked != 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 150   # nothing hangs for hours; produce stops at max_minutes (110) and saves state
+    # hard caps: setup ~15 min + Produce step 75 min (max_minutes 60, no attempt starts without 25 min left)
+    timeout-minutes: 100
     permissions:
       contents: write   # draft releases + pipeline-state branch
       actions: write    # upload artifacts
@@ -127,7 +158,7 @@ jobs:
           restore-keys: ph-${{ matrix.platform }}-
 
       - name: Restore pipeline state (branch pipeline-state)
-        timeout-minutes: 40
+        timeout-minutes: 20
         run: |
           retry() { for i in 1 2 3; do "$@" && return 0; sleep $((4 * i * i)); done; return 1; }
           mkdir -p "$VICE_PIPELINE_HOME"
@@ -146,7 +177,7 @@ jobs:
           # Selective pull (pool is ~40 clips per category): Gemini-rejected clips are never pulled,
           # accepted first, then newest unvetted, up to 20 GB.
           retry gh release download sources --pattern manifest.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
-          timeout 1500 python pipeline.py pull-sources --max-gb 20 || true
+          timeout 600 python pipeline.py pull-sources --max-gb 20 || true
           retry gh release download sources --pattern box_heartbeat.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
           find "$VICE_PIPELINE_HOME/sources" -maxdepth 1 -printf "%f\n" | head -30
           # official audio the box fetched (box_fetch.py -> DRAFT release "songs"); runner uses these first
@@ -156,10 +187,11 @@ jobs:
           find "$VICE_PIPELINE_HOME/songs" -maxdepth 1 -printf "%f\n" | head -40
 
       - name: Produce
-        timeout-minutes: 120
+        timeout-minutes: 75
         env:
           # production stock only: each video goes to vc-ready as soon as it passes QA (test runs wait for the end)
           VICE_ATTACH_EACH_TAG: ${{ github.event.inputs.release_tag == '' && 'vc-ready' || '' }}
+          VICE_IGNORE_QUOTA_GATE: ${{ github.event.inputs.ignore_quota_gate || 'false' }}
         run: |
           MODE="${{ github.event.inputs.mode || 'ensure' }}"
           COUNT="${{ github.event.inputs.count || '1' }}"
@@ -174,7 +206,7 @@ jobs:
           ICAT="${{ github.event.inputs.instagram_category }}"
           if [ "${{ matrix.platform }}" = "youtube" ] && [ -n "$YCAT" ]; then CAT="$YCAT"; fi
           if [ "${{ matrix.platform }}" = "instagram" ] && [ -n "$ICAT" ]; then CAT="$ICAT"; fi
-          ARGS=(--platform "${{ matrix.platform }}" --max-minutes "${{ github.event.inputs.max_minutes || '110' }}")
+          ARGS=(--platform "${{ matrix.platform }}" --max-minutes "${{ github.event.inputs.max_minutes || '60' }}")
           [ -n "$CAT" ] && ARGS+=(--category "$CAT")
           if [ "$MODE" = "produce" ]; then python pipeline.py produce "${ARGS[@]}" --count "$COUNT";
           else python pipeline.py ensure "${ARGS[@]}"; fi
