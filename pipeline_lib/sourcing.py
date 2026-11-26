@@ -271,7 +271,13 @@ def ytdlp(args: list, timeout=1800) -> tuple[bool, str]:
 
 
 def list_channel(url: str, limit: int = 60) -> list[dict]:
-    r = run(["yt-dlp", *COMMON, *ytdlp_js_args(), *ytdlp_cookie_args(), "--flat-playlist", "-I", f"1:{limit}", "-J", url], timeout=300, check=False)
+    for attempt in range(3):
+        r = run(["yt-dlp", *COMMON, *ytdlp_js_args(), *ytdlp_cookie_args(), "--flat-playlist", "-I", f"1:{limit}",
+                 "-J", url], timeout=300, check=False)
+        # YouTube intermittently answers the tab continuation page with HTTP 403: wait and retry
+        if r.returncode == 0 or "403" not in (r.stderr or "") or attempt == 2:
+            break
+        time.sleep(15 * (attempt + 1))
     if r.returncode != 0:
         log("channel listing failed:", url, (r.stderr or "")[-200:].strip())
         return []
