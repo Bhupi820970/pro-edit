@@ -15,7 +15,7 @@ if [ "${1:-}" = "status" ]; then
 fi
 
 if ! command -v crontab >/dev/null 2>&1; then
-  sudo -n apt-get install -y -qq cron >/dev/null 2>&1 || { echo "could not install cron"; exit 1; }
+  { sudo -n apt-get update -qq && sudo -n apt-get install -y -qq cron; } >/dev/null 2>&1 || { echo "could not install cron"; exit 1; }
 fi
 if ! pgrep -x cron >/dev/null 2>&1; then
   sudo -n /usr/sbin/cron 2>/dev/null || sudo -n service cron start >/dev/null 2>&1 || true
