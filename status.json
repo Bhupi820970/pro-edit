@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:53:31.908626+05:30",
+ "updated": "2026-11-26T19:46:25.507536+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -617,30 +617,6 @@
    "error": "CategoryUnavailable: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-26T16:46:04.842977+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 15.47}}"
-  },
-  {
-   "at": "2026-11-26T16:52:15.747200+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 15.07}}"
-  },
-  {
-   "at": "2026-11-26T16:58:20.745968+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.93}}"
-  },
-  {
-   "at": "2026-11-26T17:04:26.000704+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.5}}"
-  },
-  {
    "at": "2026-11-26T17:11:34.694041+05:30",
    "platform": "instagram",
    "category": "sports",
@@ -705,6 +681,30 @@
    "platform": "instagram",
    "category": "romance",
    "error": "CategoryUnavailable: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-26T19:44:15.526043+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "CategoryUnavailable: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-26T19:45:38.093934+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T19:45:53.268991+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T19:46:13.631499+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: no clips of a single title for movie"
   }
  ],
  "box_fetcher": {

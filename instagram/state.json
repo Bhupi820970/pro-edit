@@ -9322,6 +9322,386 @@
    "duration": 30.028,
    "category": "gta",
    "at": "2026-11-26 11:51"
+  },
+  "tRqfo0NBWiY": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - The Best I Can Kiss (9/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=tRqfo0NBWiY",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:03"
+  },
+  "KIH_63D5ZKQ": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - Farting Camels (7/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=KIH_63D5ZKQ",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:03"
+  },
+  "8JoOpx6VwHk": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Romeo + Juliet (1996) - Love at First Sight Scene (1/5) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=8JoOpx6VwHk",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-26 14:04"
+  },
+  "idEAbxVH-6I": {
+   "accept": false,
+   "reject_reasons": [
+    "bottom-left corner contains the Movieclips (Rotten Tomatoes) logo/bug",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - Kangaroo Jack's Baby! (12/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=idEAbxVH-6I",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:04"
+  },
+  "wMB5N5qi_VI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - Kangaroo Jack Loves Twizzlers! (4/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=wMB5N5qi_VI",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:04"
+  },
+  "OGkEzLq8Q7Y": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo present in the bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - Michael Shannon Gets Balled! (11/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=OGkEzLq8Q7Y",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:05"
+  },
+  "36Ppv-btQRk": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo bug present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - Meet Kangaroo Jack (3/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=36Ppv-btQRk",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:05"
+  },
+  "92y27tmCLrw": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - Wild Kangaroo Chase! (10/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=92y27tmCLrw",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:05"
+  },
+  "QabzuhbsRRk": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) channel logo watermark present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - Ants In His Pants (8/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=QabzuhbsRRk",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:05"
+  },
+  "Sa4KvWjgRuI": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a persistent channel logo/watermark in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - Escape the Police! (1/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=Sa4KvWjgRuI",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:07"
+  },
+  "4MrKopOgVls": {
+   "accept": false,
+   "reject_reasons": [
+    "bottom-left channel logo",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - Dingoes and Sandstorms! (6/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=4MrKopOgVls",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:07"
+  },
+  "PI6Q87pjO0o": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Friends with Benefits (2011) - I Wish Life Was a Movie Scene (4/10) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=PI6Q87pjO0o",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-26 14:08"
+  },
+  "w4cLYTFN6Uc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips channel logo present in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - DON'T CRASH! DON'T CRASH! (5/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=w4cLYTFN6Uc",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:08"
+  },
+  "0SCIHQlYK-M": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Kangaroo Jack (2003) - It's Not What It Looks Like... (2/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=0SCIHQlYK-M",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:08"
+  },
+  "_k55c7P3Sfs": {
+   "accept": false,
+   "reject_reasons": [
+    "Warner Bros. logo present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Gone With The Wind | 20 Film Collection Romance - \"First Kiss\" | Warner Bros. Entertainment",
+   "channel": "Warner Bros. Entertainment",
+   "credit": "Warner Bros. Entertainment",
+   "url": "https://www.youtube.com/watch?v=_k55c7P3Sfs",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-26 14:08"
+  },
+  "xGAZ1TBs5Hg": {
+   "accept": false,
+   "reject_reasons": [
+    "Warner Bros studio logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Gone With The Wind | The Golden Year Collection - First Kiss | Warner Bros. Entertainment",
+   "channel": "Warner Bros. Entertainment",
+   "credit": "Warner Bros. Entertainment",
+   "url": "https://www.youtube.com/watch?v=xGAZ1TBs5Hg",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-26 14:09"
+  },
+  "a4LBnJ8i5Y0": {
+   "accept": false,
+   "reject_reasons": [
+    "Warner Bros. studio logo/bug present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "The Bridges of Madison County | \"Pendant\" Clip | Warner Bros. Entertainment",
+   "channel": "Warner Bros. Entertainment",
+   "credit": "Warner Bros. Entertainment",
+   "url": "https://www.youtube.com/watch?v=a4LBnJ8i5Y0",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-26 14:09"
+  },
+  "YkQWPU1k-KQ": {
+   "accept": false,
+   "reject_reasons": [
+    "A24 channel/studio logo present in the top-right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Club Kid | Official Clip | A24",
+   "channel": "A24",
+   "credit": "A24",
+   "url": "https://www.youtube.com/watch?v=YkQWPU1k-KQ",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:11"
+  },
+  "fy_4vEL2E3g": {
+   "accept": false,
+   "reject_reasons": [
+    "A24 studio logo/watermark present in the top-right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Club Kid | Official Clip | A24",
+   "channel": "A24",
+   "credit": "A24",
+   "url": "https://www.youtube.com/watch?v=fy_4vEL2E3g",
+   "via": "official-channel",
+   "category": "romance",
+   "at": "2026-11-26 14:12"
+  },
+  "F6WWEvBUDcM": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo present in the top-right corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Aapadbandhavudu Best Romantic Scene ❤️ | Chiranjeevi, Meenakshi Seshadri | Telugu Movie Scenes",
+   "channel": "iDream Tirupati",
+   "credit": "iDream Tirupati",
+   "url": "https://www.youtube.com/watch?v=F6WWEvBUDcM",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-26 14:12"
+  },
+  "51v3oIptAhA": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Navdeep Doubts Siddharth & Shruti Haasan's Friendship | Oh My Friend | Telugu Movie Scenes",
+   "channel": "SriBalajiMovies",
+   "credit": "SriBalajiMovies",
+   "url": "https://www.youtube.com/watch?v=51v3oIptAhA",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-26 14:12"
+  },
+  "BFlai1r6Wlo": {
+   "accept": false,
+   "reject_reasons": [
+    "Contains Netflix logo in the top-left corner",
+    "Contains promotional overlay text and branding",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Ambika Mod and Leo Woodall Share a Moment in the Maze | One Day | Netflix Philippines",
+   "channel": "Netflix Philippines",
+   "credit": "Netflix Philippines",
+   "url": "https://www.youtube.com/watch?v=BFlai1r6Wlo",
+   "via": "youtube-search",
+   "category": "romance",
+   "at": "2026-11-26 14:13"
   }
  },
  "videos": [
@@ -31254,6 +31634,216 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-26 03:43"
+  },
+  "tRqfo0NBWiY": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:03"
+  },
+  "KIH_63D5ZKQ": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:03"
+  },
+  "8JoOpx6VwHk": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:04"
+  },
+  "idEAbxVH-6I": {
+   "accept": false,
+   "reject_reasons": [
+    "bottom-left corner contains the Movieclips (Rotten Tomatoes) logo/bug",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:04"
+  },
+  "wMB5N5qi_VI": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips channel logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:04"
+  },
+  "OGkEzLq8Q7Y": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo present in the bottom left corner",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:05"
+  },
+  "36Ppv-btQRk": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes / Movieclips logo bug present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:05"
+  },
+  "92y27tmCLrw": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:05"
+  },
+  "QabzuhbsRRk": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes (RT) channel logo watermark present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:05"
+  },
+  "Sa4KvWjgRuI": {
+   "accept": false,
+   "reject_reasons": [
+    "The image contains a persistent channel logo/watermark in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:07"
+  },
+  "4MrKopOgVls": {
+   "accept": false,
+   "reject_reasons": [
+    "bottom-left channel logo",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:07"
+  },
+  "PI6Q87pjO0o": {
+   "accept": false,
+   "reject_reasons": [
+    "Movieclips channel logo present in the bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:08"
+  },
+  "w4cLYTFN6Uc": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips channel logo present in bottom left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:08"
+  },
+  "0SCIHQlYK-M": {
+   "accept": false,
+   "reject_reasons": [
+    "Rotten Tomatoes Movieclips logo in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:08"
+  },
+  "_k55c7P3Sfs": {
+   "accept": false,
+   "reject_reasons": [
+    "Warner Bros. logo present in the bottom-left corner.",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:08"
+  },
+  "xGAZ1TBs5Hg": {
+   "accept": false,
+   "reject_reasons": [
+    "Warner Bros studio logo present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:09"
+  },
+  "a4LBnJ8i5Y0": {
+   "accept": false,
+   "reject_reasons": [
+    "Warner Bros. studio logo/bug present in the bottom-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:09"
+  },
+  "YkQWPU1k-KQ": {
+   "accept": false,
+   "reject_reasons": [
+    "A24 channel/studio logo present in the top-right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:11"
+  },
+  "fy_4vEL2E3g": {
+   "accept": false,
+   "reject_reasons": [
+    "A24 studio logo/watermark present in the top-right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:12"
+  },
+  "F6WWEvBUDcM": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo present in the top-right corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:12"
+  },
+  "51v3oIptAhA": {
+   "accept": false,
+   "reject_reasons": [
+    "Channel logo present in the top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:12"
+  },
+  "BFlai1r6Wlo": {
+   "accept": false,
+   "reject_reasons": [
+    "Contains Netflix logo in the top-left corner",
+    "Contains promotional overlay text and branding",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:13"
+  },
+  "ugUcD23SLes": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:14"
   }
  },
  "failures": [
@@ -35750,6 +36340,30 @@
    "platform": "instagram",
    "category": "romance",
    "error": "CategoryUnavailable: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-26T19:44:15.526043+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "CategoryUnavailable: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-26T19:45:38.093934+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T19:45:53.268991+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T19:46:13.631499+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: no clips of a single title for movie"
   }
  ],
  "vet_rules": "gta-rockstar-v1"

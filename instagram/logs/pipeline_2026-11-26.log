@@ -1,81 +1,178 @@
-[2026-11-26 18:49:13 IST] pull-sources: +0 clips, 0 accepted / 0 unvetted listed, 0.0 GB local
-[2026-11-26 18:49:27 IST] === in-gta-20261126-184927: platform=instagram category=gta format=shorts seed=717669665
-[2026-11-26 18:49:43 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] P3NBd3UjH5Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 18:49:53 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] P3NBd3UjH5Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 18:49:53 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 18:49:55 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] T3ZaWDcPiIo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 18:50:05 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] T3ZaWDcPiIo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 18:50:05 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 18:50:07 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] R3HS6owS3P8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 18:50:17 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] R3HS6owS3P8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 18:50:17 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 18:50:19 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] _SgqsxXk8_E: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 18:50:29 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] _SgqsxXk8_E: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 18:50:29 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 18:50:29 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
-[2026-11-26 18:50:29 IST] gemini key1/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:29 IST] gemini: key1 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:29 IST] gemini key2/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:29 IST] gemini: key2 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:29 IST] gemini key3/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:29 IST] gemini: key3 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:29 IST] gemini key4/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:29 IST] gemini: key4 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:30 IST] gemini key5/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:30 IST] gemini: key5 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:30 IST] gemini key6/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:30 IST] gemini: key6 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:30 IST] gemini key7/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:30 IST] gemini: key7 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:30 IST] gemini key8/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:30 IST] gemini: key8 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:30 IST] gemini key9/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:30 IST] gemini: key9 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:30 IST] gemini key10/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:30 IST] gemini: key10 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:30 IST] gemini key11/gemini-3.5-flash-lite: HTTP 401 API key not valid. Please pass a valid API key.
-[2026-11-26 18:50:30 IST] gemini: key11 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:30 IST] gemini key12/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:30 IST] gemini: key12 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:31 IST] gemini key13/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 18:50:31 IST] gemini: key13 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 18:50:31 IST] gemini discovery failed: all Gemini keys/models failed: key8/gemini-3.5-flash-lite: 429 You exceeded your current quota, please check your plan and billing details. For more information on | key9/gemini-3.5-flash-lite: 429 Yo
-[2026-11-26 18:50:31 IST] content thin for gta (0/6) -> fallback search (0 candidates)
-[2026-11-26 18:50:31 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
-[2026-11-26 18:50:31 IST] category gta: no usable sources -> fallback to sports
-[2026-11-26 18:50:31 IST] attempt 1 FAIL in 64s: gather=64s
-[2026-11-26 18:50:31 IST] === in-sports-20261126-185031: platform=instagram category=sports format=shorts seed=317232854
-[2026-11-26 18:51:23 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 18:51:24 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 18:51:24 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 18:51:24 IST] content thin for sports (0/3) -> fallback search (0 candidates)
-[2026-11-26 18:51:24 IST] sports: no candidate names a star player (fallback)
-[2026-11-26 18:51:24 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single star player for sports
-[2026-11-26 18:51:24 IST] category sports: no usable sources -> fallback to movie
-[2026-11-26 18:51:24 IST] attempt 2 FAIL in 53s: gather=53s
-[2026-11-26 18:51:24 IST] === in-movie-20261126-185124: platform=instagram category=movie format=shorts seed=987192613
-[2026-11-26 18:51:43 IST] x search failed: official movie clip scene Movieclips full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 18:51:44 IST] x search failed: official movie scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 18:51:44 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 18:51:44 IST] content thin for movie (0/4) -> fallback search (0 candidates)
-[2026-11-26 18:51:44 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single title for movie
-[2026-11-26 18:51:44 IST] category movie: no usable sources -> fallback to romance
-[2026-11-26 18:51:44 IST] attempt 3 FAIL in 21s: gather=21s
-[2026-11-26 18:51:44 IST] === in-romance-20261126-185144: platform=instagram category=romance format=shorts seed=160326995
-[2026-11-26 18:52:04 IST] x search failed: official romance movie clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 18:52:05 IST] x search failed: official romantic scene clip studio full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 18:52:05 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 18:52:05 IST] content thin for romance (0/4) -> fallback search (0 candidates)
-[2026-11-26 18:52:05 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single title for romance
-[2026-11-26 18:52:05 IST] category romance: no usable sources -> fallback to nothing (all skipped)
-[2026-11-26 18:52:05 IST] attempt 4 FAIL in 21s: gather=20s
-[2026-11-26 18:52:05 IST] no category has usable sources right now (skipped: ['gta', 'movie', 'romance', 'sports']) -> stop, box fetcher refills
-[2026-11-26 18:52:05 IST] step totals over 4 attempts: gather=2.6min -> slowest step: gather
-[2026-11-26 18:52:05 IST] queued box fetch request instagram-202611261852-gta
-[2026-11-26 18:52:05 IST] queued box fetch request instagram-202611261852-sports
-[2026-11-26 18:52:05 IST] queued box fetch request instagram-202611261852-movie
-[2026-11-26 18:52:05 IST] queued box fetch request instagram-202611261852-romance
-[2026-11-26 18:52:05 IST] cleanup sweep: freed 0.0 MB (1 files)
-[2026-11-26 18:52:05 IST] done: 0 made, 4 failed attempts; instagram buffer 0/7 — BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
-[2026-11-26 18:52:06 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
-[2026-11-26 18:52:09 IST] vc-ready manifest: 14 videos
+[2026-11-26 19:32:48 IST] pull-sources: +0 clips, 0 accepted / 0 unvetted listed, 0.0 GB local
+[2026-11-26 19:33:02 IST] === in-romance-20261126-193302: platform=instagram category=romance format=shorts seed=798733393
+[2026-11-26 19:33:21 IST] x search failed: official romance movie clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-26 19:33:21 IST] x search failed: official romantic scene clip studio full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-26 19:33:24 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] tRqfo0NBWiY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:33:33 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] tRqfo0NBWiY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:33:33 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:33:40 IST] pre-vet REJECT [tRqfo0NBWiY] Kangaroo Jack (2003) - The Best I Can Kiss (9/12) | Movieclips — Rotten Tomatoes Movieclips logo in the bottom left corner; flag:channel_logo
+[2026-11-26 19:33:42 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] KIH_63D5ZKQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:33:52 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] KIH_63D5ZKQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:33:52 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:33:54 IST] pre-vet REJECT [KIH_63D5ZKQ] Kangaroo Jack (2003) - Farting Camels (7/12) | Movieclips — Rotten Tomatoes Movieclips logo present in the bottom-left corner.; flag:channel_logo
+[2026-11-26 19:33:57 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 8JoOpx6VwHk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:34:07 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 8JoOpx6VwHk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:34:07 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:34:15 IST] pre-vet REJECT [8JoOpx6VwHk] Romeo + Juliet (1996) - Love at First Sight Scene (1/5) | Movieclips — Movieclips channel logo present in the bottom-left corner; flag:channel_logo
+[2026-11-26 19:34:17 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] idEAbxVH-6I: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:34:27 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] idEAbxVH-6I: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:34:27 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:34:30 IST] pre-vet REJECT [idEAbxVH-6I] Kangaroo Jack (2003) - Kangaroo Jack's Baby! (12/12) | Movieclips — bottom-left corner contains the Movieclips (Rotten Tomatoes) logo/bug; flag:channel_logo
+[2026-11-26 19:34:32 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] wMB5N5qi_VI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:34:42 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] wMB5N5qi_VI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:34:42 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:34:44 IST] pre-vet REJECT [wMB5N5qi_VI] Kangaroo Jack (2003) - Kangaroo Jack Loves Twizzlers! (4/12) | Moviecl — Rotten Tomatoes Movieclips channel logo present in the bottom-left corner; flag:channel_logo
+[2026-11-26 19:34:46 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] OGkEzLq8Q7Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:34:56 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] OGkEzLq8Q7Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:34:56 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:35:00 IST] pre-vet REJECT [OGkEzLq8Q7Y] Kangaroo Jack (2003) - Michael Shannon Gets Balled! (11/12) | Moviecli — Rotten Tomatoes / Movieclips logo present in the bottom left corner; flag:watermark; flag:channel_logo
+[2026-11-26 19:35:02 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 36Ppv-btQRk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:35:12 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 36Ppv-btQRk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:35:12 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:35:15 IST] pre-vet REJECT [36Ppv-btQRk] Kangaroo Jack (2003) - Meet Kangaroo Jack (3/12) | Movieclips — Rotten Tomatoes / Movieclips logo bug present in the bottom left corner; flag:channel_logo
+[2026-11-26 19:35:18 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 92y27tmCLrw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:35:27 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 92y27tmCLrw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:35:27 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:35:29 IST] pre-vet REJECT [92y27tmCLrw] Kangaroo Jack (2003) - Wild Kangaroo Chase! (10/12) | Movieclips — Rotten Tomatoes Movieclips logo present in the bottom-left corner.; flag:channel_logo
+[2026-11-26 19:35:32 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] QabzuhbsRRk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:35:41 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] QabzuhbsRRk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:35:41 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:35:44 IST] pre-vet REJECT [QabzuhbsRRk] Kangaroo Jack (2003) - Ants In His Pants (8/12) | Movieclips — Rotten Tomatoes (RT) channel logo watermark present in the bottom-left corner.; flag:watermark; flag:channel_logo
+[2026-11-26 19:35:46 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Sa4KvWjgRuI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:35:56 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Sa4KvWjgRuI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:35:56 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:35:58 IST] gemini key10/gemini-3.5-flash-lite: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-26 19:37:36 IST] pre-vet REJECT [Sa4KvWjgRuI] Kangaroo Jack (2003) - Escape the Police! (1/12) | Movieclips — The image contains a persistent channel logo/watermark in the bottom-left corner.; flag:watermark; flag:channel_logo
+[2026-11-26 19:37:38 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 4MrKopOgVls: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:37:48 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 4MrKopOgVls: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:37:48 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:37:48 IST] gemini key11/gemini-3.5-flash-lite: HTTP 401 API key not valid. Please pass a valid API key.
+[2026-11-26 19:37:48 IST] gemini: key11 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:37:51 IST] pre-vet REJECT [4MrKopOgVls] Kangaroo Jack (2003) - Dingoes and Sandstorms! (6/12) | Movieclips — bottom-left channel logo; flag:channel_logo
+[2026-11-26 19:37:53 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] PI6Q87pjO0o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:38:03 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] PI6Q87pjO0o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:38:03 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:38:06 IST] pre-vet REJECT [PI6Q87pjO0o] Friends with Benefits (2011) - I Wish Life Was a Movie Scene (4/10) |  — Movieclips channel logo present in the bottom left corner; flag:channel_logo
+[2026-11-26 19:38:08 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] w4cLYTFN6Uc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:38:18 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] w4cLYTFN6Uc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:38:18 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:38:22 IST] pre-vet REJECT [w4cLYTFN6Uc] Kangaroo Jack (2003) - DON'T CRASH! DON'T CRASH! (5/12) | Movieclips — Rotten Tomatoes Movieclips channel logo present in bottom left corner; flag:channel_logo
+[2026-11-26 19:38:24 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 0SCIHQlYK-M: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:38:33 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 0SCIHQlYK-M: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:38:33 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:38:36 IST] pre-vet REJECT [0SCIHQlYK-M] Kangaroo Jack (2003) - It's Not What It Looks Like... (2/12) | Moviecl — Rotten Tomatoes Movieclips logo in the bottom-left corner; flag:channel_logo
+[2026-11-26 19:38:38 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] _k55c7P3Sfs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:38:48 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] _k55c7P3Sfs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:38:48 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:38:51 IST] pre-vet REJECT [_k55c7P3Sfs] Gone With The Wind | 20 Film Collection Romance - "First Kiss" | Warne — Warner Bros. logo present in the bottom-left corner.; flag:watermark; flag:channel_logo
+[2026-11-26 19:38:53 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] xGAZ1TBs5Hg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:39:02 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] xGAZ1TBs5Hg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:39:02 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:39:12 IST] pre-vet REJECT [xGAZ1TBs5Hg] Gone With The Wind | The Golden Year Collection - First Kiss | Warner  — Warner Bros studio logo present in the bottom-left corner; flag:channel_logo
+[2026-11-26 19:39:14 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] a4LBnJ8i5Y0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:39:24 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] a4LBnJ8i5Y0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:39:24 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:39:25 IST] pre-vet REJECT [a4LBnJ8i5Y0] The Bridges of Madison County | "Pendant" Clip | Warner Bros. Entertai — Warner Bros. studio logo/bug present in the bottom-left corner; flag:channel_logo
+[2026-11-26 19:39:28 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] YkQWPU1k-KQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:39:37 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] YkQWPU1k-KQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:39:37 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:41:50 IST] pre-vet REJECT [YkQWPU1k-KQ] Club Kid | Official Clip | A24 — A24 channel/studio logo present in the top-right corner; flag:channel_logo
+[2026-11-26 19:41:52 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] fy_4vEL2E3g: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:42:02 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] fy_4vEL2E3g: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:42:02 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:42:05 IST] pre-vet REJECT [fy_4vEL2E3g] Club Kid | Official Clip | A24 — A24 studio logo/watermark present in the top-right corner; flag:channel_logo
+[2026-11-26 19:42:07 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] F6WWEvBUDcM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:42:17 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] F6WWEvBUDcM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:42:17 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:42:36 IST] pre-vet REJECT [F6WWEvBUDcM] Aapadbandhavudu Best Romantic Scene ❤️ | Chiranjeevi, Meenakshi Seshad — Channel logo present in the top-right corner; flag:channel_logo
+[2026-11-26 19:42:38 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 51v3oIptAhA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:42:48 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 51v3oIptAhA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:42:48 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:42:51 IST] pre-vet REJECT [51v3oIptAhA] Navdeep Doubts Siddharth & Shruti Haasan's Friendship | Oh My Friend | — Channel logo present in the top-left corner; flag:channel_logo
+[2026-11-26 19:42:53 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] T2ePLWDibcc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:43:02 IST] pre-vet error (will retry next run): T2ePLWDibcc sourcing + song + scan/plan took longer than 10 min -> skip attempt
+[2026-11-26 19:43:04 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] BFlai1r6Wlo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:43:14 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] BFlai1r6Wlo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:43:14 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:43:16 IST] pre-vet REJECT [BFlai1r6Wlo] Ambika Mod and Leo Woodall Share a Moment in the Maze | One Day | Netf — Contains Netflix logo in the top-left corner; Contains promotional overlay text and branding; flag:watermark; flag:channel_logo
+[2026-11-26 19:43:19 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] ugUcD23SLes: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:43:28 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] ugUcD23SLes: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:43:28 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:43:30 IST] gemini key12/gemini-3.5-flash-lite: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-26 19:43:54 IST] gemini key12/gemini-3.1-flash-lite: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-26 19:44:02 IST] pre-vet PASS [ugUcD23SLes] I Tried Animating The Riko Scene - CLIP STUDIO PAINT [Jujutsu Kaisen A
+[2026-11-26 19:44:04 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] ugUcD23SLes: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:44:14 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] ugUcD23SLes: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:44:14 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:44:14 IST] gemini key13/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:14 IST] gemini: key13 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:14 IST] gemini key1/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:14 IST] gemini: key1 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:14 IST] gemini key2/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:14 IST] gemini: key2 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:14 IST] gemini key3/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:14 IST] gemini: key3 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:14 IST] gemini key4/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:14 IST] gemini: key4 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:14 IST] gemini key5/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:14 IST] gemini: key5 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:15 IST] gemini key6/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:15 IST] gemini: key6 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:15 IST] gemini key7/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:15 IST] gemini: key7 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:15 IST] gemini key8/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:15 IST] gemini: key8 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:15 IST] gemini key9/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:15 IST] gemini: key9 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:15 IST] gemini key10/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:15 IST] gemini: key10 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:15 IST] gemini key12/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 19:44:15 IST] gemini: key12 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 19:44:15 IST] gemini discovery failed: all Gemini keys/models failed: key6/gemini-3.5-flash-lite: 429 You exceeded your current quota, please check your plan and billing details. For more information on | key7/gemini-3.5-flash-lite: 429 Yo
+[2026-11-26 19:44:15 IST] content thin for romance (0/4) -> fallback search (0 candidates)
+[2026-11-26 19:44:15 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single title for romance
+[2026-11-26 19:44:15 IST] category romance: no usable sources -> fallback to sports
+[2026-11-26 19:44:15 IST] attempt 1 FAIL in 673s: gather=673s
+[2026-11-26 19:44:15 IST] === in-sports-20261126-194415: platform=instagram category=sports format=shorts seed=1045601901
+[2026-11-26 19:45:01 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-26 19:45:02 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-26 19:45:04 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:45:14 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:45:14 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:45:16 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] -zd62MxKXp8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:45:26 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] -zd62MxKXp8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:45:26 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:45:28 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] DIc8gkrzjzQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:45:38 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] DIc8gkrzjzQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 19:45:38 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 19:45:38 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
+[2026-11-26 19:45:38 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-26 19:45:38 IST] content thin for sports (0/3) -> fallback search (0 candidates)
+[2026-11-26 19:45:38 IST] sports: no candidate names a star player (fallback)
+[2026-11-26 19:45:38 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single star player for sports
+[2026-11-26 19:45:38 IST] category sports: no usable sources -> fallback to gta
+[2026-11-26 19:45:38 IST] attempt 2 FAIL in 82s: gather=82s
+[2026-11-26 19:45:38 IST] === in-gta-20261126-194538: platform=instagram category=gta format=shorts seed=508830696
+[2026-11-26 19:45:53 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-26 19:45:53 IST] content thin for gta (0/6) -> fallback search (0 candidates)
+[2026-11-26 19:45:53 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-26 19:45:53 IST] category gta: no usable sources -> fallback to movie
+[2026-11-26 19:45:53 IST] attempt 3 FAIL in 15s: gather=15s
+[2026-11-26 19:45:53 IST] === in-movie-20261126-194553: platform=instagram category=movie format=shorts seed=988842924
+[2026-11-26 19:46:12 IST] x search failed: official movie clip scene Movieclips full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-26 19:46:13 IST] x search failed: official movie scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-26 19:46:13 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-26 19:46:13 IST] content thin for movie (0/4) -> fallback search (0 candidates)
+[2026-11-26 19:46:13 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single title for movie
+[2026-11-26 19:46:13 IST] category movie: no usable sources -> fallback to nothing (all skipped)
+[2026-11-26 19:46:13 IST] attempt 4 FAIL in 20s: gather=20s
+[2026-11-26 19:46:14 IST] no category has usable sources right now (skipped: ['gta', 'movie', 'romance', 'sports']) -> stop, box fetcher refills
+[2026-11-26 19:46:14 IST] step totals over 4 attempts: gather=13.2min -> slowest step: gather
+[2026-11-26 19:46:14 IST] queued box fetch request instagram-202611261946-romance
+[2026-11-26 19:46:14 IST] queued box fetch request instagram-202611261946-sports
+[2026-11-26 19:46:14 IST] queued box fetch request instagram-202611261946-gta
+[2026-11-26 19:46:14 IST] queued box fetch request instagram-202611261946-movie
+[2026-11-26 19:46:16 IST] cleanup sweep: freed 0.0 MB (0 files)
+[2026-11-26 19:46:16 IST] done: 0 made, 4 failed attempts; instagram buffer 0/7 — BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
+[2026-11-26 19:46:17 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
+[2026-11-26 19:46:20 IST] vc-ready manifest: 3 videos

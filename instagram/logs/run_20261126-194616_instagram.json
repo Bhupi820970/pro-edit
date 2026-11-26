@@ -1,0 +1,522 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "CategoryUnavailable: no clips of a single title for romance",
+  "CategoryUnavailable: no clips of a single star player for sports",
+  "CategoryUnavailable: only 0 clean sources for gta",
+  "CategoryUnavailable: no clips of a single title for movie"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "romance",
+   "ok": false,
+   "timings": {
+    "gather": 672.9,
+    "total": 672.9
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "sports",
+   "ok": false,
+   "timings": {
+    "gather": 82.4,
+    "total": 82.4
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 15.1,
+    "total": 15.1
+   }
+  },
+  {
+   "attempt": 4,
+   "category": "movie",
+   "ok": false,
+   "timings": {
+    "gather": 20.0,
+    "total": 20.0
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 790.4
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 4,
+  "vetted": 22,
+  "rejected": [
+   {
+    "id": "tRqfo0NBWiY",
+    "title": "Kangaroo Jack (2003) - The Best I Can Kiss (9/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes Movieclips logo in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "KIH_63D5ZKQ",
+    "title": "Kangaroo Jack (2003) - Farting Camels (7/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes Movieclips logo present in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "8JoOpx6VwHk",
+    "title": "Romeo + Juliet (1996) - Love at First Sight Scene (1/5) | Movieclips",
+    "reasons": [
+     "Movieclips channel logo present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "idEAbxVH-6I",
+    "title": "Kangaroo Jack (2003) - Kangaroo Jack's Baby! (12/12) | Movieclips",
+    "reasons": [
+     "bottom-left corner contains the Movieclips (Rotten Tomatoes) logo/bug",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "wMB5N5qi_VI",
+    "title": "Kangaroo Jack (2003) - Kangaroo Jack Loves Twizzlers! (4/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes Movieclips channel logo present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "OGkEzLq8Q7Y",
+    "title": "Kangaroo Jack (2003) - Michael Shannon Gets Balled! (11/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes / Movieclips logo present in the bottom left corner",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "36Ppv-btQRk",
+    "title": "Kangaroo Jack (2003) - Meet Kangaroo Jack (3/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes / Movieclips logo bug present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "92y27tmCLrw",
+    "title": "Kangaroo Jack (2003) - Wild Kangaroo Chase! (10/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes Movieclips logo present in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "QabzuhbsRRk",
+    "title": "Kangaroo Jack (2003) - Ants In His Pants (8/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes (RT) channel logo watermark present in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "Sa4KvWjgRuI",
+    "title": "Kangaroo Jack (2003) - Escape the Police! (1/12) | Movieclips",
+    "reasons": [
+     "The image contains a persistent channel logo/watermark in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "4MrKopOgVls",
+    "title": "Kangaroo Jack (2003) - Dingoes and Sandstorms! (6/12) | Movieclips",
+    "reasons": [
+     "bottom-left channel logo",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "PI6Q87pjO0o",
+    "title": "Friends with Benefits (2011) - I Wish Life Was a Movie Scene (4/10) | Movieclips",
+    "reasons": [
+     "Movieclips channel logo present in the bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "w4cLYTFN6Uc",
+    "title": "Kangaroo Jack (2003) - DON'T CRASH! DON'T CRASH! (5/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes Movieclips channel logo present in bottom left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "0SCIHQlYK-M",
+    "title": "Kangaroo Jack (2003) - It's Not What It Looks Like... (2/12) | Movieclips",
+    "reasons": [
+     "Rotten Tomatoes Movieclips logo in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "_k55c7P3Sfs",
+    "title": "Gone With The Wind | 20 Film Collection Romance - \"First Kiss\" | Warner Bros. Entertainment",
+    "reasons": [
+     "Warner Bros. logo present in the bottom-left corner.",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "xGAZ1TBs5Hg",
+    "title": "Gone With The Wind | The Golden Year Collection - First Kiss | Warner Bros. Entertainment",
+    "reasons": [
+     "Warner Bros studio logo present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "a4LBnJ8i5Y0",
+    "title": "The Bridges of Madison County | \"Pendant\" Clip | Warner Bros. Entertainment",
+    "reasons": [
+     "Warner Bros. studio logo/bug present in the bottom-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "YkQWPU1k-KQ",
+    "title": "Club Kid | Official Clip | A24",
+    "reasons": [
+     "A24 channel/studio logo present in the top-right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "fy_4vEL2E3g",
+    "title": "Club Kid | Official Clip | A24",
+    "reasons": [
+     "A24 studio logo/watermark present in the top-right corner",
+     "flag:channel_logo"
+    ],
+    "via": "official-channel"
+   },
+   {
+    "id": "F6WWEvBUDcM",
+    "title": "Aapadbandhavudu Best Romantic Scene ❤️ | Chiranjeevi, Meenakshi Seshadri | Telugu Movie Scenes",
+    "reasons": [
+     "Channel logo present in the top-right corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "51v3oIptAhA",
+    "title": "Navdeep Doubts Siddharth & Shruti Haasan's Friendship | Oh My Friend | Telugu Movie Scenes",
+    "reasons": [
+     "Channel logo present in the top-left corner",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "BFlai1r6Wlo",
+    "title": "Ambika Mod and Leo Woodall Share a Moment in the Maze | One Day | Netflix Philippines",
+    "reasons": [
+     "Contains Netflix logo in the top-left corner",
+     "Contains promotional overlay text and branding",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "romance",
+   "sports",
+   "gta",
+   "movie"
+  ],
+  "runner_skipped": 113,
+  "box_clips_used": 0,
+  "failed_ids": [
+   "ugUcD23SLes",
+   "VlhU9OrikSA",
+   "-zd62MxKXp8",
+   "DIc8gkrzjzQ"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.1-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.1-flash-lite",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-flash-lite-latest",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ],
+ "skipped_categories": [
+  "gta",
+  "movie",
+  "romance",
+  "sports"
+ ]
+}

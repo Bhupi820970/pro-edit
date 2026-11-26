@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:52:09.093512+05:30",
+ "updated": "2026-11-26T19:46:21.457098+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -30,30 +30,6 @@
  "ready": [],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-26T16:46:04.842977+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 15.47}}"
-  },
-  {
-   "at": "2026-11-26T16:52:15.747200+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 15.07}}"
-  },
-  {
-   "at": "2026-11-26T16:58:20.745968+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.93}}"
-  },
-  {
-   "at": "2026-11-26T17:04:26.000704+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.5}}"
-  },
   {
    "at": "2026-11-26T17:11:34.694041+05:30",
    "platform": "instagram",
@@ -119,6 +95,30 @@
    "platform": "instagram",
    "category": "romance",
    "error": "CategoryUnavailable: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-26T19:44:15.526043+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "CategoryUnavailable: no clips of a single title for romance"
+  },
+  {
+   "at": "2026-11-26T19:45:38.093934+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T19:45:53.268991+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T19:46:13.631499+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: no clips of a single title for movie"
   }
  ],
  "pattern_history": [
@@ -161,7 +161,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-26T18:41:22.164581+05:30",
-  "age_hours": 0.2,
+  "age_hours": 1.1,
   "healthy": true,
   "pool": {
    "gta": 16,
