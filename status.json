@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-26T23:10:59.612802+05:30",
+ "updated": "2026-11-26T23:49:50.234065+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
-   "ready": 3,
+   "ready": 2,
    "target": 7,
    "warning": true,
-   "produced_today": 45,
+   "produced_today": 47,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (3/7 ready)"
+   "message": "BACKUP LOW: refill youtube (2/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -26,169 +26,6 @@
   }
  },
  "ready": [
-  {
-   "id": "yo-gta-20261126-180400",
-   "platform": "youtube",
-   "category": "gta",
-   "format": "wide",
-   "state": "ready",
-   "created": "2026-11-26T18:17:33.257795+05:30",
-   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-180400.mp4",
-   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-180400.mp4",
-   "preview_mb": 22.0,
-   "size_mb": 147.5,
-   "title": "GTA 6 Vice City | Murder on the Dancefloor Edit",
-   "hook": "GTA 6 VICE CITY",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Murder on the Dancefloor\" – Sophie Ellis-Bextor (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Sophie%20Ellis-Bextor%20Murder%20on%20the%20Dancefloor\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Coming June 25\"; Rockstar Games – \"The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online\"; Rockstar Games – \"GTA Online: Agents of Sabotage Coming December 10\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Out Now\"; Rockstar Games – \"GTA Online: San Andreas Mercenaries Now Available\"; Rockstar Games – \"Battle Undead in the New GTA Online Cayo Perico Survival\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
-   "hashtags": [
-    "GTA6",
-    "GTAVI",
-    "GrandTheftAuto6",
-    "ViceCity",
-    "GTA6Edit",
-    "RockstarGames"
-   ],
-   "song": {
-    "title": "Murder on the Dancefloor",
-    "artist": "Sophie Ellis-Bextor",
-    "url": "",
-    "official_channel": "",
-    "spotify_search": "https://open.spotify.com/search/Sophie%20Ellis-Bextor%20Murder%20on%20the%20Dancefloor"
-   },
-   "song_credit": "\"Murder on the Dancefloor\" – Sophie Ellis-Bextor",
-   "pattern": {
-    "id": "P06",
-    "name": "Close + nudge to centre"
-   },
-   "captions": [],
-   "duration": 38.47,
-   "sources": [
-    {
-     "id": "HqZXw5M6qQY",
-     "src_id": "HqZXw5M6qQY",
-     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
-     "title": "Grand Theft Auto V: Michael",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
-    },
-    {
-     "id": "R3HS6owS3P8",
-     "src_id": "R3HS6owS3P8",
-     "path": "/mnt/ph/youtube/sources/R3HS6owS3P8.mkv",
-     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
-    },
-    {
-     "id": "P3NBd3UjH5Y",
-     "src_id": "P3NBd3UjH5Y",
-     "path": "/mnt/ph/youtube/sources/P3NBd3UjH5Y.mkv",
-     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
-    },
-    {
-     "id": "ewAODca-3Bw",
-     "src_id": "ewAODca-3Bw",
-     "path": "/mnt/ph/youtube/sources/ewAODca-3Bw.mkv",
-     "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=ewAODca-3Bw"
-    },
-    {
-     "id": "htg1EZE3LVk",
-     "src_id": "htg1EZE3LVk",
-     "path": "/mnt/ph/youtube/sources/htg1EZE3LVk.mkv",
-     "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=htg1EZE3LVk"
-    },
-    {
-     "id": "T3ZaWDcPiIo",
-     "src_id": "T3ZaWDcPiIo",
-     "path": "/mnt/ph/youtube/sources/T3ZaWDcPiIo.mkv",
-     "title": "GTA Online: Agents of Sabotage Coming December 10",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo"
-    },
-    {
-     "id": "_SgqsxXk8_E",
-     "src_id": "_SgqsxXk8_E",
-     "path": "/mnt/ph/youtube/sources/_SgqsxXk8_E.mkv",
-     "title": "GTA Online: Bottom Dollar Bounties Out Now",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E"
-    },
-    {
-     "id": "YlY9n7iM-5Q",
-     "src_id": "YlY9n7iM-5Q",
-     "path": "/mnt/ph/youtube/sources/YlY9n7iM-5Q.mkv",
-     "title": "GTA Online: San Andreas Mercenaries Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q"
-    },
-    {
-     "id": "GbuCIrZSPDk",
-     "src_id": "GbuCIrZSPDk",
-     "path": "/mnt/ph/youtube/sources/GbuCIrZSPDk.mkv",
-     "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.47
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2560x1440",
-      "want": "2560x1440"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -13.5
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": true
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 0
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "timings": {
-    "gather": 14.7,
-    "song": 0.4,
-    "beats": 0.6,
-    "scan_plan": 94.4,
-    "more_clips": 13.9,
-    "render": 619.5,
-    "gemini_meta": 0.0,
-    "qa": 9.8,
-    "preview": 59.5
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-180400.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-180400.preview.mp4"
-  },
   {
    "id": "yo-gta-20261126-181743",
    "platform": "youtube",
@@ -527,42 +364,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-26T15:45:42.019765+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 20.53}}"
-  },
-  {
-   "at": "2026-11-26T15:50:23.575542+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.93}}"
-  },
-  {
-   "at": "2026-11-26T15:55:18.880254+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.33}}"
-  },
-  {
-   "at": "2026-11-26T16:00:02.452618+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 19.17}}"
-  },
-  {
-   "at": "2026-11-26T16:04:44.146679+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.83}}"
-  },
-  {
-   "at": "2026-11-26T16:09:23.555751+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.7}}"
-  },
-  {
    "at": "2026-11-26T17:00:31.503489+05:30",
    "platform": "youtube",
    "category": "gta",
@@ -615,6 +416,42 @@
    "platform": "youtube",
    "category": "gta",
    "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T21:59:01.148946+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-26T22:25:54.061364+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"resolution\": {\"ok\": false, \"value\": \"2560x1440\", \"want\": \"2160x3840\"}}"
+  },
+  {
+   "at": "2026-11-26T22:46:26.421574+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "FileNotFoundError: [Errno 2] No such file or directory: '/mnt/ph/youtube/vcache/cuts/5fe0e7aa864703a887fd.mp4.part.mp4' -> '/mnt/ph/youtube/vcache/cuts/5fe0e7aa864703a887fd.mp4'"
+  },
+  {
+   "at": "2026-11-26T22:56:26.720416+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-26T23:13:05.118578+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "FileNotFoundError: [Errno 2] No such file or directory: '/mnt/ph/youtube/vcache/cuts/7291fdc97d7c4095cbd9.mp4.part.mp4' -> '/mnt/ph/youtube/vcache/cuts/7291fdc97d7c4095cbd9.mp4'"
+  },
+  {
+   "at": "2026-11-26T23:37:36.898388+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"resolution\": {\"ok\": false, \"value\": \"2560x1440\", \"want\": \"2160x3840\"}}"
   },
   {
    "at": "2026-11-26T18:51:24.241515+05:30",
@@ -708,20 +545,20 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-26T20:09:29.783799+05:30",
-  "age_hours": 3.0,
-  "healthy": false,
+  "last_run": "2026-11-26T21:09:43.255433+05:30",
+  "age_hours": 2.7,
+  "healthy": true,
   "pool": {
-   "gta": 15,
-   "gaming": 15,
-   "movie": 17,
-   "sports": 16,
-   "romance": 21,
+   "gta": 41,
+   "gaming": 25,
+   "movie": 26,
+   "sports": 26,
+   "romance": 26,
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 3h: check the box crontab entry for box/fetch_sources.sh"
+  "message": "OK"
  },
  "warning": true,
- "message": "BACKUP LOW: refill youtube (3/7 ready) | BACKUP LOW: refill instagram (0/7 ready)"
+ "message": "BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (0/7 ready)"
 }

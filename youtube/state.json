@@ -6883,100 +6883,6 @@
    "category": "gta",
    "at": "2026-11-23 08:22"
   },
-  "YlY9n7iM-5Q": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "action-packed military tactical heist",
-   "summary": "An official Rockstar Games gameplay showcase featuring combat, explosions, and tactical operations from GTA Online: San Andreas Mercenaries.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating and opening title cards"
-    },
-    {
-     "start": 26.0,
-     "end": 28.5,
-     "reason": "End slate with Play Now text and copyright info"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: San Andreas Mercenaries Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=YlY9n7iM-5Q",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-25 01:58"
-  },
-  "T7aaNEW7zA0": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "fast-paced street drift night",
-   "summary": "Official Rockstar Games showcase of drift tuning and events in GTA Online, featuring customized cars drifting through city streets and industrial areas.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 22.0,
-     "end": 29.0,
-     "reason": "Drift Event title card and end slate"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-25 02:00"
-  },
   "Ybq_FGtSCN8": {
    "accept": false,
    "reject_reasons": [
@@ -6993,103 +6899,6 @@
    "duration": 30.058667,
    "category": "gta",
    "at": "2026-11-25 02:03"
-  },
-  "YW9VXUgoG6w": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "action-packed criminal underworld heist",
-   "summary": "Official Rockstar Games upload showcasing GTA Online gameplay and cutscenes, featuring action sequences, servers, vehicles, and dialogue scenes.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.1,
-     "reason": "End title slate and legal text"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Agents of Sabotage Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=YW9VXUgoG6w",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-25 02:06"
-  },
-  "45--ZVLkmks": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "high-stakes criminal luxury",
-   "summary": "Official Rockstar Games showcase of a GTA Online safehouse property, featuring cinematic shots of the location, vehicles, and character interactions.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 9.0,
-     "end": 12.0,
-     "reason": "title card"
-    },
-    {
-     "start": 54.0,
-     "end": 57.0,
-     "reason": "title card"
-    }
-   ],
-   "characters": [
-    "Michael De Santa",
-    "Franklin Clinton"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    3.0,
-    10.46,
-    17.92,
-    25.38,
-    32.84,
-    40.3,
-    47.77,
-    55.23
-   ],
-   "title": "GTA Online: A Safehouse in the Hills Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=45--ZVLkmks",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 60.028,
-   "category": "gta",
-   "at": "2026-11-25 02:19"
   },
   "GJAs5sjujHg": {
    "accept": false,
@@ -7124,149 +6933,6 @@
    "duration": 30.069841,
    "category": "gta",
    "at": "2026-11-25 02:20"
-  },
-  "GbuCIrZSPDk": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "tense zombie survival action",
-   "summary": "Official Rockstar Games in-engine gameplay footage showcasing the Cayo Perico Zombie Survival update with hordes of undead attacking players.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 8.0,
-     "reason": "ESRB rating card and title transition slate"
-    },
-    {
-     "start": 25.0,
-     "end": 30.0,
-     "reason": "Play Now title card and copyright text"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "Battle Undead in the New GTA Online Cayo Perico Survival",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=GbuCIrZSPDk",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-25 02:20"
-  },
-  "APJ-lT0sBhg": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "action packed crime underworld",
-   "summary": "Official gameplay showcase featuring high-end safehouses, fast cars, intense highway shootouts, and dialogue scenes between characters.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 10.0,
-     "end": 11.0,
-     "reason": "title card"
-    },
-    {
-     "start": 54.5,
-     "end": 55.2,
-     "reason": "title card / end slate"
-    }
-   ],
-   "characters": [
-    "Michael De Santa"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    3.0,
-    10.46,
-    17.92,
-    25.38,
-    32.84,
-    40.3,
-    47.77,
-    55.23
-   ],
-   "title": "GTA Online: A Safehouse in the Hills Coming December 10",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 60.028,
-   "category": "gta",
-   "at": "2026-11-25 02:20"
-  },
-  "Sp1wvWZ_2MQ": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "fast paced crime action",
-   "summary": "Official gameplay and cinematic showcase for GTA Online: The Chop Shop featuring car customization, drifting, underwater exploration, and high speed chases.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "Title card and Play Now end slate"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.96,
-    12.69,
-    16.42,
-    20.15,
-    23.88,
-    27.61
-   ],
-   "title": "GTA Online: The Chop Shop Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=Sp1wvWZ_2MQ",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.008,
-   "category": "gta",
-   "at": "2026-11-25 06:46"
   },
   "w2BiBSiw0ow": {
    "accept": false,
@@ -7634,60 +7300,6 @@
    "category": "gta",
    "at": "2026-11-26 08:06"
   },
-  "HqZXw5M6qQY": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "gritty cinematic crime drama",
-   "summary": "Official character showcase for Michael from Grand Theft Auto V, displaying his home life, criminal activities, driving, and action sequences.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 2.0,
-     "end": 6.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 12.0,
-     "end": 15.0,
-     "reason": "Character name title card"
-    },
-    {
-     "start": 69.0,
-     "end": 74.0,
-     "reason": "Logo slate and pre-order release date end card"
-    }
-   ],
-   "characters": [
-    "Michael De Santa"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    3.88,
-    13.52,
-    23.17,
-    32.81,
-    42.45,
-    52.09,
-    61.74,
-    71.38
-   ],
-   "title": "Grand Theft Auto V: Michael",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY",
-   "via": "box-fetch",
-   "height": 1080,
-   "duration": 77.588,
-   "category": "gta",
-   "at": "2026-11-26 08:06"
-  },
   "olEGtoYs_8A": {
    "accept": false,
    "official_quality": true,
@@ -7787,309 +7399,6 @@
    "category": "gta",
    "at": "2026-11-26 11:51"
   },
-  "R3HS6owS3P8": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "action-packed criminal heist",
-   "summary": "Official gameplay and cutscene showcase of the GTA Online Cluckin Bell Farm Raid update featuring heist planning, shootouts, and tactical action.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "Title card and play now end slate"
-    }
-   ],
-   "characters": [
-    "Vincent Effenburger"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=R3HS6owS3P8",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
-  "htg1EZE3LVk": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "tense criminal heist action",
-   "summary": "Official game update showcase featuring characters planning and executing a raid on a Cluckin Bell facility with intense shootouts and vehicle chases.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "Title card and release date screen"
-    }
-   ],
-   "characters": [
-    "Vincent Effenburger",
-    "Player character"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=htg1EZE3LVk",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
-  "P3NBd3UjH5Y": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": false,
-   "mood": "action-packed criminal underworld",
-   "summary": "Official gameplay and cinematic trailer footage showcasing criminal enterprise updates in Los Santos with motorcycle clubs, weapons, and tactical operations.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 53.0,
-     "end": 55.2,
-     "reason": "Title card and release date logo slate"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    3.0,
-    10.46,
-    17.92,
-    25.38,
-    32.84,
-    40.3,
-    47.77,
-    55.23
-   ],
-   "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 60.028,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
-  "_SgqsxXk8_E": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "intense criminal bounty hunting",
-   "summary": "Official gameplay showcase for the GTA Online Bottom Dollar Bounties update featuring character interactions and action sequences.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 8.0,
-     "end": 10.0,
-     "reason": "Title card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "End slate with text"
-    }
-   ],
-   "characters": [
-    "Maude Eccles",
-    "Jenette Eccles"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Bottom Dollar Bounties Out Now",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
-  "T3ZaWDcPiIo": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "action-packed criminal heist thriller",
-   "summary": "Official update showcase footage for GTA Online featuring cinematic scenes, tactical operations, and police chases.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "Title and release date slate"
-    }
-   ],
-   "characters": [],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Agents of Sabotage Coming December 10",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
-  "ewAODca-3Bw": {
-   "accept": true,
-   "official_quality": true,
-   "watermark": false,
-   "channel_logo": false,
-   "burned_subtitles": false,
-   "hud_overlay": false,
-   "editable": true,
-   "has_dialogue": true,
-   "mood": "tense crime action",
-   "summary": "Official gameplay showcase and update preview for GTA Online Bottom Dollar Bounties featuring bounty hunting action and cutscenes.",
-   "reject_reasons": [],
-   "bad_ranges": [
-    {
-     "start": 0.0,
-     "end": 3.0,
-     "reason": "ESRB rating card"
-    },
-    {
-     "start": 8.0,
-     "end": 10.5,
-     "reason": "Title card"
-    },
-    {
-     "start": 22.0,
-     "end": 25.5,
-     "reason": "Title card fade"
-    },
-    {
-     "start": 26.0,
-     "end": 29.0,
-     "reason": "End slate with release date and legal text"
-    }
-   ],
-   "characters": [
-    "Maude Frasier",
-    "Player Character"
-   ],
-   "checked_by": "gemini",
-   "vet_via": "keyframes",
-   "keyframe_times": [
-    1.5,
-    5.23,
-    8.97,
-    12.7,
-    16.43,
-    20.16,
-    23.89,
-    27.63
-   ],
-   "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
-   "channel": "Rockstar Games",
-   "credit": "Rockstar Games",
-   "url": "https://www.youtube.com/watch?v=ewAODca-3Bw",
-   "via": "box-fetch",
-   "height": 1440,
-   "duration": 30.028,
-   "category": "gta",
-   "at": "2026-11-26 11:51"
-  },
   "lw8wKR0_E9o": {
    "accept": false,
    "reject_reasons": [
@@ -8106,6 +7415,601 @@
    "via": "youtube-search",
    "category": "gaming",
    "at": "2026-11-26 14:22"
+  },
+  "YeMRixqvjog": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "cinematic superhero action",
+   "summary": "A compilation of cinematic scenes and gameplay footage from Marvel's Spider-Man 2 featuring Peter Parker and Miles Morales.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 8.0,
+     "end": 9.0,
+     "reason": "title card"
+    }
+   ],
+   "characters": [
+    "Peter Parker",
+    "Miles Morales",
+    "Dr. Otto Octavius"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    8.4,
+    29.28,
+    50.16,
+    71.03,
+    91.91,
+    112.79,
+    133.67,
+    154.55,
+    91.91
+   ],
+   "title": "Marvel's Spider-Man 2 - The Story So Far | PS5 Games",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=YeMRixqvjog",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 167.988,
+   "category": "gaming",
+   "at": "2026-11-26 16:20"
+  },
+  "is1iINNnzuw": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "whimsical fairy tale adventure",
+   "summary": "A promotional trailer for the Shrek 2 Remastered game featuring storybook narration, gameplay clips, and title cards.",
+   "reject_reasons": [
+    "This is a promotional trailer, not a full scene or gameplay highlight.",
+    "Contains persistent text overlays, title cards, and game HUD elements throughout the footage.",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 60.0,
+     "reason": "Entire video is a promotional trailer with persistent text, HUD, and title cards."
+    }
+   ],
+   "characters": [
+    "Shrek",
+    "Fiona",
+    "Donkey",
+    "Puss in Boots",
+    "Gingy"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.14,
+    10.96,
+    18.78,
+    26.59,
+    34.41,
+    42.22,
+    50.04,
+    57.86,
+    34.41
+   ],
+   "title": "Shrek 2 Remastered - Launch Trailer | PS5 Games",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=is1iINNnzuw",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 62.888,
+   "category": "gaming",
+   "at": "2026-11-26 16:20"
+  },
+  "zyxriGmW3BI": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "dark fantasy tactical combat",
+   "summary": "A promotional trailer for Monster Train 2: The Punished featuring gameplay footage heavily overlaid with UI elements, text cards, and promotional graphics.",
+   "reject_reasons": [
+    "trailer",
+    "text_overlay",
+    "hud_overlay",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0,
+     "end": 55
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.84,
+    9.89,
+    16.95,
+    24.0,
+    31.06,
+    38.12,
+    45.17,
+    52.23,
+    31.06
+   ],
+   "title": "Monster Train 2: The Punished - Launch Trailer | PS5 Games",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=zyxriGmW3BI",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 56.768,
+   "category": "gaming",
+   "at": "2026-11-26 16:20"
+  },
+  "AFTFrcYAJ0Y": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Call of Duty: Modern Warfare 4 - Campaign Trailer | PS5 Games",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=AFTFrcYAJ0Y",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-26 16:21"
+  },
+  "arbZ8n0OmkM": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top left corner",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Call of Duty: Modern Warfare 4 - Multiplayer Trailer | PS5 Games",
+   "channel": "PlayStation",
+   "credit": "PlayStation",
+   "url": "https://www.youtube.com/watch?v=arbZ8n0OmkM",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-26 16:21"
+  },
+  "pHJmfFFsYLs": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "dark cinematic sci-fi war",
+   "summary": "A cinematic opening sequence from Halo Infinite featuring space vistas, intense combat in a futuristic facility, and Master Chief.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    5.42,
+    18.9,
+    32.38,
+    45.86,
+    59.34,
+    72.82,
+    86.29,
+    99.77,
+    59.34
+   ],
+   "title": "Halo Infinite | Campaign Opening Cutscene",
+   "channel": "HALO",
+   "credit": "HALO",
+   "url": "https://www.youtube.com/watch?v=pHJmfFFsYLs",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 108.448,
+   "category": "gaming",
+   "at": "2026-11-26 16:30"
+  },
+  "HZtc5-syeAk": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "epic sci-fi combat",
+   "summary": "Gameplay premiere of Halo Infinite featuring cinematic cutscenes and first-person combat with HUD elements.",
+   "reject_reasons": [
+    "Persistent game HUD (minimap, ammo counter, reticle) present in gameplay footage.",
+    "flag:hud_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 160.6,
+     "end": 230.0,
+     "reason": "HUD overlay"
+    },
+    {
+     "start": 227.4,
+     "end": 295.0,
+     "reason": "HUD overlay"
+    },
+    {
+     "start": 361.1,
+     "end": 430.0,
+     "reason": "HUD overlay"
+    },
+    {
+     "start": 427.9,
+     "end": 495.0,
+     "reason": "HUD overlay"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    26.89,
+    93.73,
+    160.56,
+    227.4,
+    294.24,
+    361.07,
+    427.91,
+    494.75,
+    294.24
+   ],
+   "title": "Halo Infinite | Campaign Gameplay Premiere – 8 Minute Demo",
+   "channel": "HALO",
+   "credit": "HALO",
+   "url": "https://www.youtube.com/watch?v=HZtc5-syeAk",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 537.768,
+   "category": "gaming",
+   "at": "2026-11-26 16:32"
+  },
+  "tgn8VOv9dc0": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "futuristic sci-fi action",
+   "summary": "The footage contains a mix of cinematic cutscenes and gameplay from Halo Infinite. However, it is heavily laden with game HUD elements (minimap, weapon status, ammo count) and menu screens (upgrade menu), which makes it unsuitable for a clean fan-edit.",
+   "reject_reasons": [
+    "hud_overlay",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 113.7,
+     "end": 113.7,
+     "reason": "on-screen text and UI elements"
+    },
+    {
+     "start": 255.7,
+     "end": 255.7,
+     "reason": "game HUD"
+    },
+    {
+     "start": 303.1,
+     "end": 303.1,
+     "reason": "menu screen"
+    }
+   ],
+   "characters": [
+    "Master Chief"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    19.04,
+    66.38,
+    113.72,
+    161.06,
+    208.4,
+    255.74,
+    303.08,
+    350.42,
+    208.4
+   ],
+   "title": "Halo Infinite | Campaign Overview",
+   "channel": "HALO",
+   "credit": "HALO",
+   "url": "https://www.youtube.com/watch?v=tgn8VOv9dc0",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 380.888,
+   "category": "gaming",
+   "at": "2026-11-26 16:34"
+  },
+  "uMzXH1QJx6M": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "neon cyberpunk city",
+   "summary": "The footage is an official feature overview for the Cyberpunk 2077 Edgerunners update, but it is heavily laden with persistent text overlays and UI elements throughout almost every frame.",
+   "reject_reasons": [
+    "persistent text overlays",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 17.2,
+     "end": 20.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 29.5,
+     "end": 32.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 41.8,
+     "end": 45.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 54.1,
+     "end": 58.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 66.3,
+     "end": 70.0,
+     "reason": "game UI/menu"
+    },
+    {
+     "start": 78.6,
+     "end": 82.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 90.9,
+     "end": 95.0,
+     "reason": "title card"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    4.94,
+    17.22,
+    29.5,
+    41.78,
+    54.06,
+    66.34,
+    78.62,
+    90.9,
+    54.06
+   ],
+   "title": "Cyberpunk 2077 | Edgerunners 2 Update Features Overview",
+   "channel": "Cyberpunk 2077",
+   "credit": "Cyberpunk 2077",
+   "url": "https://www.youtube.com/watch?v=uMzXH1QJx6M",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 98.808,
+   "category": "gaming",
+   "at": "2026-11-26 16:57"
+  },
+  "5cpemfInVNA": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "futuristic neon city",
+   "summary": "The footage is a promotional overview of the Cyberpunk 2077 Edgerunners update, containing persistent text overlays and UI elements throughout most of the clips.",
+   "reject_reasons": [
+    "persistent text overlays",
+    "promotional content",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 17.2,
+     "end": 20.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 29.5,
+     "end": 32.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 41.8,
+     "end": 45.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 54.1,
+     "end": 58.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 66.4,
+     "end": 70.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 78.7,
+     "end": 82.0,
+     "reason": "text overlay"
+    },
+    {
+     "start": 90.9,
+     "end": 95.0,
+     "reason": "title card"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    4.94,
+    17.23,
+    29.51,
+    41.8,
+    54.08,
+    66.37,
+    78.65,
+    90.94,
+    54.08
+   ],
+   "title": "Cyberpunk 2077 - Official Edgerunners 2 Update Features Overview",
+   "channel": "XboxViewTV",
+   "credit": "XboxViewTV",
+   "url": "https://www.youtube.com/watch?v=5cpemfInVNA",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 98.848,
+   "category": "gaming",
+   "at": "2026-11-26 16:58"
+  },
+  "tqLMoW7oEbA": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "gritty western atmosphere",
+   "summary": "A montage of cinematic gameplay and cutscenes from Red Dead Redemption: Undead Nightmare, featuring horseback riding, character interactions, and atmospheric environments.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 57.0,
+     "end": 60.0,
+     "reason": "title card"
+    }
+   ],
+   "characters": [
+    "John Marston"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.1,
+    10.81,
+    18.51,
+    26.22,
+    33.93,
+    41.63,
+    49.34,
+    57.05,
+    33.93
+   ],
+   "title": "Red Dead Redemption: Out Now on Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=tqLMoW7oEbA",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 62.008,
+   "category": "gaming",
+   "at": "2026-11-26 16:59"
+  },
+  "SlkizyzZ8k4": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "gritty western gothic",
+   "summary": "A montage of cinematic gameplay and cutscenes from Red Dead Redemption: Undead Nightmare, featuring horseback riding, character interactions, and action sequences.",
+   "reject_reasons": [],
+   "bad_ranges": [
+    {
+     "start": 57.0,
+     "end": 60.0,
+     "reason": "title card"
+    }
+   ],
+   "characters": [
+    "John Marston"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.1,
+    10.81,
+    18.51,
+    26.22,
+    33.93,
+    41.63,
+    49.34,
+    57.05,
+    33.93
+   ],
+   "title": "Red Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=SlkizyzZ8k4",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 62.008,
+   "category": "gaming",
+   "at": "2026-11-26 17:01"
   }
  },
  "videos": [
@@ -14810,6 +14714,253 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-183011.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-183011.preview.mp4"
+  },
+  {
+   "id": "yo-gaming-20261126-215901",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T22:25:54.039364+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261126-215901.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261126-215901.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 158.0,
+   "title": "Halo Infinite: The Return of the Chief",
+   "hook": "THE CHIEF IS BACK",
+   "description": "Master Chief returns in style with Biggie Smalls. Who is your favorite Halo character? 🎮\n\n🎵 Song: \"Hypnotize\" – The Notorious B.I.G. (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Notorious%20B.I.G.%20Hypnotize\n🎬 Footage: HALO – \"Halo Infinite | Campaign Opening Cutscene\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#halo #haloinfinite #masterchief #gaming #haloedit #haloeditcommunity #haloinfinitecampaign #biggiesmalls #hypnotize #gamingedit #xbox #microsoft #fps #haloforever #halofans #haloarmy #haloinfinitegameplay #haloeditvids #vicecartel #gamingcommunity #halomemes #xboxseriesx #GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "halo",
+    "haloinfinite",
+    "masterchief",
+    "gaming",
+    "haloedit",
+    "haloeditcommunity",
+    "haloinfinitecampaign",
+    "biggiesmalls",
+    "hypnotize",
+    "gamingedit",
+    "xbox",
+    "microsoft",
+    "fps",
+    "haloforever",
+    "halofans",
+    "haloarmy",
+    "haloinfinitegameplay",
+    "haloeditvids",
+    "vicecartel",
+    "gamingcommunity",
+    "halomemes",
+    "xboxseriesx",
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Hypnotize",
+    "artist": "The Notorious B.I.G.",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/The%20Notorious%20B.I.G.%20Hypnotize"
+   },
+   "song_credit": "\"Hypnotize\" – The Notorious B.I.G.",
+   "pattern": {
+    "id": "P11",
+    "name": "Even mix"
+   },
+   "captions": [],
+   "duration": 38.53,
+   "sources": [
+    {
+     "id": "pHJmfFFsYLs",
+     "src_id": "pHJmfFFsYLs",
+     "path": "/mnt/ph/youtube/sources/pHJmfFFsYLs.mkv",
+     "title": "Halo Infinite | Campaign Opening Cutscene",
+     "credit": "HALO",
+     "url": "https://www.youtube.com/watch?v=pHJmfFFsYLs"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.53
+     },
+     "resolution": {
+      "ok": false,
+      "value": "2560x1440",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.4
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 556.6,
+    "song": 193.3,
+    "beats": 0.9,
+    "scan_plan": 40.7,
+    "render": 704.8,
+    "gemini_meta": 45.4,
+    "qa": 9.4,
+    "preview": 61.5
+   }
+  },
+  {
+   "id": "yo-gaming-20261126-231305",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-26T23:37:36.874716+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261126-231305.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261126-231305.mp4",
+   "preview_mb": 22.3,
+   "size_mb": 147.9,
+   "title": "Red Dead Redemption: The Ultimate Expansion",
+   "hook": "RDR IS FINALLY HERE",
+   "description": "The legend returns to every platform. Which device are you playing on? 🤠\n\n🎵 Song: \"Blue Monday\" – New Order (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=c1GxjzHm5us\n🎧 Spotify: https://open.spotify.com/search/New%20Order%20Blue%20Monday\n🎬 Footage: Rockstar Games – \"Red Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2\"; Rockstar Games – \"Red Dead Redemption: Out Now on Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#reddeadredemption #rockstargames #netflixgames #rdr #reddead #gaming #ps5 #xboxseriesx #nintendoswitch2 #iosgaming #androidgaming #xbox #playstation #neworder #bluemonday #fanedit #vicecartel #wildwest #openworld #cowboy #rockstar #gamingcommunity #GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "reddeadredemption",
+    "rockstargames",
+    "netflixgames",
+    "rdr",
+    "reddead",
+    "gaming",
+    "ps5",
+    "xboxseriesx",
+    "nintendoswitch2",
+    "iosgaming",
+    "androidgaming",
+    "xbox",
+    "playstation",
+    "neworder",
+    "bluemonday",
+    "fanedit",
+    "vicecartel",
+    "wildwest",
+    "openworld",
+    "cowboy",
+    "rockstar",
+    "gamingcommunity",
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Blue Monday",
+    "artist": "New Order",
+    "url": "https://www.youtube.com/watch?v=c1GxjzHm5us",
+    "official_channel": "New Order",
+    "spotify_search": "https://open.spotify.com/search/New%20Order%20Blue%20Monday"
+   },
+   "song_credit": "\"Blue Monday\" – New Order",
+   "pattern": {
+    "id": "P12",
+    "name": "Upper/lower tick-tock beside"
+   },
+   "captions": [],
+   "duration": 38.83,
+   "sources": [
+    {
+     "id": "SlkizyzZ8k4",
+     "src_id": "SlkizyzZ8k4",
+     "path": "/mnt/ph/youtube/sources/SlkizyzZ8k4.mkv",
+     "title": "Red Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=SlkizyzZ8k4"
+    },
+    {
+     "id": "tqLMoW7oEbA",
+     "src_id": "tqLMoW7oEbA",
+     "path": "/mnt/ph/youtube/sources/tqLMoW7oEbA.mkv",
+     "title": "Red Dead Redemption: Out Now on Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=tqLMoW7oEbA"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.83
+     },
+     "resolution": {
+      "ok": false,
+      "value": "2560x1440",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2560x1440"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.4
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 186.3,
+    "song": 160.9,
+    "beats": 1.1,
+    "scan_plan": 3.3,
+    "more_clips": 370.5,
+    "render": 649.9,
+    "gemini_meta": 31.7,
+    "qa": 10.0,
+    "preview": 57.8
+   }
   }
  ],
  "listing_cache": {
@@ -18347,6 +18498,2160 @@
     "channel": "Naughty Dog",
     "verified": true
    }
+  ],
+  "https://www.youtube.com/@SantaMonicaStudio/videos|2026-11-26": [
+   {
+    "id": "7M-Rx4RHrJA",
+    "title": "God of War - Worlds Collide Podcast Episode 2: The No-Cut Camera",
+    "duration": 3287,
+    "url": "https://www.youtube.com/watch?v=7M-Rx4RHrJA",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "fD-SWOSRU8Y",
+    "title": "God of War - Worlds Collide Podcast Episode 3: Raising Atreus for Battle",
+    "duration": 3379,
+    "url": "https://www.youtube.com/watch?v=fD-SWOSRU8Y",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "ew4wVJSML5g",
+    "title": "God of War - Worlds Collide Podcast Episode 1: Fitting A Side Quest in Anywhere",
+    "duration": 3004,
+    "url": "https://www.youtube.com/watch?v=ew4wVJSML5g",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "8hJ9OGVuDXA",
+    "title": "Santa Monica Studio - Tips and Advice How To Structure Your Animation Reel",
+    "duration": 55,
+    "url": "https://www.youtube.com/watch?v=8hJ9OGVuDXA",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "T5wDYUuw9Pc",
+    "title": "Inspiring A New Generation",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=T5wDYUuw9Pc",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "edbb0TPASqo",
+    "title": "God of War: Raising Kratos - Announce Trailer",
+    "duration": 145,
+    "url": "https://www.youtube.com/watch?v=edbb0TPASqo",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "u1M3ZZBnX2I",
+    "title": "God of War - Thank You",
+    "duration": 246,
+    "url": "https://www.youtube.com/watch?v=u1M3ZZBnX2I",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "EMYOJVQ8waI",
+    "title": "God of War Greek Era Development Stories with Cory Barlog",
+    "duration": 1053,
+    "url": "https://www.youtube.com/watch?v=EMYOJVQ8waI",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "1kg0rbelolc",
+    "title": "God of War Audiobook Novelization - Introducing Mimir",
+    "duration": 76,
+    "url": "https://www.youtube.com/watch?v=1kg0rbelolc",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "4ltbOYxa7Ck",
+    "title": "God of War - Boat Docking",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=4ltbOYxa7Ck",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "7oc88Wtj14g",
+    "title": "God of War - Kratos Paddling",
+    "duration": 37,
+    "url": "https://www.youtube.com/watch?v=7oc88Wtj14g",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "dJgs-rJ-no8",
+    "title": "Baldur Fight Prototype",
+    "duration": 116,
+    "url": "https://www.youtube.com/watch?v=dJgs-rJ-no8",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "AwvwFo7Ier8",
+    "title": "Baldur Phase 3 Attacks",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=AwvwFo7Ier8",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "boFbn1KP8cQ",
+    "title": "Baldur Fight Uppercut",
+    "duration": 17,
+    "url": "https://www.youtube.com/watch?v=boFbn1KP8cQ",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "H376-6u0w_4",
+    "title": "Baldur Fight Tree Ram",
+    "duration": 25,
+    "url": "https://www.youtube.com/watch?v=H376-6u0w_4",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "3CODuejlFKs",
+    "title": "Baldur Fight Statue Break",
+    "duration": 22,
+    "url": "https://www.youtube.com/watch?v=3CODuejlFKs",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "zOtklDMrvTA",
+    "title": "Baldur Fight Intro",
+    "duration": 26,
+    "url": "https://www.youtube.com/watch?v=zOtklDMrvTA",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "d_H9KrX6ejk",
+    "title": "Baldur Fight - Axe Counter-Attack",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=d_H9KrX6ejk",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "4ob8FyI8WTE",
+    "title": "God of War - Feed Us",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=4ob8FyI8WTE",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "5WA7sC0cdIU",
+    "title": "God of War - Find It",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=5WA7sC0cdIU",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "uTy4I3fRdQg",
+    "title": "God of War - Found It",
+    "duration": 69,
+    "url": "https://www.youtube.com/watch?v=uTy4I3fRdQg",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "JYf4drzTHrk",
+    "title": "God of War - Got It",
+    "duration": 45,
+    "url": "https://www.youtube.com/watch?v=JYf4drzTHrk",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "_KjggkbQRZs",
+    "title": "God of War - Keep Moving",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=_KjggkbQRZs",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "5mI2rle9iPY",
+    "title": "God of War - A New Beginning",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=5mI2rle9iPY",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "bFz3qJ9f6wQ",
+    "title": "God of War - Shoot It!",
+    "duration": 44,
+    "url": "https://www.youtube.com/watch?v=bFz3qJ9f6wQ",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "RHQhgmTlZ8E",
+    "title": "God of War - Show Me You Are Ready",
+    "duration": 43,
+    "url": "https://www.youtube.com/watch?v=RHQhgmTlZ8E",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "qfKFQlvTL8E",
+    "title": "God of War - So Sorry",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=qfKFQlvTL8E",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   },
+   {
+    "id": "CzhEbcJE470",
+    "title": "God of War - Time For You To Learn",
+    "duration": 52,
+    "url": "https://www.youtube.com/watch?v=CzhEbcJE470",
+    "channel": "Santa Monica Studio",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@InsomniacGames/videos|2026-11-26": [
+   {
+    "id": "XSpBmATCcxs",
+    "title": "Marvel's Wolverine - Release Date",
+    "duration": 7,
+    "url": "https://www.youtube.com/watch?v=XSpBmATCcxs",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "__Z9nVANhAk",
+    "title": "Insomniac Games – Our Future Legacy",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=__Z9nVANhAk",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "cCnoXxV0ybg",
+    "title": "Insomniac Games | 30th Anniversary Community Day Recap",
+    "duration": 84,
+    "url": "https://www.youtube.com/watch?v=cCnoXxV0ybg",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "ncfr-BR2T48",
+    "title": "COMMUNITY SPOTLIGHT | MARCH 2023",
+    "duration": 83,
+    "url": "https://www.youtube.com/watch?v=ncfr-BR2T48",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "1Exy_Nlo5T4",
+    "title": "COMMUNITY SPOTLIGHT | JANUARY 2023",
+    "duration": 83,
+    "url": "https://www.youtube.com/watch?v=1Exy_Nlo5T4",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "5biXbuyfuJU",
+    "title": "Community Spotlight | November 2022",
+    "duration": 83,
+    "url": "https://www.youtube.com/watch?v=5biXbuyfuJU",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "QKB0OimKTEY",
+    "title": "Ratchet & Clank: Rift Apart - Announcement Trailer | PS5",
+    "duration": 141,
+    "url": "https://www.youtube.com/watch?v=QKB0OimKTEY",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "3fB5e9zEc5Q",
+    "title": "Insomniac Games Studio Redesign Tour 2020",
+    "duration": 128,
+    "url": "https://www.youtube.com/watch?v=3fB5e9zEc5Q",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "hVrf9x1QeIw",
+    "title": "Stormland | Accolades Trailer",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=hVrf9x1QeIw",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "xS3sXJmvpTI",
+    "title": "Strangelets | Magic Leap One",
+    "duration": 72,
+    "url": "https://www.youtube.com/watch?v=xS3sXJmvpTI",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "5a-DPaSzQk0",
+    "title": "Why I Work at Insomniac: Abdul Bezrati",
+    "duration": 64,
+    "url": "https://www.youtube.com/watch?v=5a-DPaSzQk0",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "Q9t8TTB1JMw",
+    "title": "Stormland Developer Livestream Recap – Crafting the World",
+    "duration": 294,
+    "url": "https://www.youtube.com/watch?v=Q9t8TTB1JMw",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "hDcEjl6YODo",
+    "title": "Why I Work at Insomniac: Jess Reed",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=hDcEjl6YODo",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "o8u3mQFJads",
+    "title": "Why I Work at Insomniac: Herman Miller",
+    "duration": 53,
+    "url": "https://www.youtube.com/watch?v=o8u3mQFJads",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "MiX1pkSfFQ8",
+    "title": "Why I Work at Insomniac: Brandi Wilcox",
+    "duration": 44,
+    "url": "https://www.youtube.com/watch?v=MiX1pkSfFQ8",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "E5N-YXDmH68",
+    "title": "Why I Work at Insomniac: Shaun McCabe",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=E5N-YXDmH68",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "ET1--eMke2Y",
+    "title": "Why I Work at Insomniac: Lauren Ng",
+    "duration": 51,
+    "url": "https://www.youtube.com/watch?v=ET1--eMke2Y",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "Cn88gZcxp1Q",
+    "title": "Why I Work at Insomniac: James Ham",
+    "duration": 52,
+    "url": "https://www.youtube.com/watch?v=Cn88gZcxp1Q",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "jMwRNQ5im98",
+    "title": "Why I Work at Insomniac: Brian Allgeier",
+    "duration": 54,
+    "url": "https://www.youtube.com/watch?v=jMwRNQ5im98",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "miUAwdZb13g",
+    "title": "Why I Work at Insomniac: Dwight Okahara",
+    "duration": 54,
+    "url": "https://www.youtube.com/watch?v=miUAwdZb13g",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "Vi0uhH8XVBQ",
+    "title": "Insomniac Games Turns 25: A Message from CEO/Founder Ted Price",
+    "duration": 137,
+    "url": "https://www.youtube.com/watch?v=Vi0uhH8XVBQ",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "wM39zhRlbZo",
+    "title": "Insomniac Live - Red Dead Online",
+    "duration": 4932,
+    "url": "https://www.youtube.com/watch?v=wM39zhRlbZo",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "MKJ2MAdruak",
+    "title": "Insomniac Live - Super Smash Bros: Ultimate",
+    "duration": 4590,
+    "url": "https://www.youtube.com/watch?v=MKJ2MAdruak",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "KpsNmT80pXU",
+    "title": "Insomniac Live - Variety Stream!",
+    "duration": 5198,
+    "url": "https://www.youtube.com/watch?v=KpsNmT80pXU",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "AKjHzvkrD5k",
+    "title": "Insomniac Live - Hitman 2",
+    "duration": 4557,
+    "url": "https://www.youtube.com/watch?v=AKjHzvkrD5k",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "tqLaJ-vjdog",
+    "title": "Insomniac Live - DmC: Devil May Cry",
+    "duration": 5385,
+    "url": "https://www.youtube.com/watch?v=tqLaJ-vjdog",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "z_dpPKzQnvA",
+    "title": "Insomniac Live - Super Smash Bros: Ultimate",
+    "duration": 4774,
+    "url": "https://www.youtube.com/watch?v=z_dpPKzQnvA",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "3ZQ4zpyqxj4",
+    "title": "Insomniac Live - Sea of Thieves",
+    "duration": 4702,
+    "url": "https://www.youtube.com/watch?v=3ZQ4zpyqxj4",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "JRVRZw-tm9Y",
+    "title": "Insomniac Live - Assassin's Creed Odyssey",
+    "duration": 3347,
+    "url": "https://www.youtube.com/watch?v=JRVRZw-tm9Y",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "YNl2nQhBs48",
+    "title": "Insomniac Live - Sunset Overdrive (PC) - Part 5",
+    "duration": 4840,
+    "url": "https://www.youtube.com/watch?v=YNl2nQhBs48",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "Sx5elQo4sBo",
+    "title": "Insomniac Live - Sunset Overdrive (PC) - Part 4",
+    "duration": 4168,
+    "url": "https://www.youtube.com/watch?v=Sx5elQo4sBo",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "gAQeICyxweM",
+    "title": "Insomniac Live - Sea of Thieves",
+    "duration": 5044,
+    "url": "https://www.youtube.com/watch?v=gAQeICyxweM",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "LbirmCxJcPo",
+    "title": "Insomniac Live - Sunset Overdrive (PC) - Part 2",
+    "duration": 5166,
+    "url": "https://www.youtube.com/watch?v=LbirmCxJcPo",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "7MasFajuCf8",
+    "title": "Insomniac Live - Sunset Overdrive (PC) - Part 3",
+    "duration": 4404,
+    "url": "https://www.youtube.com/watch?v=7MasFajuCf8",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "DdLCUVEt3GI",
+    "title": "Insomniac Live - Fallout 76",
+    "duration": 4576,
+    "url": "https://www.youtube.com/watch?v=DdLCUVEt3GI",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "jtXO2w0EOlE",
+    "title": "Insomniac Live - Sunset Overdrive (PC) - Part 1",
+    "duration": 5922,
+    "url": "https://www.youtube.com/watch?v=jtXO2w0EOlE",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "1CoZtgShIdU",
+    "title": "Insomniac Live - Alan Wake",
+    "duration": 4325,
+    "url": "https://www.youtube.com/watch?v=1CoZtgShIdU",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "k1ClnB2D-eA",
+    "title": "Insomniac Live - Fallout 76",
+    "duration": 4523,
+    "url": "https://www.youtube.com/watch?v=k1ClnB2D-eA",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "9f9lFLbBnPc",
+    "title": "Insomniac Live - Hitman 2",
+    "duration": 4998,
+    "url": "https://www.youtube.com/watch?v=9f9lFLbBnPc",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "keZ6beOuJe4",
+    "title": "Insomniac Live - Guacamelee! 2",
+    "duration": 5231,
+    "url": "https://www.youtube.com/watch?v=keZ6beOuJe4",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "S8XW5z_tBKU",
+    "title": "Insomniac Live - Red Dead Redemption 2",
+    "duration": 4615,
+    "url": "https://www.youtube.com/watch?v=S8XW5z_tBKU",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "5iwoq861gJo",
+    "title": "Insomniac Live - Red Dead Redemption 2",
+    "duration": 4633,
+    "url": "https://www.youtube.com/watch?v=5iwoq861gJo",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "2BgHMQ3wfog",
+    "title": "Insomniac Live - Ratchet & Clank: Going Commando - Part 7",
+    "duration": 4321,
+    "url": "https://www.youtube.com/watch?v=2BgHMQ3wfog",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "SZa3uJziAvc",
+    "title": "Insomniac Live - Resistance 2 - Part 4",
+    "duration": 4325,
+    "url": "https://www.youtube.com/watch?v=SZa3uJziAvc",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "QKkxbzpma_w",
+    "title": "Insomniac Live - Ratchet & Clank: Going Commando - Part 6",
+    "duration": 4568,
+    "url": "https://www.youtube.com/watch?v=QKkxbzpma_w",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "jkz5-x91RTs",
+    "title": "Insomniac Live - Gang Beasts",
+    "duration": 4744,
+    "url": "https://www.youtube.com/watch?v=jkz5-x91RTs",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "RN05c_7tWEM",
+    "title": "Insomniac Live - Resistance 2 - Part 3",
+    "duration": 4404,
+    "url": "https://www.youtube.com/watch?v=RN05c_7tWEM",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "06c6G-HVNFs",
+    "title": "Insomniac Live - Friday the 13th",
+    "duration": 4938,
+    "url": "https://www.youtube.com/watch?v=06c6G-HVNFs",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "coAJDJrg07A",
+    "title": "Insomniac Live - Resident Evil 7",
+    "duration": 3620,
+    "url": "https://www.youtube.com/watch?v=coAJDJrg07A",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "djIJvBHgh3k",
+    "title": "Insomniac Live - Ratchet & Clank: Going Commando - Part 5",
+    "duration": 5081,
+    "url": "https://www.youtube.com/watch?v=djIJvBHgh3k",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "j34Z9A-L8Ik",
+    "title": "Insomniac Live - Red Dead Redemption 2",
+    "duration": 4484,
+    "url": "https://www.youtube.com/watch?v=j34Z9A-L8Ik",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "ySqcjFzPiv8",
+    "title": "Insomniac Live - Thronebreaker: The Witcher Tales",
+    "duration": 4360,
+    "url": "https://www.youtube.com/watch?v=ySqcjFzPiv8",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "heMz_fd8nHE",
+    "title": "Insomniac Live - Resistance 2 - Part 2",
+    "duration": 4989,
+    "url": "https://www.youtube.com/watch?v=heMz_fd8nHE",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "rDRE_bjBlcs",
+    "title": "Insomniac Live - Marvel's Spider-Man: The Heist",
+    "duration": 4558,
+    "url": "https://www.youtube.com/watch?v=rDRE_bjBlcs",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "pAqIXpSYqMc",
+    "title": "Insomniac Live - Shadow of the Tomb Raider",
+    "duration": 4617,
+    "url": "https://www.youtube.com/watch?v=pAqIXpSYqMc",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "0_jVdGyVEa8",
+    "title": "Insomniac Live - Soul Calibur VI",
+    "duration": 4644,
+    "url": "https://www.youtube.com/watch?v=0_jVdGyVEa8",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "7xe1Lj5dB2E",
+    "title": "Insomniac Live - Call of Duty: Black Ops 4",
+    "duration": 2541,
+    "url": "https://www.youtube.com/watch?v=7xe1Lj5dB2E",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "Zwk8Byar8EA",
+    "title": "Insomniac Live - Mega Man 11",
+    "duration": 5127,
+    "url": "https://www.youtube.com/watch?v=Zwk8Byar8EA",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "t36KidDBdBA",
+    "title": "Insomniac Live - Call of Duty: Black Ops 4",
+    "duration": 5617,
+    "url": "https://www.youtube.com/watch?v=t36KidDBdBA",
+    "channel": "Insomniac Games",
+    "verified": true
+   },
+   {
+    "id": "NcKkcf3hxJs",
+    "title": "Insomniac Live - Shadow of the Tomb Raider",
+    "duration": 4816,
+    "url": "https://www.youtube.com/watch?v=NcKkcf3hxJs",
+    "channel": "Insomniac Games",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@assassinscreed/videos|2026-11-26": [
+   {
+    "id": "8ZaQGlonQWE",
+    "title": "Assassin's Creed: The Real Richard the Lionheart",
+    "duration": 299,
+    "url": "https://www.youtube.com/watch?v=8ZaQGlonQWE",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "CJiLPCaEfN8",
+    "title": "Assassin's Creed Black Flag Resynced: How Accurate Is The San Ignacio Shipwreck?",
+    "duration": 378,
+    "url": "https://www.youtube.com/watch?v=CJiLPCaEfN8",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "s2m_oNIvKuI",
+    "title": "Assassin's Creed Valhalla: How Big Was The Great Heathen Army?",
+    "duration": 302,
+    "url": "https://www.youtube.com/watch?v=s2m_oNIvKuI",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "jwo7gDSiT14",
+    "title": "Assassin's Creed Valhalla: the most requested update (New Game+)",
+    "duration": 100,
+    "url": "https://www.youtube.com/watch?v=jwo7gDSiT14",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "qwApyy3uW58",
+    "title": "Assassin's Creed Unity: Did Ubisoft Help Rebuild Notre Dame?",
+    "duration": 541,
+    "url": "https://www.youtube.com/watch?v=qwApyy3uW58",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "AliK0oRpXPs",
+    "title": "Assassin's Creed: Fall 2026 Update",
+    "duration": 112,
+    "url": "https://www.youtube.com/watch?v=AliK0oRpXPs",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "w3PVg5yX35I",
+    "title": "Assassin's Creed Black Flag Resynced: Pirate Challenge",
+    "duration": 171,
+    "url": "https://www.youtube.com/watch?v=w3PVg5yX35I",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "5rmYk_Uzjec",
+    "title": "Assassin's Creed Black Flag Resynced: Final Major Content Update",
+    "duration": 121,
+    "url": "https://www.youtube.com/watch?v=5rmYk_Uzjec",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "ncHfGv4mgOc",
+    "title": "Assassin's Creed Rogue: The Real James Cook In The French & Indian War",
+    "duration": 378,
+    "url": "https://www.youtube.com/watch?v=ncHfGv4mgOc",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "J13k6BTrz50",
+    "title": "Assassin's Creed Origins: How Accurate Is Ancient Cyrene?",
+    "duration": 356,
+    "url": "https://www.youtube.com/watch?v=J13k6BTrz50",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "MsiwJOxmnnA",
+    "title": "Assassin's Creed Odyssey: Sanctuary of Apollo at Delphi Guided Tour",
+    "duration": 305,
+    "url": "https://www.youtube.com/watch?v=MsiwJOxmnnA",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "N8FZC8ky_Iw",
+    "title": "Assassin's Creed Unity: Historian Answers YOUR QUESTIONS About The French Crown Jewels Heist",
+    "duration": 911,
+    "url": "https://www.youtube.com/watch?v=N8FZC8ky_Iw",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "dhWcidtA35g",
+    "title": "How Accurate Is Cleopatra In Assassin's Creed Origins?",
+    "duration": 374,
+    "url": "https://www.youtube.com/watch?v=dhWcidtA35g",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "Yll07Vppigk",
+    "title": "Assassin's Creed Unity: Sainte-Chapelle & Pont Neuf Guided Tour",
+    "duration": 411,
+    "url": "https://www.youtube.com/watch?v=Yll07Vppigk",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "C2-KUmbxuZI",
+    "title": "Assassin's Creed Valhalla: Did Vikings Really Defeat Alfred The Great At The Battle Of Chippenham?",
+    "duration": 522,
+    "url": "https://www.youtube.com/watch?v=C2-KUmbxuZI",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "9JRZVBKE5q0",
+    "title": "Assassin's Creed Shadows at gamescom 2026: Live Dev Talk - Ultimate Stealth Challenge",
+    "duration": 2388,
+    "url": "https://www.youtube.com/watch?v=9JRZVBKE5q0",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "hbJoZMhH-3k",
+    "title": "Assassin's Creed Odyssey: World Director Explains How They Built The Map Of Ancient Greece",
+    "duration": 401,
+    "url": "https://www.youtube.com/watch?v=hbJoZMhH-3k",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "Op8gTNRzB50",
+    "title": "Assassin's Creed Black Flag Resynced at gamescom 2026: Live Dev Talk - Sailing the Caribbean",
+    "duration": 2400,
+    "url": "https://www.youtube.com/watch?v=Op8gTNRzB50",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "MiMAZakXnO4",
+    "title": "Assassin's Creed Black Flag Resynced at gamescom 2026: Live Dev Talk - Honouring a Legacy",
+    "duration": 2758,
+    "url": "https://www.youtube.com/watch?v=MiMAZakXnO4",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "8w4MAQY6tn4",
+    "title": "Classicist Reacts To The Minotaur & Sphinx In Assassin's Creed Odyssey",
+    "duration": 411,
+    "url": "https://www.youtube.com/watch?v=8w4MAQY6tn4",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "0ZDJITHyYLo",
+    "title": "Assassin's Creed Shadows: The Worst Jobs In Samurai Japan",
+    "duration": 550,
+    "url": "https://www.youtube.com/watch?v=0ZDJITHyYLo",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "1ADmYA3kdOE",
+    "title": "Assassin's Creed Black Flag Resynced: Rebuilding The Golden Age Of Piracy",
+    "duration": 3410,
+    "url": "https://www.youtube.com/watch?v=1ADmYA3kdOE",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "DS9Vz1q6Sjw",
+    "title": "Assassin's Creed Black Flag Resynced: Sea Shanties Live Performance - Sean Dagher UK Launch Event.",
+    "duration": 2201,
+    "url": "https://www.youtube.com/watch?v=DS9Vz1q6Sjw",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "Q49rQi9C59I",
+    "title": "Assassin's Creed Black Flag Resynced: Matt Ryan Answers Quick-Fire Questions",
+    "duration": 119,
+    "url": "https://www.youtube.com/watch?v=Q49rQi9C59I",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "_ZwinJB9lbU",
+    "title": "Assassin’s Creed Black Flag Resynced: Olympic Fencers React to Sword Gameplay",
+    "duration": 159,
+    "url": "https://www.youtube.com/watch?v=_ZwinJB9lbU",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "4YK6x8zVfPY",
+    "title": "Assassin's Creed Odyssey: The Story Behind The Music with The Flight & Mike Georgiades",
+    "duration": 2816,
+    "url": "https://www.youtube.com/watch?v=4YK6x8zVfPY",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "hQ-8af4hVfM",
+    "title": "Assassin's Creed Black Flag Resynced: Matt Ryan Breaks Down His Iconic Lines - Episode #2",
+    "duration": 180,
+    "url": "https://www.youtube.com/watch?v=hQ-8af4hVfM",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "XVFpjF_42hM",
+    "title": "Assassin's Creed Gold: Did Isaac Newton Make The Philosopher's Stone?",
+    "duration": 3574,
+    "url": "https://www.youtube.com/watch?v=XVFpjF_42hM",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "PuC4vB0kLvw",
+    "title": "Assassin's Creed Black Flag Resynced: Horizon Launch Trailer (2026)",
+    "duration": 118,
+    "url": "https://www.youtube.com/watch?v=PuC4vB0kLvw",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "BdIudSyUeig",
+    "title": "Assassin's Creed Black Flag Resynced: Pirate Myths vs Reality",
+    "duration": 2649,
+    "url": "https://www.youtube.com/watch?v=BdIudSyUeig",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "Y1eqci051LA",
+    "title": "Assassin's Creed Black Flag Resynced: Sea Shanty Reviews Medley (Sung by The Longest Johns)",
+    "duration": 107,
+    "url": "https://www.youtube.com/watch?v=Y1eqci051LA",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "U-aWl8_7P58",
+    "title": "Assassin's Creed Black Flag Resynced: PS5 Pro Immersion Trailer",
+    "duration": 63,
+    "url": "https://www.youtube.com/watch?v=U-aWl8_7P58",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "9mL6Tsn9Sh4",
+    "title": "Assassin's Creed III Guided Tour: Historian Explores Revolutionary Boston (USA 250th Anniversary)",
+    "duration": 4381,
+    "url": "https://www.youtube.com/watch?v=9mL6Tsn9Sh4",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "NTeIt92OmD8",
+    "title": "Assassin's Creed Black Flag Resynced: Matt Ryan Breaks Down His Most Iconic Lines",
+    "duration": 173,
+    "url": "https://www.youtube.com/watch?v=NTeIt92OmD8",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "H7vBf__TgY8",
+    "title": "Assassin's Creed Shadows: Hattori Hanzo, the Demon Samurai",
+    "duration": 2378,
+    "url": "https://www.youtube.com/watch?v=H7vBf__TgY8",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "kp10p6kDqxY",
+    "title": "Assassin's Creed Shadows: Black Tides Quest Teaser",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=kp10p6kDqxY",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "_eJ2tdP-0Ek",
+    "title": "Assassin's Creed Shadows: Last Content Drop Update",
+    "duration": 289,
+    "url": "https://www.youtube.com/watch?v=_eJ2tdP-0Ek",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "8lAXziyoAMY",
+    "title": "Assassin's Creed Valhalla: Expert Reacts To Norse Gods In Dawn Of Ragnarok",
+    "duration": 3716,
+    "url": "https://www.youtube.com/watch?v=8lAXziyoAMY",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "U9EmVkQ5v54",
+    "title": "Assassin's Creed Black Flag Resynced: Official Summer Game Fest Trailer",
+    "duration": 93,
+    "url": "https://www.youtube.com/watch?v=U9EmVkQ5v54",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "b1t4d12KWL8",
+    "title": "Assassin's Creed Black Flag Resynced: Life In The Pirate Republic",
+    "duration": 2388,
+    "url": "https://www.youtube.com/watch?v=b1t4d12KWL8",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "JmvjIiPOTn0",
+    "title": "Assassin's Creed Black Flag Resynced: Matt Ryan Reacts to his first Audition Tape",
+    "duration": 289,
+    "url": "https://www.youtube.com/watch?v=JmvjIiPOTn0",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "kjuSQ_x9yEA",
+    "title": "Assassin's Creed Origins: Dev Talk | How Ubisoft Recreated Ancient Egypt",
+    "duration": 4138,
+    "url": "https://www.youtube.com/watch?v=kjuSQ_x9yEA",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "BqpqCbkoiBc",
+    "title": "Assassin's Creed: The Secrets of the Hagia Sophia",
+    "duration": 2339,
+    "url": "https://www.youtube.com/watch?v=BqpqCbkoiBc",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "NglaUZ2au8g",
+    "title": "Assassin's Creed Mirage: Guided Tour | Historian Explores Medieval Baghdad",
+    "duration": 5172,
+    "url": "https://www.youtube.com/watch?v=NglaUZ2au8g",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "-N_D3WlhHZQ",
+    "title": "Assassin's Creed Black Flag Resynced: How Pirates In The Caribbean Began",
+    "duration": 2931,
+    "url": "https://www.youtube.com/watch?v=-N_D3WlhHZQ",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "fTTh0j2i02Q",
+    "title": "Assassin's Creed: The Real Assassins and Templars In The Third Crusade",
+    "duration": 3421,
+    "url": "https://www.youtube.com/watch?v=fTTh0j2i02Q",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "y5QEQzyFULg",
+    "title": "Assassin's Creed Black Flag Resynced: Health to the Company - Cinematic",
+    "duration": 105,
+    "url": "https://www.youtube.com/watch?v=y5QEQzyFULg",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "zRHJ8jJzrqY",
+    "title": "Assassin's Creed Black Flag Resynced: Collector's Edition Trailer",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=zRHJ8jJzrqY",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "PhQ3yQjUgAc",
+    "title": "Assassin's Creed Black Flag Resynced: Official Game Overview Trailer",
+    "duration": 521,
+    "url": "https://www.youtube.com/watch?v=PhQ3yQjUgAc",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "WjsTLe7bBUA",
+    "title": "Assassin's Creed Black Flag Resynced: World Premiere Trailer",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=WjsTLe7bBUA",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "7hkFaTypP1Q",
+    "title": "Assassin's Creed Black Flag Resynced: Worldwide Reveal Showcase",
+    "duration": 1708,
+    "url": "https://www.youtube.com/watch?v=7hkFaTypP1Q",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "8V2kLG0NVr0",
+    "title": "Assassin's Creed: Evolution of Combat",
+    "duration": 355,
+    "url": "https://www.youtube.com/watch?v=8V2kLG0NVr0",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "xzVvSY2A-ac",
+    "title": "Guided Tour: Egyptologist Explores the Sphinx in Assassin's Creed Origins",
+    "duration": 3007,
+    "url": "https://www.youtube.com/watch?v=xzVvSY2A-ac",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "pznofMR_pDM",
+    "title": "Assassin's Creed: Play 6 games for free this weekend!",
+    "duration": 66,
+    "url": "https://www.youtube.com/watch?v=pznofMR_pDM",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "zDSInB9Z2Bk",
+    "title": "Assassin's Creed Shadows: Parkour Challenge Winner | Panda Parkour",
+    "duration": 66,
+    "url": "https://www.youtube.com/watch?v=zDSInB9Z2Bk",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "-x2Y8YTOg7s",
+    "title": "Assassin's Creed Shadows: A Heartfelt Thank You",
+    "duration": 85,
+    "url": "https://www.youtube.com/watch?v=-x2Y8YTOg7s",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "EbmZzLMPwvY",
+    "title": "Assassin's Creed Shadows: Samurai Armors Explained | A deep dive at The British Museum",
+    "duration": 1980,
+    "url": "https://www.youtube.com/watch?v=EbmZzLMPwvY",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "RfTmeg5zOl0",
+    "title": "Assassin's Creed: Every Intro Title Scene (2007-2025)",
+    "duration": 604,
+    "url": "https://www.youtube.com/watch?v=RfTmeg5zOl0",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "fNyHgZV__lQ",
+    "title": "Assassin's Creed Shadows: Claws of Awaji Nintendo Switch™ 2 Launch Trailer",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=fNyHgZV__lQ",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
+   {
+    "id": "RxF6fonBDUA",
+    "title": "Assassin's Creed Unity: Play in 60FPS on PS5 & Xbox Series X",
+    "duration": 32,
+    "url": "https://www.youtube.com/watch?v=RxF6fonBDUA",
+    "channel": "Assassin's Creed",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@Fortnite/videos|2026-11-26": [
+   {
+    "id": "2UPbbYenEOs",
+    "title": "Consider the fight… BEGUN! Scott Pilgrim is coming to Fortnite",
+    "duration": 47,
+    "url": "https://www.youtube.com/watch?v=2UPbbYenEOs",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "MUeEDFTCJkc",
+    "title": "Fortnite Treasure Hunters | Week 4 Gameplay Trailer",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=MUeEDFTCJkc",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "FyQKOqifbWc",
+    "title": "The Game Awards Vote in Fortnite Island 2026",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=FyQKOqifbWc",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "9KApcJu2aAk",
+    "title": "Fortnite Treasure Hunters | Week 3 Gameplay Trailer",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=9KApcJu2aAk",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "MIHUaCmckzU",
+    "title": "Lil Uzi Vert Crew Tryouts | Live Action Trailer",
+    "duration": 73,
+    "url": "https://www.youtube.com/watch?v=MIHUaCmckzU",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "RiwoJ7aQzho",
+    "title": "Tokyo Treasure Hunters",
+    "duration": 50,
+    "url": "https://www.youtube.com/watch?v=RiwoJ7aQzho",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "qCHGj9bi64s",
+    "title": "Fortnite Treasure Hunters | Week 2 Gameplay Trailer",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=qCHGj9bi64s",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "rnjWNafJy8Q",
+    "title": "Fortnite Treasure Hunters | ONE PIECE Hybrid Trailer",
+    "duration": 120,
+    "url": "https://www.youtube.com/watch?v=rnjWNafJy8Q",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "rFHOT4Mb_yI",
+    "title": "Fortnite Treasure Hunters | Gameplay Trailer",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=rFHOT4Mb_yI",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "WKTOfvqL-bc",
+    "title": "Fortnite Treasure Hunters | Live Action Trailer",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=WKTOfvqL-bc",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "hZx6r6W8O5E",
+    "title": "Time to check in! Hazbin Hotel is coming to Fortnite!",
+    "duration": 34,
+    "url": "https://www.youtube.com/watch?v=hZx6r6W8O5E",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "dOiX6sMu_Z0",
+    "title": "Yeat is pulling up to Fortnite | Real Lyfe Trailer",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=dOiX6sMu_Z0",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "fIbPHjCGJno",
+    "title": "Black Clover is coming to Fortnite!",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=fIbPHjCGJno",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "tIkemvVEpSA",
+    "title": "Freddy Krueger is slashing into Fortnite!",
+    "duration": 25,
+    "url": "https://www.youtube.com/watch?v=tIkemvVEpSA",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "7qQFLL_DJ7Q",
+    "title": "Fortnitemares 2026 | Gameplay Trailer",
+    "duration": 53,
+    "url": "https://www.youtube.com/watch?v=7qQFLL_DJ7Q",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "5lddZVFmxaw",
+    "title": "Fortnitemares 2026 | Cinematic Trailer",
+    "duration": 48,
+    "url": "https://www.youtube.com/watch?v=5lddZVFmxaw",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "6N428cNrDEg",
+    "title": "Five Nights At Freddy’s Joins Fortnitemares 2026",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=6N428cNrDEg",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "JdwYFEAcJmQ",
+    "title": "Fortnitemares is Coming...",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=JdwYFEAcJmQ",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "kakD3eXpUsY",
+    "title": "Take your heart! Persona 5 Royal is coming to Fortnite!",
+    "duration": 19,
+    "url": "https://www.youtube.com/watch?v=kakD3eXpUsY",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "bYAtGZTjuAk",
+    "title": "Madison Beer is our new Fortnite Icon!",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=bYAtGZTjuAk",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "Xo4MkCR7ejU",
+    "title": "KINGDOM HEARTS arrives in Fortnite!",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=Xo4MkCR7ejU",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "rKwv-TULWGU",
+    "title": "Lil Wayne is dropping into Fortnite!",
+    "duration": 37,
+    "url": "https://www.youtube.com/watch?v=rKwv-TULWGU",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "ByGOMWEitjU",
+    "title": "Mega Man is about to enter the Fortnite stage!",
+    "duration": 20,
+    "url": "https://www.youtube.com/watch?v=ByGOMWEitjU",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "IhSjadOQdho",
+    "title": "This Crew is PACKED!",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=IhSjadOQdho",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "Who0o_eGczE",
+    "title": "Chapter 7 Season 4 | Battle Pass Tracks Vol. 1: Build It",
+    "duration": 173,
+    "url": "https://www.youtube.com/watch?v=Who0o_eGczE",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "295fa70HL9M",
+    "title": "Crash and Spyro are landing in Fortnite!",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=295fa70HL9M",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "2UrlgLD2wSQ",
+    "title": "Fortnite: Override | Battle Pass Highlights",
+    "duration": 107,
+    "url": "https://www.youtube.com/watch?v=2UrlgLD2wSQ",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "9AsEwQJiQQE",
+    "title": "Chapter 7 Season 4: Override | Official Trailer",
+    "duration": 99,
+    "url": "https://www.youtube.com/watch?v=9AsEwQJiQQE",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "hKe9b2mFzZk",
+    "title": "Chapter 7 Season 3 Story Moment: Unstable | Full Event",
+    "duration": 261,
+    "url": "https://www.youtube.com/watch?v=hKe9b2mFzZk",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "sh9ienE4h2g",
+    "title": "Addison Rae is coming to Fortnite!",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=sh9ienE4h2g",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "Y1qRK3JTX9s",
+    "title": "Spider-Man Returns to Fortnite!",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=Y1qRK3JTX9s",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "EuzRbZ1wqdU",
+    "title": "Lil Tecca is the Fortnite Festival Season 15 Icon!",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=EuzRbZ1wqdU",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "2iI8iZg8pos",
+    "title": "The Simpsons x Fortnite Reload | Trailer",
+    "duration": 53,
+    "url": "https://www.youtube.com/watch?v=2iI8iZg8pos",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "KtH3MqUmnws",
+    "title": "An Exclusive Look at Spider-Man: Brand New Day | Spider-Man Returns to Fortnite",
+    "duration": 160,
+    "url": "https://www.youtube.com/watch?v=KtH3MqUmnws",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "PCjYDgdaUBk",
+    "title": "Sidekick Masters | Cuddles and Chaos Fortnite Island",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=PCjYDgdaUBk",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "PuxmLwHCoPY",
+    "title": "Sidekick Wars | Cuddles and Chaos Fortnite Island",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=PuxmLwHCoPY",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "eaoxk7vTEnc",
+    "title": "The Cuddles and Chaos Collection is coming to Fortnite!",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=eaoxk7vTEnc",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "HLxvcsKhwKM",
+    "title": "The Obsession is Real | Fortnite Edit",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=HLxvcsKhwKM",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "u7XUx3vUSK0",
+    "title": "Welcome to Fortnite, David Beckham",
+    "duration": 40,
+    "url": "https://www.youtube.com/watch?v=u7XUx3vUSK0",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "gsJk98La_jA",
+    "title": "Welcome to Hot Bat Summer | Gameplay Trailer",
+    "duration": 72,
+    "url": "https://www.youtube.com/watch?v=gsJk98La_jA",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "6Nb97lgpung",
+    "title": "The Odyssey is coming to Fortnite",
+    "duration": 17,
+    "url": "https://www.youtube.com/watch?v=6Nb97lgpung",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "OGgN9bHTfJM",
+    "title": "American Dad! is coming to Fortnite!",
+    "duration": 27,
+    "url": "https://www.youtube.com/watch?v=OGgN9bHTfJM",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "tjLMQBG8YWo",
+    "title": "Fortnite | Striker Sprites",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=tjLMQBG8YWo",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "uEVNX22k8Vs",
+    "title": "Olivia Rodrigo is coming to Fortnite!",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=uEVNX22k8Vs",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "pJNjhV5o5qs",
+    "title": "Party time! Supergirl and Krypto are coming to Fortnite!",
+    "duration": 19,
+    "url": "https://www.youtube.com/watch?v=pJNjhV5o5qs",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "InhFFadB9WU",
+    "title": "Dr. STONE x Crunchyroll Anime Island | Official Fortnite Watch Party Launch Trailer",
+    "duration": 37,
+    "url": "https://www.youtube.com/watch?v=InhFFadB9WU",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "rFRjn4V90ME",
+    "title": "Fortnite | Sprite Roundup",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=rFRjn4V90ME",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "ibY5qR4CYU8",
+    "title": "Pomni and Jax from The Amazing Digital Circus are coming to Fortnite!",
+    "duration": 86,
+    "url": "https://www.youtube.com/watch?v=ibY5qR4CYU8",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "3MaHhpCrNec",
+    "title": "Vini Jr. is coming to Fortnite!",
+    "duration": 40,
+    "url": "https://www.youtube.com/watch?v=3MaHhpCrNec",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "bZz3FatJHTU",
+    "title": "Fortnite | Get Well Soon Jonesy",
+    "duration": 17,
+    "url": "https://www.youtube.com/watch?v=bZz3FatJHTU",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "MjLOyCggeV0",
+    "title": "Fortnite | Meet The Sprites",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=MjLOyCggeV0",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "eo2KRn6tJmk",
+    "title": "Fortnite | Sprite Extractions",
+    "duration": 36,
+    "url": "https://www.youtube.com/watch?v=eo2KRn6tJmk",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "51jub5XBmIk",
+    "title": "Fortnite | Choose Your Sprite",
+    "duration": 23,
+    "url": "https://www.youtube.com/watch?v=51jub5XBmIk",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "V5L24DFTFUo",
+    "title": "Chapter 7 Season 3: Runners | Official Cinematic Trailer",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=V5L24DFTFUo",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "3aYHEQ01XkM",
+    "title": "Fortnite Shattered | Chapter 7 Season 2 Live End Event | Full Intro",
+    "duration": 296,
+    "url": "https://www.youtube.com/watch?v=3aYHEQ01XkM",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "O4PFmJkedWc",
+    "title": "Chapter 7 Season 3: Runners | Official Gameplay Trailer",
+    "duration": 81,
+    "url": "https://www.youtube.com/watch?v=O4PFmJkedWc",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "UAKMGHgejaI",
+    "title": "He-Man, Skeletor and She-Ra are coming to Fortnite!",
+    "duration": 22,
+    "url": "https://www.youtube.com/watch?v=UAKMGHgejaI",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "b0MysfV9U1c",
+    "title": "Fortnite | Runners",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=b0MysfV9U1c",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "GQQ7gwSJH5k",
+    "title": "Fortnite Shattered | Chapter 7 Season 2 Live End Event Teaser",
+    "duration": 22,
+    "url": "https://www.youtube.com/watch?v=GQQ7gwSJH5k",
+    "channel": "Fortnite",
+    "verified": true
+   },
+   {
+    "id": "9fZx17yaqmY",
+    "title": "The Mandalorian and Grogu Watch Party Island",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=9fZx17yaqmY",
+    "channel": "Fortnite",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@minecraft/videos|2026-11-26": [
+   {
+    "id": "s0w_pTOXDBQ",
+    "title": "MINECRAFT DUNGEONS II | The Humblers Awaken – Announce Trailer",
+    "duration": 74,
+    "url": "https://www.youtube.com/watch?v=s0w_pTOXDBQ",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "5um9-i2Ta7w",
+    "title": "NEW WEAPON AND OFF-HAND FOR BEDROCK! | TwitchCon San Diego",
+    "duration": 148,
+    "url": "https://www.youtube.com/watch?v=5um9-i2Ta7w",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "x7nvbiNKkio",
+    "title": "Remix Your World | Sound Effects Packs are here!",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=x7nvbiNKkio",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "8JGY7vGkMX0",
+    "title": "Introducing Minecraft Realms Pro",
+    "duration": 46,
+    "url": "https://www.youtube.com/watch?v=8JGY7vGkMX0",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "0FQoo8BjGIs",
+    "title": "Wilderness Bound: Haunts & Harvest Free Sound Effects Pack",
+    "duration": 64,
+    "url": "https://www.youtube.com/watch?v=0FQoo8BjGIs",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "npFlBoJM2Ts",
+    "title": "Minecraft on Nintendo Switch™ 2!",
+    "duration": 76,
+    "url": "https://www.youtube.com/watch?v=npFlBoJM2Ts",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "cnVftw9QWgg",
+    "title": "Minecraft x Dragon Ball Z - 1.1 Legends Update",
+    "duration": 72,
+    "url": "https://www.youtube.com/watch?v=cnVftw9QWgg",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "3ND7Vf2Aeco",
+    "title": "MINECRAFT DUNGEONS II | Accolades Trailer",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=3ND7Vf2Aeco",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "nHW7oH_kZd4",
+    "title": "MINECRAFT DUNGEONS II | Official Launch Trailer",
+    "duration": 81,
+    "url": "https://www.youtube.com/watch?v=nHW7oH_kZd4",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "AqUMUO_36T0",
+    "title": "MINECRAFT WORLD: ROLLERCOASTER AND HOTEL REVEALED! | Minecraft LIVE – SEPT 2026",
+    "duration": 129,
+    "url": "https://www.youtube.com/watch?v=AqUMUO_36T0",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "GYLNBxIdQ5k",
+    "title": "Community Pre-Show with Derapchu & Katie B | Minecraft LIVE – SEPT 2026",
+    "duration": 1006,
+    "url": "https://www.youtube.com/watch?v=GYLNBxIdQ5k",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "mvaXJFu11tU",
+    "title": "NEW SOUND EFFECTS PACKS ARE ON THE WAY! | Minecraft LIVE – SEPT 2026",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=mvaXJFu11tU",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "AUGtFxY2mvY",
+    "title": "AGNES TALKS MINECRAFT: TODAY & TOMORROW | Minecraft Live – SEPT 2026",
+    "duration": 207,
+    "url": "https://www.youtube.com/watch?v=AUGtFxY2mvY",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "i1UL5hhTwYs",
+    "title": "FIRST DETAILS:  MINECRAFT CREATOR PLATFORM | Minecraft Live – SEPT 2026",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=i1UL5hhTwYs",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "R_2nY3s9lLQ",
+    "title": "FACE OFF IN THE ICE CAVES  | Minecraft Live – SEPT 2026",
+    "duration": 530,
+    "url": "https://www.youtube.com/watch?v=R_2nY3s9lLQ",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "GYIsFdAg36s",
+    "title": "The Deep Dig: MINECRAFT DUNGEONS II & THE ICE CAVES | Minecraft Live – SEPT 2026",
+    "duration": 1188,
+    "url": "https://www.youtube.com/watch?v=GYIsFdAg36s",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "Pa2wDvumUoQ",
+    "title": "EXPLORING THE SIFT IN MINECRAFT DUNGEONS II | Minecraft Live – SEPT 2026",
+    "duration": 617,
+    "url": "https://www.youtube.com/watch?v=Pa2wDvumUoQ",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "sMWDucZwqU8",
+    "title": "FIRST LOOK: THE ICE CAVES | Minecraft LIVE – SEPT 2026",
+    "duration": 456,
+    "url": "https://www.youtube.com/watch?v=sMWDucZwqU8",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "KnoVeyzpnek",
+    "title": "GET READY FOR MINECRAFT DUNGEONS II | Minecraft LIVE – SEPT 2026",
+    "duration": 382,
+    "url": "https://www.youtube.com/watch?v=KnoVeyzpnek",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "oyaou0TZhKQ",
+    "title": "THE GREATEST MOMENTS | Minecraft Live – SEPT 2026",
+    "duration": 83,
+    "url": "https://www.youtube.com/watch?v=oyaou0TZhKQ",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "Lm9OtOpWMgQ",
+    "title": "WHY YOU NEED TO WATCH MINECRAFT LIVE - SEPTEMBER 26!",
+    "duration": 75,
+    "url": "https://www.youtube.com/watch?v=Lm9OtOpWMgQ",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "UiPcEW_d9Io",
+    "title": "Minecraft LIVE Official Trailer – September 2026",
+    "duration": 55,
+    "url": "https://www.youtube.com/watch?v=UiPcEW_d9Io",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "WD9GtlgU8_c",
+    "title": "Minecraft Dungeons II: Opening Cinematic",
+    "duration": 133,
+    "url": "https://www.youtube.com/watch?v=WD9GtlgU8_c",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "1HCrV7mFWr8",
+    "title": "WILDERNESS BOUND | Official Trailer",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=1HCrV7mFWr8",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "vHqmeP2fusg",
+    "title": "The portal is now open... but at what cost?",
+    "duration": 28,
+    "url": "https://www.youtube.com/watch?v=vHqmeP2fusg",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "2mQwVBY-Z9k",
+    "title": "Minecraft Dungeons II – Battle for Tokyo",
+    "duration": 71,
+    "url": "https://www.youtube.com/watch?v=2mQwVBY-Z9k",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "aVTfg7WVAPU",
+    "title": "Minecraft x Transformers Add-on",
+    "duration": 46,
+    "url": "https://www.youtube.com/watch?v=aVTfg7WVAPU",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "KbnqaIFth70",
+    "title": "THE 20 MILLION VILLAGER SONG",
+    "duration": 67,
+    "url": "https://www.youtube.com/watch?v=KbnqaIFth70",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "vBNE3bKMpu8",
+    "title": "MINECRAFT DUNGEONS II | Official Gameplay Trailer",
+    "duration": 95,
+    "url": "https://www.youtube.com/watch?v=vBNE3bKMpu8",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "jHzr76AAbPk",
+    "title": "STOP THE FOUL FOWL",
+    "duration": 38,
+    "url": "https://www.youtube.com/watch?v=jHzr76AAbPk",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "2v5APu-l3ac",
+    "title": "Sulfur Cube Marketplace Spotlight",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=2v5APu-l3ac",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "UtyX3vJS2Jg",
+    "title": "Minecraft x Hello Kitty and Friends Furniture Add-on",
+    "duration": 51,
+    "url": "https://www.youtube.com/watch?v=UtyX3vJS2Jg",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "Agmsdgyj_8M",
+    "title": "SIT DOWN! NEW FEATURES INCOMING!",
+    "duration": 341,
+    "url": "https://www.youtube.com/watch?v=Agmsdgyj_8M",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "p3lmb56AocU",
+    "title": "Herschel Backpack Trials add-on – Free at Minecraft Marketplace",
+    "duration": 53,
+    "url": "https://www.youtube.com/watch?v=p3lmb56AocU",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "jwCKCu3I8tk",
+    "title": "CHAOS CUBED | Official Trailer",
+    "duration": 55,
+    "url": "https://www.youtube.com/watch?v=jwCKCu3I8tk",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "gvL3EEG2O_4",
+    "title": "A NEW THREAT APPROACHING.... | MINECRAFT DUNGEONS II",
+    "duration": 184,
+    "url": "https://www.youtube.com/watch?v=gvL3EEG2O_4",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "VyZKYhM0Kv4",
+    "title": "MINECRAFT DUNGEONS II | Reveal Trailer",
+    "duration": 109,
+    "url": "https://www.youtube.com/watch?v=VyZKYhM0Kv4",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "-UwME7rH2vg",
+    "title": "CHAOS CUBED DROP HAS A RELEASE DATE!",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=-UwME7rH2vg",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "0qZxgu1GZDc",
+    "title": "ALL ABOUT CHAOS CUBED | Minecraft LIVE – May 2026",
+    "duration": 308,
+    "url": "https://www.youtube.com/watch?v=0qZxgu1GZDc",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "1WXA9pPK5nI",
+    "title": "LEGO MINECRAFT CHICKEN MOUNTS | Minecraft LIVE – May 2026",
+    "duration": 38,
+    "url": "https://www.youtube.com/watch?v=1WXA9pPK5nI",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "8BuZYCXQXXA",
+    "title": "THE MINECRAFT ARENA @ TWITCHCON | Minecraft LIVE – May 2026",
+    "duration": 183,
+    "url": "https://www.youtube.com/watch?v=8BuZYCXQXXA",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "hksGR2taEI4",
+    "title": "MINECRAFT DUNGEONS II IS COMING | Minecraft LIVE – May 2026",
+    "duration": 116,
+    "url": "https://www.youtube.com/watch?v=hksGR2taEI4",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "5ya0SI2bZLg",
+    "title": "THE BEST BITS | Minecraft LIVE – May 2026",
+    "duration": 84,
+    "url": "https://www.youtube.com/watch?v=5ya0SI2bZLg",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "lxqGhDjInjc",
+    "title": "\"A MINECRAFT MOVIE SQUARED\"| Minecraft LIVE – May 2026",
+    "duration": 208,
+    "url": "https://www.youtube.com/watch?v=lxqGhDjInjc",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "BxTWNYL9_TE",
+    "title": "FIRST LOOK: DAPPLED FOREST | Minecraft LIVE – May 2026",
+    "duration": 388,
+    "url": "https://www.youtube.com/watch?v=BxTWNYL9_TE",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "skQgaugcKVQ",
+    "title": "MINECRAFT LIVE - MAY 2026",
+    "duration": 1756,
+    "url": "https://www.youtube.com/watch?v=skQgaugcKVQ",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "_3mzNR2l3Vs",
+    "title": "THERE'S A BONUS MINECRAFT LIVE?!",
+    "duration": 72,
+    "url": "https://www.youtube.com/watch?v=_3mzNR2l3Vs",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "P1VnxWtE1yY",
+    "title": "Minecraft LIVE Official Trailer - TwitchCon May 2026",
+    "duration": 44,
+    "url": "https://www.youtube.com/watch?v=P1VnxWtE1yY",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "T82Ex9ZImhQ",
+    "title": "He Walked in Minecraft for 14 YEARS",
+    "duration": 488,
+    "url": "https://www.youtube.com/watch?v=T82Ex9ZImhQ",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "HXx4fEql45U",
+    "title": "JEB'S BIGGEST CHALLENGE EVER  | Spawn Point Stories",
+    "duration": 299,
+    "url": "https://www.youtube.com/watch?v=HXx4fEql45U",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "qpkGGA_TJ3Q",
+    "title": "THE HERDCRAFT UPDATE",
+    "duration": 93,
+    "url": "https://www.youtube.com/watch?v=qpkGGA_TJ3Q",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "7A5YWn33eps",
+    "title": "TINY TAKEOVER | Official Trailer",
+    "duration": 43,
+    "url": "https://www.youtube.com/watch?v=7A5YWn33eps",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "OP9HPV9IkI8",
+    "title": "MULTIPLAYER PARTIES AND MORE… | Minecraft LIVE – March 2026",
+    "duration": 74,
+    "url": "https://www.youtube.com/watch?v=OP9HPV9IkI8",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "E7SSb7CUqdg",
+    "title": "Community Pre Show - Minecraft LIVE March 2026",
+    "duration": 950,
+    "url": "https://www.youtube.com/watch?v=E7SSb7CUqdg",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "2Hcc0izg92A",
+    "title": "ALL ABOUT TINY TAKEOVER | Minecraft LIVE – March 2026",
+    "duration": 290,
+    "url": "https://www.youtube.com/watch?v=2Hcc0izg92A",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "J0RtbNi8g3A",
+    "title": "WELCOME TO MINECRAFT WORLD | Minecraft LIVE – March 2026",
+    "duration": 165,
+    "url": "https://www.youtube.com/watch?v=J0RtbNi8g3A",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "Pmku9gy_CgY",
+    "title": "SULFUR CUBE SHOWDOWN | Minecraft LIVE – March 2026",
+    "duration": 548,
+    "url": "https://www.youtube.com/watch?v=Pmku9gy_CgY",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "64PCrgMMwpM",
+    "title": "HOW TO SULFUR CUBE | Minecraft LIVE – March 2026",
+    "duration": 607,
+    "url": "https://www.youtube.com/watch?v=64PCrgMMwpM",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "smpgC5HV3Us",
+    "title": "THE DEEP DIG (AFTERSHOW) | Minecraft LIVE – March 2026",
+    "duration": 1144,
+    "url": "https://www.youtube.com/watch?v=smpgC5HV3Us",
+    "channel": "Minecraft",
+    "verified": true
+   },
+   {
+    "id": "lmVlB8KBtlQ",
+    "title": "TOP MOMENTS | Minecraft LIVE – March 2026",
+    "duration": 72,
+    "url": "https://www.youtube.com/watch?v=lmVlB8KBtlQ",
+    "channel": "Minecraft",
+    "verified": true
+   }
   ]
  },
  "song_fail": {},
@@ -18467,12 +20772,6 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-20 07:44"
-  },
-  "P3NBd3UjH5Y": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 07:46"
   },
   "0hzHIC_YdI4": {
    "accept": true,
@@ -18602,12 +20901,6 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-20 15:09"
-  },
-  "HqZXw5M6qQY": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-20 15:11"
   },
   "Bf38HiYPMiI": {
    "accept": true,
@@ -18842,36 +21135,6 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-24 20:14"
-  },
-  "htg1EZE3LVk": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-25 01:41"
-  },
-  "_SgqsxXk8_E": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-25 01:49"
-  },
-  "ewAODca-3Bw": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-25 02:05"
-  },
-  "R3HS6owS3P8": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-25 02:10"
-  },
-  "T3ZaWDcPiIo": {
-   "accept": true,
-   "reject_reasons": [],
-   "vet_via": "preview",
-   "at": "2026-11-25 02:14"
   },
   "e2NfPuECiE4": {
    "accept": true,
@@ -19306,6 +21569,24 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-26 14:22"
+  },
+  "AFTFrcYAJ0Y": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top-left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 16:21"
+  },
+  "arbZ8n0OmkM": {
+   "accept": false,
+   "reject_reasons": [
+    "channel logo present in top left corner",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 16:21"
   }
  },
  "failures": [
@@ -21864,7 +24145,43 @@
    "platform": "youtube",
    "category": "gta",
    "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T21:59:01.148946+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-26T22:25:54.061364+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"resolution\": {\"ok\": false, \"value\": \"2560x1440\", \"want\": \"2160x3840\"}}"
+  },
+  {
+   "at": "2026-11-26T22:46:26.421574+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "FileNotFoundError: [Errno 2] No such file or directory: '/mnt/ph/youtube/vcache/cuts/5fe0e7aa864703a887fd.mp4.part.mp4' -> '/mnt/ph/youtube/vcache/cuts/5fe0e7aa864703a887fd.mp4'"
+  },
+  {
+   "at": "2026-11-26T22:56:26.720416+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-26T23:13:05.118578+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "FileNotFoundError: [Errno 2] No such file or directory: '/mnt/ph/youtube/vcache/cuts/7291fdc97d7c4095cbd9.mp4.part.mp4' -> '/mnt/ph/youtube/vcache/cuts/7291fdc97d7c4095cbd9.mp4'"
+  },
+  {
+   "at": "2026-11-26T23:37:36.898388+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"resolution\": {\"ok\": false, \"value\": \"2560x1440\", \"want\": \"2160x3840\"}}"
   }
  ],
- "vet_rules": "gta-rockstar-v1"
+ "vet_rules": "no-text-v2"
 }
