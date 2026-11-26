@@ -262,7 +262,8 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
             T.step("shorts_9x16")
             V.make_shorts(wide, out, m["hook"], V.font_path())
         else:
-            shutil.move(str(wide), out)
+            T.step("wide_4k")
+            V.make_4k_wide(wide, out)
         T.step("qa")
         qa = qa_video(str(out), meta, fmt, {**CFG, "platform_res": pcfg["res"]})
         T.step("preview")

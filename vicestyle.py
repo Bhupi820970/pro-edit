@@ -245,12 +245,20 @@ def cut_segment(seg: Seg, i: int, W: int, H: int, tmp: Path) -> Path:
     if out.exists() and out.stat().st_size > 1000:
         return out
     pre = max(0.0, seg.start - 2.0)
+    # Unique temp name per worker: a looped timeline repeats the same cut, and two parallel workers
+    # writing one shared .part file made the second os.replace fail (FileNotFoundError, 26 Nov).
+    import threading
+    part = f"{out}.{os.getpid()}-{threading.get_ident()}.part.mp4"
     cmd = ["ffmpeg", "-y", "-v", "error", "-ss", f"{pre:.4f}", "-i", seg.src,
            "-ss", f"{seg.start - pre:.4f}", "-vf", seg_filter(seg, W, H),
            "-frames:v", str(nfr), "-an", "-c:v", "libx264", "-preset", "fast", "-crf", "13",
-           "-pix_fmt", "yuv420p", str(out) + ".part.mp4"]
+           "-pix_fmt", "yuv420p", part]
     run(cmd)
-    os.replace(str(out) + ".part.mp4", out)
+    try:
+        os.replace(part, out)
+    except FileNotFoundError:
+        if not out.exists():
+            raise
     return out
 
 
@@ -966,6 +974,14 @@ def render(segs: list[Seg], song: Path, song_start: float | None, out: Path, mod
     shutil.rmtree(tmp, ignore_errors=True)
     log("wrote", out)
     return meta
+
+
+def make_4k_wide(wide: Path, out: Path):
+    """3840x2160 4K master of a wide (YouTube) render: Lanczos upscale + light luma sharpen."""
+    run(["ffmpeg", "-y", "-v", "error", "-i", str(wide), "-vf",
+         "scale=3840:2160:flags=lanczos,unsharp=5:5:0.35:5:5:0.0,format=yuv420p",
+         "-map", "0:v", "-map", "0:a?", "-c:v", "libx264", "-preset", "fast", "-crf", "17", "-maxrate", "50M",
+         "-bufsize", "100M", "-profile:v", "high", "-c:a", "copy", "-movflags", "+faststart", str(out)])
 
 
 def make_shorts(wide: Path, out: Path, hook: str, fpath: str):

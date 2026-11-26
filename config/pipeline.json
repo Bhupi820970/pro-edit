@@ -1126,7 +1126,7 @@
     "comedy": 4
   },
   "attempt_max_min": 10,
-  "render_max_min": 15,
+  "render_max_min": 20,
   "source_cache_gb": 24,
   "pool_total": {
     "target": 100,

@@ -74,9 +74,12 @@ Scheduled runs only happen while repo variable `SCHEDULE_ENABLED=true`.
   `pipeline.py produce` checks again at start (ends at once, status.json `last_run.quota_blocked`) and
   stops mid-run if the quota runs out. The watchdog (autoproduce) does not dispatch until the reset (~13:30 IST).
   Manual override for manual-pick runs: dispatch input `ignore_quota_gate=true`.
-- Hard caps: attempt 10 min before render + 15 min render/QA (the cap can no longer be swallowed by an
-  `except Exception`), run budget `max_minutes` 60 and no attempt starts with < 25 min left,
+- Hard caps: attempt 10 min before render + 20 min render/4K/QA (the cap can no longer be swallowed by an
+  `except Exception`), run budget `max_minutes` 60 and no attempt starts with < 30 min left,
   Produce step 75 min, restore step 20 min, job 100 min.
+- Every final is a 4K master: Shorts/Reels 2160x3840, YouTube (wide) 3840x2160 (Lanczos upscale of the
+  2560x1440 render). Until 26 Nov night QA wanted 2160x3840 for YouTube too, so every YouTube video failed.
+- Render cuts use a unique temp file per worker (looped timelines repeat a cut; the shared .part file raced).
 - Instagram + YouTube run in parallel in one run (matrix, Instagram listed first); the watchdog dispatches
   `both` when both are low. Each platform job still has its own concurrency group, so a second run waits
   for the same platform's job of the previous run (now at most ~100 min, usually far less).

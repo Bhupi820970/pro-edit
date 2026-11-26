@@ -15,8 +15,9 @@ def qa_video(path: str, meta: dict, fmt: str, cfg: dict) -> dict:
     aus = [s for s in info["streams"] if s.get("codec_type") == "audio"]
     lo, hi = cfg.get("qa_duration", [40, 70])
     checks["duration"] = {"ok": lo <= dur <= hi, "value": round(dur, 2)}
-    # BiBi: every FINAL video is a 4K vertical master, 2160x3840 — anything else fails QA
-    want = (2160, 3840)
+    # every FINAL video is a 4K master: Shorts/Reels 2160x3840 vertical, wide (YouTube) 3840x2160.
+    # (26 Nov: wanting 2160x3840 for wide too failed every YouTube video on resolution.)
+    want = (2160, 3840) if fmt == "shorts" else (3840, 2160)
     got = (vs[0]["width"], vs[0]["height"]) if vs else (0, 0)
     checks["resolution"] = {"ok": got == want, "value": f"{got[0]}x{got[1]}", "want": f"{want[0]}x{want[1]}"}
     checks["min_1080p"] = {"ok": bool(vs) and min(got) >= 1080, "value": f"{got[0]}x{got[1]}"}
