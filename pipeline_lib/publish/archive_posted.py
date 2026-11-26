@@ -25,7 +25,8 @@ SUFFIXES = (".mp4", ".preview.mp4", ".mp4.json")
 
 
 def _gh(args: list[str], timeout: int = 120, check: bool = True) -> subprocess.CompletedProcess:
-    r = subprocess.run(["gh", *args], capture_output=True, text=True, timeout=timeout)
+    from pipeline_lib.util import run
+    r = run(["gh", *args], timeout=timeout, check=False)   # retried when the command is a safe read/upload
     if check and r.returncode != 0:
         raise RuntimeError(f"gh {args[0]} {args[1] if len(args) > 1 else ''} failed: {r.stderr.strip()[:200]}")
     return r

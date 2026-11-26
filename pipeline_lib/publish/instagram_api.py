@@ -69,7 +69,22 @@ def _credentials(token: str | None = None, ig_user_id: str | None = None) -> tup
     return tok, uid
 
 
-def _request(method: str, path: str, token: str, *,
+def _request(method: str, path: str, token: str, *, params: dict | None = None, data: dict | None = None,
+             version: str | None = None, timeout: int = 60) -> dict:
+    """Graph call. GETs get 3 tries with backoff on transient/5xx errors; POSTs are not repeated here
+    (publish has its own recovery that first checks whether the reel already went live)."""
+    if method.upper() != "GET":
+        return _request_once(method, path, token, params=params, data=data, version=version, timeout=timeout)
+    from pipeline_lib.netretry import retry
+
+    def soft(e):
+        return not (getattr(e, "transient", False) or (getattr(e, "http_status", 0) or 0) >= 500)
+    return retry(lambda: _request_once(method, path, token, params=params, data=data, version=version,
+                                       timeout=timeout),
+                 label=f"IG GET {path.split('/')[-1][:20]}", give_up=soft, log=lambda m: print(S.redact(m), flush=True))
+
+
+def _request_once(method: str, path: str, token: str, *,
              params: dict | None = None, data: dict | None = None,
              version: str | None = None, timeout: int = 60) -> dict:
     ver = graph_version(version)

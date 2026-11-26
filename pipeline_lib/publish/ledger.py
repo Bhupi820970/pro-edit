@@ -25,9 +25,15 @@ def save(d: dict, path: Path | None = None) -> None:
     save_json(path or LEDGER_PATH, d)
 
 
+# rows: posted / pending (Buffer) = live; posting = intent written right before the API call (a lock);
+# failed / abandoned = nothing went live, the video may be picked again later.
+NOT_LIVE = {"failed", "abandoned"}
+STATUS_RANK = {"posted": 5, "already_live": 5, "pending": 4, "posting": 2, "failed": 1, "abandoned": 1}
+
+
 def posted_ids(d: dict | None = None, path: Path | None = None) -> set[str]:
     d = d if d is not None else load(path)
-    return {str(e.get("id")) for e in d.get("posted") or [] if e.get("id")}
+    return {str(e.get("id")) for e in d.get("posted") or [] if e.get("id") and e.get("status") not in NOT_LIVE}
 
 
 def entry_for(d: dict, video_id: str) -> dict | None:
@@ -126,7 +132,14 @@ def merge(a: dict, b: dict | None) -> dict:
                 order.append(k)
                 rows[k] = dict(e)
             else:
-                rows[k] = {**rows[k], **e}
+                prev = rows[k]
+                m = {**prev, **e}
+                # never downgrade: a stale copy saying "posting"/"failed" must not hide a "posted" row
+                if STATUS_RANK.get(prev.get("status"), 3) > STATUS_RANK.get(e.get("status"), 3):
+                    for f in ("status", "slot", "youtube_id", "youtube_url", "instagram_url", "ig_media_id"):
+                        if prev.get(f) is not None:
+                            m[f] = prev[f]
+                rows[k] = m
     out["version"] = (a or {}).get("version", 1)
     out["posted"] = sorted((rows[k] for k in order), key=lambda e: str(e.get("posted_at") or ""))
     return out
@@ -137,8 +150,68 @@ def slot_taken(d: dict, slot: str | None, platform: str) -> dict | None:
     if not slot:
         return None
     for e in d.get("posted") or []:
-        if str(e.get("slot") or "") == slot and e.get("platform") == platform:
+        if str(e.get("slot") or "") == slot and e.get("platform") == platform and e.get("status") not in NOT_LIVE:
             return e
+    return None
+
+
+def _age_min(e: dict, now=None) -> float:
+    import datetime as dt
+    now = now or now_local()
+    raw = e.get("intent_at") or e.get("updated_at") or ""
+    try:
+        return (now - dt.datetime.fromisoformat(raw)).total_seconds() / 60
+    except Exception:
+        return 1e9
+
+
+def open_intents(d: dict, platform: str) -> list[dict]:
+    return [e for e in d.get("posted") or [] if e.get("status") == "posting" and e.get("platform") == platform]
+
+
+def remote_with_sha(repo: str, ref: str = "main") -> tuple[dict | None, str | None]:
+    """Ledger on main plus its blob sha (for a compare-and-swap write)."""
+    import base64
+    import json
+    import subprocess
+    try:
+        r = subprocess.run(["gh", "api", f"repos/{repo}/contents/ledger/posted.json?ref={ref}"],
+                           capture_output=True, text=True, timeout=30)
+        if r.returncode != 0:
+            return None, None
+        meta = json.loads(r.stdout)
+        d = json.loads(base64.b64decode(meta["content"]).decode())
+        return (d if isinstance(d.get("posted"), list) else None), meta.get("sha")
+    except Exception:
+        return None, None
+
+
+def cas_update(repo: str, mutate, message: str, tries: int = 5, log=print) -> dict | None:
+    """Read main's ledger, apply mutate(d) -> d | None (None = nothing to write / abort), and PUT it back
+    only if main did not change meanwhile (sha match). On a conflict re-read and re-apply (a rebase), with
+    backoff. Returns the written ledger, the unchanged one if mutate returned None, or None if unreadable."""
+    import base64
+    import json
+    import random
+    import subprocess
+    import time
+    for i in range(tries):
+        d, sha = remote_with_sha(repo)
+        if d is None:
+            time.sleep(2 * (2 ** i))
+            continue
+        new = mutate(json.loads(json.dumps(d)))
+        if new is None:
+            return d
+        new["updated"] = now_local().isoformat()
+        body = base64.b64encode((json.dumps(new, indent=1, ensure_ascii=False) + "\n").encode()).decode()
+        r = subprocess.run(["gh", "api", "-X", "PUT", f"repos/{repo}/contents/ledger/posted.json",
+                            "-f", f"message={message}", "-f", f"content={body}", "-f", f"sha={sha}",
+                            "-f", "branch=main"], capture_output=True, text=True, timeout=60)
+        if r.returncode == 0:
+            return new
+        log(f"ledger write conflict/err (try {i + 1}/{tries}) -> re-read main and retry")
+        time.sleep(2 * (2 ** i) + random.uniform(0, 1))
     return None
 
 

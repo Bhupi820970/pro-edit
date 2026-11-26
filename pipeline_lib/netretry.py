@@ -1,6 +1,7 @@
 """3 tries with exponential backoff for network steps (yt-dlp, YouTube API, IG Graph API, gh release I/O)."""
 from __future__ import annotations
 
+import os
 import random
 import subprocess
 import time
@@ -16,7 +17,7 @@ def retry(fn, tries: int = 3, base: float = 4.0, label: str = "network step", lo
         except retry_on as e:
             if i == tries - 1 or (give_up and give_up(e)):
                 raise
-            wait = base * (2 ** i) + random.uniform(0, 1)
+            wait = 0.0 if os.environ.get("PYTEST_CURRENT_TEST") else base * (2 ** i) + random.uniform(0, 1)
             try:
                 from .publish.secrets import redact
                 msg = redact(str(e))[:160]

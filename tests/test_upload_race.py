@@ -54,6 +54,10 @@ class LedgerRace(unittest.TestCase):
                 patch.dict("os.environ", {"GITHUB_ACTIONS": "true", "VC_REMOTE_LEDGER": "1", "GITHUB_STEP_SUMMARY": str(Path(td) / "s"),
                                           "GITHUB_OUTPUT": str(Path(td) / "o")}), \
                 patch.object(runner.ledger, "fetch_remote", return_value=remote), \
+                patch.object(runner.ledger, "cas_update", side_effect=lambda repo, mut, msg, **k: mut(json.loads(json.dumps(remote)))), \
+                patch.object(runner.live_check, "yt_live_copy", return_value=None), \
+                patch.object(runner.live_check, "ig_live_copy", return_value=None), \
+                patch.object(runner.youtube, "access_token_from_env", return_value="t"), \
                 patch.object(runner.ledger, "due_slot", return_value="2026-11-26T18:30"), \
                 patch.object(runner.stock, "load_stock_dir", return_value=items), \
                 patch.object(runner.stock, "pick_next",

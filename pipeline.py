@@ -684,6 +684,12 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
                                                          for k, m, ok, n in gem.calls[-60:]]}
     extra["skipped_categories"] = sorted(skip)
     try:
+        gs = gem.status()                  # labels / model names only
+        if isinstance(gs, dict):
+            extra["gemini"] = gs
+    except Exception:
+        pass
+    try:
         queue_fetch(gem, sourcer, a.platform, made, fails, extra_cats=sorted(skip))
     except Exception as ex:
         log("queue_fetch failed:", str(ex)[:200])
@@ -751,6 +757,7 @@ def main(argv=None):
         else:
             p.add_argument("--target", type=int, default=CFG.get("buffer_target", 7))
     sub.add_parser("status")
+    sub.add_parser("gemini-check", help="which Gemini models exist / answer now (names + codes only)")
     p = sub.add_parser("pool-sync")
     p.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", "Bhupi820970/pro-edit"))
     p = sub.add_parser("pull-sources")
@@ -774,6 +781,12 @@ def main(argv=None):
     a = ap.parse_args(argv)
     if a.cmd == "status":
         print(json.dumps(write_status(State()), indent=1, ensure_ascii=False)[:20000])
+        return 0
+    if a.cmd == "gemini-check":
+        from pipeline_lib.gemini import check_models
+        res = check_models(log=log)
+        print(json.dumps(res, indent=1))
+        save_json(home() / "gemini_check.json", {**res, "at": now_local().isoformat()})
         return 0
     if a.cmd == "pull-sources":
         pull_sources(a.repo, a.max_gb)

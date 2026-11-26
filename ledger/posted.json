@@ -187,5 +187,26 @@
    "updated_at": "2026-11-26T18:34:47.944424+05:30",
    "posted_at": "2026-11-26T18:34:47.944424+05:30"
   }
+ ],
+ "duplicates": [
+  {
+   "id": "yo-gta-20261126-174815",
+   "platform": "youtube",
+   "duplicate_of": "4DJCHbfbcbk",
+   "duplicate_id": "GoCHmaSRViw",
+   "run_id": "45825420513",
+   "status": "deleted",
+   "note": "race double-upload 2026-11-26 18:36 IST; removed via maintenance run 45834508287"
+  },
+  {
+   "id": "in-movie-20261126-160820",
+   "platform": "instagram",
+   "duplicate_of": "DgNKzWdhHL9",
+   "duplicate_id": "18117755780028898",
+   "permalink": "https://www.instagram.com/reel/DgNLBERIlWL/",
+   "run_id": "45825420513",
+   "status": "needs_manual_delete",
+   "note": "IG Graph API refused delete (#10 insufficient permissions); owner deletes in the app"
+  }
  ]
 }

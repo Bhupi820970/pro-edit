@@ -59,6 +59,47 @@ def ig_recent_media(n: int = 25) -> list[dict]:
     return out
 
 
+def vc_tag(video_id: str) -> str:
+    """Hidden YouTube tag that identifies our render (tags are not shown on the Short)."""
+    return "vc-" + re.sub(r"[^a-z0-9-]", "", video_id.lower())[:40]
+
+
+def yt_tags(token: str, ids: list[str]) -> dict[str, list[str]]:
+    ids = [i for i in ids if i][:50]
+    if not ids:
+        return {}
+    d = _yt_get(token, "videos", {"part": "snippet", "id": ",".join(ids)})
+    return {v.get("id"): (v.get("snippet") or {}).get("tags") or [] for v in d.get("items") or []}
+
+
+def yt_live_copy(token: str, video_id: str, titles: list[str], n: int = 25) -> dict | None:
+    """A recent upload of this render: same hidden tag, or (older uploads without tag) the same title."""
+    ups = yt_recent_uploads(token, n)
+    tags = yt_tags(token, [u["id"] for u in ups])
+    want = vc_tag(video_id)
+    for u in ups:
+        if want in (tags.get(u["id"]) or []):
+            return u
+    wt = {_norm(t) for t in titles if t}
+    return next((u for u in ups if _norm(u["title"]) in wt), None)
+
+
+def ig_live_copy(credit: str, footage: str, days: float = 3, n: int = 25) -> dict | None:
+    """A recent reel carrying this render's song + footage credit lines (deterministic per render)."""
+    if not credit:
+        return None
+    rows = retry(lambda: instagram_api.list_recent_media(limit=n), label="instagram GET media")
+    cut = time.time() - days * 86400
+    for r in rows:
+        ts = instagram_api._parse_ts(r.get("timestamp"))
+        if ts is not None and ts < cut:
+            continue
+        cap = r.get("caption") or ""
+        if credit in cap and (not footage or footage in cap):
+            return {"id": r.get("id"), "permalink": r.get("permalink"), "timestamp": r.get("timestamp")}
+    return None
+
+
 def _norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
 

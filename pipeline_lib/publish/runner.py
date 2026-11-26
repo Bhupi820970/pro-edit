@@ -8,7 +8,7 @@ from pathlib import Path
 
 from pipeline_lib.util import now_local
 
-from . import buffer_ig, captions, cfg as cfgmod, instagram_api, ledger, stock, transfer, youtube
+from . import buffer_ig, captions, cfg as cfgmod, instagram_api, ledger, live_check, stock, transfer, youtube
 from . import secrets as S
 
 
@@ -20,15 +20,33 @@ def _log(msg: str) -> None:
     print(f"[upload {now_local().strftime('%H:%M:%S')}] {S.redact(str(msg))}", flush=True)
 
 
-def _retry(fn, once: bool, label: str):
-    try:
-        return fn()
-    except Exception as e:
-        if not once:
-            raise
-        _log(f"{label}: first attempt failed ({S.redact(str(e)[:300])}); retrying once")
-        time.sleep(5)
-        return fn()
+def _retry(fn, once: bool, label: str, check=None, tries: int = 3, base: float = 8.0):
+    """Up to `tries` attempts with exponential backoff (8s, 16s). Before every retry `check()` asks the
+    platform whether the previous attempt actually went live; if it did, that result is returned and
+    nothing is posted again."""
+    n = tries if once else 1
+    if os.environ.get("VC_REMOTE_LEDGER") != "1":
+        check = None             # live checks need the real accounts (upload.yml); local/tests retry plainly
+    if os.environ.get("PYTEST_CURRENT_TEST"):
+        base = 0.0
+    for i in range(n):
+        try:
+            return fn()
+        except Exception as e:
+            if i == n - 1:
+                raise
+            wait = base * (2 ** i)
+            _log(f"{label}: attempt {i + 1}/{n} failed ({S.redact(str(e)[:300])}); retry in {wait:.0f}s")
+            time.sleep(wait)
+            if check:
+                try:
+                    hit = check()
+                except Exception as ce:
+                    _log(f"{label}: live check failed ({S.redact(str(ce)[:160])}) -> not retrying (no double post)")
+                    raise e
+                if hit:
+                    _log(f"{label}: previous attempt is live after all -> not posting again")
+                    return hit
 
 
 def _gemini():
@@ -112,7 +130,11 @@ def _upload_youtube(item: dict, text: dict, conf: dict, dry: bool) -> dict:
             category_id=str(conf.get("youtube_category_id") or "20"),
             privacy="public",
         )
-    info = _retry(go, bool(conf.get("retry_once", True)), f"youtube {item['id']}")
+
+    def live():
+        hit = live_check.yt_live_copy(youtube.access_token_from_env(), item["id"], [text["title"]])
+        return {"id": hit["id"], "url": f"https://youtube.com/shorts/{hit['id']}"} if hit else None
+    info = _retry(go, bool(conf.get("retry_once", True)), f"youtube {item['id']}", check=live)
     return {
         "platform": "youtube", "video_id": item["id"], "ok": True, "status": "posted",
         "youtube_id": info["id"], "url": info["url"], "title": text["title"],
@@ -187,16 +209,19 @@ def _upload_instagram_graph(item: dict, text: dict, conf: dict, repo: str) -> di
         retry_once,
         f"instagram transfer {item['id']}",
     )
+    def live():
+        hit = live_check.ig_live_copy(text.get("song_credit") or "", captions.footage_credit(item.get("sources")) or "")
+        return {"media_id": hit["id"], "url": hit.get("permalink")} if hit else None
     try:
-        res = instagram_api.publish_reel(
+        res = _retry(lambda: instagram_api.publish_reel(
             xfer["url"],
             text["ig_caption"],
             expected_username=conf.get("instagram_username") or "benreelr",
             share_to_feed=True,
-            retry_once=retry_once,
+            retry_once=False,          # retries are done here, each one behind a live check
             version=conf.get("instagram_graph_version") or None,
             log=_log,
-        )
+        ), retry_once, f"instagram publish {item['id']}", check=live)
     finally:
         try:
             transfer.delete(repo, xfer["tag"])
@@ -333,6 +358,48 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
             _log(f"Gemini caption check failed; template captions would be used: {type(e).__name__}: {S.redact(str(e)[:200])}")
     results = []
     remote_guard = not dry_run and os.environ.get("VC_REMOTE_LEDGER") == "1"   # set by upload.yml
+    run_id = os.environ.get("GITHUB_RUN_ID") or "local"
+    stale_min = float(conf.get("intent_stale_minutes") or 25)
+
+    def live_copy(platform: str, item: dict, title: str | None) -> dict | None:
+        """Is this render already live? (hidden YouTube tag / title; IG song + footage credit lines)"""
+        if platform == "youtube":
+            hit = live_check.yt_live_copy(youtube.access_token_from_env(), item["id"], [title or item.get("title") or ""])
+            return {"youtube_id": hit["id"], "youtube_url": f"https://youtube.com/shorts/{hit['id']}"} if hit else None
+        credit = captions.song_credit(item.get("song"), item.get("song_credit"))
+        hit = live_check.ig_live_copy(credit or "", captions.footage_credit(item.get("sources")) or "")
+        return {"ig_media_id": hit["id"], "instagram_url": hit.get("permalink")} if hit else None
+
+    def write(row: dict, guard=None) -> bool:
+        """Record a row locally and (Actions) on main with compare-and-swap. guard(d) -> reason aborts."""
+        nonlocal led
+        if not remote_guard:
+            ledger.record(led, row)
+            ledger.save(led, ledger_path)
+            return True
+        aborted = []
+
+        def mut(d):
+            if guard:
+                why = guard(d)
+                if why:
+                    aborted.append(why)
+                    return None
+            ledger.record(d, row)
+            return d
+        res = ledger.cas_update(repo, mut, f"upload: {row.get('status')} {row['id']} run {run_id}", log=_log)
+        if res is None or aborted:
+            if aborted:
+                _log(f"{row['platform']}: not posting ({aborted[0]})")
+            if res is not None:
+                led = ledger.merge(led, res)
+            return False
+        led = ledger.merge(led, res)
+        ledger.record(led, row)
+        ledger.save(led, ledger_path)
+        return True
+
+    by_id = {it.get("id"): it for it in items}
     for platform in ("youtube", "instagram"):
         if remote_guard:
             # another upload run may have posted since this one checked out: re-read main's ledger first
@@ -343,24 +410,95 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
                 continue
             if remote is not None:
                 led = ledger.merge(led, remote)
+            # reconcile intents left by runs that died between "posting" and the result
+            busy = None
+            for e in ledger.open_intents(led, platform):
+                if e.get("run_id") == run_id:
+                    continue
+                if ledger._age_min(e) < stale_min:
+                    busy = e
+                    continue
+                try:
+                    hit = live_copy(platform, by_id.get(e["id"]) or {"id": e["id"], "title": e.get("title")},
+                                    e.get("title"))
+                except Exception as ex:
+                    _log(f"{platform}: cannot verify old intent {e['id']} ({S.redact(str(ex)[:160])}) -> not posting")
+                    busy = e
+                    continue
+                if hit:
+                    write({**e, **hit, "status": "posted", "reconciled": True})
+                    _log(f"{platform}: old intent {e['id']} is live -> recorded as posted")
+                else:
+                    write({**e, "status": "abandoned", "slot": None, "abandoned_slot": e.get("slot")})
+                    _log(f"{platform}: old intent {e['id']} never went live -> abandoned (can be posted later)")
+            if busy:
+                _log(f"{platform}: run {busy.get('run_id')} is posting {busy.get('id')} right now -> skip")
+                results.append({"platform": platform, "ok": True, "status": "another_run_posting",
+                                "video_id": busy.get("id")})
+                continue
         taken = ledger.slot_taken(led, slot, platform)
         if taken:
             _log(f"{platform}: slot {slot} already has {taken.get('id')} (run {taken.get('run_id')}) -> skip")
             results.append({"platform": platform, "ok": True, "status": "slot_already_posted",
                             "video_id": taken.get("id")})
             continue
-        item = stock.pick_next(items, platform, ledger.posted_ids(led))
-        if not item:
-            results.append({
-                "platform": platform, "ok": False, "status": "no_stock",
-                "error": f"no unposted ready video for {platform}",
-            })
+        item = None
+        for _ in range(3):   # skip renders that turn out to be live already (recorded, never re-posted)
+            item = stock.pick_next(items, platform, ledger.posted_ids(led))
+            if not item or not remote_guard:
+                break
+            try:
+                hit = live_copy(platform, item, item.get("title"))
+            except Exception as ex:
+                _log(f"{platform}: live pre-check failed ({S.redact(str(ex)[:160])}) -> not posting this slot")
+                item = "check_failed"
+                break
+            if not hit:
+                break
+            write({"id": item["id"], "platform": platform, "status": "posted", "already_live": True,
+                   "run_id": run_id, "title": item.get("title"), **hit})
+            _log(f"{platform}: {item['id']} is already live -> recorded, picking the next one")
+            results.append({"platform": platform, "video_id": item["id"], "ok": True, "status": "already_live"})
+            item = None
+        if item == "check_failed":
+            results.append({"platform": platform, "ok": False, "status": "failed",
+                            "error": "live pre-check failed; not posting blind"})
             continue
+        if not item:
+            if not any(r.get("platform") == platform and r.get("status") == "already_live" for r in results):
+                results.append({
+                    "platform": platform, "ok": False, "status": "no_stock",
+                    "error": f"no unposted ready video for {platform}",
+                })
+            continue
+        intent = None
         try:
             path = _ensure_path(item, repo, tag, work)
             item["path"] = str(path)
             text = captions.build(item, platform, gem=gem)
+            if platform == "youtube":
+                text["tags"] = list(text.get("tags") or [])[:12] + [live_check.vc_tag(item["id"])]
             _log(f"{platform} {item['id']}: title={text['title']!r}")
+            if remote_guard:        # intent lock on main (Actions upload only)
+                intent = {"id": item["id"], "platform": platform, "status": "posting", "run_id": run_id,
+                          "intent_at": now_local().isoformat(), "title": text["title"]}
+                if slot:
+                    intent["slot"] = slot
+
+                def guard(d, _p=platform, _id=item["id"]):
+                    if ledger.slot_taken(d, slot, _p):
+                        return f"slot {slot} taken meanwhile"
+                    if any(e.get("run_id") != run_id and ledger._age_min(e) < stale_min
+                           for e in ledger.open_intents(d, _p)):
+                        return "another run is posting"
+                    if _id in ledger.posted_ids(d) and (ledger.entry_for(d, _id) or {}).get("run_id") != run_id:
+                        return "video recorded by another run"
+                    return None
+                if not write(intent, guard):
+                    results.append({"platform": platform, "ok": True, "status": "lock_not_acquired",
+                                    "video_id": item["id"]})
+                    intent = None
+                    continue
             if platform == "youtube":
                 rec = _upload_youtube(item, text, conf, dry_run)
             else:
@@ -382,12 +520,28 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
                 }
                 if slot:
                     row["slot"] = slot
-                ledger.record(led, row)
-                ledger.save(led, ledger_path)
+                if not write(row):
+                    _log(f"{platform}: posted but main's ledger write failed; the local ledger + commit step keep it")
+                    ledger.record(led, row)
+                    ledger.save(led, ledger_path)
             results.append(rec)
         except Exception as e:
             _log(f"{platform} {item.get('id')}: FAILED: {S.redact(str(e)[:400])}")
             _log(S.redact(traceback.format_exc()[-800:]))
+            if intent:   # reconcile: did it go live anyway? never leave a silent double-post path
+                hit = None
+                try:
+                    hit = live_copy(platform, item, intent.get("title"))
+                except Exception as ce:
+                    _log(f"{platform}: post-failure live check failed ({S.redact(str(ce)[:160])}); intent kept as lock")
+                    hit = "unknown"
+                if hit == "unknown":
+                    pass        # row stays "posting" -> next run reconciles after intent_stale_minutes
+                elif hit:
+                    write({**intent, **hit, "status": "posted", "reconciled": True})
+                else:
+                    write({**intent, "status": "failed", "slot": None, "failed_slot": slot,
+                           "error": S.redact(str(e)[:200])})
             results.append({
                 "platform": platform, "video_id": item.get("id"), "ok": False,
                 "status": "failed", "error": S.redact(str(e)[:400]),

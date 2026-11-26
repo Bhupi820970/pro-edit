@@ -58,8 +58,29 @@ def log(*a):
     _LOGF.flush()
 
 
-def run(cmd, timeout=None, check=True, **kw) -> subprocess.CompletedProcess:
-    r = subprocess.run([str(c) for c in cmd], capture_output=True, text=True, timeout=timeout, **kw)
+_NO_RETRY = ("sign in to confirm", "not a bot", "video unavailable", "private video", "members-only",
+             "copyright", "not available", "http error 404", "unsupported url", "no video formats",
+             "requested format is not available", "release not found", "could not find any assets",
+             "no assets match", "not found (http 404)", "http 404", "http 401", "http 403", "bad credentials")
+
+
+def run(cmd, timeout=None, check=True, retries: int | None = None, **kw) -> subprocess.CompletedProcess:
+    """subprocess.run with an argument list (never a shell). Network commands (yt-dlp, gh release
+    up/download/view, gh api GET) get 3 tries with exponential backoff (4s, 8s) unless the error is
+    permanent (bot check, unavailable, 404, auth)."""
+    import random
+    import time as _t
+    from .netretry import is_retryable_cmd
+    tries = retries if retries is not None else (3 if is_retryable_cmd(cmd) else 1)
+    for i in range(tries):
+        r = subprocess.run([str(c) for c in cmd], capture_output=True, text=True, timeout=timeout, **kw)
+        if r.returncode == 0 or i == tries - 1:
+            break
+        err = ((r.stderr or "") + (r.stdout or "")[-500:]).lower()
+        if any(x in err for x in _NO_RETRY):
+            break
+        if not os.environ.get("PYTEST_CURRENT_TEST"):
+            _t.sleep(4 * (2 ** i) + random.uniform(0, 1))
     if check and r.returncode != 0:
         raise RuntimeError(f"{Path(str(cmd[0])).name} failed ({r.returncode}): {(r.stderr or r.stdout)[-1500:]}")
     return r

@@ -246,7 +246,7 @@ class RunnerTests(unittest.TestCase):
             out = run_pass("test", dry_run=False, repo="Bhupi820970/pro-edit",
                            stock_dir=self.stock, work_dir=self.root / "work",
                            ledger_path=self.ledger)
-        self.assertEqual(calls["n"], 2)
+        self.assertEqual(calls["n"], 3)          # 3 tries with backoff
         by = {r["platform"]: r for r in out["results"]}
         self.assertEqual(by["youtube"]["status"], "failed")
         self.assertEqual(by["instagram"]["status"], "posted")  # other platform still ran

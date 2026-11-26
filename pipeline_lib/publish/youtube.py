@@ -7,6 +7,7 @@ Target channel is checked against config (default @vicecartelgta) before any upl
 from __future__ import annotations
 
 import json
+import re
 import os
 import urllib.error
 import urllib.parse
@@ -24,7 +25,20 @@ class YouTubeError(RuntimeError):
     pass
 
 
+def _transient(e: Exception) -> bool:
+    """Network errors and 5xx/429 are worth a retry; 4xx (auth, bad request) are not."""
+    m = re.search(r"HTTP (\d{3})", str(e))
+    return (int(m.group(1)) >= 500 or int(m.group(1)) == 429) if m else True
+
+
 def _open(req: urllib.request.Request, timeout: int = 120):
+    """urlopen with 3 tries + backoff for GET/POST metadata calls (never used for the chunk PUT body)."""
+    from pipeline_lib.netretry import retry
+    return retry(lambda: _open_once(req, timeout), label=f"youtube {req.get_method()}",
+                 give_up=lambda e: not _transient(e), log=lambda m: print(S.redact(m), flush=True))
+
+
+def _open_once(req: urllib.request.Request, timeout: int = 120):
     try:
         return urllib.request.urlopen(req, timeout=timeout)
     except urllib.error.HTTPError as e:
@@ -173,7 +187,10 @@ def resumable_upload(token: str, path: str, title: str, description: str, tags: 
             chunk = f.read(min(CHUNK, size - sent))
             if not chunk:
                 break
-            result = _put_chunk(session, chunk, sent, size, "video/mp4")
+            from pipeline_lib.netretry import retry
+            result = retry(lambda: _put_chunk(session, chunk, sent, size, "video/mp4"),   # same byte range again
+                           label="youtube upload chunk", give_up=lambda e: not _transient(e),
+                           log=lambda m: print(S.redact(m), flush=True))
             sent += len(chunk)
     if not result or not result.get("id"):
         # some implementations return the resource only on the last chunk; if we

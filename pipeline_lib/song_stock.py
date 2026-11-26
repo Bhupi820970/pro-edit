@@ -45,7 +45,8 @@ def repo_slug() -> str:
 
 
 def gh(*args, check=True) -> subprocess.CompletedProcess:
-    r = subprocess.run(["gh", *args], capture_output=True, text=True, timeout=1800)
+    from .util import run as _run
+    r = _run(["gh", *args], timeout=1800, check=False)
     if check and r.returncode != 0:
         raise RuntimeError(f"gh {args[0]} {args[1] if len(args) > 1 else ''} failed: {(r.stderr or '')[-200:]}")
     return r

@@ -24,7 +24,7 @@ from urllib.parse import urlparse
 
 from .util import home, log, run, probe, REPO
 from .used_clips import used_ids, is_used
-from .gemini import GeminiError, LITE_MODELS, FULL_MODELS
+from .gemini import GeminiError, LITE_MODELS, FULL_MODELS, FALLBACK_MODELS
 from .titles import SINGLE_WORK_CATEGORIES, is_full_scene_upload, is_gta_title, is_trailer_title, player_name, work_title
 
 YTDLP_CLIENT_FALLBACKS = [
@@ -353,7 +353,7 @@ def gemini_discover(gem, category: str, cfg: dict) -> list[dict]:
         log("gemini discovery skipped: all keys quota-exhausted")
         return []
     try:
-        txt = gem.generate([{"text": q}], search=True, models=LITE_MODELS + FULL_MODELS)
+        txt = gem.generate([{"text": q}], search=True, models=LITE_MODELS + FULL_MODELS + FALLBACK_MODELS)
         from .gemini import parse_json
         items = parse_json(txt) if isinstance(txt, str) else txt
         out = []
@@ -616,7 +616,7 @@ class Sourcer:
         try:
             res = self.gem.generate([{"text": prompt}], schema=PRE_VET_SCHEMA,
                                     images=frames, temperature=0.1,
-                                    models=LITE_MODELS + FULL_MODELS)
+                                    models=LITE_MODELS + FULL_MODELS + FALLBACK_MODELS)
         finally:
             root = self.proxies.resolve()
             for fp in frames:
@@ -760,7 +760,7 @@ class Sourcer:
             try:
                 res = self.gem.generate([{"text": prompt}], schema=VET_SCHEMA,
                                         images=[fp for _, fp in frames], temperature=0.1,
-                                        models=LITE_MODELS + FULL_MODELS)
+                                        models=LITE_MODELS + FULL_MODELS + FALLBACK_MODELS)
                 res["checked_by"] = "gemini"
                 res["vet_via"] = "keyframes"
                 res["keyframe_times"] = [round(ts, 2) for ts, _ in frames]
