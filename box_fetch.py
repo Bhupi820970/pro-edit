@@ -228,12 +228,44 @@ def clip_unusable(m: dict) -> str:
     return ""
 
 
+POOL_RETRIES = 3            # per genre per cycle, on fetch errors
+POOL_BACKOFF_S = 60
+STALE_CYCLE_MIN = 240       # cron runs every 3 h: no finished cycle for 4 h = the fetcher died / never ran
+
+
+def fetch_due(pool_state: dict | None, now, total_cfg: dict = POOL_TOTAL) -> bool:
+    """Should the box watchdog start an extra fetch cycle now? (the lock still prevents two at once)
+    * no state yet, or the last finished cycle is older than 4 h (dead fetcher) -> yes
+    * stock low (refilling, or total <= refill_at) -> yes after a backoff of 30, 60, 120, 180 min for
+      consecutive cycles that added nothing (errors / empty genres), so it keeps retrying until full
+    * otherwise no (the regular 3-hourly cron keeps it topped up)"""
+    import datetime as _dt
+    if not isinstance(pool_state, dict) or not pool_state.get("at"):
+        return True
+    try:
+        last = _dt.datetime.fromisoformat(str(pool_state["at"]))
+        age_min = (now - last).total_seconds() / 60
+    except (TypeError, ValueError):
+        return True
+    if age_min >= STALE_CYCLE_MIN:
+        return True
+    total = pool_state.get("total")
+    if total is None:
+        total = sum((pool_state.get("counts") or {}).values())
+    low = bool(pool_state.get("refilling")) or total <= int(total_cfg.get("refill_at", total_cfg.get("refill_below", 40)))
+    if not low:
+        return False
+    backoff = min(180, 30 * (2 ** min(int(pool_state.get("zero_cycles") or 0), 3)))
+    return age_min >= backoff
+
+
 def pool_refill_plan(counts: dict, targets: dict, refilling: bool, total_cfg: dict = POOL_TOTAL) -> tuple[dict, bool]:
     """Which genres to top up this cycle and the new refill flag.
-    total < refill_below -> start a refill to ~target spread over genres (per-genre targets);
+    total <= refill_at (50; older configs: total < refill_below) -> start a refill to ~target spread over genres (per-genre targets);
     total >= target -> stop; any genre with fewer than 2 usable clips (one title group) is always filled."""
     total = sum(counts.values())
-    if total < int(total_cfg.get("refill_below", 40)):
+    at = total_cfg.get("refill_at")
+    if (total <= int(at)) if at is not None else (total < int(total_cfg.get("refill_below", 40))):
         refilling = True
     elif total >= int(total_cfg.get("target", 100)):
         refilling = False
@@ -276,7 +308,7 @@ def prune_used_clips(directory: Path, min_free_gb: float) -> int:
         return 0
     try:
         from pipeline_lib.used_clips import used_ids
-        used = set(used_ids())
+        used = set(used_ids(reservations=False))  # posted clips only
     except Exception:
         return 0
     files = []
@@ -410,6 +442,19 @@ class Box:
             except Exception:
                 log(f"rejected list: {plat}/state.json is not JSON -> ignored")
         self.rejected = rejected_from_states(states)
+        try:  # produce-time reservations (pipeline-state/clip_reservations.json): plain JSON data, never executed
+            from pipeline_lib.used_clips import RESERV_COPY
+            r = gh("api", f"repos/{self.repo}/contents/clip_reservations.json?ref=pipeline-state",
+                   "-H", "Accept: application/vnd.github.raw", check=False, timeout=120)
+            if r.returncode == 0:
+                doc = json.loads(r.stdout)
+                if isinstance(doc, dict) and isinstance(doc.get("clips"), dict):
+                    RESERV_COPY.parent.mkdir(parents=True, exist_ok=True)
+                    tmp = RESERV_COPY.with_name(RESERV_COPY.name + ".tmp")
+                    tmp.write_text(json.dumps({"clips": doc["clips"]}))
+                    os.replace(tmp, RESERV_COPY)
+        except Exception as ex:
+            log("clip reservations unreadable (ignored):", str(ex)[:100])
         try:  # clips already used by posted videos never come back (ledger/used_clips.json + box copy)
             from pipeline_lib.used_clips import used_ids
             self.rejected |= used_ids()
@@ -965,13 +1010,20 @@ class Box:
             tgt = counts.get(cat, 0) + plan[cat]
             have = usable_pool(man, assets, rejected, cat)
             fetched_cat = 0
+            fails = 0
             while len(have) < tgt and fetched_cat < cap and not self.disk_low:
                 need = min(tgt - len(have), cap - fetched_cat)
                 try:
                     recs = self.fetch(cat, need, use_gemini=False)
                 except Exception as ex:
+                    # network / YouTube hiccup: retry this genre with backoff (60 s, 180 s, 540 s), then move on;
+                    # the box watchdog starts another cycle later (box/watchdog_kick.sh -> should-run)
                     errors.append(f"pool {cat}: {str(ex)[:150]}")
-                    break
+                    fails += 1
+                    if fails > POOL_RETRIES:
+                        break
+                    time.sleep(POOL_BACKOFF_S * (3 ** (fails - 1)))
+                    continue
                 if not recs:
                     log(f"pool {cat}: no more official candidates ({len(have)}/{tgt})")
                     break
@@ -985,7 +1037,14 @@ class Box:
         if sum(counts.values()) >= int(POOL_TOTAL.get("target", 100)):
             refilling = False
         try:
-            state_p.write_text(json.dumps({"refilling": refilling, "counts": counts,
+            prev = json.loads(state_p.read_text()) if state_p.exists() else {}
+        except Exception:
+            prev = {}
+        pool_new = sum(counts.values()) - sum((prev.get("counts") or {}).values()) if prev.get("counts") else 0
+        zero = 0 if (not refilling or pool_new > 0) else int(prev.get("zero_cycles") or 0) + 1
+        try:
+            state_p.write_text(json.dumps({"refilling": refilling, "counts": counts, "total": sum(counts.values()),
+                                           "zero_cycles": zero, "errors": len(errors),
                                            "at": now_local().isoformat()}, indent=1))
         except OSError:
             pass
@@ -1011,7 +1070,8 @@ class Box:
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["once", "loop", "songs", "cycle", "sync", "audit-res"], nargs="?", default="once")
+    ap.add_argument("cmd", choices=["once", "loop", "songs", "cycle", "sync", "audit-res", "should-run"], nargs="?",
+                    default="once")
     ap.add_argument("--category", choices=list(CFG["categories"]))
     ap.add_argument("--limit", type=int, default=4)
     ap.add_argument("--links", type=Path, default=None, help="file with YouTube / X URLs (one per line)")
@@ -1023,6 +1083,13 @@ def main():
     ap.add_argument("--dir", type=Path, default=Path(os.environ.get("BOX_FETCH_DIR") or (Path(os.environ.get("VICE_BOX_ROOT") or Path(__file__).resolve().parent.parent) / "box_fetch")))
     ap.add_argument("--dry-run", action="store_true", help="download only, do not upload")
     a = ap.parse_args()
+    if a.cmd == "should-run":   # used by box/watchdog_kick.sh; prints yes/no, reads only pool_state.json
+        try:
+            st = json.loads((a.dir / "pool_state.json").read_text())
+        except Exception:
+            st = None
+        print("yes" if fetch_due(st, now_local()) else "no")
+        return
     if a.cmd == "loop":   # retired 2026-11-26: the crontab fetcher (box/fetch_sources.sh) is the only fetcher
         log("retired: the old 'loop' fetcher is off; the crontab fetcher (box/fetch_sources.sh) is the only fetcher")
         return

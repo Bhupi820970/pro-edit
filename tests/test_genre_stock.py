@@ -139,3 +139,29 @@ class GamingAndCaptions(unittest.TestCase):
         self.assertLess(clean["share"], O.CAPTION_SHARE)
         self.assertGreaterEqual(subs["share"], O.CAPTION_SHARE)
         self.assertGreaterEqual(subs["text_frames"], O.CAPTION_MIN_FRAMES)
+
+
+class RefillAtAndWatchdogTest(unittest.TestCase):
+    TOT = {"target": 100, "refill_at": 50}
+
+    def test_refill_starts_at_50_or_below(self):
+        T = {"a": 60, "b": 40}
+        plan, on = B.pool_refill_plan({"a": 30, "b": 20}, T, False, self.TOT)     # 50 -> start
+        self.assertTrue(on)
+        self.assertEqual(plan, {"a": 30, "b": 20})
+        plan, on = B.pool_refill_plan({"a": 31, "b": 20}, T, False, self.TOT)     # 51 -> not yet
+        self.assertFalse(on)
+        self.assertEqual(plan, {})
+
+    def test_watchdog_restarts_dead_fetcher_and_retries_with_backoff(self):
+        import datetime as dt
+        now = dt.datetime(2026, 11, 26, 22, 0, tzinfo=dt.timezone(dt.timedelta(hours=5, minutes=30)))
+        ago = lambda m: (now - dt.timedelta(minutes=m)).isoformat()
+        self.assertTrue(B.fetch_due(None, now, self.TOT))                                     # never ran
+        self.assertTrue(B.fetch_due({"at": ago(250), "total": 90}, now, self.TOT))            # dead > 4 h
+        self.assertFalse(B.fetch_due({"at": ago(60), "total": 90}, now, self.TOT))            # healthy
+        self.assertTrue(B.fetch_due({"at": ago(31), "total": 40, "refilling": True}, now, self.TOT))
+        self.assertFalse(B.fetch_due({"at": ago(31), "total": 40, "refilling": True, "zero_cycles": 1}, now, self.TOT))
+        self.assertTrue(B.fetch_due({"at": ago(61), "total": 40, "refilling": True, "zero_cycles": 1}, now, self.TOT))
+        self.assertFalse(B.fetch_due({"at": ago(170), "total": 40, "refilling": True, "zero_cycles": 9}, now, self.TOT))
+        self.assertTrue(B.fetch_due({"at": ago(181), "total": 40, "refilling": True, "zero_cycles": 9}, now, self.TOT))

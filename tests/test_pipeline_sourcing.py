@@ -114,11 +114,15 @@ class SeedAndPoolTests(unittest.TestCase):
                 self.assertIn("QdBZY2fkU-0", keys)
 
     def test_pool_target_40_and_queries_safe(self):
-        # ~100 clean clips spread over the genres (round 5): every genre >= 8 (GTA kept smaller), total >= 100
-        self.assertTrue(all(v >= 8 for v in POOL_TARGET.values()) and POOL_TARGET["gaming"] > POOL_TARGET["gta"])
+        # ~100 clean clips (26 Nov priorities): anime/cartoon, games, web series, romance, action movies and
+        # Marvel/DC get the most; every other genre still keeps a small stock (>= 4); refill starts at <= 50
+        prio = ("anime", "gaming", "series", "romance", "movie", "marvel")
+        rest = [k for k in POOL_TARGET if k not in prio + ("dc", "gta")]
+        self.assertTrue(all(POOL_TARGET[p] > POOL_TARGET[r] for p in prio for r in rest))
+        self.assertTrue(all(v >= 4 for v in POOL_TARGET.values()) and POOL_TARGET["gaming"] > POOL_TARGET["gta"])
         self.assertGreaterEqual(sum(POOL_TARGET.values()), 100)
         cfg = json.loads((HERE / "config" / "pipeline.json").read_text())
-        self.assertEqual(cfg["pool_total"]["refill_below"], 40)
+        self.assertEqual(cfg["pool_total"]["refill_at"], 50)
         # GTA title filter includes V / Online, not only VI trailers
         tre = cfg["categories"]["gta"]["channels"][0]["title_re"]
         self.assertIn("GTA Online", tre)

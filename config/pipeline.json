@@ -398,6 +398,10 @@
         }
       ],
       "search": [
+        "official action movie clip Sony Pictures",
+        "official car chase scene clip Universal Pictures",
+        "official fight scene clip Warner Bros",
+        "official action scene clip Movieclips",
         "official movie clip scene Movieclips",
         "official movie scene clip Universal Pictures",
         "official movie scene clip Sony Pictures",
@@ -1109,26 +1113,27 @@
     }
   },
   "pool_target": {
-    "gta": 8,
-    "gaming": 20,
-    "movie": 12,
-    "sports": 9,
-    "romance": 9,
-    "series": 9,
+    "anime": 15,
+    "gaming": 16,
+    "series": 11,
+    "romance": 11,
+    "movie": 13,
     "marvel": 9,
-    "dc": 9,
-    "anime": 9,
-    "celebrity": 9,
-    "comedy": 9
+    "dc": 7,
+    "gta": 6,
+    "sports": 4,
+    "celebrity": 4,
+    "comedy": 4
   },
   "attempt_max_min": 10,
   "render_max_min": 15,
   "source_cache_gb": 24,
   "pool_total": {
     "target": 100,
-    "refill_below": 40,
+    "refill_at": 50,
     "release_asset_limit": 1000,
     "asset_cleanup_at": 800
   },
-  "render_res": "2160x3840"
+  "render_res": "2160x3840",
+  "pool_priority_note": "BiBi 26 Nov: priority anime/cartoon, games (top 10), best web series, love/romance, action movies, superheroes (Marvel/DC). Refill starts when usable clips <= 50, runs to ~100."
 }

@@ -25,7 +25,7 @@ Replace `<REPO>` with the folder where this repo is cloned. The computer's clock
 3 8,15 * * * <REPO>/box/upload_slot_kick.sh         # backup kick for the 08:00 / 15:00 upload slots
 33 11,18,21 * * * <REPO>/box/upload_slot_kick.sh    # backup kick for the 11:30 / 18:30 / 21:30 slots
 25 4 */2 * * <REPO>/box/cleanup_posted.sh           # used-clip ledger + disk cleanup, every 2 days
-28,58 * * * * <REPO>/box/watchdog_kick.sh           # backup kick for watchdog.yml (auto-produce + health)
+28,58 * * * * <REPO>/box/watchdog_kick.sh           # backup kick for watchdog.yml + restarts a dead / idle clip fetcher
 17 3 * * 0 <REPO>/box/ig_token_refresh.sh           # weekly IG token refresh (Instagram-Login tokens only)
 ```
 
@@ -41,9 +41,9 @@ If two computers run these lines, everything runs twice. Downloads are locked pe
 | Script | What it does |
 |---|---|
 | `common.sh` | Shared settings and helpers. Reads `box/local.env` (paths and gh login; not in git). Works on Linux and macOS. |
-| `fetch_sources.sh` → `box_fetch.py cycle` | Tops up the clip pool: about 100 clean clips over 11 genres, refilled when the total drops under 40. Only official channels, at least 1080p, and rejects logos, watermarks and burned-in captions. Uploads clips and `manifest.json` to the draft release `sources`, refills the `songs` release (about 30 famous original songs per genre, with bpm), and frees disk. |
+| `fetch_sources.sh` → `box_fetch.py cycle` | Tops up the clip pool: about 100 clean clips over 11 genres. A refill starts when usable clips drop to **50 or below** and runs back to about 100. The biggest shares go to anime/cartoon (15), games (16, top-10 titles), web series (11), romance (11), action movies (13), Marvel (9) and DC (7); GTA, sports, celebrity and comedy keep smaller stocks. A fetch error is retried with backoff (60 s, 180 s, 540 s) inside the cycle. Only official channels, at least 1080p, and rejects logos, watermarks and burned-in captions. Uploads clips and `manifest.json` to the draft release `sources`, refills the `songs` release (about 30 famous original songs per genre, with bpm), and frees disk. |
 | `upload_slot_kick.sh` | Asks GitHub to run `upload.yml mode=slot` after each slot. It can't double-post, because `upload.py` checks the ledger. |
-| `watchdog_kick.sh` | Asks GitHub to run `watchdog.yml`. |
+| `watchdog_kick.sh` | Asks GitHub to run `watchdog.yml`. It also starts `fetch_sources.sh` when the fetcher died (no finished cycle for 4 h), or when the pool is at 50 or below. The wait between those retries is 30, 60, 120 and then 180 min while cycles add nothing, and the lock stops two fetches running at once (`box_fetch.py should-run`). |
 | `cleanup_posted.sh` → `cleanup_posted.py` | Writes the clips of posted videos into `ledger/used_clips.json` (so they're never reused), then deletes their local files. |
 | `ig_token_refresh.sh` + `ig_handoff_decrypt.py` | Runs `ig-token.yml mode=refresh`, decrypts the encrypted artifact with the box-only key, and pipes the new token into `gh secret set IG_ACCESS_TOKEN` through stdin. Writes the outcome to repo variable `IG_TOKEN_REFRESH`. |
 | `ensure_cron.sh` | Installs, shows or removes the cron lines. |
@@ -76,7 +76,7 @@ Scheduled runs only happen while repo variable `SCHEDULE_ENABLED=true`.
 | Clip pool from the box | Draft release **`sources`**: clips plus `manifest.json` (id, genre, title, url, resolution, has_dialogue, vetted, unusable) |
 | Song stock | Draft release **`songs`**: audio plus `manifest.json` (title, artist, genre, mood, bpm) |
 | Post ledger | `ledger/posted.json` on `main`. Statuses: posting (lock), posted, failed. Duplicates are noted under `duplicates`. |
-| Used clips (never reused) | `ledger/used_clips.json` on `main` |
+| Used clips (never reused) | Produce-time reservations: **`clip_reservations.json` on branch `pipeline-state`** (reserved / used). Posted clips: `ledger/used_clips.json` on `main` |
 | Run status, Gemini quota, Gemini vet results, fetch queue | Branch **`pipeline-state`**: `status.json` and `{youtube,instagram}/state.json`, `fetch_queue.json` |
 | Gemini quota state between runs | `gemini_quota.json` in the produce cache |
 | Clips that need a manual pick (Gemini down) | `queue/needs_manual_pick.json` |
@@ -139,6 +139,10 @@ Point `VICE_IG_HANDOFF_KEY` in `box/local.env` at the private key if it's somewh
   - Scope uploads (1920x800) are excluded because they are under 1080 lines; that costs some movie clips.
   - 10 older clips in `sources` are marked `unusable` (4 below 1080p, 6 couldn't be measured). They were kept, not deleted.
 - **Fetch queue from auto runs is ignored.** The box only trusts queue requests from owner-started runs, so requests written by auto runs (`github-actions[bot]`) are ignored. The pool refill works without them.
-- **Used-clip marking delay.** Clips are marked used only after posting, by `cleanup_posted` every 2 days. Two unposted videos can share a clip in the meantime.
+- **Clip reuse (fixed on 2026-11-26).** A clip is now reserved the moment a produce run picks it (`pipeline_lib/clip_reserve.py`), and marked **used** as soon as its video is rendered, not 2 days later.
+  - The ledger is `clip_reservations.json` on `pipeline-state`. Every write is a compare-and-swap on the file version, so the parallel YouTube and Instagram jobs can never take the same clip.
+  - If a render or QA fails, its clips are released. A crashed run's reservations expire after 8 h.
+  - If the ledger can't be reached, the clip is skipped, so a clip is never repeated.
+  - GTA is no longer an exception: a used GTA clip is never picked again either, so GTA videos depend on new GTA clips.
 - **IG account permissions.** The Instagram API can't delete media ("insufficient permissions"); delete duplicates in the app.
 - **Shell-start hook on the old box.** Box resets re-run `ensure_cron.sh install` through a hook in `~/.profile` and `~/.bashrc` on the old box. `ensure_cron.sh remove` also deletes that hook.
