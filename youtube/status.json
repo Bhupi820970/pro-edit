@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:53:29.918522+05:30",
+ "updated": "2026-11-26T19:54:27.115632+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (3/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -529,18 +529,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-26T15:36:40.001374+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 21.87}}"
-  },
-  {
-   "at": "2026-11-26T15:40:33.350154+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.4}}"
-  },
-  {
    "at": "2026-11-26T15:45:42.019765+05:30",
    "platform": "youtube",
    "category": "gta",
@@ -617,6 +605,18 @@
    "platform": "youtube",
    "category": "gta",
    "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T19:54:04.627718+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "CategoryUnavailable: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T19:54:20.045000+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   }
  ],
  "pattern_history": [
@@ -671,7 +671,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-26T18:41:22.164581+05:30",
-  "age_hours": 0.2,
+  "age_hours": 1.2,
   "healthy": true,
   "pool": {
    "gta": 16,

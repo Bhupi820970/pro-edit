@@ -8089,6 +8089,23 @@
    "duration": 30.028,
    "category": "gta",
    "at": "2026-11-26 11:51"
+  },
+  "lw8wKR0_E9o": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation 4 logo present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Red Dead Redemption 2: Official Gameplay Video Part 2",
+   "channel": "PlayStation Australia",
+   "credit": "PlayStation Australia",
+   "url": "https://www.youtube.com/watch?v=lw8wKR0_E9o",
+   "via": "youtube-search",
+   "category": "gaming",
+   "at": "2026-11-26 14:22"
   }
  },
  "videos": [
@@ -19280,6 +19297,15 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-26 04:25"
+  },
+  "lw8wKR0_E9o": {
+   "accept": false,
+   "reject_reasons": [
+    "PlayStation 4 logo present in the bottom-left corner.",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-26 14:22"
   }
  },
  "failures": [
@@ -21823,6 +21849,18 @@
   },
   {
    "at": "2026-11-26T18:53:26.166313+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T19:54:04.627718+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "CategoryUnavailable: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T19:54:20.045000+05:30",
    "platform": "youtube",
    "category": "gta",
    "error": "CategoryUnavailable: only 0 clean sources for gta"
