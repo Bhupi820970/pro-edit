@@ -360,7 +360,8 @@ def check_models(log=print) -> dict:
     one-word prompt right now. Prints model names, key labels and HTTP codes only, never keys."""
     g = Gemini(log=log)
     avail = g.list_models() or set()
-    out = {"listed": bool(avail), "invalid_keys": [], "tiers": {}}
+    out = {"listed": bool(avail), "invalid_keys": [], "tiers": {},
+           "available_flash_or_gemma": sorted(m for m in avail if "flash" in m or "gemma" in m)}
     for tier, ms in (("main", LITE_MODELS), ("full", FULL_MODELS), ("backup", FALLBACK_MODELS)):
         exist = [m for m in ms if not avail or m in avail]
         res = {"exists": exist, "missing": [m for m in ms if avail and m not in avail], "works": None}
