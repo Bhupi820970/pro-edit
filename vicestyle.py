@@ -1198,12 +1198,17 @@ def dedupe_clips(files: list[Path]) -> list[Path]:
 def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict | None = None,
               seed: int | None = None, avoid: list | None = None,
               open_with_dialogue: bool = False,
-              prefer_dialogue_from: list | None = None) -> tuple[list[Seg], float]:
+              prefer_dialogue_from: list | None = None,
+              min_seconds: float | None = None) -> tuple[list[Seg], float]:
     """exclude: {file name: [[s, e], ...]} ranges to never use (e.g. title cards / text Gemini found).
     seed: varies shot / dialogue choice between videos (None = deterministic approved behaviour).
     avoid: [(source_id, start, end), ...] ranges used in earlier videos (long overlap is skipped).
     open_with_dialogue: sports-style layout — spoken interview/press first, then the action montage.
-    prefer_dialogue_from: source paths whose spoken windows should be preferred for the opening."""
+    prefer_dialogue_from: source paths whose spoken windows should be preferred for the opening.
+    min_seconds: when set and fresh footage runs out, extend the beat-cut timeline BEFORE render until it
+      fills `target` seconds of the song (at least min_seconds): first with shots used in older videos
+      (still no repeat inside this video), then by looping this video's own montage shots. None keeps the
+      strict no-loop behaviour (ends early)."""
     import random
     rng = random.Random(seed) if seed is not None else None
     exclude = exclude or {}
@@ -1404,6 +1409,33 @@ def auto_plan(song: Path, clips: Path, target: float, binfo: dict, exclude: dict
     have = sum(s.beats for s in segs)
     if have < total_beats - 4 and not short:  # fewer than 2 dialogue scenes found: finish with montage
         segs += montage_block(total_beats - have, fill_pat)
+    if min_seconds and sum(s.beats for s in segs) * period < max(min_seconds, target - 0.5):
+        goal = max(total_beats, int(math.ceil(min_seconds / period)))
+        dlg_keep = [(source_id(c["src"]), c["s"], c["e"]) for c in chosen]
+        dlg_here = [(source_id(c["src"]), max(0.0, c["s"] - 0.25), max(0.0, c["s"] - 0.25) + nb * period)
+                    for c, nb in zip(chosen, dlg_b)]
+        pool = [s for s in allshots if not s.bad and s.e - s.s >= period * b1 + 0.1
+                and not excluded(s.src, s.s, s.e)]
+        for s in pool:
+            if not getattr(s, "score", 0):
+                s.score = s.motion * 0.08 + s.color * 2.0
+        pool.sort(key=lambda s: -s.score)
+        # tier 1: footage used in OLDER videos is allowed again; nothing repeats inside this video
+        # tier 2+: loop this video's own montage shots (beat grid continues; dialogue never repeats)
+        for tier in range(5):
+            have = sum(s.beats for s in segs)
+            if have * period >= max(min_seconds, target - 0.5) or have >= goal:
+                break
+            taken[:] = list(dlg_keep)
+            if tier >= 1:
+                here[:] = list(dlg_here)
+            leftover[:] = [Shot(s.src, s.s, s.e, motion=s.motion, color=s.color) for s in pool]
+            for s, s0 in zip(leftover, pool):
+                s.score = s0.score
+            short.clear()
+            log(f"timeline {have * period:.1f}s < {min_seconds:.0f}s: extending with "
+                f"{'older-video footage' if tier == 0 else 'looped beat-cut shots'} to {goal * period:.1f}s")
+            segs += montage_block(goal - have, fill_pat)
     if not segs or segs[0].kind != "montage" and not open_with_dialogue:
         raise RuntimeError("not enough distinct montage shots in --clips")
     return segs, None

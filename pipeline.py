@@ -91,7 +91,55 @@ def make_preview(src: Path, dst: Path, fmt: str, max_mb: float = 24.0):
         vb = int(vb * 0.8)
 
 
-def produce_one(platform: str, category: str | None, state: State, gem, sourcer, attempt_seed: int) -> dict:
+class AttemptTimeout(RuntimeError):
+    """An attempt ran past its time cap (skipped so the run moves on to the next attempt)."""
+
+
+class StepTimer:
+    """Wall-clock seconds per step of one attempt (logged + saved, so the slowest step is visible)."""
+
+    def __init__(self):
+        self.t0 = time.time()
+        self.steps: dict[str, float] = {}
+        self._cur = None
+        self._ts = None
+
+    def step(self, name: str):
+        now = time.time()
+        if self._cur:
+            self.steps[self._cur] = round(self.steps.get(self._cur, 0.0) + now - self._ts, 1)
+        self._cur, self._ts = name, now
+
+    def done(self) -> dict:
+        self.step(None)
+        self.steps["total"] = round(time.time() - self.t0, 1)
+        return dict(self.steps)
+
+
+def _arm_budget(minutes: float, what: str):
+    """Hard per-attempt cap (SIGALRM in the main thread; ffmpeg children of subprocess.run are killed)."""
+    import signal
+    if minutes <= 0 or not hasattr(signal, "SIGALRM"):
+        return
+
+    def _hit(signum, frame):
+        raise AttemptTimeout(f"{what} took longer than {minutes:g} min -> skip attempt")
+    signal.signal(signal.SIGALRM, _hit)
+    signal.setitimer(signal.ITIMER_REAL, minutes * 60)
+
+
+def _disarm_budget():
+    import signal
+    if hasattr(signal, "SIGALRM"):
+        signal.setitimer(signal.ITIMER_REAL, 0)
+
+
+def plan_seconds(segs, period: float, black_tail: float = 0.6) -> float:
+    return sum(s.beats for s in segs) * period + black_tail
+
+
+def produce_one(platform: str, category: str | None, state: State, gem, sourcer, attempt_seed: int,
+                timer: StepTimer | None = None) -> dict:
     from pipeline_lib.songs import pick_song
     from pipeline_lib.meta import write_meta
     pcfg = dict(CFG["platforms"][platform])
@@ -102,10 +150,23 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
     vid = f"{platform[:2]}-{category}-{now_local().strftime('%Y%m%d-%H%M%S')}"
     log(f"=== {vid}: platform={platform} category={category} format={fmt} seed={attempt_seed}")
     ccfg = CFG["categories"][category]
-    clips = sourcer.gather(category, attempt_seed, ccfg.get("sources_per_video", 3), need_dialogue=1)
+    T = timer or StepTimer()
+    pre_cap = float(os.environ.get("VICE_ATTEMPT_MAX_MIN", CFG.get("attempt_max_min", 10)))
+    render_cap = float(os.environ.get("VICE_RENDER_MAX_MIN", CFG.get("render_max_min", 15)))
+    _arm_budget(pre_cap, "sourcing + song + scan/plan")
+    T.step("gather")
+    want = ccfg.get("sources_per_video", 3)
+    clips = sourcer.gather(category, attempt_seed, want, need_dialogue=1)
     from pipeline_lib.titles import (
         SINGLE_WORK_CATEGORIES, restrict_to_single_player, restrict_to_single_work,
     )
+
+    def restrict(cl):
+        if category in SINGLE_WORK_CATEGORIES:
+            return restrict_to_single_work(cl, category, attempt_seed)
+        if category == "sports":
+            return restrict_to_single_player(cl, attempt_seed)
+        return cl
     if category in SINGLE_WORK_CATEGORIES:
         clips = restrict_to_single_work(clips, category, attempt_seed)
         if not clips:
@@ -121,6 +182,7 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
     if not any(c.get("has_dialogue") for c in clips):
         log("warning: no clip with dialogue; edit will be montage-only (no captions)")
     banned = set()
+    T.step("song")
     song = pick_song(gem, state, category, clips, CFG, banned)
     log(f"song: {song['title']} – {song['artist']} ({song['url']})")
     pattern = state.pick_pattern(platform, CFG.get("pattern_cooldown_days", 2.5))
@@ -130,37 +192,76 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
     cdir.mkdir(parents=True, exist_ok=True)
     try:
         exclude = {}
-        for c in clips:
-            p = Path(c["path"])
-            link = cdir / f"{c['id']}{p.suffix}"
-            if not link.exists():
-                link.symlink_to(p.resolve())
-            exclude[p.name] = c.get("bad_ranges", [])   # auto_plan sees resolved file names
-            exclude[link.name] = c.get("bad_ranges", [])
+
+        def link_clips(cl):
+            for c in cl:
+                p = Path(c["path"])
+                link = cdir / f"{c['id']}{p.suffix}"
+                if not link.exists():
+                    link.symlink_to(p.resolve())
+                exclude[p.name] = c.get("bad_ranges", [])   # auto_plan sees resolved file names
+                exclude[link.name] = c.get("bad_ranges", [])
+        link_clips(clips)
+        T.step("beats")
         song_p = Path(song["path"])
         binfo = V.detect_beats(song_p)
         prefer_dlg = []
         if category == "sports":
             pref_re = re.compile(r"interview|press conference|presser|media day|speaks|exit interview", re.I)
             prefer_dlg = [c["path"] for c in clips if pref_re.search(c.get("title") or "")]
-        segs, _ = V.auto_plan(song_p, cdir, CFG["duration"], binfo, exclude=exclude, seed=attempt_seed,
-                              avoid=state.avoid_windows(), open_with_dialogue=(category == "sports"),
-                              prefer_dialogue_from=prefer_dlg)
+        lo, hi = CFG.get("qa_duration", [28, 50])
+        min_s = lo + 1.5      # margin over the QA floor (frame rounding of the beat grid)
+
+        def plan(min_seconds=None):
+            return V.auto_plan(song_p, cdir, CFG["duration"], binfo, exclude=exclude, seed=attempt_seed,
+                               avoid=state.avoid_windows(), open_with_dialogue=(category == "sports"),
+                               prefer_dialogue_from=prefer_dlg, min_seconds=min_seconds)[0]
+        T.step("scan_plan")
+        segs = plan()
+        planned = plan_seconds(segs, binfo["period"])
+        if planned < min_s:
+            # 1) combine more box clips (more sources + more 5-min chunks of the vetted ones)
+            T.step("more_clips")
+            log(f"plan only {planned:.1f}s (< {min_s:.1f}s): adding more vetted box clips before render")
+            more = restrict(sourcer.gather(category, attempt_seed, want + 3, need_dialogue=1,
+                                           chunks_per_source=4)) or []
+            have_ids = {c["id"] for c in clips}
+            new = [c for c in more if c["id"] not in have_ids]
+            if new:
+                log(f"+{len(new)} clips: " + ", ".join(c["id"] for c in new)[:300])
+                clips = clips + new
+                link_clips(new)
+            # 2) re-plan; if still short, extend/loop the beat-cut timeline to the song window
+            T.step("scan_plan")
+            segs = plan(min_seconds=min_s)
+            planned = plan_seconds(segs, binfo["period"])
+        if not (min_s - 0.01 <= planned <= hi):
+            raise ShortPlan(f"plan is {planned:.1f}s, outside {lo}-{hi}s -> skipped before render")
+        log(f"plan {planned:.1f}s, {len(segs)} shots -> render")
+        _disarm_budget()
+        _arm_budget(render_cap, "render + QA")
+        T.step("render")
         wide = work / f"{vid}_wide.mp4"
         meta = V.render(segs, song_p, None, wide, "wide", pcfg["res"], None, "VICE CARTEL", None,
                         workers=os.cpu_count() or 4, crf=18, pattern=pattern)
         lines = [c["text"] for c in meta["captions"]]
+        T.step("gemini_meta")
         m = write_meta(gem, platform, "Short/Reel" if fmt == "shorts" else "video", category, song, clips, lines, CFG)
         rdir = home() / "ready" / platform
         rdir.mkdir(parents=True, exist_ok=True)
         out = rdir / f"{vid}.mp4"
         if fmt == "shorts":
+            T.step("shorts_9x16")
             V.make_shorts(wide, out, m["hook"], V.font_path())
         else:
             shutil.move(str(wide), out)
+        T.step("qa")
         qa = qa_video(str(out), meta, fmt, {**CFG, "platform_res": pcfg["res"]})
+        T.step("preview")
         prev = home() / "prev" / f"{vid}.mp4"
         make_preview(out, prev, fmt)
+        _disarm_budget()
+        T.step("save")
         entry = {
             "id": vid, "platform": platform, "category": category, "format": fmt, "state": "ready" if qa["pass"] else "qa_failed",
             "created": now_local().isoformat(), "path": str(out), "preview": str(prev),
@@ -172,7 +273,7 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
             "captions": lines, "duration": round(meta["duration"], 2),
             "sources": [{"id": c["id"], "src_id": c.get("src_id"), "path": c.get("path"),
                          "title": c.get("title"), "credit": c.get("credit"), "url": c.get("url")} for c in clips],
-            "qa": qa,
+            "qa": qa, "timings": dict(T.steps),
         }
         save_json(Path(str(out) + ".json"), {**entry, "render": {k: meta[k] for k in ("song_start", "tempo", "shots", "segments")}})
         if qa["pass"]:
@@ -183,6 +284,7 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
         state.add_video(entry)
         state.save()
     finally:
+        _disarm_budget()
         shutil.rmtree(work, ignore_errors=True)
     log(f"=== {vid}: QA {'PASS' if qa['pass'] else 'FAIL'} -> {out}")
     if not qa["pass"]:
@@ -193,6 +295,10 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
 
 class QAFail(RuntimeError):
     pass
+
+
+class ShortPlan(QAFail):
+    """The beat-cut plan cannot reach the 28-50s window: fail fast, BEFORE the expensive render."""
 
 
 class CategoryUnavailable(RuntimeError):
@@ -402,6 +508,49 @@ def pool_sync(repo: str, max_gb: float = 8.0, per_cat: int = 15):
     log(f"pool-sync: uploaded {len(up)} clips ({total / 1e9:.1f} GB), pruned {len(drop)}")
 
 
+def pull_sources(repo: str, max_gb: float = 30.0) -> int:
+    """Download box clips from release "sources" selectively (the pool is now ~40 per category):
+    skip clips Gemini already rejected, take Gemini-accepted first, then unvetted newest, up to max_gb.
+    Plain gh calls with argument lists; asset names are checked against a strict file-name pattern."""
+    sdir = home() / "sources"
+    sdir.mkdir(parents=True, exist_ok=True)
+    r = run(["gh", "release", "view", "sources", "--repo", repo, "--json", "assets"], check=False, timeout=120)
+    if r.returncode != 0:
+        log("pull-sources: release 'sources' not readable:", (r.stderr or "")[-200:])
+        return 0
+    assets = {a["name"]: int(a.get("size") or 0) for a in json.loads(r.stdout or "{}").get("assets", [])}
+    man = load_json(sdir / "manifest.json", {}) or {}
+    vet = (State().d.get("vet") or {})
+    name_ok = re.compile(r"^[\w.-]{1,120}\.(mkv|mp4|webm)$")
+    rows = []
+    for c in man.get("clips", []):
+        f, sid = c.get("file") or "", c.get("id") or ""
+        if f not in assets or not name_ok.match(f):
+            continue
+        v = vet.get(sid)
+        if v is not None and not v.get("accept"):
+            continue                      # Gemini rejected (watermark / logo / quality): never pulled
+        rank = 0 if (v or {}).get("accept") else 1
+        rows.append((rank, "" if rank == 0 else str(c.get("added") or ""), f))
+    acc = [x for x in rows if x[0] == 0]
+    unv = sorted((x for x in rows if x[0] == 1), key=lambda x: x[1], reverse=True)
+    total, n = 0.0, 0
+    for _, _, f in acc + unv:
+        sz = assets[f] / 1e9
+        if (sdir / f).exists():
+            total += sz
+            continue
+        if total + sz > max_gb:
+            continue
+        rr = run(["gh", "release", "download", "sources", "--repo", repo, "--pattern", f, "--dir", str(sdir),
+                  "--skip-existing"], check=False, timeout=900)
+        if rr.returncode == 0:
+            total += sz
+            n += 1
+    log(f"pull-sources: +{n} clips, {len(acc)} accepted / {len(unv)} unvetted listed, {total:.1f} GB local")
+    return n
+
+
 def cmd_produce(a, count: int | None = None, until_target: bool = False):
     from pipeline_lib.gemini import Gemini
     from pipeline_lib.sourcing import Sourcer
@@ -425,15 +574,18 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
     skip: set[str] = set()          # categories with no usable sources this run
     cat_fails: dict[str, int] = {}
     forced = a.category
+    attempt_log: list[dict] = []
     while more() and attempts < max_attempts:
         attempts += 1
+        made_before = len(made)
         seed = random.randrange(1 << 30)
         cat = forced if forced and forced not in skip else pick_category(state, a.platform, skip)
         if cat is None:
             log(f"no category has usable sources right now (skipped: {sorted(skip)}) -> stop, box fetcher refills")
             break
+        timer = StepTimer()
         try:
-            made.append(produce_one(a.platform, cat, state, gem, sourcer, seed))
+            made.append(produce_one(a.platform, cat, state, gem, sourcer, seed, timer))
             # put each finished video into stock right away (Actions sets VICE_ATTACH_EACH_TAG), so an
             # upload slot during a long run already has it; the end-of-run attach step is idempotent
             each_tag = os.environ.get("VICE_ATTACH_EACH_TAG", "").strip()
@@ -445,7 +597,7 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
         except Exception as ex:   # never a failed slot: log and retry with new sources / song / seed
             msg = f"{type(ex).__name__}: {str(ex)[:300]}"
             log("attempt failed, retrying with different sources/song:", msg)
-            if not isinstance(ex, (QAFail, CategoryUnavailable)):
+            if not isinstance(ex, (QAFail, CategoryUnavailable, AttemptTimeout)):
                 log(traceback.format_exc()[-1500:])
             state.d.setdefault("failures", []).append({"at": now_local().isoformat(), "platform": a.platform,
                                                        "category": cat, "error": msg})
@@ -458,8 +610,26 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
                     skip.add(cat)
                     nxt = pick_category(state, a.platform, skip)
                     log(f"category {cat}: no usable sources -> fallback to {nxt or 'nothing (all skipped)'}")
+        finally:
+            _disarm_budget()
+            tm = timer.done()
+            ok = len(made) > made_before
+            attempt_log.append({"attempt": attempts, "category": cat, "ok": ok, "timings": tm})
+            log(f"attempt {attempts} {'OK' if ok else 'FAIL'} in {tm['total']:.0f}s: "
+                + ", ".join(f"{k}={v:.0f}s" for k, v in tm.items() if k != "total"))
         sourcer.cleanup(CFG.get("source_cache_gb", 12))
+    step_tot: dict[str, float] = {}
+    for at in attempt_log:
+        for k, v in at["timings"].items():
+            if k != "total":
+                step_tot[k] = round(step_tot.get(k, 0.0) + v, 1)
+    slowest = max(step_tot.items(), key=lambda kv: kv[1]) if step_tot else None
+    if slowest:
+        log(f"step totals over {len(attempt_log)} attempts: "
+            + ", ".join(f"{k}={v / 60:.1f}min" for k, v in sorted(step_tot.items(), key=lambda kv: -kv[1]))
+            + f" -> slowest step: {slowest[0]}")
     extra = {"platform": a.platform, "made": [v["id"] for v in made], "failures": fails,
+             "attempts": attempt_log, "step_totals_s": step_tot, "slowest_step": slowest[0] if slowest else None,
              "sourcing": sourcer.stats, "gemini_calls": [{"key": k, "model": m, "ok": ok, "note": n}
                                                          for k, m, ok, n in gem.calls[-60:]]}
     extra["skipped_categories"] = sorted(skip)
@@ -533,6 +703,9 @@ def main(argv=None):
     sub.add_parser("status")
     p = sub.add_parser("pool-sync")
     p.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", "Bhupi820970/pro-edit"))
+    p = sub.add_parser("pull-sources")
+    p.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", "Bhupi820970/pro-edit"))
+    p.add_argument("--max-gb", type=float, default=30.0)
     p = sub.add_parser("merge-manual-pick")
     p.add_argument("--inputs", nargs="+", required=True)
     p.add_argument("--out", required=True)
@@ -551,6 +724,9 @@ def main(argv=None):
     a = ap.parse_args(argv)
     if a.cmd == "status":
         print(json.dumps(write_status(State()), indent=1, ensure_ascii=False)[:20000])
+        return 0
+    if a.cmd == "pull-sources":
+        pull_sources(a.repo, a.max_gb)
         return 0
     if a.cmd == "pool-sync":
         pool_sync(a.repo)

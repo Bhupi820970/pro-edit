@@ -55,7 +55,7 @@ class CmdProduceFallbackTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td, patch.dict(os.environ, _env(td), clear=True):
             calls = []
 
-            def fake_produce(platform, cat, state, gem, sourcer, seed):
+            def fake_produce(platform, cat, state, gem, sourcer, seed, timer=None):
                 calls.append(cat)
                 if cat == "sports":
                     raise P.CategoryUnavailable("no clips of a single star player for sports", cat)
@@ -85,7 +85,7 @@ class CmdProduceFallbackTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td, patch.dict(os.environ, _env(td), clear=True):
             calls = []
 
-            def fake_produce(platform, cat, state, gem, sourcer, seed):
+            def fake_produce(platform, cat, state, gem, sourcer, seed, timer=None):
                 calls.append(cat)
                 raise P.CategoryUnavailable(f"only 0 clean sources for {cat}", cat)
 

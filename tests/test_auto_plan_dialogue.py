@@ -253,3 +253,48 @@ class NoReuseInVideo(unittest.TestCase):
                 self.assertLessEqual(min(r1, s.start + dur) - max(r0, s.start), 0.05, "footage reused")
             rng.append((s.start, s.start + dur))
         self.assertLess(sum(s.beats for s in segs) * 0.5, 38.0)   # ran out: ended early, no loop
+
+
+class ExtendToLength(unittest.TestCase):
+    """Few clean shots: with min_seconds the timeline is extended BEFORE render to the 28-50s window."""
+
+    def _plan(self, n_shots, avoid=None, min_seconds=29.5, target=38.0):
+        with tempfile.TemporaryDirectory() as td:
+            clips = Path(td)
+            a = clips / "a.mp4"
+            a.write_bytes(b"x")
+            wins = [{"src": str(a), "s": 12.0, "e": 17.0, "score": 10.0, "text": "we run this city tonight"}]
+            with patch.object(V, "scan_clip", side_effect=lambda p: _shots(str(p), start=0.0, n=n_shots)), \
+                 patch.object(V, "dialogue_windows", side_effect=lambda p, sh: wins):
+                segs, _ = V.auto_plan(a, clips, target, {"period": 0.5, "tempo": 120},
+                                      avoid=avoid, min_seconds=min_seconds)
+        return segs
+
+    def test_short_footage_is_extended_into_28_50_window(self):
+        for n in (3, 5, 9, 14):
+            segs = self._plan(n)
+            secs = sum(s.beats for s in segs) * 0.5 + 0.6   # + black tail
+            self.assertGreaterEqual(secs, 28.0, f"{n} shots -> {secs}s")
+            self.assertLessEqual(secs, 50.0, f"{n} shots -> {secs}s")
+            self.assertEqual(segs[0].kind, "montage")      # 2s hook still opens the edit
+            self.assertEqual(sum(1 for s in segs if s.kind == "dialogue"), 1)  # dialogue never looped
+
+    def test_older_video_footage_used_before_looping(self):
+        # every shot was used by an earlier video -> tier 1 reuses it with no in-video repeat when enough
+        avoid = [("a", 0.0, 200.0)]
+        segs = self._plan(24, avoid=avoid)
+        secs = sum(s.beats for s in segs) * 0.5
+        self.assertGreaterEqual(secs, 29.5)
+        rng = []
+        for s in segs:
+            if s.kind != "montage":
+                continue
+            dur = s.beats * 0.5
+            for r0, r1 in rng:
+                self.assertLessEqual(min(r1, s.start + dur) - max(r0, s.start), 0.05, "looped although fresh")
+            rng.append((s.start, s.start + dur))
+
+    def test_enough_footage_unchanged(self):
+        base = self._plan(40, min_seconds=None)
+        ext = self._plan(40)
+        self.assertEqual(sum(s.beats for s in base), sum(s.beats for s in ext))
