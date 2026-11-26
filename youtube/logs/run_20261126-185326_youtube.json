@@ -1,0 +1,147 @@
+{
+ "platform": "youtube",
+ "made": [],
+ "failures": [
+  "CategoryUnavailable: only 0 clean sources for gaming",
+  "CategoryUnavailable: only 0 clean sources for gta"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "gaming",
+   "ok": false,
+   "timings": {
+    "gather": 125.3,
+    "total": 125.3
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 14.8,
+    "total": 14.8
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 140.1
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 14,
+  "vetted": 0,
+  "rejected": [],
+  "accepted": [],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "gaming",
+   "gta"
+  ],
+  "runner_skipped": 53,
+  "box_clips_used": 0,
+  "failed_ids": [
+   "D5WTHS5Cnnk",
+   "-hOXQfWyYIA",
+   "YlyDJVYqfpA",
+   "FHaQ_GTrB1Q",
+   "SSYsnSiReKM",
+   "0tKJe89VkRw",
+   "C-0RAVoCD8U",
+   "p4ziqn782Ro",
+   "arcEUz_BiI4",
+   "iNzLOyp4rA0",
+   "dyBA6JpCtkU",
+   "ZNqYXxRoYJM",
+   "2VugSq0Hmxk",
+   "xnS4d5nq1Gs"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key11",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "401 API key not valid. Please pass a valid API key."
+  },
+  {
+   "key": "key12",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key13",
+   "model": "gemini-3.5-flash-lite",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  }
+ ],
+ "skipped_categories": [
+  "gaming",
+  "gta"
+ ]
+}

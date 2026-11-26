@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-26T18:52:11.423969+05:30",
+ "updated": "2026-11-26T18:53:31.908626+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
-   "ready": 5,
+   "ready": 3,
    "target": 7,
-   "warning": false,
+   "warning": true,
    "produced_today": 45,
    "per_day": [
     5,
     6
    ],
-   "message": "5/7 ready"
+   "message": "BACKUP LOW: refill youtube (3/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -26,328 +26,6 @@
   }
  },
  "ready": [
-  {
-   "id": "yo-gta-20261126-173604",
-   "platform": "youtube",
-   "category": "gta",
-   "format": "wide",
-   "state": "ready",
-   "created": "2026-11-26T17:48:04.666904+05:30",
-   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-173604.mp4",
-   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-173604.mp4",
-   "preview_mb": 21.9,
-   "size_mb": 170.4,
-   "title": "GTA 6 Vice City | Don't You Want Me Edit",
-   "hook": "GTA 6 VICE CITY",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Don't You Want Me\" – The Human League (original recording)\n🔗 Official audio: https://soundcloud.com/user-180738321/dont-you-want-me-1\n🎧 Spotify: https://open.spotify.com/search/The%20Human%20League%20Don%27t%20You%20Want%20Me\n🎬 Footage: Rockstar Games – \"GTA Online: Bottom Dollar Bounties Coming June 25\"; Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"GTA Online: Agents of Sabotage Coming December 10\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Out Now\"; Rockstar Games – \"The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
-   "hashtags": [
-    "GTA6",
-    "GTAVI",
-    "GrandTheftAuto6",
-    "ViceCity",
-    "GTA6Edit",
-    "RockstarGames"
-   ],
-   "song": {
-    "title": "Don't You Want Me",
-    "artist": "The Human League",
-    "url": "https://soundcloud.com/user-180738321/dont-you-want-me-1",
-    "official_channel": "The Human League Tribute",
-    "spotify_search": "https://open.spotify.com/search/The%20Human%20League%20Don%27t%20You%20Want%20Me"
-   },
-   "song_credit": "\"Don't You Want Me\" – The Human League",
-   "pattern": {
-    "id": "P01",
-    "name": "Original beside-mid (approved)"
-   },
-   "captions": [
-    "YOU EVER HEARD",
-    "OF THE DUGGINS?",
-    "OIL AND GAS",
-    "PEOPLE MAKING SOME",
-    "SERIOUS DOLLAR WITH",
-    "THE PRICES BEING",
-    "HIGH YO",
-    "I KNOW YOU",
-    "CAN'T TELL",
-    "BUT I'M",
-    "THRILLED TO",
-    "MEET YOU"
-   ],
-   "duration": 38.53,
-   "sources": [
-    {
-     "id": "ewAODca-3Bw",
-     "src_id": "ewAODca-3Bw",
-     "path": "/mnt/ph/youtube/sources/ewAODca-3Bw.mkv",
-     "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=ewAODca-3Bw"
-    },
-    {
-     "id": "R3HS6owS3P8",
-     "src_id": "R3HS6owS3P8",
-     "path": "/mnt/ph/youtube/sources/R3HS6owS3P8.mkv",
-     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
-    },
-    {
-     "id": "T3ZaWDcPiIo",
-     "src_id": "T3ZaWDcPiIo",
-     "path": "/mnt/ph/youtube/sources/T3ZaWDcPiIo.mkv",
-     "title": "GTA Online: Agents of Sabotage Coming December 10",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo"
-    },
-    {
-     "id": "P3NBd3UjH5Y",
-     "src_id": "P3NBd3UjH5Y",
-     "path": "/mnt/ph/youtube/sources/P3NBd3UjH5Y.mkv",
-     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
-    },
-    {
-     "id": "_SgqsxXk8_E",
-     "src_id": "_SgqsxXk8_E",
-     "path": "/mnt/ph/youtube/sources/_SgqsxXk8_E.mkv",
-     "title": "GTA Online: Bottom Dollar Bounties Out Now",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E"
-    },
-    {
-     "id": "htg1EZE3LVk",
-     "src_id": "htg1EZE3LVk",
-     "path": "/mnt/ph/youtube/sources/htg1EZE3LVk.mkv",
-     "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=htg1EZE3LVk"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.53
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2560x1440",
-      "want": "2560x1440"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -15.1
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": true
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 12
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "timings": {
-    "gather": 14.7,
-    "song": 0.3,
-    "beats": 0.6,
-    "scan_plan": 14.3,
-    "render": 618.5,
-    "gemini_meta": 0.0,
-    "qa": 10.6,
-    "preview": 61.6
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-173604.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-173604.preview.mp4"
-  },
-  {
-   "id": "yo-gta-20261126-174815",
-   "platform": "youtube",
-   "category": "gta",
-   "format": "wide",
-   "state": "ready",
-   "created": "2026-11-26T18:03:47.819959+05:30",
-   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261126-174815.mp4",
-   "preview": "/mnt/ph/youtube/prev/yo-gta-20261126-174815.mp4",
-   "preview_mb": 22.8,
-   "size_mb": 161.9,
-   "title": "GTA 6 Vice City | Get Lucky Edit",
-   "hook": "GTA 6 VICE CITY",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Get Lucky\" – Daft Punk ft. Pharrell Williams (original recording)\n🔗 Official audio: https://soundcloud.com/danilo-lima-64/daft-punk-get-lucky-official\n🎧 Spotify: https://open.spotify.com/search/Daft%20Punk%20ft.%20Pharrell%20Williams%20Get%20Lucky\n🎬 Footage: Rockstar Games – \"GTA Online: Bottom Dollar Bounties Coming June 25\"; Rockstar Games – \"GTA Online: Agents of Sabotage Coming December 10\"; Rockstar Games – \"The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online\"; Rockstar Games – \"The Criminal Enterprises, Coming July 26 to GTA Online\"; Rockstar Games – \"Grand Theft Auto V: Michael\"; Rockstar Games – \"GTA Online: Bottom Dollar Bounties Out Now\"; Rockstar Games – \"GTA Online: The Cluckin’ Bell Farm Raid Now Available\"; Rockstar Games – \"Add Drift Tuning to Select New Vehicles in GTA Online\"; Rockstar Games – \"GTA Online: A Safehouse in the Hills Coming December 10\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
-   "hashtags": [
-    "GTA6",
-    "GTAVI",
-    "GrandTheftAuto6",
-    "ViceCity",
-    "GTA6Edit",
-    "RockstarGames"
-   ],
-   "song": {
-    "title": "Get Lucky",
-    "artist": "Daft Punk ft. Pharrell Williams",
-    "url": "https://soundcloud.com/danilo-lima-64/daft-punk-get-lucky-official",
-    "official_channel": "Danilo Lima 64",
-    "spotify_search": "https://open.spotify.com/search/Daft%20Punk%20ft.%20Pharrell%20Williams%20Get%20Lucky"
-   },
-   "song_credit": "\"Get Lucky\" – Daft Punk ft. Pharrell Williams",
-   "pattern": {
-    "id": "P08",
-    "name": "2-word punch, mid"
-   },
-   "captions": [
-    "BUT AT",
-    "THE SAME",
-    "TIME",
-    "I REALLY",
-    "WANT THE",
-    "OTHER STUFF",
-    "TOO"
-   ],
-   "duration": 38.83,
-   "sources": [
-    {
-     "id": "ewAODca-3Bw",
-     "src_id": "ewAODca-3Bw",
-     "path": "/mnt/ph/youtube/sources/ewAODca-3Bw.mkv",
-     "title": "GTA Online: Bottom Dollar Bounties Coming June 25",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=ewAODca-3Bw"
-    },
-    {
-     "id": "T3ZaWDcPiIo",
-     "src_id": "T3ZaWDcPiIo",
-     "path": "/mnt/ph/youtube/sources/T3ZaWDcPiIo.mkv",
-     "title": "GTA Online: Agents of Sabotage Coming December 10",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=T3ZaWDcPiIo"
-    },
-    {
-     "id": "htg1EZE3LVk",
-     "src_id": "htg1EZE3LVk",
-     "path": "/mnt/ph/youtube/sources/htg1EZE3LVk.mkv",
-     "title": "The Cluckin’ Bell Farm Raid — Coming March 7 to GTA Online",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=htg1EZE3LVk"
-    },
-    {
-     "id": "P3NBd3UjH5Y",
-     "src_id": "P3NBd3UjH5Y",
-     "path": "/mnt/ph/youtube/sources/P3NBd3UjH5Y.mkv",
-     "title": "The Criminal Enterprises, Coming July 26 to GTA Online",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=P3NBd3UjH5Y"
-    },
-    {
-     "id": "HqZXw5M6qQY",
-     "src_id": "HqZXw5M6qQY",
-     "path": "/mnt/ph/youtube/sources/HqZXw5M6qQY.mkv",
-     "title": "Grand Theft Auto V: Michael",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=HqZXw5M6qQY"
-    },
-    {
-     "id": "_SgqsxXk8_E",
-     "src_id": "_SgqsxXk8_E",
-     "path": "/mnt/ph/youtube/sources/_SgqsxXk8_E.mkv",
-     "title": "GTA Online: Bottom Dollar Bounties Out Now",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=_SgqsxXk8_E"
-    },
-    {
-     "id": "R3HS6owS3P8",
-     "src_id": "R3HS6owS3P8",
-     "path": "/mnt/ph/youtube/sources/R3HS6owS3P8.mkv",
-     "title": "GTA Online: The Cluckin’ Bell Farm Raid Now Available",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=R3HS6owS3P8"
-    },
-    {
-     "id": "T7aaNEW7zA0",
-     "src_id": "T7aaNEW7zA0",
-     "path": "/mnt/ph/youtube/sources/T7aaNEW7zA0.mkv",
-     "title": "Add Drift Tuning to Select New Vehicles in GTA Online",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=T7aaNEW7zA0"
-    },
-    {
-     "id": "APJ-lT0sBhg",
-     "src_id": "APJ-lT0sBhg",
-     "path": "/mnt/ph/youtube/sources/APJ-lT0sBhg.mkv",
-     "title": "GTA Online: A Safehouse in the Hills Coming December 10",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=APJ-lT0sBhg"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.83
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2560x1440",
-      "want": "2560x1440"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -10.9
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": true
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 7
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "timings": {
-    "gather": 61.8,
-    "song": 0.4,
-    "beats": 0.8,
-    "scan_plan": 171.5,
-    "more_clips": 14.6,
-    "render": 611.8,
-    "gemini_meta": 0.0,
-    "qa": 10.2,
-    "preview": 61.3
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-174815.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261126-174815.preview.mp4"
-  },
   {
    "id": "yo-gta-20261126-180400",
    "platform": "youtube",
@@ -849,18 +527,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-26T15:26:05.698317+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 13.6}}"
-  },
-  {
-   "at": "2026-11-26T15:30:45.050597+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.57}}"
-  },
-  {
    "at": "2026-11-26T15:36:40.001374+05:30",
    "platform": "youtube",
    "category": "gta",
@@ -937,6 +603,18 @@
    "platform": "youtube",
    "category": "gaming",
    "error": "CategoryUnavailable: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T18:53:11.381590+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "CategoryUnavailable: only 0 clean sources for gaming"
+  },
+  {
+   "at": "2026-11-26T18:53:26.166313+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   },
   {
    "at": "2026-11-26T16:46:04.842977+05:30",
@@ -1045,5 +723,5 @@
   "message": "OK"
  },
  "warning": true,
- "message": "BACKUP LOW: refill instagram (0/7 ready)"
+ "message": "BACKUP LOW: refill youtube (3/7 ready) | BACKUP LOW: refill instagram (0/7 ready)"
 }
