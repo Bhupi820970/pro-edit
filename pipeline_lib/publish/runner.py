@@ -315,6 +315,22 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
 
     # Dry-run still constructs Gemini so caption generation can be verified without posting.
     gem = _gemini()
+    if dry_run and gem:
+        sample = {
+            "id": "dry-caption-check", "platform": "youtube", "category": "gta",
+            "title": "Vice City never sleeps", "hook": "NIGHT DRIVE",
+            "hashtags": ["GTA6"],
+            "song": {"title": "Give It Up", "artist": "KC and the Sunshine Band"},
+            "sources": [{"credit": "Rockstar Games", "title": "GTA VI Trailer 2"}],
+        }
+        try:
+            got = captions._from_gemini(gem, sample, "youtube")
+            if got and got.get("title"):
+                _log(f"Gemini caption check: ok title={got['title']!r}")
+            else:
+                _log("Gemini caption check: no usable draft, would use template captions")
+        except Exception as e:
+            _log(f"Gemini caption check failed; template captions would be used: {type(e).__name__}: {S.redact(str(e)[:200])}")
     results = []
     for platform in ("youtube", "instagram"):
         item = stock.pick_next(items, platform, ledger.posted_ids(led))
