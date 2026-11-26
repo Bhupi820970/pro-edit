@@ -102,6 +102,9 @@ jobs:
       GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
       GH_TOKEN: ${{ github.token }}
       PYTHONUNBUFFERED: "1"
+      # Same writable home as ci.yml / songs.yml. The default /workspace/... is
+      # not creatable on GitHub-hosted runners (PermissionError in Gemini()).
+      VICE_PIPELINE_HOME: /tmp/vice-ph
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:

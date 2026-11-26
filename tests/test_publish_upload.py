@@ -17,7 +17,9 @@ sys.path.insert(0, str(HERE))
 from pipeline_lib.publish import (  # noqa: E402
     buffer_ig, captions, cfg as cfgmod, ledger, stock, transfer, youtube,
 )
-from pipeline_lib.publish.runner import run_pass  # noqa: E402
+from pipeline_lib.publish.runner import run_pass, _gemini  # noqa: E402
+from pipeline_lib import util as pipeline_util  # noqa: E402
+from pipeline_lib.gemini import Gemini  # noqa: E402
 import vicestyle as V  # noqa: E402
 
 
@@ -334,6 +336,7 @@ class StyleAndSecurityTests(unittest.TestCase):
         self.assertIn("upload-slot", text)
         self.assertIn("github.event.action == 'upload-slot'", text)
         self.assertIn("github.actor == github.repository_owner", text)
+        self.assertIn("VICE_PIPELINE_HOME: /tmp/vice-ph", text)
 
 
 class DueSlotTests(unittest.TestCase):
@@ -413,6 +416,42 @@ class ScanClipCacheTests(unittest.TestCase):
                 os.environ.pop("VICESTYLE_CACHE", None)
             else:
                 os.environ["VICESTYLE_CACHE"] = prev
+
+
+
+class PipelineHomeTests(unittest.TestCase):
+    def tearDown(self):
+        pipeline_util._home_fallback_noted = False
+
+    def test_unwritable_home_falls_back_so_gemini_can_init(self):
+        td = tempfile.TemporaryDirectory()
+        try:
+            blocked = Path(td.name) / "blocked"
+            blocked.mkdir()
+            blocked.chmod(0o500)
+            dest = blocked / "pipeline"
+            with patch.dict(os.environ, {"VICE_PIPELINE_HOME": str(dest), "TMPDIR": td.name,
+                                         "GEMINI_API_KEY_1": "dummy-key"}, clear=False):
+                # drop other numbered keys for a deterministic key list
+                env_del = {k: "" for k in list(os.environ) if k.startswith("GEMINI_API_KEY") and k != "GEMINI_API_KEY_1"}
+                with patch.dict(os.environ, env_del, clear=False):
+                    pipeline_util._home_fallback_noted = False
+                    h = pipeline_util.home()
+                    self.assertEqual(h, Path(td.name) / "vice-ph")
+                    self.assertTrue(h.is_dir())
+                    g = Gemini(log=lambda *a: None)
+                    self.assertTrue(g.keys)
+            blocked.chmod(0o700)
+        finally:
+            td.cleanup()
+
+    def test_gemini_helper_logs_permission_error_and_keeps_template_fallback(self):
+        logs = []
+        with patch("pipeline_lib.gemini.Gemini.__init__",
+                   side_effect=PermissionError("[Errno 13] Permission denied: '/workspace/gta6/pipeline'")),              patch("pipeline_lib.publish.runner._log", side_effect=lambda m: logs.append(m)):
+            self.assertIsNone(_gemini())
+        self.assertTrue(any("PermissionError" in m and "Permission denied" in m and "template captions" in m for m in logs))
+        self.assertFalse(any("dummy-key" in m or "AIza" in m for m in logs))
 
 
 

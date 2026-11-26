@@ -11,10 +11,27 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 
 
+_home_fallback_noted = False
+
+
 def home() -> Path:
+    """Pipeline data dir. Falls back to /tmp/vice-ph if the configured path is not writable.
+
+    GitHub-hosted runners cannot create /workspace (the box default), which used to
+    raise PermissionError while constructing the Gemini client on upload.yml.
+    """
     h = Path(os.environ.get("VICE_PIPELINE_HOME", "/workspace/gta6/pipeline"))
-    h.mkdir(parents=True, exist_ok=True)
-    return h
+    try:
+        h.mkdir(parents=True, exist_ok=True)
+        return h
+    except OSError as e:
+        fb = Path(os.environ.get("TMPDIR") or "/tmp") / "vice-ph"
+        fb.mkdir(parents=True, exist_ok=True)
+        global _home_fallback_noted
+        if not _home_fallback_noted:
+            _home_fallback_noted = True
+            print(f"[pipeline] VICE_PIPELINE_HOME {h} is not writable ({type(e).__name__}); using {fb}", flush=True)
+        return fb
 
 
 def now_local() -> dt.datetime:

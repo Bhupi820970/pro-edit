@@ -36,7 +36,7 @@ def _gemini():
         from pipeline_lib.gemini import Gemini
         return Gemini(log=lambda *a: _log(" ".join(str(x) for x in a)))
     except Exception as e:
-        _log(f"Gemini unavailable, using template captions: {type(e).__name__}")
+        _log(f"Gemini unavailable, using template captions: {type(e).__name__}: {S.redact(str(e)[:200])}")
         return None
 
 
@@ -313,7 +313,8 @@ def run_pass(mode: str, dry_run: bool = False, repo: str | None = None,
         except Exception as e:
             _log(f"stale transfer cleanup skipped: {e}")
 
-    gem = None if dry_run else _gemini()
+    # Dry-run still constructs Gemini so caption generation can be verified without posting.
+    gem = _gemini()
     results = []
     for platform in ("youtube", "instagram"):
         item = stock.pick_next(items, platform, ledger.posted_ids(led))
