@@ -305,6 +305,11 @@ class Box:
             except Exception:
                 log(f"rejected list: {plat}/state.json is not JSON -> ignored")
         self.rejected = rejected_from_states(states)
+        try:  # clips already used by posted videos never come back (ledger/used_clips.json + box copy)
+            from pipeline_lib.used_clips import used_ids
+            self.rejected |= used_ids()
+        except Exception as ex:
+            log("used-clips ledger unreadable (ignored):", str(ex)[:100])
         log(f"rejected list: {len(self.rejected)} source id(s) Gemini rejected (not counted, not re-fetched)")
         return self.rejected
 

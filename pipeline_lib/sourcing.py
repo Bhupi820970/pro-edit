@@ -23,6 +23,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .util import home, log, run, probe, REPO
+from .used_clips import used_ids, is_used
 from .gemini import GeminiError, LITE_MODELS, FULL_MODELS
 from .titles import SINGLE_WORK_CATEGORIES, is_full_scene_upload, is_gta_title, is_trailer_title, player_name, work_title
 
@@ -442,6 +443,10 @@ class Sourcer:
         # Written to queue/needs_manual_pick.json so a bot can pick by hand (no polling).
         self.needs_manual: dict[str, list[dict]] = {}
         self.manual = load_manual_picks(self.cfg)
+        try:
+            self.used_clips = used_ids()
+        except Exception:
+            self.used_clips = set()
         self._migrate_vet_rules()
 
     def _migrate_vet_rules(self):
@@ -844,6 +849,13 @@ class Sourcer:
             mp = self.manual.get(e["id"])
             if mp is not None and not mp["accept"]:
                 return None
+            # never repeat a clip that a posted video already used (ledger/used_clips.json). GTA has only a
+            # small pool of official footage, so there it is a strong penalty instead of a hard skip.
+            used_pen = 0.0
+            if self.used_clips and is_used(e["id"], self.used_clips):
+                if category != "gta":
+                    return None
+                used_pen = 1000.0
             # strongly prefer sources unused in the last 3 days so trailer 1/2 aren't re-picked
             uses = self.state.source_uses(e["id"], days=3)
             unused_penalty = 0 if uses == 0 else 20 + uses
@@ -857,7 +869,7 @@ class Sourcer:
                 ch = (e.get("channel") or e.get("credit") or "").lower()
                 if "rockstar" in ch:
                     extra += 4  # keep Rockstar, but don't fill the video with only RDR
-            return unused_penalty + rng.random() * 0.5 + local + cached + extra
+            return unused_penalty + rng.random() * 0.5 + local + cached + extra + used_pen
 
         def take(ranked: list[dict]):
             for e in ranked:
