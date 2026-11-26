@@ -1,319 +1,67 @@
-[2026-11-26 13:37:01 IST] === in-sports-20261126-133701: platform=instagram category=sports format=shorts seed=913930280
-[2026-11-26 13:37:48 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 13:37:49 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 13:37:55 IST] vet REJECT [XWISA6cBx34] LeBron Mic'd Up is a MUST-SEE — burned_subtitles; channel_logo; flag:channel_logo; flag:burned_subtitles; not editable
-[2026-11-26 13:38:02 IST] vet REJECT [MQstdmVmZU8] EVERY Connection Between LeBron & Luka (Part Two) — Contains live broadcast scoreboard HUD overlay; flag:hud_overlay; not editable
-[2026-11-26 13:38:02 IST] vet REJECT [qHdFeyTz9zY] LeBron James RECORDS FIRST TRIPLE-DOUBLE as a SIXER in WIN Over Heat | — only 360p (< 720p)
-[2026-11-26 13:38:12 IST] vet REJECT [Ig5Noky52Lc] LeBron James Drops 14 STRAIGHT In The 2ND Quarter (UNCUT) | November 2 — Contains persistent live-broadcast scoreboard HUD overlay; Contains channel and network logos; flag:channel_logo; flag:hud_overlay
-[2026-11-26 13:38:14 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] DIc8gkrzjzQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 13:38:23 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] DIc8gkrzjzQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 13:38:23 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 13:38:25 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 13:38:35 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] VlhU9OrikSA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 13:38:35 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 13:38:37 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 13:38:47 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Le3FfVxbjEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 13:38:47 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 13:38:49 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 13:38:59 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-26 13:38:59 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-26 13:38:59 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
-[2026-11-26 13:38:59 IST] gemini key4/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:38:59 IST] gemini: key4 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:38:59 IST] gemini key5/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:38:59 IST] gemini: key5 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:38:59 IST] gemini key6/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:38:59 IST] gemini: key6 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:38:59 IST] gemini key7/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:38:59 IST] gemini: key7 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:38:59 IST] gemini key8/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:38:59 IST] gemini: key8 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:38:59 IST] gemini key9/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:38:59 IST] gemini: key9 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:39:00 IST] gemini key10/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:39:00 IST] gemini: key10 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:39:00 IST] gemini key11/gemini-3.5-flash-lite: HTTP 401 API key not valid. Please pass a valid API key.
-[2026-11-26 13:39:00 IST] gemini: key11 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:39:00 IST] gemini key12/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:39:00 IST] gemini: key12 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:39:00 IST] gemini key13/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:39:00 IST] gemini: key13 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:39:00 IST] gemini key1/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:39:00 IST] gemini: key1 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:39:00 IST] gemini key2/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:39:00 IST] gemini: key2 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:39:00 IST] gemini key3/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
-[2026-11-26 13:39:00 IST] gemini: key3 daily quota hit -> parked until 2026-11-27 13:30 IST
-[2026-11-26 13:39:00 IST] gemini discovery failed: all Gemini keys/models failed: key11/gemini-3.5-flash-lite: 401 API key not valid. Please pass a valid API key. | key12/gemini-3.5-flash-lite: 429 You exceeded your current quota, please check your pl
-[2026-11-26 13:39:00 IST] content thin for sports (0/3) -> fallback search (19 candidates)
-[2026-11-26 13:39:00 IST] sports: no candidate names a star player (fallback)
-[2026-11-26 13:39:00 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single star player for sports
-[2026-11-26 13:39:00 IST] category sports: no usable sources -> fallback to gta
-[2026-11-26 13:39:00 IST] === in-gta-20261126-133900: platform=instagram category=gta format=shorts seed=605327788
-[2026-11-26 13:39:19 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 13:39:19 IST] vet REJECT [He5pZypleqE] Grand Theft Auto V - Introducing the Rockstar Editor — only 360p (< 720p)
-[2026-11-26 13:39:19 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 13:39:19 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 13:39:19 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 13:39:19 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 13:39:19 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 13:39:19 IST] using genre stock song: Sunglasses at Night - Corey Hart
-[2026-11-26 13:39:19 IST] song: Sunglasses at Night – Corey Hart ()
-[2026-11-26 13:39:19 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 13:45:34 IST] === in-gta-20261126-133900: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-133900.mp4
-[2026-11-26 13:45:34 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 15.2}}
-[2026-11-26 13:45:34 IST] === in-romance-20261126-134534: platform=instagram category=romance format=shorts seed=183161743
-[2026-11-26 13:46:16 IST] x search failed: official romance movie clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 13:46:16 IST] x search failed: official romantic scene clip studio full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 13:46:16 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 13:46:16 IST] song stock for romance: 3 tagged songs with audio
-[2026-11-26 13:46:16 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 13:46:16 IST] using genre stock song: In Your Eyes - The Weeknd
-[2026-11-26 13:46:16 IST] song: In Your Eyes – The Weeknd ()
-[2026-11-26 13:46:16 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 13:58:08 IST] === in-romance-20261126-134534: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-romance-20261126-134534.mp4
-[2026-11-26 13:58:08 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["IT'S ALL YOU", "TALKING ABOUT", "HER INTERESTED IN"]}}
-[2026-11-26 13:58:08 IST] === in-romance-20261126-135808: platform=instagram category=romance format=shorts seed=371522924
-[2026-11-26 13:58:27 IST] x search failed: official romance movie clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 13:58:27 IST] x search failed: official romantic scene clip studio full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 13:58:27 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 13:58:27 IST] song stock for romance: 3 tagged songs with audio
-[2026-11-26 13:58:27 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 13:58:27 IST] using genre stock song: In Your Eyes - The Weeknd
-[2026-11-26 13:58:27 IST] song: In Your Eyes – The Weeknd ()
-[2026-11-26 13:58:27 IST] caption pattern: P07 Far beside
-[2026-11-26 14:10:17 IST] === in-romance-20261126-135808: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-romance-20261126-135808.mp4
-[2026-11-26 14:10:17 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["THAT EXPERIENCE IS", "HIGHER YOU RISE"]}}
-[2026-11-26 14:10:17 IST] === in-gta-20261126-141017: platform=instagram category=gta format=shorts seed=386173011
-[2026-11-26 14:10:32 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 14:10:32 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 14:10:32 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 14:10:32 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 14:10:32 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 14:10:32 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 14:10:32 IST] using genre stock song: Stayin' Alive - Bee Gees
-[2026-11-26 14:10:32 IST] song: Stayin' Alive – Bee Gees ()
-[2026-11-26 14:10:32 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 14:16:37 IST] === in-gta-20261126-141017: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-141017.mp4
-[2026-11-26 14:16:37 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 15.67}}
-[2026-11-26 14:16:37 IST] === in-gta-20261126-141637: platform=instagram category=gta format=shorts seed=607768236
-[2026-11-26 14:16:52 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 14:16:52 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 14:16:52 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 14:16:52 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 14:16:52 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 14:16:52 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 14:16:52 IST] using genre stock song: Self Control - Laura Branigan
-[2026-11-26 14:16:52 IST] song: Self Control – Laura Branigan ()
-[2026-11-26 14:16:52 IST] caption pattern: P06 Close + nudge to centre
-[2026-11-26 14:22:50 IST] === in-gta-20261126-141637: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-141637.mp4
-[2026-11-26 14:22:50 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 15.23}}
-[2026-11-26 14:22:50 IST] === in-romance-20261126-142250: platform=instagram category=romance format=shorts seed=421264352
-[2026-11-26 14:23:08 IST] x search failed: official romance movie clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 14:23:09 IST] x search failed: official romantic scene clip studio full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 14:23:09 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 14:23:09 IST] song stock for romance: 3 tagged songs with audio
-[2026-11-26 14:23:09 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 14:23:09 IST] using genre stock song: In Your Eyes - The Weeknd
-[2026-11-26 14:23:09 IST] song: In Your Eyes – The Weeknd ()
-[2026-11-26 14:23:09 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 14:34:49 IST] === in-romance-20261126-142250: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-romance-20261126-142250.mp4
-[2026-11-26 14:34:49 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["IT'S ALL YOU", "TALKING ABOUT", "HIM MY LETTER?"]}}
-[2026-11-26 14:34:49 IST] === in-romance-20261126-143449: platform=instagram category=romance format=shorts seed=710469057
-[2026-11-26 14:35:08 IST] x search failed: official romance movie clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 14:35:09 IST] x search failed: official romantic scene clip studio full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 14:35:09 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 14:35:09 IST] song stock for romance: 3 tagged songs with audio
-[2026-11-26 14:35:09 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 14:35:09 IST] using genre stock song: Die With A Smile - Lady Gaga
-[2026-11-26 14:35:09 IST] song: Die With A Smile – Lady Gaga ()
-[2026-11-26 14:35:09 IST] caption pattern: P06 Close + nudge to centre
-[2026-11-26 14:47:09 IST] === in-romance-20261126-143449: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-romance-20261126-143449.mp4
-[2026-11-26 14:47:09 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["IT", "AS FAR AS", "THEY'RE CONCERNED", "YOUR MISTAKE", "IS JUST"]}}
-[2026-11-26 14:47:09 IST] === in-romance-20261126-144709: platform=instagram category=romance format=shorts seed=980802034
-[2026-11-26 14:47:27 IST] x search failed: official romance movie clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 14:47:28 IST] x search failed: official romantic scene clip studio full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 14:47:28 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 14:47:28 IST] song stock for romance: 3 tagged songs with audio
-[2026-11-26 14:47:28 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 14:47:28 IST] using genre stock song: In Your Eyes - The Weeknd
-[2026-11-26 14:47:28 IST] song: In Your Eyes – The Weeknd ()
-[2026-11-26 14:47:28 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 14:59:13 IST] === in-romance-20261126-144709: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-romance-20261126-144709.mp4
-[2026-11-26 14:59:13 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["IT'S ALL YOU", "TALKING ABOUT", "HIM MY LETTER?"]}}
-[2026-11-26 14:59:13 IST] === in-movie-20261126-145913: platform=instagram category=movie format=shorts seed=1041829932
-[2026-11-26 14:59:32 IST] channel listing failed: https://www.youtube.com/@WarnerBrosPictures/videos ERROR: [youtube:tab] @WarnerBrosPictures/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
-[2026-11-26 14:59:39 IST] channel listing failed: https://www.youtube.com/@WaltDisneyStudios/videos ERROR: [youtube:tab] @WaltDisneyStudios/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
-[2026-11-26 14:59:58 IST] x search failed: official movie clip scene Movieclips full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 14:59:59 IST] x search failed: official movie scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 14:59:59 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 14:59:59 IST] song stock for movie: 17 tagged songs with audio
-[2026-11-26 14:59:59 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 14:59:59 IST] using genre stock song: I Ran (So Far Away) - A Flock of Seagulls
-[2026-11-26 14:59:59 IST] song: I Ran (So Far Away) – A Flock of Seagulls (https://www.youtube.com/watch?v=l3ST8AjLAms)
-[2026-11-26 14:59:59 IST] caption pattern: P06 Close + nudge to centre
-[2026-11-26 15:11:49 IST] === in-movie-20261126-145913: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-movie-20261126-145913.mp4
-[2026-11-26 15:11:49 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["IT", "AS FAR AS", "THEY'RE CONCERNED", "YOUR MISTAKE", "IS JUST"]}}
-[2026-11-26 15:11:49 IST] === in-gta-20261126-151149: platform=instagram category=gta format=shorts seed=820075265
-[2026-11-26 15:12:04 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 15:12:04 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 15:12:04 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 15:12:04 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 15:12:04 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 15:12:04 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 15:12:04 IST] using genre stock song: Money In The Grave - Drake
-[2026-11-26 15:12:04 IST] song: Money In The Grave – Drake ()
-[2026-11-26 15:12:04 IST] caption pattern: P01 Original beside-mid (approved)
-[2026-11-26 15:18:20 IST] === in-gta-20261126-151149: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-151149.mp4
-[2026-11-26 15:18:20 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 16.13}}
-[2026-11-26 15:18:20 IST] === in-movie-20261126-151820: platform=instagram category=movie format=shorts seed=952157230
-[2026-11-26 15:18:39 IST] x search failed: official movie clip scene Movieclips full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 15:18:40 IST] x search failed: official movie scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 15:18:40 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 15:18:40 IST] song stock for movie: 17 tagged songs with audio
-[2026-11-26 15:18:40 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 15:18:40 IST] using genre stock song: Money In The Grave - Drake
-[2026-11-26 15:18:40 IST] song: Money In The Grave – Drake ()
-[2026-11-26 15:18:40 IST] caption pattern: P06 Close + nudge to centre
-[2026-11-26 15:30:34 IST] === in-movie-20261126-151820: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-movie-20261126-151820.mp4
-[2026-11-26 15:30:34 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["THEY'RE ON THE", "HIGHER YOU RISE", "WHAT DO YOU", "THINK?", "HIM MY LETTER?"]}}
-[2026-11-26 15:30:34 IST] === in-romance-20261126-153034: platform=instagram category=romance format=shorts seed=397287533
-[2026-11-26 15:30:53 IST] x search failed: official romance movie clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 15:30:53 IST] x search failed: official romantic scene clip studio full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 15:30:54 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 15:30:54 IST] song stock for romance: 3 tagged songs with audio
-[2026-11-26 15:30:54 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 15:30:54 IST] using genre stock song: Save Your Tears - The Weeknd
-[2026-11-26 15:30:54 IST] song: Save Your Tears – The Weeknd ()
-[2026-11-26 15:30:54 IST] caption pattern: P01 Original beside-mid (approved)
-[2026-11-26 15:43:25 IST] === in-romance-20261126-153034: QA PASS -> /mnt/ph/instagram/ready/instagram/in-romance-20261126-153034.mp4
-[2026-11-26 15:43:25 IST] === in-movie-20261126-154325: platform=instagram category=movie format=shorts seed=938514044
-[2026-11-26 15:43:44 IST] x search failed: official movie clip scene Movieclips full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 15:43:45 IST] x search failed: official movie scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 15:43:45 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 15:43:45 IST] song stock for movie: 17 tagged songs with audio
-[2026-11-26 15:43:45 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 15:43:45 IST] using genre stock song: Paint It Black - The Rolling Stones
-[2026-11-26 15:43:45 IST] song: Paint It Black – The Rolling Stones (https://soundcloud.com/cafedelantaarn/the-rolling-stones-paint-it-black-official-lyric-video)
-[2026-11-26 15:43:45 IST] caption pattern: P06 Close + nudge to centre
-[2026-11-26 15:55:51 IST] === in-movie-20261126-154325: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-movie-20261126-154325.mp4
-[2026-11-26 15:55:51 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["REALLY STRONG YEARS", "SINCE THEN", "AND HAVE YOU", "ALL READ THIS?", "WELL"]}}
-[2026-11-26 15:55:51 IST] === in-movie-20261126-155551: platform=instagram category=movie format=shorts seed=283250401
-[2026-11-26 15:56:10 IST] x search failed: official movie clip scene Movieclips full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 15:56:11 IST] x search failed: official movie scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 15:56:11 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 15:56:11 IST] song stock for movie: 17 tagged songs with audio
-[2026-11-26 15:56:11 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 15:56:11 IST] using genre stock song: Blue Monday - New Order
-[2026-11-26 15:56:11 IST] song: Blue Monday – New Order (https://www.youtube.com/watch?v=c1GxjzHm5us)
-[2026-11-26 15:56:11 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 16:08:20 IST] === in-movie-20261126-155551: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-movie-20261126-155551.mp4
-[2026-11-26 16:08:20 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["HIM MY LETTER?"]}}
-[2026-11-26 16:08:20 IST] === in-movie-20261126-160820: platform=instagram category=movie format=shorts seed=721515191
-[2026-11-26 16:08:38 IST] x search failed: official movie clip scene Movieclips full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 16:08:39 IST] x search failed: official movie scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-26 16:08:39 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 16:08:39 IST] song stock for movie: 17 tagged songs with audio
-[2026-11-26 16:08:39 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 16:08:39 IST] using genre stock song: Somebody's Watching Me - Rockwell
-[2026-11-26 16:08:39 IST] song: Somebody's Watching Me – Rockwell ()
-[2026-11-26 16:08:39 IST] caption pattern: P08 2-word punch, mid
-[2026-11-26 16:20:42 IST] === in-movie-20261126-160820: QA PASS -> /mnt/ph/instagram/ready/instagram/in-movie-20261126-160820.mp4
-[2026-11-26 16:20:42 IST] === in-gta-20261126-162042: platform=instagram category=gta format=shorts seed=681684092
-[2026-11-26 16:20:56 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:20:56 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:20:56 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:20:56 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 16:20:56 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 16:20:56 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 16:20:56 IST] using genre stock song: Get Lucky - Daft Punk ft. Pharrell Williams
-[2026-11-26 16:20:56 IST] song: Get Lucky – Daft Punk ft. Pharrell Williams (https://soundcloud.com/danilo-lima-64/daft-punk-get-lucky-official)
-[2026-11-26 16:20:56 IST] caption pattern: P07 Far beside
-[2026-11-26 16:27:06 IST] === in-gta-20261126-162042: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-162042.mp4
-[2026-11-26 16:27:06 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 15.9}}
-[2026-11-26 16:27:06 IST] === in-gta-20261126-162706: platform=instagram category=gta format=shorts seed=674475036
-[2026-11-26 16:27:20 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:27:20 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:27:20 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:27:20 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 16:27:20 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 16:27:20 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 16:27:20 IST] using genre stock song: Get Lucky - Daft Punk ft. Pharrell Williams
-[2026-11-26 16:27:20 IST] song: Get Lucky – Daft Punk ft. Pharrell Williams (https://soundcloud.com/danilo-lima-64/daft-punk-get-lucky-official)
-[2026-11-26 16:27:20 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 16:33:29 IST] === in-gta-20261126-162706: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-162706.mp4
-[2026-11-26 16:33:29 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 15.9}}
-[2026-11-26 16:33:29 IST] === in-gta-20261126-163329: platform=instagram category=gta format=shorts seed=872007715
-[2026-11-26 16:33:43 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:33:43 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:33:43 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:33:43 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 16:33:43 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 16:33:43 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 16:33:43 IST] using genre stock song: Nightcall - Kavinsky
-[2026-11-26 16:33:43 IST] song: Nightcall – Kavinsky (https://soundcloud.com/recordmakers/11-kavinsky-nightcall-1)
-[2026-11-26 16:33:43 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 16:39:35 IST] === in-gta-20261126-163329: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-163329.mp4
-[2026-11-26 16:39:35 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 15.07}}
-[2026-11-26 16:39:35 IST] === in-gta-20261126-163935: platform=instagram category=gta format=shorts seed=306337911
-[2026-11-26 16:39:49 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:39:49 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:39:49 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:39:49 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 16:39:49 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 16:39:49 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 16:39:50 IST] using genre stock song: Give It Up - KC and the Sunshine Band
-[2026-11-26 16:39:50 IST] song: Give It Up – KC and the Sunshine Band ()
-[2026-11-26 16:39:50 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 16:46:04 IST] === in-gta-20261126-163935: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-163935.mp4
-[2026-11-26 16:46:04 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 15.47}}
-[2026-11-26 16:46:04 IST] === in-gta-20261126-164604: platform=instagram category=gta format=shorts seed=815519369
-[2026-11-26 16:46:19 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:46:19 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:46:19 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:46:19 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 16:46:19 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 16:46:19 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 16:46:19 IST] using genre stock song: Nightcall - Kavinsky
-[2026-11-26 16:46:19 IST] song: Nightcall – Kavinsky (https://soundcloud.com/recordmakers/11-kavinsky-nightcall-1)
-[2026-11-26 16:46:19 IST] caption pattern: P05 Stepping up beside
-[2026-11-26 16:52:15 IST] === in-gta-20261126-164604: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-164604.mp4
-[2026-11-26 16:52:15 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 15.07}}
-[2026-11-26 16:52:15 IST] === in-gta-20261126-165215: platform=instagram category=gta format=shorts seed=434925277
-[2026-11-26 16:52:29 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:52:29 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:52:29 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:52:29 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 16:52:29 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 16:52:29 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 16:52:30 IST] using genre stock song: In Da Club - 50 Cent
-[2026-11-26 16:52:30 IST] song: In Da Club – 50 Cent (https://soundcloud.com/leo-ali-306816420/50cent-in-da-club-hd)
-[2026-11-26 16:52:30 IST] caption pattern: P07 Far beside
-[2026-11-26 16:58:20 IST] === in-gta-20261126-165215: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-165215.mp4
-[2026-11-26 16:58:20 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 14.93}}
-[2026-11-26 16:58:20 IST] === in-gta-20261126-165820: platform=instagram category=gta format=shorts seed=946126406
-[2026-11-26 16:58:34 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:58:34 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:58:34 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 16:58:34 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 16:58:34 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 16:58:34 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 16:58:35 IST] using genre stock song: Billie Jean - Michael Jackson
-[2026-11-26 16:58:35 IST] song: Billie Jean – Michael Jackson (https://soundcloud.com/michael-movie-jaafar-jackson/billie-jean-michael-movie)
-[2026-11-26 16:58:35 IST] caption pattern: P09 2-word upper
-[2026-11-26 17:03:06 IST] pool-sync: uploaded 1 clips (0.0 GB), pruned 1
-[2026-11-26 17:03:14 IST] attached ['in-romance-20261126-153034.mp4', 'in-romance-20261126-153034.preview.mp4', 'in-romance-20261126-153034.mp4.json'] to vc-ready
-[2026-11-26 17:03:23 IST] attached ['in-movie-20261126-160820.mp4', 'in-movie-20261126-160820.preview.mp4', 'in-movie-20261126-160820.mp4.json'] to vc-ready
-[2026-11-26 17:03:25 IST] vc-ready manifest: 9 videos
-[2026-11-26 17:04:26 IST] === in-gta-20261126-165820: QA FAIL -> /mnt/ph/instagram/ready/instagram/in-gta-20261126-165820.mp4
-[2026-11-26 17:04:26 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"duration": {"ok": false, "value": 14.5}}
-[2026-11-26 17:04:26 IST] === in-gta-20261126-170426: platform=instagram category=gta format=shorts seed=5151124
-[2026-11-26 17:04:40 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:04:40 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:04:40 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
-[2026-11-26 17:04:40 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-26 17:04:40 IST] song stock for gta: 30 tagged songs with audio
-[2026-11-26 17:04:40 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-26 17:04:40 IST] using genre stock song: Sunglasses at Night - Corey Hart
-[2026-11-26 17:04:40 IST] song: Sunglasses at Night – Corey Hart ()
-[2026-11-26 17:04:40 IST] caption pattern: P09 2-word upper
+[2026-11-26 17:09:54 IST] === in-sports-20261126-170954: platform=instagram category=sports format=shorts seed=176489398
+[2026-11-26 17:10:43 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-26 17:10:44 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-26 17:10:46 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 17:10:56 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] o1BrK2KWifc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 17:10:56 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 17:10:58 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 3dWqAyPielA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 17:11:08 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 3dWqAyPielA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 17:11:08 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 17:11:10 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 17:11:20 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Fr3OrTNXR90: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 17:11:20 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 17:11:22 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] DIc8gkrzjzQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 17:11:32 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] DIc8gkrzjzQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-26 17:11:32 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-26 17:11:32 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
+[2026-11-26 17:11:32 IST] gemini key1/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:32 IST] gemini: key1 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:32 IST] gemini key2/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:32 IST] gemini: key2 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:33 IST] gemini key3/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:33 IST] gemini: key3 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:33 IST] gemini key4/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:33 IST] gemini: key4 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:33 IST] gemini key5/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:33 IST] gemini: key5 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:33 IST] gemini key6/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:33 IST] gemini: key6 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:33 IST] gemini key7/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:33 IST] gemini: key7 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:34 IST] gemini key8/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:34 IST] gemini: key8 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:34 IST] gemini key9/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:34 IST] gemini: key9 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:34 IST] gemini key10/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:34 IST] gemini: key10 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:34 IST] gemini key11/gemini-3.5-flash-lite: HTTP 401 API key not valid. Please pass a valid API key.
+[2026-11-26 17:11:34 IST] gemini: key11 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:34 IST] gemini key12/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:34 IST] gemini: key12 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:34 IST] gemini key13/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-26 17:11:34 IST] gemini: key13 daily quota hit -> parked until 2026-11-27 13:30 IST
+[2026-11-26 17:11:34 IST] gemini discovery failed: all Gemini keys/models failed: key8/gemini-3.5-flash-lite: 429 You exceeded your current quota, please check your plan and billing details. For more information on | key9/gemini-3.5-flash-lite: 429 Yo
+[2026-11-26 17:11:34 IST] content thin for sports (0/3) -> fallback search (15 candidates)
+[2026-11-26 17:11:34 IST] sports: no candidate names a star player (fallback)
+[2026-11-26 17:11:34 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single star player for sports
+[2026-11-26 17:11:34 IST] category sports: no usable sources -> fallback to gta
+[2026-11-26 17:11:34 IST] === in-gta-20261126-171134: platform=instagram category=gta format=shorts seed=249504537
+[2026-11-26 17:11:50 IST] vet error (will retry next run): htg1EZE3LVk skip new vet for htg1EZE3LVk: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] vet error (will retry next run): N-xHcvug3WI skip new vet for N-xHcvug3WI: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] vet error (will retry next run): R3HS6owS3P8 skip new vet for R3HS6owS3P8: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] vet error (will retry next run): T3ZaWDcPiIo skip new vet for T3ZaWDcPiIo: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] vet error (will retry next run): tJbzMqJGH4k skip new vet for tJbzMqJGH4k: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] vet error (will retry next run): HqZXw5M6qQY skip new vet for HqZXw5M6qQY: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] vet error (will retry next run): olEGtoYs_8A skip new vet for olEGtoYs_8A: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] vet error (will retry next run): ewAODca-3Bw skip new vet for ewAODca-3Bw: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] vet error (will retry next run): P3NBd3UjH5Y skip new vet for P3NBd3UjH5Y: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] vet error (will retry next run): _SgqsxXk8_E skip new vet for _SgqsxXk8_E: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] vet error (will retry next run): 1xlr3-hK5rY skip new vet for 1xlr3-hK5rY: all Gemini keys quota-exhausted (use cached vet only)
+[2026-11-26 17:11:50 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-26 17:11:50 IST] song stock for gta: 30 tagged songs with audio
+[2026-11-26 17:11:50 IST] gemini song pick failed, rotating the genre stock: all Gemini keys are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-26 17:11:50 IST] using genre stock song: Self Control - Laura Branigan
+[2026-11-26 17:11:50 IST] song: Self Control – Laura Branigan ()
+[2026-11-26 17:11:50 IST] caption pattern: P05 Stepping up beside
+[2026-11-26 17:15:59 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 16
+[2026-11-26 17:16:04 IST] vc-ready manifest: 9 videos

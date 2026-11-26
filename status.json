@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T17:06:30.108293+05:30",
+ "updated": "2026-11-26T17:16:10.953198+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -17,7 +17,7 @@
    "ready": 2,
    "target": 7,
    "warning": true,
-   "produced_today": 26,
+   "produced_today": 27,
    "per_day": [
     6,
     7
@@ -287,9 +287,7 @@
       "ok": true
      }
     }
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-romance-20261126-153034.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-romance-20261126-153034.preview.mp4"
+   }
   },
   {
    "id": "in-movie-20261126-160820",
@@ -418,9 +416,7 @@
       "ok": true
      }
     }
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261126-160820.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261126-160820.preview.mp4"
+   }
   }
  ],
  "approved": [],
@@ -516,18 +512,6 @@
    "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 18.7}}"
   },
   {
-   "at": "2026-11-26T14:22:50.045742+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 15.23}}"
-  },
-  {
-   "at": "2026-11-26T14:34:49.708457+05:30",
-   "platform": "instagram",
-   "category": "romance",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"IT'S ALL YOU\", \"TALKING ABOUT\", \"HIM MY LETTER?\"]}}"
-  },
-  {
    "at": "2026-11-26T14:47:09.129876+05:30",
    "platform": "instagram",
    "category": "romance",
@@ -604,18 +588,30 @@
    "platform": "instagram",
    "category": "gta",
    "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.93}}"
+  },
+  {
+   "at": "2026-11-26T17:04:26.000704+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.5}}"
+  },
+  {
+   "at": "2026-11-26T17:11:34.694041+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-26T13:17:33.192141+05:30",
-  "age_hours": 2.9,
+  "last_run": "2026-11-26T13:55:54.566444+05:30",
+  "age_hours": 3.3,
   "healthy": true,
   "pool": {
-   "gta": 19,
-   "gaming": 19,
-   "movie": 15,
-   "sports": 15,
-   "romance": 15,
+   "gta": 10,
+   "gaming": 4,
+   "movie": 7,
+   "sports": 4,
+   "romance": 5,
    "series": 15
   },
   "errors": [],

@@ -34569,6 +34569,12 @@
    "platform": "instagram",
    "category": "gta",
    "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 14.5}}"
+  },
+  {
+   "at": "2026-11-26T17:11:34.694041+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
   }
  ],
  "vet_rules": "gta-rockstar-v1"
