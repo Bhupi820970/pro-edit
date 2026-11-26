@@ -5,12 +5,16 @@
 #   bash /workspace/gta6/vicestyle/box/ensure_cron.sh status
 set -u
 LINE='50 1-23/3 * * * /workspace/gta6/vicestyle/box/fetch_sources.sh'
+# backup kicks for the IST upload slots 08:00 11:30 15:00 18:30 21:30 (GitHub drops scheduled runs)
+KICK1='3 8,15 * * * /workspace/gta6/vicestyle/box/upload_slot_kick.sh'
+KICK2='33 11,18,21 * * * /workspace/gta6/vicestyle/box/upload_slot_kick.sh'
 MARK="vice-cartel-fetch-sources"
 HOOK_LINE='[ -x /workspace/gta6/vicestyle/box/ensure_cron.sh ] && /workspace/gta6/vicestyle/box/ensure_cron.sh >/dev/null 2>&1'
 
 if [ "${1:-}" = "status" ]; then
   pgrep -x cron >/dev/null && echo "cron running" || echo "cron NOT running"
   crontab -l 2>/dev/null | grep -F "box/fetch_sources.sh" || echo "no fetch_sources line"
+  crontab -l 2>/dev/null | grep -F "box/upload_slot_kick.sh" || echo "no upload_slot_kick lines"
   exit 0
 fi
 
@@ -23,6 +27,10 @@ fi
 if ! crontab -l 2>/dev/null | grep -qF "box/fetch_sources.sh"; then
   { crontab -l 2>/dev/null; echo "$LINE"; } | crontab -   # box clock is IST (/etc/localtime)
   echo "crontab line added"
+fi
+if ! crontab -l 2>/dev/null | grep -qF "box/upload_slot_kick.sh"; then
+  { crontab -l 2>/dev/null; echo "$KICK1"; echo "$KICK2"; } | crontab -
+  echo "upload slot kick lines added"
 fi
 for f in /home/box/.profile /home/box/.bashrc; do
   [ -f "$f" ] || continue

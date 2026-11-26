@@ -100,4 +100,11 @@ def due_slot(conf: dict, led: dict | None = None, now=None) -> str | None:
     remaining = [k for k in elapsed if k not in slotted]
     skip = max(0, used - len(slotted))
     remaining = remaining[skip:]
-    return remaining[0] if remaining else None
+    if not remaining:
+        return None
+    if conf.get("catch_up_missed"):
+        return remaining[0]
+    # Default: only the CURRENT slot (latest one already started) is due. A slot missed earlier in the
+    # day (no stock / GitHub dropped the cron) is skipped instead of burst-posting several videos in a
+    # row, so fresh stock is kept for the next slot (e.g. 21:30) at the normal spacing.
+    return remaining[-1] if remaining[-1] == elapsed[-1] else None

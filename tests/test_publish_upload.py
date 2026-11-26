@@ -359,9 +359,16 @@ class DueSlotTests(unittest.TestCase):
             "2026-11-25T08:00",
         )
 
-    def test_midday_catches_earliest_unposted(self):
+    def test_midday_only_current_slot_due(self):
+        # missed 08:00 / 11:30 are skipped (no burst posting); the current 15:00 slot is due
         self.assertEqual(
             ledger.due_slot(self.slots, {"posted": []}, self._now(16, 10)),
+            "2026-11-25T15:00",
+        )
+
+    def test_catch_up_switch_keeps_old_behaviour(self):
+        self.assertEqual(
+            ledger.due_slot({**self.slots, "catch_up_missed": True}, {"posted": []}, self._now(16, 10)),
             "2026-11-25T08:00",
         )
 
@@ -369,8 +376,13 @@ class DueSlotTests(unittest.TestCase):
         led = {"posted": [{"id": "a", "platform": "youtube", "slot": "2026-11-25T08:00"}]}
         self.assertEqual(
             ledger.due_slot(self.slots, led, self._now(16, 10)),
-            "2026-11-25T11:30",
+            "2026-11-25T15:00",
         )
+
+    def test_current_slot_already_posted(self):
+        led = {"posted": [{"id": "a", "platform": "youtube", "slot": "2026-11-25T15:00"}]}
+        self.assertIsNone(ledger.due_slot(self.slots, led, self._now(17, 10)))
+        self.assertEqual(ledger.due_slot(self.slots, led, self._now(21, 35)), "2026-11-25T21:30")
 
     def test_unslotted_today_posts_consume_earliest(self):
         led = {"posted": [
@@ -379,7 +391,7 @@ class DueSlotTests(unittest.TestCase):
         ]}
         self.assertEqual(
             ledger.due_slot(self.slots, led, self._now(16, 30)),
-            "2026-11-25T11:30",
+            "2026-11-25T15:00",
         )
 
     def test_all_elapsed_slots_filled(self):
