@@ -688,7 +688,8 @@ class Sourcer:
             return None
         out = self.dir / f"{e['id']}.%(ext)s"
         h = self.cfg.get("download_height", 1440)
-        ok, err = ytdlp(["-f", f"bv*[height<={h}]+ba/b[height<={h}]/bv*+ba/b", "-S", f"res:{h},fps",
+        mh = max(1080, int(self.cfg.get("min_height", 1080)))
+        ok, err = ytdlp(["-f", f"bv*[height>={mh}][height<={h}]+ba/b[height>={mh}][height<={h}]", "-S", f"res:{h},fps",
                          "--merge-output-format", "mkv", "-o", str(out), e["url"]])
         if "not a bot" in err:
             self.stats["bot_checks"] += 1
@@ -763,8 +764,8 @@ class Sourcer:
         vs = [s for s in info["streams"] if s.get("codec_type") == "video"]
         h = max((s.get("height") or 0) for s in vs) if vs else 0
         dur = float(info["format"]["duration"])
-        if h < self.cfg.get("min_height", 720):
-            res = {"accept": False, "reject_reasons": [f"only {h}p (< {self.cfg.get('min_height', 720)}p)"],
+        if h < max(1080, self.cfg.get("min_height", 1080)):
+            res = {"accept": False, "reject_reasons": [f"only {h}p (< {max(1080, self.cfg.get('min_height', 1080))}p)"],
                    "bad_ranges": [], "checked_by": "local"}
         elif (self.manual.get(key) or {}).get("category") == category:
             mp = self.manual[key]

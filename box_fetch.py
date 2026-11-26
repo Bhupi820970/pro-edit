@@ -170,7 +170,7 @@ def rejected_from_states(states: list) -> set[str]:
 def usable_pool(man: dict, assets: set[str], rejected: set[str], category: str) -> set[str]:
     """Clip ids in the release that the runner can actually use for `category`."""
     return {m["id"] for m in (man.get("clips") or []) if isinstance(m, dict) and m.get("category") == category
-            and m.get("id") not in rejected
+            and m.get("id") not in rejected and not clip_unusable(m)
             and asset_covers(m.get("id") or "", m.get("file") or "", assets)
             and usable_for(category, m.get("title") or "", m.get("channel") or m.get("credit") or "")}
 
@@ -188,9 +188,10 @@ MEDIA_EXT = (".mkv", ".mp4", ".webm", ".part", ".ytdl")
 SIBLING_CATS = {"movie", "series", "romance", "gaming", "sports", "marvel", "dc", "anime", "celebrity", "comedy"}
 
 
-# prefer 720p..1440p; anything that still lands below 720p is rejected after download
-YTDLP_FORMAT = "bv*[height>=720][height<=1440]+ba/b[height>=720][height<=1440]/bv*+ba/b"
-MIN_HEIGHT = int(os.environ.get("BOX_FETCH_MIN_HEIGHT", "720") or 720)
+# 1080p floor (BiBi): only 1080p..1440p streams; if a video has none, yt-dlp fails and the next candidate is
+# tried. Anything that still lands below 1080p is rejected after download (never upscaled as a cheat).
+YTDLP_FORMAT = "bv*[height>=1080][height<=1440]+ba/b[height>=1080][height<=1440]"
+MIN_HEIGHT = max(1080, int(os.environ.get("BOX_FETCH_MIN_HEIGHT", "") or CFG.get("min_height", 1080)))
 POOL_TOTAL = {"target": 100, "refill_below": 40, "release_asset_limit": 1000, "asset_cleanup_at": 800,
               **(CFG.get("pool_total") or {})}
 
@@ -207,9 +208,24 @@ def video_size(path: Path) -> tuple[int, int] | None:
         return None
 
 
-def meets_min_res(size: tuple[int, int] | None, min_h: int = MIN_HEIGHT) -> bool:
-    """720p rule: the short side must be >= 720 (works for landscape and vertical uploads)."""
-    return bool(size) and min(size) >= min_h
+def meets_min_res(size: tuple[int, int] | None, min_h: int | None = None) -> bool:
+    """1080p rule: the short side must be >= 1080 (works for landscape and vertical uploads)."""
+    return bool(size) and min(size) >= (min_h or MIN_HEIGHT)
+
+
+def parse_res(value) -> tuple[int, int] | None:
+    m = re.fullmatch(r"(\d{2,5})x(\d{2,5})", str(value or ""))
+    return (int(m.group(1)), int(m.group(2))) if m else None
+
+
+def clip_unusable(m: dict) -> str:
+    """Reason a manifest clip must be skipped (marked by the audit or a box check), else ''."""
+    if m.get("unusable"):
+        return str(m["unusable"])
+    size = parse_res(m.get("resolution"))
+    if size and not meets_min_res(size):
+        return f"below {MIN_HEIGHT}p ({size[0]}x{size[1]})"
+    return ""
 
 
 def pool_refill_plan(counts: dict, targets: dict, refilling: bool, total_cfg: dict = POOL_TOTAL) -> tuple[dict, bool]:
@@ -499,6 +515,65 @@ class Box:
             self.upload([self.dir / "manifest.json"])
             log(f"release cleanup: deleted {len(gone)} used/rejected clip asset(s) ({len(assets)} assets > {limit_at})")
         return len(gone)
+
+    def audit_resolution(self, max_full_mb: int = 900) -> dict:
+        """Mark release clips below the 1080p floor as unusable in the manifest (assets are NOT deleted).
+        Reads only the first 3 MB of each asset (HTTP Range) for ffprobe; falls back to a full temporary
+        download when the header is not at the front (mp4 with moov at the end). Arg lists only."""
+        r = gh("api", f"repos/{self.repo}/releases?per_page=100", check=False, timeout=120)
+        rid = next((x.get("id") for x in json.loads(r.stdout or "[]") if x.get("tag_name") == TAG), None) \
+            if r.returncode == 0 else None
+        if not rid:
+            log("audit: sources release not found")
+            return {}
+        ids = {}
+        for page in range(1, 6):
+            r = gh("api", f"repos/{self.repo}/releases/{rid}/assets?per_page=100&page={page}", check=False, timeout=120)
+            rows = json.loads(r.stdout or "[]") if r.returncode == 0 else []
+            ids.update({a["name"]: (a["id"], int(a.get("size") or 0)) for a in rows if isinstance(a, dict)})
+            if len(rows) < 100:
+                break
+        man = self.manifest()
+        tmp = self.dir / "audit_tmp"
+        tmp.mkdir(exist_ok=True)
+        marks, seen = {}, 0
+        for m in man.get("clips") or []:
+            if not isinstance(m, dict) or m.get("file") not in ids:
+                continue
+            size = parse_res(m.get("resolution"))
+            if not size:
+                aid, nbytes = ids[m["file"]]
+                part = tmp / ("probe" + Path(m["file"]).suffix)
+                for rng in ("bytes=0-3000000", None):
+                    if rng is None and nbytes > max_full_mb * 1e6:
+                        break
+                    hdr = ["-H", f"Range: {rng}"] if rng else []
+                    with open(part, "wb") as fh:
+                        rr = subprocess.run(["gh", "api", "-H", "Accept: application/octet-stream", *hdr,
+                                             f"repos/{self.repo}/releases/assets/{aid}"],
+                                            stdout=fh, stderr=subprocess.DEVNULL, timeout=1800)
+                    size = video_size(part) if rr.returncode == 0 else None
+                    if size:
+                        break
+                part.unlink(missing_ok=True)
+            seen += 1
+            if not size:
+                marks[m["id"]] = {"unusable": "resolution unknown (could not probe)"}
+                continue
+            mk = {"resolution": f"{size[0]}x{size[1]}"}
+            if not meets_min_res(size):
+                mk["unusable"] = f"below {MIN_HEIGHT}p ({size[0]}x{size[1]})"
+            marks[m["id"]] = mk
+        if marks and not self.a.dry_run:
+            man2 = self.manifest()            # re-read right before writing; merge only our fields
+            for m in man2.get("clips") or []:
+                if isinstance(m, dict) and m.get("id") in marks:
+                    m.update(marks[m["id"]])
+            (self.dir / "manifest.json").write_text(json.dumps(man2, indent=1))
+            self.upload([self.dir / "manifest.json"])
+        low = {k: v["unusable"] for k, v in marks.items() if v.get("unusable")}
+        log(f"audit: probed {seen} clip(s); {len(low)} marked unusable (below {MIN_HEIGHT}p / unknown)")
+        return low
 
     def _pool_count(self, man: dict, assets: set[str] | None) -> dict:
         """Usable clips per category (same rules as the top-up)."""
@@ -934,7 +1009,7 @@ class Box:
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["once", "loop", "songs", "cycle", "sync"], nargs="?", default="once")
+    ap.add_argument("cmd", choices=["once", "loop", "songs", "cycle", "sync", "audit-res"], nargs="?", default="once")
     ap.add_argument("--category", choices=list(CFG["categories"]))
     ap.add_argument("--limit", type=int, default=4)
     ap.add_argument("--links", type=Path, default=None, help="file with YouTube / X URLs (one per line)")
@@ -957,6 +1032,9 @@ def main():
                       if isinstance(s, dict) and asset_covers(s.get("id") or "", s.get("file") or "", song_assets))
         b.heartbeat({"mode": "songs", "songs": songs_n})
         log(f"songs command done: added {n}")
+        return
+    if a.cmd == "audit-res":
+        b.audit_resolution()
         return
     if a.cmd == "sync":
         n = b.sync_missing_clips(max_download=80)

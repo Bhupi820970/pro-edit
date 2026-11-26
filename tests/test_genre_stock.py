@@ -44,11 +44,29 @@ class AssetsAndRes(unittest.TestCase):
         self.assertEqual(out, [("b", "b.mkv"), ("a", "a.mkv")])        # c is usable: never deleted
         self.assertEqual(B.assets_to_clean(man, assets, {"a"}, limit_at=50, keep_below=40), [])
 
-    def test_720p_rule(self):
-        self.assertTrue(B.meets_min_res((1280, 720)))
+    def test_1080p_rule(self):
+        self.assertTrue(B.meets_min_res((1920, 1080)))
         self.assertTrue(B.meets_min_res((1080, 1920)))
-        self.assertFalse(B.meets_min_res((854, 480)))
+        self.assertTrue(B.meets_min_res((2560, 1440)))
+        self.assertFalse(B.meets_min_res((1280, 720)))
+        self.assertFalse(B.meets_min_res((1920, 800)))      # scope 1080p upload: only 800 real lines
         self.assertFalse(B.meets_min_res(None))
+        self.assertIn("[height>=1080]", B.YTDLP_FORMAT)
+        self.assertNotIn("/bv*+ba/b", B.YTDLP_FORMAT)        # no silent fallback to lower qualities
+        self.assertEqual(B.clip_unusable({"resolution": "1280x720"}), "below 1080p (1280x720)")
+        self.assertEqual(B.clip_unusable({"resolution": "1920x1080"}), "")
+        self.assertTrue(B.clip_unusable({"resolution": "2560x1440", "unusable": "resolution unknown"}))
+        man = {"clips": [{"id": "lo", "file": "lo.mkv", "category": "movie", "title": "Heat scene", "resolution": "1280x720"},
+                         {"id": "hi", "file": "hi.mkv", "category": "movie", "title": "Heat scene", "resolution": "1920x1080"}]}
+        self.assertEqual(B.usable_pool(man, {"lo.mkv", "hi.mkv"}, set(), "movie"), {"hi"})
+
+    def test_pull_and_qa_floor(self):
+        import pipeline
+        self.assertTrue(pipeline._below_1080("1280x720"))
+        self.assertFalse(pipeline._below_1080("1920x1080"))
+        self.assertFalse(pipeline._below_1080(None))
+        src = (ROOT / "pipeline_lib" / "qa.py").read_text()
+        self.assertIn("want = (2160, 3840)", src)
 
 
 class Songs(unittest.TestCase):

@@ -68,7 +68,7 @@ class Gemini:
     def __init__(self, models: list[str] | None = None, log=print, cooldown_s: int = 120):
         self.keys = _keys()
         if not self.keys:
-            raise GeminiError("no GEMINI_API_KEY_1..10 in the environment")
+            raise GeminiError("no GEMINI_API_KEY_1..20 in the environment")
         self.models = models or DEFAULT_MODELS
         self.log = log
         self.k = 0

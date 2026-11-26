@@ -15,9 +15,11 @@ def qa_video(path: str, meta: dict, fmt: str, cfg: dict) -> dict:
     aus = [s for s in info["streams"] if s.get("codec_type") == "audio"]
     lo, hi = cfg.get("qa_duration", [40, 70])
     checks["duration"] = {"ok": lo <= dur <= hi, "value": round(dur, 2)}
-    want = (2160, 3840) if fmt == "shorts" else tuple(int(x) for x in cfg["platform_res"].split("x"))
+    # BiBi: every FINAL video is a 4K vertical master, 2160x3840 — anything else fails QA
+    want = (2160, 3840)
     got = (vs[0]["width"], vs[0]["height"]) if vs else (0, 0)
     checks["resolution"] = {"ok": got == want, "value": f"{got[0]}x{got[1]}", "want": f"{want[0]}x{want[1]}"}
+    checks["min_1080p"] = {"ok": bool(vs) and min(got) >= 1080, "value": f"{got[0]}x{got[1]}"}
     # audio present and not silent
     mv = -99.0
     if aus:

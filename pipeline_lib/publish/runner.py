@@ -201,11 +201,36 @@ def _upload_instagram_buffer(item: dict, text: dict, conf: dict, repo: str) -> d
     }
 
 
+def ig_copy(master: Path) -> Path:
+    """Instagram Reels API spec caps width at 1920 px and bitrate at 25 Mbps, so IG gets a high-quality
+    1080x1920 copy (Lanczos downscale of the 4K master, H.264 CRF 18 capped at 24 Mbps, closed GOP, AAC
+    128k/48 kHz, moov first). The 4K master stays in stock / archive and goes to YouTube. If the transcode
+    fails, the master itself is posted (previous behaviour)."""
+    import subprocess
+    out = master.with_name(master.stem + ".ig1080.mp4")
+    if out.is_file() and out.stat().st_size > 100_000:
+        return out
+    try:
+        r = subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(master),
+                            "-vf", "scale=1080:1920:flags=lanczos,format=yuv420p",
+                            "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-maxrate", "24M",
+                            "-bufsize", "48M", "-profile:v", "high", "-g", "60", "-flags", "+cgop",
+                            "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2",
+                            "-movflags", "+faststart", str(out)], capture_output=True, timeout=900)
+        if r.returncode == 0 and out.is_file() and out.stat().st_size > 100_000:
+            _log(f"instagram copy: 1080x1920 {out.stat().st_size / 1e6:.0f} MB (4K master kept)")
+            return out
+    except Exception as e:
+        _log(f"instagram copy failed ({type(e).__name__}); posting the master")
+    return master
+
+
 def _upload_instagram_graph(item: dict, text: dict, conf: dict, repo: str) -> dict:
     run_id = os.environ.get("GITHUB_RUN_ID") or "local"
     retry_once = bool(conf.get("retry_once", True))
+    post_file = ig_copy(Path(item["path"])) if conf.get("instagram_1080_copy", True) else Path(item["path"])
     xfer = _retry(
-        lambda: transfer.create(repo, Path(item["path"]), run_id=run_id),
+        lambda: transfer.create(repo, post_file, run_id=run_id),
         retry_once,
         f"instagram transfer {item['id']}",
     )

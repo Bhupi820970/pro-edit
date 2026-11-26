@@ -81,3 +81,17 @@ class Keys(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class MissingSlots(unittest.TestCase):
+    def test_missing_slot_11_is_skipped_and_12_keys_work(self):
+        import os
+        from unittest.mock import patch
+        from pipeline_lib import gemini as G
+        env = {f"GEMINI_API_KEY_{i}": f"k{i}x" for i in range(1, 14) if i != 11}
+        env["GEMINI_API_KEY_11"] = ""          # deleted secret -> empty env value in Actions
+        with patch.dict(os.environ, env, clear=True):
+            labels = [k for k, _ in G._keys()]
+        self.assertEqual(len(labels), 12)
+        self.assertNotIn("key11", labels)
+        self.assertIn("key12", labels)

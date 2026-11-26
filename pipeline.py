@@ -554,6 +554,11 @@ def pool_sync(repo: str, max_gb: float = 8.0, per_cat: int = 15):
     log(f"pool-sync: uploaded {len(up)} clips ({total / 1e9:.1f} GB), pruned {len(drop)}")
 
 
+def _below_1080(res) -> bool:
+    m = re.fullmatch(r"(\d{2,5})x(\d{2,5})", str(res or ""))
+    return bool(m) and min(int(m.group(1)), int(m.group(2))) < 1080
+
+
 def pull_sources(repo: str, max_gb: float = 30.0) -> int:
     """Download box clips from release "sources" selectively (the pool is now ~40 per category):
     skip clips Gemini already rejected, take Gemini-accepted first, then unvetted newest, up to max_gb.
@@ -573,6 +578,8 @@ def pull_sources(repo: str, max_gb: float = 30.0) -> int:
         f, sid = c.get("file") or "", c.get("id") or ""
         if f not in assets or not name_ok.match(f):
             continue
+        if c.get("unusable") or _below_1080(c.get("resolution")):
+            continue                      # below the 1080p floor (marked by the box audit): never pulled
         v = vet.get(sid)
         if v is not None and not v.get("accept"):
             continue                      # Gemini rejected (watermark / logo / quality): never pulled

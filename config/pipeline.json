@@ -2,7 +2,7 @@
   "brand": "Vice Cartel",
   "duration": 38,
   "download_height": 1440,
-  "min_height": 720,
+  "min_height": 1080,
   "song_cooldown_days": 10,
   "pattern_cooldown_days": 2.5,
   "buffer_target": 7,
@@ -1129,5 +1129,6 @@
     "refill_below": 40,
     "release_asset_limit": 1000,
     "asset_cleanup_at": 800
-  }
+  },
+  "render_res": "2160x3840"
 }

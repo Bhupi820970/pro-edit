@@ -221,7 +221,8 @@ def seg_filter(seg: Seg, W: int, H: int) -> str:
         lum = np.mean([shot_luma(seg.src, seg.start + dur * k) for k in (0.2, 0.5, 0.8)])
         seg.gamma = round(float(min(1.45, (0.30 / lum) ** 0.5)) if lum < 0.24 else 1.0, 2)
     f = [f"scale={int(W * z)}:{int(H * z)}:force_original_aspect_ratio=increase:flags=lanczos",
-         f"crop={W}:{H}", "setsar=1"]
+         f"crop={W}:{H}", "setsar=1",
+         "unsharp=5:5:0.35:5:5:0.0"]          # light luma sharpen after the Lanczos scale (sources >= 1080p)
     if seg.gamma and abs(seg.gamma - 1) > 0.01:
         f.append(f"eq=gamma={seg.gamma}")
     f.append(GRADE)
@@ -992,7 +993,8 @@ def make_shorts(wide: Path, out: Path, hook: str, fpath: str):
           f"[b]scale={BW}:{BH}:flags=lanczos[fg];[bg][fg]overlay=0:{vy}[v1];"
           f"[v1][1:v]overlay=0:{vy - bar_h},format=yuv420p")
     run(["ffmpeg", "-y", "-v", "error", "-i", str(wide), "-i", str(bp), "-filter_complex", vf,
-         "-map", "0:a", "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-c:a", "copy",
+         "-map", "0:a", "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-maxrate", "50M",
+         "-bufsize", "100M", "-pix_fmt", "yuv420p", "-profile:v", "high", "-c:a", "copy",
          "-movflags", "+faststart", str(out)])
     bp.unlink(missing_ok=True)
 
