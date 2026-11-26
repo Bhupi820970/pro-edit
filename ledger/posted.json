@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-26T08:44:10.017326+05:30",
+ "updated": "2026-11-26T16:47:36.031071+05:30",
  "posted": [
   {
    "id": "yo-gta-20261125-070541",
@@ -101,6 +101,23 @@
    "slot": "2026-11-26T08:00",
    "updated_at": "2026-11-26T08:44:10.017291+05:30",
    "posted_at": "2026-11-26T08:44:10.017291+05:30"
+  },
+  {
+   "id": "yo-gta-20261126-133632",
+   "platform": "youtube",
+   "title": "GTA 6 Vice City | Easy Lover Edit",
+   "youtube_id": "lQeSSwAkWoo",
+   "youtube_url": "https://www.youtube.com/watch?v=lQeSSwAkWoo",
+   "instagram_url": null,
+   "ig_media_id": null,
+   "ig_container_id": null,
+   "buffer_post_id": null,
+   "buffer_status": null,
+   "run_id": "45809019397",
+   "status": "posted",
+   "slot": "2026-11-26T11:30",
+   "updated_at": "2026-11-26T16:47:36.031044+05:30",
+   "posted_at": "2026-11-26T16:47:36.031044+05:30"
   }
  ]
 }
