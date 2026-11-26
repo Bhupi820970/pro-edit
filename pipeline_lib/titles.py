@@ -4,7 +4,7 @@ from __future__ import annotations
 import re
 from collections import defaultdict
 
-SINGLE_WORK_CATEGORIES = frozenset({"movie", "series", "romance"})
+SINGLE_WORK_CATEGORIES = frozenset({"movie", "series", "romance", "marvel", "dc", "anime", "celebrity", "comedy"})
 
 # Longer aliases first so "cristiano ronaldo" wins over a bare "ronaldo".
 STAR_PLAYERS: list[tuple[str, tuple[str, ...]]] = [

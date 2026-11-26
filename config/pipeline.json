@@ -57,6 +57,30 @@
         "romance": [
           1,
           1
+        ],
+        "marvel": [
+          0,
+          1
+        ],
+        "dc": [
+          0,
+          1
+        ],
+        "anime": [
+          0,
+          1
+        ],
+        "celebrity": [
+          0,
+          1
+        ],
+        "comedy": [
+          0,
+          1
+        ],
+        "series": [
+          0,
+          1
         ]
       }
     }
@@ -102,7 +126,7 @@
       "allow_channels": [
         "Rockstar Games"
       ],
-      "discover": "Official Grand Theft Auto V, GTA Online, and Grand Theft Auto VI gameplay videos and official cinematic gameplay from Rockstar Games only \u2014 never trailers, teasers, promos or TV spots",
+      "discover": "Official Grand Theft Auto V, GTA Online, and Grand Theft Auto VI gameplay videos and official cinematic gameplay from Rockstar Games only — never trailers, teasers, promos or TV spots",
       "song_hint": "Vice City / Miami crime energy: 80s funk, disco, synth-pop, retro or modern hip-hop/pop with swagger",
       "fallback_songs": [
         {
@@ -124,6 +148,10 @@
         "ViceCity",
         "GTA6Edit",
         "RockstarGames"
+      ],
+      "mood": [
+        "high-energy",
+        "swagger"
       ]
     },
     "gaming": {
@@ -236,6 +264,9 @@
         "Electronic Arts",
         "EA",
         "Naughty Dog"
+      ],
+      "mood": [
+        "high-energy"
       ]
     },
     "movie": {
@@ -363,7 +394,7 @@
         "Movieclips (ROT)",
         "Warner Bros."
       ],
-      "discover": "Official movie clips and full scenes from studio YouTube channels or licensed clip channels such as Movieclips \u2014 never trailers, teasers, promos or TV spots",
+      "discover": "Official movie clips and full scenes from studio YouTube channels or licensed clip channels such as Movieclips — never trailers, teasers, promos or TV spots",
       "song_hint": "matches the movie mood: cinematic pop, hip-hop, rock, dark synth",
       "fallback_songs": [
         {
@@ -378,6 +409,10 @@
         "MovieScenes",
         "Cinema",
         "FilmEdit"
+      ],
+      "mood": [
+        "epic",
+        "dark"
       ]
     },
     "sports": {
@@ -490,7 +525,7 @@
         "official full highlights NBA no commentary",
         "official press conference football club"
       ],
-      "discover": "Official interview or press-conference clips plus official/full highlights of ONE star athlete (e.g. LeBron James, Lionel Messi, Cristiano Ronaldo) from official league, club, or player channels \u2014 never trailers, teasers, promos or TV spots, and no scoreboard or corner logo",
+      "discover": "Official interview or press-conference clips plus official/full highlights of ONE star athlete (e.g. LeBron James, Lionel Messi, Cristiano Ronaldo) from official league, club, or player channels — never trailers, teasers, promos or TV spots, and no scoreboard or corner logo",
       "song_hint": "hype: hip-hop, trap, rock anthems",
       "fallback_songs": [
         {
@@ -524,6 +559,9 @@
         "Manchester United",
         "Real Madrid",
         "FC Barcelona"
+      ],
+      "mood": [
+        "high-energy"
       ]
     },
     "romance": {
@@ -608,7 +646,7 @@
         "Warner Bros.",
         "MUBI"
       ],
-      "discover": "Official romance or love-story movie/series clips and full scenes from studio or licensed clip channels \u2014 never trailers, teasers, promos or TV spots",
+      "discover": "Official romance or love-story movie/series clips and full scenes from studio or licensed clip channels — never trailers, teasers, promos or TV spots",
       "song_hint": "romantic: R&B, soft pop, indie love songs with a steady beat",
       "fallback_songs": [
         {
@@ -622,6 +660,9 @@
         "RomanceEdit",
         "LoveStory",
         "MovieEdit"
+      ],
+      "mood": [
+        "love"
       ]
     },
     "series": {
@@ -677,6 +718,13 @@
           "title_re": "official clip|season \\d",
           "skip_re": "recap|explained|ending|trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast",
           "credit": "Paramount+"
+        },
+        {
+          "url": "https://www.youtube.com/@HBO/videos",
+          "limit": 80,
+          "title_re": "official clip|scene|season \\d",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "HBO"
         }
       ],
       "search": [
@@ -703,7 +751,7 @@
         "Hulu",
         "BBC"
       ],
-      "discover": "Official web-series and TV-series scene clips, official clips, or full episodes from official streamer and network YouTube channels \u2014 never trailers, teasers, promos, TV spots, or recaps",
+      "discover": "Official web-series and TV-series scene clips, official clips, or full episodes from official streamer and network YouTube channels — never trailers, teasers, promos, TV spots, or recaps",
       "song_hint": "cinematic pop, dark synth, hip-hop or tension cues that match the show",
       "fallback_songs": [
         {
@@ -718,18 +766,336 @@
         "TVEdit",
         "WebSeries",
         "OfficialClip"
+      ],
+      "mood": [
+        "dark",
+        "epic"
+      ]
+    },
+    "marvel": {
+      "sources_per_video": 3,
+      "min_len": 30,
+      "max_len": 1800,
+      "channels": [
+        {
+          "url": "https://www.youtube.com/@marvel/videos",
+          "limit": 80,
+          "title_re": "official clip|clip|scene",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Marvel Entertainment"
+        }
+      ],
+      "search": [
+        "Marvel Studios official clip scene",
+        "Marvel Entertainment official clip",
+        "Avengers official clip Marvel",
+        "Spider-Man official clip Marvel Studios"
+      ],
+      "allow_channels": [
+        "Marvel Entertainment",
+        "Marvel Studios",
+        "Sony Pictures Entertainment"
+      ],
+      "discover": "Official Marvel movie/series scene clips from Marvel Entertainment's own YouTube channel (or Sony Pictures for Spider-Man) — never trailers, teasers, promos, TV spots or fan channels",
+      "song_hint": "epic high-energy hero anthems: rock, hip-hop, orchestral hype",
+      "fallback_songs": [
+        {
+          "title": "Thunderstruck",
+          "artist": "AC/DC",
+          "why": "hero hype"
+        }
+      ],
+      "title_fallback": "Marvel Scene Edit",
+      "tags": [
+        "Marvel",
+        "MarvelEdit",
+        "MCU",
+        "Avengers"
+      ],
+      "mood": [
+        "epic",
+        "high-energy"
+      ]
+    },
+    "dc": {
+      "sources_per_video": 3,
+      "min_len": 30,
+      "max_len": 1800,
+      "channels": [
+        {
+          "url": "https://www.youtube.com/@DC/videos",
+          "limit": 80,
+          "title_re": "official clip|clip|scene",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "DC"
+        },
+        {
+          "url": "https://www.youtube.com/@warnerbros/videos",
+          "limit": 80,
+          "title_re": "(?i)(batman|superman|joker|wonder woman|aquaman|the flash|justice league|peacemaker|suicide squad|the penguin|shazam|black adam|blue beetle).*(clip|scene)|(clip|scene).*(batman|superman|joker|wonder woman|aquaman|flash|justice league)",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Warner Bros."
+        }
+      ],
+      "search": [
+        "DC official clip scene",
+        "The Batman official clip Warner Bros",
+        "Superman official clip DC",
+        "Joker official clip Warner Bros"
+      ],
+      "allow_channels": [
+        "DC",
+        "Warner Bros.",
+        "Warner Bros. Pictures",
+        "HBO Max",
+        "Max"
+      ],
+      "discover": "Official DC movie/series scene clips from DC or Warner Bros. YouTube channels — never trailers, teasers, promos, TV spots or fan channels",
+      "song_hint": "dark, heavy, cinematic: rock, dark synth, hip-hop",
+      "fallback_songs": [
+        {
+          "title": "Seven Nation Army",
+          "artist": "The White Stripes",
+          "why": "dark hero"
+        }
+      ],
+      "title_fallback": "DC Scene Edit",
+      "tags": [
+        "DC",
+        "DCEdit",
+        "Batman",
+        "Superman"
+      ],
+      "mood": [
+        "dark",
+        "epic"
+      ]
+    },
+    "anime": {
+      "sources_per_video": 3,
+      "min_len": 30,
+      "max_len": 1800,
+      "channels": [
+        {
+          "url": "https://www.youtube.com/@Crunchyroll/videos",
+          "limit": 80,
+          "title_re": "clip|scene|official clip|english sub|dub",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Crunchyroll"
+        },
+        {
+          "url": "https://www.youtube.com/@ToeiAnimation/videos",
+          "limit": 80,
+          "title_re": "clip|scene|official",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Toei Animation"
+        },
+        {
+          "url": "https://www.youtube.com/@cartoonnetwork/videos",
+          "limit": 80,
+          "title_re": "clip|scene|full scene",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Cartoon Network"
+        },
+        {
+          "url": "https://www.youtube.com/@DisneyAnimation/videos",
+          "limit": 80,
+          "title_re": "clip|scene",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Walt Disney Animation Studios"
+        },
+        {
+          "url": "https://www.youtube.com/@Disney/videos",
+          "limit": 80,
+          "title_re": "clip|scene",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Disney"
+        }
+      ],
+      "search": [
+        "Crunchyroll official clip anime scene",
+        "Toei Animation official clip",
+        "Cartoon Network official clip",
+        "Disney official animated movie clip"
+      ],
+      "allow_channels": [
+        "Crunchyroll",
+        "Crunchyroll Collection",
+        "Toei Animation",
+        "Cartoon Network",
+        "Walt Disney Animation Studios",
+        "Disney",
+        "Pixar",
+        "Netflix Anime"
+      ],
+      "discover": "Official anime and cartoon scene clips from Crunchyroll, Toei Animation, Cartoon Network or Disney official channels — never fan uploads, AMVs, trailers or promos",
+      "song_hint": "famous anime openings and upbeat J-pop/J-rock, or fun cartoon energy",
+      "fallback_songs": [
+        {
+          "title": "Unravel",
+          "artist": "TK from Ling tosite sigure",
+          "why": "anime classic"
+        }
+      ],
+      "title_fallback": "Anime Scene Edit",
+      "tags": [
+        "Anime",
+        "AnimeEdit",
+        "Crunchyroll",
+        "Cartoon"
+      ],
+      "mood": [
+        "high-energy",
+        "epic"
+      ]
+    },
+    "celebrity": {
+      "sources_per_video": 3,
+      "min_len": 20,
+      "max_len": 1800,
+      "channels": [
+        {
+          "url": "https://www.youtube.com/@TheAcademy/videos",
+          "limit": 80,
+          "title_re": "oscars|acceptance|speech|moment|red carpet",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "The Academy (Oscars)"
+        },
+        {
+          "url": "https://www.youtube.com/@RecordingAcademy/videos",
+          "limit": 80,
+          "title_re": "grammy|performance|acceptance|moment|red carpet",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Recording Academy / GRAMMYs"
+        },
+        {
+          "url": "https://www.youtube.com/@Vogue/videos",
+          "limit": 80,
+          "title_re": "met gala|red carpet",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Vogue"
+        },
+        {
+          "url": "https://www.youtube.com/@goldenglobes/videos",
+          "limit": 80,
+          "title_re": "golden globes|acceptance|speech|moment|red carpet",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Golden Globes"
+        }
+      ],
+      "search": [
+        "Oscars official acceptance speech moment",
+        "GRAMMYs official performance moment",
+        "Met Gala red carpet Vogue official",
+        "Golden Globes official moment"
+      ],
+      "allow_channels": [
+        "Oscars",
+        "The Academy",
+        "Recording Academy / GRAMMYs",
+        "GRAMMYs",
+        "Vogue",
+        "Golden Globes"
+      ],
+      "discover": "Official award-show and red-carpet moments from the Oscars, GRAMMYs, Golden Globes or Vogue (Met Gala) channels — never gossip or reupload channels",
+      "song_hint": "glamorous confident pop / R&B",
+      "fallback_songs": [
+        {
+          "title": "Levitating",
+          "artist": "Dua Lipa",
+          "why": "glam pop"
+        }
+      ],
+      "title_fallback": "Celebrity Moment Edit",
+      "tags": [
+        "Celebrity",
+        "RedCarpet",
+        "Oscars",
+        "Grammys"
+      ],
+      "mood": [
+        "glam",
+        "high-energy"
+      ]
+    },
+    "comedy": {
+      "sources_per_video": 3,
+      "min_len": 20,
+      "max_len": 1800,
+      "channels": [
+        {
+          "url": "https://www.youtube.com/@FallonTonight/videos",
+          "limit": 80,
+          "title_re": ".*",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "The Tonight Show Starring Jimmy Fallon"
+        },
+        {
+          "url": "https://www.youtube.com/@JimmyKimmelLive/videos",
+          "limit": 80,
+          "title_re": ".*",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Jimmy Kimmel Live"
+        },
+        {
+          "url": "https://www.youtube.com/@SaturdayNightLive/videos",
+          "limit": 80,
+          "title_re": ".*",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|behind the scenes|livestream|podcast|full movie|compilation",
+          "credit": "Saturday Night Live"
+        }
+      ],
+      "search": [
+        "Tonight Show Jimmy Fallon official funny moment",
+        "Jimmy Kimmel Live official funny clip",
+        "SNL official sketch"
+      ],
+      "allow_channels": [
+        "The Tonight Show Starring Jimmy Fallon",
+        "Jimmy Kimmel Live",
+        "Saturday Night Live"
+      ],
+      "discover": "Official comedy-show segments and sketches from The Tonight Show, Jimmy Kimmel Live or SNL official channels",
+      "song_hint": "fun bouncy beats: funk, upbeat pop, playful hip-hop",
+      "fallback_songs": [
+        {
+          "title": "Uptown Funk",
+          "artist": "Mark Ronson ft. Bruno Mars",
+          "why": "fun beat"
+        }
+      ],
+      "title_fallback": "Comedy Moment Edit",
+      "tags": [
+        "Comedy",
+        "Funny",
+        "SNL",
+        "TonightShow"
+      ],
+      "mood": [
+        "fun"
       ]
     }
   },
   "pool_target": {
-    "gta": 40,
-    "gaming": 40,
-    "movie": 40,
-    "sports": 40,
-    "romance": 40,
-    "series": 40
+    "gta": 12,
+    "gaming": 9,
+    "movie": 12,
+    "sports": 9,
+    "romance": 9,
+    "series": 9,
+    "marvel": 9,
+    "dc": 9,
+    "anime": 9,
+    "celebrity": 9,
+    "comedy": 9
   },
   "attempt_max_min": 10,
   "render_max_min": 15,
-  "source_cache_gb": 24
+  "source_cache_gb": 24,
+  "pool_total": {
+    "target": 100,
+    "refill_below": 40,
+    "release_asset_limit": 1000,
+    "asset_cleanup_at": 800
+  }
 }

@@ -26,6 +26,11 @@ def _e(i, title, ch="Movieclips", verified=True, dur=180):
 
 
 class TitleGroups(unittest.TestCase):
+    def setUp(self):
+        p = patch.object(B, "video_size", return_value=(1920, 1080))   # fake files: treat as 1080p
+        p.start()
+        self.addCleanup(p.stop)
+
     def _box(self, td):
         a = SimpleNamespace(repo="x/y", dir=Path(td), cookies_from_browser=None, no_gemini=True, dry_run=True)
         return B.Box(a)
@@ -61,9 +66,11 @@ class TitleGroups(unittest.TestCase):
                 recs = box.fetch("movie", 10, use_gemini=False)
             ids = [r["id"] for r in recs]
             self.assertEqual(ids[0], main["id"])
-            self.assertEqual(set(ids[1:]), {sibs[0]["id"], sibs[1]["id"], sibs[5]["id"]})  # 3 extra, clean
+            self.assertEqual(set(ids[1:]), {sibs[0]["id"], sibs[1]["id"]})  # 2 extra -> 3 clips of ONE title
             self.assertTrue(all(r.get("work") == work for r in recs))
             self.assertTrue(all(r["url"].startswith("https://www.youtube.com/") for r in recs))
+            self.assertTrue(all(r["genre"] == "movie" and r["resolution"] == "1920x1080" and r["vetted"] is False
+                                and "has_dialogue" in r for r in recs))
             self.assertFalse(list(Path(td).glob("*.mkv")))                 # freed after each batch
 
     def test_overlay_reject_at_download_deletes_and_takes_replacement(self):

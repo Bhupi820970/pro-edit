@@ -262,542 +262,1695 @@
   ],
   "stock": {
     "target": 30,
-    "refill_at": 8,
-    "max_per_run": 12
+    "refill_at": 20,
+    "max_per_run": 40
   },
   "seeds": {
     "gta": [
       {
         "title": "Lose Yourself",
-        "artist": "Eminem"
+        "artist": "Eminem",
+        "mood": "swagger"
       },
       {
         "title": "HUMBLE.",
-        "artist": "Kendrick Lamar"
+        "artist": "Kendrick Lamar",
+        "mood": "swagger"
       },
       {
         "title": "SICKO MODE",
-        "artist": "Travis Scott"
+        "artist": "Travis Scott",
+        "mood": "swagger"
       },
       {
         "title": "In Da Club",
-        "artist": "50 Cent"
+        "artist": "50 Cent",
+        "mood": "swagger"
       },
       {
         "title": "Gangsta's Paradise",
-        "artist": "Coolio"
+        "artist": "Coolio",
+        "mood": "swagger"
       },
       {
         "title": "Still D.R.E.",
-        "artist": "Dr. Dre"
+        "artist": "Dr. Dre",
+        "mood": "swagger"
       },
       {
         "title": "Nightcall",
-        "artist": "Kavinsky"
+        "artist": "Kavinsky",
+        "mood": "swagger"
       },
       {
         "title": "Africa",
-        "artist": "Toto"
+        "artist": "Toto",
+        "mood": "swagger"
       },
       {
         "title": "Take On Me",
-        "artist": "a-ha"
+        "artist": "a-ha",
+        "mood": "swagger"
       },
       {
         "title": "Billie Jean",
-        "artist": "Michael Jackson"
+        "artist": "Michael Jackson",
+        "mood": "swagger"
       },
       {
         "title": "Push It",
-        "artist": "Salt-N-Pepa"
+        "artist": "Salt-N-Pepa",
+        "mood": "swagger"
       },
       {
         "title": "Mo Money Mo Problems",
-        "artist": "The Notorious B.I.G."
+        "artist": "The Notorious B.I.G.",
+        "mood": "swagger"
       },
       {
         "title": "Gold Digger",
-        "artist": "Kanye West"
+        "artist": "Kanye West",
+        "mood": "swagger"
       },
       {
         "title": "Power",
-        "artist": "Kanye West"
+        "artist": "Kanye West",
+        "mood": "swagger"
       },
       {
         "title": "Miami",
-        "artist": "Will Smith"
+        "artist": "Will Smith",
+        "mood": "swagger"
       },
       {
         "title": "Mask Off",
-        "artist": "Future"
+        "artist": "Future",
+        "mood": "swagger"
       },
       {
         "title": "Goosebumps",
-        "artist": "Travis Scott"
+        "artist": "Travis Scott",
+        "mood": "swagger"
       },
       {
         "title": "Thriller",
-        "artist": "Michael Jackson"
+        "artist": "Michael Jackson",
+        "mood": "swagger"
       },
       {
         "title": "Don't You Want Me",
-        "artist": "The Human League"
+        "artist": "The Human League",
+        "mood": "swagger"
       },
       {
         "title": "Mr. Brightside",
-        "artist": "The Killers"
+        "artist": "The Killers",
+        "mood": "swagger"
+      },
+      {
+        "title": "Hypnotize",
+        "artist": "The Notorious B.I.G.",
+        "mood": "swagger"
+      },
+      {
+        "title": "California Love",
+        "artist": "2Pac",
+        "mood": "swagger"
+      },
+      {
+        "title": "Juicy",
+        "artist": "The Notorious B.I.G.",
+        "mood": "swagger"
+      },
+      {
+        "title": "Without Me",
+        "artist": "Eminem",
+        "mood": "swagger"
+      },
+      {
+        "title": "Ms. Jackson",
+        "artist": "OutKast",
+        "mood": "swagger"
+      },
+      {
+        "title": "Hey Ya!",
+        "artist": "OutKast",
+        "mood": "swagger"
+      },
+      {
+        "title": "Blinding Lights",
+        "artist": "The Weeknd",
+        "mood": "swagger"
+      },
+      {
+        "title": "Smooth Criminal",
+        "artist": "Michael Jackson",
+        "mood": "swagger"
+      },
+      {
+        "title": "Sweet Dreams (Are Made of This)",
+        "artist": "Eurythmics",
+        "mood": "swagger"
+      },
+      {
+        "title": "Easy Lover",
+        "artist": "Philip Bailey",
+        "mood": "swagger"
       }
     ],
     "gaming": [
       {
         "title": "Enemy",
-        "artist": "Imagine Dragons"
+        "artist": "Imagine Dragons",
+        "mood": "high-energy"
       },
       {
         "title": "Legends Never Die",
-        "artist": "League of Legends"
+        "artist": "League of Legends",
+        "mood": "high-energy"
       },
       {
         "title": "Warriors",
-        "artist": "Imagine Dragons"
+        "artist": "Imagine Dragons",
+        "mood": "high-energy"
       },
       {
         "title": "Centuries",
-        "artist": "Fall Out Boy"
+        "artist": "Fall Out Boy",
+        "mood": "high-energy"
       },
       {
         "title": "Remember the Name",
-        "artist": "Fort Minor"
+        "artist": "Fort Minor",
+        "mood": "high-energy"
       },
       {
         "title": "Sail",
-        "artist": "AWOLNATION"
+        "artist": "AWOLNATION",
+        "mood": "high-energy"
       },
       {
         "title": "Radioactive",
-        "artist": "Imagine Dragons"
+        "artist": "Imagine Dragons",
+        "mood": "high-energy"
       },
       {
         "title": "Monster",
-        "artist": "Skillet"
+        "artist": "Skillet",
+        "mood": "high-energy"
       },
       {
         "title": "Rise",
-        "artist": "League of Legends"
+        "artist": "League of Legends",
+        "mood": "high-energy"
       },
       {
         "title": "Can't Hold Us",
-        "artist": "Macklemore & Ryan Lewis"
+        "artist": "Macklemore & Ryan Lewis",
+        "mood": "high-energy"
       },
       {
         "title": "Bad Guy",
-        "artist": "Billie Eilish"
+        "artist": "Billie Eilish",
+        "mood": "high-energy"
       },
       {
         "title": "Animals",
-        "artist": "Martin Garrix"
+        "artist": "Martin Garrix",
+        "mood": "high-energy"
       },
       {
         "title": "Faded",
-        "artist": "Alan Walker"
+        "artist": "Alan Walker",
+        "mood": "high-energy"
       },
       {
         "title": "Titanium",
-        "artist": "David Guetta"
+        "artist": "David Guetta",
+        "mood": "high-energy"
       },
       {
         "title": "Thunder",
-        "artist": "Imagine Dragons"
+        "artist": "Imagine Dragons",
+        "mood": "high-energy"
       },
       {
         "title": "Natural",
-        "artist": "Imagine Dragons"
+        "artist": "Imagine Dragons",
+        "mood": "high-energy"
       },
       {
         "title": "Stronger",
-        "artist": "Kanye West"
+        "artist": "Kanye West",
+        "mood": "high-energy"
       },
       {
         "title": "X Gon' Give It to Ya",
-        "artist": "DMX"
+        "artist": "DMX",
+        "mood": "high-energy"
       },
       {
         "title": "Bring Me to Life",
-        "artist": "Evanescence"
+        "artist": "Evanescence",
+        "mood": "high-energy"
       },
       {
         "title": "Numb",
-        "artist": "Linkin Park"
+        "artist": "Linkin Park",
+        "mood": "high-energy"
       },
       {
         "title": "In the End",
-        "artist": "Linkin Park"
+        "artist": "Linkin Park",
+        "mood": "high-energy"
       },
       {
         "title": "Kill Bill",
-        "artist": "SZA"
+        "artist": "SZA",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Believer",
+        "artist": "Imagine Dragons",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Unity",
+        "artist": "TheFatRat",
+        "mood": "high-energy"
+      },
+      {
+        "title": "On My Way",
+        "artist": "Alan Walker",
+        "mood": "high-energy"
+      },
+      {
+        "title": "The Phoenix",
+        "artist": "Fall Out Boy",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Courtesy Call",
+        "artist": "Thousand Foot Krutch",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Awake and Alive",
+        "artist": "Skillet",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Hero",
+        "artist": "Skillet",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Face Everything and Rise",
+        "artist": "Papa Roach",
+        "mood": "high-energy"
       }
     ],
     "movie": [
       {
         "title": "Paint It Black",
-        "artist": "The Rolling Stones"
+        "artist": "The Rolling Stones",
+        "mood": "epic"
       },
       {
         "title": "Seven Nation Army",
-        "artist": "The White Stripes"
+        "artist": "The White Stripes",
+        "mood": "epic"
       },
       {
         "title": "Bad Liar",
-        "artist": "Imagine Dragons"
+        "artist": "Imagine Dragons",
+        "mood": "epic"
       },
       {
         "title": "Running Up That Hill (A Deal with God)",
-        "artist": "Kate Bush"
+        "artist": "Kate Bush",
+        "mood": "epic"
       },
       {
         "title": "In the Air Tonight",
-        "artist": "Phil Collins"
+        "artist": "Phil Collins",
+        "mood": "epic"
       },
       {
         "title": "Hurt",
-        "artist": "Johnny Cash"
+        "artist": "Johnny Cash",
+        "mood": "epic"
       },
       {
         "title": "Mad World",
-        "artist": "Gary Jules"
+        "artist": "Gary Jules",
+        "mood": "epic"
       },
       {
         "title": "Everybody Wants to Rule the World",
-        "artist": "Tears for Fears"
+        "artist": "Tears for Fears",
+        "mood": "epic"
       },
       {
         "title": "Way Down We Go",
-        "artist": "KALEO"
+        "artist": "KALEO",
+        "mood": "epic"
       },
       {
         "title": "Bury a Friend",
-        "artist": "Billie Eilish"
+        "artist": "Billie Eilish",
+        "mood": "epic"
       },
       {
         "title": "Unstoppable",
-        "artist": "Sia"
+        "artist": "Sia",
+        "mood": "epic"
       },
       {
         "title": "Heathens",
-        "artist": "twenty one pilots"
+        "artist": "twenty one pilots",
+        "mood": "epic"
       },
       {
         "title": "I Ran (So Far Away)",
-        "artist": "A Flock of Seagulls"
+        "artist": "A Flock of Seagulls",
+        "mood": "epic"
       },
       {
         "title": "Smells Like Teen Spirit",
-        "artist": "Nirvana"
+        "artist": "Nirvana",
+        "mood": "epic"
       },
       {
         "title": "Bohemian Rhapsody",
-        "artist": "Queen"
+        "artist": "Queen",
+        "mood": "epic"
       },
       {
         "title": "Another One Bites the Dust",
-        "artist": "Queen"
+        "artist": "Queen",
+        "mood": "epic"
       },
       {
         "title": "Somebody That I Used to Know",
-        "artist": "Gotye"
+        "artist": "Gotye",
+        "mood": "epic"
       },
       {
         "title": "Feeling Good",
-        "artist": "Michael Buble"
+        "artist": "Michael Buble",
+        "mood": "epic"
       },
       {
         "title": "Do I Wanna Know?",
-        "artist": "Arctic Monkeys"
+        "artist": "Arctic Monkeys",
+        "mood": "epic"
       },
       {
         "title": "Sweater Weather",
-        "artist": "The Neighbourhood"
+        "artist": "The Neighbourhood",
+        "mood": "epic"
       },
       {
         "title": "Location",
-        "artist": "Khalid"
+        "artist": "Khalid",
+        "mood": "epic"
       },
       {
         "title": "Writing's on the Wall",
-        "artist": "Sam Smith"
+        "artist": "Sam Smith",
+        "mood": "epic"
+      },
+      {
+        "title": "Time",
+        "artist": "Hans Zimmer",
+        "mood": "epic"
+      },
+      {
+        "title": "Lux Aeterna",
+        "artist": "Clint Mansell",
+        "mood": "epic"
+      },
+      {
+        "title": "Sail",
+        "artist": "AWOLNATION",
+        "mood": "epic"
+      },
+      {
+        "title": "Gangsta",
+        "artist": "Kehlani",
+        "mood": "epic"
+      },
+      {
+        "title": "Oblivion",
+        "artist": "Grimes",
+        "mood": "epic"
+      },
+      {
+        "title": "Sunflower",
+        "artist": "Post Malone",
+        "mood": "epic"
+      },
+      {
+        "title": "Bitter Sweet Symphony",
+        "artist": "The Verve",
+        "mood": "epic"
+      },
+      {
+        "title": "Paint the Town Red",
+        "artist": "Doja Cat",
+        "mood": "epic"
       }
     ],
     "sports": [
       {
         "title": "Eye of the Tiger",
-        "artist": "Survivor"
+        "artist": "Survivor",
+        "mood": "high-energy"
       },
       {
         "title": "We Will Rock You",
-        "artist": "Queen"
+        "artist": "Queen",
+        "mood": "high-energy"
       },
       {
         "title": "Thunderstruck",
-        "artist": "AC/DC"
+        "artist": "AC/DC",
+        "mood": "high-energy"
       },
       {
         "title": "Hall of Fame",
-        "artist": "The Script"
+        "artist": "The Script",
+        "mood": "high-energy"
       },
       {
         "title": "Lose Control",
-        "artist": "Missy Elliott"
+        "artist": "Missy Elliott",
+        "mood": "high-energy"
       },
       {
         "title": "Remember the Name",
-        "artist": "Fort Minor"
+        "artist": "Fort Minor",
+        "mood": "high-energy"
       },
       {
         "title": "Can't Be Touched",
-        "artist": "Roy Jones Jr."
+        "artist": "Roy Jones Jr.",
+        "mood": "high-energy"
       },
       {
         "title": "Power",
-        "artist": "Kanye West"
+        "artist": "Kanye West",
+        "mood": "high-energy"
       },
       {
         "title": "All I Do Is Win",
-        "artist": "DJ Khaled"
+        "artist": "DJ Khaled",
+        "mood": "high-energy"
       },
       {
         "title": "Stronger",
-        "artist": "Kanye West"
+        "artist": "Kanye West",
+        "mood": "high-energy"
       },
       {
         "title": "Lose Yourself",
-        "artist": "Eminem"
+        "artist": "Eminem",
+        "mood": "high-energy"
       },
       {
         "title": "Seven Nation Army",
-        "artist": "The White Stripes"
+        "artist": "The White Stripes",
+        "mood": "high-energy"
       },
       {
         "title": "The Champion",
-        "artist": "Carrie Underwood"
+        "artist": "Carrie Underwood",
+        "mood": "high-energy"
       },
       {
         "title": "Whatever It Takes",
-        "artist": "Imagine Dragons"
+        "artist": "Imagine Dragons",
+        "mood": "high-energy"
       },
       {
         "title": "Born for This",
-        "artist": "The Score"
+        "artist": "The Score",
+        "mood": "high-energy"
       },
       {
         "title": "Legend",
-        "artist": "The Score"
+        "artist": "The Score",
+        "mood": "high-energy"
       },
       {
         "title": "Unstoppable",
-        "artist": "The Score"
+        "artist": "The Score",
+        "mood": "high-energy"
       },
       {
         "title": "Hey Brother",
-        "artist": "Avicii"
+        "artist": "Avicii",
+        "mood": "high-energy"
       },
       {
         "title": "Jump Around",
-        "artist": "House of Pain"
+        "artist": "House of Pain",
+        "mood": "high-energy"
       },
       {
         "title": "Can't Hold Us",
-        "artist": "Macklemore & Ryan Lewis"
+        "artist": "Macklemore & Ryan Lewis",
+        "mood": "high-energy"
       },
       {
         "title": "Sicko Mode",
-        "artist": "Travis Scott"
+        "artist": "Travis Scott",
+        "mood": "high-energy"
       },
       {
         "title": "Started From the Bottom",
-        "artist": "Drake"
+        "artist": "Drake",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Till I Collapse",
+        "artist": "Eminem",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Centuries",
+        "artist": "Fall Out Boy",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Believer",
+        "artist": "Imagine Dragons",
+        "mood": "high-energy"
+      },
+      {
+        "title": "We Are the Champions",
+        "artist": "Queen",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Lose It",
+        "artist": "Kane Brown",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Kings & Queens",
+        "artist": "Ava Max",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Can't Stop",
+        "artist": "Red Hot Chili Peppers",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Remember Me",
+        "artist": "Lupe Fiasco",
+        "mood": "high-energy"
       }
     ],
     "romance": [
       {
         "title": "Perfect",
-        "artist": "Ed Sheeran"
+        "artist": "Ed Sheeran",
+        "mood": "love"
       },
       {
         "title": "Tum Hi Ho",
-        "artist": "Arijit Singh"
+        "artist": "Arijit Singh",
+        "mood": "love"
       },
       {
         "title": "Kesariya",
-        "artist": "Arijit Singh"
+        "artist": "Arijit Singh",
+        "mood": "love"
       },
       {
         "title": "Raataan Lambiyan",
-        "artist": "Jubin Nautiyal"
+        "artist": "Jubin Nautiyal",
+        "mood": "love"
       },
       {
         "title": "Pehle Bhi Main",
-        "artist": "Vishal Mishra"
+        "artist": "Vishal Mishra",
+        "mood": "love"
       },
       {
         "title": "Tujhe Kitna Chahne Lage",
-        "artist": "Arijit Singh"
+        "artist": "Arijit Singh",
+        "mood": "love"
       },
       {
         "title": "Apna Bana Le",
-        "artist": "Arijit Singh"
+        "artist": "Arijit Singh",
+        "mood": "love"
       },
       {
         "title": "Tere Vaaste",
-        "artist": "Varun Jain"
+        "artist": "Varun Jain",
+        "mood": "love"
       },
       {
         "title": "Shayad",
-        "artist": "Arijit Singh"
+        "artist": "Arijit Singh",
+        "mood": "love"
       },
       {
         "title": "Agar Tum Saath Ho",
-        "artist": "Alka Yagnik"
+        "artist": "Alka Yagnik",
+        "mood": "love"
       },
       {
         "title": "Satranga",
-        "artist": "Arijit Singh"
+        "artist": "Arijit Singh",
+        "mood": "love"
       },
       {
         "title": "Heeriye",
-        "artist": "Jasleen Royal"
+        "artist": "Jasleen Royal",
+        "mood": "love"
       },
       {
         "title": "Thinking Out Loud",
-        "artist": "Ed Sheeran"
+        "artist": "Ed Sheeran",
+        "mood": "love"
       },
       {
         "title": "All of Me",
-        "artist": "John Legend"
+        "artist": "John Legend",
+        "mood": "love"
       },
       {
         "title": "Until I Found You",
-        "artist": "Stephen Sanchez"
+        "artist": "Stephen Sanchez",
+        "mood": "love"
       },
       {
         "title": "Lover",
-        "artist": "Taylor Swift"
+        "artist": "Taylor Swift",
+        "mood": "love"
       },
       {
         "title": "Love Me Like You Do",
-        "artist": "Ellie Goulding"
+        "artist": "Ellie Goulding",
+        "mood": "love"
       },
       {
         "title": "Stay",
-        "artist": "Rihanna"
+        "artist": "Rihanna",
+        "mood": "love"
       },
       {
         "title": "Earned It",
-        "artist": "The Weeknd"
+        "artist": "The Weeknd",
+        "mood": "love"
       },
       {
         "title": "Photograph",
-        "artist": "Ed Sheeran"
+        "artist": "Ed Sheeran",
+        "mood": "love"
       },
       {
         "title": "Shape of You",
-        "artist": "Ed Sheeran"
+        "artist": "Ed Sheeran",
+        "mood": "love"
       },
       {
         "title": "Sajni",
-        "artist": "Arijit Singh"
+        "artist": "Arijit Singh",
+        "mood": "love"
+      },
+      {
+        "title": "Kahani Suno 2.0",
+        "artist": "Kaifi Khalil",
+        "mood": "love"
+      },
+      {
+        "title": "Ve Kamleya",
+        "artist": "Arijit Singh",
+        "mood": "love"
+      },
+      {
+        "title": "Chaleya",
+        "artist": "Arijit Singh",
+        "mood": "love"
+      },
+      {
+        "title": "Tum Se Hi",
+        "artist": "Mohit Chauhan",
+        "mood": "love"
+      },
+      {
+        "title": "Die With A Smile",
+        "artist": "Lady Gaga & Bruno Mars",
+        "mood": "love"
+      },
+      {
+        "title": "Just the Way You Are",
+        "artist": "Bruno Mars",
+        "mood": "love"
+      },
+      {
+        "title": "A Thousand Years",
+        "artist": "Christina Perri",
+        "mood": "love"
+      },
+      {
+        "title": "Someone You Loved",
+        "artist": "Lewis Capaldi",
+        "mood": "love"
       }
     ],
     "series": [
       {
         "title": "Bella Ciao",
-        "artist": "Manu Pilas"
+        "artist": "Manu Pilas",
+        "mood": "dark"
       },
       {
         "title": "Way Down We Go",
-        "artist": "KALEO"
+        "artist": "KALEO",
+        "mood": "dark"
       },
       {
         "title": "Running Up That Hill (A Deal with God)",
-        "artist": "Kate Bush"
+        "artist": "Kate Bush",
+        "mood": "dark"
       },
       {
         "title": "Paint It Black",
-        "artist": "The Rolling Stones"
+        "artist": "The Rolling Stones",
+        "mood": "dark"
       },
       {
         "title": "Red Right Hand",
-        "artist": "Nick Cave & The Bad Seeds"
+        "artist": "Nick Cave & The Bad Seeds",
+        "mood": "dark"
       },
       {
         "title": "Bad Guy",
-        "artist": "Billie Eilish"
+        "artist": "Billie Eilish",
+        "mood": "dark"
       },
       {
         "title": "Lovely",
-        "artist": "Billie Eilish"
+        "artist": "Billie Eilish",
+        "mood": "dark"
       },
       {
         "title": "Another Love",
-        "artist": "Tom Odell"
+        "artist": "Tom Odell",
+        "mood": "dark"
       },
       {
         "title": "Daylight",
-        "artist": "David Kushner"
+        "artist": "David Kushner",
+        "mood": "dark"
       },
       {
         "title": "Everybody Wants to Rule the World",
-        "artist": "Tears for Fears"
+        "artist": "Tears for Fears",
+        "mood": "dark"
       },
       {
         "title": "Smalltown Boy",
-        "artist": "Bronski Beat"
+        "artist": "Bronski Beat",
+        "mood": "dark"
       },
       {
         "title": "Master of Puppets",
-        "artist": "Metallica"
+        "artist": "Metallica",
+        "mood": "dark"
       },
       {
         "title": "Heathens",
-        "artist": "twenty one pilots"
+        "artist": "twenty one pilots",
+        "mood": "dark"
       },
       {
         "title": "Bloody Mary",
-        "artist": "Lady Gaga"
+        "artist": "Lady Gaga",
+        "mood": "dark"
       },
       {
         "title": "Goo Goo Muck",
-        "artist": "The Cramps"
+        "artist": "The Cramps",
+        "mood": "dark"
       },
       {
         "title": "I Ran (So Far Away)",
-        "artist": "A Flock of Seagulls"
+        "artist": "A Flock of Seagulls",
+        "mood": "dark"
       },
       {
         "title": "Mad World",
-        "artist": "Gary Jules"
+        "artist": "Gary Jules",
+        "mood": "dark"
       },
       {
         "title": "Hurt",
-        "artist": "Johnny Cash"
+        "artist": "Johnny Cash",
+        "mood": "dark"
       },
       {
         "title": "Sweater Weather",
-        "artist": "The Neighbourhood"
+        "artist": "The Neighbourhood",
+        "mood": "dark"
       },
       {
         "title": "Devil Eyes",
-        "artist": "Hippie Sabotage"
+        "artist": "Hippie Sabotage",
+        "mood": "dark"
       },
       {
         "title": "Seven Nation Army",
-        "artist": "The White Stripes"
+        "artist": "The White Stripes",
+        "mood": "dark"
       },
       {
         "title": "Rehab",
-        "artist": "Amy Winehouse"
+        "artist": "Amy Winehouse",
+        "mood": "dark"
+      },
+      {
+        "title": "Bella",
+        "artist": "Wolfgang Moser",
+        "mood": "dark"
+      },
+      {
+        "title": "Bury a Friend",
+        "artist": "Billie Eilish",
+        "mood": "dark"
+      },
+      {
+        "title": "Hold Me Closer",
+        "artist": "Elton John",
+        "mood": "dark"
+      },
+      {
+        "title": "Tainted Love",
+        "artist": "Soft Cell",
+        "mood": "dark"
+      },
+      {
+        "title": "Running With the Wolves",
+        "artist": "AURORA",
+        "mood": "dark"
+      },
+      {
+        "title": "The Night We Met",
+        "artist": "Lord Huron",
+        "mood": "dark"
+      },
+      {
+        "title": "Yellow",
+        "artist": "Coldplay",
+        "mood": "dark"
+      },
+      {
+        "title": "Sinnerman",
+        "artist": "Nina Simone",
+        "mood": "dark"
+      }
+    ],
+    "marvel": [
+      {
+        "title": "Back in Black",
+        "artist": "AC/DC",
+        "mood": "epic"
+      },
+      {
+        "title": "Immigrant Song",
+        "artist": "Led Zeppelin",
+        "mood": "epic"
+      },
+      {
+        "title": "Hooked on a Feeling",
+        "artist": "Blue Swede",
+        "mood": "epic"
+      },
+      {
+        "title": "Come and Get Your Love",
+        "artist": "Redbone",
+        "mood": "epic"
+      },
+      {
+        "title": "Mr. Blue Sky",
+        "artist": "Electric Light Orchestra",
+        "mood": "epic"
+      },
+      {
+        "title": "Sunflower",
+        "artist": "Post Malone & Swae Lee",
+        "mood": "epic"
+      },
+      {
+        "title": "Highway to Hell",
+        "artist": "AC/DC",
+        "mood": "epic"
+      },
+      {
+        "title": "Shoot to Thrill",
+        "artist": "AC/DC",
+        "mood": "epic"
+      },
+      {
+        "title": "Iron Man",
+        "artist": "Black Sabbath",
+        "mood": "epic"
+      },
+      {
+        "title": "Black Panther",
+        "artist": "Kendrick Lamar",
+        "mood": "epic"
+      },
+      {
+        "title": "Pray for Me",
+        "artist": "The Weeknd & Kendrick Lamar",
+        "mood": "epic"
+      },
+      {
+        "title": "Ain't No Mountain High Enough",
+        "artist": "Marvin Gaye & Tammi Terrell",
+        "mood": "epic"
+      },
+      {
+        "title": "Fox on the Run",
+        "artist": "Sweet",
+        "mood": "epic"
+      },
+      {
+        "title": "Should I Stay or Should I Go",
+        "artist": "The Clash",
+        "mood": "epic"
+      },
+      {
+        "title": "The Chain",
+        "artist": "Fleetwood Mac",
+        "mood": "epic"
+      },
+      {
+        "title": "Brandy (You're a Fine Girl)",
+        "artist": "Looking Glass",
+        "mood": "epic"
+      },
+      {
+        "title": "September",
+        "artist": "Earth, Wind & Fire",
+        "mood": "epic"
+      },
+      {
+        "title": "Welcome to the Jungle",
+        "artist": "Guns N' Roses",
+        "mood": "epic"
+      },
+      {
+        "title": "Dog Days Are Over",
+        "artist": "Florence + The Machine",
+        "mood": "epic"
+      },
+      {
+        "title": "Am I Dreaming",
+        "artist": "Metro Boomin",
+        "mood": "epic"
+      },
+      {
+        "title": "Annihilate",
+        "artist": "Metro Boomin",
+        "mood": "epic"
+      },
+      {
+        "title": "Calling",
+        "artist": "Metro Boomin",
+        "mood": "epic"
+      },
+      {
+        "title": "Heroes",
+        "artist": "David Bowie",
+        "mood": "epic"
+      },
+      {
+        "title": "Bye Bye Bye",
+        "artist": "NSYNC",
+        "mood": "epic"
+      },
+      {
+        "title": "Song 2",
+        "artist": "Blur",
+        "mood": "epic"
+      },
+      {
+        "title": "Kickstart My Heart",
+        "artist": "Mötley Crüe",
+        "mood": "epic"
+      },
+      {
+        "title": "Spirit in the Sky",
+        "artist": "Norman Greenbaum",
+        "mood": "epic"
+      },
+      {
+        "title": "Cherry Bomb",
+        "artist": "The Runaways",
+        "mood": "epic"
+      },
+      {
+        "title": "Born to Be Wild",
+        "artist": "Steppenwolf",
+        "mood": "epic"
+      },
+      {
+        "title": "Living on a Prayer",
+        "artist": "Bon Jovi",
+        "mood": "epic"
+      }
+    ],
+    "dc": [
+      {
+        "title": "Something in the Way",
+        "artist": "Nirvana",
+        "mood": "dark"
+      },
+      {
+        "title": "Bang Bang (My Baby Shot Me Down)",
+        "artist": "Nancy Sinatra",
+        "mood": "dark"
+      },
+      {
+        "title": "Sucker for Pain",
+        "artist": "Lil Wayne, Wiz Khalifa & Imagine Dragons",
+        "mood": "dark"
+      },
+      {
+        "title": "Purple Lamborghini",
+        "artist": "Skrillex & Rick Ross",
+        "mood": "dark"
+      },
+      {
+        "title": "Gangsta",
+        "artist": "Kehlani",
+        "mood": "dark"
+      },
+      {
+        "title": "Bohemian Like You",
+        "artist": "The Dandy Warhols",
+        "mood": "dark"
+      },
+      {
+        "title": "Do You Wanna Taste It",
+        "artist": "Wig Wam",
+        "mood": "dark"
+      },
+      {
+        "title": "Everything Black",
+        "artist": "Unlike Pluto",
+        "mood": "dark"
+      },
+      {
+        "title": "Stuck in the Middle with You",
+        "artist": "Stealers Wheel",
+        "mood": "dark"
+      },
+      {
+        "title": "Ballroom Blitz",
+        "artist": "Sweet",
+        "mood": "dark"
+      },
+      {
+        "title": "Sweet Child o' Mine",
+        "artist": "Guns N' Roses",
+        "mood": "dark"
+      },
+      {
+        "title": "Black Hole Sun",
+        "artist": "Soundgarden",
+        "mood": "dark"
+      },
+      {
+        "title": "Come As You Are",
+        "artist": "Nirvana",
+        "mood": "dark"
+      },
+      {
+        "title": "Enter Sandman",
+        "artist": "Metallica",
+        "mood": "dark"
+      },
+      {
+        "title": "Paranoid",
+        "artist": "Black Sabbath",
+        "mood": "dark"
+      },
+      {
+        "title": "The Kill",
+        "artist": "Thirty Seconds to Mars",
+        "mood": "dark"
+      },
+      {
+        "title": "Hurt",
+        "artist": "Nine Inch Nails",
+        "mood": "dark"
+      },
+      {
+        "title": "Can You Feel My Heart",
+        "artist": "Bring Me The Horizon",
+        "mood": "dark"
+      },
+      {
+        "title": "Lose Control",
+        "artist": "Teddy Swims",
+        "mood": "dark"
+      },
+      {
+        "title": "Run Boy Run",
+        "artist": "Woodkid",
+        "mood": "dark"
+      },
+      {
+        "title": "Arsonist's Lullabye",
+        "artist": "Hozier",
+        "mood": "dark"
+      },
+      {
+        "title": "Take Me to Church",
+        "artist": "Hozier",
+        "mood": "dark"
+      },
+      {
+        "title": "Bad Moon Rising",
+        "artist": "Creedence Clearwater Revival",
+        "mood": "dark"
+      },
+      {
+        "title": "Smack That",
+        "artist": "Akon",
+        "mood": "dark"
+      },
+      {
+        "title": "Rhinestone Eyes",
+        "artist": "Gorillaz",
+        "mood": "dark"
+      },
+      {
+        "title": "Shadow of the Day",
+        "artist": "Linkin Park",
+        "mood": "dark"
+      },
+      {
+        "title": "Bleed It Out",
+        "artist": "Linkin Park",
+        "mood": "dark"
+      },
+      {
+        "title": "Seven Devils",
+        "artist": "Florence + The Machine",
+        "mood": "dark"
+      },
+      {
+        "title": "Zombie",
+        "artist": "The Cranberries",
+        "mood": "dark"
+      },
+      {
+        "title": "Monster",
+        "artist": "Kanye West",
+        "mood": "dark"
+      }
+    ],
+    "anime": [
+      {
+        "title": "Unravel",
+        "artist": "TK from Ling tosite sigure",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Gurenge",
+        "artist": "LiSA",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Blue Bird",
+        "artist": "Ikimonogakari",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Again",
+        "artist": "YUI",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Silhouette",
+        "artist": "KANA-BOON",
+        "mood": "high-energy"
+      },
+      {
+        "title": "KICK BACK",
+        "artist": "Kenshi Yonezu",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Idol",
+        "artist": "YOASOBI",
+        "mood": "high-energy"
+      },
+      {
+        "title": "SPECIALZ",
+        "artist": "King Gnu",
+        "mood": "high-energy"
+      },
+      {
+        "title": "The Rumbling",
+        "artist": "SiM",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Guren no Yumiya",
+        "artist": "Linked Horizon",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Shinzou wo Sasageyo!",
+        "artist": "Linked Horizon",
+        "mood": "high-energy"
+      },
+      {
+        "title": "crossing field",
+        "artist": "LiSA",
+        "mood": "high-energy"
+      },
+      {
+        "title": "CHA-LA HEAD-CHA-LA",
+        "artist": "Hironobu Kageyama",
+        "mood": "high-energy"
+      },
+      {
+        "title": "We Are!",
+        "artist": "Hiroshi Kitadani",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Tank!",
+        "artist": "SEATBELTS",
+        "mood": "high-energy"
+      },
+      {
+        "title": "A Cruel Angel's Thesis",
+        "artist": "Yoko Takahashi",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Kaikai Kitan",
+        "artist": "Eve",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Mixed Nuts",
+        "artist": "Official HIGE DANdism",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Racing into the Night",
+        "artist": "YOASOBI",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Peace Sign",
+        "artist": "Kenshi Yonezu",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Odd Future",
+        "artist": "UVERworld",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Go!!!",
+        "artist": "FLOW",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Sign",
+        "artist": "FLOW",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Tokyo Flash",
+        "artist": "Vaundy",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Bling-Bang-Bang-Born",
+        "artist": "Creepy Nuts",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Ao no Sumika",
+        "artist": "Tatsuya Kitani",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Zankyosanka",
+        "artist": "Aimer",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Inferno",
+        "artist": "Mrs. GREEN APPLE",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Kawaki wo Ameku",
+        "artist": "Minami",
+        "mood": "high-energy"
+      },
+      {
+        "title": "Lost in Paradise",
+        "artist": "ALI",
+        "mood": "high-energy"
+      }
+    ],
+    "celebrity": [
+      {
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "mood": "glam"
+      },
+      {
+        "title": "Bad Romance",
+        "artist": "Lady Gaga",
+        "mood": "glam"
+      },
+      {
+        "title": "Formation",
+        "artist": "Beyoncé",
+        "mood": "glam"
+      },
+      {
+        "title": "Diamonds",
+        "artist": "Rihanna",
+        "mood": "glam"
+      },
+      {
+        "title": "Vogue",
+        "artist": "Madonna",
+        "mood": "glam"
+      },
+      {
+        "title": "Flowers",
+        "artist": "Miley Cyrus",
+        "mood": "glam"
+      },
+      {
+        "title": "Espresso",
+        "artist": "Sabrina Carpenter",
+        "mood": "glam"
+      },
+      {
+        "title": "Anti-Hero",
+        "artist": "Taylor Swift",
+        "mood": "glam"
+      },
+      {
+        "title": "Blank Space",
+        "artist": "Taylor Swift",
+        "mood": "glam"
+      },
+      {
+        "title": "Shake It Off",
+        "artist": "Taylor Swift",
+        "mood": "glam"
+      },
+      {
+        "title": "Toxic",
+        "artist": "Britney Spears",
+        "mood": "glam"
+      },
+      {
+        "title": "Crazy in Love",
+        "artist": "Beyoncé",
+        "mood": "glam"
+      },
+      {
+        "title": "Umbrella",
+        "artist": "Rihanna",
+        "mood": "glam"
+      },
+      {
+        "title": "Single Ladies (Put a Ring on It)",
+        "artist": "Beyoncé",
+        "mood": "glam"
+      },
+      {
+        "title": "Dangerous Woman",
+        "artist": "Ariana Grande",
+        "mood": "glam"
+      },
+      {
+        "title": "7 rings",
+        "artist": "Ariana Grande",
+        "mood": "glam"
+      },
+      {
+        "title": "Houdini",
+        "artist": "Dua Lipa",
+        "mood": "glam"
+      },
+      {
+        "title": "Don't Start Now",
+        "artist": "Dua Lipa",
+        "mood": "glam"
+      },
+      {
+        "title": "Watermelon Sugar",
+        "artist": "Harry Styles",
+        "mood": "glam"
+      },
+      {
+        "title": "As It Was",
+        "artist": "Harry Styles",
+        "mood": "glam"
+      },
+      {
+        "title": "Good 4 U",
+        "artist": "Olivia Rodrigo",
+        "mood": "glam"
+      },
+      {
+        "title": "Savage Love",
+        "artist": "Jason Derulo",
+        "mood": "glam"
+      },
+      {
+        "title": "Material Girl",
+        "artist": "Madonna",
+        "mood": "glam"
+      },
+      {
+        "title": "Rich Girl",
+        "artist": "Gwen Stefani",
+        "mood": "glam"
+      },
+      {
+        "title": "Glamorous",
+        "artist": "Fergie",
+        "mood": "glam"
+      },
+      {
+        "title": "Run the World (Girls)",
+        "artist": "Beyoncé",
+        "mood": "glam"
+      },
+      {
+        "title": "Rain on Me",
+        "artist": "Lady Gaga & Ariana Grande",
+        "mood": "glam"
+      },
+      {
+        "title": "Padam Padam",
+        "artist": "Kylie Minogue",
+        "mood": "glam"
+      },
+      {
+        "title": "Greedy",
+        "artist": "Tate McRae",
+        "mood": "glam"
+      },
+      {
+        "title": "Super Freaky Girl",
+        "artist": "Nicki Minaj",
+        "mood": "glam"
+      }
+    ],
+    "comedy": [
+      {
+        "title": "Uptown Funk",
+        "artist": "Mark Ronson ft. Bruno Mars",
+        "mood": "fun"
+      },
+      {
+        "title": "Happy",
+        "artist": "Pharrell Williams",
+        "mood": "fun"
+      },
+      {
+        "title": "Can't Stop the Feeling!",
+        "artist": "Justin Timberlake",
+        "mood": "fun"
+      },
+      {
+        "title": "Shut Up and Dance",
+        "artist": "WALK THE MOON",
+        "mood": "fun"
+      },
+      {
+        "title": "I Gotta Feeling",
+        "artist": "The Black Eyed Peas",
+        "mood": "fun"
+      },
+      {
+        "title": "Party Rock Anthem",
+        "artist": "LMFAO",
+        "mood": "fun"
+      },
+      {
+        "title": "Sexy and I Know It",
+        "artist": "LMFAO",
+        "mood": "fun"
+      },
+      {
+        "title": "Gangnam Style",
+        "artist": "PSY",
+        "mood": "fun"
+      },
+      {
+        "title": "Macarena",
+        "artist": "Los Del Rio",
+        "mood": "fun"
+      },
+      {
+        "title": "Hey Mickey",
+        "artist": "Toni Basil",
+        "mood": "fun"
+      },
+      {
+        "title": "Yakety Sax",
+        "artist": "Boots Randolph",
+        "mood": "fun"
+      },
+      {
+        "title": "Ice Ice Baby",
+        "artist": "Vanilla Ice",
+        "mood": "fun"
+      },
+      {
+        "title": "Barbie Girl",
+        "artist": "Aqua",
+        "mood": "fun"
+      },
+      {
+        "title": "Blue (Da Ba Dee)",
+        "artist": "Eiffel 65",
+        "mood": "fun"
+      },
+      {
+        "title": "Mambo No. 5",
+        "artist": "Lou Bega",
+        "mood": "fun"
+      },
+      {
+        "title": "Funkytown",
+        "artist": "Lipps Inc.",
+        "mood": "fun"
+      },
+      {
+        "title": "Celebration",
+        "artist": "Kool & The Gang",
+        "mood": "fun"
+      },
+      {
+        "title": "Walking on Sunshine",
+        "artist": "Katrina and the Waves",
+        "mood": "fun"
+      },
+      {
+        "title": "Dancing Queen",
+        "artist": "ABBA",
+        "mood": "fun"
+      },
+      {
+        "title": "Turn Down for What",
+        "artist": "DJ Snake & Lil Jon",
+        "mood": "fun"
+      },
+      {
+        "title": "Get Low",
+        "artist": "Lil Jon",
+        "mood": "fun"
+      },
+      {
+        "title": "Low",
+        "artist": "Flo Rida",
+        "mood": "fun"
+      },
+      {
+        "title": "Gonna Make You Sweat (Everybody Dance Now)",
+        "artist": "C+C Music Factory",
+        "mood": "fun"
+      },
+      {
+        "title": "Boom Boom Pow",
+        "artist": "The Black Eyed Peas",
+        "mood": "fun"
+      },
+      {
+        "title": "What Does the Fox Say?",
+        "artist": "Ylvis",
+        "mood": "fun"
+      },
+      {
+        "title": "Friday",
+        "artist": "Rebecca Black",
+        "mood": "fun"
+      },
+      {
+        "title": "Baby Shark",
+        "artist": "Pinkfong",
+        "mood": "fun"
+      },
+      {
+        "title": "Never Gonna Give You Up",
+        "artist": "Rick Astley",
+        "mood": "fun"
+      },
+      {
+        "title": "Kung Fu Fighting",
+        "artist": "Carl Douglas",
+        "mood": "fun"
+      },
+      {
+        "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+        "artist": "ABBA",
+        "mood": "fun"
       }
     ]
   },
-  "_comment": "songs = tagged genre stock seed (box fetches audio into draft release 'songs'). seeds = curated per-genre refill candidates; song_stock.py refills a genre to stock.target when it drops to stock.refill_at, Gemini-validating fit."
+  "_comment": "songs = tagged genre stock seed (box fetches audio into draft release 'songs'). seeds = curated per-genre refill candidates; song_stock.py refills a genre to stock.target when it drops to stock.refill_at, Gemini-validating fit. Every genre keeps ~30 famous ORIGINAL songs (official artist/Topic/VEVO/label uploads only); manifest rows carry genre, mood and bpm (librosa on the box).",
+  "genre_mood": {
+    "gta": "swagger",
+    "gaming": "high-energy",
+    "movie": "epic",
+    "sports": "high-energy",
+    "romance": "love",
+    "series": "dark",
+    "marvel": "epic",
+    "dc": "dark",
+    "anime": "high-energy",
+    "celebrity": "glam",
+    "comedy": "fun"
+  }
 }

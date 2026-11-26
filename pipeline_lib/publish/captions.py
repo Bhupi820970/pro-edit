@@ -76,6 +76,14 @@ TEMPLATES = {
     ],
 }
 
+TEMPLATES.update({
+    "marvel": ["Heroes do not ask twice", "The moment the team assembled", "This is where it turned"],
+    "dc": ["Gotham never sleeps", "The dark side of the hero", "One look. Whole legend."],
+    "anime": ["The scene every fan replays", "Power level: unreal", "This opening still hits"],
+    "celebrity": ["The moment the room stood up", "Red carpet, no rehearsal", "Nobody expected this"],
+    "comedy": ["Try not to laugh at this one", "The line that broke everyone", "They could not keep a straight face"],
+})
+
 DEFAULT_TAGS = {
     "gta": ["GTA6", "GTAVI", "ViceCity", "GrandTheftAuto", "RockstarGames", "GTA"],
     "gaming": ["gaming", "gameplay", "edit"],
@@ -83,6 +91,11 @@ DEFAULT_TAGS = {
     "series": ["seriesedit", "tvedit"],
     "sports": ["sportsedit", "highlights"],
     "romance": ["romanceedit", "loveedit"],
+    "marvel": ["marvel", "mcu", "marveledit"],
+    "dc": ["dc", "dcedit", "batman"],
+    "anime": ["anime", "animeedit", "crunchyroll"],
+    "celebrity": ["celebrity", "redcarpet", "awards"],
+    "comedy": ["comedy", "funny", "latenight"],
 }
 
 AI_RE = re.compile(

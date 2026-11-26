@@ -16,7 +16,7 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-from .songs import (GENRES, _norm, clean_genres, download_official, genre_index, genres_of,
+from .songs import (GENRES, compute_bpm, _norm, clean_genres, download_official, genre_index, genres_of,
                     load_songs_cfg, safe_search_term, tag_key)
 from .util import log, now_local
 
@@ -36,6 +36,11 @@ HINTS = {
     "sports": "pump-up sports anthems: hip-hop, rock, stadium hype",
     "romance": "love songs: Hindi/Bollywood romantic and English romantic pop/R&B",
     "series": "TV-series edit: dark, moody, dramatic, cinematic",
+    "marvel": "superhero hype: epic rock, hip-hop and stadium anthems",
+    "dc": "dark heroes: heavy rock, dark synth, brooding hip-hop",
+    "anime": "famous anime openings (official label audio) and upbeat J-rock / J-pop",
+    "celebrity": "red-carpet glam: confident pop and R&B hits",
+    "comedy": "fun bouncy beats: funk, upbeat pop, playful hits",
 }
 
 
@@ -83,6 +88,40 @@ def tag_manifest(man: dict, idx: dict) -> int:
             if g:
                 r["genres"] = g
                 n += 1
+    return n
+
+
+def annotate(man: dict, idx: dict, cfg: dict, sdir: Path, bpm_limit: int = 20) -> int:
+    """Fill genre/mood on every manifest row and compute missing bpm (librosa, box only) for up to
+    `bpm_limit` songs per run by pulling their audio from the release. Returns rows changed."""
+    moods = cfg.get("genre_mood") or {}
+    n, tried = 0, 0
+    for r in man.get("songs") or []:
+        if not isinstance(r, dict):
+            continue
+        g = clean_genres(r.get("genres")) or genres_of(r, idx)
+        if g and not r.get("genre"):
+            r["genre"] = g[0]
+            n += 1
+        if r.get("genre") and not r.get("mood") and moods.get(r["genre"]):
+            r["mood"] = moods[r["genre"]]
+            n += 1
+        f = r.get("file") or ""
+        if r.get("bpm") or r.get("bpm_failed") or tried >= bpm_limit or not f or "/" in f or f.startswith("."):
+            continue
+        tried += 1
+        try:
+            gh("release", "download", TAG, "--repo", repo_slug(), "--pattern", f, "--dir", str(sdir), "--clobber")
+        except Exception:
+            continue
+        path = sdir / f
+        bpm = compute_bpm(path) if path.is_file() else None
+        path.unlink(missing_ok=True)
+        if bpm:
+            r["bpm"] = bpm
+        else:
+            r["bpm_failed"] = True
+        n += 1
     return n
 
 
@@ -138,6 +177,8 @@ def refill(dry_run: bool = False, extra: list | None = None, gem=None, workdir: 
     sdir.mkdir(parents=True, exist_ok=True)
     man = remote_manifest(sdir)
     retagged = tag_manifest(man, idx)
+    if not dry_run:
+        retagged += annotate(man, idx, cfg, sdir)
     need = plan_refill(man, idx, cfg, to_target=to_target)
     log("song stock per genre:", counts(man, idx), "refill:", need or "none")
     max_run = int((cfg.get("stock") or {}).get("max_per_run", 12))
@@ -171,6 +212,11 @@ def refill(dry_run: bool = False, extra: list | None = None, gem=None, workdir: 
                 log("skip (no official upload / duplicate):", f"{c['title']} - {c['artist']}")
                 continue
             rec.pop("seed", None)
+            rec["genre"] = genre
+            rec["mood"] = c.get("mood") or (cfg.get("genre_mood") or {}).get(genre)
+            bpm = compute_bpm(sdir / rec["file"])
+            if bpm:
+                rec["bpm"] = bpm
             man["songs"].append(rec)
             have_ids.add(rec["id"])
             have_keys.add(tag_key(c["title"], c["artist"]))

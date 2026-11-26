@@ -40,6 +40,7 @@ import json
 import os
 import re
 import socket
+import subprocess
 import sys
 import time
 import traceback
@@ -181,7 +182,66 @@ def local_media(directory: Path, sid: str, exts: set[str], min_size: int = 1000)
 
 
 MEDIA_EXT = (".mkv", ".mp4", ".webm", ".part", ".ytdl")
-SIBLING_CATS = {"movie", "series", "romance", "gaming", "sports"}
+SIBLING_CATS = {"movie", "series", "romance", "gaming", "sports", "marvel", "dc", "anime", "celebrity", "comedy"}
+
+
+# prefer 720p..1440p; anything that still lands below 720p is rejected after download
+YTDLP_FORMAT = "bv*[height>=720][height<=1440]+ba/b[height>=720][height<=1440]/bv*+ba/b"
+MIN_HEIGHT = int(os.environ.get("BOX_FETCH_MIN_HEIGHT", "720") or 720)
+POOL_TOTAL = {"target": 100, "refill_below": 40, "release_asset_limit": 1000, "asset_cleanup_at": 800,
+              **(CFG.get("pool_total") or {})}
+
+
+def video_size(path: Path) -> tuple[int, int] | None:
+    """(width, height) of the first video stream via ffprobe (arg list, no shell)."""
+    try:
+        r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                            "stream=width,height", "-of", "csv=p=0:s=x", str(path)],
+                           capture_output=True, text=True, timeout=60)
+        w, h = (r.stdout or "").strip().splitlines()[0].split("x")[:2]
+        return int(w), int(h)
+    except Exception:
+        return None
+
+
+def meets_min_res(size: tuple[int, int] | None, min_h: int = MIN_HEIGHT) -> bool:
+    """720p rule: the short side must be >= 720 (works for landscape and vertical uploads)."""
+    return bool(size) and min(size) >= min_h
+
+
+def pool_refill_plan(counts: dict, targets: dict, refilling: bool, total_cfg: dict = POOL_TOTAL) -> tuple[dict, bool]:
+    """Which genres to top up this cycle and the new refill flag.
+    total < refill_below -> start a refill to ~target spread over genres (per-genre targets);
+    total >= target -> stop; any genre with fewer than 2 usable clips (one title group) is always filled."""
+    total = sum(counts.values())
+    if total < int(total_cfg.get("refill_below", 40)):
+        refilling = True
+    elif total >= int(total_cfg.get("target", 100)):
+        refilling = False
+    need = {}
+    for cat, tgt in targets.items():
+        have = counts.get(cat, 0)
+        if refilling and have < tgt:
+            need[cat] = tgt - have
+        elif have < 2:
+            need[cat] = max(0, min(tgt, 3) - have)
+    return {k: v for k, v in need.items() if v > 0}, refilling
+
+
+def assets_to_clean(man: dict, assets: set[str], dead: set[str], limit_at: int, keep_below: int) -> list[tuple[str, str]]:
+    """(clip id, asset name) pairs of used/rejected clips to delete from the release, oldest first, so the
+    release stays under GitHub's ~1000-asset limit. Never touches clips that are still usable."""
+    if len(assets) <= limit_at:
+        return []
+    rows = sorted((m for m in (man.get("clips") or []) if isinstance(m, dict) and m.get("id") in dead
+                   and m.get("file") in assets), key=lambda m: m.get("added") or "")
+    out, n = [], len(assets)
+    for m in rows:
+        if n <= keep_below:
+            break
+        out.append((m["id"], m["file"]))
+        n -= 1
+    return out
 
 
 def free_gb(path: Path) -> float:
@@ -362,7 +422,7 @@ class Box:
         if existing:
             return existing
         out = self.dir / f"{sid}.%(ext)s"
-        ok, _ = S.ytdlp([*self.extra, "-f", "bv*[height<=1440]+ba/b[height<=1440]/bv*+ba/b", "-S", "res:1440,fps",
+        ok, _ = S.ytdlp([*self.extra, "-f", YTDLP_FORMAT, "-S", "res:1440,fps",
                          "--merge-output-format", "mkv", "--max-filesize", "1900M", "-o", str(out), url])
         f = local_media(self.dir, sid, VIDEO_EXT, min_size=100_000)
         if not ok or not f:
@@ -416,6 +476,26 @@ class Box:
                 f.unlink(missing_ok=True)
         log(f"sync: uploaded {len(got)} missing source clip(s)")
         return len(got)
+
+    def clean_release_assets(self, man: dict, assets: set[str], dead: set[str]) -> int:
+        """Keep `sources` under the ~1000-asset release limit: past asset_cleanup_at (800), delete the
+        oldest USED / REJECTED clip assets (never usable ones) and drop them from the manifest."""
+        limit_at = int(POOL_TOTAL.get("asset_cleanup_at", 800))
+        pairs = assets_to_clean(man, assets, dead, limit_at, limit_at - 100)
+        if not pairs or self.a.dry_run:
+            return 0
+        gone = set()
+        for sid, name in pairs:
+            r = gh("release", "delete-asset", TAG, name, "--repo", self.repo, "-y", check=False, timeout=120)
+            if r.returncode == 0:
+                gone.add(sid)
+        if gone:
+            man2 = self.manifest()
+            man2["clips"] = [m for m in man2.get("clips") or [] if not (isinstance(m, dict) and m.get("id") in gone)]
+            (self.dir / "manifest.json").write_text(json.dumps(man2, indent=1))
+            self.upload([self.dir / "manifest.json"])
+            log(f"release cleanup: deleted {len(gone)} used/rejected clip asset(s) ({len(assets)} assets > {limit_at})")
+        return len(gone)
 
     def _pool_count(self, man: dict, assets: set[str] | None) -> dict:
         """Usable clips per category (same rules as the top-up)."""
@@ -498,7 +578,7 @@ class Box:
                 log("gemini discovery skipped:", str(ex)[:120])
         got, recs = [], []
         skip_ids = set(getattr(self, "rejected", set())) | set(getattr(self, "box_rejects", {}))
-        n_sib = max(0, int(os.environ.get("BOX_FETCH_SIBLINGS", "3") or 3))
+        n_sib = max(0, int(os.environ.get("BOX_FETCH_SIBLINGS", "2") or 2))  # 2-3 clips per title
         min_free = float(os.environ.get("BOX_FETCH_MIN_FREE_GB", "10") or 10)
 
         def flush():
@@ -525,7 +605,7 @@ class Box:
                     return False
             have.add(e["id"])
             out = self.dir / f"{e['id']}.%(ext)s"
-            ok, _ = S.ytdlp([*self.extra, "-f", "bv*[height<=1440]+ba/b[height<=1440]/bv*+ba/b", "-S", "res:1440,fps",
+            ok, _ = S.ytdlp([*self.extra, "-f", YTDLP_FORMAT, "-S", "res:1440,fps",
                              "--merge-output-format", "mkv", "--max-filesize", "1900M", "-o", str(out), e["url"]])
             f = next((p for p in self.dir.glob(f"{e['id']}.*") if p.suffix in (".mkv", ".mp4", ".webm")), None)
             if not ok or not f:
@@ -550,10 +630,26 @@ class Box:
                     self.overlay_rejected = getattr(self, "overlay_rejected", 0) + 1
                     log(f"REJECT at download [{e['id']}] {(e.get('title') or '')[:60]} — {why} (deleted; next candidate)")
                     return False
+            size = video_size(f)
+            if not meets_min_res(size):
+                f.unlink(missing_ok=True)
+                why = f"below {MIN_HEIGHT}p ({'x'.join(map(str, size)) if size else 'unknown size'})"
+                self.box_rejects[e["id"]] = {"reason": why, "title": (e.get("title") or "")[:120],
+                                             "category": category, "at": now_local().isoformat()}
+                try:
+                    self.box_rejects_path.write_text(json.dumps(self.box_rejects, indent=1))
+                except OSError:
+                    pass
+                log(f"REJECT at download [{e['id']}] {(e.get('title') or '')[:60]} — {why}")
+                return False
             rec = {"id": e["id"], "file": f.name, "url": e["url"], "title": e.get("title", ""),
                    "channel": e.get("channel", ""), "credit": e.get("credit") or e.get("channel", ""),
-                   "category": category, "via": e.get("via"), "added": now_local().isoformat(), "by": "box",
-                   "_new": True}
+                   "category": category, "genre": category, "resolution": f"{size[0]}x{size[1]}",
+                   # has_dialogue / vetted are filled by the Actions vet (Gemini); the box only runs
+                   # the plain overlay + resolution checks, no AI
+                   "has_dialogue": None, "vetted": False,
+                   "box_checks": {"overlay": "clean", "min_res": MIN_HEIGHT},
+                   "via": e.get("via"), "added": now_local().isoformat(), "by": "box", "_new": True}
             if work:
                 rec["work"] = work
             got.append(f)
@@ -750,15 +846,30 @@ class Box:
             fetched += self.sync_missing_clips()
         except Exception as ex:
             errors.append(f"sync: {str(ex)[:150]}")
-        # pool top-up: keep >=15 distinct source ids per category using seed searches (no Gemini)
-        # Count only clips that actually exist as release assets so a stale local manifest
-        # cannot hide an empty GitHub pool.
+        # pool top-up (no Gemini): ~100 clean unused clips spread over the genres. Refill starts when the
+        # total drops below pool_total.refill_below (40) and runs until ~target (100); an empty genre is
+        # always filled. Count only clips that exist as release assets, are not used (ledger/used_clips.json)
+        # and not rejected, so a stale local manifest cannot hide an empty GitHub pool.
         man = self.manifest()
         assets = self.release_assets(TAG) or set()
         rejected = self.load_rejected()
+        try:
+            self.clean_release_assets(man, assets, rejected | set(getattr(self, "box_rejects", {})))
+            man = self.manifest()
+            assets = self.release_assets(TAG) or set()
+        except Exception as ex:
+            errors.append(f"asset cleanup: {str(ex)[:150]}")
+        state_p = self.dir / "pool_state.json"
+        try:
+            refilling = bool(json.loads(state_p.read_text()).get("refilling"))
+        except Exception:
+            refilling = True       # first cycle on this code: build the stock up to ~target once
+        counts = {cat: len(usable_pool(man, assets, rejected, cat)) for cat in POOL_TARGET}
+        plan, refilling = pool_refill_plan(counts, POOL_TARGET, refilling)
+        log(f"pool: {sum(counts.values())} usable clips {counts}; refilling={refilling}; plan={plan or 'none'}")
         cap = max(1, int(os.environ.get("BOX_FETCH_MAX_PER_CAT", "35") or 35))
-        for cat, tgt in POOL_TARGET.items():
-            # usable = in the release, not rejected by Gemini, and passes the runner's title rules
+        for cat in sorted(plan, key=lambda k: counts.get(k, 0)):
+            tgt = counts.get(cat, 0) + plan[cat]
             have = usable_pool(man, assets, rejected, cat)
             fetched_cat = 0
             while len(have) < tgt and fetched_cat < cap and not self.disk_low:
@@ -777,6 +888,14 @@ class Box:
                 man = self.manifest()
                 assets = self.release_assets(TAG) or set()
                 have |= usable_pool(man, assets, rejected, cat)
+        counts = {cat: len(usable_pool(man, assets, rejected, cat)) for cat in POOL_TARGET}
+        if sum(counts.values()) >= int(POOL_TOTAL.get("target", 100)):
+            refilling = False
+        try:
+            state_p.write_text(json.dumps({"refilling": refilling, "counts": counts,
+                                           "at": now_local().isoformat()}, indent=1))
+        except OSError:
+            pass
         try:
             fetched += self.fetch_songs()
             # per-genre stock: refill any genre at/below stock.refill_at from curated seeds (box cookies)

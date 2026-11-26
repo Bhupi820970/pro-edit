@@ -114,9 +114,11 @@ class SeedAndPoolTests(unittest.TestCase):
                 self.assertIn("QdBZY2fkU-0", keys)
 
     def test_pool_target_40_and_queries_safe(self):
-        self.assertTrue(all(v >= 15 for v in POOL_TARGET.values()))
+        # ~100 clean clips spread over the genres (round 5): every genre >= 9, total >= 100
+        self.assertTrue(all(v >= 9 for v in POOL_TARGET.values()))
+        self.assertGreaterEqual(sum(POOL_TARGET.values()), 100)
         cfg = json.loads((HERE / "config" / "pipeline.json").read_text())
-        self.assertEqual(cfg["pool_target"]["gta"], 40)
+        self.assertEqual(cfg["pool_total"]["refill_below"], 40)
         # GTA title filter includes V / Online, not only VI trailers
         tre = cfg["categories"]["gta"]["channels"][0]["title_re"]
         self.assertIn("GTA Online", tre)

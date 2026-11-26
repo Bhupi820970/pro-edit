@@ -76,7 +76,7 @@ def catalogue(cfg: dict | None = None) -> list[dict]:
     return songs
 
 
-GENRES = ("gta", "gaming", "movie", "sports", "romance", "series")
+GENRES = ("gta", "gaming", "movie", "sports", "romance", "series", "marvel", "dc", "anime", "celebrity", "comedy")
 
 
 def clean_genres(g) -> list[str]:
@@ -199,6 +199,18 @@ def load_box_songs(sdir: Path) -> list[dict]:
     return out
 
 
+def compute_bpm(path: Path) -> float | None:
+    """Tempo of an audio file with librosa (box only, no AI). None if librosa is missing or it fails."""
+    try:
+        import librosa
+        y, sr = librosa.load(str(path), sr=22050, mono=True, duration=90)
+        tempo, _ = librosa.beat.beat_track(y=y, sr=sr)
+        t = float(tempo[0] if hasattr(tempo, "__len__") else tempo)
+        return round(t, 1) if 40 <= t <= 220 else None
+    except Exception:
+        return None
+
+
 def song_audio_path(sdir: Path, rec: dict) -> Path | None:
     names = []
     if rec.get("file"):
@@ -290,6 +302,39 @@ def download_official(o: dict, sdir: Path, genres: list[str], by: str, extra: li
     return fetch_original(o, sdir, genres, by, extra=extra)
 
 
+_CLIP_MOOD_HINTS = {
+    "love": ("romantic", "love", "tender", "soft", "kiss", "heart"),
+    "fun": ("funny", "comedy", "playful", "light", "silly", "laugh"),
+    "dark": ("dark", "tense", "menacing", "brooding", "noir", "sinister"),
+    "epic": ("epic", "heroic", "battle", "action", "triumphant", "intense"),
+    "high-energy": ("hype", "action", "fast", "energetic", "intense", "chase"),
+    "glam": ("glamorous", "red carpet", "elegant", "celebration"),
+    "swagger": ("cool", "swagger", "crime", "heist", "street"),
+}
+_BPM_RANGE = {"high-energy": (110, 180), "epic": (90, 180), "swagger": (85, 130), "fun": (100, 135),
+              "love": (60, 108), "dark": (60, 130), "glam": (95, 130)}
+
+
+def song_fit_score(rec: dict, category: str, cfg: dict, clip_moods: str = "") -> float:
+    """How well a stock song fits this edit: the genre's moods (action -> high-energy, romance -> love,
+    comedy -> fun), the clips' own mood words from the vet, and the song's bpm (computed on the box)."""
+    want = list(((cfg.get("categories") or {}).get(category) or {}).get("mood") or [])
+    low = (clip_moods or "").lower()
+    for mood, words in _CLIP_MOOD_HINTS.items():
+        if any(w in low for w in words) and mood not in want:
+            want.append(mood)
+    mood = (rec.get("mood") or "").lower()
+    score = 3.0 if mood and mood in want[:2] else (1.5 if mood in want else 0.0)
+    try:
+        bpm = float(rec.get("bpm") or 0)
+    except (TypeError, ValueError):
+        bpm = 0
+    if bpm and want:
+        lo, hi = _BPM_RANGE.get(want[0], (0, 999))
+        score += 1.0 if lo <= bpm <= hi or lo <= bpm * 2 <= hi or lo <= bpm / 2 <= hi else -1.0
+    return score
+
+
 def pick_song(gem, state, category: str, clips: list[dict], cfg: dict, banned: set, rng=None) -> dict:
     """ONE song per video, from the songs tagged with this video's genre, rotated by song_cooldown_days.
     Gemini may rank the genre stock or ask for a specific song not in stock; that song is then fetched from
@@ -313,13 +358,17 @@ def pick_song(gem, state, category: str, clips: list[dict], cfg: dict, banned: s
 
     fresh = [r for r in pool if usable(r)]
     rng.shuffle(fresh)
+    # best mood / genre / bpm fit first (shuffle above keeps ties varied)
+    fresh.sort(key=lambda r: -song_fit_score(r, category, cfg, moods))
     opts = []
     if gem is not None:
         try:
             opts = gem.generate([{"text": SONG_PROMPT_GENRE.format(
                 category=category, footage=footage, moods=moods or "n/a",
                 hint=cfg["categories"][category].get("song_hint", ""),
-                stock="; ".join(f'{r["title"]} - {r["artist"]}' for r in fresh[:40]) or "none",
+                stock="; ".join(f'{r["title"]} - {r["artist"]}'
+                                + (f' [{r.get("mood") or "?"}, {r.get("bpm") or "?"} bpm]' if r.get("mood") or r.get("bpm") else "")
+                                for r in fresh[:40]) or "none",
                 recent=", ".join(recent[-60:]) or "none")}], schema=SONG_SCHEMA, temperature=0.7)
         except Exception as ex:
             log("gemini song pick failed, rotating the genre stock:", str(ex)[:160])
