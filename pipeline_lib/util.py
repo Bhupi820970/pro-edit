@@ -17,10 +17,10 @@ _home_fallback_noted = False
 def home() -> Path:
     """Pipeline data dir. Falls back to /tmp/vice-ph if the configured path is not writable.
 
-    GitHub-hosted runners cannot create /workspace (the box default), which used to
+    GitHub-hosted runners could not create the old fixed box default path, which used to
     raise PermissionError while constructing the Gemini client on upload.yml.
     """
-    h = Path(os.environ.get("VICE_PIPELINE_HOME", "/workspace/gta6/pipeline"))
+    h = Path(os.environ.get("VICE_PIPELINE_HOME") or (Path(os.environ.get("VICE_BOX_ROOT") or Path(__file__).resolve().parents[2]) / "pipeline"))
     try:
         h.mkdir(parents=True, exist_ok=True)
         return h

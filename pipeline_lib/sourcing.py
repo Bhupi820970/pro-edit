@@ -251,7 +251,7 @@ JS_RUNTIME_RX = re.compile(r"^(deno|node|bun|quickjs)(:/[\w./-]{1,200})?$")
 
 
 def ytdlp_js_args() -> list[str]:
-    """Box only: VICE_YTDLP_JS_RUNTIME (e.g. deno:/home/box/.deno/bin/deno) for YouTube's JS challenge.
+    """Box only: VICE_YTDLP_JS_RUNTIME (e.g. deno:/home/USER/.deno/bin/deno) for YouTube's JS challenge.
 
     Ignored on GitHub Actions and when the value is not a plain runtime name / absolute path.
     """

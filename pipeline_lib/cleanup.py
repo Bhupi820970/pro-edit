@@ -80,7 +80,7 @@ class CleanupConfig:
     home: Path
     allow: tuple[Path, ...]
     protected: tuple[Path, ...]
-    box_root: Path = Path("/workspace/gta6")
+    box_root: Path = Path(os.environ.get("VICE_BOX_ROOT") or str(Path(__file__).resolve().parents[2]))
     final_keep: dt.timedelta = dt.timedelta(hours=24)
     temp_max_age: dt.timedelta = dt.timedelta(days=3)
 
@@ -93,7 +93,7 @@ class CleanupConfig:
     @classmethod
     def from_env(cls, pipeline_home: Path | None = None, cfg: dict | None = None) -> "CleanupConfig":
         h = resolve_root(Path(pipeline_home) if pipeline_home is not None else home())
-        box = Path("/workspace/gta6")
+        box = Path(os.environ.get("VICE_BOX_ROOT") or str(Path(__file__).resolve().parents[2]))
         clean = (cfg or {}).get("cleanup") or {}
         allow = [
             h / "work", h / "sources", h / "prev", h / "ready",

@@ -19,7 +19,7 @@ class Auto(unittest.TestCase):
 
     def test_both_low_both_with_ig_first(self):
         d = A.decide({"youtube": 1, "instagram": 0}, [], (False, ""), NOW)
-        self.assertEqual((d["platform"], d["low"][0]), ("both", "instagram"))
+        self.assertEqual((d["platform"], d["low"][0]), ("instagram", "instagram"))  # IG-only while IG is low
 
     def test_never_stacks_and_respects_quota_and_cooldown(self):
         self.assertFalse(A.decide({"instagram": 0}, [{"status": "in_progress"}], (False, ""), NOW)["dispatch"])

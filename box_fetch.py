@@ -1020,7 +1020,7 @@ def main():
     ap.add_argument("--no-gemini", action="store_true")
     ap.add_argument("--cookies-from-browser", default=None, help="opt-in: chrome / firefox (local only)")
     ap.add_argument("--repo", default="Bhupi820970/pro-edit")
-    ap.add_argument("--dir", type=Path, default=Path(os.environ.get("BOX_FETCH_DIR", "/workspace/gta6/box_fetch")))
+    ap.add_argument("--dir", type=Path, default=Path(os.environ.get("BOX_FETCH_DIR") or (Path(os.environ.get("VICE_BOX_ROOT") or Path(__file__).resolve().parent.parent) / "box_fetch")))
     ap.add_argument("--dry-run", action="store_true", help="download only, do not upload")
     a = ap.parse_args()
     if a.cmd == "loop":   # retired 2026-11-26: the crontab fetcher (box/fetch_sources.sh) is the only fetcher

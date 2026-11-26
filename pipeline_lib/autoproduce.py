@@ -4,7 +4,7 @@ Runs in the watchdog workflow (schedule + box kick) and after each upload. It ne
 - no dispatch while any produce run is queued / in progress (plus produce.yml's `produce-auto` concurrency group)
 - cooldown 60 min after the last auto run, 3 h after two auto runs in a row produced nothing
 - no dispatch while Gemini is known to be out on every key and every backup model (until the daily reset)
-Instagram has priority (it empties first): it is always in the run and gets the bigger count.
+Instagram has priority (it empties first): while it is low, the auto run is Instagram-only.
 
     python -m pipeline_lib.autoproduce check [--dispatch]
     python -m pipeline_lib.autoproduce count --platform instagram     # videos this auto job should make
@@ -85,7 +85,9 @@ def decide(counts: dict[str, int], runs: list[dict], quota_out: tuple[bool, str]
         bad = [r for r in auto[:2] if r.get("conclusion") in ("failure", "timed_out", "startup_failure")]
         if len(bad) == 2 and age < BACKOFF_MIN:
             return {"dispatch": False, "reason": f"back-off: last 2 auto runs failed ({age:.0f} min ago)"}
-    platform = "both" if len(low) == 2 else low[0]
+    # Instagram first: while Instagram is low it gets the run (and all of Gemini's quota) to itself;
+    # YouTube follows in the next auto run once Instagram's run has finished
+    platform = "instagram" if "instagram" in low else low[0]
     return {"dispatch": True, "platform": platform, "low": low, "counts": counts,
             "reason": f"stock below {LOW}: {counts}"}
 

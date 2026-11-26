@@ -137,14 +137,14 @@ python pipeline.py mark --id VID --state posted         # after a YouTube / Inst
 python pipeline.py mark --id VID --state posted --keep  # same, but keep the final mp4
 python pipeline.py cleanup                              # sweep stale work + posted finals older than 24h
 ```
-`VICE_PIPELINE_HOME` (default `/workspace/gta6/pipeline`) holds `state.json`, `status.json`, `logs/`,
+`VICE_PIPELINE_HOME` (default `<folder holding the repo>/pipeline`) holds `state.json`, `status.json`, `logs/`,
 `ready/<platform>/*.mp4` (+ `.json`), `prev/*.mp4` (≤ 25 MB previews), source/song caches.
 
 When a video is marked `posted` (the upload-success hook), the pipeline deletes that video's local
 source clips, work/temp files and preview. The final mp4 stays for 24 hours, then an age sweep
 removes it unless `--keep` was set. A sweep also drops work/temp files older than 3 days that no
 pending ready/approved video still references. Cleanup only touches allowlisted data dirs
-(`work/`, `sources/`, `prev/`, `ready/`, plus the box `dl/` / `cache/` / `/workspace/gta6/work`
+(`work/`, `sources/`, `prev/`, `ready/`, plus the box `dl/` / `cache/` / `<box root>/work`
 when running on the real pipeline home) after a resolved-path check. Code, the songs library,
 approved samples (`out/samples`, `out/demos/gta*`, `out/demos/gaming*`) and the 7+7 backup
 buffer are never deleted.
@@ -159,9 +159,9 @@ and `sourcing.ytdlp()` retries with alternate player clients. If it is still blo
 
 ## box_fetch.py (box downloader, crontab)
 On the box, `box/ensure_cron.sh` installs cron (if missing) and this crontab line (box clock = IST):
-`50 1-23/3 * * * /workspace/gta6/vicestyle/box/fetch_sources.sh` — 40 min before each produce slot.
+`50 1-23/3 * * * <REPO>/box/fetch_sources.sh` (full list in HANDOFF.md) — 40 min before each produce slot.
 `box/fetch_sources.sh` runs `box_fetch.py cycle --no-gemini` (no AI on the box) with a lock, low priority and a
-170-minute cap; log: `/workspace/gta6/box_fetch/fetch_sources.log`. The pool counts only clips Gemini has not
+170-minute cap; log: `$VICE_DATA_DIR/fetch_sources.log`. The pool counts only clips Gemini has not
 rejected and that pass the runner's title rules (no trailers, sports clips must name a star player).
 produce.yml uses these release clips FIRST; runner YouTube downloads are a fallback and stop for the run after
 `VICE_RUNNER_BOT_LIMIT` bot checks. If every Gemini key is out of quota, the run writes

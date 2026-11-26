@@ -36,3 +36,6 @@ cookies*.txt
 # fanedit_stark: the pre-rendered 3D logo (our own asset) is committed
 !assets/fanedit_stark/logo_vice_cartel.webm
 
+
+# box-local settings (paths, gh login) — never committed
+box/local.env

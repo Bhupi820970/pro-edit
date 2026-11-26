@@ -18,7 +18,7 @@ from pathlib import Path
 from .util import REPO
 
 LEDGER = REPO / "ledger" / "used_clips.json"
-BOX_COPY = Path(os.environ.get("VICE_BOX_FETCH_DIR", "/workspace/gta6/box_fetch")) / "used_clips.json"
+BOX_COPY = Path(os.environ.get("VICE_BOX_FETCH_DIR") or (Path(os.environ.get("VICE_BOX_ROOT") or Path(__file__).resolve().parents[2]) / "box_fetch")) / "used_clips.json"
 ID_RE = re.compile(r"^[A-Za-z0-9_-]{6,64}$")
 
 

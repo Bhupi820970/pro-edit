@@ -33,9 +33,10 @@ from pipeline_lib.cleanup import CleanupConfig, CleanupResult, safe_delete, prun
 
 REPO_SLUG = "Bhupi820970/pro-edit"
 REMOTE = "pro"
-BOX = Path("/workspace/gta6")
+# paths come from box/common.sh (box/local.env); default = the folder that holds the repo
+BOX = Path(os.environ.get("VICE_BOX_ROOT") or str(Path(__file__).resolve().parents[2]))
 BOX_FETCH = Path(os.environ.get("VICE_BOX_FETCH_DIR", str(BOX / "box_fetch")))
-PIPE_HOME = BOX / "pipeline"
+PIPE_HOME = Path(os.environ.get("VICE_PIPELINE_HOME", str(BOX / "pipeline")))
 PLATFORMS = ("youtube", "instagram")
 MIN_AGE_H = 6          # never touch a file newer than this (an in-progress run may be using it)
 TEMP_AGE_D = 3         # temp/work leftovers older than this

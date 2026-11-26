@@ -1,0 +1,8 @@
+# Python packages for the box scripts (box_fetch.py, cleanup_posted.py, ig_handoff_decrypt.py).
+# Install:  python3 -m pip install --user -r box/requirements-box.txt
+yt-dlp
+numpy
+librosa
+soundfile
+cryptography
+Pillow
