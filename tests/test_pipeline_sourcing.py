@@ -168,11 +168,11 @@ class VetCacheAndKeyframes(unittest.TestCase):
                 self.assertEqual(a["accept"], True)
                 self.assertIs(a, b)
                 self.assertEqual(a.get("vet_via"), "keyframes")
-                self.assertEqual(len(a.get("keyframe_times") or []), 8)
+                self.assertIn(len(a.get("keyframe_times") or []), (8, 9))   # 8 proxies (+ corner sheet)
                 # generate was called with images, not a video file
                 kwargs = gem.generate.call_args.kwargs
                 self.assertIn("images", kwargs)
-                self.assertEqual(len(kwargs["images"]), 8)
+                self.assertIn(len(kwargs["images"]), (8, 9))
                 self.assertIsNone(kwargs.get("video"))
                 # cache persisted
                 st2 = State()
@@ -261,7 +261,7 @@ class PreviewVetAndKeyframes(unittest.TestCase):
             self.assertFalse(fetch_ytimg("https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg?x=1", dest))
             self.assertFalse(fetch_ytimg("https://i.ytimg.com/vi/dQw4w9WgXcQ/../secret.jpg", dest))
 
-    def test_keyframes_use_960_and_qv3(self):
+    def test_keyframes_are_480p_low_quality_proxies(self):
         with tempfile.TemporaryDirectory() as td:
             td = Path(td)
             with patch.dict(os.environ, {"VICE_PIPELINE_HOME": str(td)}):
@@ -285,8 +285,8 @@ class PreviewVetAndKeyframes(unittest.TestCase):
                     frames = src._keyframes(clip, "k", 10.0)
                 self.assertGreaterEqual(len(frames), 4)
                 joined = " ".join(calls[0])
-                self.assertIn("scale=960:-2", joined)
-                self.assertIn("-q:v 3", " ".join(calls[0][i] + " " + calls[0][i + 1] for i in range(len(calls[0]) - 1)))
+                self.assertIn("scale=854:-2", joined)
+                self.assertIn("-q:v 6", " ".join(calls[0][i] + " " + calls[0][i + 1] for i in range(len(calls[0]) - 1)))
 
     def test_pre_vet_reject_skips_full_download(self):
         with tempfile.TemporaryDirectory() as td:

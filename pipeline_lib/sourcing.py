@@ -62,6 +62,10 @@ VET_SCHEMA = {
 VET_PROMPT = """You are the footage checker for a fan-edit channel. You are shown {n} still keyframes
 (low-res JPEGs, in order) taken from the original download at these timestamps (seconds): {times}.
 There is no audio. Judge the ORIGINAL's cleanliness from these frames, not the JPEG compression.
+The frames are deliberately small 480p proxies: the file's real resolution is verified separately, so never
+reject for the proxies' low resolution or JPEG softness. The LAST image may be a 2x2 sheet of the four
+corners (top-left, top-right / bottom-left, bottom-right) of one frame at higher detail, separated by
+magenta lines: use it to look closely for corner logos, channel bugs and watermarks.
 Category: {category}. Source: "{title}" from channel "{channel}".
 Provenance ({via}) is checked separately by the pipeline: if the channel is an official studio / publisher /
 league account, treat the footage as official. Set official_quality=false ONLY for visual problems
@@ -669,8 +673,9 @@ class Sourcer:
         return self.local_file(e["id"])
 
     # ---------------------------------------------------------------- vet
-    def _keyframes(self, path: Path, key: str, dur: float, n: int = 8, width: int = 960) -> list[tuple[float, Path]]:
-        """6-8 evenly spaced 960px JPEGs. Never send the whole video to Gemini."""
+    def _keyframes(self, path: Path, key: str, dur: float, n: int = 8, width: int = 854) -> list[tuple[float, Path]]:
+        """6-8 evenly spaced LOW-QUALITY 480p JPEG proxies (+1 corner-crop sheet). Never send the whole
+        video to Gemini; final renders always use the original full-quality file."""
         n = max(6, min(8, int(n)))
         # skip the first ~5% and last ~8% (studio cards / end slates still usually appear)
         lo, hi = dur * 0.05, dur * 0.92
@@ -684,10 +689,39 @@ class Sourcer:
             fp = kdir / f"{key}_k{i}.jpg"
             if not fp.exists() or fp.stat().st_size < 400:
                 run(["ffmpeg", "-y", "-v", "error", "-ss", f"{ts:.3f}", "-i", path,
-                     "-frames:v", "1", "-vf", f"scale={width}:-2", "-q:v", "3", str(fp)], timeout=60)
+                     "-frames:v", "1", "-vf", f"scale={width}:-2,format=yuvj420p", "-q:v", "6", str(fp)], timeout=60)
             if fp.exists() and fp.stat().st_size >= 400:
                 frames.append((ts, fp))
+        # one small sheet of the 4 corners at higher detail (where channel bugs / watermarks sit)
+        if frames and width < 960:
+            try:
+                sheet = self._corner_sheet(path, key, frames[len(frames) // 2][0], kdir)
+                if sheet:
+                    frames.append((frames[len(frames) // 2][0], sheet))
+            except Exception as ex:
+                log("corner sheet skipped:", str(ex)[:120])
         return frames
+
+    def _corner_sheet(self, path: Path, key: str, ts: float, kdir: Path) -> Path | None:
+        from PIL import Image
+        full = kdir / f"{key}_full.jpg"
+        out = kdir / f"{key}_corners.jpg"
+        if out.exists() and out.stat().st_size >= 400:
+            return out
+        run(["ffmpeg", "-y", "-v", "error", "-ss", f"{ts:.3f}", "-i", path, "-frames:v", "1",
+             "-vf", "scale=1920:-2,format=yuvj420p", "-q:v", "4", str(full)], timeout=60)
+        try:
+            im = Image.open(full).convert("RGB")
+            w, h = im.size
+            cw, ch = int(w * 0.22), int(h * 0.2)
+            boxes = [(0, 0, cw, ch), (w - cw, 0, w, ch), (0, h - ch, cw, h), (w - cw, h - ch, w, h)]
+            sheet = Image.new("RGB", (cw * 2 + 8, ch * 2 + 8), (255, 0, 255))
+            for i, b in enumerate(boxes):
+                sheet.paste(im.crop(b), ((i % 2) * (cw + 8), (i // 2) * (ch + 8)))
+            sheet.save(out, quality=80)
+        finally:
+            full.unlink(missing_ok=True)
+        return out if out.exists() else None
 
     def vet(self, e: dict, path: Path, category: str) -> dict:
         key = e["id"]
