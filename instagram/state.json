@@ -35726,6 +35726,30 @@
    "platform": "instagram",
    "category": "gta",
    "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
+  },
+  {
+   "at": "2026-11-26T18:50:31.119859+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T18:51:24.241515+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T18:51:44.844444+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-26T18:52:05.395277+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "CategoryUnavailable: no clips of a single title for romance"
   }
  ],
  "vet_rules": "gta-rockstar-v1"

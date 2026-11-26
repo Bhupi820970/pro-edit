@@ -1,9 +1,17 @@
 {
- "updated": "2026-11-26T16:11:02.663831+05:30",
+ "updated": "2026-11-26T18:52:11.257491+05:30",
  "platforms": {
   "youtube": {
    "platform": "youtube",
    "updated": "2026-11-26T10:39:23+0000",
+   "reason": "all Gemini keys quota-exhausted: these clips were not watch-checked (logo/watermark)",
+   "gemini_quota_resets": "2026-11-27 13:30 IST",
+   "categories": {},
+   "how_to_pick": "Check each clip for watermarks, channel logos, burned subtitles and HUD. Then write queue/manual_picks.json on branch pipeline-state: {\"picks\": [{\"id\": \"...\", \"category\": \"...\", \"accept\": true|false, \"has_dialogue\": true|false, \"reasons\": [\"...\"]}]}. The next produce run uses accepted picks."
+  },
+  "instagram": {
+   "platform": "instagram",
+   "updated": "2026-11-26T13:22:05+0000",
    "reason": "all Gemini keys quota-exhausted: these clips were not watch-checked (logo/watermark)",
    "gemini_quota_resets": "2026-11-27 13:30 IST",
    "categories": {},

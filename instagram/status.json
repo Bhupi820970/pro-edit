@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-26T18:45:14.523608+05:30",
+ "updated": "2026-11-26T18:52:09.093512+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (2/7 ready)",
+ "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
  "platforms": {
   "youtube": {
    "ready": 0,
@@ -16,7 +16,7 @@
    "message": "BACKUP LOW: refill youtube (0/7 ready)"
   },
   "instagram": {
-   "ready": 2,
+   "ready": 0,
    "target": 7,
    "warning": true,
    "produced_today": 32,
@@ -24,293 +24,12 @@
     6,
     7
    ],
-   "message": "BACKUP LOW: refill instagram (2/7 ready)"
+   "message": "BACKUP LOW: refill instagram (0/7 ready)"
   }
  },
- "ready": [
-  {
-   "id": "in-romance-20261126-153034",
-   "platform": "instagram",
-   "category": "romance",
-   "format": "shorts",
-   "state": "ready",
-   "created": "2026-11-26T15:43:25.495761+05:30",
-   "path": "/mnt/ph/instagram/ready/instagram/in-romance-20261126-153034.mp4",
-   "preview": "/mnt/ph/instagram/prev/in-romance-20261126-153034.mp4",
-   "preview_mb": 22.1,
-   "size_mb": 90.8,
-   "title": "Love Scene Edit | Save Your Tears Edit",
-   "hook": "LOVE SCENE EDIT",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Save Your Tears\" – The Weeknd (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/The%20Weeknd%20Save%20Your%20Tears\n🎬 Footage: Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#RomanceEdit #LoveStory #MovieEdit",
-   "hashtags": [
-    "RomanceEdit",
-    "LoveStory",
-    "MovieEdit"
-   ],
-   "song": {
-    "title": "Save Your Tears",
-    "artist": "The Weeknd",
-    "url": "",
-    "official_channel": "",
-    "spotify_search": "https://open.spotify.com/search/The%20Weeknd%20Save%20Your%20Tears"
-   },
-   "song_credit": "\"Save Your Tears\" – The Weeknd",
-   "pattern": {
-    "id": "P01",
-    "name": "Original beside-mid (approved)"
-   },
-   "captions": [
-    "IT AS FAR",
-    "AS THEY'RE CONCERNED",
-    "YOUR",
-    "MISTAKE IS JUST",
-    "THAT'S WHO YOU",
-    "ARE AND",
-    "IT'S ALL YOU",
-    "ARE AND I'M",
-    "NOT JUST TALKING",
-    "ABOUT THE SCHOLARSHIP",
-    "HERE I'M",
-    "TALKING ABOUT",
-    "YOU'RE GONNA BE",
-    "ON THE 50TH",
-    "FLOOR",
-    "YOU'RE GONNA BE",
-    "LOOKING DOWN ON",
-    "THEM AND THE",
-    "HIGHER YOU RISE"
-   ],
-   "duration": 38.83,
-   "sources": [
-    {
-     "id": "c8gim368JAU",
-     "src_id": "c8gim368JAU",
-     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
-     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
-    },
-    {
-     "id": "AzzwE0mOZEs",
-     "src_id": "AzzwE0mOZEs",
-     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
-     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
-    },
-    {
-     "id": "ER4wFqmv75Q",
-     "src_id": "ER4wFqmv75Q",
-     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
-     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
-    },
-    {
-     "id": "nHINIwGcba0",
-     "src_id": "nHINIwGcba0",
-     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
-     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.83
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2160x3840",
-      "want": "2160x3840"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -17.0
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": false
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 19
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   }
-  },
-  {
-   "id": "in-movie-20261126-160820",
-   "platform": "instagram",
-   "category": "movie",
-   "format": "shorts",
-   "state": "ready",
-   "created": "2026-11-26T16:20:42.402168+05:30",
-   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261126-160820.mp4",
-   "preview": "/mnt/ph/instagram/prev/in-movie-20261126-160820.mp4",
-   "preview_mb": 21.7,
-   "size_mb": 93.8,
-   "title": "Movie Scene Edit | Somebody's Watching Me Edit",
-   "hook": "MOVIE SCENE EDIT",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Somebody's Watching Me\" – Rockwell (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Rockwell%20Somebody%27s%20Watching%20Me\n🎬 Footage: Movieclips – \"Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips\"; Movieclips – \"Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
-   "hashtags": [
-    "MovieEdit",
-    "MovieScenes",
-    "Cinema",
-    "FilmEdit"
-   ],
-   "song": {
-    "title": "Somebody's Watching Me",
-    "artist": "Rockwell",
-    "url": "",
-    "official_channel": "",
-    "spotify_search": "https://open.spotify.com/search/Rockwell%20Somebody%27s%20Watching%20Me"
-   },
-   "song_credit": "\"Somebody's Watching Me\" – Rockwell",
-   "pattern": {
-    "id": "P08",
-    "name": "2-word punch, mid"
-   },
-   "captions": [
-    "WELL LOOKS",
-    "LIKE WE",
-    "HAVE THREE",
-    "SCHOLARSHIPS TO",
-    "GIVE AND",
-    "THREE FRONT",
-    "RUNNERS",
-    "SO UNLESS",
-    "THERE'S ANY",
-    "DISAGREEMENT",
-    "I THINK",
-    "WE CAN",
-    "EXPERIENCES WHAT",
-    "GOT HER",
-    "INTERESTED IN",
-    "THE LAW",
-    "AND IT'S",
-    "REALLY GOOD",
-    "IT'S REALLY",
-    "GOOD"
-   ],
-   "duration": 38.8,
-   "sources": [
-    {
-     "id": "nHINIwGcba0",
-     "src_id": "nHINIwGcba0",
-     "path": "/mnt/ph/instagram/sources/nHINIwGcba0.mkv",
-     "title": "Better Call Saul - Lalo At The Travel Agent (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=nHINIwGcba0"
-    },
-    {
-     "id": "AzzwE0mOZEs",
-     "src_id": "AzzwE0mOZEs",
-     "path": "/mnt/ph/instagram/sources/AzzwE0mOZEs.mkv",
-     "title": "Better Call Saul - Lalo Tails Mike (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=AzzwE0mOZEs"
-    },
-    {
-     "id": "c8gim368JAU",
-     "src_id": "c8gim368JAU",
-     "path": "/mnt/ph/instagram/sources/c8gim368JAU.mkv",
-     "title": "Better Call Saul - Jimmy & Chuck Sing \"The Winner Takes It All\" (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=c8gim368JAU"
-    },
-    {
-     "id": "ER4wFqmv75Q",
-     "src_id": "ER4wFqmv75Q",
-     "path": "/mnt/ph/instagram/sources/ER4wFqmv75Q.mkv",
-     "title": "Better Call Saul - They Will NEVER Let You In (S4E10) | Movieclips",
-     "credit": "Movieclips",
-     "url": "https://www.youtube.com/watch?v=ER4wFqmv75Q"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.8
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2160x3840",
-      "want": "2160x3840"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -17.6
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": false
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 20
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   }
-  }
- ],
+ "ready": [],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-26T16:08:20.003379+05:30",
-   "platform": "instagram",
-   "category": "movie",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HIM MY LETTER?\"]}}"
-  },
-  {
-   "at": "2026-11-26T16:27:06.047457+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 15.9}}"
-  },
-  {
-   "at": "2026-11-26T16:33:29.540590+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 15.9}}"
-  },
-  {
-   "at": "2026-11-26T16:39:35.476356+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"duration\": {\"ok\": false, \"value\": 15.07}}"
-  },
   {
    "at": "2026-11-26T16:46:04.842977+05:30",
    "platform": "instagram",
@@ -376,6 +95,30 @@
    "platform": "instagram",
    "category": "gta",
    "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
+  },
+  {
+   "at": "2026-11-26T18:50:31.119859+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-26T18:51:24.241515+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-26T18:51:44.844444+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: no clips of a single title for movie"
+  },
+  {
+   "at": "2026-11-26T18:52:05.395277+05:30",
+   "platform": "instagram",
+   "category": "romance",
+   "error": "CategoryUnavailable: no clips of a single title for romance"
   }
  ],
  "pattern_history": [
@@ -417,15 +160,15 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-26T13:55:54.566444+05:30",
-  "age_hours": 4.8,
+  "last_run": "2026-11-26T18:41:22.164581+05:30",
+  "age_hours": 0.2,
   "healthy": true,
   "pool": {
-   "gta": 10,
-   "gaming": 4,
-   "movie": 7,
-   "sports": 4,
-   "romance": 5,
+   "gta": 16,
+   "gaming": 15,
+   "movie": 23,
+   "sports": 23,
+   "romance": 23,
    "series": 15
   },
   "errors": [],
