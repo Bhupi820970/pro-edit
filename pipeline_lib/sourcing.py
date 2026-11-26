@@ -464,6 +464,10 @@ class Sourcer:
             self.used_clips = used_ids()
         except Exception:
             self.used_clips = set()
+        # clip reservations (pipeline_lib/clip_reserve.py): set by cmd_produce; clips another run reserved
+        # or that any video already used are never picked (refreshed at every gather)
+        self.reserv = None
+        self.taken: set[str] = set()
         self._migrate_vet_rules()
 
     def _migrate_vet_rules(self):
@@ -867,6 +871,8 @@ class Sourcer:
         """
         rng = random.Random(seed)
         picked: list[dict] = []
+        if self.reserv is not None:
+            self.taken = self.reserv.taken_ids()
         lock_key = None  # one movie / series / player for the whole gather
         state = {"dialogue": 0}
 
@@ -877,13 +883,14 @@ class Sourcer:
             mp = self.manual.get(e["id"])
             if mp is not None and not mp["accept"]:
                 return None
-            # never repeat a clip that a posted video already used (ledger/used_clips.json). GTA has only a
-            # small pool of official footage, so there it is a strong penalty instead of a hard skip.
+            # a clip never repeats across videos: skip clips a posted video used (ledger/used_clips.json),
+            # clips another produce run has reserved, and clips any finished video already used
+            # (clip_reservations.json on pipeline-state). Hard skip for every category, GTA included.
             used_pen = 0.0
             if self.used_clips and is_used(e["id"], self.used_clips):
-                if category != "gta":
-                    return None
-                used_pen = 1000.0
+                return None
+            if self.taken and is_used(e["id"], self.taken):
+                return None
             # strongly prefer sources unused in the last 3 days so trailer 1/2 aren't re-picked
             uses = self.state.source_uses(e["id"], days=3)
             unused_penalty = 0 if uses == 0 else 20 + uses
@@ -925,6 +932,10 @@ class Sourcer:
                     log("vet error (will retry next run):", e["id"], str(ex)[:200])
                     continue
                 if not v.get("accept"):
+                    continue
+                if self.reserv is not None and not self.reserv.reserve(e["id"]):
+                    self.stats["reserve_denied"] = self.stats.get("reserve_denied", 0) + 1
+                    log("clip reserved by another run (or already used), skipped:", e["id"])
                     continue
                 if e.get("via") in ("box-fetch", "pool"):
                     self.stats["box_clips_used"] += 1

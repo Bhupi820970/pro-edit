@@ -26,3 +26,15 @@ class UsedClipsTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ReservedIdsTest(unittest.TestCase):
+    def test_reserved_and_used_entries_count_as_taken(self):
+        import json as _j
+        import tempfile as _t
+        with _t.TemporaryDirectory() as d:
+            p = Path(d) / "clip_reservations.json"
+            p.write_text(_j.dumps({"clips": {"aaaaaaaaaaa": {"state": "used"}, "bbbbbbbbbbb": {"state": "reserved"},
+                                             "bad id!": {"state": "used"}}}))
+            self.assertEqual(UC.reserved_ids(p), {"aaaaaaaaaaa", "bbbbbbbbbbb"})
+            self.assertEqual(UC.reserved_ids(Path(d) / "missing.json"), set())

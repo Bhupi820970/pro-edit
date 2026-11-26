@@ -20,6 +20,19 @@ from .util import REPO
 LEDGER = REPO / "ledger" / "used_clips.json"
 BOX_COPY = Path(os.environ.get("VICE_BOX_FETCH_DIR") or (Path(os.environ.get("VICE_BOX_ROOT") or Path(__file__).resolve().parents[2]) / "box_fetch")) / "used_clips.json"
 ID_RE = re.compile(r"^[A-Za-z0-9_-]{6,64}$")
+# box copy of pipeline-state/clip_reservations.json (refreshed by box_fetch.py): clips that produce runs
+# already used or currently hold, so the box does not count them as free stock
+RESERV_COPY = BOX_COPY.parent / "clip_reservations.json"
+
+
+def reserved_ids(path: Path | None = None) -> set[str]:
+    try:
+        d = json.loads(Path(path or RESERV_COPY).read_text())
+    except (OSError, ValueError):
+        return set()
+    clips = d.get("clips") if isinstance(d, dict) else None
+    return {k for k, v in (clips or {}).items() if ID_RE.match(str(k)) and isinstance(v, dict)
+            and v.get("state") in ("used", "reserved")}
 
 
 def _read(path: Path) -> list[dict]:
@@ -45,9 +58,13 @@ def load_entries(paths=None) -> dict[str, dict]:
     return out
 
 
-def used_ids(paths=None) -> set[str]:
-    """Source ids (11-char YouTube ids, without any _cN chunk suffix) that must never be used again."""
-    return set(load_entries(paths))
+def used_ids(paths=None, reservations: bool = True) -> set[str]:
+    """Source ids (11-char YouTube ids, without any _cN chunk suffix) that must never be used again
+    (posted videos' clips + the produce-time reservation ledger when a local copy exists)."""
+    out = set(load_entries(paths))
+    if reservations and paths is None:
+        out |= reserved_ids()
+    return out
 
 
 def is_used(sid: str, used: set[str]) -> bool:

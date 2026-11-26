@@ -610,6 +610,10 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
     state = State()
     gem = Gemini(log=log)
     sourcer = Sourcer(CFG, state, gem)
+    from pipeline_lib.clip_reserve import Reservations
+    owner = f"{os.environ.get('GITHUB_RUN_ID') or 'local'}-{os.environ.get('GITHUB_RUN_ATTEMPT') or '1'}-{a.platform}"
+    reserv = Reservations(owner, a.platform, log=log)
+    sourcer.reserv = reserv
     made, fails = [], []
     t0 = time.time()
     target = a.target if until_target else None
@@ -637,8 +641,17 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
             log(f"no category has usable sources right now (skipped: {sorted(skip)}) -> stop, box fetcher refills")
             break
         timer = StepTimer()
+        held_before = set(reserv.mine)
         try:
             made.append(produce_one(a.platform, cat, state, gem, sourcer, seed, timer))
+            # clips of the finished video are marked used for good right now (not 2 days later after
+            # posting); clips this attempt reserved but did not use go back to the pool
+            used_now = [s.get("src_id") or s.get("id") for s in made[-1].get("sources") or []]
+            try:
+                reserv.confirm(used_now, made[-1]["id"])
+            except Exception as rex:
+                log("clip reservations: confirm failed (reservation stays until it expires):", type(rex).__name__)
+            reserv.release(reserv.mine - held_before)
             # put each finished video into stock right away (Actions sets VICE_ATTACH_EACH_TAG), so an
             # upload slot during a long run already has it; the end-of-run attach step is idempotent
             each_tag = os.environ.get("VICE_ATTACH_EACH_TAG", "").strip()
@@ -659,6 +672,7 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
             state.d.setdefault("failures", []).append({"at": now_local().isoformat(), "platform": a.platform,
                                                        "category": cat, "error": msg})
             fails.append(msg)
+            reserv.release(reserv.mine - held_before)   # render / QA failed: its clips are free again
             state.save()
             if isinstance(ex, CategoryUnavailable):
                 cat_fails[cat] = cat_fails.get(cat, 0) + 1
