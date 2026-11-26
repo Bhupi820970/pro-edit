@@ -12,6 +12,7 @@ are cached in pipeline-state per source id and never re-vetted.  The whole video
 from __future__ import annotations
 
 import json
+import os
 import random
 import re
 import shutil
@@ -216,12 +217,27 @@ def ytdlp_cookie_args() -> list[str]:
         chrome = Path.home() / ".config/google-chrome/Default/Cookies"
         if chrome.exists():
             browser = "chrome"
-    if browser:
+    if browser and not browser.startswith("-") and re.fullmatch(r"[\w:/.+-]{1,200}", browser):
         return ["--cookies-from-browser", browser]
     path = (os.environ.get("VICE_YT_COOKIES") or "").strip()
     if path and Path(path).exists():
         return ["--cookies", path]
     return []
+
+
+JS_RUNTIME_RX = re.compile(r"^(deno|node|bun|quickjs)(:/[\w./-]{1,200})?$")
+
+
+def ytdlp_js_args() -> list[str]:
+    """Box only: VICE_YTDLP_JS_RUNTIME (e.g. deno:/home/box/.deno/bin/deno) for YouTube's JS challenge.
+
+    Ignored on GitHub Actions and when the value is not a plain runtime name / absolute path.
+    """
+    import os
+    if os.environ.get("GITHUB_ACTIONS"):
+        return []
+    r = (os.environ.get("VICE_YTDLP_JS_RUNTIME") or "").strip()
+    return ["--js-runtimes", r] if r and JS_RUNTIME_RX.match(r) else []
 
 
 def _cookie_flags_in(args: list) -> bool:
@@ -234,7 +250,7 @@ def ytdlp(args: list, timeout=1800) -> tuple[bool, str]:
     cookies = [] if _cookie_flags_in(args) else ytdlp_cookie_args()
     bot_hits = 0
     for i, extra in enumerate(YTDLP_CLIENT_FALLBACKS):
-        r = run(["yt-dlp", *COMMON, *cookies, *extra, *args], timeout=timeout, check=False)
+        r = run(["yt-dlp", *COMMON, *ytdlp_js_args(), *cookies, *extra, *args], timeout=timeout, check=False)
         if r.returncode == 0:
             return True, ""
         err = (r.stderr or r.stdout)[-600:]
@@ -255,7 +271,7 @@ def ytdlp(args: list, timeout=1800) -> tuple[bool, str]:
 
 
 def list_channel(url: str, limit: int = 60) -> list[dict]:
-    r = run(["yt-dlp", *COMMON, *ytdlp_cookie_args(), "--flat-playlist", "-I", f"1:{limit}", "-J", url], timeout=300, check=False)
+    r = run(["yt-dlp", *COMMON, *ytdlp_js_args(), *ytdlp_cookie_args(), "--flat-playlist", "-I", f"1:{limit}", "-J", url], timeout=300, check=False)
     if r.returncode != 0:
         log("channel listing failed:", url, (r.stderr or "")[-200:].strip())
         return []
@@ -270,7 +286,7 @@ def list_channel(url: str, limit: int = 60) -> list[dict]:
 
 
 def search_youtube(query: str, n: int = 15) -> list[dict]:
-    r = run(["yt-dlp", *COMMON, *ytdlp_cookie_args(), "--flat-playlist", "-J", f"ytsearch{n}:{query}"], timeout=300, check=False)
+    r = run(["yt-dlp", *COMMON, *ytdlp_js_args(), *ytdlp_cookie_args(), "--flat-playlist", "-J", f"ytsearch{n}:{query}"], timeout=300, check=False)
     if r.returncode != 0:
         return []
     out = []
@@ -286,7 +302,7 @@ def search_x(query: str, n: int = 8) -> list[dict]:
     """Best-effort X (Twitter) video search for full-scene uploads. Returns [] on failure."""
     from urllib.parse import quote
     url = f"https://x.com/search?q={quote(query)}&src=typed_query&f=video"
-    r = run(["yt-dlp", *COMMON, *ytdlp_cookie_args(), "--flat-playlist", "-I", f"1:{n}", "-J", url],
+    r = run(["yt-dlp", *COMMON, *ytdlp_js_args(), *ytdlp_cookie_args(), "--flat-playlist", "-I", f"1:{n}", "-J", url],
             timeout=90, check=False)
     if r.returncode != 0 or not (r.stdout or "").strip():
         log("x search failed:", query[:80], ((r.stderr or "")[-180:]).strip())
@@ -367,6 +383,37 @@ def inbox_links(category: str) -> list[dict]:
     return out
 
 
+SID_RX = re.compile(r"^[\w-]{1,40}$")
+
+
+def load_manual_picks(cfg: dict) -> dict:
+    """queue/manual_picks.json (branch pipeline-state, restored by produce.yml) — plain data, never executed.
+
+    Only used while Gemini is out of quota: a bot / the owner looked at the clips listed in
+    queue/needs_manual_pick.json and wrote
+      {"picks": [{"id": "<source id>", "category": "gta", "accept": true, "has_dialogue": false,
+                  "reasons": ["..."]}]}
+    Unknown categories, bad ids and non-boolean accept values are dropped.
+    """
+    raw = None
+    try:
+        raw = json.loads((home() / "queue" / "manual_picks.json").read_text())
+    except Exception:
+        return {}
+    out = {}
+    for it in (raw.get("picks") if isinstance(raw, dict) else None) or []:
+        if not isinstance(it, dict):
+            continue
+        sid, cat, acc = it.get("id"), it.get("category"), it.get("accept")
+        if not isinstance(sid, str) or not SID_RX.match(sid) or cat not in cfg.get("categories", {}) \
+                or not isinstance(acc, bool):
+            continue
+        reasons = [str(r)[:120] for r in (it.get("reasons") or []) if isinstance(r, (str, int, float))][:5]
+        out[sid] = {"category": cat, "accept": acc, "has_dialogue": bool(it.get("has_dialogue")),
+                    "reasons": reasons}
+    return out
+
+
 class Sourcer:
     def __init__(self, cfg: dict, state, gem):
         self.cfg, self.state, self.gem = cfg, state, gem
@@ -375,7 +422,16 @@ class Sourcer:
         self.proxies = home() / "work" / "proxies"
         self.proxies.mkdir(parents=True, exist_ok=True)
         self.stats = {"downloaded": 0, "download_failed": 0, "vetted": 0, "rejected": [], "accepted": [],
-                      "bot_checks": 0, "fallback_used": False, "thin": []}
+                      "bot_checks": 0, "fallback_used": False, "thin": [], "runner_skipped": 0,
+                      "box_clips_used": 0}
+        # After this many YouTube bot checks in one run the runner stops downloading from YouTube and
+        # uses only the clips the box already put in the "sources" release (runner = fallback only).
+        self.bot_limit = max(1, int(os.environ.get("VICE_RUNNER_BOT_LIMIT", "4") or 4))
+        self.runner_blocked = False
+        # Candidates that could not be watch-checked because every Gemini key is out of quota.
+        # Written to queue/needs_manual_pick.json so a bot can pick by hand (no polling).
+        self.needs_manual: dict[str, list[dict]] = {}
+        self.manual = load_manual_picks(self.cfg)
         self._migrate_vet_rules()
 
     def _migrate_vet_rules(self):
@@ -486,7 +542,7 @@ class Sourcer:
     def _short_preview(self, e: dict) -> Path | None:
         """8s low-res partial download for preview frames. Never a full-quality copy."""
         sid, url = safe_sid(e.get("id")), safe_media_url(e.get("url"))
-        if not sid or not url:
+        if not sid or not url or self.runner_blocked:
             return None
         pdir = self.proxies / "preview"
         pdir.mkdir(parents=True, exist_ok=True)
@@ -530,7 +586,11 @@ class Sourcer:
         prior = (self.state.d.get("pre_vet") or {}).get(key)
         if prior is not None:
             return bool(prior.get("accept"))
+        mp = self.manual.get(key)
+        if mp and mp["category"] == category:
+            return mp["accept"]
         if self.gem.quota_exhausted():
+            self.note_manual(e, category)
             raise GeminiError(f"skip pre-vet for {key}: all Gemini keys quota-exhausted")
         frames = self._preview_frames(e)
         if not frames:
@@ -582,12 +642,19 @@ class Sourcer:
         f = self.local_file(e["id"])
         if f:
             return f
+        if self.runner_blocked:
+            self.stats["runner_skipped"] += 1
+            return None
         out = self.dir / f"{e['id']}.%(ext)s"
         h = self.cfg.get("download_height", 1440)
         ok, err = ytdlp(["-f", f"bv*[height<={h}]+ba/b[height<={h}]/bv*+ba/b", "-S", f"res:{h},fps",
                          "--merge-output-format", "mkv", "-o", str(out), e["url"]])
         if "not a bot" in err:
             self.stats["bot_checks"] += 1
+            if self.stats["bot_checks"] >= self.bot_limit and not self.runner_blocked:
+                self.runner_blocked = True
+                log(f"runner: {self.stats['bot_checks']} YouTube bot checks -> no more runner downloads this run; "
+                    f"using box clips (release 'sources') only")
         if not ok:
             self.stats["download_failed"] += 1
             self.stats.setdefault("failed_ids", []).append(e["id"])
@@ -628,7 +695,13 @@ class Sourcer:
         if h < self.cfg.get("min_height", 720):
             res = {"accept": False, "reject_reasons": [f"only {h}p (< {self.cfg.get('min_height', 720)}p)"],
                    "bad_ranges": [], "checked_by": "local"}
+        elif (self.manual.get(key) or {}).get("category") == category:
+            mp = self.manual[key]
+            res = {"accept": mp["accept"], "reject_reasons": mp["reasons"] if not mp["accept"] else [],
+                   "bad_ranges": [], "has_dialogue": mp["has_dialogue"], "mood": "", "summary": "",
+                   "checked_by": "manual", "vet_via": "queue/manual_picks.json"}
         elif self.gem.quota_exhausted():
+            self.note_manual(e, category, local=True)
             raise GeminiError(f"skip new vet for {key}: all Gemini keys quota-exhausted (use cached vet only)")
         else:
             frames = self._keyframes(path, key, dur)
@@ -668,6 +741,32 @@ class Sourcer:
             {"id": key, "title": e.get("title"), "reasons": res.get("reject_reasons"), "via": e.get("via")})
         return res
 
+    def note_manual(self, e: dict, category: str, local: bool | None = None):
+        """Remember a candidate Gemini could not check (quota) for queue/needs_manual_pick.json."""
+        sid = safe_sid(e.get("id"))
+        if not sid:
+            return
+        lst = self.needs_manual.setdefault(category, [])
+        if any(x["id"] == sid for x in lst) or len(lst) >= 25:
+            return
+        lst.append({"id": sid, "url": safe_media_url(e.get("url")) or "", "title": str(e.get("title") or "")[:140],
+                    "channel": str(e.get("channel") or e.get("credit") or "")[:80], "via": e.get("via") or "",
+                    "on_runner": bool(self.local_file(sid)) if local is None else local})
+
+    def manual_pick_doc(self, platform: str) -> dict:
+        from .gemini import next_quota_reset
+        return {
+            "platform": platform,
+            "updated": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+            "reason": "all Gemini keys quota-exhausted: these clips were not watch-checked (logo/watermark)",
+            "gemini_quota_resets": next_quota_reset().strftime("%Y-%m-%d %H:%M IST"),
+            "categories": {k: v for k, v in self.needs_manual.items() if v},
+            "how_to_pick": "Check each clip for watermarks, channel logos, burned subtitles and HUD. Then write "
+                           "queue/manual_picks.json on branch pipeline-state: {\"picks\": [{\"id\": \"...\", "
+                           "\"category\": \"...\", \"accept\": true|false, \"has_dialogue\": true|false, "
+                           "\"reasons\": [\"...\"]}]}. The next produce run uses accepted picks.",
+        }
+
     # ---------------------------------------------------------------- long sources -> chunks
     def chunk_long(self, sid: str, path: Path, dur: float, max_len: float = 300) -> list[tuple[str, Path]]:
         if dur <= max_len * 1.3:
@@ -686,76 +785,50 @@ class Sourcer:
 
     # ---------------------------------------------------------------- main entry
     def gather(self, category: str, seed: int, want: int, need_dialogue: int = 1) -> list[dict]:
-        """Return `want` vetted clean clips: [{id, path, credit, title, url, mood, bad_ranges, has_dialogue}]."""
+        """Return `want` vetted clean clips: [{id, path, credit, title, url, mood, bad_ranges, has_dialogue}].
+
+        Box clips (release "sources", already on disk) are tried first; runner YouTube downloads are only
+        a fallback and stop for the run after repeated bot checks. movie/series/romance lock to one title
+        and sports to one star player; if the top group yields nothing usable the next group is tried.
+        """
         rng = random.Random(seed)
-        picked, dialogue = [], 0
+        picked: list[dict] = []
         lock_key = None  # one movie / series / player for the whole gather
-        for fallback in (False, True):
-            cands = self.candidates(category, fallback)
-            if fallback:
-                if len(picked) >= want:
-                    break
-                self.stats["fallback_used"] = True
-                if category not in self.stats["thin"]:
-                    self.stats["thin"].append(category)
-                log(f"content thin for {category} ({len(picked)}/{want}) -> fallback search ({len(cands)} candidates)")
-            # prefer already-accepted, then never-vetted; rotate by recent use; never retry rejects
-            def rank(e):
-                v = self.state.d["vet"].get(e["id"])
-                if v is not None and not v.get("accept"):
-                    return None
-                # strongly prefer sources unused in the last 3 days so trailer 1/2 aren't re-picked
-                uses = self.state.source_uses(e["id"], days=3)
-                unused_penalty = 0 if uses == 0 else 20 + uses
-                pool = 0.3 if e.get("via") in ("box-fetch", "pool") else 0.0
-                cached = -1.0 if v and v.get("accept") else 0.0  # already-vetted: no Gemini cost
-                extra = 0.0
-                if category == "gaming":
-                    if is_gta_title(e.get("title") or ""):
-                        extra += 80  # GTA belongs in the gta category, not "other games"
-                    ch = (e.get("channel") or e.get("credit") or "").lower()
-                    if "rockstar" in ch:
-                        extra += 4  # keep Rockstar, but don't fill the video with only RDR
-                return unused_penalty + rng.random() * 0.5 + pool + cached + extra
-            ranked = sorted((e for e in cands if rank(e) is not None), key=rank)
-            # Lock movie/series/romance to one title, sports to one star player.
-            if category in SINGLE_WORK_CATEGORIES or category == "sports":
-                groups = {}
-                for e in ranked:
-                    if category == "sports":
-                        k = player_name(e.get("title") or "", e.get("channel") or e.get("credit") or "")
-                        if not k:
-                            continue
-                    else:
-                        k = work_title(e.get("title") or "", category) or e.get("id")
-                    groups.setdefault(k, []).append(e)
-                if groups:
-                    def gkey(kv):
-                        k, es = kv
-                        ranks = [rank(x) for x in es]
-                        ranks = [r for r in ranks if r is not None]
-                        return (-len(es), min(ranks) if ranks else 99, k)
-                    if lock_key is None:
-                        lock_key = sorted(groups.items(), key=gkey)[0][0]
-                    ranked = groups.get(lock_key, [])
-                else:
-                    ranked = []
-            # Gaming: first pass prefers distinct games / publishers.
+        state = {"dialogue": 0}
+
+        def rank(e):
+            v = self.state.d["vet"].get(e["id"])
+            if v is not None and not v.get("accept"):
+                return None
+            mp = self.manual.get(e["id"])
+            if mp is not None and not mp["accept"]:
+                return None
+            # strongly prefer sources unused in the last 3 days so trailer 1/2 aren't re-picked
+            uses = self.state.source_uses(e["id"], days=3)
+            unused_penalty = 0 if uses == 0 else 20 + uses
+            # clips already on disk (box release / cache) first: no runner download, no bot check
+            local = -3.0 if self.local_file(e["id"]) else 0.0
+            cached = -1.0 if v and v.get("accept") else 0.0  # already-vetted: no Gemini cost
+            extra = 0.0
             if category == "gaming":
-                unique, dup = [], []
-                seen = set()
-                for e in ranked:
-                    w = work_title(e.get("title") or "", "gaming") or e.get("id")
-                    if w in seen:
-                        dup.append(e)
-                    else:
-                        seen.add(w)
-                        unique.append(e)
-                ranked = unique + dup
+                if is_gta_title(e.get("title") or ""):
+                    extra += 80  # GTA belongs in the gta category, not "other games"
+                ch = (e.get("channel") or e.get("credit") or "").lower()
+                if "rockstar" in ch:
+                    extra += 4  # keep Rockstar, but don't fill the video with only RDR
+            return unused_penalty + rng.random() * 0.5 + local + cached + extra
+
+        def take(ranked: list[dict]):
             for e in ranked:
-                if len(picked) >= want and dialogue >= need_dialogue:
+                if len(picked) >= want and state["dialogue"] >= need_dialogue:
                     break
-                if not self.local_file(e["id"]):
+                if any(p.get("src_id") == e["id"] for p in picked):
+                    continue
+                local = self.local_file(e["id"])
+                if not local:
+                    if self.runner_blocked:
+                        self.stats["runner_skipped"] += 1
+                        continue  # don't spend Gemini quota on clips the runner can't download
                     try:
                         if not self.pre_vet(e, category):
                             continue
@@ -772,6 +845,8 @@ class Sourcer:
                     continue
                 if not v.get("accept"):
                     continue
+                if e.get("via") in ("box-fetch", "pool"):
+                    self.stats["box_clips_used"] += 1
                 chunks = self.chunk_long(e["id"], path, v["duration"])
                 rng.shuffle(chunks)
                 for cid, cpath in chunks[:2]:
@@ -785,7 +860,62 @@ class Sourcer:
                                    "title": v.get("title"), "url": v.get("url"), "mood": v.get("mood"),
                                    "summary": v.get("summary"), "bad_ranges": bad,
                                    "has_dialogue": v.get("has_dialogue")})
-                    dialogue += 1 if v.get("has_dialogue") else 0
+                    state["dialogue"] += 1 if v.get("has_dialogue") else 0
+
+        for fallback in (False, True):
+            cands = self.candidates(category, fallback)
+            if fallback:
+                if len(picked) >= want:
+                    break
+                self.stats["fallback_used"] = True
+                if category not in self.stats["thin"]:
+                    self.stats["thin"].append(category)
+                log(f"content thin for {category} ({len(picked)}/{want}) -> fallback search ({len(cands)} candidates)")
+            # prefer box clips, then already-accepted, then never-vetted; rotate by recent use; never retry rejects
+            ranked = sorted((e for e in cands if rank(e) is not None), key=rank)
+            if category in SINGLE_WORK_CATEGORIES or category == "sports":
+                groups: dict[str, list[dict]] = {}
+                for e in ranked:
+                    if category == "sports":
+                        k = player_name(e.get("title") or "", e.get("channel") or e.get("credit") or "")
+                        if not k:
+                            continue
+                    else:
+                        k = work_title(e.get("title") or "", category) or e.get("id")
+                    groups.setdefault(k, []).append(e)
+
+                def gkey(kv):
+                    k, es = kv
+                    ranks = [r for r in (rank(x) for x in es) if r is not None]
+                    local = sum(1 for x in es if self.local_file(x["id"]))
+                    return (-local, -len(es), min(ranks) if ranks else 99, k)
+                order = [k for k, _ in sorted(groups.items(), key=gkey)]
+                if lock_key is not None:
+                    order = [lock_key] if lock_key in groups else []
+                if not order and category == "sports":
+                    log("sports: no candidate names a star player" + (" (fallback)" if fallback else ""))
+                for i, k in enumerate(order[:6]):
+                    before = len(picked)
+                    take(groups[k])
+                    if len(picked) > before:
+                        lock_key = k
+                        if i:
+                            log(f"{category}: top group had no usable clips -> fell back to '{k}'")
+                        break
+            else:
+                # Gaming: first pass prefers distinct games / publishers.
+                if category == "gaming":
+                    unique, dup = [], []
+                    seen = set()
+                    for e in ranked:
+                        w = work_title(e.get("title") or "", "gaming") or e.get("id")
+                        if w in seen:
+                            dup.append(e)
+                        else:
+                            seen.add(w)
+                            unique.append(e)
+                    ranked = unique + dup
+                take(ranked)
         return picked
 
     def cleanup(self, keep_gb: float = 12.0):

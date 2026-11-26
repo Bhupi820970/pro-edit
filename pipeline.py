@@ -51,12 +51,21 @@ def ready_unposted(state: State, platform: str) -> list:
     return [v for v in state.videos(platform, "ready") if v["id"] not in posted]
 
 
-def pick_category(state: State, platform: str) -> str:
-    mix = CFG["platforms"][platform]["mix"]
+def pick_category(state: State, platform: str, skip=()) -> str | None:
+    """Daily mix: fill each category's minimum, then up to its maximum (random order).
+
+    Only videos that passed QA count toward today's mix (a QA-failed render is not a video), and
+    categories in `skip` (no usable sources this run) are left out so the run falls back to another
+    category instead of retrying a dead one for hours. None = every mix category is skipped.
+    """
+    mix = {c: r for c, r in CFG["platforms"][platform]["mix"].items() if c not in set(skip)}
+    if not mix:
+        return None
     done = {}
     for v in state.produced_today(platform):
+        if v.get("state") in ("qa_failed", "rejected"):
+            continue
         done[v["category"]] = done.get(v["category"], 0) + 1
-    # first fill each category's minimum, then up to its maximum, in random order
     cats = list(mix)
     random.shuffle(cats)
     for c in cats:
@@ -65,7 +74,7 @@ def pick_category(state: State, platform: str) -> str:
     for c in cats:
         if done.get(c, 0) < mix[c][1]:
             return c
-    return max(mix, key=lambda c: mix[c][1])
+    return max(mix, key=lambda c: (mix[c][1], c))
 
 
 def make_preview(src: Path, dst: Path, fmt: str, max_mb: float = 24.0):
@@ -100,15 +109,15 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
     if category in SINGLE_WORK_CATEGORIES:
         clips = restrict_to_single_work(clips, category, attempt_seed)
         if not clips:
-            raise RuntimeError(f"no clips of a single title for {category}")
+            raise CategoryUnavailable(f"no clips of a single title for {category}", category)
     elif category == "sports":
         clips = restrict_to_single_player(clips, attempt_seed)
         if not clips:
-            raise RuntimeError("no clips of a single star player for sports")
+            raise CategoryUnavailable("no clips of a single star player for sports", category)
         if not any(c.get("has_dialogue") for c in clips):
-            raise RuntimeError("sports edit needs a spoken interview/press clip of the same player")
+            raise CategoryUnavailable("sports edit needs a spoken interview/press clip of the same player", category)
     elif len(clips) < 2:
-        raise RuntimeError(f"only {len(clips)} clean sources for {category}")
+        raise CategoryUnavailable(f"only {len(clips)} clean sources for {category}", category)
     if not any(c.get("has_dialogue") for c in clips):
         log("warning: no clip with dialogue; edit will be montage-only (no captions)")
     banned = set()
@@ -186,6 +195,46 @@ class QAFail(RuntimeError):
     pass
 
 
+class CategoryUnavailable(RuntimeError):
+    """Not enough clean, vetted sources for this category right now (try another category)."""
+
+    def __init__(self, msg: str, category: str):
+        super().__init__(msg)
+        self.category = category
+
+
+def write_manual_pick(sourcer, platform: str, quota_out: bool) -> Path:
+    """queue/needs_manual_pick.json: categories + candidates Gemini could not check (quota).
+
+    Written every run (empty `categories` when nothing is waiting) so a stale request never lingers.
+    """
+    doc = sourcer.manual_pick_doc(platform)
+    if not quota_out and not doc["categories"]:
+        doc["reason"] = "nothing waiting: Gemini checked every clip this run"
+    out = home() / "queue" / "needs_manual_pick.json"
+    save_json(out, doc)
+    n = sum(len(v) for v in doc["categories"].values())
+    if n:
+        log(f"gemini quota out: {n} clip(s) in {sorted(doc['categories'])} need a manual pick -> queue/needs_manual_pick.json")
+    return out
+
+
+def merge_manual_pick(inputs: list[str], out: Path) -> dict:
+    """Combine per-platform needs_manual_pick.json files into one queue file (pipeline-state)."""
+    merged = load_json(out, {}) or {}
+    if not isinstance(merged, dict):
+        merged = {}
+    plats = merged.get("platforms") if isinstance(merged.get("platforms"), dict) else {}
+    for f in inputs:
+        d = load_json(Path(f), None)
+        if isinstance(d, dict) and d.get("platform") in CFG["platforms"]:
+            plats[d["platform"]] = d
+    merged = {"updated": now_local().isoformat(), "platforms": plats,
+              "waiting": sum(len(c) for d in plats.values() for c in (d.get("categories") or {}).values())}
+    save_json(out, merged)
+    return merged
+
+
 def box_health() -> dict:
     hb = load_json(home() / "sources" / "box_heartbeat.json", None)
     if not hb:
@@ -227,10 +276,13 @@ def write_status(state: State, extra: dict | None = None) -> dict:
     return st
 
 
-def queue_fetch(gem, sourcer, platform: str, made: list, fails: list):
-    """Ask the box downloader for more clips when sourcing was thin or the runner was blocked."""
+def queue_fetch(gem, sourcer, platform: str, made: list, fails: list, extra_cats=()):
+    """Ask the box downloader for more clips when sourcing was thin or the runner was blocked.
+
+    Gemini writes the search queries when it has quota; otherwise the category's seed searches are used."""
     from pipeline_lib.sourcing import gemini_queries
     cats = list(sourcer.stats.get("thin", []))
+    cats += [c for c in extra_cats if c not in cats and c in CFG["categories"]]
     if sourcer.stats.get("download_failed") and not cats:
         cats = list({f.split(":")[0] for f in []} or {v["category"] for v in made} or
                     [c for c in CFG["platforms"][platform]["mix"]])[:2]
@@ -331,10 +383,12 @@ def pool_sync(repo: str, max_gb: float = 8.0, per_cat: int = 15):
                              "channel": v.get("channel"), "credit": v.get("credit"), "category": v.get("category"),
                              "via": "pool", "added": now_local().isoformat(), "by": "actions",
                              "vet": {"accept": True, "mood": v.get("mood"), "has_dialogue": v.get("has_dialogue")}})
-    # prune oldest per category
+    # prune per category down to per_cat: clips Gemini rejected go first, then the oldest
     drop = []
+    rejected = {sid for sid, v in s.d["vet"].items() if v.get("accept") is False}
     for cat in CFG["categories"]:
-        items = sorted((m for m in man["clips"] if m.get("category") == cat), key=lambda m: m.get("added", ""))
+        items = sorted((m for m in man["clips"] if m.get("category") == cat),
+                       key=lambda m: (m.get("id") not in rejected, m.get("added", "")))
         drop += items[:-per_cat] if len(items) > per_cat else []
     if up or drop:
         if run(["gh", "release", "view", "sources", "--repo", repo], check=False).returncode != 0:
@@ -368,25 +422,44 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
 
     max_attempts = (count or target or 1) * 4 + 2
     attempts = 0
+    skip: set[str] = set()          # categories with no usable sources this run
+    cat_fails: dict[str, int] = {}
+    forced = a.category
     while more() and attempts < max_attempts:
         attempts += 1
         seed = random.randrange(1 << 30)
+        cat = forced if forced and forced not in skip else pick_category(state, a.platform, skip)
+        if cat is None:
+            log(f"no category has usable sources right now (skipped: {sorted(skip)}) -> stop, box fetcher refills")
+            break
         try:
-            made.append(produce_one(a.platform, a.category, state, gem, sourcer, seed))
+            made.append(produce_one(a.platform, cat, state, gem, sourcer, seed))
         except Exception as ex:   # never a failed slot: log and retry with new sources / song / seed
             msg = f"{type(ex).__name__}: {str(ex)[:300]}"
             log("attempt failed, retrying with different sources/song:", msg)
-            if not isinstance(ex, QAFail):
+            if not isinstance(ex, (QAFail, CategoryUnavailable)):
                 log(traceback.format_exc()[-1500:])
             state.d.setdefault("failures", []).append({"at": now_local().isoformat(), "platform": a.platform,
-                                                       "category": a.category, "error": msg})
+                                                       "category": cat, "error": msg})
             fails.append(msg)
             state.save()
+            if isinstance(ex, CategoryUnavailable):
+                cat_fails[cat] = cat_fails.get(cat, 0) + 1
+                # quota out: Gemini can't vet anything new, so one miss is enough; else allow one retry
+                if cat_fails[cat] >= (1 if gem.quota_exhausted() else 2):
+                    skip.add(cat)
+                    nxt = pick_category(state, a.platform, skip)
+                    log(f"category {cat}: no usable sources -> fallback to {nxt or 'nothing (all skipped)'}")
         sourcer.cleanup(CFG.get("source_cache_gb", 12))
     extra = {"platform": a.platform, "made": [v["id"] for v in made], "failures": fails,
              "sourcing": sourcer.stats, "gemini_calls": [{"key": k, "model": m, "ok": ok, "note": n}
                                                          for k, m, ok, n in gem.calls[-60:]]}
-    queue_fetch(gem, sourcer, a.platform, made, fails)
+    extra["skipped_categories"] = sorted(skip)
+    try:
+        queue_fetch(gem, sourcer, a.platform, made, fails, extra_cats=sorted(skip))
+    except Exception as ex:
+        log("queue_fetch failed:", str(ex)[:200])
+    write_manual_pick(sourcer, a.platform, gem.quota_exhausted())
     st = write_status(state, extra)
     save_json(home() / "logs" / f"run_{now_local().strftime('%Y%m%d-%H%M%S')}_{a.platform}.json", extra)
     from pipeline_lib.cleanup import sweep
@@ -411,6 +484,9 @@ def main(argv=None):
     sub.add_parser("status")
     p = sub.add_parser("pool-sync")
     p.add_argument("--repo", default=os.environ.get("GITHUB_REPOSITORY", "Bhupi820970/pro-edit"))
+    p = sub.add_parser("merge-manual-pick")
+    p.add_argument("--inputs", nargs="+", required=True)
+    p.add_argument("--out", required=True)
     p = sub.add_parser("merge-status")
     p.add_argument("--inputs", nargs="+", required=True)
     p.add_argument("--out", required=True)
@@ -429,6 +505,10 @@ def main(argv=None):
         return 0
     if a.cmd == "pool-sync":
         pool_sync(a.repo)
+        return 0
+    if a.cmd == "merge-manual-pick":
+        m = merge_manual_pick(a.inputs, Path(a.out))
+        print(f"needs_manual_pick: {m['waiting']} clip(s) waiting")
         return 0
     if a.cmd == "merge-status":   # combine per-platform status.json files (Actions state branch)
         out = {"updated": now_local().isoformat(), "timezone": "Asia/Calcutta (IST)", "platforms": {}, "ready": [],

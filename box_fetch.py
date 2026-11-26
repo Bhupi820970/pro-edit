@@ -18,7 +18,8 @@ cached pool in the `sources` release -> the 7-video ready buffer covers the gap.
   python3 box_fetch.py once --category gta --limit 4 [--links urls.txt] [--query "..."]
   python3 box_fetch.py songs                         # top up official audio into draft release "songs"
   python3 box_fetch.py sync                          # re-upload local / re-download clips missing from "sources"
-  python3 box_fetch.py loop --interval 3600          # what scripts/box_fetch_service.sh runs
+  python3 box_fetch.py cycle --no-gemini --interval 10800   # what box/fetch_sources.sh (crontab) runs
+  python3 box_fetch.py loop --interval 3600          # old background loop (scripts/box_fetch_service.sh)
   bash scripts/box_fetch_service.sh start|stop|status|logs   # one command after a box reset: start
 
 --cookies-from-browser is OFF by default (opt-in; yt-dlp then reads the local browser cookies for that
@@ -28,7 +29,7 @@ footage stays private even if the repo is public. Never publish those drafts.
 
 Security (see SECURITY.md): this script never runs code or commands from the repo, issues, PRs or
 Gemini. It only reads a JSON queue (owner commits, or workflow-bot commits tied to a produce.yml run), validates every URL (https
-youtube.com / youtu.be / x.com / twitter.com, <=200 chars, no shell characters) and query, and calls
+youtube.com / youtu.be only, <=200 chars, no shell characters) and query, and calls
 yt-dlp with an argument list (never shell=True). The box never auto-pulls code; update it with
 scripts/box_update.sh, which only fast-forwards main when the commits are authored by the owner.
 """
@@ -55,14 +56,15 @@ CFG = json.loads((HERE / "config" / "pipeline.json").read_text())
 TAG = "sources"
 OWNER = "Bhupi820970"
 # Queue commits: owner, or the workflow bot + a produce.yml run check (see pipeline_lib/queue_trust.py).
-URL_RX = re.compile(r"^https://(www\.|m\.|mobile\.)?(youtube\.com/(watch\?v=[\w-]{11}|shorts/[\w-]{11})|"
-                    r"youtu\.be/[\w-]{11}|(x|twitter)\.com/\w{1,30}/status/\d{5,25})([?&][\w=&%.-]{0,60})?$")
+# URL allowlist: plain https YouTube video links only (youtube.com watch/shorts, youtu.be).
+URL_RX = re.compile(r"^https://(www\.|m\.)?(youtube\.com/(watch\?v=[\w-]{11}|shorts/[\w-]{11})|"
+                    r"youtu\.be/[\w-]{11})([?&][\w=&%.-]{0,60})?$")
 QUERY_RX = re.compile(r"^[\w '.,:!?()&-]{3,120}$")
 BAD_CHARS = set(";|`$<>\\\"{}[]*\n\r\t")
 
 
 def safe_url(u) -> str | None:
-    """Only plain https YouTube / X links; anything else (shell chars, other hosts, options) is dropped."""
+    """Only plain https YouTube links; anything else (shell chars, other hosts, options) is dropped."""
     if not isinstance(u, str) or len(u) > 200 or u.startswith("-") or set(u) & BAD_CHARS:
         return None
     return u if URL_RX.match(u) else None
@@ -134,6 +136,42 @@ def asset_covers(sid: str, filename: str, assets: set[str]) -> bool:
     return False
 
 
+def usable_for(category: str, title: str, channel: str = "") -> bool:
+    """Same title rules the Actions pipeline applies (pipeline_lib/sourcing.py candidates/gather), so the
+    box never fills the pool with clips the runner throws away: no trailers / teasers / promos anywhere,
+    no GTA in "gaming", and sports clips must name a star player (sports edits lock to one player)."""
+    from pipeline_lib.titles import is_gta_title, is_trailer_title, player_name
+    title = title or ""
+    if is_trailer_title(title):
+        return False
+    if category == "gaming" and is_gta_title(title):
+        return False
+    if category == "sports" and not player_name(title, channel or ""):
+        return False
+    return True
+
+
+def rejected_from_states(states: list) -> set[str]:
+    """Source ids Gemini (or a manual pick) rejected in the Actions state files — plain JSON data only."""
+    out = set()
+    for d in states:
+        vet = d.get("vet") if isinstance(d, dict) else None
+        if not isinstance(vet, dict):
+            continue
+        for sid, v in vet.items():
+            if isinstance(v, dict) and v.get("accept") is False and isinstance(sid, str):
+                out.add(sid.split("_c")[0] if re.fullmatch(r"[\w-]{11}_c\d+", sid) else sid)
+    return out
+
+
+def usable_pool(man: dict, assets: set[str], rejected: set[str], category: str) -> set[str]:
+    """Clip ids in the release that the runner can actually use for `category`."""
+    return {m["id"] for m in (man.get("clips") or []) if isinstance(m, dict) and m.get("category") == category
+            and m.get("id") not in rejected
+            and asset_covers(m.get("id") or "", m.get("file") or "", assets)
+            and usable_for(category, m.get("title") or "", m.get("channel") or m.get("credit") or "")}
+
+
 def local_media(directory: Path, sid: str, exts: set[str], min_size: int = 1000) -> Path | None:
     if not sid:
         return None
@@ -150,6 +188,7 @@ class Box:
         self.dir = a.dir
         self.dir.mkdir(parents=True, exist_ok=True)
         self.extra = ["--cookies-from-browser", a.cookies_from_browser] if a.cookies_from_browser else []
+        self.rejected: set[str] = set()
 
     # ------------------------------------------------------------ release helpers
     def ensure_release(self):
@@ -202,6 +241,23 @@ class Box:
             if attempt < 3:
                 time.sleep(1.2 * attempt)
         return None, reason
+
+    def load_rejected(self) -> set[str]:
+        """Ids Gemini rejected, read from pipeline-state {youtube,instagram}/state.json (data only)."""
+        states = []
+        for plat in CFG["platforms"]:
+            r = gh("api", f"repos/{self.repo}/contents/{plat}/state.json?ref=pipeline-state",
+                   "-H", "Accept: application/vnd.github.raw", check=False, timeout=120)
+            if r.returncode != 0:
+                log(f"rejected list: could not read {plat}/state.json -> treating as empty")
+                continue
+            try:
+                states.append(json.loads(r.stdout))
+            except Exception:
+                log(f"rejected list: {plat}/state.json is not JSON -> ignored")
+        self.rejected = rejected_from_states(states)
+        log(f"rejected list: {len(self.rejected)} source id(s) Gemini rejected (not counted, not re-fetched)")
+        return self.rejected
 
     def release_assets(self, tag: str) -> set[str] | None:
         """Asset names on a release. Empty set if the release does not exist; None if the lookup failed."""
@@ -282,12 +338,10 @@ class Box:
         return len(got)
 
     def _pool_count(self, man: dict, assets: set[str] | None) -> dict:
-        clips = man.get("clips") or []
+        """Usable clips per category (same rules as the top-up)."""
         names = assets if assets is not None else set()
-        return {cat: len({m["id"] for m in clips if isinstance(m, dict)
-                          and m.get("category") == cat
-                          and asset_covers(m.get("id") or "", m.get("file") or "", names)})
-                for cat in CFG["categories"]}
+        rejected = getattr(self, "rejected", set())
+        return {cat: len(usable_pool(man, names, rejected, cat)) for cat in CFG["categories"]}
 
     def queue(self) -> list[dict]:
         """Read the plain-JSON queue (data only — never executed). The last commit touching each queue
@@ -334,7 +388,7 @@ class Box:
         queries = [q for q in (safe_query(x) for x in queries) if q]
         for u in links:
             m = re.search(r"(?:v=|youtu\.be/|shorts/)([\w-]{11})", u)
-            sid = m.group(1) if m else ("x" + re.search(r"status/(\d+)", u).group(1) if "status/" in u else None)
+            sid = m.group(1) if m else None
             if sid:
                 cands.append({"id": sid, "url": u, "title": "", "channel": "", "via": "box-queue-link"})
         for ch in c.get("channels", []):
@@ -363,10 +417,14 @@ class Box:
             except Exception as ex:
                 log("gemini discovery skipped:", str(ex)[:120])
         got, recs = [], []
+        skip_ids = getattr(self, "rejected", set())
         for e in cands:
             if len(got) >= limit:
                 break
-            if e["id"] in have:
+            if not e.get("id") or e["id"] in have or e["id"] in skip_ids:
+                continue
+            if not usable_for(category, e.get("title") or "", e.get("channel") or e.get("credit") or "") \
+                    and e.get("via") != "box-queue-link":
                 continue
             have.add(e["id"])
             out = self.dir / f"{e['id']}.%(ext)s"
@@ -519,11 +577,14 @@ class Box:
         # cannot hide an empty GitHub pool.
         man = self.manifest()
         assets = self.release_assets(TAG) or set()
+        rejected = self.load_rejected()
+        cap = max(1, int(os.environ.get("BOX_FETCH_MAX_PER_CAT", "8") or 8))
         for cat, tgt in POOL_TARGET.items():
-            have = {m["id"] for m in man["clips"] if isinstance(m, dict) and m.get("category") == cat
-                    and asset_covers(m.get("id") or "", m.get("file") or "", assets)}
-            while len(have) < tgt:
-                need = tgt - len(have)
+            # usable = in the release, not rejected by Gemini, and passes the runner's title rules
+            have = usable_pool(man, assets, rejected, cat)
+            fetched_cat = 0
+            while len(have) < tgt and fetched_cat < cap:
+                need = min(tgt - len(have), cap - fetched_cat)
                 try:
                     recs = self.fetch(cat, need, use_gemini=False)
                 except Exception as ex:
@@ -533,11 +594,11 @@ class Box:
                     log(f"pool {cat}: no more official candidates ({len(have)}/{tgt})")
                     break
                 fetched += len(recs)
+                fetched_cat += len(recs)
                 have |= {r["id"] for r in recs}
                 man = self.manifest()
                 assets = self.release_assets(TAG) or set()
-                have |= {m["id"] for m in man["clips"] if isinstance(m, dict) and m.get("category") == cat
-                         and asset_covers(m.get("id") or "", m.get("file") or "", assets)}
+                have |= usable_pool(man, assets, rejected, cat)
         try:
             fetched += self.fetch_songs()
             # per-genre stock: refill any genre at/below stock.refill_at from curated seeds (box cookies)

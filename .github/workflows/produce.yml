@@ -74,6 +74,8 @@ jobs:
       GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
       GH_TOKEN: ${{ github.token }}
       PYTHONUNBUFFERED: "1"
+      # after this many YouTube bot checks the runner stops downloading and uses only box clips
+      VICE_RUNNER_BOT_LIMIT: "4"
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
@@ -124,8 +126,12 @@ jobs:
           if git ls-remote --exit-code --heads "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" pipeline-state > /dev/null; then
             git fetch -q "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" pipeline-state
             git show "FETCH_HEAD:${{ matrix.platform }}/state.json" > "$VICE_PIPELINE_HOME/state.json" 2>/dev/null || rm -f "$VICE_PIPELINE_HOME/state.json"
+            # manual picks (plain JSON data, used only while Gemini is out of quota; see queue/needs_manual_pick.json)
+            mkdir -p "$VICE_PIPELINE_HOME/queue"
+            git show "FETCH_HEAD:queue/manual_picks.json" > "$VICE_PIPELINE_HOME/queue/manual_picks.json" 2>/dev/null || rm -f "$VICE_PIPELINE_HOME/queue/manual_picks.json"
           fi
-          # clips the box fetched (box_fetch.py -> DRAFT release "sources"); Gemini still vets each one
+          # clips the box fetched (box/fetch_sources.sh cron -> box_fetch.py -> DRAFT release "sources").
+          # These are used FIRST; runner YouTube downloads are only a fallback. Gemini still vets each one.
           mkdir -p "$VICE_PIPELINE_HOME/sources"
           gh release download sources --dir "$VICE_PIPELINE_HOME/sources" --skip-existing 2>/dev/null || true
           gh release download sources --pattern manifest.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
@@ -194,6 +200,10 @@ jobs:
             cp "$VICE_PIPELINE_HOME/state.json" "$P/" 2>/dev/null || true
             cp "$VICE_PIPELINE_HOME/status.json" "$P/" 2>/dev/null || true
             cp "$VICE_PIPELINE_HOME/fetch_queue.json" "$P/" 2>/dev/null || true
+            if [ -f "$VICE_PIPELINE_HOME/queue/needs_manual_pick.json" ]; then
+              mkdir -p queue
+              python "$GITHUB_WORKSPACE/pipeline.py" merge-manual-pick --inputs "$VICE_PIPELINE_HOME/queue/needs_manual_pick.json" --out queue/needs_manual_pick.json || true
+            fi
             cp "$VICE_PIPELINE_HOME"/logs/*.json "$VICE_PIPELINE_HOME"/logs/*.log "$P/logs/" 2>/dev/null || true
             python "$GITHUB_WORKSPACE/pipeline.py" merge-status --inputs youtube/status.json instagram/status.json --out status.json || true
             git add -A && git -c user.name=vice-pipeline-bot -c user.email=actions@users.noreply.github.com commit -qm "state: $P run ${{ github.run_id }}" || true

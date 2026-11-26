@@ -29,7 +29,12 @@ This repo is designed to be safe even if it is made **public**.
 * `main` is protected (no force-push, no deletion) once the repo is public. Enable GitHub secret scanning and
   push protection.
 
-## Box fetcher (`box_fetch.py`)
+## Box fetcher (`box_fetch.py`, run by `box/fetch_sources.sh` from crontab)
+* Plain script, no AI on the box: `box_fetch.py cycle --no-gemini`. Gemini search queries only arrive as data in
+  the trust-checked `fetch_queue.json` written by produce runs.
+* `box/fetch_sources.sh` reads box-only settings from `/workspace/gta6/box_fetch/box.env` (outside git) by
+  parsing a fixed set of `KEY=value` names with a strict value pattern — the file is never sourced or executed.
+  No account names, passwords or browser data are stored in the repo.
 * Never executes commands or code taken from the repo, issues, PRs, release assets or Gemini output.
 * Reads only a plain JSON queue (`<platform>/fetch_queue.json` on branch `pipeline-state`). The last commit
   touching each queue file must be an ancestor of `pipeline-state` and either (a) authored by the owner
@@ -39,7 +44,7 @@ This repo is designed to be safe even if it is made **public**.
   event is `push`, `schedule`, or `workflow_dispatch` (never PR events). Anything that fails is ignored.
   Queue entries are still schema-validated (URLs, queries, limits) and are never executed.
 * Every entry is validated: category must exist in `config/pipeline.json`; URLs must be plain `https://` links on
-  `youtube.com` / `youtu.be` / `x.com` / `twitter.com` matching a strict pattern, ≤ 200 chars, no shell
+  `youtube.com` / `youtu.be` only (watch / shorts / youtu.be video ids) matching a strict pattern, ≤ 200 chars, no shell
   metacharacters, not starting with `-`; queries ≤ 120 chars from a safe character set; limit 1–5.
 * yt-dlp is called through `subprocess.run([...])` with an argument list — never `shell=True`.
 * The box never auto-updates its code. `scripts/box_update.sh` fast-forwards from `origin/main` only, and only if

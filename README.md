@@ -157,7 +157,18 @@ previews + logs also as a run artifact; `state.json` / `status.json` are committ
 YouTube often bot-checks GitHub runners: the workflow installs the latest yt-dlp + the bgutil PO-token provider,
 and `sourcing.ytdlp()` retries with alternate player clients. If it is still blocked, run `box_fetch.py` on the box.
 
-## box_fetch.py (box fallback)
+## box_fetch.py (box downloader, crontab)
+On the box, `box/ensure_cron.sh` installs cron (if missing) and this crontab line (box clock = IST):
+`50 1-23/3 * * * /workspace/gta6/vicestyle/box/fetch_sources.sh` — 40 min before each produce slot.
+`box/fetch_sources.sh` runs `box_fetch.py cycle --no-gemini` (no AI on the box) with a lock, low priority and a
+170-minute cap; log: `/workspace/gta6/box_fetch/fetch_sources.log`. The pool counts only clips Gemini has not
+rejected and that pass the runner's title rules (no trailers, sports clips must name a star player).
+produce.yml uses these release clips FIRST; runner YouTube downloads are a fallback and stop for the run after
+`VICE_RUNNER_BOT_LIMIT` bot checks. If every Gemini key is out of quota, the run writes
+`queue/needs_manual_pick.json` (branch `pipeline-state`) with the category + candidate clips; a bot can answer with
+`queue/manual_picks.json` and the next run uses those picks. A category with no usable sources is skipped for the
+rest of the run (sports: next star player first, then another category) so a run never burns hours on one genre.
+
 Runs on the box, finds clips with the same queries (config channels/search + Gemini discovery + your links),
 downloads with yt-dlp and uploads them + `manifest.json` to release tag `sources`. The workflow pulls that release
 into its source cache; Gemini still vets every clip. `--cookies-from-browser` is opt-in and local only
