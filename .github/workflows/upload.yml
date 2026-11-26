@@ -144,7 +144,7 @@ jobs:
         run: rm -rf /tmp/vc-stock /tmp/vc-xfer
 
       - name: Warn and refill if stock is under 3
-        if: always() && steps.up.outputs.low_stock == 'true'
+        if: always() && steps.up.outputs.low_stock == 'true' && github.event.inputs.dry_run != 'true'
         run: |
           echo "::warning::Ready stock is under 3 (YouTube ${{ steps.up.outputs.stock_youtube }}, Instagram ${{ steps.up.outputs.stock_instagram }}). Triggering produce.yml to refill."
           timeout 30 gh workflow run produce.yml --repo "$GITHUB_REPOSITORY" -f platform=both -f mode=ensure
