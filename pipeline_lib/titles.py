@@ -166,7 +166,7 @@ def restrict_to_single_work(clips: list[dict], category: str, seed: int = 0) -> 
         return list(clips)
     groups: dict[str, list[dict]] = defaultdict(list)
     for c in clips:
-        key = work_title(_clip_title(c), category) or c.get("id") or c.get("src_id") or "unknown"
+        key = c.get("work") or work_title(_clip_title(c), category) or c.get("id") or c.get("src_id") or "unknown"
         groups[key.lower()].append(c)
     return _pick_largest_group(groups, seed)
 

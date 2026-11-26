@@ -722,11 +722,14 @@
     }
   },
   "pool_target": {
-    "gta": 15,
-    "gaming": 15,
-    "movie": 15,
-    "sports": 15,
-    "romance": 15,
-    "series": 15
-  }
+    "gta": 40,
+    "gaming": 40,
+    "movie": 40,
+    "sports": 40,
+    "romance": 40,
+    "series": 40
+  },
+  "attempt_max_min": 10,
+  "render_max_min": 15,
+  "source_cache_gb": 24
 }

@@ -113,10 +113,10 @@ class SeedAndPoolTests(unittest.TestCase):
                 keys = {a[0] for a in avoided}
                 self.assertIn("QdBZY2fkU-0", keys)
 
-    def test_pool_target_15_and_queries_safe(self):
+    def test_pool_target_40_and_queries_safe(self):
         self.assertTrue(all(v >= 15 for v in POOL_TARGET.values()))
         cfg = json.loads((HERE / "config" / "pipeline.json").read_text())
-        self.assertEqual(cfg["pool_target"]["gta"], 15)
+        self.assertEqual(cfg["pool_target"]["gta"], 40)
         # GTA title filter includes V / Online, not only VI trailers
         tre = cfg["categories"]["gta"]["channels"][0]["title_re"]
         self.assertIn("GTA Online", tre)

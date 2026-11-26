@@ -790,7 +790,8 @@ class Sourcer:
         return out
 
     # ---------------------------------------------------------------- main entry
-    def gather(self, category: str, seed: int, want: int, need_dialogue: int = 1) -> list[dict]:
+    def gather(self, category: str, seed: int, want: int, need_dialogue: int = 1,
+               chunks_per_source: int = 2) -> list[dict]:
         """Return `want` vetted clean clips: [{id, path, credit, title, url, mood, bad_ranges, has_dialogue}].
 
         Box clips (release "sources", already on disk) are tried first; runner YouTube downloads are only
@@ -855,7 +856,7 @@ class Sourcer:
                     self.stats["box_clips_used"] += 1
                 chunks = self.chunk_long(e["id"], path, v["duration"])
                 rng.shuffle(chunks)
-                for cid, cpath in chunks[:2]:
+                for cid, cpath in chunks[:max(1, chunks_per_source)]:
                     off = 0.0
                     m = re.search(r"_c(\d+)$", cid)
                     if m:
@@ -865,7 +866,7 @@ class Sourcer:
                     picked.append({"id": cid, "src_id": e["id"], "path": str(cpath), "credit": v.get("credit"),
                                    "title": v.get("title"), "url": v.get("url"), "mood": v.get("mood"),
                                    "summary": v.get("summary"), "bad_ranges": bad,
-                                   "has_dialogue": v.get("has_dialogue")})
+                                   "has_dialogue": v.get("has_dialogue"), "work": e.get("work")})
                     state["dialogue"] += 1 if v.get("has_dialogue") else 0
 
         for fallback in (False, True):
@@ -887,7 +888,8 @@ class Sourcer:
                         if not k:
                             continue
                     else:
-                        k = work_title(e.get("title") or "", category) or e.get("id")
+                        # box title groups: the 2-3 extra videos of one title share "work"
+                        k = (e.get("work") or work_title(e.get("title") or "", category) or e.get("id"))
                     groups.setdefault(k, []).append(e)
 
                 def gkey(kv):

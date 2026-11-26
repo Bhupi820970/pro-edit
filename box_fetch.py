@@ -181,6 +181,49 @@ def local_media(directory: Path, sid: str, exts: set[str], min_size: int = 1000)
     return None
 
 
+MEDIA_EXT = (".mkv", ".mp4", ".webm", ".part", ".ytdl")
+SIBLING_CATS = {"movie", "series", "romance", "gaming", "sports"}
+
+
+def free_gb(path: Path) -> float:
+    st = os.statvfs(str(path))
+    return st.f_bavail * st.f_frsize / 1e9
+
+
+def prune_own_media(directory: Path, older_than_s: float) -> int:
+    """Delete ONLY this fetcher's own leftover downloads (top level of its run dir, video/partial files).
+    Clips are uploaded to the release and removed right after, so anything left here is a crashed/partial
+    download. Never touches anything outside `directory` (no backups, no other videos)."""
+    n = 0
+    now = time.time()
+    for f in directory.iterdir():
+        if f.is_file() and not f.is_symlink() and f.suffix.lower() in MEDIA_EXT and \
+                now - f.stat().st_mtime > older_than_s:
+            f.unlink(missing_ok=True)
+            n += 1
+    return n
+
+
+def title_key(category: str, title: str, channel: str = "") -> str:
+    """Group key for the 2-3 extra videos of one movie / series / game / star player."""
+    from pipeline_lib.titles import _CHANNEL_BITS, player_name, work_title
+    if category == "sports":
+        return (player_name(title or "", channel or "") or "").strip()
+    t = (title or "").replace("\u2013", "-").replace("\u2014", "-")
+    parts = [x.strip() for x in t.split("|") if x.strip()]
+    parts = [x for x in parts if not _CHANNEL_BITS.match(x) and not re.match(r"(?i)^(movieclips|official\b)", x)
+             and (channel or "").strip().lower() != x.lower()]
+    if not parts:
+        return ""
+    name = re.split(r"\s+-\s+|:\s+(?=(?:official|the\s+)?\w+\s+(?:scene|clip|gameplay|trailer)\b)",
+                    parts[0], maxsplit=1, flags=re.I)[0]
+    name = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", name)
+    name = re.sub(r"(?i)\b(official|gameplay|full\s+scene|scene|clip|4k|hd)\b.*$", " ", name)
+    name = work_title(re.sub(r"\s+", " ", name).strip(" -:"), category) or ""
+    name = re.sub(r"\s+", " ", name).strip(" -:")
+    return name if len(name) >= 3 and name.lower() not in {"the", "official", "movie", "scene"} else ""
+
+
 class Box:
     def __init__(self, a):
         self.a = a
@@ -418,14 +461,30 @@ class Box:
                 log("gemini discovery skipped:", str(ex)[:120])
         got, recs = [], []
         skip_ids = getattr(self, "rejected", set())
-        for e in cands:
-            if len(got) >= limit:
-                break
-            if not e.get("id") or e["id"] in have or e["id"] in skip_ids:
-                continue
-            if not usable_for(category, e.get("title") or "", e.get("channel") or e.get("credit") or "") \
-                    and e.get("via") != "box-queue-link":
-                continue
+        n_sib = max(0, int(os.environ.get("BOX_FETCH_SIBLINGS", "3") or 3))
+        min_free = float(os.environ.get("BOX_FETCH_MIN_FREE_GB", "10") or 10)
+
+        def flush():
+            # upload what we have and free the box disk right away (keeps local use to a few clips)
+            if got and not self.a.dry_run:
+                man2 = self.manifest()          # re-read: Actions may have added pool clips meanwhile
+                man2["clips"] += [r for r in recs if r.get("_new")]
+                for r in recs:
+                    r.pop("_new", None)
+                (self.dir / "manifest.json").write_text(json.dumps(man2, indent=1))
+                self.upload(got + [self.dir / "manifest.json"])
+            for f in got:
+                f.unlink(missing_ok=True)
+            got.clear()
+
+        def download(e: dict, work: str = "") -> bool:
+            if free_gb(self.dir) < min_free:
+                flush()
+                prune_own_media(self.dir, 3600)
+                if free_gb(self.dir) < min_free:
+                    log(f"disk guard: only {free_gb(self.dir):.1f} GB free (< {min_free:g}) -> stop downloading")
+                    self.disk_low = True
+                    return False
             have.add(e["id"])
             out = self.dir / f"{e['id']}.%(ext)s"
             ok, _ = S.ytdlp([*self.extra, "-f", "bv*[height<=1440]+ba/b[height<=1440]/bv*+ba/b", "-S", "res:1440,fps",
@@ -433,20 +492,70 @@ class Box:
             f = next((p for p in self.dir.glob(f"{e['id']}.*") if p.suffix in (".mkv", ".mp4", ".webm")), None)
             if not ok or not f:
                 log("download failed:", e["url"])
-                continue
+                return False
             rec = {"id": e["id"], "file": f.name, "url": e["url"], "title": e.get("title", ""),
                    "channel": e.get("channel", ""), "credit": e.get("credit") or e.get("channel", ""),
-                   "category": category, "via": e.get("via"), "added": now_local().isoformat(), "by": "box"}
+                   "category": category, "via": e.get("via"), "added": now_local().isoformat(), "by": "box",
+                   "_new": True}
+            if work:
+                rec["work"] = work
             got.append(f)
             recs.append(rec)
-            log("fetched", f.name, rec["title"][:60])
-        if got and not self.a.dry_run:
-            man = self.manifest()          # re-read: Actions may have added pool clips meanwhile
-            man["clips"] += recs
-            (self.dir / "manifest.json").write_text(json.dumps(man, indent=1))
-            self.upload(got + [self.dir / "manifest.json"])
-            for f in got:                  # uploaded: free box disk
-                f.unlink(missing_ok=True)
+            log("fetched", f.name, rec["title"][:60] + (f"  [title group: {work}]" if work else ""))
+            if len(got) >= 4:
+                flush()
+            return True
+
+        allow_sib = {a.lower() for a in c.get("allow_channels", [])}
+
+        def siblings(e: dict, work: str) -> int:
+            """2-3 MORE different official YouTube videos of the same movie / series / game / player."""
+            n = 0
+            kinds = ("official gameplay", "gameplay walkthrough cinematic") if category == "gaming" else \
+                ("interview", "highlights") if category == "sports" else ("official clip", "scene")
+            seen_q = set()
+            for kind in kinds:
+                q = safe_query(f"{work} {kind}")
+                if not q or q in seen_q:
+                    continue
+                seen_q.add(q)
+                for x in S.search_youtube(q, 15):
+                    if n >= n_sib or len(recs) >= limit or getattr(self, "disk_low", False):
+                        return n
+                    if not x.get("id") or x["id"] in have or x["id"] in skip_ids or not safe_url(x.get("url")):
+                        continue
+                    t = x.get("title") or ""
+                    chn = (x.get("channel") or "")
+                    if work.lower() not in t.lower():
+                        continue
+                    if not (x.get("verified") or chn.lower() in allow_sib):
+                        continue
+                    if not (c.get("min_len", 30) <= (x.get("duration") or 0) <= min(c.get("max_len", 600), 1800)):
+                        continue
+                    if not usable_for(category, t, chn):
+                        continue
+                    if download({**x, "credit": chn, "via": "box-title-group"}, work):
+                        n += 1
+            return n
+
+        for e in cands:
+            if len(recs) >= limit or getattr(self, "disk_low", False):
+                break
+            if not e.get("id") or e["id"] in have or e["id"] in skip_ids:
+                continue
+            if not safe_url(e.get("url")):
+                continue
+            if not usable_for(category, e.get("title") or "", e.get("channel") or e.get("credit") or "") \
+                    and e.get("via") != "box-queue-link":
+                continue
+            work = title_key(category, e.get("title") or "", e.get("channel") or "") \
+                if category in SIBLING_CATS else ""
+            if not download(e, work):
+                continue
+            if work and n_sib:
+                got_n = siblings(e, work)
+                log(f"title group '{work}': +{got_n} extra source video(s)")
+        flush()
         return recs
 
 
@@ -557,6 +666,12 @@ class Box:
         hb = self.dir / "box_heartbeat.json"
         done = set(json.loads(hb.read_text()).get("processed", [])) if hb.exists() else set()
         fetched, errors, now_done = 0, [], []
+        self.disk_low = False
+        n = prune_own_media(self.dir, 6 * 3600)
+        if n:
+            log(f"disk: removed {n} stale partial/leftover download(s) from {self.dir}")
+        log(f"disk: {free_gb(self.dir):.1f} GB free on {self.dir} (stop below "
+            f"{os.environ.get('BOX_FETCH_MIN_FREE_GB', '10')} GB)")
         for r in self.queue():
             if r.get("id") in done or r.get("category") not in CFG["categories"]:
                 continue
@@ -578,12 +693,12 @@ class Box:
         man = self.manifest()
         assets = self.release_assets(TAG) or set()
         rejected = self.load_rejected()
-        cap = max(1, int(os.environ.get("BOX_FETCH_MAX_PER_CAT", "8") or 8))
+        cap = max(1, int(os.environ.get("BOX_FETCH_MAX_PER_CAT", "35") or 35))
         for cat, tgt in POOL_TARGET.items():
             # usable = in the release, not rejected by Gemini, and passes the runner's title rules
             have = usable_pool(man, assets, rejected, cat)
             fetched_cat = 0
-            while len(have) < tgt and fetched_cat < cap:
+            while len(have) < tgt and fetched_cat < cap and not self.disk_low:
                 need = min(tgt - len(have), cap - fetched_cat)
                 try:
                     recs = self.fetch(cat, need, use_gemini=False)

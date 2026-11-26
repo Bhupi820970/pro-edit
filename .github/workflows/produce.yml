@@ -116,7 +116,6 @@ jobs:
             models
             /mnt/ph/${{ matrix.platform }}/vcache
             /mnt/ph/${{ matrix.platform }}/songs
-            /mnt/ph/${{ matrix.platform }}/sources
           key: ph-${{ matrix.platform }}-${{ github.run_id }}
           restore-keys: ph-${{ matrix.platform }}-
 
@@ -133,8 +132,10 @@ jobs:
           # clips the box fetched (box/fetch_sources.sh cron -> box_fetch.py -> DRAFT release "sources").
           # These are used FIRST; runner YouTube downloads are only a fallback. Gemini still vets each one.
           mkdir -p "$VICE_PIPELINE_HOME/sources"
-          gh release download sources --dir "$VICE_PIPELINE_HOME/sources" --skip-existing 2>/dev/null || true
+          # Selective pull (pool is ~40 clips per category): Gemini-rejected clips are never pulled,
+          # accepted first, then newest unvetted, up to 20 GB.
           gh release download sources --pattern manifest.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
+          timeout 1500 python pipeline.py pull-sources --max-gb 20 || true
           gh release download sources --pattern box_heartbeat.json --dir "$VICE_PIPELINE_HOME/sources" --clobber 2>/dev/null || true
           find "$VICE_PIPELINE_HOME/sources" -maxdepth 1 -printf "%f\n" | head -30
           # official audio the box fetched (box_fetch.py -> DRAFT release "songs"); runner uses these first
