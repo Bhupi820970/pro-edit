@@ -196,7 +196,8 @@
    "duplicate_id": "GoCHmaSRViw",
    "run_id": "45825420513",
    "status": "deleted",
-   "note": "race double-upload 2026-11-26 18:36 IST; removed via maintenance run 45834508287"
+   "note": "race double-upload 2026-11-26 18:36 IST; removed via maintenance run 45834508287",
+   "check_2026-11-26T20:02+05:30": "read-only list (run 45839975029): only original 4DJCHbfbcbk live; GoCHmaSRViw gone"
   },
   {
    "id": "in-movie-20261126-160820",
@@ -205,8 +206,9 @@
    "duplicate_id": "18117755780028898",
    "permalink": "https://www.instagram.com/reel/DgNLBERIlWL/",
    "run_id": "45825420513",
-   "status": "needs_manual_delete",
-   "note": "IG Graph API refused delete (#10 insufficient permissions); owner deletes in the app"
+   "status": "owner_deleting_by_hand",
+   "note": "IG Graph API refused delete (#10 insufficient permissions); owner deletes in the app",
+   "check_2026-11-26T20:02+05:30": "read-only list (maintenance run 45839996290): duplicate DgNLBERIlWL still live; original DgNKzWdhHL9 (media 18033167072922205) NOT returned by the API -> owner to confirm which copy is still up"
   }
  ]
 }
