@@ -61,7 +61,8 @@ def log(*a):
 _NO_RETRY = ("sign in to confirm", "not a bot", "video unavailable", "private video", "members-only",
              "copyright", "not available", "http error 404", "unsupported url", "no video formats",
              "requested format is not available", "release not found", "could not find any assets",
-             "no assets match", "not found (http 404)", "http 404", "http 401", "http 403", "bad credentials")
+             "no assets match", "not found (http 404)", "http 404", "http 401", "http 403", "bad credentials",
+             "vpn or a proxy server", "not made this video available in your country")
 
 
 def run(cmd, timeout=None, check=True, retries: int | None = None, **kw) -> subprocess.CompletedProcess:

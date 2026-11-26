@@ -276,7 +276,7 @@ def ytdlp(args: list, timeout=1800) -> tuple[bool, str]:
         if r.returncode == 0:
             return True, ""
         err = (r.stderr or r.stdout)[-600:]
-        if re.search(r"confirm your age|Private video|Video unavailable|removed|copyright|members-only", err):
+        if re.search(r"confirm your age|Private video|Video unavailable|removed|copyright|members-only|not made this video available in your country|VPN or a proxy server|geo.?restrict", err):
             log("yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip")
             return False, err
         bot = "not a bot" in err or "confirm you" in err or "bot" in err.lower()
