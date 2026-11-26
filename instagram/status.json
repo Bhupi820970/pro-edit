@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T06:57:00.514952+05:30",
+ "updated": "2026-11-26T09:03:55.536267+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (1/7 ready)",
@@ -163,91 +163,91 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-26T05:57:52.403165+05:30",
+   "at": "2026-11-26T08:10:05.820588+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:02:10.390104+05:30",
+   "at": "2026-11-26T08:14:45.492494+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:06:36.975381+05:30",
+   "at": "2026-11-26T08:19:00.479092+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:10:51.604115+05:30",
+   "at": "2026-11-26T08:21:25.363662+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:15:28.237161+05:30",
+   "at": "2026-11-26T08:25:53.137581+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:19:40.928481+05:30",
+   "at": "2026-11-26T08:30:29.767043+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:24:06.296095+05:30",
+   "at": "2026-11-26T08:34:37.099133+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:28:54.703872+05:30",
+   "at": "2026-11-26T08:38:05.137679+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:32:45.459131+05:30",
+   "at": "2026-11-26T08:42:33.965575+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:36:58.723509+05:30",
+   "at": "2026-11-26T08:46:47.780379+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:41:03.047490+05:30",
+   "at": "2026-11-26T08:51:15.094912+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:44:30.718626+05:30",
+   "at": "2026-11-26T08:55:03.457447+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:48:44.044341+05:30",
+   "at": "2026-11-26T08:57:39.360634+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:53:08.359957+05:30",
+   "at": "2026-11-26T09:01:40.947339+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
   },
   {
-   "at": "2026-11-26T06:56:57.349631+05:30",
+   "at": "2026-11-26T09:03:51.965292+05:30",
    "platform": "instagram",
    "category": null,
    "error": "RuntimeError: no clips of a single star player for sports"
@@ -281,7 +281,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-25T10:08:38.272921+05:30",
-  "age_hours": 20.8,
+  "age_hours": 22.9,
   "healthy": false,
   "pool": {
    "gta": 15,
@@ -292,6 +292,6 @@
    "series": 15
   },
   "errors": [],
-  "message": "BOX FETCHER DOWN for 21h: run `bash scripts/box_fetch_service.sh start` on the box"
+  "message": "BOX FETCHER DOWN for 23h: run `bash scripts/box_fetch_service.sh start` on the box"
  }
 }
