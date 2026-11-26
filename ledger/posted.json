@@ -1,6 +1,29 @@
 {
  "version": 1,
- "updated": "2026-11-26T21:33:36.011314+05:30",
+ "updated": "2026-11-26T21:33:37.106147+05:30",
+ "duplicates": [
+  {
+   "id": "yo-gta-20261126-174815",
+   "platform": "youtube",
+   "duplicate_of": "4DJCHbfbcbk",
+   "duplicate_id": "GoCHmaSRViw",
+   "run_id": "45825420513",
+   "status": "deleted",
+   "note": "race double-upload 2026-11-26 18:36 IST; removed via maintenance run 45834508287",
+   "check_2026-11-26T20:02+05:30": "read-only list (run 45839975029): only original 4DJCHbfbcbk live; GoCHmaSRViw gone"
+  },
+  {
+   "id": "in-movie-20261126-160820",
+   "platform": "instagram",
+   "duplicate_of": "DgNKzWdhHL9",
+   "duplicate_id": "18117755780028898",
+   "permalink": "https://www.instagram.com/reel/DgNLBERIlWL/",
+   "run_id": "45825420513",
+   "status": "owner_deleting_by_hand",
+   "note": "IG Graph API refused delete (#10 insufficient permissions); owner deletes in the app",
+   "check_2026-11-26T20:02+05:30": "read-only list (maintenance run 45839996290): duplicate DgNLBERIlWL still live; original DgNKzWdhHL9 (media 18033167072922205) NOT returned by the API -> owner to confirm which copy is still up"
+  }
+ ],
  "posted": [
   {
    "id": "yo-gta-20261125-070541",
@@ -195,8 +218,8 @@
    "intent_at": "2026-11-26T21:33:22.895550+05:30",
    "title": "GTA 6 Vice City | Murder on the Dancefloor Edit",
    "slot": "2026-11-26T21:30",
-   "updated_at": "2026-11-26T21:33:36.011286+05:30",
-   "posted_at": "2026-11-26T21:33:36.011286+05:30",
+   "updated_at": "2026-11-26T21:33:37.106121+05:30",
+   "posted_at": "2026-11-26T21:33:37.106121+05:30",
    "youtube_id": "IPsFQG-LhiM",
    "youtube_url": "https://www.youtube.com/watch?v=IPsFQG-LhiM",
    "instagram_url": null,
@@ -204,29 +227,6 @@
    "ig_container_id": null,
    "buffer_post_id": null,
    "buffer_status": null
-  }
- ],
- "duplicates": [
-  {
-   "id": "yo-gta-20261126-174815",
-   "platform": "youtube",
-   "duplicate_of": "4DJCHbfbcbk",
-   "duplicate_id": "GoCHmaSRViw",
-   "run_id": "45825420513",
-   "status": "deleted",
-   "note": "race double-upload 2026-11-26 18:36 IST; removed via maintenance run 45834508287",
-   "check_2026-11-26T20:02+05:30": "read-only list (run 45839975029): only original 4DJCHbfbcbk live; GoCHmaSRViw gone"
-  },
-  {
-   "id": "in-movie-20261126-160820",
-   "platform": "instagram",
-   "duplicate_of": "DgNKzWdhHL9",
-   "duplicate_id": "18117755780028898",
-   "permalink": "https://www.instagram.com/reel/DgNLBERIlWL/",
-   "run_id": "45825420513",
-   "status": "owner_deleting_by_hand",
-   "note": "IG Graph API refused delete (#10 insufficient permissions); owner deletes in the app",
-   "check_2026-11-26T20:02+05:30": "read-only list (maintenance run 45839996290): duplicate DgNLBERIlWL still live; original DgNKzWdhHL9 (media 18033167072922205) NOT returned by the API -> owner to confirm which copy is still up"
   }
  ]
 }
