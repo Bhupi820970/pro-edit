@@ -1,0 +1,491 @@
+{
+ "platform": "youtube",
+ "made": [
+  "yo-gaming-20261127-150139"
+ ],
+ "failures": [
+  "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt",
+  "CategoryUnavailable: only 1 clean sources for gta",
+  "CategoryUnavailable: only 1 clean sources for gta"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 600.0,
+    "total": 600.0
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 584.4,
+    "total": 584.4
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 523.7,
+    "total": 523.7
+   }
+  },
+  {
+   "attempt": 4,
+   "category": "gaming",
+   "ok": true,
+   "timings": {
+    "gather": 226.9,
+    "song": 28.6,
+    "beats": 10.4,
+    "scan_plan": 66.2,
+    "more_clips": 105.0,
+    "render": 652.3,
+    "gemini_meta": 0.5,
+    "wide_4k": 273.8,
+    "qa": 18.2,
+    "preview": 66.6,
+    "save": 47.0,
+    "total": 1495.5
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 1935.0,
+  "song": 28.6,
+  "beats": 10.4,
+  "scan_plan": 66.2,
+  "more_clips": 105.0,
+  "render": 652.3,
+  "gemini_meta": 0.5,
+  "wide_4k": 273.8,
+  "qa": 18.2,
+  "preview": 66.6,
+  "save": 47.0
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 4,
+  "vetted": 1,
+  "rejected": [
+   {
+    "id": "i176OFFGvV4",
+    "title": "God of War: Raising Kratos - Announce Trailer",
+    "reasons": [
+     "The footage is a trailer/promo, which is explicitly rejected per instructions.",
+     "flag:text_overlay"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "gta",
+   "gaming"
+  ],
+  "runner_skipped": 78,
+  "box_clips_used": 6,
+  "reserve_denied": 5,
+  "failed_ids": [
+   "lqiZdynJmag",
+   "tyDRtSUYTRs",
+   "5FBipicBoJg",
+   "vAAvocR04_Y"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "429 Resource has been exhausted (e.g. check quota)."
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  }
+ ],
+ "skipped_categories": [
+  "gta"
+ ],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [
+   "key11"
+  ],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0,
+   "gemma-4-31b-it": 2,
+   "gemma-4-26b-a4b-it": 0
+  },
+  "exhausted": false,
+  "reset_at": "2026-11-28 13:30 IST"
+ }
+}

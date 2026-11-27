@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-27T15:03:37.087134+05:30",
+ "updated": "2026-11-27T15:28:07.087983+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
-   "ready": 0,
+   "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 0,
+   "produced_today": 1,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (0/7 ready)"
+   "message": "BACKUP LOW: refill youtube (1/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -25,27 +25,119 @@
    "message": "BACKUP LOW: refill instagram (0/7 ready)"
   }
  },
- "ready": [],
+ "ready": [
+  {
+   "id": "yo-gaming-20261127-150139",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-27T15:25:47.717453+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261127-150139.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261127-150139.mp4",
+   "preview_mb": 22.2,
+   "size_mb": 245.4,
+   "title": "Gaming Edit | Legends Never Die Edit",
+   "hook": "GAMING EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Legends Never Die\" – League of Legends (original recording)\n🔗 Official audio: https://soundcloud.com/leagueoflegends/legends-never-die\n🎧 Spotify: https://open.spotify.com/search/League%20of%20Legends%20Legends%20Never%20Die\n🎬 Footage: Rockstar Games – \"Red Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2\"; Rockstar Games – \"Red Dead Redemption: Out Now on Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Legends Never Die",
+    "artist": "League of Legends",
+    "url": "https://soundcloud.com/leagueoflegends/legends-never-die",
+    "official_channel": "League of Legends",
+    "spotify_search": "https://open.spotify.com/search/League%20of%20Legends%20Legends%20Never%20Die"
+   },
+   "song_credit": "\"Legends Never Die\" – League of Legends",
+   "pattern": {
+    "id": "P12",
+    "name": "Upper/lower tick-tock beside"
+   },
+   "captions": [],
+   "duration": 38.73,
+   "sources": [
+    {
+     "id": "SlkizyzZ8k4",
+     "src_id": "SlkizyzZ8k4",
+     "path": "/mnt/ph/youtube/sources/SlkizyzZ8k4.mkv",
+     "title": "Red Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=SlkizyzZ8k4"
+    },
+    {
+     "id": "tqLMoW7oEbA",
+     "src_id": "tqLMoW7oEbA",
+     "path": "/mnt/ph/youtube/sources/tqLMoW7oEbA.mkv",
+     "title": "Red Dead Redemption: Out Now on Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=tqLMoW7oEbA"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.73
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -7.6
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 226.9,
+    "song": 28.6,
+    "beats": 10.4,
+    "scan_plan": 66.2,
+    "more_clips": 105.0,
+    "render": 652.3,
+    "gemini_meta": 0.5,
+    "wide_4k": 273.8,
+    "qa": 18.2,
+    "preview": 66.6
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261127-150139.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261127-150139.preview.mp4"
+  }
+ ],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-26T17:36:04.035160+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"YOU EVER HEARD\"]}}"
-  },
-  {
-   "at": "2026-11-26T18:42:34.745793+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "CategoryUnavailable: only 0 clean sources for gaming"
-  },
-  {
-   "at": "2026-11-26T18:53:11.381590+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "CategoryUnavailable: only 0 clean sources for gaming"
-  },
   {
    "at": "2026-11-26T18:53:26.166313+05:30",
    "platform": "youtube",
@@ -117,6 +209,24 @@
    "platform": "youtube",
    "category": "gta",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-27T14:43:11.099681+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-27T14:52:54.462934+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 1 clean sources for gta"
+  },
+  {
+   "at": "2026-11-27T15:01:38.139139+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 1 clean sources for gta"
   },
   {
    "at": "2026-11-26T19:53:13.591183+05:30",
@@ -211,7 +321,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-27T14:29:41.692345+05:30",
-  "age_hours": 0.6,
+  "age_hours": 1.0,
   "healthy": true,
   "pool": {
    "gta": 2,
@@ -230,5 +340,5 @@
   "message": "OK"
  },
  "warning": true,
- "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)"
+ "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)"
 }
