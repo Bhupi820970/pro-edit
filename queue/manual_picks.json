@@ -71,6 +71,96 @@
    "reasons": [
     "persistent Prime channel logo bug in the lower-left corner"
    ]
+  },
+  {
+   "id": "Ap6UhCcHRC0",
+   "category": "movie",
+   "accept": true,
+   "has_dialogue": true,
+   "reasons": [
+    "official Lionsgate clip 1440p, clean corners, BIBI checked 3 frames"
+   ]
+  },
+  {
+   "id": "_udyg7ZTYYE",
+   "category": "movie",
+   "accept": true,
+   "has_dialogue": false,
+   "reasons": [
+    "official Lionsgate Ice Fight 1440p, clean corners, BIBI checked"
+   ]
+  },
+  {
+   "id": "nslGEjpGdY0",
+   "category": "movie",
+   "accept": true,
+   "has_dialogue": true,
+   "reasons": [
+    "official Warner Bros clip 1080p, clean corners, BIBI checked"
+   ]
+  },
+  {
+   "id": "GQvo6P0squA",
+   "category": "romance",
+   "accept": true,
+   "has_dialogue": true,
+   "reasons": [
+    "After lake scene 1440p, clean corners, BIBI checked"
+   ]
+  },
+  {
+   "id": "KYATf2A5GCQ",
+   "category": "marvel",
+   "accept": true,
+   "has_dialogue": true,
+   "reasons": [
+    "official Marvel elevator fight 1440p, clean, BIBI checked"
+   ]
+  },
+  {
+   "id": "HqZXw5M6qQY",
+   "category": "gta",
+   "accept": true,
+   "has_dialogue": true,
+   "reasons": [
+    "official Rockstar trailer 1080p, no HUD, BIBI checked"
+   ]
+  },
+  {
+   "id": "GbuCIrZSPDk",
+   "category": "gta",
+   "accept": true,
+   "has_dialogue": false,
+   "reasons": [
+    "official Rockstar 1440p, title card only at start, BIBI checked"
+   ]
+  },
+  {
+   "id": "9YDt6vhSSCI",
+   "category": "movie",
+   "accept": false,
+   "has_dialogue": true,
+   "reasons": [
+    "burned-in subtitles"
+   ]
+  },
+  {
+   "id": "YlY9n7iM-5Q",
+   "category": "gta",
+   "accept": false,
+   "has_dialogue": false,
+   "reasons": [
+    "mostly logo cards"
+   ]
+  },
+  {
+   "id": "olEGtoYs_8A",
+   "category": "gta",
+   "accept": false,
+   "has_dialogue": false,
+   "reasons": [
+    "gameplay HUD minimap visible"
+   ]
   }
  ],
  "note": "manual picks 2026-11-26 while Gemini quota is exhausted until 2026-11-27 13:30 IST; 3 frames each, official studio sources only"
