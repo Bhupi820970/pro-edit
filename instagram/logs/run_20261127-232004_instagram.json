@@ -1,0 +1,529 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "RuntimeError: not enough distinct montage shots in --clips",
+  "AttemptTimeout: render + QA took longer than 20 min -> skip attempt"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "movie",
+   "ok": false,
+   "timings": {
+    "gather": 483.5,
+    "song": 32.3,
+    "beats": 8.4,
+    "scan_plan": 17.2,
+    "total": 541.4
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "movie",
+   "ok": false,
+   "timings": {
+    "gather": 160.7,
+    "song": 9.0,
+    "beats": 0.6,
+    "scan_plan": 62.9,
+    "more_clips": 295.5,
+    "render": 482.5,
+    "gemini_meta": 718.9,
+    "total": 1730.0
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 644.2,
+  "song": 41.3,
+  "beats": 9.0,
+  "scan_plan": 80.1,
+  "more_clips": 295.5,
+  "render": 482.5,
+  "gemini_meta": 718.9
+ },
+ "slowest_step": "gemini_meta",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 0,
+  "vetted": 10,
+  "rejected": [
+   {
+    "id": "bKFXdd5iDO8",
+    "title": "POWER BALLAD (2026) Official Song & Lyric Video “How to Write a Song” - Nick Jonas",
+    "reasons": [
+     "persistent text overlays throughout the video",
+     "flag:burned_subtitles",
+     "flag:text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "2s7fj5G0SHg",
+    "title": "Power Ballad Movie Clip - We Could Finish This (2026)",
+    "reasons": [
+     "The footage contains a large graphic overlay/end card with 'Rotten Tomatoes' branding at the end.",
+     "flag:watermark",
+     "flag:text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "RI0wfBvQywk",
+    "title": "Power Ballad Exclusive Featurette - Meet Rick (2026)",
+    "reasons": [
+     "text_overlay present",
+     "watermark present",
+     "flag:watermark",
+     "flag:channel_logo",
+     "flag:text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Q0fl1Ncx-Bk",
+    "title": "The Furious - Ice Fight official clip",
+    "reasons": [
+     "only 720p (< 1080p)"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "nC2rK5Jkyx4",
+    "title": "T-Rex Attacks Denise Scene - THE END OF OAK STREET (2026) Anne Hathaway",
+    "reasons": [
+     "text_overlay",
+     "channel_logo",
+     "watermark",
+     "flag:watermark",
+     "flag:channel_logo",
+     "flag:text_overlay",
+     "not official/full quality"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "3WcoHyJ4AoU",
+    "title": "Power Ballad (2026) Official Clip ‘We Could Finish This’ - Paul Rudd, Nick Jonas",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Ap6UhCcHRC0",
+    "title": "The Furious (2026) Official Clip ’Who Are You’ - Xie Miao, Joe Taslim",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "_udyg7ZTYYE",
+    "title": "The Furious (2026) Official Clip ‘Ice Fight’ - Xie Miao, Joe Taslim, Brian Le",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "nslGEjpGdY0",
+    "title": "The End of Oak Street | Trapped By A T-Rex | Movie Clip | Warner Bros. Entertainment",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "0VDhvK8moNU",
+    "title": "The End of Oak Street | \"Get Away From Them\" Clip | In Theaters & IMAX August 14",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 0,
+  "fallback_used": true,
+  "thin": [
+   "movie"
+  ],
+  "runner_skipped": 0,
+  "box_clips_used": 5
+ },
+ "gemini_calls": [
+  {
+   "key": "key7",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  }
+ ],
+ "skipped_categories": [],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0,
+   "gemma-4-31b-it": 3,
+   "gemma-4-26b-a4b-it": 11
+  },
+  "exhausted": false,
+  "reset_at": "2026-11-28 13:30 IST"
+ }
+}

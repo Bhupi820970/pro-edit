@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:56:23.919965+05:30",
+ "updated": "2026-11-27T23:20:17.745151+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -232,18 +232,6 @@
    "error": "CategoryUnavailable: only 1 clean sources for gta"
   },
   {
-   "at": "2026-11-26T19:53:13.591183+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-26T19:54:02.474343+05:30",
-   "platform": "instagram",
-   "category": "movie",
-   "error": "CategoryUnavailable: no clips of a single title for movie"
-  },
-  {
    "at": "2026-11-26T19:54:54.119191+05:30",
    "platform": "instagram",
    "category": "romance",
@@ -320,6 +308,18 @@
    "platform": "instagram",
    "category": "sports",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-27T22:50:36.441085+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
+  },
+  {
+   "at": "2026-11-27T23:19:26.346168+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "AttemptTimeout: render + QA took longer than 20 min -> skip attempt"
   }
  ],
  "box_fetcher": {

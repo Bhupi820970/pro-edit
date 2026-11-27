@@ -1,134 +1,141 @@
-[2026-11-27 14:33:03 IST] pull-sources: +127 clips, 10 accepted / 117 unvetted listed, 8.1 GB local
-[2026-11-27 14:33:09 IST] === in-gta-20261127-143309: platform=instagram category=gta format=shorts seed=753575359
-[2026-11-27 14:33:31 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] UUmKwJD76GY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-27 14:33:40 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] UUmKwJD76GY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-27 14:33:40 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-27 14:33:42 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] DyQ5MNkl6SA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-27 14:33:52 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] DyQ5MNkl6SA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-27 14:33:52 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-27 14:33:54 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] QYAMp13Yi04: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-27 14:34:03 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] QYAMp13Yi04: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-27 14:34:03 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-27 14:34:09 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-27 14:34:11 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] kMCtod_2iQ0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-27 14:34:20 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] kMCtod_2iQ0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-27 14:34:20 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-27 14:34:20 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
-[2026-11-27 14:34:20 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:34:50 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:34:50 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:34:50 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:34:51 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:34:51 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:36:22 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:37:42 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:39:28 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:39:28 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:39:29 IST] gemini key12/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:42:29 IST] gemini key13/gemma-4-31b-it: TimeoutError The read operation timed out
-[2026-11-27 14:42:29 IST] gemini key13/gemma-4-31b-it: HTTP 599 The read operation timed out
-[2026-11-27 14:42:29 IST] gemini key1/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:43:09 IST] attempt failed, retrying with different sources/song: AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt
-[2026-11-27 14:43:10 IST] attempt 1 FAIL in 601s: gather=601s
-[2026-11-27 14:43:10 IST] === in-gta-20261127-144310: platform=instagram category=gta format=shorts seed=101779400
-[2026-11-27 14:43:30 IST] clip reserved by another run (or already used), skipped: -HIv_Uj1ERE
-[2026-11-27 14:43:30 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:44:27 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:45:14 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:45:15 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:45:15 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:45:24 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:45:39 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:45:54 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:45:54 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:46:19 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:46:57 IST] gemini key12/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:46:57 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:47:38 IST] gemini key1/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:47:38 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:50:38 IST] gemini key3/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
-[2026-11-27 14:50:38 IST] gemini key3/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
-[2026-11-27 14:50:39 IST] gemini key4/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:50:39 IST] gemini key5/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:51:14 IST] gemini key6/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:51:15 IST] gemini key7/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:51:15 IST] gemini key8/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:51:15 IST] gemini key9/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:51:15 IST] gemini key10/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:51:15 IST] gemini key12/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:53:08 IST] content thin for gta (3/6) -> fallback search (12 candidates)
-[2026-11-27 14:53:09 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
-[2026-11-27 14:53:09 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
-[2026-11-27 14:53:09 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
-[2026-11-27 14:53:09 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
-[2026-11-27 14:53:09 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
-[2026-11-27 14:53:09 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
-[2026-11-27 14:53:09 IST] song stock for gta: 22 tagged songs with audio
-[2026-11-27 14:53:10 IST] attempt failed, retrying with different sources/song: AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt
-[2026-11-27 14:53:12 IST] attempt 2 FAIL in 601s: gather=599s, song=3s
-[2026-11-27 14:53:12 IST] === in-sports-20261127-145312: platform=instagram category=sports format=shorts seed=811593569
-[2026-11-27 14:53:49 IST] channel listing failed: https://www.youtube.com/@CristianoRonaldo/videos ERROR: [youtube:tab] @CristianoRonaldo/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
-[2026-11-27 14:54:05 IST] channel listing failed: https://www.youtube.com/@AlNassr/videos ERROR: [youtube:tab] @AlNassr: This channel does not have a videos tab
-[2026-11-27 14:55:03 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-27 14:55:18 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-27 14:55:22 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:55:43 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:55:44 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:56:26 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:56:27 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:56:29 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:56:29 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:56:51 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:57:23 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:57:49 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:57:50 IST] gemini key12/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:58:52 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:58:56 IST] vet REJECT [YWcobWashmE] LeBron James SICK No-Look, Between-the-Legs Assist | 02.14.17 — persistent scoreboard HUD at the bottom of the screen; on-screen score bug and game clock; advertising banners and logos in the background; flag:watermark; flag:channel_logo; flag:burned_subtitles; flag:hud_overlay; flag:text_overlay
-[2026-11-27 14:59:02 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 14:59:03 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:00:04 IST] vet REJECT [Qznmk6agLAE] LeBron James Drops No-Look 3/4 Court Dime & Beats First-Half Buzzer — hud_overlay; flag:hud_overlay; not editable
-[2026-11-27 15:00:09 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:00:10 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:00:11 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:00:12 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:00:13 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:00:13 IST] gemini key10/gemma-4-31b-it: HTTP 429 Resource has been exhausted (e.g. check quota).
-[2026-11-27 15:00:13 IST] gemini: key10|gemma-4-31b-it daily quota hit -> parked until 2026-11-28 13:30 IST
-[2026-11-27 15:00:14 IST] gemini key12/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:00:14 IST] gemini key13/gemma-4-31b-it: HTTP 429 Resource has been exhausted (e.g. check quota).
-[2026-11-27 15:00:14 IST] gemini: key13|gemma-4-31b-it daily quota hit -> parked until 2026-11-28 13:30 IST
-[2026-11-27 15:00:15 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:00:15 IST] gemini key2/gemma-4-31b-it: HTTP 429 Resource has been exhausted (e.g. check quota).
-[2026-11-27 15:00:15 IST] gemini: key2|gemma-4-31b-it daily quota hit -> parked until 2026-11-28 13:30 IST
-[2026-11-27 15:00:39 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:00:40 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:01:40 IST] vet REJECT [A4MZgWfBTyU] LeBron James Talks Lakers Game 3 Win! Full Postgame Presser! | May 6,  — persistent text overlay from sponsors (Google Pixel, Playoffs) and background logos; flag:watermark; flag:channel_logo; flag:text_overlay
-[2026-11-27 15:01:43 IST] gemini key6/gemma-4-31b-it: HTTP 429 Resource has been exhausted (e.g. check quota).
-[2026-11-27 15:01:43 IST] gemini: key6|gemma-4-31b-it daily quota hit -> parked until 2026-11-28 13:30 IST
-[2026-11-27 15:01:43 IST] gemini key7/gemma-4-31b-it: HTTP 429 Resource has been exhausted (e.g. check quota).
-[2026-11-27 15:01:43 IST] gemini: key7|gemma-4-31b-it daily quota hit -> parked until 2026-11-28 13:30 IST
-[2026-11-27 15:01:55 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:01:55 IST] gemini key9/gemma-4-31b-it: HTTP 429 Resource has been exhausted (e.g. check quota).
-[2026-11-27 15:01:55 IST] gemini: key9|gemma-4-31b-it daily quota hit -> parked until 2026-11-28 13:30 IST
-[2026-11-27 15:01:56 IST] gemini key12/gemma-4-31b-it: HTTP 429 Resource has been exhausted (e.g. check quota).
-[2026-11-27 15:01:56 IST] gemini: key12|gemma-4-31b-it daily quota hit -> parked until 2026-11-28 13:30 IST
-[2026-11-27 15:01:56 IST] gemini key1/gemma-4-31b-it: HTTP 429 Resource has been exhausted (e.g. check quota).
-[2026-11-27 15:01:56 IST] gemini: key1|gemma-4-31b-it daily quota hit -> parked until 2026-11-28 13:30 IST
-[2026-11-27 15:02:40 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:02:41 IST] gemini key4/gemma-4-31b-it: HTTP 429 Resource has been exhausted (e.g. check quota).
-[2026-11-27 15:02:41 IST] gemini: key4|gemma-4-31b-it daily quota hit -> parked until 2026-11-28 13:30 IST
-[2026-11-27 15:02:42 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:02:42 IST] gemini key6/gemma-4-26b-a4b-it: HTTP 429 Resource has been exhausted (e.g. check quota).
-[2026-11-27 15:02:42 IST] gemini: key6|gemma-4-26b-a4b-it daily quota hit -> parked until 2026-11-28 13:30 IST
-[2026-11-27 15:03:12 IST] attempt failed, retrying with different sources/song: AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt
-[2026-11-27 15:03:12 IST] attempt 3 FAIL in 600s: gather=600s
-[2026-11-27 15:03:12 IST] time budget reached (30 min left < 30 min for one more attempt)
-[2026-11-27 15:03:12 IST] step totals over 3 attempts: gather=30.0min, song=0.0min -> slowest step: gather
-[2026-11-27 15:03:12 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:03:12 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-27 15:03:28 IST] gemini: answered by backup model gemma-4-31b-it (key5)
-[2026-11-27 15:03:28 IST] queued box fetch request instagram-202611271503-gta
-[2026-11-27 15:03:30 IST] cleanup sweep: freed 0.0 MB (2 files)
-[2026-11-27 15:03:30 IST] done: 0 made, 3 failed attempts; instagram buffer 0/7 — BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
-[2026-11-27 15:03:31 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
-[2026-11-27 15:03:34 IST] vc-ready manifest: 3 videos
+[2026-11-27 22:41:27 IST] pull-sources: +124 clips, 10 accepted / 114 unvetted listed, 8.0 GB local
+[2026-11-27 22:41:36 IST] === in-movie-20261127-224136: platform=instagram category=movie format=shorts seed=50266336
+[2026-11-27 22:41:55 IST] channel listing failed: https://www.youtube.com/@WarnerBrosPictures/videos ERROR: [youtube:tab] @WarnerBrosPictures/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
+[2026-11-27 22:42:03 IST] channel listing failed: https://www.youtube.com/@WaltDisneyStudios/videos ERROR: [youtube:tab] @WaltDisneyStudios/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
+[2026-11-27 22:42:44 IST] x search failed: official action movie clip Sony Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-27 22:42:58 IST] x search failed: official car chase scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-27 22:43:03 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:43:41 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:45:35 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:45:36 IST] gemini key1/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:45:37 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:45:43 IST] vet ACCEPT [3WcoHyJ4AoU] Power Ballad (2026) Official Clip ‘We Could Finish This’ - Paul Rudd,  — melancholic intimate evening
+[2026-11-27 22:45:49 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:46:21 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:06 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:08 IST] gemini key4/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:09 IST] gemini key5/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:16 IST] vet REJECT [bKFXdd5iDO8] POWER BALLAD (2026) Official Song & Lyric Video “How to Write a Song”  — persistent text overlays throughout the video; flag:burned_subtitles; flag:text_overlay
+[2026-11-27 22:47:20 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:21 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:22 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:26 IST] vet REJECT [2s7fj5G0SHg] Power Ballad Movie Clip - We Could Finish This (2026) — The footage contains a large graphic overlay/end card with 'Rotten Tomatoes' branding at the end.; flag:watermark; flag:text_overlay
+[2026-11-27 22:47:53 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:54 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:55 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:57 IST] gemini key9/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:47:58 IST] gemini key10/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:48:19 IST] vet REJECT [RI0wfBvQywk] Power Ballad Exclusive Featurette - Meet Rick (2026) — text_overlay present; watermark present; flag:watermark; flag:channel_logo; flag:text_overlay
+[2026-11-27 22:48:35 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:49:24 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:49:25 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:49:39 IST] gemini discovery failed: Expecting value: line 1 column 2 (char 1)
+[2026-11-27 22:49:39 IST] content thin for movie (1/4) -> fallback search (15 candidates)
+[2026-11-27 22:49:39 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
+[2026-11-27 22:49:39 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
+[2026-11-27 22:49:39 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
+[2026-11-27 22:49:39 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
+[2026-11-27 22:49:39 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
+[2026-11-27 22:49:39 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
+[2026-11-27 22:49:39 IST] song stock for movie: 30 tagged songs with audio
+[2026-11-27 22:49:40 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:49:40 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:50:11 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:50:11 IST] gemini: answered by backup model gemma-4-26b-a4b-it (key1)
+[2026-11-27 22:50:12 IST] using genre stock song: Gangsta - Kehlani
+[2026-11-27 22:50:12 IST] song: Gangsta – Kehlani (https://www.youtube.com/watch?v=LAYgZEMMWxo)
+[2026-11-27 22:50:12 IST] caption pattern: P02 Beside-upper
+[2026-11-27 22:50:36 IST] attempt failed, retrying with different sources/song: RuntimeError: not enough distinct montage shots in --clips
+[2026-11-27 22:50:36 IST] Traceback (most recent call last):
+  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 673, in cmd_produce
+    made.append(produce_one(a.platform, cat, state, gem, sourcer, seed, timer))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 228, in produce_one
+    segs = plan()
+           ^^^^^^
+  File "/home/runner/work/pro-edit/pro-edit/pipeline.py", line 224, in plan
+    return V.auto_plan(song_p, cdir, CFG["duration"], binfo, exclude=exclude, seed=attempt_seed,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/pro-edit/pro-edit/vicestyle.py", line 1458, in auto_plan
+    raise RuntimeError("not enough distinct montage shots in --clips")
+RuntimeError: not enough distinct montage shots in --clips
+
+[2026-11-27 22:50:37 IST] attempt 1 FAIL in 541s: gather=484s, song=32s, beats=8s, scan_plan=17s
+[2026-11-27 22:50:37 IST] === in-movie-20261127-225037: platform=instagram category=movie format=shorts seed=462400818
+[2026-11-27 22:51:19 IST] x search failed: official action movie clip Sony Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-27 22:51:35 IST] x search failed: official car chase scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-27 22:51:35 IST] vet ACCEPT [Ap6UhCcHRC0] The Furious (2026) Official Clip ’Who Are You’ - Xie Miao, Joe Taslim — 
+[2026-11-27 22:51:36 IST] vet ACCEPT [_udyg7ZTYYE] The Furious (2026) Official Clip ‘Ice Fight’ - Xie Miao, Joe Taslim, B — 
+[2026-11-27 22:51:38 IST] vet REJECT [Q0fl1Ncx-Bk] The Furious - Ice Fight official clip — only 720p (< 1080p)
+[2026-11-27 22:52:09 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:52:10 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:04 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:04 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:05 IST] gemini key3/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:18 IST] gemini discovery failed: Expecting value: line 1 column 2 (char 1)
+[2026-11-27 22:53:18 IST] content thin for movie (2/4) -> fallback search (15 candidates)
+[2026-11-27 22:53:18 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
+[2026-11-27 22:53:18 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
+[2026-11-27 22:53:18 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
+[2026-11-27 22:53:18 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
+[2026-11-27 22:53:18 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
+[2026-11-27 22:53:18 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
+[2026-11-27 22:53:18 IST] song stock for movie: 30 tagged songs with audio
+[2026-11-27 22:53:18 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:19 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:19 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:19 IST] gemini key5/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:19 IST] gemini key7/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:20 IST] gemini key8/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:20 IST] gemini key9/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:53:27 IST] gemini: answered by backup model gemma-4-26b-a4b-it (key10)
+[2026-11-27 22:53:27 IST] using genre stock song: Writing's on the Wall - Sam Smith
+[2026-11-27 22:53:27 IST] song: Writing's on the Wall – Sam Smith (https://www.youtube.com/watch?v=8jzDnsjYv9A)
+[2026-11-27 22:53:27 IST] caption pattern: P07 Far beside
+[2026-11-27 22:53:56 IST] plan only 13.1s (< 29.5s): adding more vetted box clips before render
+[2026-11-27 22:54:36 IST] x search failed: official action movie clip Sony Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-27 22:54:52 IST] x search failed: official car chase scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-27 22:55:28 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:57:00 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:57:01 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:57:13 IST] vet REJECT [nC2rK5Jkyx4] T-Rex Attacks Denise Scene - THE END OF OAK STREET (2026) Anne Hathawa — text_overlay; channel_logo; watermark; flag:watermark; flag:channel_logo; flag:text_overlay; not official/full quality
+[2026-11-27 22:57:13 IST] vet ACCEPT [nslGEjpGdY0] The End of Oak Street | Trapped By A T-Rex | Movie Clip | Warner Bros. — 
+[2026-11-27 22:57:55 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:57:56 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:57:58 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:58:00 IST] gemini key13/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:58:12 IST] vet ACCEPT [0VDhvK8moNU] The End of Oak Street | "Get Away From Them" Clip | In Theaters & IMAX — tense dinosaur encounter
+[2026-11-27 22:58:13 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:58:13 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:58:14 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:58:18 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:58:19 IST] gemini key3/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 22:58:51 IST] gemini discovery failed: Expecting value: line 1 column 2 (char 1)
+[2026-11-27 22:58:51 IST] content thin for movie (2/7) -> fallback search (15 candidates)
+[2026-11-27 22:58:51 IST] +2 clips: nslGEjpGdY0, 0VDhvK8moNU
+[2026-11-27 22:59:26 IST] plan 38.5s, 59 shots -> render
+[2026-11-27 23:07:50 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 23:07:50 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 23:07:51 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 23:10:51 IST] gemini key5/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-27 23:10:51 IST] gemini key5/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-27 23:10:51 IST] gemini key7/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 23:13:51 IST] gemini key8/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-27 23:13:51 IST] gemini key8/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-27 23:13:51 IST] gemini key9/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 23:13:52 IST] gemini key10/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 23:13:52 IST] gemini key12/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 23:16:52 IST] gemini key13/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-27 23:16:52 IST] gemini key13/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-27 23:16:52 IST] gemini key1/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 23:16:52 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-27 23:19:26 IST] attempt failed, retrying with different sources/song: AttemptTimeout: render + QA took longer than 20 min -> skip attempt
+[2026-11-27 23:19:27 IST] attempt 2 FAIL in 1730s: gather=161s, song=9s, beats=1s, scan_plan=63s, more_clips=296s, render=482s, gemini_meta=719s
+[2026-11-27 23:19:27 IST] time budget reached (22 min left < 30 min for one more attempt)
+[2026-11-27 23:19:27 IST] step totals over 2 attempts: gemini_meta=12.0min, gather=10.7min, render=8.0min, more_clips=4.9min, scan_plan=1.3min, song=0.7min, beats=0.1min -> slowest step: gemini_meta
+[2026-11-27 23:20:02 IST] gemini: answered by backup model gemma-4-31b-it (key5)
+[2026-11-27 23:20:02 IST] queued box fetch request instagram-202611272319-movie
+[2026-11-27 23:20:04 IST] cleanup sweep: freed 0.0 MB (2 files)
+[2026-11-27 23:20:04 IST] done: 0 made, 2 failed attempts; instagram buffer 0/7 — BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
+[2026-11-27 23:20:10 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 3
+[2026-11-27 23:20:13 IST] vc-ready manifest: 1 videos
