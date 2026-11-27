@@ -297,7 +297,7 @@ class StyleAndSecurityTests(unittest.TestCase):
         self.assertEqual(c["stock_release"], "vc-ready")
         self.assertEqual(c["youtube_channel"], "@vicecartelgta")
         self.assertEqual(c["instagram_username"], "benreelr")
-        self.assertEqual(c["stock_warn_below"], 3)
+        self.assertEqual(c["stock_warn_below"], 8)   # BIBI rule 27 Nov: refill below 8, target 20
 
     def test_workflows_are_locked_down(self):
         wf_dir = HERE / ".github" / "workflows"

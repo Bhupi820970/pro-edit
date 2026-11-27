@@ -160,10 +160,10 @@ jobs:
         if: always()
         run: rm -rf /tmp/vc-stock /tmp/vc-xfer
 
-      - name: Refill stock if under 3 (auto-produce; never stacks, respects Gemini quota + cooldown)
+      - name: Refill stock if under 8 (auto-produce toward 20; never stacks, respects Gemini quota + cooldown)
         if: always() && steps.up.outputs.low_stock == 'true' && github.event.inputs.dry_run != 'true'
         timeout-minutes: 3
         continue-on-error: true
         run: |
-          echo "::warning::Ready stock is under 3 (YouTube ${{ steps.up.outputs.stock_youtube }}, Instagram ${{ steps.up.outputs.stock_instagram }})."
+          echo "::warning::Ready stock is under 8 (YouTube ${{ steps.up.outputs.stock_youtube }}, Instagram ${{ steps.up.outputs.stock_instagram }})."
           python -m pipeline_lib.autoproduce check --dispatch

@@ -143,6 +143,7 @@ Point `VICE_IG_HANDOFF_KEY` in `box/local.env` at the private key if it's somewh
   - When every key and model is out, produce writes `queue/needs_manual_pick.json`, and auto-produce waits until the reset.
 - **Instagram first.** Instagram stock was 0 on 2026-11-26. An Instagram-only auto run started at 20:58 IST that evening.
   - Auto-produce now always runs Instagram alone while it's under 3.
+  - Backup stock (27 Nov): target 20 ready per platform, refill starts below 8 (3-4/run, 60 min apart while <3, 120 min while topping up), alert at <= 2 (health issue + `queue/stock_alert.json` on pipeline-state). Thresholds: `pipeline_lib/autoproduce.py`.
   - `ig-first.yml` repeats the check at 13:35 IST on 2026-11-27.
 - **IG token type.** It's a **Facebook-Login** token (graph.facebook.com). It works today, but its expiry can't be read without an app token.
   - The weekly refresh only works for Instagram-Login tokens. Refreshing this type needs secrets **`IG_APP_ID` + `IG_APP_SECRET`**; alternatively, make the token a never-expiring Page token.

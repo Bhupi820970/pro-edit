@@ -1,7 +1,7 @@
 """One GitHub issue (label `health`) only when something is wrong; closed automatically on recovery.
 
-Alerts: an IST upload slot missed (>60 min past, nothing posted on a platform), ready stock 0 on a
-platform, the last 2 finished produce runs failed, a YouTube/IG token expiring within 7 days (or broken).
+Alerts: an IST upload slot missed (>60 min past, nothing posted on a platform), ready stock <= 2 on a
+platform (backup stock nearly empty: BIBI's bot steps in), the last 2 finished produce runs failed, a YouTube/IG token expiring within 7 days (or broken).
 Issue text holds counts, ids and secret NAMES only, never values. Nothing reads issue content back.
 
     python -m pipeline_lib.health check [--apply]
@@ -81,9 +81,10 @@ def problems(counts: dict, led: dict, slots: list[str], runs: list[dict], ig_day
     out = []
     for m in missed_slots(led, slots, now):
         out.append(f"Upload slot missed: {m}")
+    from .autoproduce import ALERT_AT
     for p, n in counts.items():
-        if n == 0:
-            out.append(f"Ready stock is 0 on {p}")
+        if n <= ALERT_AT:
+            out.append(f"Ready stock is {n} on {p} (<= {ALERT_AT}): backup nearly empty, manual pick/produce needed")
     if produce_failed_twice(runs):
         out.append("The last 2 produce runs failed")
     if ig_days is not None and ig_days <= WARN_DAYS:
@@ -119,6 +120,42 @@ def apply_issue(probs: list[str]) -> str:
     return "opened " + (r.stdout or "").strip()[-60:]
 
 
+ALERT_FILE, STATE_BRANCH = "queue/stock_alert.json", "pipeline-state"
+
+
+def alert_doc(counts: dict, probs: list[str]) -> dict:
+    from .autoproduce import ALERT_AT, LOW, TARGET
+    return {"alert": any(n <= ALERT_AT for n in counts.values()), "stock": counts, "target": TARGET,
+            "refill_below": LOW, "alert_at": ALERT_AT, "problems": probs}
+
+
+def write_alert_file(counts: dict, probs: list[str]) -> str:
+    """queue/stock_alert.json on pipeline-state (data only). Written only when the alert state or the
+    problem list changes, so it does not commit every 30 min."""
+    doc = alert_doc(counts, probs)
+    r = run(["gh", "api", f"repos/{REPO}/contents/{ALERT_FILE}?ref={STATE_BRANCH}"], timeout=30, check=False)
+    sha, old = None, {}
+    try:
+        meta = json.loads(r.stdout) if r.returncode == 0 else {}
+        sha = meta.get("sha")
+        import base64
+        old = json.loads(base64.b64decode(meta.get("content") or "").decode() or "{}")
+    except Exception:
+        pass
+    if old and old.get("alert") == doc["alert"] and old.get("problems") == doc["problems"]:
+        return "unchanged"
+    import base64
+    doc["at"] = now_local().strftime("%Y-%m-%d %H:%M IST")
+    body = {"message": f"stock alert: {'ALERT' if doc['alert'] else 'ok'} {json.dumps(counts)}",
+            "branch": STATE_BRANCH,
+            "content": base64.b64encode((json.dumps(doc, indent=1) + "\n").encode()).decode()}
+    if sha:
+        body["sha"] = sha
+    w = run(["gh", "api", "-X", "PUT", f"repos/{REPO}/contents/{ALERT_FILE}", "--input", "-"],
+            input=json.dumps(body), timeout=30, check=False)
+    return "written" if w.returncode == 0 else "write failed"
+
+
 def check(apply: bool) -> dict:
     from .autoproduce import produce_runs, stock
     from .publish import cfg as cfgmod, ledger
@@ -131,6 +168,7 @@ def check(apply: bool) -> dict:
            "ig_refresh": os.environ.get("IG_TOKEN_REFRESH") or "box weekly refresh: no result yet"}
     if apply:
         res["issue"] = apply_issue(probs)
+        res["alert_file"] = write_alert_file(counts, probs)
     log("health:", json.dumps(res))
     out = os.environ.get("GITHUB_STEP_SUMMARY")
     if out:

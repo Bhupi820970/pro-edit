@@ -1,4 +1,10 @@
-"""Keep ~7 unposted videos per platform: dispatch produce.yml (3-4 videos) when a platform drops below 3.
+"""Backup stock (BIBI rule 27 Nov): keep ~20 ready (QA-passed, unposted) videos per platform on vc-ready.
+
+When a platform drops below 8, dispatch produce.yml (3-4 videos per platform per run) and keep refilling,
+one run at a time, until it is back at 20. Uploads always take the oldest ready video (stock.pick_next).
+Ready <= 2 is an alert (health issue + queue/stock_alert.json on pipeline-state).
+Gemini-friendly: max 4 videos per platform per run, 60 min between runs while a platform is under 3,
+120 min between runs while topping up 8..19, and nothing while Gemini is out on every key.
 
 Runs in the watchdog workflow (schedule + box kick) and after each upload. It never stacks runs:
 - no dispatch while any produce run is queued / in progress (plus produce.yml's `produce-auto` concurrency group)
@@ -20,9 +26,11 @@ import os
 from .util import log, now_local, run
 
 REPO = os.environ.get("GITHUB_REPOSITORY", "Bhupi820970/pro-edit")
-TARGET, LOW, MIN_N, MAX_N = 7, 3, 3, 4
+TARGET, LOW, MIN_N, MAX_N = 20, 8, 3, 4   # keep 20 ready; start refilling below 8; 3-4 videos per run
+CRIT, ALERT_AT = 3, 2                      # under 3: urgent cooldown; <= 2: alert BIBI
 AUTO_TITLE = "produce (auto buffer refill)"
-COOLDOWN_MIN, BACKOFF_MIN = 60, 180
+COOLDOWN_MIN, TOPUP_COOLDOWN_MIN, BACKOFF_MIN = 60, 120, 180
+CHAIN_H = 8                                 # an auto run this recent = a refill toward 20 is in progress
 
 
 def _ts(raw: str) -> dt.datetime:
@@ -75,11 +83,25 @@ def stock() -> dict[str, int]:
     return {p: v["unposted"] for p, v in st["platforms"].items() if p in ("youtube", "instagram")}
 
 
+def _refilling(runs: list[dict], now) -> bool:
+    """Hysteresis without saved state: the latest auto run is recent and did not fail -> keep topping up."""
+    auto = [r for r in runs if r.get("displayTitle") == AUTO_TITLE]
+    if not auto:
+        return False
+    try:
+        age_h = (now - _ts(auto[0]["createdAt"]).astimezone(now.tzinfo)).total_seconds() / 3600
+    except Exception:
+        return False
+    return age_h < CHAIN_H and auto[0].get("conclusion") not in ("failure", "timed_out", "startup_failure")
+
+
 def decide(counts: dict[str, int], runs: list[dict], quota_out: tuple[bool, str], now=None) -> dict:
     now = now or now_local()
-    low = [p for p in ("instagram", "youtube") if counts.get(p, 0) < LOW]   # Instagram first
+    chain = _refilling(runs, now)
+    low = [p for p in ("instagram", "youtube")                             # Instagram first
+           if counts.get(p, 0) < LOW or (chain and counts.get(p, 0) < TARGET)]
     if not low:
-        return {"dispatch": False, "reason": f"stock ok {counts}"}
+        return {"dispatch": False, "reason": f"stock ok {counts} (refill below {LOW}, target {TARGET})"}
     if any(r.get("status") in ("queued", "in_progress", "waiting", "pending", "requested") for r in runs):
         return {"dispatch": False, "reason": "a produce run is already queued/running"}
     if quota_out[0]:
@@ -87,8 +109,10 @@ def decide(counts: dict[str, int], runs: list[dict], quota_out: tuple[bool, str]
     auto = [r for r in runs if r.get("displayTitle") == AUTO_TITLE]
     if auto:
         age = (now - _ts(auto[0]["createdAt"]).astimezone(now.tzinfo)).total_seconds() / 60
-        if age < COOLDOWN_MIN:
-            return {"dispatch": False, "reason": f"cooldown: last auto run {age:.0f} min ago"}
+        urgent = any(counts.get(p, 0) < CRIT for p in low)
+        cool = COOLDOWN_MIN if urgent else TOPUP_COOLDOWN_MIN
+        if age < cool:
+            return {"dispatch": False, "reason": f"cooldown: last auto run {age:.0f} min ago (< {cool})"}
         bad = [r for r in auto[:2] if r.get("conclusion") in ("failure", "timed_out", "startup_failure")]
         if len(bad) == 2 and age < BACKOFF_MIN:
             return {"dispatch": False, "reason": f"back-off: last 2 auto runs failed ({age:.0f} min ago)"}
@@ -96,14 +120,14 @@ def decide(counts: dict[str, int], runs: list[dict], quota_out: tuple[bool, str]
     # smaller batch, see count_for). Only one low -> just that platform.
     platform = "both" if len(low) == 2 else low[0]
     return {"dispatch": True, "platform": platform, "low": low, "counts": counts,
-            "reason": f"stock below {LOW}: {counts}"}
+            "reason": f"stock refill toward {TARGET} (starts below {LOW}): {counts}"}
 
 
 def count_for(platform: str, counts: dict[str, int] | None = None) -> int:
     counts = counts if counts is not None else stock()
     need = TARGET - counts.get(platform, 0)
     n = max(MIN_N, min(MAX_N, need))
-    if platform == "youtube" and counts.get("instagram", TARGET) < LOW:
+    if platform == "youtube" and counts.get("instagram", TARGET) < CRIT:
         n = MIN_N                       # Instagram priority: YouTube makes the smaller batch
     return max(0, n) if need > 0 else 0
 

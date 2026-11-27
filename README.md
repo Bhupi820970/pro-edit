@@ -101,7 +101,7 @@ Five slots a day, both platforms, all times IST: **08:00, 11:30, 15:00, 18:30, 2
 * YouTube: Data API v3 resumable upload, public, not made for kids, channel `@vicecartelgta`.
 * Instagram: Buffer API, channel selected by username `benreelr` (never a hardcoded channel id).
 * The same video is never posted twice (`ledger/posted.json`). A failed upload is retried once, then the other platform still runs.
-* Ready stock is the draft release **`vc-ready`**. If unposted stock on either platform drops below 3, the upload job warns and dispatches `produce.yml` to refill.
+* Ready stock is the draft release **`vc-ready`** (backup stock, BIBI rule 27 Nov): ~20 unposted videos per platform. When a platform drops below 8, the watchdog / upload job dispatches `produce.yml` (3-4 videos per platform per run, Gemini-gated) and keeps topping up to 20 (`pipeline_lib/autoproduce.py`: TARGET / LOW / ALERT_AT). Uploads always take the oldest ready video. Ready <= 2 opens the `health` issue and flips `queue/stock_alert.json` (pipeline-state) to alert.
 * Scheduled posting stays off until the repo variable `SCHEDULE_ENABLED` is set to `true`. A manual test:
 
 ```bash

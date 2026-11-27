@@ -1,6 +1,6 @@
 name: watchdog
 
-# Every 30 min (and on a box kick): refill the ready stock when a platform is under 3 (auto-produce), and
+# Every 30 min (and on a box kick): backup stock 20 per platform, refill (3-4/run) when under 8 (auto-produce), alert at <=2; and
 # keep ONE health issue (label `health`) open only while something is wrong. Silent when all is fine.
 # Reads only GitHub/YouTube/IG APIs; never reads issue text. Secret values are never printed.
 on:
@@ -48,7 +48,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with: {python-version: "3.12"}
-      - name: Auto-produce (stock under 3)
+      - name: Auto-produce (stock under 8, toward 20)
         continue-on-error: true
         timeout-minutes: 3
         run: python -m pipeline_lib.autoproduce check --dispatch

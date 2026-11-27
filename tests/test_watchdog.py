@@ -10,10 +10,29 @@ NOW = dt.datetime(2026, 11, 26, 20, 0, tzinfo=IST)
 
 class Auto(unittest.TestCase):
     def test_silent_when_stock_ok(self):
-        self.assertFalse(A.decide({"youtube": 5, "instagram": 4}, [], (False, ""), NOW)["dispatch"])
+        self.assertFalse(A.decide({"youtube": 12, "instagram": 8}, [], (False, ""), NOW)["dispatch"])
+
+    def test_refill_starts_below_8(self):
+        d = A.decide({"youtube": 12, "instagram": 7}, [], (False, ""), NOW)
+        self.assertEqual((d["dispatch"], d["platform"]), (True, "instagram"))
+
+    def test_refill_continues_to_20_then_stops(self):
+        prev = [{"status": "completed", "conclusion": "success", "displayTitle": A.AUTO_TITLE,
+                 "createdAt": "2026-11-26T11:30:00Z"}]   # 17:00 IST, 3 h ago: refill in progress
+        d = A.decide({"youtube": 20, "instagram": 12}, prev, (False, ""), NOW)
+        self.assertEqual((d["dispatch"], d["platform"]), (True, "instagram"))
+        self.assertFalse(A.decide({"youtube": 20, "instagram": 20}, prev, (False, ""), NOW)["dispatch"])
+        old = [dict(prev[0], createdAt="2026-11-25T11:30:00Z")]   # a day ago: no refill in progress
+        self.assertFalse(A.decide({"youtube": 12, "instagram": 12}, old, (False, ""), NOW)["dispatch"])
+
+    def test_topup_cooldown_is_longer(self):
+        prev = [{"status": "completed", "conclusion": "success", "displayTitle": A.AUTO_TITLE,
+                 "createdAt": "2026-11-26T13:00:00Z"}]   # 18:30 IST, 90 min ago
+        self.assertIn("cooldown", A.decide({"youtube": 20, "instagram": 10}, prev, (False, ""), NOW)["reason"])
+        self.assertTrue(A.decide({"youtube": 20, "instagram": 1}, prev, (False, ""), NOW)["dispatch"])
 
     def test_instagram_low_dispatches_instagram(self):
-        d = A.decide({"youtube": 5, "instagram": 0}, [], (False, ""), NOW)
+        d = A.decide({"youtube": 12, "instagram": 0}, [], (False, ""), NOW)
         self.assertTrue(d["dispatch"])
         self.assertEqual(d["platform"], "instagram")
 
@@ -35,14 +54,16 @@ class Auto(unittest.TestCase):
     def test_counts(self):
         self.assertEqual(A.count_for("instagram", {"instagram": 0, "youtube": 3}), 4)
         self.assertEqual(A.count_for("youtube", {"instagram": 0, "youtube": 3}), 3)
-        self.assertEqual(A.count_for("youtube", {"instagram": 7, "youtube": 7}), 0)
+        self.assertEqual(A.count_for("youtube", {"instagram": 20, "youtube": 20}), 0)
+        self.assertEqual(A.count_for("youtube", {"instagram": 20, "youtube": 7}), 4)   # max 4 per run
+        self.assertEqual(A.count_for("youtube", {"instagram": 20, "youtube": 19}), 3)
 
 
 class Health(unittest.TestCase):
     def test_silent_when_fine(self):
         led = {"posted": [{"slot": f"2026-11-26T{s}", "platform": p, "status": "posted"}
                           for s in ("08:00", "11:30", "15:00", "18:30") for p in ("youtube", "instagram")]}
-        self.assertEqual(H.problems({"youtube": 3, "instagram": 2}, led, ["08:00", "11:30", "15:00", "18:30", "21:30"],
+        self.assertEqual(H.problems({"youtube": 3, "instagram": 3}, led, ["08:00", "11:30", "15:00", "18:30", "21:30"],
                                     [], None, True, NOW), [])
 
     def test_alerts(self):
@@ -52,6 +73,7 @@ class Health(unittest.TestCase):
         text = " ".join(p)
         self.assertIn("18:30 IST", text)
         self.assertIn("stock is 0 on instagram", text)
+        self.assertIn("stock is 2 on youtube", " ".join(H.problems({"youtube": 2}, {"posted": []}, [], [], None, True, NOW)))
         self.assertIn("2 produce runs failed", text)
         self.assertIn("IG_ACCESS_TOKEN", text)
         self.assertIn("YT_REFRESH_TOKEN", text)
