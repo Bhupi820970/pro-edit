@@ -1,5 +1,6 @@
 """Title / hook / description + credit block (Gemini-written, template fallback)."""
 from __future__ import annotations
+import os
 
 META_SCHEMA = {"type": "OBJECT", "properties": {
     "title": {"type": "STRING"}, "hook": {"type": "STRING"}, "caption": {"type": "STRING"},
@@ -38,13 +39,21 @@ def write_meta(gem, platform: str, fmt: str, category: str, song: dict, clips: l
     brand = cfg.get("brand", "Vice Cartel")
     footage = "; ".join(sorted({f'{c.get("title")} ({c.get("credit")})' for c in clips}))[:500]
     m = None
+    # Hard cap: titles/captions must never eat the attempt budget (Gemini read timeouts used to cost ~12 min).
+    import concurrent.futures as _cf
+    ex = _cf.ThreadPoolExecutor(max_workers=1)
     try:
-        m = gem.generate([{"text": PROMPT.format(platform=platform, fmt=fmt, brand=brand, category=category,
-                                                 footage=footage, song=song["title"], artist=song["artist"],
-                                                 lines=" / ".join(lines)[:700] or "none")}],
-                         schema=META_SCHEMA, temperature=0.9)
+        if gem is not None and not (hasattr(gem, "quota_exhausted") and gem.quota_exhausted()):
+            fut = ex.submit(gem.generate, [{"text": PROMPT.format(platform=platform, fmt=fmt, brand=brand,
+                                                                  category=category, footage=footage,
+                                                                  song=song["title"], artist=song["artist"],
+                                                                  lines=" / ".join(lines)[:700] or "none")}],
+                            schema=META_SCHEMA, temperature=0.9)
+            m = fut.result(timeout=int(os.environ.get("VICE_META_MAX_S", "90") or 90))
     except Exception:
-        pass
+        m = None
+    finally:
+        ex.shutdown(wait=False, cancel_futures=True)
     if not m:
         base = cfg["categories"][category].get("title_fallback", "Edit")
         m = {"title": f"{base} | {song['title']} Edit", "hook": base.upper()[:26],
