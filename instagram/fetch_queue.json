@@ -1,19 +1,14 @@
 {
  "requests": [
   {
-   "id": "instagram-202611272319-movie",
+   "id": "instagram-202611280130-movie",
    "category": "movie",
    "limit": 3,
-   "at": "2026-11-27T23:19:27.688580+05:30",
+   "at": "2026-11-28T01:30:19.374142+05:30",
    "reason": "thin=True download_failed=0 bot_checks=0",
-   "queries": [
-    "official movie clips full scenes",
-    "official movie scenes full quality",
-    "official movie clips licensed channels",
-    "full movie scenes official studio channels"
-   ],
+   "queries": [],
    "links": []
   }
  ],
- "updated": "2026-11-27T23:20:02.558319+05:30"
+ "updated": "2026-11-28T01:30:46.152249+05:30"
 }

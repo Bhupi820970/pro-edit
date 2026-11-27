@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:20:17.745151+05:30",
+ "updated": "2026-11-28T01:31:04.373597+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -14,15 +14,15 @@
    "message": "BACKUP LOW: refill youtube (1/7 ready)"
   },
   "instagram": {
-   "ready": 0,
+   "ready": 2,
    "target": 7,
    "warning": true,
-   "produced_today": 0,
+   "produced_today": 2,
    "per_day": [
     6,
     7
    ],
-   "message": "BACKUP LOW: refill instagram (0/7 ready)"
+   "message": "BACKUP LOW: refill instagram (2/7 ready)"
   }
  },
  "ready": [
@@ -137,6 +137,260 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261127-224133.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261127-224133.preview.mp4"
+  },
+  {
+   "id": "in-movie-20261128-004759",
+   "platform": "instagram",
+   "category": "movie",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T01:10:02.472081+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261128-004759.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-movie-20261128-004759.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 90.7,
+   "title": "Movie Scene Edit | Writing's on the Wall Edit",
+   "hook": "MOVIE SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Writing's on the Wall\" – Sam Smith (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=8jzDnsjYv9A\n🎧 Spotify: https://open.spotify.com/search/Sam%20Smith%20Writing%27s%20on%20the%20Wall\n🎬 Footage: Lionsgate Movies – \"The Furious (2026) Official Clip ‘Ice Fight’ - Xie Miao, Joe Taslim, Brian Le\"; Lionsgate Movies – \"The Furious (2026) Official Clip ’Who Are You’ - Xie Miao, Joe Taslim\"; Warner Bros. – \"The End of Oak Street | \"Get Away From Them\" Clip | In Theaters & IMAX August 14\"; Warner Bros. Entertainment – \"The End of Oak Street | Trapped By A T-Rex | Movie Clip | Warner Bros. Entertainment\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Writing's on the Wall",
+    "artist": "Sam Smith",
+    "url": "https://www.youtube.com/watch?v=8jzDnsjYv9A",
+    "official_channel": "SAM SMITH",
+    "spotify_search": "https://open.spotify.com/search/Sam%20Smith%20Writing%27s%20on%20the%20Wall"
+   },
+   "song_credit": "\"Writing's on the Wall\" – Sam Smith",
+   "pattern": {
+    "id": "P05",
+    "name": "Stepping up beside"
+   },
+   "captions": [],
+   "duration": 38.5,
+   "sources": [
+    {
+     "id": "_udyg7ZTYYE",
+     "src_id": "_udyg7ZTYYE",
+     "path": "/mnt/ph/instagram/sources/_udyg7ZTYYE.mkv",
+     "title": "The Furious (2026) Official Clip ‘Ice Fight’ - Xie Miao, Joe Taslim, Brian Le",
+     "credit": "Lionsgate Movies",
+     "url": "https://www.youtube.com/watch?v=_udyg7ZTYYE"
+    },
+    {
+     "id": "Ap6UhCcHRC0",
+     "src_id": "Ap6UhCcHRC0",
+     "path": "/mnt/ph/instagram/sources/Ap6UhCcHRC0.mkv",
+     "title": "The Furious (2026) Official Clip ’Who Are You’ - Xie Miao, Joe Taslim",
+     "credit": "Lionsgate Movies",
+     "url": "https://www.youtube.com/watch?v=Ap6UhCcHRC0"
+    },
+    {
+     "id": "0VDhvK8moNU",
+     "src_id": "0VDhvK8moNU",
+     "path": "/mnt/ph/instagram/sources/0VDhvK8moNU.mkv",
+     "title": "The End of Oak Street | \"Get Away From Them\" Clip | In Theaters & IMAX August 14",
+     "credit": "Warner Bros.",
+     "url": "https://www.youtube.com/watch?v=0VDhvK8moNU"
+    },
+    {
+     "id": "nslGEjpGdY0",
+     "src_id": "nslGEjpGdY0",
+     "path": "/mnt/ph/instagram/sources/nslGEjpGdY0.mkv",
+     "title": "The End of Oak Street | Trapped By A T-Rex | Movie Clip | Warner Bros. Entertainment",
+     "credit": "Warner Bros. Entertainment",
+     "url": "https://www.youtube.com/watch?v=nslGEjpGdY0"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.5
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -14.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 115.0,
+    "song": 217.7,
+    "beats": 12.4,
+    "scan_plan": 73.9,
+    "more_clips": 123.8,
+    "render": 476.7,
+    "gemini_meta": 90.0,
+    "shorts_9x16": 160.5,
+    "qa": 8.1,
+    "preview": 45.2
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261128-004759.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261128-004759.preview.mp4"
+  },
+  {
+   "id": "in-movie-20261128-011020",
+   "platform": "instagram",
+   "category": "movie",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T01:30:00.291033+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261128-011020.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-movie-20261128-011020.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 107.6,
+   "title": "Jack Hit: The Art of Attention",
+   "hook": "TRUE ATTENTION IS RARE",
+   "description": "Sometimes, all we need is someone who truly stays. ❤️ Who is that person for you? 👇\n\n🎵 Song: \"Feeling Good\" – Michael Buble (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=Edwsf-8F3sI\n🎧 Spotify: https://open.spotify.com/search/Michael%20Buble%20Feeling%20Good\n🎬 Footage: Jack Hit and Viral Music Zone – \"Jack Hit - Cuando Nadie Mira (Official Music Video)\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#jackhit #cuandonadiemira #feelinggood #michaelbuble #movieedit #fanedit #cinematic #vicecartel #romance #drama #emotional #shortfilm #visuals #storytelling #musicvideo #aesthetic #moody #cinema #filmcommunity #relationshipgoals #deepthoughts #love #MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "jackhit",
+    "cuandonadiemira",
+    "feelinggood",
+    "michaelbuble",
+    "movieedit",
+    "fanedit",
+    "cinematic",
+    "vicecartel",
+    "romance",
+    "drama",
+    "emotional",
+    "shortfilm",
+    "visuals",
+    "storytelling",
+    "musicvideo",
+    "aesthetic",
+    "moody",
+    "cinema",
+    "filmcommunity",
+    "relationshipgoals",
+    "deepthoughts",
+    "love",
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Feeling Good",
+    "artist": "Michael Buble",
+    "url": "https://www.youtube.com/watch?v=Edwsf-8F3sI",
+    "official_channel": "Michael Bublé",
+    "spotify_search": "https://open.spotify.com/search/Michael%20Buble%20Feeling%20Good"
+   },
+   "song_credit": "\"Feeling Good\" – Michael Buble",
+   "pattern": {
+    "id": "P02",
+    "name": "Beside-upper"
+   },
+   "captions": [
+    "SOLO ALGUIEN QUE",
+    "SE QUEDE Y",
+    "TE PRESTE",
+    "ATENCIN"
+   ],
+   "duration": 38.87,
+   "sources": [
+    {
+     "id": "FPmYT3Ze8v0",
+     "src_id": "FPmYT3Ze8v0",
+     "path": "/mnt/ph/instagram/sources/FPmYT3Ze8v0.mkv",
+     "title": "Jack Hit - Cuando Nadie Mira (Official Music Video)",
+     "credit": "Jack Hit and Viral Music Zone",
+     "url": "https://www.youtube.com/watch?v=FPmYT3Ze8v0"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.87
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.2
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 4
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 322.8,
+    "song": 14.4,
+    "beats": 0.5,
+    "scan_plan": 64.7,
+    "render": 522.2,
+    "gemini_meta": 19.8,
+    "shorts_9x16": 178.5,
+    "qa": 9.4,
+    "preview": 47.7
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261128-011020.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261128-011020.preview.mp4"
   }
  ],
  "approved": [],
@@ -323,13 +577,13 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-27T20:25:35.396355+05:30",
-  "age_hours": 2.5,
+  "last_run": "2026-11-27T23:12:51.485531+05:30",
+  "age_hours": 2.3,
   "healthy": true,
   "pool": {
-   "gta": 2,
+   "gta": 3,
    "gaming": 9,
-   "movie": 15,
+   "movie": 14,
    "sports": 7,
    "romance": 15,
    "series": 15,
@@ -343,5 +597,5 @@
   "message": "OK"
  },
  "warning": true,
- "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)"
+ "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (2/7 ready)"
 }

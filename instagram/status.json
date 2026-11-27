@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:30:15.412857+05:30",
+ "updated": "2026-11-28T01:30:52.734622+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (2/7 ready)",
@@ -426,20 +426,6 @@
    "platform": "instagram"
   }
  ],
- "last_run": {
-  "platform": "instagram",
-  "in_progress": true,
-  "made": [
-   "in-movie-20261128-004759",
-   "in-movie-20261128-011020"
-  ],
-  "last_video": {
-   "id": "in-movie-20261128-011020",
-   "category": "movie",
-   "title": "Jack Hit: The Art of Attention",
-   "at": "2026-11-28T01:30:14.906707+05:30"
-  }
- },
  "box_fetcher": {
   "last_run": "2026-11-27T23:12:51.485531+05:30",
   "age_hours": 2.3,
@@ -459,30 +445,5 @@
   },
   "errors": [],
   "message": "OK"
- },
- "stock": {
-  "updated": "2026-11-28T01:30:17.972293+05:30",
-  "ledger_readable": true,
-  "platforms": {
-   "instagram": {
-    "in_stock": 2,
-    "posted_still_in_stock": 0,
-    "unposted": 2,
-    "unposted_ids": [
-     "in-movie-20261128-004759",
-     "in-movie-20261128-011020"
-    ],
-    "posted_total": 6
-   },
-   "youtube": {
-    "in_stock": 1,
-    "posted_still_in_stock": 0,
-    "unposted": 1,
-    "unposted_ids": [
-     "yo-gta-20261127-224133"
-    ],
-    "posted_total": 9
-   }
-  }
  }
 }
