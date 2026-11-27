@@ -39,6 +39,7 @@ tmo() {
   else shift; "$@"; fi
 }
 # low CPU / IO priority where available
+# lowprio is a shell function: never pass it to timeout/tmo (timeout runs only real programs)
 lowprio() { if command -v ionice >/dev/null 2>&1; then nice -n 10 ionice -c3 "$@"; else nice -n 10 "$@"; fi; }
 # single-instance lock: flock on Linux, mkdir lock elsewhere. Returns 1 if already held.
 take_lock() {

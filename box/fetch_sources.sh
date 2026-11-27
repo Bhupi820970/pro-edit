@@ -15,7 +15,7 @@ if ! take_lock "$RUN/fetch_sources.lock"; then
 fi
 echo "$(date '+%F %T %Z') fetch_sources start ($(cd "$REPO_DIR" && git rev-parse --short HEAD 2>/dev/null))" >> "$LOG"
 cd "$REPO_DIR" || exit 1
-tmo 170m lowprio python3 "$REPO_DIR/box_fetch.py" cycle --no-gemini --interval 10800 --dir "$RUN" >> "$LOG" 2>&1
+tmo 170m nice -n 10 python3 "$REPO_DIR/box_fetch.py" cycle --no-gemini --interval 10800 --dir "$RUN" >> "$LOG" 2>&1
 rc=$?
 echo "$(date '+%F %T %Z') fetch_sources end rc=$rc" >> "$LOG"
 exit $rc

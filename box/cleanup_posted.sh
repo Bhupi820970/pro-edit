@@ -8,7 +8,7 @@ LOG="$RUN/cleanup_posted.log"
 rotate_log "$LOG" 2000000
 if ! take_lock "$RUN/fetch_sources.lock"; then echo "$(date '+%F %T %Z') fetch running -> skip cleanup" >> "$LOG"; exit 0; fi
 echo "$(date '+%F %T %Z') cleanup_posted start" >> "$LOG"
-tmo 30m lowprio python3 "$REPO_DIR/box/cleanup_posted.py" "$@" >> "$LOG" 2>&1
+tmo 30m nice -n 10 python3 "$REPO_DIR/box/cleanup_posted.py" "$@" >> "$LOG" 2>&1
 rc=$?
 echo "$(date '+%F %T %Z') cleanup_posted end rc=$rc" >> "$LOG"
 exit $rc
