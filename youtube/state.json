@@ -53,6 +53,12 @@
    "at": "2026-11-27T15:25:47.718489+05:30",
    "video": "yo-gaming-20261127-150139",
    "platform": "youtube"
+  },
+  {
+   "id": "P07",
+   "at": "2026-11-27T22:55:14.159840+05:30",
+   "video": "yo-gta-20261127-224133",
+   "platform": "youtube"
   }
  ],
  "songs": [
@@ -118,6 +124,13 @@
    "url": "https://soundcloud.com/leagueoflegends/legends-never-die",
    "at": "2026-11-27T15:25:47.718502+05:30",
    "video": "yo-gaming-20261127-150139"
+  },
+  {
+   "title": "Flashing Lights",
+   "artist": "Kanye West",
+   "url": "",
+   "at": "2026-11-27T22:55:14.159852+05:30",
+   "video": "yo-gta-20261127-224133"
   }
  ],
  "windows": [
@@ -479,6 +492,16 @@
    "id": "tqLMoW7oEbA",
    "at": "2026-11-27T15:25:47.719676+05:30",
    "video": "yo-gaming-20261127-150139"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "at": "2026-11-27T22:55:14.160307+05:30",
+   "video": "yo-gta-20261127-224133"
+  },
+  {
+   "id": "NgO8TVaC24o",
+   "at": "2026-11-27T22:55:14.160311+05:30",
+   "video": "yo-gta-20261127-224133"
   }
  ],
  "segments_used": [
@@ -7113,6 +7136,366 @@
    "end": 13.406101883224192,
    "at": "2026-11-27T15:25:47.718513+05:30",
    "video": "yo-gaming-20261127-150139",
+   "kind": "montage"
+  },
+  {
+   "id": "NgO8TVaC24o",
+   "file": "NgO8TVaC24o.mkv",
+   "start": 14.969999999999999,
+   "end": 16.30333333333333,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "NgO8TVaC24o",
+   "file": "NgO8TVaC24o.mkv",
+   "start": 19.27,
+   "end": 20.60333333333333,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 52.669999999999995,
+   "end": 53.96999999999999,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 18.669999999999998,
+   "end": 19.336666666666666,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "NgO8TVaC24o",
+   "file": "NgO8TVaC24o.mkv",
+   "start": 13.07,
+   "end": 13.736666666666666,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 8.57,
+   "end": 9.903333333333334,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 30.37,
+   "end": 31.703333333333333,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 40.669999999999995,
+   "end": 41.97,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 48.06999999999999,
+   "end": 49.40333333333332,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 46.769999999999996,
+   "end": 47.43666666666667,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 39.269999999999996,
+   "end": 39.93666666666666,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 35.87,
+   "end": 37.20333333333333,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 16.77,
+   "end": 17.436666666666667,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 20.07,
+   "end": 20.736666666666665,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 54.18614550590337,
+   "end": 55.486145505903366,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 10.086145505903374,
+   "end": 10.75281217257004,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 31.88614550590337,
+   "end": 32.55281217257004,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 42.18614550590337,
+   "end": 43.5194788392367,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 49.58614550590337,
+   "end": 50.25281217257003,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 17.623072752951686,
+   "end": 18.28973941961835,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 20.923072752951686,
+   "end": 22.256406086285022,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 55.70229101180674,
+   "end": 56.335624345140076,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 32.739218258855054,
+   "end": 33.40588492552172,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 50.43921825885505,
+   "end": 51.77255159218838,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 22.439218258855057,
+   "end": 23.105884925521725,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 56.555363764758425,
+   "end": 57.22203043142509,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 33.592291011806736,
+   "end": 34.92562434514007,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 23.292291011806743,
+   "end": 23.958957678473407,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "NgO8TVaC24o",
+   "file": "NgO8TVaC24o.mkv",
+   "start": 14.969999999999999,
+   "end": 16.27,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 18.669999999999998,
+   "end": 19.336666666666666,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "NgO8TVaC24o",
+   "file": "NgO8TVaC24o.mkv",
+   "start": 19.27,
+   "end": 19.936666666666664,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 52.669999999999995,
+   "end": 54.00333333333333,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 8.57,
+   "end": 9.236666666666665,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 30.37,
+   "end": 31.03666666666667,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 40.669999999999995,
+   "end": 42.00333333333333,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 46.769999999999996,
+   "end": 47.40333333333333,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 39.269999999999996,
+   "end": 39.93666666666666,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 48.06999999999999,
+   "end": 49.40333333333333,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "NgO8TVaC24o",
+   "file": "NgO8TVaC24o.mkv",
+   "start": 13.07,
+   "end": 13.736666666666665,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
+   "kind": "montage"
+  },
+  {
+   "id": "-HIv_Uj1ERE",
+   "file": "-HIv_Uj1ERE.mkv",
+   "start": 35.87,
+   "end": 36.53666666666666,
+   "at": "2026-11-27T22:55:14.159859+05:30",
+   "video": "yo-gta-20261127-224133",
    "kind": "montage"
   }
  ],
@@ -16034,6 +16417,118 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261127-150139.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261127-150139.preview.mp4"
+  },
+  {
+   "id": "yo-gta-20261127-224133",
+   "platform": "youtube",
+   "category": "gta",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-27T22:55:14.159163+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261127-224133.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261127-224133.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 243.4,
+   "title": "GTA 6 Vice City | Flashing Lights Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Flashing Lights\" – Kanye West (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V – Available on the Rockstar Games Launcher\"; Rockstar Games – \"GTA Online: Open Wheel Racing\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
+   "hashtags": [
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
+   ],
+   "song": {
+    "title": "Flashing Lights",
+    "artist": "Kanye West",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights"
+   },
+   "song_credit": "\"Flashing Lights\" – Kanye West",
+   "pattern": {
+    "id": "P07",
+    "name": "Far beside"
+   },
+   "captions": [],
+   "duration": 38.4,
+   "sources": [
+    {
+     "id": "-HIv_Uj1ERE",
+     "src_id": "-HIv_Uj1ERE",
+     "path": "/mnt/ph/youtube/sources/-HIv_Uj1ERE.mkv",
+     "title": "Grand Theft Auto V – Available on the Rockstar Games Launcher",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=-HIv_Uj1ERE"
+    },
+    {
+     "id": "NgO8TVaC24o",
+     "src_id": "NgO8TVaC24o",
+     "path": "/mnt/ph/youtube/sources/NgO8TVaC24o.mkv",
+     "title": "GTA Online: Open Wheel Racing",
+     "credit": "Rockstar Games",
+     "url": "https://www.youtube.com/watch?v=NgO8TVaC24o"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.4
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 163.7,
+    "song": 18.0,
+    "beats": 7.5,
+    "scan_plan": 39.0,
+    "more_clips": 15.2,
+    "render": 330.9,
+    "gemini_meta": 17.4,
+    "wide_4k": 173.7,
+    "qa": 13.0,
+    "preview": 42.5
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261127-224133.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261127-224133.preview.mp4"
   }
  ],
  "listing_cache": {

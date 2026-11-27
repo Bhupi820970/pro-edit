@@ -1,0 +1,145 @@
+{
+ "platform": "youtube",
+ "made": [
+  "yo-gta-20261127-224133"
+ ],
+ "failures": [],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "gta",
+   "ok": true,
+   "timings": {
+    "gather": 163.7,
+    "song": 18.0,
+    "beats": 7.5,
+    "scan_plan": 39.0,
+    "more_clips": 15.2,
+    "render": 330.9,
+    "gemini_meta": 17.4,
+    "wide_4k": 173.7,
+    "qa": 13.0,
+    "preview": 42.5,
+    "save": 51.2,
+    "total": 872.2
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 163.7,
+  "song": 18.0,
+  "beats": 7.5,
+  "scan_plan": 39.0,
+  "more_clips": 15.2,
+  "render": 330.9,
+  "gemini_meta": 17.4,
+  "wide_4k": 173.7,
+  "qa": 13.0,
+  "preview": 42.5,
+  "save": 51.2
+ },
+ "slowest_step": "render",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 5,
+  "vetted": 0,
+  "rejected": [],
+  "accepted": [],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "gta"
+  ],
+  "runner_skipped": 46,
+  "box_clips_used": 4,
+  "failed_ids": [
+   "kfzrQGU6jhM",
+   "lX_IN4v-RnA",
+   "kMCtod_2iQ0",
+   "lqiZdynJmag",
+   "QYAMp13Yi04"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  }
+ ],
+ "skipped_categories": [],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0,
+   "gemma-4-31b-it": 2,
+   "gemma-4-26b-a4b-it": 0
+  },
+  "exhausted": false,
+  "reset_at": "2026-11-28 13:30 IST"
+ }
+}

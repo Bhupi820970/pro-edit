@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:56:01.229590+05:30",
+ "updated": "2026-11-27T22:56:13.125953+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -296,19 +296,6 @@
    "platform": "youtube"
   }
  ],
- "last_run": {
-  "platform": "youtube",
-  "in_progress": true,
-  "made": [
-   "yo-gta-20261127-224133"
-  ],
-  "last_video": {
-   "id": "yo-gta-20261127-224133",
-   "category": "gta",
-   "title": "GTA 6 Vice City | Flashing Lights Edit",
-   "at": "2026-11-27T22:56:00.704499+05:30"
-  }
- },
  "box_fetcher": {
   "last_run": "2026-11-27T20:25:35.396355+05:30",
   "age_hours": 2.5,
@@ -328,27 +315,5 @@
   },
   "errors": [],
   "message": "OK"
- },
- "stock": {
-  "updated": "2026-11-27T22:56:04.100688+05:30",
-  "ledger_readable": true,
-  "platforms": {
-   "youtube": {
-    "in_stock": 1,
-    "posted_still_in_stock": 0,
-    "unposted": 1,
-    "unposted_ids": [
-     "yo-gta-20261127-224133"
-    ],
-    "posted_total": 9
-   },
-   "instagram": {
-    "in_stock": 0,
-    "posted_still_in_stock": 0,
-    "unposted": 0,
-    "unposted_ids": [],
-    "posted_total": 6
-   }
-  }
  }
 }
