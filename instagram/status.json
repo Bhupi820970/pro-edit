@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:19:06.231502+05:30",
+ "updated": "2026-11-27T15:03:34.741383+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -30,24 +30,6 @@
  "ready": [],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-26T19:45:53.268991+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-26T19:46:13.631499+05:30",
-   "platform": "instagram",
-   "category": "movie",
-   "error": "CategoryUnavailable: no clips of a single title for movie"
-  },
-  {
-   "at": "2026-11-26T19:52:58.876872+05:30",
-   "platform": "instagram",
-   "category": "sports",
-   "error": "CategoryUnavailable: no clips of a single star player for sports"
-  },
   {
    "at": "2026-11-26T19:53:13.591183+05:30",
    "platform": "instagram",
@@ -119,6 +101,24 @@
    "platform": "instagram",
    "category": "romance",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-27T14:43:09.803527+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-27T14:53:10.987170+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-27T15:03:12.160839+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
   }
  ],
  "pattern_history": [
@@ -160,16 +160,16 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-27T11:40:28.774298+05:30",
-  "age_hours": 2.6,
+  "last_run": "2026-11-27T14:29:41.692345+05:30",
+  "age_hours": 0.6,
   "healthy": true,
   "pool": {
-   "gta": 4,
+   "gta": 2,
    "gaming": 12,
    "movie": 15,
    "sports": 10,
-   "romance": 21,
-   "series": 39,
+   "romance": 11,
+   "series": 15,
    "marvel": 9,
    "dc": 9,
    "anime": 9,
