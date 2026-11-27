@@ -6,30 +6,12 @@
    "platform": "youtube",
    "state": "reserved"
   },
-  "-hSuPihfZ24": {
-   "at": "2026-11-27T08:38:13+00:00",
-   "owner": "45963743470-1-instagram",
-   "platform": "instagram",
-   "state": "reserved"
-  },
-  "4YyN-m5boXY": {
-   "at": "2026-11-27T08:38:16+00:00",
-   "owner": "45963743470-1-instagram",
-   "platform": "instagram",
-   "state": "reserved"
-  },
   "APJ-lT0sBhg": {
    "at": "2026-11-26T16:09:19+00:00",
    "owner": "seed-ready-stock",
    "platform": "youtube",
    "state": "used",
    "video": "yo-gta-20261126-181743"
-  },
-  "FPmYT3Ze8v0": {
-   "at": "2026-11-27T08:38:12+00:00",
-   "owner": "45963743470-1-instagram",
-   "platform": "instagram",
-   "state": "reserved"
   },
   "GbuCIrZSPDk": {
    "at": "2026-11-26T16:09:19+00:00",
@@ -106,12 +88,6 @@
    "platform": "youtube",
    "state": "used",
    "video": "yo-gta-20261126-181743"
-  },
-  "xy1PPcZhjuI": {
-   "at": "2026-11-27T08:38:15+00:00",
-   "owner": "45963743470-1-instagram",
-   "platform": "instagram",
-   "state": "reserved"
   }
  },
  "version": 1
