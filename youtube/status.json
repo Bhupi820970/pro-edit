@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T15:27:55.995117+05:30",
+ "updated": "2026-11-27T22:56:01.229590+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -8,7 +8,7 @@
    "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 1,
+   "produced_today": 2,
    "per_day": [
     5,
     6
@@ -29,54 +29,57 @@
  },
  "ready": [
   {
-   "id": "yo-gaming-20261127-150139",
+   "id": "yo-gta-20261127-224133",
    "platform": "youtube",
-   "category": "gaming",
+   "category": "gta",
    "format": "wide",
    "state": "ready",
-   "created": "2026-11-27T15:25:47.717453+05:30",
-   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261127-150139.mp4",
-   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261127-150139.mp4",
-   "preview_mb": 22.2,
-   "size_mb": 245.4,
-   "title": "Gaming Edit | Legends Never Die Edit",
-   "hook": "GAMING EDIT",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Legends Never Die\" – League of Legends (original recording)\n🔗 Official audio: https://soundcloud.com/leagueoflegends/legends-never-die\n🎧 Spotify: https://open.spotify.com/search/League%20of%20Legends%20Legends%20Never%20Die\n🎬 Footage: Rockstar Games – \"Red Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2\"; Rockstar Games – \"Red Dead Redemption: Out Now on Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GamingEdit #Gaming #GameEdit",
+   "created": "2026-11-27T22:55:14.159163+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261127-224133.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gta-20261127-224133.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 243.4,
+   "title": "GTA 6 Vice City | Flashing Lights Edit",
+   "hook": "GTA 6 VICE CITY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Flashing Lights\" – Kanye West (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V – Available on the Rockstar Games Launcher\"; Rockstar Games – \"GTA Online: Open Wheel Racing\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
    "hashtags": [
-    "GamingEdit",
-    "Gaming",
-    "GameEdit"
+    "GTA6",
+    "GTAVI",
+    "GrandTheftAuto6",
+    "ViceCity",
+    "GTA6Edit",
+    "RockstarGames"
    ],
    "song": {
-    "title": "Legends Never Die",
-    "artist": "League of Legends",
-    "url": "https://soundcloud.com/leagueoflegends/legends-never-die",
-    "official_channel": "League of Legends",
-    "spotify_search": "https://open.spotify.com/search/League%20of%20Legends%20Legends%20Never%20Die"
+    "title": "Flashing Lights",
+    "artist": "Kanye West",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights"
    },
-   "song_credit": "\"Legends Never Die\" – League of Legends",
+   "song_credit": "\"Flashing Lights\" – Kanye West",
    "pattern": {
-    "id": "P12",
-    "name": "Upper/lower tick-tock beside"
+    "id": "P07",
+    "name": "Far beside"
    },
    "captions": [],
-   "duration": 38.73,
+   "duration": 38.4,
    "sources": [
     {
-     "id": "SlkizyzZ8k4",
-     "src_id": "SlkizyzZ8k4",
-     "path": "/mnt/ph/youtube/sources/SlkizyzZ8k4.mkv",
-     "title": "Red Dead Redemption Coming to Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+     "id": "-HIv_Uj1ERE",
+     "src_id": "-HIv_Uj1ERE",
+     "path": "/mnt/ph/youtube/sources/-HIv_Uj1ERE.mkv",
+     "title": "Grand Theft Auto V – Available on the Rockstar Games Launcher",
      "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=SlkizyzZ8k4"
+     "url": "https://www.youtube.com/watch?v=-HIv_Uj1ERE"
     },
     {
-     "id": "tqLMoW7oEbA",
-     "src_id": "tqLMoW7oEbA",
-     "path": "/mnt/ph/youtube/sources/tqLMoW7oEbA.mkv",
-     "title": "Red Dead Redemption: Out Now on Netflix, iOS, Android, PS5, Xbox Series X|S, and Nintendo Switch 2",
+     "id": "NgO8TVaC24o",
+     "src_id": "NgO8TVaC24o",
+     "path": "/mnt/ph/youtube/sources/NgO8TVaC24o.mkv",
+     "title": "GTA Online: Open Wheel Racing",
      "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=tqLMoW7oEbA"
+     "url": "https://www.youtube.com/watch?v=NgO8TVaC24o"
     }
    ],
    "qa": {
@@ -84,7 +87,7 @@
     "checks": {
      "duration": {
       "ok": true,
-      "value": 38.73
+      "value": 38.4
      },
      "resolution": {
       "ok": true,
@@ -97,7 +100,7 @@
      },
      "audio": {
       "ok": true,
-      "mean_db": -7.6
+      "mean_db": -9.3
      },
      "black_frames": {
       "ok": true,
@@ -123,19 +126,19 @@
     }
    },
    "timings": {
-    "gather": 226.9,
-    "song": 28.6,
-    "beats": 10.4,
-    "scan_plan": 66.2,
-    "more_clips": 105.0,
-    "render": 652.3,
-    "gemini_meta": 0.5,
-    "wide_4k": 273.8,
-    "qa": 18.2,
-    "preview": 66.6
+    "gather": 163.7,
+    "song": 18.0,
+    "beats": 7.5,
+    "scan_plan": 39.0,
+    "more_clips": 15.2,
+    "render": 330.9,
+    "gemini_meta": 17.4,
+    "wide_4k": 173.7,
+    "qa": 13.0,
+    "preview": 42.5
    },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261127-150139.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261127-150139.preview.mp4"
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261127-224133.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261127-224133.preview.mp4"
   }
  ],
  "approved": [],
@@ -285,18 +288,37 @@
    "at": "2026-11-27T15:25:47.718489+05:30",
    "video": "yo-gaming-20261127-150139",
    "platform": "youtube"
+  },
+  {
+   "id": "P07",
+   "at": "2026-11-27T22:55:14.159840+05:30",
+   "video": "yo-gta-20261127-224133",
+   "platform": "youtube"
   }
  ],
+ "last_run": {
+  "platform": "youtube",
+  "in_progress": true,
+  "made": [
+   "yo-gta-20261127-224133"
+  ],
+  "last_video": {
+   "id": "yo-gta-20261127-224133",
+   "category": "gta",
+   "title": "GTA 6 Vice City | Flashing Lights Edit",
+   "at": "2026-11-27T22:56:00.704499+05:30"
+  }
+ },
  "box_fetcher": {
-  "last_run": "2026-11-27T14:29:41.692345+05:30",
-  "age_hours": 1.0,
+  "last_run": "2026-11-27T20:25:35.396355+05:30",
+  "age_hours": 2.5,
   "healthy": true,
   "pool": {
    "gta": 2,
-   "gaming": 12,
+   "gaming": 9,
    "movie": 15,
-   "sports": 10,
-   "romance": 11,
+   "sports": 7,
+   "romance": 15,
    "series": 15,
    "marvel": 9,
    "dc": 9,
@@ -306,5 +328,27 @@
   },
   "errors": [],
   "message": "OK"
+ },
+ "stock": {
+  "updated": "2026-11-27T22:56:04.100688+05:30",
+  "ledger_readable": true,
+  "platforms": {
+   "youtube": {
+    "in_stock": 1,
+    "posted_still_in_stock": 0,
+    "unposted": 1,
+    "unposted_ids": [
+     "yo-gta-20261127-224133"
+    ],
+    "posted_total": 9
+   },
+   "instagram": {
+    "in_stock": 0,
+    "posted_still_in_stock": 0,
+    "unposted": 0,
+    "unposted_ids": [],
+    "posted_total": 6
+   }
+  }
  }
 }
