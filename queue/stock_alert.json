@@ -1,18 +1,15 @@
 {
  "alert": true,
  "stock": {
-  "youtube": 1,
-  "instagram": 0
+  "instagram": 2,
+  "youtube": 1
  },
  "target": 20,
  "refill_below": 8,
  "alert_at": 2,
  "problems": [
-  "Upload slot missed: 15:00 IST (instagram)",
-  "Upload slot missed: 18:30 IST (youtube, instagram)",
-  "Upload slot missed: 21:30 IST (youtube, instagram)",
-  "Ready stock is 1 on youtube (<= 2): backup nearly empty, manual pick/produce needed",
-  "Ready stock is 0 on instagram (<= 2): backup nearly empty, manual pick/produce needed"
+  "Ready stock is 2 on instagram (<= 2): backup nearly empty, manual pick/produce needed",
+  "Ready stock is 1 on youtube (<= 2): backup nearly empty, manual pick/produce needed"
  ],
- "at": "2026-11-27 22:58 IST"
+ "at": "2026-11-28 05:14 IST"
 }
