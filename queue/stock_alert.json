@@ -9,8 +9,9 @@
  "alert_at": 2,
  "problems": [
   "Upload slot missed: 08:00 IST (instagram)",
+  "Upload slot missed: 11:30 IST (instagram)",
   "Ready stock is 0 on youtube (<= 2): backup nearly empty, manual pick/produce needed",
   "Ready stock is 0 on instagram (<= 2): backup nearly empty, manual pick/produce needed"
  ],
- "at": "2026-11-27 11:58 IST"
+ "at": "2026-11-27 12:58 IST"
 }
