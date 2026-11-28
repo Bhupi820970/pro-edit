@@ -701,7 +701,8 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
             fails.append(msg)
             reserv.release(reserv.mine - held_before)   # render / QA failed: its clips are free again
             state.save()
-            if isinstance(ex, CategoryUnavailable):
+            # too little footage for a montage is the same as no sources: don't retry the same clip 6x
+            if isinstance(ex, CategoryUnavailable) or "not enough distinct montage shots" in str(ex):
                 cat_fails[cat] = cat_fails.get(cat, 0) + 1
                 # quota out: Gemini can't vet anything new, so one miss is enough; else allow one retry
                 if cat_fails[cat] >= (1 if gem.quota_exhausted() else 2):

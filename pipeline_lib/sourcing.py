@@ -759,6 +759,31 @@ class Sourcer:
             full.unlink(missing_ok=True)
         return out if out.exists() else None
 
+    def _backup_vet(self, e: dict, path: Path, key: str, dur: float, category: str) -> dict | None:
+        """Gemini is out of quota: let a free vision model check the same keyframes (strict)."""
+        try:
+            from .llm_fallback import backup_vet
+            frames = self._keyframes(path, key, dur)
+            if len(frames) < 4:
+                return None
+            times = ", ".join(f"{ts:.1f}" for ts, _ in frames)
+            prompt = VET_PROMPT.format(n=len(frames), times=times, category=category,
+                                       title=e.get("title", ""), channel=e.get("channel", ""),
+                                       via=e.get("via", "?"),
+                                       category_rule=category_rule(category, e.get("channel", "")))
+            try:
+                res = backup_vet(prompt, [fp for _, fp in frames], self.cfg)
+            finally:
+                for _, fp in frames:
+                    fp.unlink(missing_ok=True)
+            if res:
+                res["keyframe_times"] = [round(ts, 2) for ts, _ in frames]
+                log(f"vet {key}: backup vision check -> {'accept' if res.get('accept') else 'reject'}")
+            return res
+        except Exception as ex:
+            log("backup vet failed:", (type(ex).__name__ + " " + str(ex))[:160])
+            return None
+
     def vet(self, e: dict, path: Path, category: str) -> dict:
         key = e["id"]
         cached = (self.state.d.get("vet") or {}).get(key)
@@ -777,8 +802,10 @@ class Sourcer:
                    "bad_ranges": [], "has_dialogue": mp["has_dialogue"], "mood": "", "summary": "",
                    "checked_by": "manual", "vet_via": "queue/manual_picks.json"}
         elif self.gem.quota_exhausted():
-            self.note_manual(e, category, local=True)
-            raise GeminiError(f"skip new vet for {key}: all Gemini keys quota-exhausted (use cached vet only)")
+            res = self._backup_vet(e, path, key, dur, category)
+            if res is None:
+                self.note_manual(e, category, local=True)
+                raise GeminiError(f"skip new vet for {key}: all Gemini keys quota-exhausted (use cached vet only)")
         else:
             frames = self._keyframes(path, key, dur)
             if len(frames) < 4:

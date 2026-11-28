@@ -160,3 +160,61 @@ def backup_song_options(prompt: str, category: str, clips: list[dict], cfg: dict
         if opts:
             return opts
     return []
+
+
+def parse_json_obj(text: str) -> dict:
+    text = re.sub(r"<think>.*?</think>", "", text or "", flags=re.S)
+    m = re.search(r"\{.*\}", text, re.S)
+    if not m:
+        return {}
+    try:
+        o = json.loads(m.group(0))
+        return o if isinstance(o, dict) else {}
+    except Exception:
+        return {}
+
+
+VET_KEYS = ["accept", "official_quality", "watermark", "channel_logo", "burned_subtitles", "hud_overlay",
+            "text_overlay", "editable", "has_dialogue", "mood", "summary", "reject_reasons", "bad_ranges"]
+
+
+def backup_vet(prompt: str, image_paths: list, cfg: dict | None = None, timeout: float = 60) -> dict | None:
+    """Footage check with an OpenRouter free vision model when every Gemini key is out. Strict: any overlay
+    flag forces a reject, and a reply missing fields counts as no answer."""
+    cfg = cfg or {}
+    keys = env_keys("OPENROUTER_API_KEY")
+    if not keys or not cfg.get("vet_backup_ai", True):
+        return None
+    content = [{"type": "text", "text": prompt + "\n\nAnswer ONLY with one JSON object with exactly these keys: "
+                + ", ".join(VET_KEYS) + ". bad_ranges is a list of {start, end, reason}."}]
+    for p in image_paths:
+        try:
+            b = base64.b64encode(Path(p).read_bytes()).decode()
+            content.append({"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b}"}})
+        except Exception:
+            pass
+    for model in cfg.get("openrouter_vision_models") or OPENROUTER_VISION:
+        for i, key in enumerate(keys):
+            try:
+                res = parse_json_obj(_post(OPENROUTER_URL, key, {"model": model, "temperature": 0.1,
+                                     "messages": [{"role": "user", "content": content}]}, timeout))
+            except Exception as ex:
+                code = getattr(ex, "code", "")
+                log(f"backup vet: {model} key {i + 1} failed {type(ex).__name__} {code}"[:160])
+                if code in (429, 402, 401, 403):
+                    continue
+                break
+            if not all(k in res for k in VET_KEYS):
+                log(f"backup vet: {model} gave incomplete JSON")
+                break
+            flags = [k for k in ("watermark", "channel_logo", "burned_subtitles", "hud_overlay", "text_overlay")
+                     if res.get(k) is True]
+            if flags or res.get("official_quality") is False or res.get("editable") is False:
+                res["accept"] = False
+                res["reject_reasons"] = list(res.get("reject_reasons") or []) + flags
+            if not isinstance(res.get("bad_ranges"), list):
+                res["bad_ranges"] = []
+            res["checked_by"] = f"backup:{model}"
+            res["vet_via"] = "keyframes"
+            return res
+    return None

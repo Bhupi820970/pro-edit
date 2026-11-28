@@ -282,9 +282,18 @@ class Gemini:
                         try:
                             st, _, raw = self._req(key, "POST", f"{API}/v1beta/models/{model}:generateContent",
                                                    json.dumps(body).encode(), {"Content-Type": "application/json"},
-                                                   timeout=180)
+                                                   timeout=int(os.environ.get("VICE_GEMINI_TIMEOUT_S", "75")))
                         except Exception as ex:   # timeout / network: next key
                             self.log(f"gemini {label}/{model}: {type(ex).__name__} {str(ex)[:80]}")
+                            # a model that hangs twice (any key) is dropped for this run: stop eating the budget
+                            if "timed out" in str(ex).lower() or isinstance(ex, TimeoutError):
+                                to = getattr(self, "_timeouts", {})
+                                to[model] = to.get(model, 0) + 1
+                                self._timeouts = to
+                                if to[model] >= 2:
+                                    self.bad_models.add(model)
+                                    self.log(f"gemini: {model} timed out twice -> skipped for this run")
+                                    next_model = True
                             st, raw = 599, json.dumps({"error": {"message": str(ex)[:150]}}).encode()
                         if st == 200:
                             d = json.loads(raw)
