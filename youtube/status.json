@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T15:40:13.362922+05:30",
+ "updated": "2026-11-28T16:23:40.903031+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -153,24 +153,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-27T15:01:38.139139+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 1 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T09:39:20.370651+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T09:42:30.109671+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
    "at": "2026-11-28T10:05:04.161661+05:30",
    "platform": "youtube",
    "category": "gaming",
@@ -240,6 +222,24 @@
    "at": "2026-11-28T15:15:35.204482+05:30",
    "platform": "youtube",
    "category": "gaming",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T16:02:02.001944+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T16:12:02.020987+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T16:22:02.039411+05:30",
+   "platform": "youtube",
+   "category": "gta",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
   }
  ],
@@ -313,7 +313,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 1.5,
+  "age_hours": 2.3,
   "healthy": true,
   "pool": {
    "gta": 3,

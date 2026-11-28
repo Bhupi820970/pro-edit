@@ -10214,6 +10214,22 @@
    "duration": 73.988,
    "category": "gaming",
    "at": "2026-11-28 09:39"
+  },
+  "5Xciiq7RJ7g": {
+   "accept": false,
+   "reject_reasons": [
+    "on-screen text overlay over the footage"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "GTA Online Casino Heist: Stealing Diamonds $3,619,000 | Silent & Sneaky (Elite & Hard Mode)",
+   "channel": "IsuckAtDriving",
+   "credit": "IsuckAtDriving",
+   "url": "https://www.youtube.com/watch?v=5Xciiq7RJ7g",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-28 10:38"
   }
  },
  "videos": [
@@ -24490,6 +24506,14 @@
    "reject_reasons": [],
    "vet_via": "preview",
    "at": "2026-11-28 06:02"
+  },
+  "5Xciiq7RJ7g": {
+   "accept": false,
+   "reject_reasons": [
+    "on-screen text overlay over the footage"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-28 10:38"
   }
  },
  "failures": [
@@ -27203,6 +27227,24 @@
    "at": "2026-11-28T15:15:35.204482+05:30",
    "platform": "youtube",
    "category": "gaming",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T16:02:02.001944+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T16:12:02.020987+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T16:22:02.039411+05:30",
+   "platform": "youtube",
+   "category": "gta",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
   }
  ],
