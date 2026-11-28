@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T15:27:05.824366+05:30",
+ "updated": "2026-11-28T15:37:41.781075+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -28,42 +28,6 @@
  "ready": [],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-27T14:17:27.253493+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-27T14:43:11.099681+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-27T14:52:54.462934+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 1 clean sources for gta"
-  },
-  {
-   "at": "2026-11-27T15:01:38.139139+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 1 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T09:39:20.370651+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T09:42:30.109671+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
   {
    "at": "2026-11-28T10:05:04.161661+05:30",
    "platform": "youtube",
@@ -117,6 +81,42 @@
    "platform": "youtube",
    "category": "gaming",
    "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"GREATEST WOMAN EVER\", \"ALSO\"]}}"
+  },
+  {
+   "at": "2026-11-28T15:25:50.931979+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
+  },
+  {
+   "at": "2026-11-28T15:29:16.571122+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
+  },
+  {
+   "at": "2026-11-28T15:31:55.014970+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
+  },
+  {
+   "at": "2026-11-28T15:33:30.613939+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
+  },
+  {
+   "at": "2026-11-28T15:35:37.107534+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
+  },
+  {
+   "at": "2026-11-28T15:37:31.005401+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "RuntimeError: not enough distinct montage shots in --clips"
   },
   {
    "at": "2026-11-27T14:43:09.803527+05:30",
@@ -211,7 +211,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 1.3,
+  "age_hours": 1.5,
   "healthy": true,
   "pool": {
    "gta": 3,
