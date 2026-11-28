@@ -1,29 +1,17 @@
 {
  "requests": [
   {
-   "id": "instagram-202611282028-gta",
+   "id": "instagram-202611282042-gta",
    "category": "gta",
    "limit": 3,
-   "at": "2026-11-28T20:28:38.982925+05:30",
+   "at": "2026-11-28T20:42:11.409124+05:30",
    "reason": "thin=True download_failed=5 bot_checks=4",
    "queries": [
     "Grand Theft Auto V Official Gameplay Video Rockstar Games",
     "GTA Online official gameplay Rockstar Games"
    ],
    "links": []
-  },
-  {
-   "id": "instagram-202611282028-marvel",
-   "category": "marvel",
-   "limit": 3,
-   "at": "2026-11-28T20:28:38.983089+05:30",
-   "reason": "thin=True download_failed=5 bot_checks=4",
-   "queries": [
-    "Marvel Studios official clip scene",
-    "Marvel Entertainment official clip"
-   ],
-   "links": []
   }
  ],
- "updated": "2026-11-28T20:28:38.983234+05:30"
+ "updated": "2026-11-28T20:42:11.409209+05:30"
 }

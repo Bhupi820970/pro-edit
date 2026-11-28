@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T20:34:53.329376+05:30",
+ "updated": "2026-11-28T20:42:21.141759+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -985,12 +985,6 @@
    "error": "CategoryUnavailable: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-28T13:58:05.563409+05:30",
-   "platform": "instagram",
-   "category": "sports",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
    "at": "2026-11-28T14:08:07.120729+05:30",
    "platform": "instagram",
    "category": "gta",
@@ -1073,6 +1067,12 @@
    "platform": "instagram",
    "category": "anime",
    "error": "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[23.833333, 26.733333]], \"ending_black\": true}}"
+  },
+  {
+   "at": "2026-11-28T20:42:11.376406+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   }
  ],
  "box_fetcher": {

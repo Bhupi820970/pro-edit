@@ -51656,6 +51656,12 @@
    "platform": "instagram",
    "category": "anime",
    "error": "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[23.833333, 26.733333]], \"ending_black\": true}}"
+  },
+  {
+   "at": "2026-11-28T20:42:11.376406+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   }
  ],
  "vet_rules": "no-text-v2"
