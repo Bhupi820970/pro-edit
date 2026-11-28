@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-28T20:42:18.110201+05:30",
+ "updated": "2026-11-28T21:29:12.118838+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (3/7 ready)",
+ "message": "BACKUP LOW: refill youtube (3/7 ready)",
  "platforms": {
   "youtube": {
-   "ready": 2,
+   "ready": 3,
    "target": 7,
    "warning": true,
-   "produced_today": 2,
+   "produced_today": 3,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (2/7 ready)"
+   "message": "BACKUP LOW: refill youtube (3/7 ready)"
   },
   "instagram": {
-   "ready": 3,
+   "ready": 4,
    "target": 7,
-   "warning": true,
-   "produced_today": 9,
+   "warning": false,
+   "produced_today": 10,
    "per_day": [
     6,
     7
    ],
-   "message": "BACKUP LOW: refill instagram (3/7 ready)"
+   "message": "4/7 ready"
   }
  },
  "ready": [
@@ -676,40 +676,267 @@
    "twin_of": "in-movie-20261128-191301",
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-movie-20261128-191301.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-movie-20261128-191301.preview.mp4"
+  },
+  {
+   "id": "in-anime-20261128-211330",
+   "platform": "instagram",
+   "category": "anime",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T21:28:53.811774+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-anime-20261128-211330.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-anime-20261128-211330.mp4",
+   "preview_mb": 22.3,
+   "size_mb": 131.7,
+   "title": "Anime Scene Edit | KICK BACK Edit",
+   "hook": "MAIN CHARACTER ENERGY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"KICK BACK\" – Kenshi Yonezu (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=M2cckDmNLMI\n🎧 Spotify: https://open.spotify.com/search/Kenshi%20Yonezu%20KICK%20BACK\n🎬 Footage: DisneyMusicVEVO – \"Awhimai Fraser - Get Lost (From \"Moana 2\") (Official Video)\"; Walt Disney Animation Studios – \"Moana 2 | Call to Motufetu - Deleted Scene\"; DisneyMusicVEVO – \"Moana 2 - Cast - What Could Be Better Than This? (From \"Moana 2\") (Official Video)\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#Anime #AnimeEdit #Crunchyroll #Cartoon",
+   "hashtags": [
+    "Anime",
+    "AnimeEdit",
+    "Crunchyroll",
+    "Cartoon"
+   ],
+   "song": {
+    "title": "KICK BACK",
+    "artist": "Kenshi Yonezu",
+    "url": "https://www.youtube.com/watch?v=M2cckDmNLMI",
+    "official_channel": "Kenshi Yonezu  米津玄師",
+    "spotify_search": "https://open.spotify.com/search/Kenshi%20Yonezu%20KICK%20BACK"
+   },
+   "song_credit": "\"KICK BACK\" – Kenshi Yonezu",
+   "pattern": {
+    "id": "P10",
+    "name": "Big keys, tiny fillers"
+   },
+   "captions": [
+    "THROUGH A",
+    "VISION",
+    "BUT EARLIER VERSION",
+    "OF THE FILM",
+    "DIDN'T GIVE HER",
+    "MANY ANSWERS OR",
+    "THE DIRECT CALL",
+    "FROM TAO TAI",
+    "VASA IN",
+    "THIS"
+   ],
+   "duration": 38.57,
+   "sources": [
+    {
+     "id": "Pk6ijWVFOtk",
+     "src_id": "Pk6ijWVFOtk",
+     "path": "/mnt/ph/instagram/sources/Pk6ijWVFOtk.mkv",
+     "title": "Awhimai Fraser - Get Lost (From \"Moana 2\") (Official Video)",
+     "credit": "DisneyMusicVEVO",
+     "url": "https://www.youtube.com/watch?v=Pk6ijWVFOtk"
+    },
+    {
+     "id": "ZhCf8cZTK3w",
+     "src_id": "ZhCf8cZTK3w",
+     "path": "/mnt/ph/instagram/sources/ZhCf8cZTK3w.mkv",
+     "title": "Moana 2 | Call to Motufetu - Deleted Scene",
+     "credit": "Walt Disney Animation Studios",
+     "url": "https://www.youtube.com/watch?v=ZhCf8cZTK3w"
+    },
+    {
+     "id": "KNg04Ew6Rh4",
+     "src_id": "KNg04Ew6Rh4",
+     "path": "/mnt/ph/instagram/sources/KNg04Ew6Rh4.mkv",
+     "title": "Moana 2 - Cast - What Could Be Better Than This? (From \"Moana 2\") (Official Video)",
+     "credit": "DisneyMusicVEVO",
+     "url": "https://www.youtube.com/watch?v=KNg04Ew6Rh4"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.57
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 10
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 41.9,
+    "song": 34.7,
+    "beats": 0.0,
+    "scan_plan": 205.7,
+    "render": 390.6,
+    "gemini_meta": 26.8,
+    "shorts_9x16": 169.9,
+    "qa": 9.4,
+    "preview": 44.8
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-anime-20261128-211330.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-anime-20261128-211330.preview.mp4"
+  },
+  {
+   "id": "yo-anime-20261128-211330",
+   "platform": "youtube",
+   "category": "anime",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T21:28:53.811774+05:30",
+   "path": "/mnt/ph/instagram/ready/youtube/yo-anime-20261128-211330.mp4",
+   "preview": "/mnt/ph/instagram/prev/yo-anime-20261128-211330.mp4",
+   "preview_mb": 22.3,
+   "size_mb": 131.7,
+   "title": "Anime Scene Edit | KICK BACK Edit",
+   "hook": "MAIN CHARACTER ENERGY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"KICK BACK\" – Kenshi Yonezu (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=M2cckDmNLMI\n🎧 Spotify: https://open.spotify.com/search/Kenshi%20Yonezu%20KICK%20BACK\n🎬 Footage: DisneyMusicVEVO – \"Awhimai Fraser - Get Lost (From \"Moana 2\") (Official Video)\"; Walt Disney Animation Studios – \"Moana 2 | Call to Motufetu - Deleted Scene\"; DisneyMusicVEVO – \"Moana 2 - Cast - What Could Be Better Than This? (From \"Moana 2\") (Official Video)\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#Anime #AnimeEdit #Crunchyroll #Cartoon",
+   "hashtags": [
+    "Anime",
+    "AnimeEdit",
+    "Crunchyroll",
+    "Cartoon"
+   ],
+   "song": {
+    "title": "KICK BACK",
+    "artist": "Kenshi Yonezu",
+    "url": "https://www.youtube.com/watch?v=M2cckDmNLMI",
+    "official_channel": "Kenshi Yonezu  米津玄師",
+    "spotify_search": "https://open.spotify.com/search/Kenshi%20Yonezu%20KICK%20BACK"
+   },
+   "song_credit": "\"KICK BACK\" – Kenshi Yonezu",
+   "pattern": {
+    "id": "P10",
+    "name": "Big keys, tiny fillers"
+   },
+   "captions": [
+    "THROUGH A",
+    "VISION",
+    "BUT EARLIER VERSION",
+    "OF THE FILM",
+    "DIDN'T GIVE HER",
+    "MANY ANSWERS OR",
+    "THE DIRECT CALL",
+    "FROM TAO TAI",
+    "VASA IN",
+    "THIS"
+   ],
+   "duration": 38.57,
+   "sources": [
+    {
+     "id": "Pk6ijWVFOtk",
+     "src_id": "Pk6ijWVFOtk",
+     "path": "/mnt/ph/instagram/sources/Pk6ijWVFOtk.mkv",
+     "title": "Awhimai Fraser - Get Lost (From \"Moana 2\") (Official Video)",
+     "credit": "DisneyMusicVEVO",
+     "url": "https://www.youtube.com/watch?v=Pk6ijWVFOtk"
+    },
+    {
+     "id": "ZhCf8cZTK3w",
+     "src_id": "ZhCf8cZTK3w",
+     "path": "/mnt/ph/instagram/sources/ZhCf8cZTK3w.mkv",
+     "title": "Moana 2 | Call to Motufetu - Deleted Scene",
+     "credit": "Walt Disney Animation Studios",
+     "url": "https://www.youtube.com/watch?v=ZhCf8cZTK3w"
+    },
+    {
+     "id": "KNg04Ew6Rh4",
+     "src_id": "KNg04Ew6Rh4",
+     "path": "/mnt/ph/instagram/sources/KNg04Ew6Rh4.mkv",
+     "title": "Moana 2 - Cast - What Could Be Better Than This? (From \"Moana 2\") (Official Video)",
+     "credit": "DisneyMusicVEVO",
+     "url": "https://www.youtube.com/watch?v=KNg04Ew6Rh4"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.57
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 10
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 41.9,
+    "song": 34.7,
+    "beats": 0.0,
+    "scan_plan": 205.7,
+    "render": 390.6,
+    "gemini_meta": 26.8,
+    "shorts_9x16": 169.9,
+    "qa": 9.4,
+    "preview": 44.8
+   },
+   "twin_of": "in-anime-20261128-211330",
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-anime-20261128-211330.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-anime-20261128-211330.preview.mp4"
   }
  ],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-28T14:08:07.120729+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T14:14:04.344824+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T14:24:04.599184+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T15:01:25.294005+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T15:08:34.632036+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
   {
    "at": "2026-11-28T15:12:36.341412+05:30",
    "platform": "instagram",
@@ -769,6 +996,36 @@
    "platform": "instagram",
    "category": "gta",
    "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T21:01:59.675509+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T21:07:13.473349+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T21:11:36.469741+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T21:12:48.739466+05:30",
+   "platform": "instagram",
+   "category": "marvel",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
+  },
+  {
+   "at": "2026-11-28T21:13:28.874693+05:30",
+   "platform": "instagram",
+   "category": "celebrity",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
   }
  ],
  "pattern_history": [
@@ -849,11 +1106,30 @@
    "at": "2026-11-28T19:30:42.841080+05:30",
    "video": "in-movie-20261128-191301",
    "platform": "instagram"
+  },
+  {
+   "id": "P10",
+   "at": "2026-11-28T21:28:53.812306+05:30",
+   "video": "in-anime-20261128-211330",
+   "platform": "instagram"
   }
  ],
+ "last_run": {
+  "platform": "instagram",
+  "in_progress": true,
+  "made": [
+   "in-anime-20261128-211330"
+  ],
+  "last_video": {
+   "id": "in-anime-20261128-211330",
+   "category": "anime",
+   "title": "Anime Scene Edit | KICK BACK Edit",
+   "at": "2026-11-28T21:29:11.814481+05:30"
+  }
+ },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 6.6,
+  "age_hours": 7.4,
   "healthy": true,
   "pool": {
    "gta": 3,
@@ -870,5 +1146,36 @@
   },
   "errors": [],
   "message": "OK"
+ },
+ "stock": {
+  "updated": "2026-11-28T21:29:15.703533+05:30",
+  "ledger_readable": true,
+  "platforms": {
+   "instagram": {
+    "in_stock": 4,
+    "posted_still_in_stock": 0,
+    "unposted": 4,
+    "unposted_ids": [
+     "in-anime-20261128-211330",
+     "in-dc-20261128-185757",
+     "in-movie-20261128-191301",
+     "in-series-20261128-162352"
+    ],
+    "posted_total": 10
+   },
+   "youtube": {
+    "in_stock": 5,
+    "posted_still_in_stock": 0,
+    "unposted": 5,
+    "unposted_ids": [
+     "yo-anime-20261128-211330",
+     "yo-dc-20261128-185757",
+     "yo-gaming-20261128-171320",
+     "yo-gaming-20261128-173233",
+     "yo-movie-20261128-191301"
+    ],
+    "posted_total": 11
+   }
+  }
  }
 }
