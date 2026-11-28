@@ -14,3 +14,11 @@ def test_twin_for_other_platform(tmp_path, monkeypatch):
     assert (tmp_path / "ready" / "instagram" / "in-movie-1.mp4").exists()
     assert P.cross_post_twin(e, out, {"cross_post": False}) is None
     assert P.cross_post_twin({**e, "format": "wide"}, out, {}) is None
+
+
+def test_junk_titles_blocked():
+    from pipeline_lib.titles import trailer_blocked
+    assert trailer_blocked("Bloopers | Percy Jackson and the Olympians | Disney+", "series")
+    assert trailer_blocked("Season 3 Watch Party | Disney+", "movie")
+    assert not trailer_blocked("The Wedding Dress | Percy Jackson and the Olympians", "series")
+    assert not trailer_blocked("LeBron James postgame interview", "sports")

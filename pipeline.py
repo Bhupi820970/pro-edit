@@ -187,6 +187,12 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
             raise CategoryUnavailable("sports edit needs a spoken interview/press clip of the same player", category)
     elif len(clips) < 2:
         raise CategoryUnavailable(f"only {len(clips)} clean sources for {category}", category)
+    # one upload (e.g. a single bloopers reel) is not enough for a real edit: need 2+ different videos
+    # (gta: only a few official Rockstar trailers exist, chunks of one trailer are fine)
+    min_src = int(ccfg.get("min_distinct_sources", 1 if category == "gta" else CFG.get("min_distinct_sources", 2)))
+    if len({c.get("src_id") or c.get("id") for c in clips}) < min_src:
+        raise CategoryUnavailable(f"only {len({c.get('src_id') or c.get('id') for c in clips})} distinct source "
+                                  f"video(s) for {category}, need {min_src}", category)
     if not any(c.get("has_dialogue") for c in clips):
         log("warning: no clip with dialogue; edit will be montage-only (no captions)")
     banned = set()

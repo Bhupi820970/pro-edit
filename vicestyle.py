@@ -1016,6 +1016,15 @@ def make_4k_wide(wide: Path, out: Path):
          "-bufsize", "100M", "-profile:v", "high", "-c:a", "copy", "-movflags", "+faststart", str(out)])
 
 
+def _dur(p: Path) -> float:
+    try:
+        r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)],
+                           capture_output=True, text=True, timeout=60)
+        return float(r.stdout.strip())
+    except Exception:
+        return 9999.0
+
+
 def make_shorts(wide: Path, out: Path, hook: str, fpath: str):
     """2160x3840: blurred fill background, full 16:9 video (no crop), white hook bar above."""
     W, H = 2160, 3840
@@ -1039,7 +1048,7 @@ def make_shorts(wide: Path, out: Path, hook: str, fpath: str):
     vf = (f"[0:v]split[a][b];[a]scale=270:480:force_original_aspect_ratio=increase,crop=270:480,"
           f"boxblur=10:3,eq=brightness=-0.08,scale={W}:{H}[bg];"
           f"[b]scale={BW}:{BH}:flags=lanczos[fg];[bg][fg]overlay=0:{vy}[v1];"
-          f"[v1][1:v]overlay=0:{vy - bar_h},format=yuv420p")
+          f"[v1][1:v]overlay=0:{vy - bar_h}:enable='lt(t,{max(1.0, _dur(wide) - 1.2):.2f})',format=yuv420p")
     run(["ffmpeg", "-y", "-v", "error", "-i", str(wide), "-i", str(bp), "-filter_complex", vf,
          "-map", "0:a", "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-maxrate", "50M",
          "-bufsize", "100M", "-pix_fmt", "yuv420p", "-profile:v", "high", "-c:a", "copy",

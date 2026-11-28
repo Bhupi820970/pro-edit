@@ -129,10 +129,16 @@ def scene_text(category: str, clips: list[dict]) -> str:
         tone = "" if b is None else ("dark" if b < 70 else "bright" if b > 150 else "normal light")
         pace = "" if not st else ("fast cuts" if st["cuts_per_10s"] >= 3 else
                                   "slow, long shots" if st["cuts_per_10s"] < 1 else "medium pace")
-        lines.append(f'- "{c.get("title") or "?"}": mood {c.get("mood") or "n/a"}; {pace}; {tone}; '
+        lines.append(f'- "{c.get("title") or "?"}": mood {c.get("mood") or "n/a"}; '
+                     f'{("what happens: " + str(c.get("summary"))[:160] + "; ") if c.get("summary") else ""}{pace}; {tone}; '
                      f'{"has spoken dialogue" if c.get("has_dialogue") else "no dialogue"}')
     return f"Edit category: {category}\nClips:\n" + "\n".join(lines)
 
+
+MOOD_RULE = ("\n\nMOOD MATCH IS THE #1 RULE: first decide the scene's emotion from the frames/mood "
+             "(fight/chase -> aggressive hype; sad/loss -> emotional; romance -> love song; funny -> playful; "
+             "tense -> dark/suspense). Every option must match that emotion and energy; a famous song with the "
+             "wrong mood is a wrong answer. Put the scene emotion in each 'why'.")
 
 JSON_TAIL = ('\nAnswer ONLY with a JSON array (no prose), up to 6 items, best first: '
              '[{"title": "...", "artist": "...", "bpm": 120, "why": "short reason"}]. '
@@ -149,14 +155,14 @@ def backup_song_options(prompt: str, category: str, clips: list[dict], cfg: dict
     desc = scene_text(category, clips)
     if orkeys:
         frames = clip_frames(clips)
-        content = [{"type": "text", "text": prompt + "\n\nLook at the attached frames from the clips to judge "
+        content = [{"type": "text", "text": prompt + MOOD_RULE + "\n\nLook at the attached frames from the clips to judge "
                     "the real mood and energy.\n" + desc + JSON_TAIL}]
         content += [{"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b}"}} for b in frames]
         opts = ask(OPENROUTER_URL, orkeys, cfg.get("openrouter_vision_models") or OPENROUTER_VISION, content)
         if opts:
             return opts
     if gkeys:
-        opts = ask(GROQ_URL, gkeys, cfg.get("groq_models") or GROQ_TEXT, prompt + "\n\n" + desc + JSON_TAIL)
+        opts = ask(GROQ_URL, gkeys, cfg.get("groq_models") or GROQ_TEXT, prompt + MOOD_RULE + "\n\n" + desc + JSON_TAIL)
         if opts:
             return opts
     return []

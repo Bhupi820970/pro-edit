@@ -361,6 +361,7 @@ def pick_song(gem, state, category: str, clips: list[dict], cfg: dict, banned: s
     # best mood / genre / bpm fit first (shuffle above keeps ties varied)
     fresh.sort(key=lambda r: -song_fit_score(r, category, cfg, moods))
     opts = []
+    picker = "gemini"
     if gem is not None:
         import concurrent.futures as _cf
         _pool = _cf.ThreadPoolExecutor(max_workers=1)
@@ -391,6 +392,7 @@ def pick_song(gem, state, category: str, clips: list[dict], cfg: dict, banned: s
                                 for r in fresh[:40]) or "none",
                 recent=", ".join(recent[-60:]) or "none")
             opts = backup_song_options(prompt, category, clips, cfg)
+            picker = "backup AI"
         except Exception as ex:
             log("backup song brain failed:", (type(ex).__name__ + " " + str(ex))[:160])
             opts = []
@@ -405,7 +407,7 @@ def pick_song(gem, state, category: str, clips: list[dict], cfg: dict, banned: s
         if rec:
             wav = as_wav(song_audio_path(sdir, rec), sdir)
             if wav:
-                log("using stock song (gemini pick):", f'{rec["title"]} - {rec["artist"]}')
+                log(f"using stock song ({picker} pick):", f'{rec["title"]} - {rec["artist"]}')
                 return _result(rec["title"], rec["artist"], o.get("why", ""), wav, rec, "gemini-stock")
     # 2) Gemini wants a song we don't have: fetch it once (best option only), use it, add it to the stock
     for o in opts[:2]:

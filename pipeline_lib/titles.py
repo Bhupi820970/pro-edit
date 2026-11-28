@@ -44,8 +44,24 @@ GAME_TRAILER_OK_RE = re.compile(r"(?i)\b(official\s+)?(gameplay\s+)?(trailer|rev
 GAME_TRAILER_BAD_RE = re.compile(r"(?i)\b(teasers?|promos?|tv\s*spots?|reaction|breakdown|explained|fan[- ]made|concept)\b")
 
 
+# Uploads with no real scene/story to cut: bloopers, BTS, interviews, watch parties, recaps...
+# (sports keeps interviews / press conferences — those are its content)
+JUNK_TITLE_RE = re.compile(
+    r"(?i)\b(bloopers?|gag\s*reel|outtakes?|behind[\s-]+the[\s-]+scenes?|bts|interviews?|watch\s*party|"
+    r"reactions?|recap|explained|diar(?:y|ies)|cast\s+(?:plays|answers|reacts|talks)|featurettes?|"
+    r"making\s+of|first\s+look|sneak\s+peek|previews?|table\s+read|red\s+carpet|podcast|q\s*&\s*a)\b"
+)
+
+
+def is_junk_title(title: str, category: str | None = None) -> bool:
+    return category != "sports" and bool(JUNK_TITLE_RE.search(title or ""))
+
+
 def trailer_blocked(title: str, category: str | None = None) -> bool:
-    """is_trailer_title, except gaming keeps official trailers / gameplay reveals."""
+    """is_trailer_title, except gaming keeps official trailers / gameplay reveals. Also blocks
+    bloopers/BTS/interviews/previews (no story to edit) outside sports."""
+    if is_junk_title(title, category):
+        return True
     if category == "gaming":
         t = title or ""
         return bool(GAME_TRAILER_BAD_RE.search(t)) or (is_trailer_title(t) and not GAME_TRAILER_OK_RE.search(t))

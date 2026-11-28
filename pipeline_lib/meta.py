@@ -56,7 +56,16 @@ def write_meta(gem, platform: str, fmt: str, category: str, song: dict, clips: l
         ex.shutdown(wait=False, cancel_futures=True)
     if not m:
         base = cfg["categories"][category].get("title_fallback", "Edit")
-        m = {"title": f"{base} | {song['title']} Edit", "hook": base.upper()[:26],
+        hook = base
+        try:
+            from .titles import work_title
+            w = next((work_title(c.get("title") or "", category) for c in clips if c.get("title")), "") or ""
+            w = str(w).strip()
+            if w and len(w) <= 22:
+                hook, base = f"{w} Edit", f"{w} Edit"
+        except Exception:
+            pass
+        m = {"title": f"{base} | {song['title']} Edit", "hook": hook.upper()[:26],
              "caption": "Which scene hit hardest? 👇", "hashtags": cfg["categories"][category].get("tags", [])}
     tags = [t.lstrip("#").replace(" ", "") for t in m["hashtags"]][:24]
     for t in cfg["categories"][category].get("tags", [])[:6]:
