@@ -1,22 +1,10 @@
 {
  "requests": [
   {
-   "id": "instagram-202611281643-sports",
-   "category": "sports",
-   "limit": 3,
-   "at": "2026-11-28T16:43:57.378982+05:30",
-   "reason": "thin=True download_failed=4 bot_checks=4",
-   "queries": [
-    "LeBron James official interview NBA Lakers",
-    "LeBron James official highlights NBA no commentary"
-   ],
-   "links": []
-  },
-  {
-   "id": "instagram-202611281643-gta",
+   "id": "instagram-202611281931-gta",
    "category": "gta",
    "limit": 3,
-   "at": "2026-11-28T16:43:57.379095+05:30",
+   "at": "2026-11-28T19:31:16.175412+05:30",
    "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
     "Grand Theft Auto V Official Gameplay Video Rockstar Games",
@@ -25,17 +13,29 @@
    "links": []
   },
   {
-   "id": "instagram-202611281643-series",
-   "category": "series",
+   "id": "instagram-202611281931-celebrity",
+   "category": "celebrity",
    "limit": 3,
-   "at": "2026-11-28T16:43:57.379179+05:30",
+   "at": "2026-11-28T19:31:16.175574+05:30",
    "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
-    "official series clip Netflix",
-    "official scene clip Netflix"
+    "Oscars official acceptance speech moment",
+    "GRAMMYs official performance moment"
+   ],
+   "links": []
+  },
+  {
+   "id": "instagram-202611281931-movie",
+   "category": "movie",
+   "limit": 3,
+   "at": "2026-11-28T19:31:16.175683+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "official action movie clip Sony Pictures",
+    "official car chase scene clip Universal Pictures"
    ],
    "links": []
   }
  ],
- "updated": "2026-11-28T16:43:57.379241+05:30"
+ "updated": "2026-11-28T19:31:16.175750+05:30"
 }

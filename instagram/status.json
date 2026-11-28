@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T19:31:12.306384+05:30",
+ "updated": "2026-11-28T19:31:22.782127+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (3/7 ready)",
@@ -851,20 +851,6 @@
    "platform": "instagram"
   }
  ],
- "last_run": {
-  "platform": "instagram",
-  "in_progress": true,
-  "made": [
-   "in-dc-20261128-185757",
-   "in-movie-20261128-191301"
-  ],
-  "last_video": {
-   "id": "in-movie-20261128-191301",
-   "category": "movie",
-   "title": "Movieclips Edit | Seven Nation Army Edit",
-   "at": "2026-11-28T19:31:11.991905+05:30"
-  }
- },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
   "age_hours": 5.4,
@@ -884,34 +870,5 @@
   },
   "errors": [],
   "message": "OK"
- },
- "stock": {
-  "updated": "2026-11-28T19:31:14.886476+05:30",
-  "ledger_readable": true,
-  "platforms": {
-   "instagram": {
-    "in_stock": 3,
-    "posted_still_in_stock": 0,
-    "unposted": 3,
-    "unposted_ids": [
-     "in-dc-20261128-185757",
-     "in-movie-20261128-191301",
-     "in-series-20261128-162352"
-    ],
-    "posted_total": 10
-   },
-   "youtube": {
-    "in_stock": 4,
-    "posted_still_in_stock": 0,
-    "unposted": 4,
-    "unposted_ids": [
-     "yo-dc-20261128-185757",
-     "yo-gaming-20261128-171320",
-     "yo-gaming-20261128-173233",
-     "yo-movie-20261128-191301"
-    ],
-    "posted_total": 11
-   }
-  }
  }
 }

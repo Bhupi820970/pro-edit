@@ -1,174 +1,127 @@
-[2026-11-28 15:55:43 IST] pull-sources: +108 clips, 14 accepted / 94 unvetted listed, 6.9 GB local
-[2026-11-28 15:55:46 IST] === in-sports-20261128-155546: platform=instagram category=sports format=shorts seed=469752062
-[2026-11-28 15:56:46 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 15:57:00 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 15:57:04 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Jh_cVHowtlQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 15:57:13 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Jh_cVHowtlQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 15:57:13 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 15:57:15 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 88TWWLDELI0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 15:57:25 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 88TWWLDELI0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 15:57:25 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 15:57:27 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 15:57:53 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 15:58:13 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 15:58:14 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 15:58:32 IST] pre-vet REJECT [88TWWLDELI0] Cristiano Ronaldo Jr. CARRYING Al Nassr U-17 vs Al Ahli 2-1 | All Goal — on-screen text overlay over the footage (2 GOALS!)
-[2026-11-28 15:58:34 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Doiq12y4078: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 15:58:44 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Doiq12y4078: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 15:58:44 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 15:58:46 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 7luPd6Grrmk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 15:58:56 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 7luPd6Grrmk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 15:58:56 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 15:58:58 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] S9ucRYLjM-M: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 15:59:08 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] S9ucRYLjM-M: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 15:59:08 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 15:59:09 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 15:59:42 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:07 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:07 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:08 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:09 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:10 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:37 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:38 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:39 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:40 IST] gemini key6/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:41 IST] pre-vet REJECT [S9ucRYLjM-M] PUSKAS CONTENDER: Every replay of THAT Cristiano Ronaldo volley 🐐🚀 — corner logo present in top-left; flag:watermark; flag:channel_logo
-[2026-11-28 16:00:41 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:00:41 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:01:49 IST] content thin for sports (1/3) -> fallback search (4 candidates)
-[2026-11-28 16:01:49 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
-[2026-11-28 16:01:49 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
-[2026-11-28 16:01:49 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
-[2026-11-28 16:01:49 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
-[2026-11-28 16:01:49 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
-[2026-11-28 16:01:49 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
-[2026-11-28 16:01:49 IST] song stock for sports: 22 tagged songs with audio
-[2026-11-28 16:01:49 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:02:49 IST] gemini song pick failed/timed out, rotating the genre stock: TimeoutError 
-[2026-11-28 16:03:04 IST] gemini key2/gemma-4-31b-it: TimeoutError The read operation timed out
-[2026-11-28 16:03:04 IST] gemini key2/gemma-4-31b-it: HTTP 599 The read operation timed out
-[2026-11-28 16:03:14 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free (key 1) gave 6 options
-[2026-11-28 16:03:15 IST] using stock song (gemini pick): Till I Collapse - Eminem
-[2026-11-28 16:03:15 IST] song: Till I Collapse – Eminem ()
-[2026-11-28 16:03:15 IST] caption pattern: P04 Stepping down beside
-[2026-11-28 16:03:49 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:03:49 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:03:49 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:03:59 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:04:51 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:05:04 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:05:20 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:05:46 IST] attempt failed, retrying with different sources/song: AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt
-[2026-11-28 16:05:47 IST] gemini: answered by backup model gemma-4-31b-it (key13)
-[2026-11-28 16:05:47 IST] attempt 1 FAIL in 602s: gather=363s, song=86s, beats=10s, scan_plan=143s
-[2026-11-28 16:05:47 IST] === in-sports-20261128-160547: platform=instagram category=sports format=shorts seed=756232653
-[2026-11-28 16:06:47 IST] x search failed: LeBron James official interview NBA Lakers full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 16:07:02 IST] x search failed: LeBron James official highlights NBA no commentary full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 16:07:05 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] Cp9LC0JWX2c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 16:07:14 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] Cp9LC0JWX2c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 16:07:14 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 16:07:14 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
-[2026-11-28 16:07:15 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:07:46 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:08:03 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:09:02 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:09:21 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:09:21 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:09:22 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:09:22 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:10:37 IST] gemini key9/gemma-4-31b-it: TimeoutError The read operation timed out
-[2026-11-28 16:10:37 IST] gemini: gemma-4-31b-it timed out twice -> skipped for this run
-[2026-11-28 16:10:37 IST] gemini key9/gemma-4-31b-it: HTTP 599 The read operation timed out
-[2026-11-28 16:10:37 IST] gemini key1/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:10:38 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:11:18 IST] content thin for sports (1/3) -> fallback search (7 candidates)
-[2026-11-28 16:11:18 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
-[2026-11-28 16:11:18 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
-[2026-11-28 16:11:18 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
-[2026-11-28 16:11:18 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
-[2026-11-28 16:11:18 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
-[2026-11-28 16:11:18 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
-[2026-11-28 16:11:18 IST] song stock for sports: 22 tagged songs with audio
-[2026-11-28 16:11:18 IST] gemini: answered by backup model gemma-4-26b-a4b-it (key4)
-[2026-11-28 16:11:51 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free (key 1) gave 6 options
-[2026-11-28 16:11:51 IST] using stock song (gemini pick): Remember the Name - Fort Minor
-[2026-11-28 16:11:51 IST] song: Remember the Name – Fort Minor (https://www.youtube.com/watch?v=VDvr08sCPOc)
-[2026-11-28 16:11:51 IST] caption pattern: P03 Beside-lower
-[2026-11-28 16:12:37 IST] plan 38.7s, 16 shots -> render
-[2026-11-28 16:19:59 IST] gemini key5/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
-[2026-11-28 16:19:59 IST] gemini key5/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
-[2026-11-28 16:20:00 IST] gemini key6/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:21:15 IST] gemini key7/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
-[2026-11-28 16:21:15 IST] gemini: gemma-4-26b-a4b-it timed out twice -> skipped for this run
-[2026-11-28 16:21:15 IST] gemini key7/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
-[2026-11-28 16:23:21 IST] === in-sports-20261128-160547: QA PASS -> /mnt/ph/instagram/ready/instagram/in-sports-20261128-160547.mp4
-[2026-11-28 16:23:30 IST] attached ['in-sports-20261128-160547.mp4', 'in-sports-20261128-160547.preview.mp4', 'in-sports-20261128-160547.mp4.json'] to vc-ready
-[2026-11-28 16:23:32 IST] vc-ready manifest: 2 videos
-[2026-11-28 16:23:33 IST] archive: no posted video left in vc-ready
-[2026-11-28 16:23:38 IST] attempt 2 OK in 1071s: gather=331s, song=33s, beats=0s, scan_plan=45s, render=367s, gemini_meta=90s, shorts_9x16=140s, qa=8s, preview=39s, save=17s
-[2026-11-28 16:23:38 IST] === in-gta-20261128-162338: platform=instagram category=gta format=shorts seed=59934623
-[2026-11-28 16:23:52 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-28 16:23:52 IST] content thin for gta (0/6) -> fallback search (8 candidates)
-[2026-11-28 16:23:52 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
-[2026-11-28 16:23:52 IST] category gta: no usable sources -> fallback to dc
-[2026-11-28 16:23:52 IST] attempt 3 FAIL in 14s: gather=14s
-[2026-11-28 16:23:52 IST] === in-series-20261128-162352: platform=instagram category=series format=shorts seed=337624236
-[2026-11-28 16:24:43 IST] x search failed: official series clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 16:24:58 IST] x search failed: official scene clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 16:25:27 IST] vet Fj2qIKUh92o: backup vision check -> reject
-[2026-11-28 16:25:27 IST] vet REJECT [Fj2qIKUh92o] The Righteous Gemstones Season 4 | Episode 6 Preview | HBO — Content is a trailer/preview; Persistent channel logo/bug 'max' in corner; Text overlays on ad slate and end screen; watermark; channel_logo; text_overlay
-[2026-11-28 16:25:45 IST] vet R-znj7Uf9Oo: backup vision check -> reject
-[2026-11-28 16:25:45 IST] vet REJECT [R-znj7Uf9Oo] The Righteous Gemstones: Misbehavin' with Jennifer Nettles and Walton  — Persistent HBO channel logo bug in bottom right corner; Max ad slate text overlay at end; watermark; channel_logo; text_overlay
-[2026-11-28 16:26:11 IST] vet CsqQOPZofGo: backup vision check -> reject
-[2026-11-28 16:26:11 IST] vet REJECT [CsqQOPZofGo] The Righteous Gemstones Season 4 | Episode 8 Preview | HBO — Content is a trailer/preview/promo; Persistent channel logo bug (max) in top right corner; On-screen text overlays (title card, pricing, end screens); watermark; channel_logo; text_overlay
-[2026-11-28 16:26:26 IST] vet Xet5UKZkgqw: backup vision check -> reject
-[2026-11-28 16:26:26 IST] vet REJECT [Xet5UKZkgqw] The Righteous Gemstones' Best Insults | The Righteous Gemstones | HBO — Persistent channel logo/bug ('max') visible in the top right corner of all content frames; End slate with on-screen text overlays ('Discover More', 'SUBSCRIBE') at the end of the clip; watermark; channel_logo; text_overlay
-[2026-11-28 16:26:50 IST] vet iK5MlScCqas: backup vision check -> reject
-[2026-11-28 16:26:50 IST] vet REJECT [iK5MlScCqas] The Righteous Gemstones Season 4 | Episode 3 Preview | HBO — Content is a trailer/preview; Persistent channel logo 'max' in top right corner; Text overlays and end slates present; watermark; channel_logo; text_overlay
-[2026-11-28 16:27:22 IST] vet HlqITcZ0lwM: backup vision check -> reject
-[2026-11-28 16:27:22 IST] vet REJECT [HlqITcZ0lwM] The Righteous Gemstones Season 4 | Episode 7 Preview | HBO — Persistent channel logo/bug ('max') in top right corner; Content is a trailer/preview/promo; End screen with subscription text and 'Discover More'; watermark; channel_logo; text_overlay
-[2026-11-28 16:27:43 IST] vet rA1Q8LICB8s: backup vision check -> reject
-[2026-11-28 16:27:43 IST] vet REJECT [rA1Q8LICB8s] The Righteous Gemstones Season 4 | Episode 4 Preview | HBO — Content is a trailer/preview/promo; Persistent channel logo bug (max) in corner; On-screen text overlays and end slates; watermark; channel_logo; text_overlay
-[2026-11-28 16:28:19 IST] vet uMuL5-Ma36w: backup vision check -> reject
-[2026-11-28 16:28:19 IST] vet REJECT [uMuL5-Ma36w] Percy Jackson and the Olympians Season 2 | The Chase Is On | Disney+ — text_overlay
-[2026-11-28 16:28:35 IST] vet WKjmlew8n9c: backup vision check -> accept
-[2026-11-28 16:28:35 IST] vet ACCEPT [WKjmlew8n9c] Bloopers | Percy Jackson and the Olympians | Disney+ — behind-the-scenes bloopers playful
-[2026-11-28 16:29:03 IST] vet oqH-IuYZO0I: backup vision check -> reject
-[2026-11-28 16:29:03 IST] vet REJECT [oqH-IuYZO0I] Percy Jackson and the Olympians | Season 3 Watch Party | Disney+ — burned_in_text_overlay; picture_in_picture; promo_overlay; channel_bug; watermark; channel_logo; burned_subtitles; text_overlay
-[2026-11-28 16:29:54 IST] vet BBb0zIriLJY: backup vision check -> reject
-[2026-11-28 16:29:54 IST] vet REJECT [BBb0zIriLJY] Percy Jackson and the Olympians Season 2 | Diving into the Sea of Mons — text_overlay
-[2026-11-28 16:30:32 IST] vet D-Bcg6BCsiE: backup vision check -> reject
-[2026-11-28 16:30:32 IST] vet REJECT [D-Bcg6BCsiE] The Wedding Dress | Percy Jackson and the Olympians | Disney+ — Persistent channel logo bug in corner (Disney+ hulu); Burned-in text overlay (narrator credit); watermark; channel_logo; text_overlay
-[2026-11-28 16:30:58 IST] vet vmuO4PejTSk: backup vision check -> reject
-[2026-11-28 16:30:58 IST] vet REJECT [vmuO4PejTSk] Demigod Diaries 302 | Percy Jackson and the Olympians | Disney+ — Persistent channel logos/bugs in top corners (Disney+, Hulu, Percy Jackson); Burned-in actor identification text overlay; watermark; channel_logo; burned_subtitles; text_overlay
-[2026-11-28 16:30:58 IST] series: top group had no usable clips -> fell back to 'Percy Jackson and the Olympians'
-[2026-11-28 16:30:58 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-28 16:30:58 IST] content thin for series (1/3) -> fallback search (15 candidates)
-[2026-11-28 16:30:58 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
-[2026-11-28 16:30:58 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
-[2026-11-28 16:30:58 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
-[2026-11-28 16:30:58 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
-[2026-11-28 16:30:58 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
-[2026-11-28 16:30:58 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
-[2026-11-28 16:30:58 IST] song stock for series: 26 tagged songs with audio
-[2026-11-28 16:30:58 IST] gemini song pick failed/timed out, rotating the genre stock: GeminiError all Gemini keys/models (backup models included) are quota-exhausted until the Pacific midnight reset; skipping retries
-[2026-11-28 16:31:44 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free (key 1) gave 6 options
-[2026-11-28 16:31:44 IST] using stock song (gemini pick): Bad Guy - Billie Eilish
-[2026-11-28 16:31:44 IST] song: Bad Guy – Billie Eilish (https://www.youtube.com/watch?v=DyDfgMOUjCI)
-[2026-11-28 16:31:44 IST] caption pattern: P04 Stepping down beside
-[2026-11-28 16:33:15 IST] plan 38.7s, 17 shots -> render
-[2026-11-28 16:43:38 IST] === in-series-20261128-162352: QA PASS -> /mnt/ph/instagram/ready/instagram/in-series-20261128-162352.mp4
-[2026-11-28 16:43:49 IST] attached ['in-series-20261128-162352.mp4', 'in-series-20261128-162352.preview.mp4', 'in-series-20261128-162352.mp4.json'] to vc-ready
-[2026-11-28 16:43:51 IST] vc-ready manifest: 3 videos
-[2026-11-28 16:43:52 IST] archive: no posted video left in vc-ready
-[2026-11-28 16:43:57 IST] attempt 4 OK in 1205s: gather=426s, song=46s, beats=0s, scan_plan=91s, render=406s, gemini_meta=0s, shorts_9x16=162s, qa=9s, preview=46s, save=19s
-[2026-11-28 16:43:57 IST] time budget reached (12 min left < 30 min for one more attempt)
-[2026-11-28 16:43:57 IST] step totals over 4 attempts: gather=18.9min, render=12.9min, shorts_9x16=5.0min, scan_plan=4.7min, song=2.8min, gemini_meta=1.5min, preview=1.4min, save=0.6min, qa=0.3min, beats=0.2min -> slowest step: gather
-[2026-11-28 16:43:57 IST] queued box fetch request instagram-202611281643-sports
-[2026-11-28 16:43:57 IST] queued box fetch request instagram-202611281643-gta
-[2026-11-28 16:43:57 IST] queued box fetch request instagram-202611281643-series
-[2026-11-28 16:43:59 IST] cleanup sweep: freed 0.0 MB (3 files)
-[2026-11-28 16:43:59 IST] done: 2 made, 2 failed attempts; instagram buffer 2/7 — BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (2/7 ready)
-[2026-11-28 16:44:01 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
-[2026-11-28 16:44:03 IST] vc-ready manifest: 3 videos
+[2026-11-28 18:49:13 IST] pull-sources: +96 clips, 15 accepted / 81 unvetted listed, 6.1 GB local
+[2026-11-28 18:49:26 IST] === in-gta-20261128-184926: platform=instagram category=gta format=shorts seed=416091007
+[2026-11-28 18:49:43 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] sPLD6LS_TIk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 18:49:53 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] sPLD6LS_TIk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 18:49:53 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 18:49:55 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] aLUGHQq2aek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 18:50:04 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] aLUGHQq2aek: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 18:50:04 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 18:50:06 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] QYAMp13Yi04: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 18:50:16 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] QYAMp13Yi04: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 18:50:16 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 18:50:18 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] vAAvocR04_Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 18:50:28 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] vAAvocR04_Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 18:50:28 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 18:50:28 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
+[2026-11-28 18:50:28 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 18:50:28 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 18:51:44 IST] gemini key3/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 18:51:44 IST] gemini key3/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 18:51:44 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 18:52:59 IST] gemini key5/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 18:52:59 IST] gemini: gemma-4-31b-it timed out twice -> skipped for this run
+[2026-11-28 18:52:59 IST] gemini key5/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 18:54:14 IST] gemini key1/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-28 18:54:14 IST] gemini key1/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-28 18:55:29 IST] gemini key2/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-28 18:55:29 IST] gemini: gemma-4-26b-a4b-it timed out twice -> skipped for this run
+[2026-11-28 18:55:29 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-28 18:55:29 IST] gemini discovery failed: all Gemini keys/models failed: key2/gemma-4-31b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try | key3/gemma-4-31b-it: 599 The read operati
+[2026-11-28 18:55:29 IST] content thin for gta (0/6) -> fallback search (8 candidates)
+[2026-11-28 18:55:29 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-28 18:55:29 IST] category gta: no usable sources -> fallback to movie
+[2026-11-28 18:55:29 IST] attempt 1 FAIL in 363s: gather=363s
+[2026-11-28 18:55:29 IST] === in-celebrity-20261128-185529: platform=instagram category=celebrity format=shorts seed=328605860
+[2026-11-28 18:55:38 IST] channel listing failed: https://www.youtube.com/@RecordingAcademy/videos ERROR: [youtube:tab] @RecordingAcademy/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
+[2026-11-28 18:56:09 IST] x search failed: Oscars official acceptance speech moment full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 18:56:24 IST] x search failed: GRAMMYs official performance moment full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 18:56:59 IST] vet WWvxT6ttDE0: backup vision check -> reject
+[2026-11-28 18:56:59 IST] vet REJECT [WWvxT6ttDE0] BLACKPINK's Rosé Gets Ready for the Met Gala | Vogue — text_overlay
+[2026-11-28 18:57:42 IST] vet R1aD59HNhFA: backup vision check -> reject
+[2026-11-28 18:57:42 IST] vet REJECT [R1aD59HNhFA] ROSÉ Gets Ready for the Met Gala | Vogue — burned_subtitles
+[2026-11-28 18:57:54 IST] vet FQnETkP9sE8: backup vision check -> accept
+[2026-11-28 18:57:54 IST] vet ACCEPT [FQnETkP9sE8] Inside Hudson Williams’s First Met Gala | Vogue — backstage fashion prep
+[2026-11-28 18:57:56 IST] celebrity: top group had no usable clips -> fell back to 'Inside Hudson Williams's First Met Gala'
+[2026-11-28 18:57:56 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-28 18:57:56 IST] content thin for celebrity (1/3) -> fallback search (6 candidates)
+[2026-11-28 18:57:56 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2
+[2026-11-28 18:57:57 IST] category celebrity: no usable sources -> fallback to movie
+[2026-11-28 18:57:57 IST] attempt 2 FAIL in 148s: gather=148s
+[2026-11-28 18:57:57 IST] === in-dc-20261128-185757: platform=instagram category=dc format=shorts seed=492713993
+[2026-11-28 18:58:11 IST] channel listing failed: https://www.youtube.com/@DC/videos ERROR: [youtube:tab] @DC: This channel does not have a videos tab
+[2026-11-28 18:58:35 IST] x search failed: DC official clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 18:58:50 IST] x search failed: The Batman official clip Warner Bros full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 18:59:10 IST] vet zUMK56vuNOc: backup vision check -> accept
+[2026-11-28 18:59:10 IST] vet ACCEPT [zUMK56vuNOc] The Batman | Bomb Collar | ClipZone: Villains & Heroes — tense gothic confrontation
+[2026-11-28 18:59:26 IST] vet Jtdh0Tkqfdw: backup vision check -> accept
+[2026-11-28 18:59:26 IST] vet ACCEPT [Jtdh0Tkqfdw] The Batman – Funeral Scene – In Theaters March 4 — tense funeral chaos
+[2026-11-28 18:59:38 IST] vet 6f7vxgOmbPQ: backup vision check -> accept
+[2026-11-28 18:59:38 IST] vet ACCEPT [6f7vxgOmbPQ] The Batman - Ending Monologue from “The Batman” | Super Scenes | DC — dark rainy monologue
+[2026-11-28 18:59:39 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-28 18:59:39 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
+[2026-11-28 18:59:39 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
+[2026-11-28 18:59:39 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
+[2026-11-28 18:59:39 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
+[2026-11-28 18:59:39 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
+[2026-11-28 18:59:39 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
+[2026-11-28 18:59:39 IST] song stock for dc: 28 tagged songs with audio
+[2026-11-28 18:59:39 IST] gemini song pick failed/timed out, rotating the genre stock: GeminiError all Gemini keys/models (backup models included) are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-28 19:00:11 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free (key 1) gave 6 options
+[2026-11-28 19:00:11 IST] using stock song (backup AI pick): Sucker for Pain - Lil Wayne, Wiz Khalifa & Imagine Dragons
+[2026-11-28 19:00:11 IST] song: Sucker for Pain – Lil Wayne, Wiz Khalifa & Imagine Dragons (https://www.youtube.com/watch?v=MpQ-Xd_1KWQ)
+[2026-11-28 19:00:11 IST] caption pattern: P11 Even mix
+[2026-11-28 19:02:35 IST] plan 38.3s, 14 shots -> render
+[2026-11-28 19:12:27 IST] cross-post: in-dc-20261128-185757 also queued for youtube as yo-dc-20261128-185757
+[2026-11-28 19:12:27 IST] === in-dc-20261128-185757: QA PASS -> /mnt/ph/instagram/ready/instagram/in-dc-20261128-185757.mp4
+[2026-11-28 19:12:35 IST] attached ['in-dc-20261128-185757.mp4', 'in-dc-20261128-185757.preview.mp4', 'in-dc-20261128-185757.mp4.json'] to vc-ready
+[2026-11-28 19:12:40 IST] attached ['yo-dc-20261128-185757.mp4', 'yo-dc-20261128-185757.preview.mp4', 'yo-dc-20261128-185757.mp4.json'] to vc-ready
+[2026-11-28 19:12:42 IST] vc-ready manifest: 7 videos
+[2026-11-28 19:12:56 IST] archive: moved yo-gaming-20261128-151536 (3 files) vc-ready -> vc-posted-archive
+[2026-11-28 19:13:01 IST] attempt 3 OK in 904s: gather=102s, song=32s, beats=9s, scan_plan=135s, render=388s, gemini_meta=0s, shorts_9x16=150s, qa=8s, preview=45s, save=34s
+[2026-11-28 19:13:01 IST] === in-movie-20261128-191301: platform=instagram category=movie format=shorts seed=823273733
+[2026-11-28 19:13:17 IST] channel listing failed: https://www.youtube.com/@WarnerBrosPictures/videos ERROR: [youtube:tab] @WarnerBrosPictures/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
+[2026-11-28 19:13:24 IST] channel listing failed: https://www.youtube.com/@WaltDisneyStudios/videos ERROR: [youtube:tab] @WaltDisneyStudios/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
+[2026-11-28 19:14:05 IST] x search failed: official action movie clip Sony Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 19:14:20 IST] x search failed: official car chase scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 19:14:59 IST] vet 0ZPEcOrPB2U: backup vision check -> accept
+[2026-11-28 19:14:59 IST] vet ACCEPT [0ZPEcOrPB2U] GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips — energetic animated musical
+[2026-11-28 19:15:19 IST] vet TQp5MoFzs_o: backup vision check -> accept
+[2026-11-28 19:15:19 IST] vet ACCEPT [TQp5MoFzs_o] GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips — energetic animated sports scene
+[2026-11-28 19:15:37 IST] vet DPjke2_2T4k: backup vision check -> accept
+[2026-11-28 19:15:37 IST] vet ACCEPT [DPjke2_2T4k] GOAT - Film Clip | Chillin' in the Penthouse — playful penthouse hangout
+[2026-11-28 19:15:39 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-28 19:15:39 IST] content thin for movie (3/4) -> fallback search (9 candidates)
+[2026-11-28 19:15:39 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
+[2026-11-28 19:15:39 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
+[2026-11-28 19:15:39 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
+[2026-11-28 19:15:39 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
+[2026-11-28 19:15:39 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
+[2026-11-28 19:15:39 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
+[2026-11-28 19:15:39 IST] song stock for movie: 30 tagged songs with audio
+[2026-11-28 19:15:39 IST] gemini song pick failed/timed out, rotating the genre stock: GeminiError all Gemini keys/models (backup models included) are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-28 19:16:22 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free (key 1) gave 6 options
+[2026-11-28 19:16:22 IST] using stock song (backup AI pick): Seven Nation Army - The White Stripes
+[2026-11-28 19:16:22 IST] song: Seven Nation Army – The White Stripes (https://www.youtube.com/watch?v=0J2QdDbelmY)
+[2026-11-28 19:16:22 IST] caption pattern: P09 2-word upper
+[2026-11-28 19:18:43 IST] plan only 29.0s (< 29.5s): adding more vetted box clips before render
+[2026-11-28 19:19:24 IST] x search failed: official action movie clip Sony Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 19:19:40 IST] x search failed: official car chase scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 19:19:40 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-28 19:19:40 IST] content thin for movie (3/7) -> fallback search (9 candidates)
+[2026-11-28 19:19:43 IST] plan 38.8s, 38 shots -> render
+[2026-11-28 19:30:42 IST] cross-post: in-movie-20261128-191301 also queued for youtube as yo-movie-20261128-191301
+[2026-11-28 19:30:42 IST] === in-movie-20261128-191301: QA PASS -> /mnt/ph/instagram/ready/instagram/in-movie-20261128-191301.mp4
+[2026-11-28 19:30:51 IST] attached ['in-movie-20261128-191301.mp4', 'in-movie-20261128-191301.preview.mp4', 'in-movie-20261128-191301.mp4.json'] to vc-ready
+[2026-11-28 19:30:58 IST] attached ['yo-movie-20261128-191301.mp4', 'yo-movie-20261128-191301.preview.mp4', 'yo-movie-20261128-191301.mp4.json'] to vc-ready
+[2026-11-28 19:31:00 IST] vc-ready manifest: 8 videos
+[2026-11-28 19:31:10 IST] archive: moved in-sports-20261128-160547 (3 files) vc-ready -> vc-posted-archive
+[2026-11-28 19:31:16 IST] attempt 4 OK in 1095s: gather=158s, song=44s, beats=0s, scan_plan=143s, more_clips=57s, render=456s, gemini_meta=0s, shorts_9x16=154s, qa=9s, preview=41s, save=33s
+[2026-11-28 19:31:16 IST] time budget reached (18 min left < 30 min for one more attempt)
+[2026-11-28 19:31:16 IST] step totals over 4 attempts: render=14.1min, gather=12.8min, shorts_9x16=5.1min, scan_plan=4.6min, preview=1.4min, song=1.3min, save=1.1min, more_clips=0.9min, qa=0.3min, beats=0.2min, gemini_meta=0.0min -> slowest step: render
+[2026-11-28 19:31:16 IST] queued box fetch request instagram-202611281931-gta
+[2026-11-28 19:31:16 IST] queued box fetch request instagram-202611281931-celebrity
+[2026-11-28 19:31:16 IST] queued box fetch request instagram-202611281931-movie
+[2026-11-28 19:31:18 IST] cleanup sweep: freed 0.0 MB (2 files)
+[2026-11-28 19:31:18 IST] done: 2 made, 2 failed attempts; instagram buffer 3/7 — BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (3/7 ready)
+[2026-11-28 19:31:20 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
+[2026-11-28 19:31:22 IST] vc-ready manifest: 7 videos

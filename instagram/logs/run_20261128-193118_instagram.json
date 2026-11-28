@@ -1,0 +1,229 @@
+{
+ "platform": "instagram",
+ "made": [
+  "in-dc-20261128-185757",
+  "in-movie-20261128-191301"
+ ],
+ "failures": [
+  "CategoryUnavailable: only 0 clean sources for gta",
+  "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 363.1,
+    "total": 363.1
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "celebrity",
+   "ok": false,
+   "timings": {
+    "gather": 147.6,
+    "total": 147.6
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "dc",
+   "ok": true,
+   "timings": {
+    "gather": 102.3,
+    "song": 31.8,
+    "beats": 9.1,
+    "scan_plan": 134.6,
+    "render": 387.8,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 150.4,
+    "qa": 8.5,
+    "preview": 45.3,
+    "save": 34.5,
+    "total": 904.3
+   }
+  },
+  {
+   "attempt": 4,
+   "category": "movie",
+   "ok": true,
+   "timings": {
+    "gather": 157.5,
+    "song": 43.9,
+    "beats": 0.5,
+    "scan_plan": 142.7,
+    "more_clips": 57.0,
+    "render": 455.6,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 154.2,
+    "qa": 9.1,
+    "preview": 40.9,
+    "save": 33.3,
+    "total": 1094.6
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 770.5,
+  "song": 75.7,
+  "beats": 9.6,
+  "scan_plan": 277.3,
+  "render": 843.4,
+  "gemini_meta": 0.0,
+  "shorts_9x16": 304.6,
+  "qa": 17.6,
+  "preview": 86.2,
+  "save": 67.8,
+  "more_clips": 57.0
+ },
+ "slowest_step": "render",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 4,
+  "vetted": 9,
+  "rejected": [
+   {
+    "id": "WWvxT6ttDE0",
+    "title": "BLACKPINK's Rosé Gets Ready for the Met Gala | Vogue",
+    "reasons": [
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "R1aD59HNhFA",
+    "title": "ROSÉ Gets Ready for the Met Gala | Vogue",
+    "reasons": [
+     "burned_subtitles"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "FQnETkP9sE8",
+    "title": "Inside Hudson Williams’s First Met Gala | Vogue",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "zUMK56vuNOc",
+    "title": "The Batman | Bomb Collar | ClipZone: Villains & Heroes",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Jtdh0Tkqfdw",
+    "title": "The Batman – Funeral Scene – In Theaters March 4",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "6f7vxgOmbPQ",
+    "title": "The Batman - Ending Monologue from “The Batman” | Super Scenes | DC",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "0ZPEcOrPB2U",
+    "title": "GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "TQp5MoFzs_o",
+    "title": "GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "DPjke2_2T4k",
+    "title": "GOAT - Film Clip | Chillin' in the Penthouse",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "gta",
+   "celebrity",
+   "movie"
+  ],
+  "runner_skipped": 9,
+  "box_clips_used": 10,
+  "failed_ids": [
+   "sPLD6LS_TIk",
+   "aLUGHQq2aek",
+   "QYAMp13Yi04",
+   "vAAvocR04_Y"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  }
+ ],
+ "skipped_categories": [
+  "celebrity",
+  "gta"
+ ],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0
+  },
+  "exhausted": true,
+  "reset_at": "2026-11-29 13:30 IST"
+ }
+}

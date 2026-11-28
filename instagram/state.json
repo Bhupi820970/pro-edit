@@ -65,6 +65,18 @@
    "at": "2026-11-28T16:43:38.636940+05:30",
    "video": "in-series-20261128-162352",
    "platform": "instagram"
+  },
+  {
+   "id": "P11",
+   "at": "2026-11-28T19:12:27.082804+05:30",
+   "video": "in-dc-20261128-185757",
+   "platform": "instagram"
+  },
+  {
+   "id": "P09",
+   "at": "2026-11-28T19:30:42.841080+05:30",
+   "video": "in-movie-20261128-191301",
+   "platform": "instagram"
   }
  ],
  "songs": [
@@ -144,6 +156,20 @@
    "url": "https://www.youtube.com/watch?v=DyDfgMOUjCI",
    "at": "2026-11-28T16:43:38.636952+05:30",
    "video": "in-series-20261128-162352"
+  },
+  {
+   "title": "Sucker for Pain",
+   "artist": "Lil Wayne, Wiz Khalifa & Imagine Dragons",
+   "url": "https://www.youtube.com/watch?v=MpQ-Xd_1KWQ",
+   "at": "2026-11-28T19:12:27.082816+05:30",
+   "video": "in-dc-20261128-185757"
+  },
+  {
+   "title": "Seven Nation Army",
+   "artist": "The White Stripes",
+   "url": "https://www.youtube.com/watch?v=0J2QdDbelmY",
+   "at": "2026-11-28T19:30:42.841092+05:30",
+   "video": "in-movie-20261128-191301"
   }
  ],
  "windows": [
@@ -248,6 +274,24 @@
    "start": 53.91,
    "at": "2026-11-28T16:43:38.636961+05:30",
    "video": "in-series-20261128-162352"
+  },
+  {
+   "file": "zUMK56vuNOc_c00.mkv",
+   "start": 23.16,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757"
+  },
+  {
+   "file": "DPjke2_2T4k.mkv",
+   "start": 16.7,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301"
+  },
+  {
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 34.05,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301"
   }
  ],
  "sources_used": [
@@ -430,6 +474,36 @@
    "id": "WKjmlew8n9c",
    "at": "2026-11-28T16:43:38.637236+05:30",
    "video": "in-series-20261128-162352"
+  },
+  {
+   "id": "zUMK56vuNOc",
+   "at": "2026-11-28T19:12:27.083069+05:30",
+   "video": "in-dc-20261128-185757"
+  },
+  {
+   "id": "Jtdh0Tkqfdw",
+   "at": "2026-11-28T19:12:27.083074+05:30",
+   "video": "in-dc-20261128-185757"
+  },
+  {
+   "id": "6f7vxgOmbPQ",
+   "at": "2026-11-28T19:12:27.083077+05:30",
+   "video": "in-dc-20261128-185757"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "at": "2026-11-28T19:30:42.841666+05:30",
+   "video": "in-movie-20261128-191301"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "at": "2026-11-28T19:30:42.841671+05:30",
+   "video": "in-movie-20261128-191301"
+  },
+  {
+   "id": "DPjke2_2T4k",
+   "at": "2026-11-28T19:30:42.841674+05:30",
+   "video": "in-movie-20261128-191301"
   }
  ],
  "segments_used": [
@@ -5669,6 +5743,474 @@
    "end": 108.23666666666668,
    "at": "2026-11-28T16:43:38.636961+05:30",
    "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "6f7vxgOmbPQ",
+   "file": "6f7vxgOmbPQ.mkv",
+   "start": 116.57000000000001,
+   "end": 119.40333333333334,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "zUMK56vuNOc",
+   "file": "zUMK56vuNOc_c00.mkv",
+   "start": 247.07000000000002,
+   "end": 249.9366666666667,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "Jtdh0Tkqfdw",
+   "file": "Jtdh0Tkqfdw.mkv",
+   "start": 17.47,
+   "end": 20.30333333333333,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "6f7vxgOmbPQ",
+   "file": "6f7vxgOmbPQ.mkv",
+   "start": 80.77000000000001,
+   "end": 81.47000000000001,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "zUMK56vuNOc",
+   "file": "zUMK56vuNOc_c00.mkv",
+   "start": 23.16,
+   "end": 30.259999999999998,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "dialogue"
+  },
+  {
+   "id": "Jtdh0Tkqfdw",
+   "file": "Jtdh0Tkqfdw.mkv",
+   "start": 134.07000000000002,
+   "end": 136.9366666666667,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "zUMK56vuNOc",
+   "file": "zUMK56vuNOc_c00.mkv",
+   "start": 136.37,
+   "end": 137.77,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "6f7vxgOmbPQ",
+   "file": "6f7vxgOmbPQ.mkv",
+   "start": 96.07000000000001,
+   "end": 98.93666666666667,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "zUMK56vuNOc",
+   "file": "zUMK56vuNOc_c00.mkv",
+   "start": 117.67000000000002,
+   "end": 119.80333333333336,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "Jtdh0Tkqfdw",
+   "file": "Jtdh0Tkqfdw.mkv",
+   "start": 122.57000000000001,
+   "end": 124.70333333333335,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "6f7vxgOmbPQ",
+   "file": "6f7vxgOmbPQ.mkv",
+   "start": 21.07,
+   "end": 23.903333333333332,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "zUMK56vuNOc",
+   "file": "zUMK56vuNOc_c00.mkv",
+   "start": 15.87,
+   "end": 18.003333333333337,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "Jtdh0Tkqfdw",
+   "file": "Jtdh0Tkqfdw.mkv",
+   "start": 90.57000000000001,
+   "end": 92.70333333333335,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "6f7vxgOmbPQ",
+   "file": "6f7vxgOmbPQ.mkv",
+   "start": 16.87,
+   "end": 19.70333333333333,
+   "at": "2026-11-28T19:12:27.082826+05:30",
+   "video": "in-dc-20261128-185757",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 40.06999999999999,
+   "end": 41.03666666666666,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "DPjke2_2T4k",
+   "file": "DPjke2_2T4k.mkv",
+   "start": 71.37,
+   "end": 72.37,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 47.06999999999999,
+   "end": 48.03666666666666,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 52.269999999999996,
+   "end": 52.769999999999996,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 13.07,
+   "end": 13.536666666666667,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 41.23907315478658,
+   "end": 42.23907315478658,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 48.23907315478658,
+   "end": 49.20573982145325,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 52.94953657739329,
+   "end": 53.94953657739329,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 13.749536577393295,
+   "end": 14.716203244059962,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "DPjke2_2T4k",
+   "file": "DPjke2_2T4k.mkv",
+   "start": 61.269999999999996,
+   "end": 61.769999999999996,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "DPjke2_2T4k",
+   "file": "DPjke2_2T4k.mkv",
+   "start": 72.5390731547866,
+   "end": 73.00573982145328,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 42.40814630957317,
+   "end": 42.90814630957317,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "DPjke2_2T4k",
+   "file": "DPjke2_2T4k.mkv",
+   "start": 16.7,
+   "end": 23.066666666666663,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "dialogue"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 49.40814630957317,
+   "end": 50.37481297623984,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 54.11860973217988,
+   "end": 54.61860973217988,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 14.918609732179887,
+   "end": 15.418609732179887,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 54.79814630957317,
+   "end": 55.76481297623984,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 15.598146309573181,
+   "end": 16.564812976239846,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 16.76721946435977,
+   "end": 17.26721946435977,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 34.05,
+   "end": 40.416666666666664,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "dialogue"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 17.446756041753062,
+   "end": 17.946756041753062,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 18.126292619146355,
+   "end": 18.59295928581302,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 18.805829196539648,
+   "end": 19.805829196539648,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 40.06999999999999,
+   "end": 41.03666666666666,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "DPjke2_2T4k",
+   "file": "DPjke2_2T4k.mkv",
+   "start": 71.37,
+   "end": 71.87,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 47.06999999999999,
+   "end": 47.56999999999999,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 13.07,
+   "end": 14.036666666666665,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 52.269999999999996,
+   "end": 52.769999999999996,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "DPjke2_2T4k",
+   "file": "DPjke2_2T4k.mkv",
+   "start": 61.269999999999996,
+   "end": 61.736666666666665,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 41.23907315478658,
+   "end": 42.23907315478658,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "DPjke2_2T4k",
+   "file": "DPjke2_2T4k.mkv",
+   "start": 72.04953657739331,
+   "end": 72.51620324405998,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 47.749536577393286,
+   "end": 48.249536577393286,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 14.239073154786592,
+   "end": 15.20573982145326,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 52.94953657739329,
+   "end": 53.44953657739329,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 42.40814630957317,
+   "end": 42.90814630957317,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 48.42907315478658,
+   "end": 49.39573982145325,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "0ZPEcOrPB2U",
+   "file": "0ZPEcOrPB2U.mkv",
+   "start": 15.408146309573183,
+   "end": 15.908146309573183,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "TQp5MoFzs_o",
+   "file": "TQp5MoFzs_o.mkv",
+   "start": 53.62907315478658,
+   "end": 54.12907315478658,
+   "at": "2026-11-28T19:30:42.841102+05:30",
+   "video": "in-movie-20261128-191301",
    "kind": "montage"
   }
  ],
@@ -14340,6 +14882,360 @@
    "duration": 304.048,
    "category": "series",
    "at": "2026-11-28 11:00"
+  },
+  "WWvxT6ttDE0": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "glamorous Met Gala prep",
+   "summary": "Official Vogue footage of Rosé getting ready for the 2021 Met Gala, featuring hair, makeup, and outfit reveal.",
+   "reject_reasons": [
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 14.6,
+     "end": 16.0,
+     "reason": "opening title card"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    14.56,
+    50.74,
+    86.93,
+    123.11,
+    159.3,
+    195.49,
+    231.67,
+    267.86,
+    159.3
+   ],
+   "title": "BLACKPINK's Rosé Gets Ready for the Met Gala | Vogue",
+   "channel": "Vogue",
+   "credit": "Vogue",
+   "url": "https://www.youtube.com/watch?v=WWvxT6ttDE0",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 291.148,
+   "category": "celebrity",
+   "at": "2026-11-28 13:26"
+  },
+  "R1aD59HNhFA": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "glamorous behind-the-scenes prep",
+   "summary": "ROSÉ prepares for the Met Gala with her glam team, discussing her look and getting styled.",
+   "reject_reasons": [
+    "burned_subtitles"
+   ],
+   "bad_ranges": [
+    {
+     "start": 205.7,
+     "end": 206.5,
+     "reason": "burned-in subtitle text"
+    },
+    {
+     "start": 266.1,
+     "end": 267.0,
+     "reason": "pillarboxing / black side panels"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    24.32,
+    84.78,
+    145.23,
+    205.69,
+    266.15,
+    326.6,
+    387.06,
+    447.51,
+    266.15
+   ],
+   "title": "ROSÉ Gets Ready for the Met Gala | Vogue",
+   "channel": "Vogue",
+   "credit": "Vogue",
+   "url": "https://www.youtube.com/watch?v=R1aD59HNhFA",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 486.428,
+   "category": "celebrity",
+   "at": "2026-11-28 13:27"
+  },
+  "FQnETkP9sE8": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "backstage fashion prep",
+   "summary": "Hudson Williams prepares for the Met Gala, trying on custom outfits and discussing looks with his stylist and team.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    27.64,
+    96.33,
+    165.02,
+    233.72,
+    302.41,
+    371.1,
+    439.8,
+    508.49,
+    302.41
+   ],
+   "title": "Inside Hudson Williams’s First Met Gala | Vogue",
+   "channel": "Vogue",
+   "credit": "Vogue",
+   "url": "https://www.youtube.com/watch?v=FQnETkP9sE8",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 552.708,
+   "category": "celebrity",
+   "at": "2026-11-28 13:27"
+  },
+  "zUMK56vuNOc": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense gothic confrontation",
+   "summary": "Scenes from The Batman featuring Bruce Wayne at a somber gathering, the Batmobile arriving, Batman in close-up, and a tense sequence involving a man with a bomb collar and a phone feed.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    26.03,
+    90.72,
+    155.42,
+    220.12,
+    284.81,
+    349.51,
+    414.21,
+    478.9,
+    284.81
+   ],
+   "title": "The Batman | Bomb Collar | ClipZone: Villains & Heroes",
+   "channel": "ClipZone: Heroes & Villains",
+   "credit": "ClipZone: Heroes & Villains",
+   "url": "https://www.youtube.com/watch?v=zUMK56vuNOc",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 520.548,
+   "category": "dc",
+   "at": "2026-11-28 13:29"
+  },
+  "Jtdh0Tkqfdw": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "tense funeral chaos",
+   "summary": "Bruce Wayne and Selina Kyle attend a funeral before the Riddler crashes a vehicle into the church and confronts the crowd.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    8.56,
+    29.83,
+    51.1,
+    72.37,
+    93.64,
+    114.91,
+    136.18,
+    157.46,
+    93.64
+   ],
+   "title": "The Batman – Funeral Scene – In Theaters March 4",
+   "channel": "Warner Bros.",
+   "credit": "Warner Bros.",
+   "url": "https://www.youtube.com/watch?v=Jtdh0Tkqfdw",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 171.148,
+   "category": "dc",
+   "at": "2026-11-28 13:29"
+  },
+  "6f7vxgOmbPQ": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "dark rainy monologue",
+   "summary": "Official DC clip of The Batman ending monologue, featuring flooded City Hall, a press conference, and close-ups of Batman and Carmine Falcone.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    6.96,
+    24.27,
+    41.58,
+    58.89,
+    76.2,
+    93.51,
+    110.82,
+    128.13,
+    76.2
+   ],
+   "title": "The Batman - Ending Monologue from “The Batman” | Super Scenes | DC",
+   "channel": "DC",
+   "credit": "DC",
+   "url": "https://www.youtube.com/watch?v=6f7vxgOmbPQ",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 139.268,
+   "category": "dc",
+   "at": "2026-11-28 13:29"
+  },
+  "0ZPEcOrPB2U": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "energetic animated musical",
+   "summary": "Animated goat and bird characters converse on a bus, followed by the goat performing energetically on a stage surrounded by branded cups.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.15,
+    10.99,
+    18.83,
+    26.67,
+    34.51,
+    42.35,
+    50.18,
+    58.02,
+    34.51
+   ],
+   "title": "GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=0ZPEcOrPB2U",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 63.068,
+   "category": "movie",
+   "at": "2026-11-28 13:44"
+  },
+  "TQp5MoFzs_o": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "energetic animated sports scene",
+   "summary": "Official Movieclips clip from an animated movie featuring animal characters interacting indoors and playing sports in an arena.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.7,
+    12.88,
+    22.07,
+    31.25,
+    40.44,
+    49.62,
+    58.81,
+    68.0,
+    40.44
+   ],
+   "title": "GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=TQp5MoFzs_o",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 73.908,
+   "category": "movie",
+   "at": "2026-11-28 13:45"
+  },
+  "DPjke2_2T4k": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "playful penthouse hangout",
+   "summary": "An animated goat character relaxes in a penthouse suite and video calls his friends.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    4.89,
+    17.06,
+    29.22,
+    41.38,
+    53.55,
+    65.71,
+    77.87,
+    90.04,
+    53.55
+   ],
+   "title": "GOAT - Film Clip | Chillin' in the Penthouse",
+   "channel": "Sony Pictures Entertainment",
+   "credit": "Sony Pictures",
+   "url": "https://www.youtube.com/watch?v=DPjke2_2T4k",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 97.868,
+   "category": "movie",
+   "at": "2026-11-28 13:45"
   }
  },
  "videos": [
@@ -21473,6 +22369,536 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-series-20261128-162352.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-series-20261128-162352.preview.mp4"
+  },
+  {
+   "id": "in-dc-20261128-185757",
+   "platform": "instagram",
+   "category": "dc",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T19:12:27.082175+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-dc-20261128-185757.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-dc-20261128-185757.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 85.2,
+   "title": "The Batman Edit | Sucker for Pain Edit",
+   "hook": "THE BATMAN EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sucker for Pain\" – Lil Wayne, Wiz Khalifa & Imagine Dragons (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=MpQ-Xd_1KWQ\n🎧 Spotify: https://open.spotify.com/search/Lil%20Wayne%2C%20Wiz%20Khalifa%20%26%20Imagine%20Dragons%20Sucker%20for%20Pain\n🎬 Footage: ClipZone: Heroes & Villains – \"The Batman | Bomb Collar | ClipZone: Villains & Heroes\"; Warner Bros. – \"The Batman – Funeral Scene – In Theaters March 4\"; DC – \"The Batman - Ending Monologue from “The Batman” | Super Scenes | DC\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#DC #DCEdit #Batman #Superman",
+   "hashtags": [
+    "DC",
+    "DCEdit",
+    "Batman",
+    "Superman"
+   ],
+   "song": {
+    "title": "Sucker for Pain",
+    "artist": "Lil Wayne, Wiz Khalifa & Imagine Dragons",
+    "url": "https://www.youtube.com/watch?v=MpQ-Xd_1KWQ",
+    "official_channel": "Lil Wayne",
+    "spotify_search": "https://open.spotify.com/search/Lil%20Wayne%2C%20Wiz%20Khalifa%20%26%20Imagine%20Dragons%20Sucker%20for%20Pain"
+   },
+   "song_credit": "\"Sucker for Pain\" – Lil Wayne, Wiz Khalifa & Imagine Dragons",
+   "pattern": {
+    "id": "P11",
+    "name": "Even mix"
+   },
+   "captions": [
+    "YOU GOT PEOPLE",
+    "LOOKING FOR HER",
+    "IN JAIL?",
+    "SEND A COUPLE",
+    "GUYS TO HIS",
+    "HOUSE",
+    "NOTHING",
+    "WHAT IS WHAT",
+    "SHE?",
+    "SHE HAD A",
+    "HARD"
+   ],
+   "duration": 38.27,
+   "sources": [
+    {
+     "id": "zUMK56vuNOc_c00",
+     "src_id": "zUMK56vuNOc",
+     "path": "/mnt/ph/instagram/sources/chunks/zUMK56vuNOc_c00.mkv",
+     "title": "The Batman | Bomb Collar | ClipZone: Villains & Heroes",
+     "credit": "ClipZone: Heroes & Villains",
+     "url": "https://www.youtube.com/watch?v=zUMK56vuNOc"
+    },
+    {
+     "id": "Jtdh0Tkqfdw",
+     "src_id": "Jtdh0Tkqfdw",
+     "path": "/mnt/ph/instagram/sources/Jtdh0Tkqfdw.mkv",
+     "title": "The Batman – Funeral Scene – In Theaters March 4",
+     "credit": "Warner Bros.",
+     "url": "https://www.youtube.com/watch?v=Jtdh0Tkqfdw"
+    },
+    {
+     "id": "6f7vxgOmbPQ",
+     "src_id": "6f7vxgOmbPQ",
+     "path": "/mnt/ph/instagram/sources/6f7vxgOmbPQ.mkv",
+     "title": "The Batman - Ending Monologue from “The Batman” | Super Scenes | DC",
+     "credit": "DC",
+     "url": "https://www.youtube.com/watch?v=6f7vxgOmbPQ"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.27
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.2
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 11
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 102.3,
+    "song": 31.8,
+    "beats": 9.1,
+    "scan_plan": 134.6,
+    "render": 387.8,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 150.4,
+    "qa": 8.5,
+    "preview": 45.3
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-dc-20261128-185757.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-dc-20261128-185757.preview.mp4"
+  },
+  {
+   "id": "yo-dc-20261128-185757",
+   "platform": "youtube",
+   "category": "dc",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T19:12:27.082175+05:30",
+   "path": "/mnt/ph/instagram/ready/youtube/yo-dc-20261128-185757.mp4",
+   "preview": "/mnt/ph/instagram/prev/yo-dc-20261128-185757.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 85.2,
+   "title": "The Batman Edit | Sucker for Pain Edit",
+   "hook": "THE BATMAN EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sucker for Pain\" – Lil Wayne, Wiz Khalifa & Imagine Dragons (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=MpQ-Xd_1KWQ\n🎧 Spotify: https://open.spotify.com/search/Lil%20Wayne%2C%20Wiz%20Khalifa%20%26%20Imagine%20Dragons%20Sucker%20for%20Pain\n🎬 Footage: ClipZone: Heroes & Villains – \"The Batman | Bomb Collar | ClipZone: Villains & Heroes\"; Warner Bros. – \"The Batman – Funeral Scene – In Theaters March 4\"; DC – \"The Batman - Ending Monologue from “The Batman” | Super Scenes | DC\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#DC #DCEdit #Batman #Superman",
+   "hashtags": [
+    "DC",
+    "DCEdit",
+    "Batman",
+    "Superman"
+   ],
+   "song": {
+    "title": "Sucker for Pain",
+    "artist": "Lil Wayne, Wiz Khalifa & Imagine Dragons",
+    "url": "https://www.youtube.com/watch?v=MpQ-Xd_1KWQ",
+    "official_channel": "Lil Wayne",
+    "spotify_search": "https://open.spotify.com/search/Lil%20Wayne%2C%20Wiz%20Khalifa%20%26%20Imagine%20Dragons%20Sucker%20for%20Pain"
+   },
+   "song_credit": "\"Sucker for Pain\" – Lil Wayne, Wiz Khalifa & Imagine Dragons",
+   "pattern": {
+    "id": "P11",
+    "name": "Even mix"
+   },
+   "captions": [
+    "YOU GOT PEOPLE",
+    "LOOKING FOR HER",
+    "IN JAIL?",
+    "SEND A COUPLE",
+    "GUYS TO HIS",
+    "HOUSE",
+    "NOTHING",
+    "WHAT IS WHAT",
+    "SHE?",
+    "SHE HAD A",
+    "HARD"
+   ],
+   "duration": 38.27,
+   "sources": [
+    {
+     "id": "zUMK56vuNOc_c00",
+     "src_id": "zUMK56vuNOc",
+     "path": "/mnt/ph/instagram/sources/chunks/zUMK56vuNOc_c00.mkv",
+     "title": "The Batman | Bomb Collar | ClipZone: Villains & Heroes",
+     "credit": "ClipZone: Heroes & Villains",
+     "url": "https://www.youtube.com/watch?v=zUMK56vuNOc"
+    },
+    {
+     "id": "Jtdh0Tkqfdw",
+     "src_id": "Jtdh0Tkqfdw",
+     "path": "/mnt/ph/instagram/sources/Jtdh0Tkqfdw.mkv",
+     "title": "The Batman – Funeral Scene – In Theaters March 4",
+     "credit": "Warner Bros.",
+     "url": "https://www.youtube.com/watch?v=Jtdh0Tkqfdw"
+    },
+    {
+     "id": "6f7vxgOmbPQ",
+     "src_id": "6f7vxgOmbPQ",
+     "path": "/mnt/ph/instagram/sources/6f7vxgOmbPQ.mkv",
+     "title": "The Batman - Ending Monologue from “The Batman” | Super Scenes | DC",
+     "credit": "DC",
+     "url": "https://www.youtube.com/watch?v=6f7vxgOmbPQ"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.27
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.2
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 11
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 102.3,
+    "song": 31.8,
+    "beats": 9.1,
+    "scan_plan": 134.6,
+    "render": 387.8,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 150.4,
+    "qa": 8.5,
+    "preview": 45.3
+   },
+   "twin_of": "in-dc-20261128-185757",
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-185757.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-185757.preview.mp4"
+  },
+  {
+   "id": "in-movie-20261128-191301",
+   "platform": "instagram",
+   "category": "movie",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T19:30:42.840253+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261128-191301.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-movie-20261128-191301.mp4",
+   "preview_mb": 22.2,
+   "size_mb": 123.9,
+   "title": "Movieclips Edit | Seven Nation Army Edit",
+   "hook": "MOVIECLIPS EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Seven Nation Army\" – The White Stripes (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=0J2QdDbelmY\n🎧 Spotify: https://open.spotify.com/search/The%20White%20Stripes%20Seven%20Nation%20Army\n🎬 Footage: Movieclips – \"GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips\"; Movieclips – \"GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips\"; Sony Pictures – \"GOAT - Film Clip | Chillin' in the Penthouse\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "url": "https://www.youtube.com/watch?v=0J2QdDbelmY",
+    "official_channel": "The White Stripes",
+    "spotify_search": "https://open.spotify.com/search/The%20White%20Stripes%20Seven%20Nation%20Army"
+   },
+   "song_credit": "\"Seven Nation Army\" – The White Stripes",
+   "pattern": {
+    "id": "P09",
+    "name": "2-word upper"
+   },
+   "captions": [
+    "HOLD UP",
+    "HOLD UP",
+    "HOLD UP",
+    "YOU GUYS",
+    "AIN'T GONNA",
+    "BELIEVE THIS",
+    "PLACE",
+    "YO",
+    "BROS",
+    "BROS",
+    "WE GOT",
+    "A 95",
+    "INCH TV",
+    "IN THE",
+    "LIVING ROOM",
+    "SEE THAT?"
+   ],
+   "duration": 38.8,
+   "sources": [
+    {
+     "id": "0ZPEcOrPB2U",
+     "src_id": "0ZPEcOrPB2U",
+     "path": "/mnt/ph/instagram/sources/0ZPEcOrPB2U.mkv",
+     "title": "GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=0ZPEcOrPB2U"
+    },
+    {
+     "id": "TQp5MoFzs_o",
+     "src_id": "TQp5MoFzs_o",
+     "path": "/mnt/ph/instagram/sources/TQp5MoFzs_o.mkv",
+     "title": "GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=TQp5MoFzs_o"
+    },
+    {
+     "id": "DPjke2_2T4k",
+     "src_id": "DPjke2_2T4k",
+     "path": "/mnt/ph/instagram/sources/DPjke2_2T4k.mkv",
+     "title": "GOAT - Film Clip | Chillin' in the Penthouse",
+     "credit": "Sony Pictures",
+     "url": "https://www.youtube.com/watch?v=DPjke2_2T4k"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.8
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 16
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 157.5,
+    "song": 43.9,
+    "beats": 0.5,
+    "scan_plan": 142.7,
+    "more_clips": 57.0,
+    "render": 455.6,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 154.2,
+    "qa": 9.1,
+    "preview": 40.9
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261128-191301.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261128-191301.preview.mp4"
+  },
+  {
+   "id": "yo-movie-20261128-191301",
+   "platform": "youtube",
+   "category": "movie",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T19:30:42.840253+05:30",
+   "path": "/mnt/ph/instagram/ready/youtube/yo-movie-20261128-191301.mp4",
+   "preview": "/mnt/ph/instagram/prev/yo-movie-20261128-191301.mp4",
+   "preview_mb": 22.2,
+   "size_mb": 123.9,
+   "title": "Movieclips Edit | Seven Nation Army Edit",
+   "hook": "MOVIECLIPS EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Seven Nation Army\" – The White Stripes (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=0J2QdDbelmY\n🎧 Spotify: https://open.spotify.com/search/The%20White%20Stripes%20Seven%20Nation%20Army\n🎬 Footage: Movieclips – \"GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips\"; Movieclips – \"GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips\"; Sony Pictures – \"GOAT - Film Clip | Chillin' in the Penthouse\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "url": "https://www.youtube.com/watch?v=0J2QdDbelmY",
+    "official_channel": "The White Stripes",
+    "spotify_search": "https://open.spotify.com/search/The%20White%20Stripes%20Seven%20Nation%20Army"
+   },
+   "song_credit": "\"Seven Nation Army\" – The White Stripes",
+   "pattern": {
+    "id": "P09",
+    "name": "2-word upper"
+   },
+   "captions": [
+    "HOLD UP",
+    "HOLD UP",
+    "HOLD UP",
+    "YOU GUYS",
+    "AIN'T GONNA",
+    "BELIEVE THIS",
+    "PLACE",
+    "YO",
+    "BROS",
+    "BROS",
+    "WE GOT",
+    "A 95",
+    "INCH TV",
+    "IN THE",
+    "LIVING ROOM",
+    "SEE THAT?"
+   ],
+   "duration": 38.8,
+   "sources": [
+    {
+     "id": "0ZPEcOrPB2U",
+     "src_id": "0ZPEcOrPB2U",
+     "path": "/mnt/ph/instagram/sources/0ZPEcOrPB2U.mkv",
+     "title": "GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=0ZPEcOrPB2U"
+    },
+    {
+     "id": "TQp5MoFzs_o",
+     "src_id": "TQp5MoFzs_o",
+     "path": "/mnt/ph/instagram/sources/TQp5MoFzs_o.mkv",
+     "title": "GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=TQp5MoFzs_o"
+    },
+    {
+     "id": "DPjke2_2T4k",
+     "src_id": "DPjke2_2T4k",
+     "path": "/mnt/ph/instagram/sources/DPjke2_2T4k.mkv",
+     "title": "GOAT - Film Clip | Chillin' in the Penthouse",
+     "credit": "Sony Pictures",
+     "url": "https://www.youtube.com/watch?v=DPjke2_2T4k"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.8
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 16
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 157.5,
+    "song": 43.9,
+    "beats": 0.5,
+    "scan_plan": 142.7,
+    "more_clips": 57.0,
+    "render": 455.6,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 154.2,
+    "qa": 9.1,
+    "preview": 40.9
+   },
+   "twin_of": "in-movie-20261128-191301",
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-movie-20261128-191301.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-movie-20261128-191301.preview.mp4"
   }
  ],
  "listing_cache": {
@@ -36727,7 +38153,2927 @@
     "channel": "HBO",
     "verified": true
    }
-  ]
+  ],
+  "https://www.youtube.com/@TheAcademy/videos|2026-11-28": [
+   {
+    "id": "GPTNJTSm6N4",
+    "title": "Singer Songwriting Sessions at The Academy",
+    "duration": 171,
+    "url": "https://www.youtube.com/watch?v=GPTNJTSm6N4",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "GUZAaZoJUZ4",
+    "title": "Circle Songs Singing Course",
+    "duration": 133,
+    "url": "https://www.youtube.com/watch?v=GUZAaZoJUZ4",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "hFC88EyHCeI",
+    "title": "Preparing For Baby Buddy's Music Jam 2016",
+    "duration": 171,
+    "url": "https://www.youtube.com/watch?v=hFC88EyHCeI",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "1Qzfc6BUjt0",
+    "title": "Need Your Help",
+    "duration": 463,
+    "url": "https://www.youtube.com/watch?v=1Qzfc6BUjt0",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "kmGfOnEJwhw",
+    "title": "Can we talk?",
+    "duration": 413,
+    "url": "https://www.youtube.com/watch?v=kmGfOnEJwhw",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "0y8eih6xpcM",
+    "title": "A Very Caipirinha Christmas",
+    "duration": 1841,
+    "url": "https://www.youtube.com/watch?v=0y8eih6xpcM",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "miNnF99HkCw",
+    "title": "Children's Concert",
+    "duration": 303,
+    "url": "https://www.youtube.com/watch?v=miNnF99HkCw",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "4nMV77uosBM",
+    "title": "Introducing Stage Performance",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=4nMV77uosBM",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "oz07sAYodSQ",
+    "title": "Musicianship Showreel",
+    "duration": 466,
+    "url": "https://www.youtube.com/watch?v=oz07sAYodSQ",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "g3eIPun65fw",
+    "title": "The Five Things You Absolutely Must Consider Before Beginning Music Lessons",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=g3eIPun65fw",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "IV37ZN8Og_U",
+    "title": "How long does it take to become good at music?",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=IV37ZN8Og_U",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "l5dDmxzv5Vw",
+    "title": "Welcome to North London Academy - helping you achieve your musical goals",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=l5dDmxzv5Vw",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "i2CKuGSeiXM",
+    "title": "What will you gain from studying at The Academy?",
+    "duration": 45,
+    "url": "https://www.youtube.com/watch?v=i2CKuGSeiXM",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "fNVzL0s0r8k",
+    "title": "About North London Music Academy",
+    "duration": 74,
+    "url": "https://www.youtube.com/watch?v=fNVzL0s0r8k",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "_jyhPuDyjOQ",
+    "title": "What makes The Academy a truly unique school of music?",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=_jyhPuDyjOQ",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "jh5xZfqX4DU",
+    "title": "The North London Music Academy",
+    "duration": 153,
+    "url": "https://www.youtube.com/watch?v=jh5xZfqX4DU",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "Bs3Vod0NeOY",
+    "title": "The North London Music Academy Christmas Concert 2013",
+    "duration": 373,
+    "url": "https://www.youtube.com/watch?v=Bs3Vod0NeOY",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "L3YB30zJ2bg",
+    "title": "Musical Superpowers",
+    "duration": 45,
+    "url": "https://www.youtube.com/watch?v=L3YB30zJ2bg",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "JifHubnoHvo",
+    "title": "Musicianship Workshop Showreel",
+    "duration": 170,
+    "url": "https://www.youtube.com/watch?v=JifHubnoHvo",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "IBediMEKOT8",
+    "title": "The Vortex Spring Gig",
+    "duration": 297,
+    "url": "https://www.youtube.com/watch?v=IBediMEKOT8",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "YEgGxq6vS08",
+    "title": "The Academy - Busking Showreel",
+    "duration": 100,
+    "url": "https://www.youtube.com/watch?v=YEgGxq6vS08",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "w1IzGhxAU44",
+    "title": "Cold Sweat Rehearsal James Brown",
+    "duration": 119,
+    "url": "https://www.youtube.com/watch?v=w1IzGhxAU44",
+    "channel": "North London Music Academy",
+    "verified": true
+   },
+   {
+    "id": "8VjGsYVDQTQ",
+    "title": "Starling Musicianship",
+    "duration": 269,
+    "url": "https://www.youtube.com/watch?v=8VjGsYVDQTQ",
+    "channel": "North London Music Academy",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@RecordingAcademy/videos|2026-11-28": [],
+  "https://www.youtube.com/@Vogue/videos|2026-11-28": [
+   {
+    "id": "Tn9OPhS3f04",
+    "title": "Cara Delevingne Makes Cottage Pie For Her Girlfriend | Now Serving | Vogue",
+    "duration": 586,
+    "url": "https://www.youtube.com/watch?v=Tn9OPhS3f04",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "pNWJS5_y8yw",
+    "title": "Connor Storrie Cooks a Hamburger Bowl | Now Serving | Vogue",
+    "duration": 666,
+    "url": "https://www.youtube.com/watch?v=pNWJS5_y8yw",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "cpJYkP8whwI",
+    "title": "Hunter Schafer Breaks Down 18 Looks, From The Hunger Games to Euphoria | Life in Looks | Vogue",
+    "duration": 867,
+    "url": "https://www.youtube.com/watch?v=cpJYkP8whwI",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "Rngb_hm7tio",
+    "title": "Jennifer Lawrence Gets Ready for the Hunger Games: Sunrise on the Reaping Premiere | Vogue",
+    "duration": 297,
+    "url": "https://www.youtube.com/watch?v=Rngb_hm7tio",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "xVm93VZcAMo",
+    "title": "Sienna Miller’s 27-Step New Mom Beauty Routine | Beauty Secrets | Vogue",
+    "duration": 695,
+    "url": "https://www.youtube.com/watch?v=xVm93VZcAMo",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "4FZibh4JgmU",
+    "title": "ATEEZ's Yeosang Reveals His 17-Step Skin Care Routine | Beauty Secrets | Vogue",
+    "duration": 691,
+    "url": "https://www.youtube.com/watch?v=4FZibh4JgmU",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "YPvBQl1lcB4",
+    "title": "JISOO Breaks Down 15 Looks From 2016 to Now | Life in Looks | Vogue",
+    "duration": 692,
+    "url": "https://www.youtube.com/watch?v=YPvBQl1lcB4",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "QR1Dvo8Gmrc",
+    "title": "Inside Jude Bellingham’s Louis Vuitton Bag | In the Bag | Vogue",
+    "duration": 482,
+    "url": "https://www.youtube.com/watch?v=QR1Dvo8Gmrc",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "sBpmhVMhyio",
+    "title": "Inside Emma Chamberlain's Home, Full of Wonderful Objects | Vogue",
+    "duration": 894,
+    "url": "https://www.youtube.com/watch?v=sBpmhVMhyio",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "g7_DFhplNvU",
+    "title": "Olivia Colman & Alexander Skarsgård Ask Rapid-Fire Questions | Off The Cuff | Vogue",
+    "duration": 637,
+    "url": "https://www.youtube.com/watch?v=g7_DFhplNvU",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "enNN5oJB6HE",
+    "title": "Jenna Ortega Vs Her Inner Voice | Vogue",
+    "duration": 278,
+    "url": "https://www.youtube.com/watch?v=enNN5oJB6HE",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "PxIwR_A5m6U",
+    "title": "Pharrell and Pusha T: Growing Up, Grindin and Dreaming Big | Vogue",
+    "duration": 711,
+    "url": "https://www.youtube.com/watch?v=PxIwR_A5m6U",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "utDyWF5e2Rs",
+    "title": "Jenna Ortega & Amy Adams Ask Rapid-Fire Questions | Off the Cuff | Vogue",
+    "duration": 493,
+    "url": "https://www.youtube.com/watch?v=utDyWF5e2Rs",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "G7QspzZIpCY",
+    "title": "Inside LeBron and Savannah James's Home, Full of Wonderful Objects | Vogue",
+    "duration": 708,
+    "url": "https://www.youtube.com/watch?v=G7QspzZIpCY",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "WNtq-4S8mk8",
+    "title": "KATSEYE's Daniela's Guide to Faux Freckles and Bleached Brows | Beauty Secrets | Vogue",
+    "duration": 853,
+    "url": "https://www.youtube.com/watch?v=WNtq-4S8mk8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "vEnsMY5Od70",
+    "title": "aespa Play Never Have I Ever | Vogue",
+    "duration": 486,
+    "url": "https://www.youtube.com/watch?v=vEnsMY5Od70",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "Z73aV4xtbeY",
+    "title": "Wunmi Mosaku's All-Natural, Homemade Beauty Routine | Beauty Secrets | Vogue",
+    "duration": 542,
+    "url": "https://www.youtube.com/watch?v=Z73aV4xtbeY",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "_uvmlpFlIjQ",
+    "title": "A Day in the Life of Fashion Designer Francesco Risso | Vogue",
+    "duration": 511,
+    "url": "https://www.youtube.com/watch?v=_uvmlpFlIjQ",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "a__lB1zWApc",
+    "title": "KATSEYE’s Yoonchae Reveals Her Everyday Getting Ready Routine | Beauty Secrets | Vogue",
+    "duration": 1044,
+    "url": "https://www.youtube.com/watch?v=a__lB1zWApc",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "6tzPyoUfez8",
+    "title": "Inside Christian Dior's Private Archive with Jonathan Anderson | Objects of Affection | Vogue",
+    "duration": 870,
+    "url": "https://www.youtube.com/watch?v=6tzPyoUfez8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "e-Dct1z2cms",
+    "title": "Inside Dove Cameron’s Wedding Dress Fitting | Vogue",
+    "duration": 481,
+    "url": "https://www.youtube.com/watch?v=e-Dct1z2cms",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "kqpF8F3z_O4",
+    "title": "Hunter Schafer Gets Ready for Vogue World: Milano | Last Looks | Vogue",
+    "duration": 248,
+    "url": "https://www.youtube.com/watch?v=kqpF8F3z_O4",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "KyoYM6yrofs",
+    "title": "Alicia Keys Performs Donna Summer's \"I Feel Love\" Live at Vogue World: Milano",
+    "duration": 305,
+    "url": "https://www.youtube.com/watch?v=KyoYM6yrofs",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "Q39z1yWS15A",
+    "title": "Charm La'Donna's Dancers Dazzle at Vogue World: Milano",
+    "duration": 277,
+    "url": "https://www.youtube.com/watch?v=Q39z1yWS15A",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "aTYZDlmH5R8",
+    "title": "Cardi B and Jennifer Lopez Take Over Vogue World: Milano",
+    "duration": 72,
+    "url": "https://www.youtube.com/watch?v=aTYZDlmH5R8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "-Q5VGcZzMKM",
+    "title": "Roberto Bolle's Spectacular Ballet at Vogue World: Milano",
+    "duration": 178,
+    "url": "https://www.youtube.com/watch?v=-Q5VGcZzMKM",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "Lukr59sqI2w",
+    "title": "Gigi Hadid’s Enchanting Entrance at Vogue World: Milano",
+    "duration": 70,
+    "url": "https://www.youtube.com/watch?v=Lukr59sqI2w",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "H4ZEsgXHxjc",
+    "title": "Inside Dakota Johnson's Private Home, Full of Wonderful Objects | Vogue",
+    "duration": 377,
+    "url": "https://www.youtube.com/watch?v=H4ZEsgXHxjc",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "RTL3PmgjPko",
+    "title": "Getting to Know the Real Mikey Madison | Vogue",
+    "duration": 367,
+    "url": "https://www.youtube.com/watch?v=RTL3PmgjPko",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "rpvHeOv86hs",
+    "title": "Michael B. Jordan Answers 27 Questions | Vogue",
+    "duration": 417,
+    "url": "https://www.youtube.com/watch?v=rpvHeOv86hs",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "L5h0ZKxhQ8I",
+    "title": "F1 Driver Carlos Sainz’s Race Day Wellness Routine | Beauty Secrets | Vogue",
+    "duration": 341,
+    "url": "https://www.youtube.com/watch?v=L5h0ZKxhQ8I",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "6zPySTArQ8o",
+    "title": "Sterling Point Star Ella Rubin’s Wavy Hair Routine | Beauty Secrets | Vogue",
+    "duration": 919,
+    "url": "https://www.youtube.com/watch?v=6zPySTArQ8o",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "bkFiC2hsSI8",
+    "title": "Nicole Kidman & Sandra Bullock Ask Rapid-Fire Questions | Off the Cuff | Vogue",
+    "duration": 674,
+    "url": "https://www.youtube.com/watch?v=bkFiC2hsSI8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "MVE8pwvL1AI",
+    "title": "Off Campus Star Mika Abdalla’s Refreshing Curly Hair Routine | Beauty Secrets | Vogue",
+    "duration": 777,
+    "url": "https://www.youtube.com/watch?v=MVE8pwvL1AI",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "ieGYz23mKKM",
+    "title": "Inside Claudia Sulewski's Wedding Dress Fitting | Vogue",
+    "duration": 750,
+    "url": "https://www.youtube.com/watch?v=ieGYz23mKKM",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "tttAVLEHzZI",
+    "title": "Cardi B Breaks Down 18 Looks, From WAP to the Met Gala | Life in Looks | Vogue",
+    "duration": 747,
+    "url": "https://www.youtube.com/watch?v=tttAVLEHzZI",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "qOEcqimJJl8",
+    "title": "Gigi Hadid Makes Pasta Dinner | Now Serving | Vogue",
+    "duration": 821,
+    "url": "https://www.youtube.com/watch?v=qOEcqimJJl8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "VHpBnoVAAGc",
+    "title": "Inside Jordyn Woods’s Wedding Dress Fitting | Vogue",
+    "duration": 639,
+    "url": "https://www.youtube.com/watch?v=VHpBnoVAAGc",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "XumJsGM-yp8",
+    "title": "Zara Larsson: 8 Hours Before My Viral Lollapalooza Show | Vogue",
+    "duration": 712,
+    "url": "https://www.youtube.com/watch?v=XumJsGM-yp8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "xfuLzfvgawY",
+    "title": "Kriti Sanon’s Glowy Evening Glam | Beauty Secrets | Vogue",
+    "duration": 807,
+    "url": "https://www.youtube.com/watch?v=xfuLzfvgawY",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "FUVLlgASoCg",
+    "title": "Kaia Gerber & Homer Gere Ask Each Other Rapid-Fire Questions | Off the Cuff | Vogue",
+    "duration": 808,
+    "url": "https://www.youtube.com/watch?v=FUVLlgASoCg",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "i28FwwwFiHQ",
+    "title": "KATSEYE Cook Buldak Ramen Carbonara Together | Now Serving | Vogue",
+    "duration": 855,
+    "url": "https://www.youtube.com/watch?v=i28FwwwFiHQ",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "ESn5pzg8tOE",
+    "title": "Obsession Star Inde Navarrette’s Date Night Makeup Routine | Beauty Secrets | Vogue",
+    "duration": 865,
+    "url": "https://www.youtube.com/watch?v=ESn5pzg8tOE",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "Yk9AlPpcBz8",
+    "title": "Inside Emma Roberts’s Wedding Dress Fitting | Vogue",
+    "duration": 786,
+    "url": "https://www.youtube.com/watch?v=Yk9AlPpcBz8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "wREDdJAmskA",
+    "title": "Inside Model Gabbriette’s Wedding Dress Fitting | Vogue",
+    "duration": 493,
+    "url": "https://www.youtube.com/watch?v=wREDdJAmskA",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "UEk2PL1IkJU",
+    "title": "24 Hours With CORTIS In Paris | Vogue",
+    "duration": 608,
+    "url": "https://www.youtube.com/watch?v=UEk2PL1IkJU",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "AH4YLf_J2Sc",
+    "title": "24 Hours In London With Daisy Edgar-Jones | Vogue",
+    "duration": 371,
+    "url": "https://www.youtube.com/watch?v=AH4YLf_J2Sc",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "2TudxogFoY4",
+    "title": "Sienna Spiro’s Guide to Winged Eyeliner and Faux Beauty Marks | Beauty Secrets | Vogue",
+    "duration": 860,
+    "url": "https://www.youtube.com/watch?v=2TudxogFoY4",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "0zfQHuDKwZs",
+    "title": "Paris Jackson’s Daily Makeup Routine | Beauty Secrets | Vogue",
+    "duration": 625,
+    "url": "https://www.youtube.com/watch?v=0zfQHuDKwZs",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "gomG42fCuKM",
+    "title": "KAZUHA's K-Pop Star Skin Care Routine | Beauty Secrets | Vogue",
+    "duration": 845,
+    "url": "https://www.youtube.com/watch?v=gomG42fCuKM",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "qEIQXr59Bf0",
+    "title": "Millie Bobby Brown & Louis Partridge Ask Rapid-Fire Questions | Off the Cuff | Vogue",
+    "duration": 534,
+    "url": "https://www.youtube.com/watch?v=qEIQXr59Bf0",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "3jTeAYFDJj4",
+    "title": "Inside Diljit Dosanjh’s Bag | In the Bag | Vogue",
+    "duration": 541,
+    "url": "https://www.youtube.com/watch?v=3jTeAYFDJj4",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "kip6oIB3wsM",
+    "title": "Inside Madonna’s London Home, Filled With Wonderful Objects | Vogue",
+    "duration": 657,
+    "url": "https://www.youtube.com/watch?v=kip6oIB3wsM",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "1TdxCtgX53w",
+    "title": "BTS's Jimin Gets Ready for the Dior Show In Paris | Last Looks | Vogue",
+    "duration": 325,
+    "url": "https://www.youtube.com/watch?v=1TdxCtgX53w",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "TTvAcSVzVrE",
+    "title": "Fashion In The Lone Star State | Vogue",
+    "duration": 1103,
+    "url": "https://www.youtube.com/watch?v=TTvAcSVzVrE",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "u-pXZE3TBKs",
+    "title": "Inside Designer Tory Burch’s Paris Home, Filled With Wonderful Objects | Vogue",
+    "duration": 789,
+    "url": "https://www.youtube.com/watch?v=u-pXZE3TBKs",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "l9Ovfk9MK1s",
+    "title": "Laufey’s Unfiltered Hormonal Acne Routine | Beauty Secrets | Vogue",
+    "duration": 620,
+    "url": "https://www.youtube.com/watch?v=l9Ovfk9MK1s",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "T-noZq_WOd8",
+    "title": "BTS’s Jung Kook Taste Tests Japanese 7-11 Snacks | In the Bag? | Vogue",
+    "duration": 485,
+    "url": "https://www.youtube.com/watch?v=T-noZq_WOd8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "yeeng8ct4jw",
+    "title": "Gracie Abrams Cooks French-Braised Leeks | Now Serving | Vogue",
+    "duration": 749,
+    "url": "https://www.youtube.com/watch?v=yeeng8ct4jw",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "w_VxfzlI5CM",
+    "title": "Inside Alexandra Leclerc’s Jacquemus Bag | In the Bag | Vogue",
+    "duration": 610,
+    "url": "https://www.youtube.com/watch?v=w_VxfzlI5CM",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "lfYG7ccQ2Tg",
+    "title": "24 Hours With The Rocky Horror Show's Luke Evans | Vogue",
+    "duration": 554,
+    "url": "https://www.youtube.com/watch?v=lfYG7ccQ2Tg",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "jN_Blyr-0So",
+    "title": "Nick Jonas’s Simple 12-Step Skin Care Routine | Beauty Secrets | Vogue",
+    "duration": 488,
+    "url": "https://www.youtube.com/watch?v=jN_Blyr-0So",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "qtWriqd7hms",
+    "title": "Niall Horan Cooks 'Dad's' Pasta Dinner | Now Serving | Vogue",
+    "duration": 737,
+    "url": "https://www.youtube.com/watch?v=qtWriqd7hms",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "AB9kLjdSeVU",
+    "title": "Off Campus Cast Ask Rapid-Fire Questions | Off the Cuff | Vogue",
+    "duration": 613,
+    "url": "https://www.youtube.com/watch?v=AB9kLjdSeVU",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "56pkYxG0ORA",
+    "title": "Maluma's Smooth Skin Grooming Routine | Beauty Secrets | Vogue",
+    "duration": 632,
+    "url": "https://www.youtube.com/watch?v=56pkYxG0ORA",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "hp8kPl3GrM4",
+    "title": "A Day With Supermodel Anok Yai In NYC (Tattoos, Psychics and Shopping) | Vogue",
+    "duration": 510,
+    "url": "https://www.youtube.com/watch?v=hp8kPl3GrM4",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "skH1hN_gH50",
+    "title": "Euphoria’s Chloe Cherry on Lip Filler, Botox & Bieber | Beauty Secrets | Vogue",
+    "duration": 756,
+    "url": "https://www.youtube.com/watch?v=skH1hN_gH50",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "tg2Xtye0q74",
+    "title": "Venus Williams Gets Ready for the Met Gala | Vogue",
+    "duration": 470,
+    "url": "https://www.youtube.com/watch?v=tg2Xtye0q74",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "TAg443Ix7I0",
+    "title": "Nicole Kidman Gets Ready for the Met Gala | Vogue",
+    "duration": 502,
+    "url": "https://www.youtube.com/watch?v=TAg443Ix7I0",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "FQnETkP9sE8",
+    "title": "Inside Hudson Williams’s First Met Gala | Vogue",
+    "duration": 553,
+    "url": "https://www.youtube.com/watch?v=FQnETkP9sE8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "R1aD59HNhFA",
+    "title": "ROSÉ Gets Ready for the Met Gala | Vogue",
+    "duration": 487,
+    "url": "https://www.youtube.com/watch?v=R1aD59HNhFA",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "L22G4EU81Gw",
+    "title": "Tyla Gets Ready for the Met Gala | Vogue",
+    "duration": 394,
+    "url": "https://www.youtube.com/watch?v=L22G4EU81Gw",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "O31x0MZod5c",
+    "title": "Jaafar Jackson Gets Ready for the Met Gala | Vogue",
+    "duration": 267,
+    "url": "https://www.youtube.com/watch?v=O31x0MZod5c",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "KkK3OqptTLk",
+    "title": "KARINA Gets Ready for the Met Gala | Vogue",
+    "duration": 394,
+    "url": "https://www.youtube.com/watch?v=KkK3OqptTLk",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "EmEtDbpNEe8",
+    "title": "Inside Alysa Liu’s First Met Gala | Vogue",
+    "duration": 327,
+    "url": "https://www.youtube.com/watch?v=EmEtDbpNEe8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "Bz2C0VAnjMQ",
+    "title": "Bad Bunny Gets Ready for the Met Gala | Vogue",
+    "duration": 291,
+    "url": "https://www.youtube.com/watch?v=Bz2C0VAnjMQ",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "UxphvZ1rDa8",
+    "title": "Inside Kim Kardashian’s Fiberglass Met Gala Look | Vogue",
+    "duration": 455,
+    "url": "https://www.youtube.com/watch?v=UxphvZ1rDa8",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "w7LH1Q7BYAM",
+    "title": "Inside LISA’s Sculptural Met Gala Look | Vogue",
+    "duration": 344,
+    "url": "https://www.youtube.com/watch?v=w7LH1Q7BYAM",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "MMUkKLNcX-Y",
+    "title": "Alysa Liu & Emma Chamberlain Bond Over Their Bay Area Roots | Met Gala 2026 With Emma Chamberlain",
+    "duration": 129,
+    "url": "https://www.youtube.com/watch?v=MMUkKLNcX-Y",
+    "channel": "Vogue",
+    "verified": true
+   },
+   {
+    "id": "MwiGAU4J_vQ",
+    "title": "Odessa A'zion Can't Yet Reveal Her Met Gala Look | Met Gala 2026 With Emma Chamberlain",
+    "duration": 148,
+    "url": "https://www.youtube.com/watch?v=MwiGAU4J_vQ",
+    "channel": "Vogue",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@goldenglobes/videos|2026-11-28": [
+   {
+    "id": "14P8wmO6H9k",
+    "title": "Mary Beth Barone Interviews Joshua from Seventeen on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 55,
+    "url": "https://www.youtube.com/watch?v=14P8wmO6H9k",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "BpK6mi6xWUs",
+    "title": "Mary Beth Barone Interviews Wagner Moura on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 50,
+    "url": "https://www.youtube.com/watch?v=BpK6mi6xWUs",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "PDTqqjhHxkY",
+    "title": "Mary Beth Barone Interviews Wanda Sykes on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 88,
+    "url": "https://www.youtube.com/watch?v=PDTqqjhHxkY",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "w7nG871TS3o",
+    "title": "Mary Beth Barone Interviews Tessa Thompson on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 82,
+    "url": "https://www.youtube.com/watch?v=w7nG871TS3o",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "Tsk3o97c9ek",
+    "title": "Mary Beth Barone Interviews Kumail Nanjiani on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=Tsk3o97c9ek",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "-NMBhYwVk3c",
+    "title": "Mary Beth Barone Interviews Ayo Edebiri on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 81,
+    "url": "https://www.youtube.com/watch?v=-NMBhYwVk3c",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "hWkspuvOMeM",
+    "title": "Mary Beth Barone Interviews Odessa A'zion on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 107,
+    "url": "https://www.youtube.com/watch?v=hWkspuvOMeM",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "GRldkgNwyZo",
+    "title": "Mary Beth Barone Interviews Claire Danes on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 100,
+    "url": "https://www.youtube.com/watch?v=GRldkgNwyZo",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "iFjDEr2rwa4",
+    "title": "Mary Beth Barone Interviews Eva Victor on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 88,
+    "url": "https://www.youtube.com/watch?v=iFjDEr2rwa4",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "eDkr2ysFLhk",
+    "title": "Mary Beth Barone Interviews Jean Smart on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 49,
+    "url": "https://www.youtube.com/watch?v=eDkr2ysFLhk",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "4EY9BFsytis",
+    "title": "Mary Beth Barone Interviews Mark Ronson on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 71,
+    "url": "https://www.youtube.com/watch?v=4EY9BFsytis",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "VMjPNeT9jqQ",
+    "title": "Mary Beth Barone Interviews Joe Keery on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=VMjPNeT9jqQ",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "GjZd4qONtLw",
+    "title": "Mary Beth Barone Interviews Aimee Lou Wood on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 49,
+    "url": "https://www.youtube.com/watch?v=GjZd4qONtLw",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "t2m9wofYdy0",
+    "title": "Mary Beth Barone Interviews Dwayne Johnson on the Red Carpet | 83rd Annual Golden Globes",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=t2m9wofYdy0",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "A4GQ-GmWNRw",
+    "title": "Host Nikki Glaser Does Lost and Found | 83rd Annual Golden Globes",
+    "duration": 67,
+    "url": "https://www.youtube.com/watch?v=A4GQ-GmWNRw",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "NfXoVR3hP7M",
+    "title": "Host Nikki Glaser's Mid Show Recap | 83rd Annual Golden Globes",
+    "duration": 111,
+    "url": "https://www.youtube.com/watch?v=NfXoVR3hP7M",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "2D2TLWLu43Q",
+    "title": "Host Nikki Glaser is \"Golden\" | 83rd Annual Golden Globes",
+    "duration": 136,
+    "url": "https://www.youtube.com/watch?v=2D2TLWLu43Q",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "tZMMVK7mkoU",
+    "title": "Host Nikki Glaser Welcomes us to the Podcast Era | 83rd Annual Golden Globes",
+    "duration": 104,
+    "url": "https://www.youtube.com/watch?v=tZMMVK7mkoU",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "tERx-utuBJ4",
+    "title": "Nikki Glaser Talks Hollywood's Heated Rivalries | 83rd Annual Golden Globes",
+    "duration": 54,
+    "url": "https://www.youtube.com/watch?v=tERx-utuBJ4",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "sY5iGuD9PxA",
+    "title": "Dakota Fanning and Queen Latifah Present Best Drama Series | 83rd Annual Golden Globes",
+    "duration": 11,
+    "url": "https://www.youtube.com/watch?v=sY5iGuD9PxA",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "j2tf1SHMRn4",
+    "title": "Nikki Glaser Says Goodnight | 83rd Annual Golden Globes",
+    "duration": 18,
+    "url": "https://www.youtube.com/watch?v=j2tf1SHMRn4",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "ctXTPQZjioY",
+    "title": "Hamnet Wins Best Picture – Drama | 83rd Annual Golden Globes",
+    "duration": 183,
+    "url": "https://www.youtube.com/watch?v=ctXTPQZjioY",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "7tQDG7gocoA",
+    "title": "George Clooney Presents Best Picture – Drama | 83rd Annual Golden Globes",
+    "duration": 120,
+    "url": "https://www.youtube.com/watch?v=7tQDG7gocoA",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "LaPxqeRyaME",
+    "title": "One Battle After Another Wins Best Picture – Musical or Comedy | 83rd Annual Golden Globes",
+    "duration": 67,
+    "url": "https://www.youtube.com/watch?v=LaPxqeRyaME",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "sVyQ-fz3VTs",
+    "title": "Julia Roberts Presents Best Picture – Musical or Comedy | 83rd Annual Golden Globes",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=sVyQ-fz3VTs",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "rLUPWddliXM",
+    "title": "Wagner Moura Wins Best Male Actor – Motion Picture – Drama | 83rd Annual Golden Globes",
+    "duration": 82,
+    "url": "https://www.youtube.com/watch?v=rLUPWddliXM",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "qUG-xx_HChU",
+    "title": "Diane Lane & Colman Domingo Present Best Male Actor – Motion Picture – Drama | 83rd Golden Globes",
+    "duration": 40,
+    "url": "https://www.youtube.com/watch?v=qUG-xx_HChU",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "8CfJAY2hzXk",
+    "title": "Hamnet Interview | 83rd Annual Golden Globes",
+    "duration": 64,
+    "url": "https://www.youtube.com/watch?v=8CfJAY2hzXk",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "PttOo6dA0_c",
+    "title": "Jessie Buckley Wins Best Female Actor – Motion Picture – Drama | 83rd Annual Golden Globes",
+    "duration": 145,
+    "url": "https://www.youtube.com/watch?v=PttOo6dA0_c",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "56aFOpkXlSU",
+    "title": "Ana de Armas & Chris Pine Present Best Female Actor – Motion Picture – Drama | 83rd Golden Globes",
+    "duration": 20,
+    "url": "https://www.youtube.com/watch?v=56aFOpkXlSU",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "O2Nit9FtYjs",
+    "title": "The Studio Wins Best Musical or Comedy Series | 83rd Annual Golden Globes",
+    "duration": 69,
+    "url": "https://www.youtube.com/watch?v=O2Nit9FtYjs",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "EevTLUU3WhE",
+    "title": "Adam Scott and Marlon Wayans Present Best Musical or Comedy Series | 83rd Annual Golden Globes",
+    "duration": 42,
+    "url": "https://www.youtube.com/watch?v=EevTLUU3WhE",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "TIUh7Wamp10",
+    "title": "Adolescence Wins Best Limited Series, Anthology Series or TV Movie | 83rd Golden Globes",
+    "duration": 96,
+    "url": "https://www.youtube.com/watch?v=TIUh7Wamp10",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "aQcewQcNU0k",
+    "title": "KPop Demon Hunters \"Golden\" Interview | 83rd Annual Golden Globes",
+    "duration": 204,
+    "url": "https://www.youtube.com/watch?v=aQcewQcNU0k",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "FfeNT4EA1sg",
+    "title": "The Studio Interview | 83rd Annual Golden Globes",
+    "duration": 120,
+    "url": "https://www.youtube.com/watch?v=FfeNT4EA1sg",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "hCn9Gc_Qaws",
+    "title": "Ayo Edebiri & Hailee Steinfeld present Best Limited/Anthology Series or TV Movie| 83rd Golden Globes",
+    "duration": 35,
+    "url": "https://www.youtube.com/watch?v=hCn9Gc_Qaws",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "uyEcSxhd_44",
+    "title": "The Pitt Wins Best Drama Series | 83rd Annual Golden Globes",
+    "duration": 128,
+    "url": "https://www.youtube.com/watch?v=uyEcSxhd_44",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "bTA69_JXksI",
+    "title": "Rhea Seehorn Wins Best Female Actor – Television – Drama | 83rd Annual Golden Globes",
+    "duration": 146,
+    "url": "https://www.youtube.com/watch?v=bTA69_JXksI",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "xxDEB8t5Xog",
+    "title": "Rhea Seehorn Interview | 83rd Annual Golden Globes",
+    "duration": 228,
+    "url": "https://www.youtube.com/watch?v=xxDEB8t5Xog",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "JrANrm1HSEc",
+    "title": "The Pitt Interview | 83rd Annual Golden Globes",
+    "duration": 132,
+    "url": "https://www.youtube.com/watch?v=JrANrm1HSEc",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "qIlaNNbOAcE",
+    "title": "Dakota Fanning & Queen Latifah Present Best Female Actor – Television – Drama | 83rd Golden Globes",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=qIlaNNbOAcE",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "ENVLhM-jMWY",
+    "title": "Wanda Sykes Presents Best Performance in Stand-Up Comedy on Television | 83rd Annual Golden Globes",
+    "duration": 169,
+    "url": "https://www.youtube.com/watch?v=ENVLhM-jMWY",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "Gh056NIp5wc",
+    "title": "Erin Doherty Wins Best Supporting Female Actor – Television | 83rd Annual Golden Globes",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=Gh056NIp5wc",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "18Ew1K0lQWw",
+    "title": "Connor Storrie & Hudson Williams Present Best Supporting Female Actor – TV | 83rd Golden Globes",
+    "duration": 78,
+    "url": "https://www.youtube.com/watch?v=18Ew1K0lQWw",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "7241Zm2iCvg",
+    "title": "The Secret Agent Wins Best Non-English Language Motion Picture | 83rd Annual Golden Globes",
+    "duration": 106,
+    "url": "https://www.youtube.com/watch?v=7241Zm2iCvg",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "HxZkUe-Cp1I",
+    "title": "Orlando Bloom & Minnie Driver Present Best Non-English Language Motion Picture | 83rd Golden Globes",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=HxZkUe-Cp1I",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "WDQ1CYm10is",
+    "title": "KPop Demon Hunters Wins Best Animated Motion Picture | 83rd Annual Golden Globes",
+    "duration": 84,
+    "url": "https://www.youtube.com/watch?v=WDQ1CYm10is",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "DH460mUZE24",
+    "title": "Stellan Skarsgård Interview | 83rd Annual Golden Globes",
+    "duration": 86,
+    "url": "https://www.youtube.com/watch?v=DH460mUZE24",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "W9UVO47XPIs",
+    "title": "Keegan-Michael Key and Mila Kunis Present Best Animated Motion Picture | 83rd Annual Golden Globes",
+    "duration": 74,
+    "url": "https://www.youtube.com/watch?v=W9UVO47XPIs",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "GQDFEVhckYo",
+    "title": "Stephen Graham Wins Best Male Actor – TV – Limited/Anthology Series or TV Movie | 83rd Golden Globes",
+    "duration": 120,
+    "url": "https://www.youtube.com/watch?v=GQDFEVhckYo",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "urSNLePFDG8",
+    "title": "Teyana Taylor Interview | 83rd Annual Golden Globes",
+    "duration": 174,
+    "url": "https://www.youtube.com/watch?v=urSNLePFDG8",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "ViAjcxWalLA",
+    "title": "Michelle Williams Wins Best Female Actor – Limited/Anthology Series or TV Movie | 83rd Annual Globes",
+    "duration": 9,
+    "url": "https://www.youtube.com/watch?v=ViAjcxWalLA",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "xeaTOUx1Bqg",
+    "title": "Sinners Wins Best Cinematic and Box Office Achievement | 83rd Annual Golden Globes",
+    "duration": 85,
+    "url": "https://www.youtube.com/watch?v=xeaTOUx1Bqg",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "NNzl66U4Ttg",
+    "title": "Paul Thomas Anderson Wins Best Director Motion Picture | 83rd Annual Golden Globes",
+    "duration": 102,
+    "url": "https://www.youtube.com/watch?v=NNzl66U4Ttg",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "sQJYiYTjLrU",
+    "title": "Judd Apatow Presents Best Director Motion Picture | 83rd Annual Golden Globes",
+    "duration": 180,
+    "url": "https://www.youtube.com/watch?v=sQJYiYTjLrU",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "dPFBeMe-aBk",
+    "title": "Ludwig Göransson Interview | 83rd Annual Golden Globes",
+    "duration": 120,
+    "url": "https://www.youtube.com/watch?v=dPFBeMe-aBk",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "iBsSKnoWEp4",
+    "title": "Stephen Graham Interview | 83rd Annual Golden Globes",
+    "duration": 141,
+    "url": "https://www.youtube.com/watch?v=iBsSKnoWEp4",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "WbUIfL-7d1s",
+    "title": "Kevin Hart Presents Best Cinematic and Box Office Achievement | 83rd Annual Golden Globes",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=WbUIfL-7d1s",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "m74I0lUWlBo",
+    "title": "Kathryn Hahn & Melissa McCarthy Present Female Actor–Limited/Anthology Series/TV Movie | 83rd Globes",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=m74I0lUWlBo",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "JHgz2v8dE7M",
+    "title": "Amy Poehler Interview | 83rd Annual Golden Globes",
+    "duration": 112,
+    "url": "https://www.youtube.com/watch?v=JHgz2v8dE7M",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "YXKcshezzsw",
+    "title": "Kathryn Hahn & Melissa McCarthy Present Male Actor–Limited/Anthology Series or TV Movie|83rd Globes",
+    "duration": 63,
+    "url": "https://www.youtube.com/watch?v=YXKcshezzsw",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "F2TINXNrIpE",
+    "title": "Rose Byrne Interview | 83rd Annual Golden Globes",
+    "duration": 203,
+    "url": "https://www.youtube.com/watch?v=F2TINXNrIpE",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "e5kEcDUfpkE",
+    "title": "Owen Cooper Interview | 83rd Annual Golden Globes",
+    "duration": 146,
+    "url": "https://www.youtube.com/watch?v=e5kEcDUfpkE",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "QZDWAQwEby0",
+    "title": "Timothée Chalamet Interview | 83rd Annual Golden Globes",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=QZDWAQwEby0",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "Por5AWQB9_M",
+    "title": "Timothée Chalamet Wins Best Male Actor – Motion Picture – Musical/Comedy | 83rd Annual Golden Globes",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=Por5AWQB9_M",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "RGWB1To6ajw",
+    "title": "Jennifer Lopez Presents Best Male Actor – Motion Picture – Musical/Comedy | 83rd Golden Globes",
+    "duration": 42,
+    "url": "https://www.youtube.com/watch?v=RGWB1To6ajw",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "BjGkcTNslEs",
+    "title": "Rose Byrne Wins Best Female Actor – Motion Picture – Musical/Comedy | 83rd Annual Golden Globes",
+    "duration": 101,
+    "url": "https://www.youtube.com/watch?v=BjGkcTNslEs",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "yvsBUkamNmk",
+    "title": "Pamela Anderson & Miley Cyrus Present Female Actor –Motion Picture–Musical/Comedy|83rd Golden Globes",
+    "duration": 35,
+    "url": "https://www.youtube.com/watch?v=yvsBUkamNmk",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "TEjd00f3ats",
+    "title": "\"Golden\" in KPop Demon Hunters Wins Best Song Motion Picture | 83rd Annual Golden Globes",
+    "duration": 130,
+    "url": "https://www.youtube.com/watch?v=TEjd00f3ats",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "85MYxEmizJs",
+    "title": "Paul Thomas Anderson Wins Best Screenplay – Motion Picture | 83rd Annual Golden Globes",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=85MYxEmizJs",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "9g3UysOC1Qg",
+    "title": "Macaulay Culkin Presents Best Screenplay – Motion Picture | 83rd Annual Golden Globes",
+    "duration": 45,
+    "url": "https://www.youtube.com/watch?v=9g3UysOC1Qg",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "M735mSpq_4Q",
+    "title": "Charli XCX and Joe Keery Present Best Song Motion Picture | 83rd Annual Golden Globes",
+    "duration": 39,
+    "url": "https://www.youtube.com/watch?v=M735mSpq_4Q",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "b9XdPNy_ffk",
+    "title": "Good Hang with Amy Poehler Wins Best Podcast | 83rd Annual Golden Globes",
+    "duration": 101,
+    "url": "https://www.youtube.com/watch?v=b9XdPNy_ffk",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "w7zrPuQtRsg",
+    "title": "Noah Wyle Interview | 83rd Annual Golden Globes",
+    "duration": 169,
+    "url": "https://www.youtube.com/watch?v=w7zrPuQtRsg",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "3dKROEqFmkI",
+    "title": "Snoop Dogg Presents Best Podcast | 83rd Annual Golden Globes",
+    "duration": 49,
+    "url": "https://www.youtube.com/watch?v=3dKROEqFmkI",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "zl3XqF_3CX4",
+    "title": "Jean Smart Interview | 83rd Annual Golden Globes",
+    "duration": 285,
+    "url": "https://www.youtube.com/watch?v=zl3XqF_3CX4",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "HG6Fdgs0-_4",
+    "title": "Seth Rogen Wins Best Male Actor – Television – Musical/Comedy | 83rd Annual Golden Globes",
+    "duration": 74,
+    "url": "https://www.youtube.com/watch?v=HG6Fdgs0-_4",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "HNHfBC0VIF4",
+    "title": "Dave Franco & Zoë Kravitz Present Best Male Actor – Television – Musical/Comedy | 83rd Golden Globes",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=HNHfBC0VIF4",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "XVD9vGNKTZQ",
+    "title": "Owen Cooper Wins Best Supporting Male Actor – Television | 83rd Annual Golden Globes",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=XVD9vGNKTZQ",
+    "channel": "Golden Globes",
+    "verified": true
+   },
+   {
+    "id": "T93rfjeTn3w",
+    "title": "Priyanka Chopra Jonas & Lalisa Manobal Present Male Actor – Television – Drama | 83rd Golden Globes",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=T93rfjeTn3w",
+    "channel": "Golden Globes",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@DC/videos|2026-11-28": [],
+  "https://www.youtube.com/@ParamountPictures/videos|2026-11-28": [
+   {
+    "id": "5DddMUVQ5xQ",
+    "title": "Mr. Irrelevant | New Trailer (2026 Movie) - David Corenswet, Isabel May",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=5DddMUVQ5xQ",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "DfJqs8OIUv8",
+    "title": "Mr. Irrelevant | Who Is John Tuggle (2026 Movie) - David Corenswet",
+    "duration": 105,
+    "url": "https://www.youtube.com/watch?v=DfJqs8OIUv8",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "_eco9F8FXK0",
+    "title": "K-POP: THE DEBUT | Official Trailer (2027 Movie) 케이팝 슈퍼스타 | 공식 예고편 (2027 개봉작)",
+    "duration": 147,
+    "url": "https://www.youtube.com/watch?v=_eco9F8FXK0",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "BLAqnILztb8",
+    "title": "Magic within Children of Blood and Bone (2027) - Thuso Mbedu, Damson Idris, Amandla Stenberg",
+    "duration": 33,
+    "url": "https://www.youtube.com/watch?v=BLAqnILztb8",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "QRmKBY_OJkY",
+    "title": "The Angry Birds Movie 3 | Sneak Peek of JISOO's “Sun Showers” at the Kids’ Choice Awards",
+    "duration": 40,
+    "url": "https://www.youtube.com/watch?v=QRmKBY_OJkY",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "a20LtkPALYM",
+    "title": "Children of Blood and Bone | New Trailer (2027) - Thuso Mbedu, Damson Idris, Amandla Stenberg",
+    "duration": 174,
+    "url": "https://www.youtube.com/watch?v=a20LtkPALYM",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "fJf1ECd36H8",
+    "title": "Ebenezer | Draymond Green Humbug (2026 Movie)",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=fJf1ECd36H8",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "FjYzudbOzlY",
+    "title": "The Angry Birds Movie 3 | Official Trailer 2 (2026 Movie)",
+    "duration": 148,
+    "url": "https://www.youtube.com/watch?v=FjYzudbOzlY",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "7BoVuGHVcUo",
+    "title": "Ebenezer | Scrooge on the Shelf (2026 Movie) - Johnny Depp",
+    "duration": 38,
+    "url": "https://www.youtube.com/watch?v=7BoVuGHVcUo",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "iCOvD37RRsw",
+    "title": "Ebenezer | Johnny Depp on Ebenezer Featurette (2026 Movie)",
+    "duration": 54,
+    "url": "https://www.youtube.com/watch?v=iCOvD37RRsw",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "7AD-POD9x4Q",
+    "title": "Ebenezer | Johnny Depp - Bringing Ebenezer Scrooge to Life (2026 Movie)",
+    "duration": 53,
+    "url": "https://www.youtube.com/watch?v=7AD-POD9x4Q",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "79L4WDU-qRc",
+    "title": "Bloopers Between Rounds of Street Fighter (2026 Movie)",
+    "duration": 219,
+    "url": "https://www.youtube.com/watch?v=79L4WDU-qRc",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "kCCCU2wX4bE",
+    "title": "Bloopers between rounds. Don’t miss #StreetFighterMovie! Get tickets now to see it at the movies!",
+    "duration": 219,
+    "url": "https://www.youtube.com/watch?v=kCCCU2wX4bE",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "zvUZH2B_Nxo",
+    "title": "Ebenezer | Johnny Depp is Ebenezer Featurette (2026 Movie) - Johnny Depp, Ian McKellen, Rupert Grint",
+    "duration": 108,
+    "url": "https://www.youtube.com/watch?v=zvUZH2B_Nxo",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "TTw2-bDQIUs",
+    "title": "Street Fighter Hand Drawn (2026 Movie)",
+    "duration": 126,
+    "url": "https://www.youtube.com/watch?v=TTw2-bDQIUs",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "Zk2aB3Wc17c",
+    "title": "Training for Street Fighter (2026 Movie)",
+    "duration": 84,
+    "url": "https://www.youtube.com/watch?v=Zk2aB3Wc17c",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "qWrw6VmgBaM",
+    "title": "A Brotherhood Forged in Street Fighter (2026 Movie)",
+    "duration": 67,
+    "url": "https://www.youtube.com/watch?v=qWrw6VmgBaM",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "9CwN5ODwF2c",
+    "title": "The Love of Street Fighter (2026 Movie)",
+    "duration": 93,
+    "url": "https://www.youtube.com/watch?v=9CwN5ODwF2c",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "l_Ozo1xUgbU",
+    "title": "Ebenezer | Official Trailer 2 (2026 Movie) - Johnny Depp, Ian McKellen, Rupert Grint, Sam Claflin",
+    "duration": 156,
+    "url": "https://www.youtube.com/watch?v=l_Ozo1xUgbU",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "qp1O0HcY6eA",
+    "title": "Street Fighter: Ken vs Ryu (2026 Movie)",
+    "duration": 96,
+    "url": "https://www.youtube.com/watch?v=qp1O0HcY6eA",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "nzNYomSd5Ls",
+    "title": "The Rescue | Official Trailer (2027 Movie) - Brandon Sklenar, Josh Lucas, Hassie Harrison",
+    "duration": 158,
+    "url": "https://www.youtube.com/watch?v=nzNYomSd5Ls",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "fsEOKn9qgSM",
+    "title": "Street Fighter: Bringing the Iconic Game Moves to Life (2026 Movie)",
+    "duration": 86,
+    "url": "https://www.youtube.com/watch?v=fsEOKn9qgSM",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "TVKQ5PPlcc4",
+    "title": "Heart of the Beast | Built to Survive Featurette (2026 Movie) - Brad Pitt",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=TVKQ5PPlcc4",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "76VKyQVlX3M",
+    "title": "Heart of the Beast | Myles Garrett - Meet Bojji! (2026 Movie)",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=76VKyQVlX3M",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "4UQCiw16Iv4",
+    "title": "Mr. Irrelevant | Becoming Mr. Irrelevant (2026 Movie) - David Corenswet",
+    "duration": 80,
+    "url": "https://www.youtube.com/watch?v=4UQCiw16Iv4",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "Xf0FwNqn2Uk",
+    "title": "Heart of the Beast | Military Featurette (2026 Movie) - Brad Pitt",
+    "duration": 102,
+    "url": "https://www.youtube.com/watch?v=Xf0FwNqn2Uk",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "cwVE1qf6Ixs",
+    "title": "Mr. Irrelevant | Official Trailer (2026 Movie) - David Corenswet, Isabel May",
+    "duration": 180,
+    "url": "https://www.youtube.com/watch?v=cwVE1qf6Ixs",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "gK3oxWbarMY",
+    "title": "Heart of the Beast | Filming in the Wild Featurette (2026 Movie) - Brad Pitt",
+    "duration": 103,
+    "url": "https://www.youtube.com/watch?v=gK3oxWbarMY",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "7a3mjy9BXec",
+    "title": "By Any Means | Nicole Beharie Featurette (2026 Movie) – Yahya Abdul-Mateen II, Mark Wahlberg",
+    "duration": 26,
+    "url": "https://www.youtube.com/watch?v=7a3mjy9BXec",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "rUseDRFKrDE",
+    "title": "Heart of the Beast | Training Your Co-Star Featurette (2026 Movie) - Brad Pitt",
+    "duration": 103,
+    "url": "https://www.youtube.com/watch?v=rUseDRFKrDE",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "YX8CxGf1ezU",
+    "title": "By Any Means | Real Life Hero Featurette (2026 Movie) – Yahya Abdul-Mateen II, Giancarlo Esposito",
+    "duration": 85,
+    "url": "https://www.youtube.com/watch?v=YX8CxGf1ezU",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "jsg_Ka8nPfc",
+    "title": "Street Fighter | Playable Trailer (2026 Movie)",
+    "duration": 18,
+    "url": "https://www.youtube.com/watch?v=jsg_Ka8nPfc",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "U6sbm1OaJb8",
+    "title": "Street Fighter | New Trailer (2026 Movie)",
+    "duration": 169,
+    "url": "https://www.youtube.com/watch?v=U6sbm1OaJb8",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "aTB60HDdfYM",
+    "title": "Heart of the Beast | Bond Featurette (2026 Movie) - Brad Pitt",
+    "duration": 104,
+    "url": "https://www.youtube.com/watch?v=aTB60HDdfYM",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "h2jxPHX3QlE",
+    "title": "Heart of the Beast | Strength (2026 Movie)",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=h2jxPHX3QlE",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "TfgjBH34Vyw",
+    "title": "The Man Behind The Mobster in By Any Means (2026 Movie) – Yahya Abdul-Mateen II, Mark Wahlberg",
+    "duration": 92,
+    "url": "https://www.youtube.com/watch?v=TfgjBH34Vyw",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "bfCgu83suHs",
+    "title": "Heart of the Beast | Official Trailer 2 (2026 Movie) - Brad Pitt, J.K. Simmons, Anna Lambe",
+    "duration": 121,
+    "url": "https://www.youtube.com/watch?v=bfCgu83suHs",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "0DWeJEVLie8",
+    "title": "PAW Patrol: The Dino Movie | Cast Featurette (2026 Movie)",
+    "duration": 72,
+    "url": "https://www.youtube.com/watch?v=0DWeJEVLie8",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "fvnyrBnUx4E",
+    "title": "By Any Means | Final Trailer (2026 Movie) – Yahya Abdul-Mateen II, Mark Wahlberg",
+    "duration": 96,
+    "url": "https://www.youtube.com/watch?v=fvnyrBnUx4E",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "-AVNejpbBOo",
+    "title": "PAW Patrol: The Dino Movie | Dog Vision Trailer (2026 Movie)",
+    "duration": 14,
+    "url": "https://www.youtube.com/watch?v=-AVNejpbBOo",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "tFTFrV8GSWw",
+    "title": "Heart of the Beast | Brad Pitt and Odin Behind-the-Scenes (2026 Movie) - Brad Pitt",
+    "duration": 77,
+    "url": "https://www.youtube.com/watch?v=tFTFrV8GSWw",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "cJRw7rYOOzA",
+    "title": "Ava Max - Work (Official Lyric Video) | PAW Patrol: The Dino Movie",
+    "duration": 159,
+    "url": "https://www.youtube.com/watch?v=cJRw7rYOOzA",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "ewQqSg16qq0",
+    "title": "The Unbelievable True Story Behind By Any Means (2026 Movie) – Yahya Abdul-Mateen II, Mark Wahlberg",
+    "duration": 100,
+    "url": "https://www.youtube.com/watch?v=ewQqSg16qq0",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "eGyyykgo6Qo",
+    "title": "Street Fighter | Blanka vs. Ryu Special Look (2026 Movie) - Jason Momoa, Andrew Koji",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=eGyyykgo6Qo",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "HnWvg90lQt8",
+    "title": "Children of Blood and Bone | Official Trailer (2027) - Thuso Mbedu, Damson Idris, Amandla Stenberg",
+    "duration": 173,
+    "url": "https://www.youtube.com/watch?v=HnWvg90lQt8",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "PE9luS9Xdi8",
+    "title": "PAW Patrol: The Dino Movie | Marshall's Story Featurette (2026 Movie)",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=PE9luS9Xdi8",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "_M6pAzLJkgk",
+    "title": "Inside the World of Orïsha | Children of Blood and Bone (2027 Movie) - Gina Prince-Bythewood",
+    "duration": 124,
+    "url": "https://www.youtube.com/watch?v=_M6pAzLJkgk",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "6Vvff18k33o",
+    "title": "Viola is training for Brazil 2027. #ShesTheMan",
+    "duration": 90,
+    "url": "https://www.youtube.com/watch?v=6Vvff18k33o",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "A7lyvgnDuDE",
+    "title": "Ebenezer | Official Trailer (2026 Movie) - Johnny Depp, Ian McKellen, Rupert Grint, Sam Claflin",
+    "duration": 82,
+    "url": "https://www.youtube.com/watch?v=A7lyvgnDuDE",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "cXOoc0LDo2Y",
+    "title": "PAW Patrol: The Dino Movie | Meet Rex Featurette (2026 Movie)",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=cXOoc0LDo2Y",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "y2JRNlOpv9Y",
+    "title": "PAW Patrol: The Dino Movie | Flying Over Dino Island Clip (2026 Movie)",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=y2JRNlOpv9Y",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "a9DB_aUMzME",
+    "title": "The Angry Birds Movie 3 | Official Trailer (2026 Movie)",
+    "duration": 130,
+    "url": "https://www.youtube.com/watch?v=a9DB_aUMzME",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "iCGyZKkoJ_4",
+    "title": "what a perfect way to cap off our big, dumb legacy with this drone show after the jackass premiere!",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=iCGyZKkoJ_4",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "u4mw0gDJ0h8",
+    "title": "jackass: best and last | ESPN x Bad Decisions (2026 Movie)",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=u4mw0gDJ0h8",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "JFQcDFhNh4o",
+    "title": "Heart of the Beast | Official Trailer (2026 Movie) - Brad Pitt, J.K. Simmons, Anna Lambe",
+    "duration": 146,
+    "url": "https://www.youtube.com/watch?v=JFQcDFhNh4o",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "xgI5iYmOf5Q",
+    "title": "PAW Patrol: The Dino Movie | Official Trailer (2026 Movie)",
+    "duration": 138,
+    "url": "https://www.youtube.com/watch?v=xgI5iYmOf5Q",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "RmiYsDujAIE",
+    "title": "jackass: best and last | Poopies :30 (2026 Movie)",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=RmiYsDujAIE",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "ej8pjisr0Pc",
+    "title": "By Any Means | Official Trailer (2026 Movie) – Yahya Abdul-Mateen II, Mark Wahlberg",
+    "duration": 171,
+    "url": "https://www.youtube.com/watch?v=ej8pjisr0Pc",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "cGgWAHXuTKc",
+    "title": "Scary Movie | Final Trailer (2026 Movie) - Marlon Wayans, Shawn Wayans, Anna Faris, Regina Hall",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=cGgWAHXuTKc",
+    "channel": "Paramount Pictures",
+    "verified": true
+   },
+   {
+    "id": "ZT9kb3iAOtY",
+    "title": "PAW Patrol: The Dino Movie | Meet the Dinos Featurette (2026 Movie)",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=ZT9kb3iAOtY",
+    "channel": "Paramount Pictures",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@20thCenturyStudios/videos|2026-11-28": [
+   {
+    "id": "1dyCLoB0-nA",
+    "title": "Whalefall | Buy It on Digital December 1 | Own It on 4K Ultra HD January 12",
+    "duration": 84,
+    "url": "https://www.youtube.com/watch?v=1dyCLoB0-nA",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "cMF_yOOYzAA",
+    "title": "The Dog Stars | Buy it on Digital October 27 and Own it on Blu-ray™ December 1",
+    "duration": 81,
+    "url": "https://www.youtube.com/watch?v=cMF_yOOYzAA",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "_5y8jPVxtk8",
+    "title": "Whalefall | Official Clip | In Theaters Friday",
+    "duration": 69,
+    "url": "https://www.youtube.com/watch?v=_5y8jPVxtk8",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "9niqrLL6ap8",
+    "title": "Whalefall | Official Clip | in Theaters October 16",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=9niqrLL6ap8",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "JaFofwlbL38",
+    "title": "Whalefall | Father and Son Story | In Theaters October 16",
+    "duration": 43,
+    "url": "https://www.youtube.com/watch?v=JaFofwlbL38",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "0UibkdKezGo",
+    "title": "Whalefall | Popcorn Bucket | In Theaters October 16",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=0UibkdKezGo",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "biRpy1MzPSQ",
+    "title": "Whalefall | Official Clip | In Theaters October 16",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=biRpy1MzPSQ",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "YtJMd3XXgkM",
+    "title": "Whalefall | First Look | In Theaters October 16",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=YtJMd3XXgkM",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "Dw-5ZGapGTQ",
+    "title": "Whalefall | Official Trailer | In Theaters October 16",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=Dw-5ZGapGTQ",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "EQh1XpjH9bk",
+    "title": "The Dog Stars | Official Clip",
+    "duration": 75,
+    "url": "https://www.youtube.com/watch?v=EQh1XpjH9bk",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "7cq6CbKHQfA",
+    "title": "The Dog Stars | Official Clip",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=7cq6CbKHQfA",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "vM7xEQ4l8MA",
+    "title": "1 Hour To Escape | Whalefall | In Theaters October 16",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=vM7xEQ4l8MA",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "rN9F6-tbySY",
+    "title": "Whalefall | Official Trailer | In Theaters October 16",
+    "duration": 134,
+    "url": "https://www.youtube.com/watch?v=rN9F6-tbySY",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "aB7k7EgYdYQ",
+    "title": "The Dog Stars | Special Look | In Theaters August 28",
+    "duration": 217,
+    "url": "https://www.youtube.com/watch?v=aB7k7EgYdYQ",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "Sd2QJEVchUc",
+    "title": "The Dog Stars | Cinematic Hero",
+    "duration": 64,
+    "url": "https://www.youtube.com/watch?v=Sd2QJEVchUc",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "ClDBtHbwT-E",
+    "title": "The Dog Stars | Official Clip",
+    "duration": 72,
+    "url": "https://www.youtube.com/watch?v=ClDBtHbwT-E",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "LGSYxtviADQ",
+    "title": "The Dog Stars | Meet the Survivors | In Theaters August 28",
+    "duration": 106,
+    "url": "https://www.youtube.com/watch?v=LGSYxtviADQ",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "ngOihJo65go",
+    "title": "The Dog Stars | Get Tickets Now",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=ngOihJo65go",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "07XWnjwm_V4",
+    "title": "The Devil Wears Prada 2 | Streaming on Disney+ and Hulu July 29",
+    "duration": 49,
+    "url": "https://www.youtube.com/watch?v=07XWnjwm_V4",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "8FeiVAY5Y7Y",
+    "title": "The Dog Stars | In Theaters August 28",
+    "duration": 41,
+    "url": "https://www.youtube.com/watch?v=8FeiVAY5Y7Y",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "-xSxaE1ClEE",
+    "title": "The Dog Stars | Official Trailer | In Theaters August 28",
+    "duration": 127,
+    "url": "https://www.youtube.com/watch?v=-xSxaE1ClEE",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "67ho3OxCmmM",
+    "title": "Whalefall | Official Teaser | In Theaters October 16",
+    "duration": 146,
+    "url": "https://www.youtube.com/watch?v=67ho3OxCmmM",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "sVCrTJdNtSs",
+    "title": "The Dog Stars | Official Trailer | In Theaters Aug 28",
+    "duration": 146,
+    "url": "https://www.youtube.com/watch?v=sVCrTJdNtSs",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "-lRkaY8QFMo",
+    "title": "The Devil Wears Prada 2 | Official Clip",
+    "duration": 44,
+    "url": "https://www.youtube.com/watch?v=-lRkaY8QFMo",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "TDYFdc3xA-c",
+    "title": "The Devil Wears Prada 2 | Official Clip",
+    "duration": 77,
+    "url": "https://www.youtube.com/watch?v=TDYFdc3xA-c",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "FhS2P0sMDDs",
+    "title": "The Devil Wears Prada 2 | Global Phenomenon",
+    "duration": 83,
+    "url": "https://www.youtube.com/watch?v=FhS2P0sMDDs",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "Uh52IRz5n54",
+    "title": "The Devil Wears Prada 2 | Lady Gaga",
+    "duration": 86,
+    "url": "https://www.youtube.com/watch?v=Uh52IRz5n54",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "wmiPGWyjooU",
+    "title": "The Devil Wears Prada 2 | Molly Ride Along",
+    "duration": 52,
+    "url": "https://www.youtube.com/watch?v=wmiPGWyjooU",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "uXa5iEgfExc",
+    "title": "The Devil Wears Prada 2 | Fashion Royalty",
+    "duration": 48,
+    "url": "https://www.youtube.com/watch?v=uXa5iEgfExc",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "3j2qtOs8SwM",
+    "title": "The Devil Wears Prada 2 | Official Clip",
+    "duration": 44,
+    "url": "https://www.youtube.com/watch?v=3j2qtOs8SwM",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "4F5k5a4zhZo",
+    "title": "The Devil Wears Prada 2 | Italian Aesthetic",
+    "duration": 34,
+    "url": "https://www.youtube.com/watch?v=4F5k5a4zhZo",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "xwcCJyh-AWw",
+    "title": "The Devil Wears Prada 2 | Simone's Fashion",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=xwcCJyh-AWw",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "lYTC_5g72_0",
+    "title": "The Devil Wears Prada 2 | World Premiere Livestream | Lucy Liu",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=lYTC_5g72_0",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "fapZLKQZyUA",
+    "title": "The Devil Wears Prada 2 | Cultural Relevance",
+    "duration": 52,
+    "url": "https://www.youtube.com/watch?v=fapZLKQZyUA",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "15mCj2qA14s",
+    "title": "The Devil Wears Prada 2 | World Premiere Livestream | Simone Ashley",
+    "duration": 121,
+    "url": "https://www.youtube.com/watch?v=15mCj2qA14s",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "sRKOupRP_wk",
+    "title": "The Devil Wears Prada 2 | World Premiere Livestream | Caleb Hearon",
+    "duration": 83,
+    "url": "https://www.youtube.com/watch?v=sRKOupRP_wk",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "XiAOIZz3JDM",
+    "title": "The Devil Wears Prada 2 | Filming in New York City",
+    "duration": 49,
+    "url": "https://www.youtube.com/watch?v=XiAOIZz3JDM",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "NFbMjvNZNTU",
+    "title": "The Devil Wears Prada 2 | World Premiere Livestream | Kenneth Branagh",
+    "duration": 93,
+    "url": "https://www.youtube.com/watch?v=NFbMjvNZNTU",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "t7Shi_Xkn_0",
+    "title": "The Devil Wears Prada 2 | Behind the Fashion",
+    "duration": 137,
+    "url": "https://www.youtube.com/watch?v=t7Shi_Xkn_0",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "vmlewT9rV70",
+    "title": "The Devil Wears Prada 2 | World Premiere Livestream | Anne Hathaway and Emily Blunt",
+    "duration": 265,
+    "url": "https://www.youtube.com/watch?v=vmlewT9rV70",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "bDHIHdhurxY",
+    "title": "The Devil Wears Prada 2 | World Premiere Livestream | Meryl Streep and Stanley Tucci",
+    "duration": 185,
+    "url": "https://www.youtube.com/watch?v=bDHIHdhurxY",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "cmzVY1goqwQ",
+    "title": "The Dog Stars | Official Trailer",
+    "duration": 136,
+    "url": "https://www.youtube.com/watch?v=cmzVY1goqwQ",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "n5w1babvUPM",
+    "title": "The Devil Wears Prada 2 | Official Clip",
+    "duration": 39,
+    "url": "https://www.youtube.com/watch?v=n5w1babvUPM",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "1-u-e2TLwhs",
+    "title": "The Devil Wears Prada 2 | Official Clip",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=1-u-e2TLwhs",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "8LscO029MeM",
+    "title": "The Devil Wears Prada 2 | Nigel Or Not",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=8LscO029MeM",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "lNAU5tnxztQ",
+    "title": "The Devil Wears Prada 2 | Fashion Rewind",
+    "duration": 69,
+    "url": "https://www.youtube.com/watch?v=lNAU5tnxztQ",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "PMd1at7OwiE",
+    "title": "The Devil Wears Prada 2 | Final Trailer",
+    "duration": 114,
+    "url": "https://www.youtube.com/watch?v=PMd1at7OwiE",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "rjc0k9yU8Ys",
+    "title": "PSYCHO KILLER | Buy It On Digital April 7",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=rjc0k9yU8Ys",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "s9Ue5MckUho",
+    "title": "SEND HELP | Buy It On Digital March 24 & Own It On 4K Ultra HD and DVD April 21",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=s9Ue5MckUho",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "auviOxg3iUM",
+    "title": "The Devil Wears Prada 2 | Oscars Moment",
+    "duration": 80,
+    "url": "https://www.youtube.com/watch?v=auviOxg3iUM",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "KGYBn5CxyGc",
+    "title": "The Devil Wears Prada 2 | Get Tickets Now",
+    "duration": 22,
+    "url": "https://www.youtube.com/watch?v=KGYBn5CxyGc",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "iVKa2g1S6_s",
+    "title": "The Devil Wears Prada 2 | Tickets on Sale Now",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=iVKa2g1S6_s",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "4HzZsgFOlRg",
+    "title": "Psycho Killer | “The Motel Room\" Official Clip | Only In Theaters Friday",
+    "duration": 55,
+    "url": "https://www.youtube.com/watch?v=4HzZsgFOlRg",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "3vp6eS4e-Us",
+    "title": "SEND HELP | Now Playing In Theaters",
+    "duration": 50,
+    "url": "https://www.youtube.com/watch?v=3vp6eS4e-Us",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "EhffABvfAW0",
+    "title": "The Revenant 10th Anniversary Trailer | 20th Century Studios",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=EhffABvfAW0",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "EY2eVsTYh8I",
+    "title": "Psycho Killer | Tickets On Sale | Only In Theaters Feb 20",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=EY2eVsTYh8I",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "iOwBqvGUp1A",
+    "title": "Psycho Killer | “Satanic Slasher” Official Clip | Only In Theaters Feb 20",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=iOwBqvGUp1A",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "qJrUM_3DXzg",
+    "title": "SEND HELP | Now Playing In Theaters",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=qJrUM_3DXzg",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "onDPnwnDdFg",
+    "title": "Ella McCay | Now Streaming on Hulu on Disney Plus",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=onDPnwnDdFg",
+    "channel": "20th Century Studios",
+    "verified": true
+   },
+   {
+    "id": "_78VKwrda6c",
+    "title": "Dylan O'Brien masterclass coming soon",
+    "duration": 19,
+    "url": "https://www.youtube.com/watch?v=_78VKwrda6c",
+    "channel": "20th Century Studios",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@marvel/videos|2026-11-28": [
+   {
+    "id": "zwmWzg72TUM",
+    "title": "Black Panther: Wakanda Forever | Countdown to Avengers: Doomsday Official Podcast",
+    "duration": 2431,
+    "url": "https://www.youtube.com/watch?v=zwmWzg72TUM",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "jGelxWFIE1E",
+    "title": "X-Men Powers Yule Log | Marvel Animation's X-Men '97 Ambiance",
+    "duration": 37561,
+    "url": "https://www.youtube.com/watch?v=jGelxWFIE1E",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "Y_p_e0n2yuI",
+    "title": "Celebrate the Holidays with Marvel | Compilation",
+    "duration": 477,
+    "url": "https://www.youtube.com/watch?v=Y_p_e0n2yuI",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "Wb8Tq_HD4E8",
+    "title": "Avengers: Doomsday | Final Trailer | In Theaters December 18",
+    "duration": 196,
+    "url": "https://www.youtube.com/watch?v=Wb8Tq_HD4E8",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "nAtnCBE5XyE",
+    "title": "Human Torch Learns Silver Surfer's Backstory | The Fantastic Four: First Steps | Official Clip",
+    "duration": 283,
+    "url": "https://www.youtube.com/watch?v=nAtnCBE5XyE",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "lpMoIGC7SRg",
+    "title": "Shang-Chi and The Legend of The Ten Rings | Countdown to Avengers: Doomsday Official Podcast",
+    "duration": 2924,
+    "url": "https://www.youtube.com/watch?v=lpMoIGC7SRg",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "PtYHtRfqRJE",
+    "title": "Ant-Man VS Yellowjacket - Toy Train Fight | Ant-Man | Official Clip",
+    "duration": 204,
+    "url": "https://www.youtube.com/watch?v=PtYHtRfqRJE",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "Fg0jyss_YnU",
+    "title": "Avengers: Doomsday | The Return | In Theaters December 18",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=Fg0jyss_YnU",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "oZaxHN5e-EU",
+    "title": "Best of Nightcrawler | X-Men '97 | Compilation",
+    "duration": 679,
+    "url": "https://www.youtube.com/watch?v=oZaxHN5e-EU",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "UOSuiilBPlk",
+    "title": "Marvel Cosmic Invasion | The Siege of Castle Doom DLC #2 Launch Trailer",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=UOSuiilBPlk",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "LMJVstkGC3c",
+    "title": "Wanda and Vision’s Journey in WandaVision | Behind-the-Scenes Commentary with Mary Livanos",
+    "duration": 484,
+    "url": "https://www.youtube.com/watch?v=LMJVstkGC3c",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "v4hcVRzht18",
+    "title": "Marvel Television's VisionQuest: Episode 8 Clip | Stream Now on Disney+",
+    "duration": 37,
+    "url": "https://www.youtube.com/watch?v=v4hcVRzht18",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "1UE2Oh_IwHs",
+    "title": "Like Mother Like Sons | Stream All Episodes of VisionQuest on Disney+",
+    "duration": 68,
+    "url": "https://www.youtube.com/watch?v=1UE2Oh_IwHs",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "Kl7nG1nD0mk",
+    "title": "Countdown to Avengers: Doomsday | Every Moment on Disney+",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=Kl7nG1nD0mk",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "ZiMUF51KxIM",
+    "title": "Marvel Rivals Season 11 Trailer | Doomsday | Marvel Rivals",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=ZiMUF51KxIM",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "MG48pedG2zc",
+    "title": "I Lost Wanda | Stream All Episodes of Marvel Television's VisionQuest Now On Disney+",
+    "duration": 78,
+    "url": "https://www.youtube.com/watch?v=MG48pedG2zc",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "k7cJYRabjMQ",
+    "title": "Billy Maximoff and Agatha Harkness Find Tommy | Agatha All Along | Official Clip",
+    "duration": 257,
+    "url": "https://www.youtube.com/watch?v=k7cJYRabjMQ",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "J-uDRhWOUY4",
+    "title": "Deadpool & Wolverine | Countdown to Avengers: Doomsday Official Podcast",
+    "duration": 2564,
+    "url": "https://www.youtube.com/watch?v=J-uDRhWOUY4",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "YxoerVRIQSM",
+    "title": "Joe Locke Interviews Ruaridh Mollica | Maximoff Twins Reunite in Marvel Television's VisionQuest",
+    "duration": 217,
+    "url": "https://www.youtube.com/watch?v=YxoerVRIQSM",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "-mF4disa1jM",
+    "title": "We've Said Goodbye Before... | Stream All Episodes of VisionQuest Now On Disney+",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=-mF4disa1jM",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "3vjIaDyAxsQ",
+    "title": "Stream All Episodes of Marvel Television's VisionQuest Now On Disney+",
+    "duration": 37,
+    "url": "https://www.youtube.com/watch?v=3vjIaDyAxsQ",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "ZlO_TW2_Ca8",
+    "title": "Marvel Television's VisionQuest S1E1 | Full Episode | Disney+ Original Series",
+    "duration": 3215,
+    "url": "https://www.youtube.com/watch?v=ZlO_TW2_Ca8",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "GxclbRaQMa8",
+    "title": "The VisionQuest Official Podcast",
+    "duration": 3733,
+    "url": "https://www.youtube.com/watch?v=GxclbRaQMa8",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "97ziu_-Q0H4",
+    "title": "Marvel Television's VisionQuest: Episode 7 Clip | Stream Now on Disney+",
+    "duration": 35,
+    "url": "https://www.youtube.com/watch?v=97ziu_-Q0H4",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "2FdjsoGEQqg",
+    "title": "Who Have You Lost? | Marvel Television's VisionQuest: Ep 7 | Stream on Disney+",
+    "duration": 70,
+    "url": "https://www.youtube.com/watch?v=2FdjsoGEQqg",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "yBuk93NX8NE",
+    "title": "MARVEL Tōkon: Fighting Souls | Phoenix Cyclops Character Guide",
+    "duration": 529,
+    "url": "https://www.youtube.com/watch?v=yBuk93NX8NE",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "1d38vqLdmp8",
+    "title": "Marvel Television's VisionQuest | Don't Miss the Season Finale | Tuesday on Disney+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=1d38vqLdmp8",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "Y4bgyBCGiVc",
+    "title": "X-Men | Countdown to Avengers: Doomsday Official Podcast",
+    "duration": 2721,
+    "url": "https://www.youtube.com/watch?v=Y4bgyBCGiVc",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "nXoAbcsTTEo",
+    "title": "Jean Grey/Cyclops VS Cable Fight Scene | X-Men '97 | Official Clip",
+    "duration": 119,
+    "url": "https://www.youtube.com/watch?v=nXoAbcsTTEo",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "fc6PQ7KpII0",
+    "title": "The Fantastic Four Fight Galactus in New York | The Fantastic Four: First Steps | Official Clip",
+    "duration": 284,
+    "url": "https://www.youtube.com/watch?v=fc6PQ7KpII0",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "zCzkhuW0SQ8",
+    "title": "Thor VS Hulk Fight Scene | The Avengers | Official Clip",
+    "duration": 189,
+    "url": "https://www.youtube.com/watch?v=zCzkhuW0SQ8",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "zT2M2RExsHk",
+    "title": "Avengers: Doomsday | Popcorn Bucket",
+    "duration": 36,
+    "url": "https://www.youtube.com/watch?v=zT2M2RExsHk",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "WO_ipGaS8MY",
+    "title": "Marvel Zombies Epic Fight Scenes | Compilation",
+    "duration": 803,
+    "url": "https://www.youtube.com/watch?v=WO_ipGaS8MY",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "wv6l6FIJkAY",
+    "title": "\"It's Not a Fair Fight\" Chase Scene | Loki | Official Clip",
+    "duration": 264,
+    "url": "https://www.youtube.com/watch?v=wv6l6FIJkAY",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "jrCQURT-VNs",
+    "title": "MARVEL Cosmic Invasion | New Mode Reveal: Siege of Castle Doom",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=jrCQURT-VNs",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "UfNu7pcR0e8",
+    "title": "Avengers: Doomsday | In Theaters December 18",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=UfNu7pcR0e8",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "sXVTpq0omxc",
+    "title": "MARVEL Tōkon: Fighting Souls | Year 1 DLC Character - Thor (Jane Foster)",
+    "duration": 40,
+    "url": "https://www.youtube.com/watch?v=sXVTpq0omxc",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "xh4Uj3jCCbA",
+    "title": "Moon Knight's Mythological Characters | Compilation",
+    "duration": 728,
+    "url": "https://www.youtube.com/watch?v=xh4Uj3jCCbA",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "yu831suN6xI",
+    "title": "Avengers vs HYDRA Opening Scene | Avengers: Age of Ultron | Official Clip",
+    "duration": 295,
+    "url": "https://www.youtube.com/watch?v=yu831suN6xI",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "15rgL9YwEhs",
+    "title": "Funniest Moments from the MCU pt3 | Compilation",
+    "duration": 285,
+    "url": "https://www.youtube.com/watch?v=15rgL9YwEhs",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "Yd40l1K_CDU",
+    "title": "Don't Miss Marvel Television's VisionQuest | Stream Now on Disney+",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=Yd40l1K_CDU",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "VXyXGhGXhbc",
+    "title": "Vision's Memories | Stream the MCU and VisionQuest on Disney+",
+    "duration": 107,
+    "url": "https://www.youtube.com/watch?v=VXyXGhGXhbc",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "53nydsnvp4I",
+    "title": "Stream Marvel Television's VisionQuest Now | Only on Disney+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=53nydsnvp4I",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "iqVXlh6kexo",
+    "title": "Vision's MCU History (summarized by Vision) | VisionQuest Episode 1 Clip",
+    "duration": 141,
+    "url": "https://www.youtube.com/watch?v=iqVXlh6kexo",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "9vKay3Os14w",
+    "title": "Marvel's Wolverine Motion-Capture | Behind the Scenes Video Game Featurette",
+    "duration": 314,
+    "url": "https://www.youtube.com/watch?v=9vKay3Os14w",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "HAHYgmnlZuw",
+    "title": "Losing My Mind: Official Clip | VisionQuest | Stream Now on Disney+",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=HAHYgmnlZuw",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "7eg6urBGYcA",
+    "title": "Monsters of the MCU | Compilation",
+    "duration": 642,
+    "url": "https://www.youtube.com/watch?v=7eg6urBGYcA",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "IyDEuIu9XVc",
+    "title": "Sentry VS The Hulk - Who Wins?! | Marvel Recap",
+    "duration": 1969,
+    "url": "https://www.youtube.com/watch?v=IyDEuIu9XVc",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "CjM96qwiWqI",
+    "title": "Making the Mindspace | VisionQuest | Stream Now On Disney+",
+    "duration": 109,
+    "url": "https://www.youtube.com/watch?v=CjM96qwiWqI",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "u76kq1gjHzw",
+    "title": "Stream Marvel Television's VisionQuest | Now Available on Disney+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=u76kq1gjHzw",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "z-Sdsi2pCAg",
+    "title": "Best of Marvel Cosplay at NYCC 2026",
+    "duration": 44,
+    "url": "https://www.youtube.com/watch?v=z-Sdsi2pCAg",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "sieV5FBL98Q",
+    "title": "Anthony Russo Breaks Down Iconic Avengers: Endgame Scenes",
+    "duration": 342,
+    "url": "https://www.youtube.com/watch?v=sieV5FBL98Q",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "S5F1F52fDFc",
+    "title": "Avengers #1 | Official Trailer | Marvel Comics",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=S5F1F52fDFc",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "z_wp17nlyFc",
+    "title": "Stream Marvel Television's VisionQuest This Wednesday Only on Disney+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=z_wp17nlyFc",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "KAWYvu90G5A",
+    "title": "Marvel Television's VisionQuest | This Wednesday | Only on Disney+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=KAWYvu90G5A",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "9anASgtQh9Q",
+    "title": "The Cast of Marvel Television's VisionQuest and more! | NYCC 2026",
+    "duration": 395,
+    "url": "https://www.youtube.com/watch?v=9anASgtQh9Q",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "o0nb24ItHBU",
+    "title": "Everything Announced at the Marvel Television and Marvel Animation Panel | NYCC 2026",
+    "duration": 98,
+    "url": "https://www.youtube.com/watch?v=o0nb24ItHBU",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "EKKAp9r-2FQ",
+    "title": "Marvel Booth Tour | New York Comic Con (NYCC) 2026",
+    "duration": 325,
+    "url": "https://www.youtube.com/watch?v=EKKAp9r-2FQ",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "jjdaQQHIB-E",
+    "title": "MARVEL Cosmic Invasion | DLC 2 | Invisible Woman and Doctor Doom are coming on November 10th!",
+    "duration": 73,
+    "url": "https://www.youtube.com/watch?v=jjdaQQHIB-E",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   },
+   {
+    "id": "qSgAq-O2_Ws",
+    "title": "Ultron's Got His Groove Back | VisionQuest | Stream October 14 on Disney+",
+    "duration": 52,
+    "url": "https://www.youtube.com/watch?v=qSgAq-O2_Ws",
+    "channel": "Marvel Entertainment",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@WarnerBrosPictures/videos|2026-11-28": [],
+  "https://www.youtube.com/@WaltDisneyStudios/videos|2026-11-28": []
  },
  "song_fail": {},
  "pre_vet": {
@@ -44289,6 +48635,18 @@
    "platform": "instagram",
    "category": "gta",
    "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T18:55:29.585014+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T18:57:56.220249+05:30",
+   "platform": "instagram",
+   "category": "celebrity",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
   }
  ],
  "vet_rules": "no-text-v2"
