@@ -83,6 +83,12 @@
    "at": "2026-11-28T21:28:53.812306+05:30",
    "video": "in-anime-20261128-211330",
    "platform": "instagram"
+  },
+  {
+   "id": "P14",
+   "at": "2026-11-28T23:04:17.411434+05:30",
+   "video": "in-romance-20261128-224855",
+   "platform": "instagram"
   }
  ],
  "songs": [
@@ -183,6 +189,13 @@
    "url": "https://www.youtube.com/watch?v=M2cckDmNLMI",
    "at": "2026-11-28T21:28:53.812317+05:30",
    "video": "in-anime-20261128-211330"
+  },
+  {
+   "title": "Until I Found You",
+   "artist": "Stephen Sanchez",
+   "url": "https://www.youtube.com/watch?v=MlThQTo6D8A",
+   "at": "2026-11-28T23:04:17.411444+05:30",
+   "video": "in-romance-20261128-224855"
   }
  ],
  "windows": [
@@ -317,6 +330,18 @@
    "start": 105.48,
    "at": "2026-11-28T21:28:53.812325+05:30",
    "video": "in-anime-20261128-211330"
+  },
+  {
+   "file": "HA9c9sVvmYk_c00.mkv",
+   "start": 42.08,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855"
+  },
+  {
+   "file": "HA9c9sVvmYk_c00.mkv",
+   "start": 72.32,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855"
   }
  ],
  "sources_used": [
@@ -544,6 +569,16 @@
    "id": "KNg04Ew6Rh4",
    "at": "2026-11-28T21:28:53.812587+05:30",
    "video": "in-anime-20261128-211330"
+  },
+  {
+   "id": "f3PQBHAZ3Rg",
+   "at": "2026-11-28T23:04:17.411690+05:30",
+   "video": "in-romance-20261128-224855"
+  },
+  {
+   "id": "HA9c9sVvmYk",
+   "at": "2026-11-28T23:04:17.411695+05:30",
+   "video": "in-romance-20261128-224855"
   }
  ],
  "segments_used": [
@@ -6368,6 +6403,114 @@
    "end": 135.27,
    "at": "2026-11-28T21:28:53.812325+05:30",
    "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "f3PQBHAZ3Rg",
+   "file": "f3PQBHAZ3Rg.mkv",
+   "start": 136.97,
+   "end": 139.93666666666667,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "montage"
+  },
+  {
+   "id": "f3PQBHAZ3Rg",
+   "file": "f3PQBHAZ3Rg.mkv",
+   "start": 298.77,
+   "end": 301.7366666666666,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "montage"
+  },
+  {
+   "id": "HA9c9sVvmYk",
+   "file": "HA9c9sVvmYk_c00.mkv",
+   "start": 92.17000000000002,
+   "end": 95.13666666666668,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "montage"
+  },
+  {
+   "id": "HA9c9sVvmYk",
+   "file": "HA9c9sVvmYk_c00.mkv",
+   "start": 267.27,
+   "end": 267.87,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "montage"
+  },
+  {
+   "id": "HA9c9sVvmYk",
+   "file": "HA9c9sVvmYk_c00.mkv",
+   "start": 42.08,
+   "end": 50.41333333333333,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "dialogue"
+  },
+  {
+   "id": "f3PQBHAZ3Rg",
+   "file": "f3PQBHAZ3Rg.mkv",
+   "start": 185.37,
+   "end": 188.33666666666667,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "montage"
+  },
+  {
+   "id": "HA9c9sVvmYk",
+   "file": "HA9c9sVvmYk_c00.mkv",
+   "start": 172.27,
+   "end": 174.0366666666667,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "montage"
+  },
+  {
+   "id": "HA9c9sVvmYk",
+   "file": "HA9c9sVvmYk_c00.mkv",
+   "start": 72.32,
+   "end": 78.85333333333332,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "dialogue"
+  },
+  {
+   "id": "f3PQBHAZ3Rg",
+   "file": "f3PQBHAZ3Rg.mkv",
+   "start": 325.27,
+   "end": 327.66999999999996,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "montage"
+  },
+  {
+   "id": "HA9c9sVvmYk",
+   "file": "HA9c9sVvmYk_c00.mkv",
+   "start": 156.67000000000002,
+   "end": 159.0366666666667,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "montage"
+  },
+  {
+   "id": "f3PQBHAZ3Rg",
+   "file": "f3PQBHAZ3Rg.mkv",
+   "start": 126.37,
+   "end": 129.33666666666667,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
+   "kind": "montage"
+  },
+  {
+   "id": "HA9c9sVvmYk",
+   "file": "HA9c9sVvmYk_c00.mkv",
+   "start": 119.87,
+   "end": 121.07,
+   "at": "2026-11-28T23:04:17.411453+05:30",
+   "video": "in-romance-20261128-224855",
    "kind": "montage"
   }
  ],
@@ -15797,6 +15940,382 @@
    "duration": 663.888,
    "category": "comedy",
    "at": "2026-11-28 16:00"
+  },
+  "pEXMP0apxDc": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "intense airport shootout",
+   "summary": "A character is involved in a shootout at an airport, featuring various game HUD elements like health, ammo, and a minimap.",
+   "reject_reasons": [
+    "hud_overlay",
+    "flag:hud_overlay",
+    "not official/full quality"
+   ],
+   "bad_ranges": [
+    {
+     "start": 144.7,
+     "end": 144.7
+    },
+    {
+     "start": 247.8,
+     "end": 247.8
+    },
+    {
+     "start": 351.0,
+     "end": 351.0
+    },
+    {
+     "start": 454.2,
+     "end": 454.2
+    },
+    {
+     "start": 557.4,
+     "end": 557.4
+    },
+    {
+     "start": 660.5,
+     "end": 660.5
+    },
+    {
+     "start": 763.7,
+     "end": 763.7
+    }
+   ],
+   "characters": [
+    ""
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    41.51,
+    144.68,
+    247.85,
+    351.02,
+    454.19,
+    557.36,
+    660.53,
+    763.7,
+    454.19
+   ],
+   "title": "GTA 6 - 6-Star Airport Cop Shootout",
+   "channel": "Mike The Goon",
+   "credit": "Mike The Goon",
+   "url": "https://www.youtube.com/watch?v=pEXMP0apxDc",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 830.108,
+   "category": "gta",
+   "at": "2026-11-28 17:03"
+  },
+  "qmye5Yibemw": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "sunny urban heist",
+   "summary": "Gameplay footage of a character navigating a mall and city streets, featuring persistent game HUD elements and burned-in subtitles.",
+   "reject_reasons": [
+    "burned-in subtitles",
+    "persistent game HUD (minimap, health bars, money counters)",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 89.9,
+     "end": 95.0,
+     "reason": "HUD and burned-in subtitles"
+    },
+    {
+     "start": 313.3,
+     "end": 318.0,
+     "reason": "HUD"
+    },
+    {
+     "start": 536.7,
+     "end": 542.0,
+     "reason": "Location text overlay"
+    },
+    {
+     "start": 760.1,
+     "end": 765.0,
+     "reason": "HUD (minimap)"
+    },
+    {
+     "start": 983.5,
+     "end": 988.0,
+     "reason": "HUD"
+    },
+    {
+     "start": 1206.9,
+     "end": 1212.0,
+     "reason": "HUD"
+    },
+    {
+     "start": 1430.3,
+     "end": 1435.0,
+     "reason": "HUD (minimap)"
+    },
+    {
+     "start": 1653.7,
+     "end": 1658.0,
+     "reason": "HUD (minimap)"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    89.87,
+    313.27,
+    536.67,
+    760.06,
+    983.46,
+    1206.86,
+    1430.26,
+    1653.65,
+    983.46
+   ],
+   "title": "Robbing EVERY MALL in GTA 6 (No Cops, 100% Stealth)",
+   "channel": "Nemsk",
+   "credit": "Nemsk",
+   "url": "https://www.youtube.com/watch?v=qmye5Yibemw",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 1797.448,
+   "category": "gta",
+   "at": "2026-11-28 17:05"
+  },
+  "TDjFSCO9Vng": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "domestic suburban tension",
+   "summary": "Footage of a character visiting a house, featuring burned-in subtitles, a persistent channel watermark in the bottom right, and a sniper scope HUD overlay in one frame.",
+   "reject_reasons": [
+    "persistent watermark",
+    "burned-in subtitles",
+    "HUD overlay",
+    "flag:watermark",
+    "flag:channel_logo",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "not official/full quality",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 5.4,
+     "end": 10.0,
+     "reason": "burned-in subtitles"
+    },
+    {
+     "start": 19.0,
+     "end": 25.0,
+     "reason": "burned-in subtitles"
+    },
+    {
+     "start": 100.1,
+     "end": 105.0,
+     "reason": "HUD overlay"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    5.44,
+    18.97,
+    32.5,
+    46.03,
+    59.56,
+    73.08,
+    86.61,
+    100.14,
+    59.56
+   ],
+   "title": "GTA 6 Jason visits Mandy after finishing Story - Grand Theft Auto 6",
+   "channel": "Rubhen925",
+   "credit": "Rubhen925",
+   "url": "https://www.youtube.com/watch?v=TDjFSCO9Vng",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 108.848,
+   "category": "gta",
+   "at": "2026-11-28 17:05"
+  },
+  "UfNu7pcR0e8": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "dramatic superhero assembly",
+   "summary": "Official trailer footage for Avengers: Doomsday featuring Loki, Thor, and other Marvel characters in various scenes.",
+   "reject_reasons": [
+    "Content is a trailer/promo, not a full scene or clip",
+    "Contains title card with text overlay",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 23.0,
+     "end": 25.0,
+     "reason": "Title card with studio logo and movie title"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    1.5,
+    5.24,
+    8.98,
+    12.71,
+    16.45,
+    20.19,
+    23.93,
+    27.66,
+    16.45
+   ],
+   "title": "Avengers: Doomsday | In Theaters December 18",
+   "channel": "Marvel Entertainment",
+   "credit": "Marvel Entertainment",
+   "url": "https://www.youtube.com/watch?v=UfNu7pcR0e8",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 30.068,
+   "category": "marvel",
+   "at": "2026-11-28 17:13"
+  },
+  "qb4Rfj1wp0Q": {
+   "accept": false,
+   "reject_reasons": [
+    "only 720p (< 1080p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "Love Story (1/10) Movie CLIP - I Like Your Body (1970) HD",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=qb4Rfj1wp0Q",
+   "via": "box-fetch",
+   "height": 720,
+   "duration": 128.668,
+   "category": "romance",
+   "at": "2026-11-28 17:19"
+  },
+  "7e6DCyXotE0": {
+   "accept": false,
+   "reject_reasons": [
+    "only 720p (< 1080p)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "local",
+   "title": "Love Story (8/10) Movie CLIP - Be Strong and Merry (1970) HD",
+   "channel": "Movieclips",
+   "credit": "Movieclips",
+   "url": "https://www.youtube.com/watch?v=7e6DCyXotE0",
+   "via": "box-fetch",
+   "height": 720,
+   "duration": 123.668,
+   "category": "romance",
+   "at": "2026-11-28 17:19"
+  },
+  "f3PQBHAZ3Rg": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "energetic sailor musical number",
+   "summary": "A clean clip from Hail, Caesar! showing Channing Tatum and a group of sailors tap dancing and performing in a bar setting.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    17.53,
+    61.1,
+    104.66,
+    148.23,
+    191.8,
+    235.37,
+    278.94,
+    322.5,
+    191.8
+   ],
+   "title": "Hail, Caesar! | Channing Tatum Tap Dances to \"No Dames\"",
+   "channel": "Universal Pictures",
+   "credit": "Universal Pictures",
+   "url": "https://www.youtube.com/watch?v=f3PQBHAZ3Rg",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 350.548,
+   "category": "romance",
+   "at": "2026-11-28 17:20"
+  },
+  "HA9c9sVvmYk": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "1950s Hollywood party intrigue",
+   "summary": "Scenes from Hail, Caesar! featuring actors in period costumes interacting at parties and on film sets.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    27.43,
+    95.6,
+    163.78,
+    231.96,
+    300.13,
+    368.31,
+    436.49,
+    504.66,
+    300.13
+   ],
+   "title": "Hail, Caesar! | Director Lorentz Has the Western Actor Confused for his Extravagant Scene",
+   "channel": "Universal Pictures",
+   "credit": "Universal Pictures",
+   "url": "https://www.youtube.com/watch?v=HA9c9sVvmYk",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 548.548,
+   "category": "romance",
+   "at": "2026-11-28 17:20"
   }
  },
  "videos": [
@@ -23856,6 +24375,279 @@
    "twin_of": "in-anime-20261128-211330",
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-anime-20261128-211330.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-anime-20261128-211330.preview.mp4"
+  },
+  {
+   "id": "in-romance-20261128-224855",
+   "platform": "instagram",
+   "category": "romance",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T23:04:17.410900+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-romance-20261128-224855.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-romance-20261128-224855.mp4",
+   "preview_mb": 21.3,
+   "size_mb": 108.0,
+   "title": "Hail, Caesar! Edit | Until I Found You Edit",
+   "hook": "HE DIDN'T COME TO TALK",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Until I Found You\" – Stephen Sanchez (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=MlThQTo6D8A\n🎧 Spotify: https://open.spotify.com/search/Stephen%20Sanchez%20Until%20I%20Found%20You\n🎬 Footage: Universal Pictures – \"Hail, Caesar! | Channing Tatum Tap Dances to \"No Dames\"\"; Universal Pictures – \"Hail, Caesar! | Director Lorentz Has the Western Actor Confused for his Extravagant Scene\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#RomanceEdit #LoveStory #MovieEdit",
+   "hashtags": [
+    "RomanceEdit",
+    "LoveStory",
+    "MovieEdit"
+   ],
+   "song": {
+    "title": "Until I Found You",
+    "artist": "Stephen Sanchez",
+    "url": "https://www.youtube.com/watch?v=MlThQTo6D8A",
+    "official_channel": "Stephen Sanchez",
+    "spotify_search": "https://open.spotify.com/search/Stephen%20Sanchez%20Until%20I%20Found%20You"
+   },
+   "song_credit": "\"Until I Found You\" – Stephen Sanchez",
+   "pattern": {
+    "id": "P14",
+    "name": "Upper + nudge, bold keys"
+   },
+   "captions": [
+    "AND BUDDY FLYNN",
+    "WAS A BAND",
+    "LEADER WITH A",
+    "LONG HISTORY OF",
+    "NARCOTICS",
+    "YEAH",
+    "YEAH",
+    "THAT'S WHAT I'M",
+    "SAYING",
+    "THEY WERE BOTH",
+    "LOUSES",
+    "MARRYING A THIRD",
+    "LOUSE AIN'T GONNA",
+    "DO ME NO",
+    "GOOD",
+    "WELL",
+    "I COULD DO",
+    "SOME",
+    "THE PICTURES DO",
+    "WELL FOR ALL",
+    "OF US AND",
+    "IT'S A TRIBUTE",
+    "TO YOU",
+    "THE PUBLIC LOVES",
+    "YOU BECAUSE THEY",
+    "KNOW HOW INNOCENT",
+    "YOU ARE"
+   ],
+   "duration": 38.63,
+   "sources": [
+    {
+     "id": "f3PQBHAZ3Rg",
+     "src_id": "f3PQBHAZ3Rg",
+     "path": "/mnt/ph/instagram/sources/f3PQBHAZ3Rg.mkv",
+     "title": "Hail, Caesar! | Channing Tatum Tap Dances to \"No Dames\"",
+     "credit": "Universal Pictures",
+     "url": "https://www.youtube.com/watch?v=f3PQBHAZ3Rg"
+    },
+    {
+     "id": "HA9c9sVvmYk_c00",
+     "src_id": "HA9c9sVvmYk",
+     "path": "/mnt/ph/instagram/sources/chunks/HA9c9sVvmYk_c00.mkv",
+     "title": "Hail, Caesar! | Director Lorentz Has the Western Actor Confused for his Extravagant Scene",
+     "credit": "Universal Pictures",
+     "url": "https://www.youtube.com/watch?v=HA9c9sVvmYk"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.63
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -15.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 27
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 89.2,
+    "song": 38.4,
+    "beats": 8.4,
+    "scan_plan": 151.5,
+    "render": 385.0,
+    "gemini_meta": 31.6,
+    "shorts_9x16": 164.1,
+    "qa": 9.2,
+    "preview": 44.9
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-romance-20261128-224855.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-romance-20261128-224855.preview.mp4"
+  },
+  {
+   "id": "yo-romance-20261128-224855",
+   "platform": "youtube",
+   "category": "romance",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T23:04:17.410900+05:30",
+   "path": "/mnt/ph/instagram/ready/youtube/yo-romance-20261128-224855.mp4",
+   "preview": "/mnt/ph/instagram/prev/yo-romance-20261128-224855.mp4",
+   "preview_mb": 21.3,
+   "size_mb": 108.0,
+   "title": "Hail, Caesar! Edit | Until I Found You Edit",
+   "hook": "HE DIDN'T COME TO TALK",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Until I Found You\" – Stephen Sanchez (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=MlThQTo6D8A\n🎧 Spotify: https://open.spotify.com/search/Stephen%20Sanchez%20Until%20I%20Found%20You\n🎬 Footage: Universal Pictures – \"Hail, Caesar! | Channing Tatum Tap Dances to \"No Dames\"\"; Universal Pictures – \"Hail, Caesar! | Director Lorentz Has the Western Actor Confused for his Extravagant Scene\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#RomanceEdit #LoveStory #MovieEdit",
+   "hashtags": [
+    "RomanceEdit",
+    "LoveStory",
+    "MovieEdit"
+   ],
+   "song": {
+    "title": "Until I Found You",
+    "artist": "Stephen Sanchez",
+    "url": "https://www.youtube.com/watch?v=MlThQTo6D8A",
+    "official_channel": "Stephen Sanchez",
+    "spotify_search": "https://open.spotify.com/search/Stephen%20Sanchez%20Until%20I%20Found%20You"
+   },
+   "song_credit": "\"Until I Found You\" – Stephen Sanchez",
+   "pattern": {
+    "id": "P14",
+    "name": "Upper + nudge, bold keys"
+   },
+   "captions": [
+    "AND BUDDY FLYNN",
+    "WAS A BAND",
+    "LEADER WITH A",
+    "LONG HISTORY OF",
+    "NARCOTICS",
+    "YEAH",
+    "YEAH",
+    "THAT'S WHAT I'M",
+    "SAYING",
+    "THEY WERE BOTH",
+    "LOUSES",
+    "MARRYING A THIRD",
+    "LOUSE AIN'T GONNA",
+    "DO ME NO",
+    "GOOD",
+    "WELL",
+    "I COULD DO",
+    "SOME",
+    "THE PICTURES DO",
+    "WELL FOR ALL",
+    "OF US AND",
+    "IT'S A TRIBUTE",
+    "TO YOU",
+    "THE PUBLIC LOVES",
+    "YOU BECAUSE THEY",
+    "KNOW HOW INNOCENT",
+    "YOU ARE"
+   ],
+   "duration": 38.63,
+   "sources": [
+    {
+     "id": "f3PQBHAZ3Rg",
+     "src_id": "f3PQBHAZ3Rg",
+     "path": "/mnt/ph/instagram/sources/f3PQBHAZ3Rg.mkv",
+     "title": "Hail, Caesar! | Channing Tatum Tap Dances to \"No Dames\"",
+     "credit": "Universal Pictures",
+     "url": "https://www.youtube.com/watch?v=f3PQBHAZ3Rg"
+    },
+    {
+     "id": "HA9c9sVvmYk_c00",
+     "src_id": "HA9c9sVvmYk",
+     "path": "/mnt/ph/instagram/sources/chunks/HA9c9sVvmYk_c00.mkv",
+     "title": "Hail, Caesar! | Director Lorentz Has the Western Actor Confused for his Extravagant Scene",
+     "credit": "Universal Pictures",
+     "url": "https://www.youtube.com/watch?v=HA9c9sVvmYk"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.63
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -15.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 27
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 89.2,
+    "song": 38.4,
+    "beats": 8.4,
+    "scan_plan": 151.5,
+    "render": 385.0,
+    "gemini_meta": 31.6,
+    "shorts_9x16": 164.1,
+    "qa": 9.2,
+    "preview": 44.9
+   },
+   "twin_of": "in-romance-20261128-224855",
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-romance-20261128-224855.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-romance-20261128-224855.preview.mp4"
   }
  ],
  "listing_cache": {
@@ -46525,7 +47317,4529 @@
     "channel": "Saturday Night Live",
     "verified": true
    }
-  ]
+  ],
+  "https://www.youtube.com/@nprmusic/videos|2026-11-28": [
+   {
+    "id": "lN96f4SwJyk",
+    "title": "Patti Smith: Tiny Desk Concert",
+    "duration": 1634,
+    "url": "https://www.youtube.com/watch?v=lN96f4SwJyk",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "_l1DbqVacBc",
+    "title": "Will Liverman: Tiny Desk Concert",
+    "duration": 1360,
+    "url": "https://www.youtube.com/watch?v=_l1DbqVacBc",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "r5W4W6aWw_M",
+    "title": "Mike D: Tiny Desk Concert",
+    "duration": 1412,
+    "url": "https://www.youtube.com/watch?v=r5W4W6aWw_M",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "wAhBFC9mDkg",
+    "title": "Tove Lo: Tiny Desk Concert",
+    "duration": 1004,
+    "url": "https://www.youtube.com/watch?v=wAhBFC9mDkg",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "DZ4-X4T7qyw",
+    "title": "Gracie's Corner: Tiny Desk Concert",
+    "duration": 1036,
+    "url": "https://www.youtube.com/watch?v=DZ4-X4T7qyw",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "R39hGT1iM7w",
+    "title": "Robyn: Tiny Desk Concert",
+    "duration": 970,
+    "url": "https://www.youtube.com/watch?v=R39hGT1iM7w",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "LtUDeizHqKk",
+    "title": "Fat Joe: Tiny Desk Concert",
+    "duration": 1547,
+    "url": "https://www.youtube.com/watch?v=LtUDeizHqKk",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "73wCQRQb7v0",
+    "title": "Jungle: Tiny Desk Concert",
+    "duration": 1093,
+    "url": "https://www.youtube.com/watch?v=73wCQRQb7v0",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "XoH44mH5laY",
+    "title": "Richard O'Brien's 'The Rocky Horror Show': Tiny Desk Concert",
+    "duration": 967,
+    "url": "https://www.youtube.com/watch?v=XoH44mH5laY",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "xPIMk4d4ulI",
+    "title": "CMAT: Tiny Desk Concert",
+    "duration": 1452,
+    "url": "https://www.youtube.com/watch?v=xPIMk4d4ulI",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "_Mp_bpIZKlI",
+    "title": "Brìghde Chaimbeul: Tiny Desk Concert",
+    "duration": 1196,
+    "url": "https://www.youtube.com/watch?v=_Mp_bpIZKlI",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "HYA9e0XOUGk",
+    "title": "Cardi B: Tiny Desk Concert",
+    "duration": 1127,
+    "url": "https://www.youtube.com/watch?v=HYA9e0XOUGk",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "ZTcqu224vHw",
+    "title": "Los Tigres del Norte: Tiny Desk Concert",
+    "duration": 1302,
+    "url": "https://www.youtube.com/watch?v=ZTcqu224vHw",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "MYdu77oejOs",
+    "title": "Draco Rosa: Tiny Desk Concert",
+    "duration": 848,
+    "url": "https://www.youtube.com/watch?v=MYdu77oejOs",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "cysj4CNoIk4",
+    "title": "Los Texmaniacs: Tiny Desk Concert",
+    "duration": 1077,
+    "url": "https://www.youtube.com/watch?v=cysj4CNoIk4",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "ey7ZHhcv1dE",
+    "title": "Tim Bernardes: Tiny Desk Concert",
+    "duration": 1000,
+    "url": "https://www.youtube.com/watch?v=ey7ZHhcv1dE",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "AvSxPx25oLc",
+    "title": "Panteón Rococó: Tiny Desk Concert",
+    "duration": 1288,
+    "url": "https://www.youtube.com/watch?v=AvSxPx25oLc",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "3EWLwZh4HjU",
+    "title": "Melissa Aldana with Gonzalo Rubalcaba: Tiny Desk Concert",
+    "duration": 1286,
+    "url": "https://www.youtube.com/watch?v=3EWLwZh4HjU",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "zw3iotteJz0",
+    "title": "Alex Ferreira: Tiny Desk Concert",
+    "duration": 1060,
+    "url": "https://www.youtube.com/watch?v=zw3iotteJz0",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "lPbzlEj3A0U",
+    "title": "YEИDRY: Tiny Desk Concert",
+    "duration": 1200,
+    "url": "https://www.youtube.com/watch?v=lPbzlEj3A0U",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "WCh4tfSqXFc",
+    "title": "Los Mirlos: Tiny Desk Concert",
+    "duration": 1092,
+    "url": "https://www.youtube.com/watch?v=WCh4tfSqXFc",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "vIvmDxrTjP4",
+    "title": "Mon Laferte: Tiny Desk Concert",
+    "duration": 1266,
+    "url": "https://www.youtube.com/watch?v=vIvmDxrTjP4",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "O8AlOZV0BSI",
+    "title": "Tori Kelly: Tiny Desk Concert",
+    "duration": 1455,
+    "url": "https://www.youtube.com/watch?v=O8AlOZV0BSI",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "oRg3Tk3jHno",
+    "title": "Ratboys: Tiny Desk Concert",
+    "duration": 1168,
+    "url": "https://www.youtube.com/watch?v=oRg3Tk3jHno",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "KFb_rXmh4hA",
+    "title": "Mac Ayres: Tiny Desk Concert",
+    "duration": 1193,
+    "url": "https://www.youtube.com/watch?v=KFb_rXmh4hA",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "R2eOU7c7G_4",
+    "title": "Mon Rovîa: Tiny Desk Concert",
+    "duration": 1017,
+    "url": "https://www.youtube.com/watch?v=R2eOU7c7G_4",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "SG0ifZpDswg",
+    "title": "E.U.: Tiny Desk Concert",
+    "duration": 1547,
+    "url": "https://www.youtube.com/watch?v=SG0ifZpDswg",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "kVzaq0RRYPQ",
+    "title": "Isaiah Rashad: Tiny Desk Concert",
+    "duration": 1425,
+    "url": "https://www.youtube.com/watch?v=kVzaq0RRYPQ",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "o4I-Y8XiBIs",
+    "title": "'Weird Al' Yankovic: Tiny Desk Concert",
+    "duration": 1323,
+    "url": "https://www.youtube.com/watch?v=o4I-Y8XiBIs",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "_R_5qaYATh0",
+    "title": "Audrey Hobert: Tiny Desk Concert",
+    "duration": 1284,
+    "url": "https://www.youtube.com/watch?v=_R_5qaYATh0",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "swh0_M0rRPQ",
+    "title": "Death Cab for Cutie: Tiny Desk Concert",
+    "duration": 966,
+    "url": "https://www.youtube.com/watch?v=swh0_M0rRPQ",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "u_vnA6nlDvs",
+    "title": "Charlie Puth: Tiny Desk Concert",
+    "duration": 1365,
+    "url": "https://www.youtube.com/watch?v=u_vnA6nlDvs",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "RTC6p6h_8tg",
+    "title": "Renée Fleming & Béla Fleck: Tiny Desk Concert",
+    "duration": 1225,
+    "url": "https://www.youtube.com/watch?v=RTC6p6h_8tg",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "uP23-YE-T30",
+    "title": "Armand Hammer: Tiny Desk Concert",
+    "duration": 1324,
+    "url": "https://www.youtube.com/watch?v=uP23-YE-T30",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "2Szdo6fRc5c",
+    "title": "The War and Treaty: Tiny Desk Concert",
+    "duration": 1124,
+    "url": "https://www.youtube.com/watch?v=2Szdo6fRc5c",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "mbRycM-xgxo",
+    "title": "Vince Staples: Tiny Desk Concert",
+    "duration": 1310,
+    "url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "e81LZCHhNKQ",
+    "title": "Napalm Death: Tiny Desk Concert",
+    "duration": 1077,
+    "url": "https://www.youtube.com/watch?v=e81LZCHhNKQ",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "dQK2U-KrhuA",
+    "title": "Flea and the Honora Band: Tiny Desk Concert",
+    "duration": 1227,
+    "url": "https://www.youtube.com/watch?v=dQK2U-KrhuA",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "Oa_Wpi-KWrg",
+    "title": "redveil: Tiny Desk Concert",
+    "duration": 1189,
+    "url": "https://www.youtube.com/watch?v=Oa_Wpi-KWrg",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "AzgbNvW793Q",
+    "title": "Bow Wow: Tiny Desk Concert",
+    "duration": 1305,
+    "url": "https://www.youtube.com/watch?v=AzgbNvW793Q",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "fEqGjypP5qY",
+    "title": "Shaboozey: Tiny Desk Concert",
+    "duration": 1389,
+    "url": "https://www.youtube.com/watch?v=fEqGjypP5qY",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "ClFp8yqfokk",
+    "title": "Fred Hammond: Tiny Desk Concert",
+    "duration": 1524,
+    "url": "https://www.youtube.com/watch?v=ClFp8yqfokk",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "gQXf0PNreCo",
+    "title": "8Ball & MJG: Tiny Desk Concert",
+    "duration": 1342,
+    "url": "https://www.youtube.com/watch?v=gQXf0PNreCo",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "CymCVrKpLzw",
+    "title": "Eve: Tiny Desk Concert",
+    "duration": 1237,
+    "url": "https://www.youtube.com/watch?v=CymCVrKpLzw",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "nkG2SSzPUns",
+    "title": "The Paradox: Tiny Desk Concert",
+    "duration": 1136,
+    "url": "https://www.youtube.com/watch?v=nkG2SSzPUns",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "YCbFsAwwyyg",
+    "title": "Joe: Tiny Desk Concert",
+    "duration": 1207,
+    "url": "https://www.youtube.com/watch?v=YCbFsAwwyyg",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "h4JVg4JDxMU",
+    "title": "Ayra Starr: Tiny Desk Concert",
+    "duration": 1158,
+    "url": "https://www.youtube.com/watch?v=h4JVg4JDxMU",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "XYhtkxR5sV8",
+    "title": "GENA: Tiny Desk Concert",
+    "duration": 1140,
+    "url": "https://www.youtube.com/watch?v=XYhtkxR5sV8",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "KsCV94MQs34",
+    "title": "Floetry: Tiny Desk Concert",
+    "duration": 1351,
+    "url": "https://www.youtube.com/watch?v=KsCV94MQs34",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "3azRJPBhZLU",
+    "title": "Cure For Paranoia, 2026 Tiny Desk Contest Winner: Tiny Desk Concert",
+    "duration": 1116,
+    "url": "https://www.youtube.com/watch?v=3azRJPBhZLU",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "YUhWCGUVp4A",
+    "title": "Annahstasia: Tiny Desk Concert",
+    "duration": 1255,
+    "url": "https://www.youtube.com/watch?v=YUhWCGUVp4A",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "CEHm9LK9vtU",
+    "title": "Laurie Anderson: Tiny Desk Concert",
+    "duration": 1262,
+    "url": "https://www.youtube.com/watch?v=CEHm9LK9vtU",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "2OotD-iJO80",
+    "title": "RaiNao: Tiny Desk Concert",
+    "duration": 949,
+    "url": "https://www.youtube.com/watch?v=2OotD-iJO80",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "Cg6E3lppn0I",
+    "title": "Vince Gill: Tiny Desk Concert",
+    "duration": 1233,
+    "url": "https://www.youtube.com/watch?v=Cg6E3lppn0I",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "LVJpKUaPO4I",
+    "title": "Don Was and the Pan-Detroit Ensemble: Tiny Desk Concert",
+    "duration": 1231,
+    "url": "https://www.youtube.com/watch?v=LVJpKUaPO4I",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "wxaXWSVhRXU",
+    "title": "Foo Fighters: Tiny Desk Concert",
+    "duration": 1430,
+    "url": "https://www.youtube.com/watch?v=wxaXWSVhRXU",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "ZDwDCUrd2KE",
+    "title": "JADE: Tiny Desk Concert",
+    "duration": 1151,
+    "url": "https://www.youtube.com/watch?v=ZDwDCUrd2KE",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "yuvecwa9y7I",
+    "title": "KestheBand: Tiny Desk Concert",
+    "duration": 1395,
+    "url": "https://www.youtube.com/watch?v=yuvecwa9y7I",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "1XQtMnPz1AQ",
+    "title": "Ragtime: Tiny Desk Concert",
+    "duration": 1169,
+    "url": "https://www.youtube.com/watch?v=1XQtMnPz1AQ",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "p7YpVl35pac",
+    "title": "Milo J: Tiny Desk Concert",
+    "duration": 988,
+    "url": "https://www.youtube.com/watch?v=p7YpVl35pac",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "wdeWKd9rjt4",
+    "title": "Infinity Song: Tiny Desk Concert",
+    "duration": 1224,
+    "url": "https://www.youtube.com/watch?v=wdeWKd9rjt4",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "6tCjflXY9CM",
+    "title": "Amaia: Tiny Desk Concert",
+    "duration": 1297,
+    "url": "https://www.youtube.com/watch?v=6tCjflXY9CM",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "M34D3Ktovfw",
+    "title": "Noah Kahan: Tiny Desk Concert",
+    "duration": 1406,
+    "url": "https://www.youtube.com/watch?v=M34D3Ktovfw",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "DQ2EwQ2B5bc",
+    "title": "Gwenifer Raymond: Tiny Desk Concert",
+    "duration": 930,
+    "url": "https://www.youtube.com/watch?v=DQ2EwQ2B5bc",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "mA_fuhvOD64",
+    "title": "Mannequin Pussy: Tiny Desk Concert",
+    "duration": 1288,
+    "url": "https://www.youtube.com/watch?v=mA_fuhvOD64",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "jbMxucbIVP4",
+    "title": "Lecrae: Tiny Desk Concert",
+    "duration": 1064,
+    "url": "https://www.youtube.com/watch?v=jbMxucbIVP4",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "kaJ-FQ0_ksg",
+    "title": "Aterciopelados: Tiny Desk Concert",
+    "duration": 1449,
+    "url": "https://www.youtube.com/watch?v=kaJ-FQ0_ksg",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "lBuHH7WE4yE",
+    "title": "Bush: Tiny Desk Concert",
+    "duration": 1166,
+    "url": "https://www.youtube.com/watch?v=lBuHH7WE4yE",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "ImQ1i1fBEA0",
+    "title": "Militarie Gun: Tiny Desk Concert",
+    "duration": 1025,
+    "url": "https://www.youtube.com/watch?v=ImQ1i1fBEA0",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "_La9NC90oCk",
+    "title": "Mumford & Sons: Tiny Desk Concert",
+    "duration": 1019,
+    "url": "https://www.youtube.com/watch?v=_La9NC90oCk",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "rWigCEcb4LA",
+    "title": "Kronos Quartet: Tiny Desk Concert",
+    "duration": 1288,
+    "url": "https://www.youtube.com/watch?v=rWigCEcb4LA",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "J1vTi9ycpiA",
+    "title": "Caamp: Tiny Desk Concert",
+    "duration": 1172,
+    "url": "https://www.youtube.com/watch?v=J1vTi9ycpiA",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "VxPPrBvsB9I",
+    "title": "Meet the 2026 Tiny Desk Contest Community",
+    "duration": 255,
+    "url": "https://www.youtube.com/watch?v=VxPPrBvsB9I",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "ebm72F5q9FI",
+    "title": "Tiana Major9: Tiny Desk Concert",
+    "duration": 1232,
+    "url": "https://www.youtube.com/watch?v=ebm72F5q9FI",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "N8aJXgIq2QM",
+    "title": "Kacey Musgraves: Tiny Desk Concert From The Archives",
+    "duration": 1409,
+    "url": "https://www.youtube.com/watch?v=N8aJXgIq2QM",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "-VwcJdXJoxs",
+    "title": "Madi Diaz: Tiny Desk Concert",
+    "duration": 1184,
+    "url": "https://www.youtube.com/watch?v=-VwcJdXJoxs",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "Y0WTNH7T_bs",
+    "title": "Maybe Happy Ending: Tiny Desk Concert",
+    "duration": 1057,
+    "url": "https://www.youtube.com/watch?v=Y0WTNH7T_bs",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "5AVYDHTOixU",
+    "title": "De La Soul: Tiny Desk Concert",
+    "duration": 1396,
+    "url": "https://www.youtube.com/watch?v=5AVYDHTOixU",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "m5XxOLdMSS8",
+    "title": "Buddy Guy: Tiny Desk Concert",
+    "duration": 1242,
+    "url": "https://www.youtube.com/watch?v=m5XxOLdMSS8",
+    "channel": "NPR Music",
+    "verified": true
+   },
+   {
+    "id": "KcOweHh_DMI",
+    "title": "Immanuel Wilkins: Tiny Desk Concert",
+    "duration": 1478,
+    "url": "https://www.youtube.com/watch?v=KcOweHh_DMI",
+    "channel": "NPR Music",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@BBCRadio1/videos|2026-11-28": [
+   {
+    "id": "eJ-nOzqGfdM",
+    "title": "Ella Purnell: Sweetpea Season 2, Fallout, Maleficent and her career highlights (so far)",
+    "duration": 1211,
+    "url": "https://www.youtube.com/watch?v=eJ-nOzqGfdM",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "xTe9kqayr54",
+    "title": "Vince Staples in the Radio 1 Live Lounge - White Flag, Cotton & Mind Playing Tricks On Me",
+    "duration": 846,
+    "url": "https://www.youtube.com/watch?v=xTe9kqayr54",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "cyTYJsQTHBg",
+    "title": "Freya Skye guesses songs at the wrong speed! | Speed Test",
+    "duration": 406,
+    "url": "https://www.youtube.com/watch?v=cyTYJsQTHBg",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "WK5-WDeHUwM",
+    "title": "The Hunger Games' Mckenna Grace & Joseph Zada rate or slate your Unpopular Opinions",
+    "duration": 762,
+    "url": "https://www.youtube.com/watch?v=WK5-WDeHUwM",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "sWJbOWJMJQ0",
+    "title": "Rachel Chinouriri - Pretty Girls in the Radio 1 Live Lounge",
+    "duration": 225,
+    "url": "https://www.youtube.com/watch?v=sWJbOWJMJQ0",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "Ji7g_Bks7Xc",
+    "title": "WILLOW in the Radio 1 Live Lounge - Circles, Unconditional and 1 Thing (Amerie cover)",
+    "duration": 935,
+    "url": "https://www.youtube.com/watch?v=Ji7g_Bks7Xc",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "JMv8L9DOyfo",
+    "title": "The Kid LAROI’s Biggest Fans Ask Him Anything",
+    "duration": 333,
+    "url": "https://www.youtube.com/watch?v=JMv8L9DOyfo",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "c-B5ERue43Q",
+    "title": "Mckenna Grace, Joseph Zada and Whitney Peak on The Hunger Games group chat & blooper reels - SOTR",
+    "duration": 1048,
+    "url": "https://www.youtube.com/watch?v=c-B5ERue43Q",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "j04AQUOx9yY",
+    "title": "Armin van Buuren & Benwal at ADE (Gashouder) - Radio 1’s Essential Mix Live",
+    "duration": 8080,
+    "url": "https://www.youtube.com/watch?v=j04AQUOx9yY",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "ZkouG0BTQt4",
+    "title": "Josh Baker at Amnesia pt. II - Radio 1’s Essential Mix - Sunset set",
+    "duration": 5582,
+    "url": "https://www.youtube.com/watch?v=ZkouG0BTQt4",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "KTUYmlg3WVU",
+    "title": "Royal Blood cover Dark Red by Steve Lacy in the Radio 1 Live Lounge",
+    "duration": 146,
+    "url": "https://www.youtube.com/watch?v=KTUYmlg3WVU",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "F-SqkRHdumU",
+    "title": "Royal Blood - Ten Over Ten in the Live Lounge",
+    "duration": 205,
+    "url": "https://www.youtube.com/watch?v=F-SqkRHdumU",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "0DEOtXTQOG4",
+    "title": "“Pardon my arse!” Wicker’s Olivia Colman & Alexander Skarsgård on bed-breaking scenes & wrap gifts!",
+    "duration": 480,
+    "url": "https://www.youtube.com/watch?v=0DEOtXTQOG4",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "QPydX-M_1bg",
+    "title": "Robyn - Sucker For Love in the Radio 1 Live Lounge",
+    "duration": 225,
+    "url": "https://www.youtube.com/watch?v=QPydX-M_1bg",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "DiGcNMagVJw",
+    "title": "Robyn covers Popstar/Punkrocker by Tinashe/Teddybears in the Radio 1 Live Lounge",
+    "duration": 261,
+    "url": "https://www.youtube.com/watch?v=DiGcNMagVJw",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "MzpgppYi8dU",
+    "title": "Olivia Colman and Alexander Skarsgård rate or slate your Unpopular Opinions",
+    "duration": 675,
+    "url": "https://www.youtube.com/watch?v=MzpgppYi8dU",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "NcJGAIy-B8U",
+    "title": "Anderson .Paak & Cordae - A Good Day in the Radio 1 Live Lounge",
+    "duration": 175,
+    "url": "https://www.youtube.com/watch?v=NcJGAIy-B8U",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "ZfUeqN46mvE",
+    "title": "Cordae feat. Anderson .Paak - Two Tens / So Fresh, So Clean in the Radio 1 Live Lounge",
+    "duration": 163,
+    "url": "https://www.youtube.com/watch?v=ZfUeqN46mvE",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "P7Nb6-bw1Vs",
+    "title": "Zara Larsson -  Blue Moon | Radio 1’s Big Weekend 2026 @ZaraLarssonOfficial",
+    "duration": 212,
+    "url": "https://www.youtube.com/watch?v=P7Nb6-bw1Vs",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "Ark1UNElQlk",
+    "title": "Jenna Ortega and Amy Adams rate & slate YOUR Unpopular Opinions",
+    "duration": 696,
+    "url": "https://www.youtube.com/watch?v=Ark1UNElQlk",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "giAI4buQJms",
+    "title": "Rachel Chinouriri covers brand new chanel$ by Slayyyter in the Radio 1 Live Lounge",
+    "duration": 243,
+    "url": "https://www.youtube.com/watch?v=giAI4buQJms",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "V604jr1U3U4",
+    "title": "Rachel Chinouriri - One Song Away From Crying in the Radio 1 Live Lounge",
+    "duration": 231,
+    "url": "https://www.youtube.com/watch?v=V604jr1U3U4",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "EboHVocyta4",
+    "title": "VisionQuest: Paul Bettany & cast on the new Marvel show - “Robots! And lasers! And fighting!”",
+    "duration": 1240,
+    "url": "https://www.youtube.com/watch?v=EboHVocyta4",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "ea3w8AXOj20",
+    "title": "Josh Baker at Amnesia pt. I - Radio 1’s Essential Mix - Sunrise set",
+    "duration": 10966,
+    "url": "https://www.youtube.com/watch?v=ea3w8AXOj20",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "VPq2wxB1XAQ",
+    "title": "Chase & Status - Gone Too Far Feat. Debbie in the Live Lounge",
+    "duration": 246,
+    "url": "https://www.youtube.com/watch?v=VPq2wxB1XAQ",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "8nw0mxD8lkg",
+    "title": "Chase & Status cover NEVER ENOUGH by Turnstile in the Radio 1 Live Lounge",
+    "duration": 181,
+    "url": "https://www.youtube.com/watch?v=8nw0mxD8lkg",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "QuxOjvEsfxs",
+    "title": "Kids ask John Cena the funniest questions ",
+    "duration": 388,
+    "url": "https://www.youtube.com/watch?v=QuxOjvEsfxs",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "PRrAjjy83Q8",
+    "title": "Stella Lefty covers I Knew It, I Knew You by Taylor Swift in the Radio 1 Live Lounge",
+    "duration": 204,
+    "url": "https://www.youtube.com/watch?v=PRrAjjy83Q8",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "Gu35yMjEtZE",
+    "title": "Stella Lefty - Boston in the Radio 1 Live Lounge",
+    "duration": 197,
+    "url": "https://www.youtube.com/watch?v=Gu35yMjEtZE",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "Wx2QcaiNe9Q",
+    "title": "Street Fighter's Noah Centineo Guesses Sped-Up and Slowed-Down Songs | Speed Test",
+    "duration": 448,
+    "url": "https://www.youtube.com/watch?v=Wx2QcaiNe9Q",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "d4P5QXuazx4",
+    "title": "Florence Pugh, Mike Faist and Christopher Abbot on East of Eden",
+    "duration": 556,
+    "url": "https://www.youtube.com/watch?v=d4P5QXuazx4",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "ZoJ8Uekh_Rw",
+    "title": "Andrew Garfield calls his famous friends - are they sitting or standing?!",
+    "duration": 495,
+    "url": "https://www.youtube.com/watch?v=ZoJ8Uekh_Rw",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "gMOhYHCmN9w",
+    "title": "Mike Faist on East of Eden, that Challengers churros scene and his favourite film lines",
+    "duration": 1026,
+    "url": "https://www.youtube.com/watch?v=gMOhYHCmN9w",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "tloP-PX94LE",
+    "title": "Troye Sivan guesses sped up and slowed down songs @troyesivan ",
+    "duration": 486,
+    "url": "https://www.youtube.com/watch?v=tloP-PX94LE",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "K1c8uuALQbY",
+    "title": "Daisy Edgar-Jones on Normal People, Sense and Sensibility, Twisters & her career so far",
+    "duration": 1886,
+    "url": "https://www.youtube.com/watch?v=K1c8uuALQbY",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "qMTWc1FZ5nw",
+    "title": "THEATRE - You Are | Radio 1 New Music Live 2026",
+    "duration": 198,
+    "url": "https://www.youtube.com/watch?v=qMTWc1FZ5nw",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "sBjsU7EPP_M",
+    "title": "Westside Cowboy - Well Done Kid, You Did It | Radio 1 New Music Live 2026",
+    "duration": 200,
+    "url": "https://www.youtube.com/watch?v=sBjsU7EPP_M",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "t5gznd5M5Lo",
+    "title": "Fat Dog - Call It What You Want live | Radio 1 New Music Live 2026",
+    "duration": 171,
+    "url": "https://www.youtube.com/watch?v=t5gznd5M5Lo",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "oRtRkDGRNSY",
+    "title": "Lime Garden - Cross My Heart | Radio 1 New Music Live 2026",
+    "duration": 216,
+    "url": "https://www.youtube.com/watch?v=oRtRkDGRNSY",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "uA2nA0WaNX8",
+    "title": "Florence Pugh & Mike Faist call their famous friends (including Big John?!)",
+    "duration": 430,
+    "url": "https://www.youtube.com/watch?v=uA2nA0WaNX8",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "E37aAI-nTBA",
+    "title": "\"This is the best game ever!\" Alison Hammond calls famous pals – are they sitting or standing?!",
+    "duration": 515,
+    "url": "https://www.youtube.com/watch?v=E37aAI-nTBA",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "aqpQrTnYw3M",
+    "title": "Dakota Johnson rates or slates your Unpopular Opinions",
+    "duration": 501,
+    "url": "https://www.youtube.com/watch?v=aqpQrTnYw3M",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "5Jd43i7erac",
+    "title": "SNL UK's Annabel Marlow & Jack Shep rate their co-stars’ Unpopular Opinions",
+    "duration": 711,
+    "url": "https://www.youtube.com/watch?v=5Jd43i7erac",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "r_vCH3h7fkI",
+    "title": "Daisy Edgar-Jones rates or slates your Unpopular Opinions",
+    "duration": 671,
+    "url": "https://www.youtube.com/watch?v=r_vCH3h7fkI",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "xv5wQW8NN1Q",
+    "title": "beabadoobee rates or slates your Unpopular Opinions @Beabadoobee",
+    "duration": 443,
+    "url": "https://www.youtube.com/watch?v=xv5wQW8NN1Q",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "CgL5pQueTcQ",
+    "title": "Ezra Collective - El Corazón in the Radio 1 Live Lounge",
+    "duration": 181,
+    "url": "https://www.youtube.com/watch?v=CgL5pQueTcQ",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "m_yZkVv6ULs",
+    "title": "Ezra Collective cover Bad Bunny’s NUEVAYoL in the Radio 1 Live Lounge",
+    "duration": 203,
+    "url": "https://www.youtube.com/watch?v=m_yZkVv6ULs",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "XYVSGVabpU8",
+    "title": "Phoebe Bridgers - Lost Boys in the Radio 1 Live Lounge @phoebebridgersmusic",
+    "duration": 285,
+    "url": "https://www.youtube.com/watch?v=XYVSGVabpU8",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "qZK50koX7iI",
+    "title": "Four Tet at Boomtown - Radio 1’s Essential Mix",
+    "duration": 5491,
+    "url": "https://www.youtube.com/watch?v=qZK50koX7iI",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "rOEE6-UOnmc",
+    "title": "Fans ask, ADÉLA answers: Backstage in London",
+    "duration": 186,
+    "url": "https://www.youtube.com/watch?v=rOEE6-UOnmc",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "hrGJAAWf9VE",
+    "title": "Kaya Scodelario & Theo James on The Gentlemen and The Maze Runner WhatsApp Group",
+    "duration": 1140,
+    "url": "https://www.youtube.com/watch?v=hrGJAAWf9VE",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "uwYA0ldqU2I",
+    "title": "Maisie Williams & Joey King rate your Unpopular Opinions",
+    "duration": 950,
+    "url": "https://www.youtube.com/watch?v=uwYA0ldqU2I",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "udi6ejcaRXE",
+    "title": "Jodie Comer rates your Unpopular Opinions - from shower heads to Robin Hood",
+    "duration": 403,
+    "url": "https://www.youtube.com/watch?v=udi6ejcaRXE",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "4E6jF8yJSeM",
+    "title": "Dua Lipa - Training Season in the Radio 1 Live Lounge",
+    "duration": 239,
+    "url": "https://www.youtube.com/watch?v=4E6jF8yJSeM",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "4ksDIl9WCPY",
+    "title": "Dua Lipa - Happy For You in the Radio 1 Live Lounge",
+    "duration": 244,
+    "url": "https://www.youtube.com/watch?v=4ksDIl9WCPY",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "VwNiF8LlyTU",
+    "title": "Dua Lipa - Be The One in the Radio 1 Live Lounge",
+    "duration": 236,
+    "url": "https://www.youtube.com/watch?v=VwNiF8LlyTU",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "xrofjw-CVbA",
+    "title": "Phoebe Bridgers covers Lithium by Nirvana in the Radio 1 Live Lounge @phoebebridgersmusic",
+    "duration": 223,
+    "url": "https://www.youtube.com/watch?v=xrofjw-CVbA",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "r6cJeYu4dkA",
+    "title": "Phoebe Bridgers - Bobby in the Radio 1 Live Lounge @phoebebridgersmusic",
+    "duration": 188,
+    "url": "https://www.youtube.com/watch?v=r6cJeYu4dkA",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "zDKawMrelZU",
+    "title": "Charli xcx watches her old festival sets and immediately regrets it",
+    "duration": 174,
+    "url": "https://www.youtube.com/watch?v=zDKawMrelZU",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "8NznXw_XpPg",
+    "title": "The Shards' Kaia Gerber & Hayes Warner try and guess songs in Speed Test | Speed Test",
+    "duration": 319,
+    "url": "https://www.youtube.com/watch?v=8NznXw_XpPg",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "mbvrH9woCLo",
+    "title": "Charli xcx Picks Her All-Time Favourites in 3 Minutes",
+    "duration": 180,
+    "url": "https://www.youtube.com/watch?v=mbvrH9woCLo",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "HY3Xv5fjPkI",
+    "title": "Charli XCX: The Music Fashion Film Interview",
+    "duration": 2741,
+    "url": "https://www.youtube.com/watch?v=HY3Xv5fjPkI",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "qHL9vwWLWBM",
+    "title": "Amelia Dimoldenberg rates your Unpopular Opinions",
+    "duration": 599,
+    "url": "https://www.youtube.com/watch?v=qHL9vwWLWBM",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "Zbtt5XkF26c",
+    "title": "ADÉLA tries to guess songs at the wrong speed! | Speed Test",
+    "duration": 281,
+    "url": "https://www.youtube.com/watch?v=Zbtt5XkF26c",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "-nGIvzzo29o",
+    "title": "\"You steal it and don't ask!\" 😂 Kit Connor and Joe Locke on Heartstopper Forever",
+    "duration": 445,
+    "url": "https://www.youtube.com/watch?v=-nGIvzzo29o",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "f2j9gbrDycs",
+    "title": "Heartstopper Forever’s stars try and guess the songs! | Speed Test",
+    "duration": 293,
+    "url": "https://www.youtube.com/watch?v=f2j9gbrDycs",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "DKql9c7kq4A",
+    "title": "The Secret Of The Odyssey - with Christopher Nolan, Matt Damon, Anne Hathaway, Tom Holland & Zendaya",
+    "duration": 2503,
+    "url": "https://www.youtube.com/watch?v=DKql9c7kq4A",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "S6ADB98CR7g",
+    "title": "Kids ask Matt Damon the toughest questions",
+    "duration": 441,
+    "url": "https://www.youtube.com/watch?v=S6ADB98CR7g",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "jDdeLxyJEnQ",
+    "title": "Tom Misch - Goldie and Sisters With Me in the BBC Radio 1 Live Lounge",
+    "duration": 465,
+    "url": "https://www.youtube.com/watch?v=jDdeLxyJEnQ",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "1dCYqjqj9_g",
+    "title": "Tom Holland takes a Zendaya quiz: “You’re 30, not me!” 😂",
+    "duration": 795,
+    "url": "https://www.youtube.com/watch?v=1dCYqjqj9_g",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "H5W7ebMb8E0",
+    "title": "Speed Test: Gracie Abrams Guesses The Songs! | Speed Test",
+    "duration": 302,
+    "url": "https://www.youtube.com/watch?v=H5W7ebMb8E0",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "qnPISGzfZyM",
+    "title": "Tom Holland being Tom Holland for 9 straight minutes (Peter Parker Edition)",
+    "duration": 559,
+    "url": "https://www.youtube.com/watch?v=qnPISGzfZyM",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "J7nDM799-bY",
+    "title": "\"The gift is the job!\" Milly Alcock on Becoming Supergirl, drunk acting and the joy of punching",
+    "duration": 1129,
+    "url": "https://www.youtube.com/watch?v=J7nDM799-bY",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "uCxQNtyLrIs",
+    "title": "Paris Paloma - Good Boy in the Live Lounge",
+    "duration": 225,
+    "url": "https://www.youtube.com/watch?v=uCxQNtyLrIs",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "beEahxTvUr4",
+    "title": "Paris Paloma - Miyazaki in the Live Lounge",
+    "duration": 229,
+    "url": "https://www.youtube.com/watch?v=beEahxTvUr4",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "_Ihe0NHMCKw",
+    "title": "Paris Paloma covers Maneater by Nelly Furtado in the Radio 1 Live Lounge",
+    "duration": 212,
+    "url": "https://www.youtube.com/watch?v=_Ihe0NHMCKw",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "fkmMzDc-u8A",
+    "title": "Milly Alcock rates your Unpopular Opinions",
+    "duration": 398,
+    "url": "https://www.youtube.com/watch?v=fkmMzDc-u8A",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "lH_Aide4EJs",
+    "title": "Asha Banks & Matthew Broome on Your Fault: London and insane in-jokes",
+    "duration": 762,
+    "url": "https://www.youtube.com/watch?v=lH_Aide4EJs",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "DCHqxLka9iw",
+    "title": "\"You're a big hero once again!\" 🤠😂 Tom Hanks and Tim Allen on Toy Story 5 and Woody's real name?!",
+    "duration": 797,
+    "url": "https://www.youtube.com/watch?v=DCHqxLka9iw",
+    "channel": "BBC Radio 1",
+    "verified": true
+   },
+   {
+    "id": "Ei4Vu28uXHs",
+    "title": "House of the Dragon Season 3 cast on farting, bloopers and dodging spoilers",
+    "duration": 1007,
+    "url": "https://www.youtube.com/watch?v=Ei4Vu28uXHs",
+    "channel": "BBC Radio 1",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@genius/videos|2026-11-28": [
+   {
+    "id": "h0eUCa-jzKI",
+    "title": "Gabriel Jacoby “be alright” (Live Performance) | Open Mic",
+    "duration": 241,
+    "url": "https://www.youtube.com/watch?v=h0eUCa-jzKI",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "kYt3AN51wdo",
+    "title": "Molly Santana “A Girl Is A Gun” Lyrics & Meaning | Genius Verified",
+    "duration": 327,
+    "url": "https://www.youtube.com/watch?v=kYt3AN51wdo",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "buEDYQb8mEs",
+    "title": "Soulidified “Man Ain’t Me” Lyrics & Meaning | Genius Verified",
+    "duration": 369,
+    "url": "https://www.youtube.com/watch?v=buEDYQb8mEs",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "GaHc7AuTmBU",
+    "title": "Laila! “SO MUCH, SO MUCH” (Live Performance) | Open Mic",
+    "duration": 214,
+    "url": "https://www.youtube.com/watch?v=GaHc7AuTmBU",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "ZMKUpjzdf3g",
+    "title": "Judah Weston “RA TA DIA” Lyrics & Meaning | Genius Verified",
+    "duration": 215,
+    "url": "https://www.youtube.com/watch?v=ZMKUpjzdf3g",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "gTGfxFe7cug",
+    "title": "Haute & Freddy “Shy Girl” Lyrics & Meaning | Genius Verified",
+    "duration": 281,
+    "url": "https://www.youtube.com/watch?v=gTGfxFe7cug",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "mfXmR49yrlU",
+    "title": "Cage The Elephant “Make It Easy” (Live Performance) | Open Mic",
+    "duration": 231,
+    "url": "https://www.youtube.com/watch?v=mfXmR49yrlU",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "naW5IljG6qI",
+    "title": "The Paradox \"I Kinda Like That\" Lyrics & Meaning | Genius Verified",
+    "duration": 290,
+    "url": "https://www.youtube.com/watch?v=naW5IljG6qI",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "xJ6IRuipyro",
+    "title": "comehelpglo “onsra” Lyrics & Meaning | Genius Verified",
+    "duration": 172,
+    "url": "https://www.youtube.com/watch?v=xJ6IRuipyro",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "kXJqbgwzqzs",
+    "title": "That Mexican OT  - “Apple Bottom” (Live) | @genius Open Mic Performance",
+    "duration": 231,
+    "url": "https://www.youtube.com/watch?v=kXJqbgwzqzs",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "IwRUkl5QJNo",
+    "title": "JoJo “Too Little Too Late” Lyrics & Meaning | Genius Verified",
+    "duration": 323,
+    "url": "https://www.youtube.com/watch?v=IwRUkl5QJNo",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "oHyGHWcaooU",
+    "title": "Milo J \"Niño\" Letra Oficial Y Significado | Genius Verified",
+    "duration": 419,
+    "url": "https://www.youtube.com/watch?v=oHyGHWcaooU",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "GBZpkNWjy0U",
+    "title": "BE:FIRST - “WATCH ME” (Live) | Open Mic on @genius",
+    "duration": 170,
+    "url": "https://www.youtube.com/watch?v=GBZpkNWjy0U",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "gBUFmItQtb8",
+    "title": "Fabrizio “Before The Soul Goes To Waste” Lyrics & Meaning | Genius Verified",
+    "duration": 321,
+    "url": "https://www.youtube.com/watch?v=gBUFmItQtb8",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "L0DYaO4lWZI",
+    "title": "RAYE “Click Clack Symphony.” Lyrics & Meaning | Genius Verified",
+    "duration": 557,
+    "url": "https://www.youtube.com/watch?v=L0DYaO4lWZI",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "YnWSyI8tyss",
+    "title": "Jae Stephens \"No One Knows My Name\" (Auda City Pledge Version) (Live Performance) | Open Mic",
+    "duration": 200,
+    "url": "https://www.youtube.com/watch?v=YnWSyI8tyss",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "Z4Lj6Cd6Tq0",
+    "title": "Ed Maverick - ESCOMBRO (Live) | Open Mic on @genius",
+    "duration": 278,
+    "url": "https://www.youtube.com/watch?v=Z4Lj6Cd6Tq0",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "wBZIiwhyYD8",
+    "title": "Masego “Heaven” Lyrics & Meaning | Genius Verified",
+    "duration": 352,
+    "url": "https://www.youtube.com/watch?v=wBZIiwhyYD8",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "QMUH6ApCKXE",
+    "title": "AZ Chike “Lamb Truck Keys” Lyrics & Meaning | Genius Verified",
+    "duration": 454,
+    "url": "https://www.youtube.com/watch?v=QMUH6ApCKXE",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "SxkaIEjuszc",
+    "title": "Ashe “Stop The Wedding!” Lyrics & Meaning | Genius Verified",
+    "duration": 367,
+    "url": "https://www.youtube.com/watch?v=SxkaIEjuszc",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "PNOb4bM6p7A",
+    "title": "no na “star” (Live Performance) | Open Mic",
+    "duration": 166,
+    "url": "https://www.youtube.com/watch?v=PNOb4bM6p7A",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "oRN5guV22tI",
+    "title": "Lucky Daye “Fly U Out” Lyrics & Meaning | Genius Verified",
+    "duration": 221,
+    "url": "https://www.youtube.com/watch?v=oRN5guV22tI",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "K6HcQqaLuHw",
+    "title": "TUIDE - “Flip-Flop Girl” (Live) | Open Mic @genius",
+    "duration": 192,
+    "url": "https://www.youtube.com/watch?v=K6HcQqaLuHw",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "F-LuTMdidvk",
+    "title": "The Game “Love It Or Hate It” Lyrics & Meaning | Genius Verified",
+    "duration": 278,
+    "url": "https://www.youtube.com/watch?v=F-LuTMdidvk",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "BhV10F7wQS8",
+    "title": "Hongjoong “ENOuGH” (Live) | Open Mic on @genius",
+    "duration": 152,
+    "url": "https://www.youtube.com/watch?v=BhV10F7wQS8",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "4rx2Yrc4n54",
+    "title": "Khantrast & Mr. Flintstone “She Bugging (Whatchu Gonna Do)” Lyrics & Meaning | Genius Verified",
+    "duration": 314,
+    "url": "https://www.youtube.com/watch?v=4rx2Yrc4n54",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "53zeM-n45EQ",
+    "title": "Forgotten Island \"BRB\" Lyrics & Meaning | Genius",
+    "duration": 399,
+    "url": "https://www.youtube.com/watch?v=53zeM-n45EQ",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "iYXI8-9AO3Y",
+    "title": "Sơn Tùng M-TP \"Come My Way” (Live Performance) | Open Mic",
+    "duration": 207,
+    "url": "https://www.youtube.com/watch?v=iYXI8-9AO3Y",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "zaY2jtslDBs",
+    "title": "Hoobastank \"The Reason\" Lyrics & Meaning | Genius Verified",
+    "duration": 329,
+    "url": "https://www.youtube.com/watch?v=zaY2jtslDBs",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "IInFBhwk05E",
+    "title": "Janine Berdin \"What if I miss you for the rest of my life?\" Lyrics & Meaning | Genius Verified",
+    "duration": 352,
+    "url": "https://www.youtube.com/watch?v=IInFBhwk05E",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "h6YO-WRP-CU",
+    "title": "Nemzzz “PRINCE OF THE SCENE” (Live Performance) | Open Mic",
+    "duration": 121,
+    "url": "https://www.youtube.com/watch?v=h6YO-WRP-CU",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "dF_ep1D-49I",
+    "title": "Chino Pacas “Envidia” Lyrics & Meaning | Genius Verified",
+    "duration": 201,
+    "url": "https://www.youtube.com/watch?v=dF_ep1D-49I",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "dgtU2FKbWtA",
+    "title": "JISOO “CLICK” Lyrics & Meaning | Genius Verified",
+    "duration": 310,
+    "url": "https://www.youtube.com/watch?v=dgtU2FKbWtA",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "1IQ8oBdyzCg",
+    "title": "EVAN (에반) \"Death of Me\" (Live Performance) | Open Mic",
+    "duration": 202,
+    "url": "https://www.youtube.com/watch?v=1IQ8oBdyzCg",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "8DmgdRHZohU",
+    "title": "Rapsody “Pick a Side” (Live Performance) | Open Mic",
+    "duration": 268,
+    "url": "https://www.youtube.com/watch?v=8DmgdRHZohU",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "hTZ5UwmKNrA",
+    "title": "Magnus Ferrell “Asleep Talking” Lyrics & Meaning | Genius Verified",
+    "duration": 230,
+    "url": "https://www.youtube.com/watch?v=hTZ5UwmKNrA",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "E1LrN_gzJnU",
+    "title": "Kylie Cantrall “Space Between” Lyrics & Meaning | Genius Verified",
+    "duration": 357,
+    "url": "https://www.youtube.com/watch?v=E1LrN_gzJnU",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "WmT3Ey_gTuE",
+    "title": "YEONJUN (연준) “Ice Cream” Performed Live on Open Mic",
+    "duration": 143,
+    "url": "https://www.youtube.com/watch?v=WmT3Ey_gTuE",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "cdHrNuiO8Qs",
+    "title": "pupsies “misery.” Lyrics & Meaning | Genius Verified",
+    "duration": 342,
+    "url": "https://www.youtube.com/watch?v=cdHrNuiO8Qs",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "_pPwMs971zA",
+    "title": "slayr “promise” Lyrics & Meaning | Genius Verified",
+    "duration": 322,
+    "url": "https://www.youtube.com/watch?v=_pPwMs971zA",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "zVCQHUrhzwI",
+    "title": "BINI “A Parallel World” Performed Live on Open Mic | @genius",
+    "duration": 233,
+    "url": "https://www.youtube.com/watch?v=zVCQHUrhzwI",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "JJNoXjLc-ps",
+    "title": "Jorja Smith “I Lied, You Lied” Lyrics & Meaning | Genius Verified",
+    "duration": 272,
+    "url": "https://www.youtube.com/watch?v=JJNoXjLc-ps",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "a6QnkxAwqUo",
+    "title": "Young Miko \"BIAF ˂3” Lyrics & Meaning | Genius Verified",
+    "duration": 268,
+    "url": "https://www.youtube.com/watch?v=a6QnkxAwqUo",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "eN5ppAOoc5w",
+    "title": "Jorja Smith “I Lied, You Lied” Performed Live on Open Mic | @genius",
+    "duration": 226,
+    "url": "https://www.youtube.com/watch?v=eN5ppAOoc5w",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "Ug0kVscJblQ",
+    "title": "Che “Og Ginobili” Lyrics & Meaning | Genius Verified",
+    "duration": 184,
+    "url": "https://www.youtube.com/watch?v=Ug0kVscJblQ",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "jVtrEGXLHMM",
+    "title": "SB19 “LAWLESS” Lyrics & Meaning | Genius Verified",
+    "duration": 308,
+    "url": "https://www.youtube.com/watch?v=jVtrEGXLHMM",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "si22ifxYlHM",
+    "title": "Wale “Blanco” Lyrics & Meaning | Genius Verified",
+    "duration": 353,
+    "url": "https://www.youtube.com/watch?v=si22ifxYlHM",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "xWC8VMDRnns",
+    "title": "KARLEE GIRL “Right Back!” Lyrics & Meaning | Genius Verified",
+    "duration": 328,
+    "url": "https://www.youtube.com/watch?v=xWC8VMDRnns",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "QOp_a3dUhXs",
+    "title": "The Womack Sisters “If I Let You” (Live Performance) | Open Mic",
+    "duration": 262,
+    "url": "https://www.youtube.com/watch?v=QOp_a3dUhXs",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "-5BItzuukFE",
+    "title": "OsamaSon “off that!” Official Lyrics & Meaning | Genius Verified",
+    "duration": 273,
+    "url": "https://www.youtube.com/watch?v=-5BItzuukFE",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "J2vfisc4Tgs",
+    "title": "OMAH LAY “I AM” Official Lyrics & Meaning | Genius Verified",
+    "duration": 226,
+    "url": "https://www.youtube.com/watch?v=J2vfisc4Tgs",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "IS5Vu2wKSjY",
+    "title": "GIRLSET “CHAT” (Live Performance) | Open Mic",
+    "duration": 189,
+    "url": "https://www.youtube.com/watch?v=IS5Vu2wKSjY",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "-zYZM_OnvYs",
+    "title": "Wale \"Watching Us\" Lyrics & Meaning | Genius Verified",
+    "duration": 260,
+    "url": "https://www.youtube.com/watch?v=-zYZM_OnvYs",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "M2F7IM_gFuA",
+    "title": "“High Hopes 3000” Official Lyrics & Meaning VERIFIED by ROLE MODEL | @genius",
+    "duration": 310,
+    "url": "https://www.youtube.com/watch?v=M2F7IM_gFuA",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "vlhELET-TX4",
+    "title": "Masego “Symone” (Live Performance) | Open Mic",
+    "duration": 413,
+    "url": "https://www.youtube.com/watch?v=vlhELET-TX4",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "p-Bh4wyHAkw",
+    "title": "\"I Know Who I Be\" Official Lyrics & Meaning VERIFIED by Davido | @genius",
+    "duration": 351,
+    "url": "https://www.youtube.com/watch?v=p-Bh4wyHAkw",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "fD3CZ3KXNK8",
+    "title": "Daniel Seavey “Love’s a Gun” Official Lyrics & Meaning | Genius Verified",
+    "duration": 231,
+    "url": "https://www.youtube.com/watch?v=fD3CZ3KXNK8",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "jo1dvqRdEw0",
+    "title": "kwn “risk it all” Performed Live on Open Mic | @genius",
+    "duration": 191,
+    "url": "https://www.youtube.com/watch?v=jo1dvqRdEw0",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "nsps6m2gKG8",
+    "title": "“Face to Face” Official Lyrics & Meaning VERIFIED by Mýa | @genius",
+    "duration": 411,
+    "url": "https://www.youtube.com/watch?v=nsps6m2gKG8",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "uIOuV7n-L6o",
+    "title": "RIIZE “SOAR” (Live Performance) | Open Mic",
+    "duration": 217,
+    "url": "https://www.youtube.com/watch?v=uIOuV7n-L6o",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "J9s9uNCb3Ok",
+    "title": "Fatt Smaxk \"Butta B\" Official Lyrics & Meaning | Genius Verified",
+    "duration": 349,
+    "url": "https://www.youtube.com/watch?v=J9s9uNCb3Ok",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "ENERF_N6ic8",
+    "title": "SIENNA SPIRO “Pure” (Live Performance) | Open Mic",
+    "duration": 229,
+    "url": "https://www.youtube.com/watch?v=ENERF_N6ic8",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "2BTzbR9fn04",
+    "title": "Alyssa Grace “bloodstream” Official Lyrics & Meaning | Genius Verified",
+    "duration": 351,
+    "url": "https://www.youtube.com/watch?v=2BTzbR9fn04",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "pLwpg8cZB3Q",
+    "title": "Álvaro Díaz “PIENSO EN TI.” Official Lyrics & Meaning | Genius Verified",
+    "duration": 338,
+    "url": "https://www.youtube.com/watch?v=pLwpg8cZB3Q",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "ogar_mJE5Gk",
+    "title": "Julia Wolf “Deep End” (Live Performance) | Open Mic",
+    "duration": 179,
+    "url": "https://www.youtube.com/watch?v=ogar_mJE5Gk",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "hEhgYVisnlw",
+    "title": "AZIEDOESNTEXIST “Everglades” Lyrics & Meaning | Genius Verified",
+    "duration": 125,
+    "url": "https://www.youtube.com/watch?v=hEhgYVisnlw",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "xtvwgkWlxRE",
+    "title": "“Boston” Lyrics & Meaning VERIFIED by Stella Lefty | @genius",
+    "duration": 322,
+    "url": "https://www.youtube.com/watch?v=xtvwgkWlxRE",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "AW0Efcc3X7w",
+    "title": "Grupo Frontera “Cuéntame” (Live Performance) | Open Mic",
+    "duration": 204,
+    "url": "https://www.youtube.com/watch?v=AW0Efcc3X7w",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "agpTIagRvQU",
+    "title": "What’s More Important In Hip-Hop: Lyrics, Samples or Impact? | For The Record",
+    "duration": 2430,
+    "url": "https://www.youtube.com/watch?v=agpTIagRvQU",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "Gw0gKjHBypE",
+    "title": "“QUEEN” Lyrics & Meaning VERIFIED by Fat Nwigwe | Genius Verified",
+    "duration": 331,
+    "url": "https://www.youtube.com/watch?v=Gw0gKjHBypE",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "GMCueAvHQ2Q",
+    "title": "French Montana & Max B “Ever Since U Left Me (I Went Deaf)” (Live Performance) | Open Mic",
+    "duration": 142,
+    "url": "https://www.youtube.com/watch?v=GMCueAvHQ2Q",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "KuyLxw_wY0c",
+    "title": "Isaiah Rashad “DO I LOOK HIGH?” Official Lyrics & Meaning | Genius Verified",
+    "duration": 374,
+    "url": "https://www.youtube.com/watch?v=KuyLxw_wY0c",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "UDklZw7ewo4",
+    "title": "Bebe Rexha “New Religion” Performed Live on Open Mic | @genius",
+    "duration": 203,
+    "url": "https://www.youtube.com/watch?v=UDklZw7ewo4",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "MvkzIXP2Y5s",
+    "title": "Durand Bernarr “Sugar Family” Lyrics & Meaning | Genius Verified",
+    "duration": 404,
+    "url": "https://www.youtube.com/watch?v=MvkzIXP2Y5s",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "quxJzHDpX0c",
+    "title": "FLO “Don’t Break Her Heart” (Live Performance) | Open Mic",
+    "duration": 247,
+    "url": "https://www.youtube.com/watch?v=quxJzHDpX0c",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "cjONC3BijpY",
+    "title": "Malcolm Todd “Gun To My Head” Official Lyrics & Meaning | Genius Verified",
+    "duration": 299,
+    "url": "https://www.youtube.com/watch?v=cjONC3BijpY",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "FHJgZNx6-_8",
+    "title": "The Warning “Kerosene” Official Lyrics & Meaning | Genius Verified",
+    "duration": 322,
+    "url": "https://www.youtube.com/watch?v=FHJgZNx6-_8",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "Ywp-f29wP4M",
+    "title": "Teddy Swims “Mr. Know It All” Performed Live on Open Mic | @genius",
+    "duration": 216,
+    "url": "https://www.youtube.com/watch?v=Ywp-f29wP4M",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "ZODQZIkVwfk",
+    "title": "Yung Miami “Spend Dat” Official Lyrics & Meaning | Genius Verified",
+    "duration": 259,
+    "url": "https://www.youtube.com/watch?v=ZODQZIkVwfk",
+    "channel": "Genius",
+    "verified": true
+   },
+   {
+    "id": "DMhBUhhMzoQ",
+    "title": "Myles Smith “Stargazing” Official Lyrics & Meaning | Genius Verified",
+    "duration": 398,
+    "url": "https://www.youtube.com/watch?v=DMhBUhhMzoQ",
+    "channel": "Genius",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@colors/videos|2026-11-28": [
+   {
+    "id": "iuw1Bbmu5PY",
+    "title": "zeyne | A COLORS INTERVIEW",
+    "duration": 412,
+    "url": "https://www.youtube.com/watch?v=iuw1Bbmu5PY",
+    "channel": "COLORSxSTUDIOS",
+    "verified": true
+   },
+   {
+    "id": "2hzPR6xgprU",
+    "title": "Alewya | A COLORS INTERVIEW",
+    "duration": 262,
+    "url": "https://www.youtube.com/watch?v=2hzPR6xgprU",
+    "channel": "COLORSxSTUDIOS",
+    "verified": true
+   },
+   {
+    "id": "5H5J-SjrqXs",
+    "title": "FKJ | A COLORS INTERVIEW",
+    "duration": 328,
+    "url": "https://www.youtube.com/watch?v=5H5J-SjrqXs",
+    "channel": "COLORSxSTUDIOS",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@MTV/videos|2026-11-28": [
+   {
+    "id": "mRi3XgQuW8U",
+    "title": "ENHYPEN Builds a Custom Playlist feat. Justin Bieber, Keyshia Cole & More 📝 MTV Music To Blank To",
+    "duration": 266,
+    "url": "https://www.youtube.com/watch?v=mRi3XgQuW8U",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "SoeQGZzQps0",
+    "title": "’The Hunger Games: Sunrise on the Reaping’ Cast Creates a Custom Playlist | MTV Music To Blank To",
+    "duration": 293,
+    "url": "https://www.youtube.com/watch?v=SoeQGZzQps0",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "x_iZ9dYYpC4",
+    "title": "I Cried a River Through Palm Springs (Baby Nova) | MTV Underground",
+    "duration": 197,
+    "url": "https://www.youtube.com/watch?v=x_iZ9dYYpC4",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "JTFwsLsaeIk",
+    "title": "Baby Nova Shows Off Her Vocals on “Sad Porn” 🌟 MTV Underground",
+    "duration": 185,
+    "url": "https://www.youtube.com/watch?v=JTFwsLsaeIk",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "TWzJ2gSNuos",
+    "title": "Madonna Wins Artist of the Year | 2026 VMAs",
+    "duration": 166,
+    "url": "https://www.youtube.com/watch?v=TWzJ2gSNuos",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "iOpesuAYbcw",
+    "title": "Raye Performs \"I Will Overcome.\" / \"WHERE IS MY HUSBAND!\" | 2026 VMAs",
+    "duration": 216,
+    "url": "https://www.youtube.com/watch?v=iOpesuAYbcw",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "X-t25t35x9s",
+    "title": "Sienna Spiro Performs \"Great Expectation\" | 2026 VMAs",
+    "duration": 185,
+    "url": "https://www.youtube.com/watch?v=X-t25t35x9s",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "scb7b1jqlXk",
+    "title": "Kacey Musgraves Performs Dolly Parton Tribute: \"I Will Always Love You\" | 2026 VMAs",
+    "duration": 205,
+    "url": "https://www.youtube.com/watch?v=scb7b1jqlXk",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "RkQCYe3qRC0",
+    "title": "Shaboozey feat. Gunna Perform \"Cowgirl\" / \"High Noon\" | 2026 VMAs",
+    "duration": 217,
+    "url": "https://www.youtube.com/watch?v=RkQCYe3qRC0",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "QF84Hmzmpwc",
+    "title": "Madonna “Bring Your Love” ft. Sabrina Carpenter & “Danceteria” ft. Charli xcx | 2026 VMAs",
+    "duration": 540,
+    "url": "https://www.youtube.com/watch?v=QF84Hmzmpwc",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "zbE57rkkBHo",
+    "title": "LISA Performs \"SaWaDiKa\" | 2026 VMAs",
+    "duration": 228,
+    "url": "https://www.youtube.com/watch?v=zbE57rkkBHo",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "-TD_D9G3Nhc",
+    "title": "Adam Lambert, Raye, Sombr, Teddy Swims & More Perform a George Michael Tribute | 2026 VMAs",
+    "duration": 510,
+    "url": "https://www.youtube.com/watch?v=-TD_D9G3Nhc",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "kPnN4IE_a98",
+    "title": "GENER8ION feat. Yung Lean Perform \"STORM\" | 2026 VMAs",
+    "duration": 205,
+    "url": "https://www.youtube.com/watch?v=kPnN4IE_a98",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "d-uYZWQRPI0",
+    "title": "Taylor Swift Wins Video of the Year for \"The Fate of Ophelia\" | 2026 VMAs",
+    "duration": 159,
+    "url": "https://www.youtube.com/watch?v=d-uYZWQRPI0",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "tMaWpNsYIPU",
+    "title": "Sienna Spiro Wins Best New Artist | 2026 VMAs",
+    "duration": 37,
+    "url": "https://www.youtube.com/watch?v=tMaWpNsYIPU",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "b8DvRSdcPrU",
+    "title": "Madonna Wins Best Dance for \"Confessions II\" | 2026 VMAs",
+    "duration": 162,
+    "url": "https://www.youtube.com/watch?v=b8DvRSdcPrU",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "nUQ3fg3DA50",
+    "title": "Taylor Swift Receives the MTV VMA Artist Director Honors | 2026 VMAs",
+    "duration": 106,
+    "url": "https://www.youtube.com/watch?v=nUQ3fg3DA50",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "zoL9Wp8unB0",
+    "title": "Nirvana Receives the VMA Video Vanguard Award | 2026 VMAs",
+    "duration": 95,
+    "url": "https://www.youtube.com/watch?v=zoL9Wp8unB0",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "BjS2WJU0AFQ",
+    "title": "Madonna & Sabrina Carpenter Win Best Collaboration for \"Bring Your Love\" | 2026 VMAs",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=BjS2WJU0AFQ",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "yz72JORpMDU",
+    "title": "Bruno Mars Performs \"Dance With Me\" | 2026 VMAs",
+    "duration": 328,
+    "url": "https://www.youtube.com/watch?v=yz72JORpMDU",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "qCqIZmKy7fk",
+    "title": "LISA Wins Best Pop for \"Dream\" | 2026 VMAs",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=qCqIZmKy7fk",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "uEX0VDKZtLQ",
+    "title": "Snoop Dogg Opens the 2026 VMAs! 🔥 | 2026 VMAs",
+    "duration": 181,
+    "url": "https://www.youtube.com/watch?v=uEX0VDKZtLQ",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "DpJ9kLqnjXY",
+    "title": "Snoop Dogg Performs \"Murder Was The Case\" | 1994 Video Music Awards",
+    "duration": 268,
+    "url": "https://www.youtube.com/watch?v=DpJ9kLqnjXY",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "b5lEQ2Xs3ic",
+    "title": "Delivery Boys Bring Back ‘90s Hip-Hop on “WAR AND PEACE\"🎙️ | MTV Underground",
+    "duration": 174,
+    "url": "https://www.youtube.com/watch?v=b5lEQ2Xs3ic",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "6q499rhmUAk",
+    "title": "Delivery Boys Put Their Spin on “The World Is Yours\" 🎙️ | MTV Underground",
+    "duration": 87,
+    "url": "https://www.youtube.com/watch?v=6q499rhmUAk",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "QdFPw0ltAb8",
+    "title": "\"Caught in the Act: Unfaithful” Returns August 18th at 8PM ET",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=QdFPw0ltAb8",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "i6wAZIlogxs",
+    "title": "Millie Bobby Brown and Louis Partridge Build a Custom Playlist | MTV Music To Blank To",
+    "duration": 392,
+    "url": "https://www.youtube.com/watch?v=i6wAZIlogxs",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "Vab49L5UpB4",
+    "title": "Izzy Escobar’s Vocals SOAR on “Vendetta\" 🎙️ MTV Underground",
+    "duration": 209,
+    "url": "https://www.youtube.com/watch?v=Vab49L5UpB4",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "1BmM_aPkysw",
+    "title": "The Dirty Turkeys Fall “Under Your Spell” – With A Bride! 👰‍♀️ MTV Underground",
+    "duration": 320,
+    "url": "https://www.youtube.com/watch?v=1BmM_aPkysw",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "mWvYh8Q8TGQ",
+    "title": "‘Every Year After' Cast Builds a Custom Music Playlist | MTV Music To Blank To",
+    "duration": 413,
+    "url": "https://www.youtube.com/watch?v=mWvYh8Q8TGQ",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "WrIumU2UDv0",
+    "title": "The Dirty Turkeys Rock Out (with a Side of Guac) To “Quinceañera\" | MTV Underground",
+    "duration": 231,
+    "url": "https://www.youtube.com/watch?v=WrIumU2UDv0",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "OnSbcf5bJcY",
+    "title": "'Off Campus' Cast Builds a Custom Music Playlist | MTV Music To Blank To",
+    "duration": 299,
+    "url": "https://www.youtube.com/watch?v=OnSbcf5bJcY",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "rLJTjvJDVb8",
+    "title": "Billie Eilish Talks Co-Directing New Concert Film | MTV",
+    "duration": 296,
+    "url": "https://www.youtube.com/watch?v=rLJTjvJDVb8",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "0cL-Kt39PK0",
+    "title": "Padma Lakshmi Answers 20 Questions for 2026 | MTV",
+    "duration": 517,
+    "url": "https://www.youtube.com/watch?v=0cL-Kt39PK0",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "j_nT3us26bY",
+    "title": "Derek Day Gets the Crowd Singing with “I Can’t Imagine” | MTV Underground",
+    "duration": 208,
+    "url": "https://www.youtube.com/watch?v=j_nT3us26bY",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "LPh_DbyzvHY",
+    "title": "Derek Day Puts His Unique Spin on “Girl U Want” by Devo | MTV Underground",
+    "duration": 180,
+    "url": "https://www.youtube.com/watch?v=LPh_DbyzvHY",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "BsS24T-QqEk",
+    "title": "Lights, Camera, Debate w/ Tom Blyth & Emily Bader",
+    "duration": 877,
+    "url": "https://www.youtube.com/watch?v=BsS24T-QqEk",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "zmZnMFXyvAQ",
+    "title": "Benee on New Album 'Ur an Angel I’m Just Particles' | #MTVFreshOut",
+    "duration": 538,
+    "url": "https://www.youtube.com/watch?v=zmZnMFXyvAQ",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "cOaci6teglY",
+    "title": "3Quency Talks “Once I Was A Good Girl” & Touring With Soulidified  | #MTVFreshOut",
+    "duration": 587,
+    "url": "https://www.youtube.com/watch?v=cOaci6teglY",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "UzzE-95KeLA",
+    "title": "Fuerza Regida on Their Album ‘111xpantia’ & Don’t Fall in Love Fest | #MTVFreshOut",
+    "duration": 372,
+    "url": "https://www.youtube.com/watch?v=UzzE-95KeLA",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "ijZifesJpSk",
+    "title": "Justine Skye on Her Early Beginnings and a New Era of Her Music | #MTVPush",
+    "duration": 733,
+    "url": "https://www.youtube.com/watch?v=ijZifesJpSk",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "M3nTDiJ2xYY",
+    "title": "Didi J Talks New Single “Release My Mind” & Advice from Lady Gaga | #MTVFreshOut",
+    "duration": 302,
+    "url": "https://www.youtube.com/watch?v=M3nTDiJ2xYY",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "hfr6T2fgFEE",
+    "title": "Charlie Puth on Creating “Changes” & His Upcoming Album ‘Whatever’s Clever' | #MTVFreshOut",
+    "duration": 658,
+    "url": "https://www.youtube.com/watch?v=hfr6T2fgFEE",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "bptupXu3mK4",
+    "title": "Ashnikko on New Album ‘Smoochies’ & Creating the  “Trinkets” Music Video | #MTVFreshOut",
+    "duration": 407,
+    "url": "https://www.youtube.com/watch?v=bptupXu3mK4",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "9natkiIaVwQ",
+    "title": "PARTYOF2 Talk New Album, ‘AMERIKA’S NEXT TOP PARTY!’ | #MTVFreshOut",
+    "duration": 482,
+    "url": "https://www.youtube.com/watch?v=9natkiIaVwQ",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "TxF7_Uj2O28",
+    "title": "Donnie Wahlberg & Sonequa Martin-Green on New Series ‘Boston Blue’ | #MTVFreshOut",
+    "duration": 528,
+    "url": "https://www.youtube.com/watch?v=TxF7_Uj2O28",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "sjyRXrF_1Mw",
+    "title": "Chance the Rapper on His ‘Star Line’ Inspirations and Getting Better as a Wordsmith | Dialed In",
+    "duration": 1406,
+    "url": "https://www.youtube.com/watch?v=sjyRXrF_1Mw",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "UXuhpYnWFUc",
+    "title": "Chance the Rapper on New Album, ‘STAR LINE’ | #MTVFreshOut",
+    "duration": 811,
+    "url": "https://www.youtube.com/watch?v=UXuhpYnWFUc",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "JZvLS0AgqTw",
+    "title": "Coco Jones Talks Deluxe Album, 'Why Not More? (MORE!)' | Dialed In",
+    "duration": 1296,
+    "url": "https://www.youtube.com/watch?v=JZvLS0AgqTw",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "m4KoZWrld3U",
+    "title": "Louis Tomlinson on  “Lemonade” & His World Tour | #MTVFreshOut",
+    "duration": 335,
+    "url": "https://www.youtube.com/watch?v=m4KoZWrld3U",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "WS-Du5a3kg4",
+    "title": "Channing Tatum & Kirsten Dunst Throw Cards & Chat ‘Roofman'",
+    "duration": 1213,
+    "url": "https://www.youtube.com/watch?v=WS-Du5a3kg4",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "asg3t1tjXcs",
+    "title": "Alicia Keys Performs “Goodbye” and “Butterflyz” | MTV Unplugged, 2005",
+    "duration": 190,
+    "url": "https://www.youtube.com/watch?v=asg3t1tjXcs",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "RFZIVngKz7I",
+    "title": "Andrew Garfield Talks ‘After The Hunt’, His Golden Globes Look, & MCU",
+    "duration": 1132,
+    "url": "https://www.youtube.com/watch?v=RFZIVngKz7I",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "RPbaZqkg0GU",
+    "title": "Josh Levi on his Debut Album ‘HYDRAULIC’ | #MTVFreshOut",
+    "duration": 477,
+    "url": "https://www.youtube.com/watch?v=RPbaZqkg0GU",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "WESW6Zccp3M",
+    "title": "ADÉLA on Her Early Influences & the Making of Her Own Music | #MTVPush",
+    "duration": 954,
+    "url": "https://www.youtube.com/watch?v=WESW6Zccp3M",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "g-pZwwRZ0ug",
+    "title": "Aespa Answer 20 Questions for 2025",
+    "duration": 363,
+    "url": "https://www.youtube.com/watch?v=g-pZwwRZ0ug",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "fiGSsrwIuNc",
+    "title": "Prince Royce talks New Album ‘ETERNO’ | #MTVFreshOut",
+    "duration": 307,
+    "url": "https://www.youtube.com/watch?v=fiGSsrwIuNc",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "tLpx9GCddng",
+    "title": "Alok Performs “Allein Allein”  | 2025 Isle of MTV",
+    "duration": 104,
+    "url": "https://www.youtube.com/watch?v=tLpx9GCddng",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "1eP7UFPgZ9A",
+    "title": "Ella Henderson Performs “Ghost \" | 2025 Isle of MTV",
+    "duration": 290,
+    "url": "https://www.youtube.com/watch?v=1eP7UFPgZ9A",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "B2dFhgfLWx4",
+    "title": "Alok Performs  “Truth, Love, Peace, Acid” | 2025 Isle of MTV",
+    "duration": 241,
+    "url": "https://www.youtube.com/watch?v=B2dFhgfLWx4",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "yXe17hDC-Qo",
+    "title": "“Old, tired, sore-hipped Ken” Margot Robbie & Colin Farrell Chat ‘A Big Bold Beautiful Journey’",
+    "duration": 939,
+    "url": "https://www.youtube.com/watch?v=yXe17hDC-Qo",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "k-j_Rez44Ys",
+    "title": "Jeremy Zucker on New Album ‘Garden State’ | #MTVFreshOut",
+    "duration": 407,
+    "url": "https://www.youtube.com/watch?v=k-j_Rez44Ys",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "DGpIDyavQYk",
+    "title": "Loud Luxury & Natalie Jane Talk “UH OH!” Collab | #MTVFreshOut",
+    "duration": 322,
+    "url": "https://www.youtube.com/watch?v=DGpIDyavQYk",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "5OWIuCp1fyg",
+    "title": "Conan Gray Performs \"Vodka Cranberry\" | 2025 Video Music Awards",
+    "duration": 167,
+    "url": "https://www.youtube.com/watch?v=5OWIuCp1fyg",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "uNaAYECKauA",
+    "title": "sombr Performs \"Back to Friends\" / \"12 to 12\" | 2025 Video Music Awards",
+    "duration": 263,
+    "url": "https://www.youtube.com/watch?v=uNaAYECKauA",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "uWvCv43vjd4",
+    "title": "Steven Tyler, Joe Perry, YUNGBLUD, & Nuno Bettencourt Perform Ozzy Tribute Medley | 2025 VMAs",
+    "duration": 462,
+    "url": "https://www.youtube.com/watch?v=uWvCv43vjd4",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "mgoL-V9qRgg",
+    "title": "J Balvin, DJ Snake, Justin Quiles, & Lenny Tavárez Perform 'Zun Zun / Noventa' | 2025 VMAs",
+    "duration": 246,
+    "url": "https://www.youtube.com/watch?v=mgoL-V9qRgg",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "nqTcQQJ-nYc",
+    "title": "Alex Warren Performs \"Eternity / Ordinary\" | 2025 Video Music Awards",
+    "duration": 239,
+    "url": "https://www.youtube.com/watch?v=nqTcQQJ-nYc",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "aHs1LCir63Q",
+    "title": "Lady Gaga Performs \"Abracadabra / Dead Dance\" | 2025 Video Music Awards",
+    "duration": 388,
+    "url": "https://www.youtube.com/watch?v=aHs1LCir63Q",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "azGCYXzpfTk",
+    "title": "Lil Q, Nevrmind & Blaccmass Hit The General Sound Studio | 2025 VMAs",
+    "duration": 98,
+    "url": "https://www.youtube.com/watch?v=azGCYXzpfTk",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "JkVNvQY5y5I",
+    "title": "Mariah Carey Accepts Vanguard Award | 2025 Video Music Awards",
+    "duration": 156,
+    "url": "https://www.youtube.com/watch?v=JkVNvQY5y5I",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "nT96RK0ZVqA",
+    "title": "Mariah Carey Performs Vanguard Medley | 2025 Video Music Awards",
+    "duration": 377,
+    "url": "https://www.youtube.com/watch?v=nT96RK0ZVqA",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "3RNY1EjfGB4",
+    "title": "Post Malone & Jelly Roll Perform \"Loser\" | 2025 Video Music Awards",
+    "duration": 242,
+    "url": "https://www.youtube.com/watch?v=3RNY1EjfGB4",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "JSfCvHBgE2A",
+    "title": "Bailey Zimmerman ft The Kid Laroi Perform \"Lost\"| 2025 Video Music Awards",
+    "duration": 101,
+    "url": "https://www.youtube.com/watch?v=JSfCvHBgE2A",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "tFNHKB_qoDc",
+    "title": "Sabrina Carpenter Performs \"Tears\" | 2025 Video Music Awards",
+    "duration": 169,
+    "url": "https://www.youtube.com/watch?v=tFNHKB_qoDc",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "4XgS2G0S1tQ",
+    "title": "Busta Rhymes Performs MTV VMA Rock The Bells Visionary Award Medley | 2025 Video Music Awards",
+    "duration": 335,
+    "url": "https://www.youtube.com/watch?v=4XgS2G0S1tQ",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "_p-Yf2BUM-g",
+    "title": "Rosé & Bruno Mars Win Song of the Year | 2025 Video Music Awards",
+    "duration": 275,
+    "url": "https://www.youtube.com/watch?v=_p-Yf2BUM-g",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "wa7kAH5j5nQ",
+    "title": "Lola Young Performs \"Messy\" | 2025 Video Music Awards",
+    "duration": 113,
+    "url": "https://www.youtube.com/watch?v=wa7kAH5j5nQ",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "TxxI8LRINFM",
+    "title": "Burger King's Frozen Cotton Candy Cloud is a timeless classic | 2025 Video Music Awards",
+    "duration": 101,
+    "url": "https://www.youtube.com/watch?v=TxxI8LRINFM",
+    "channel": "MTV",
+    "verified": true
+   },
+   {
+    "id": "1lQ74x0C1u0",
+    "title": "KATSEYE Performs \"Gabriela\" | 2025 Video Music Awards Pre-Show",
+    "duration": 204,
+    "url": "https://www.youtube.com/watch?v=1lQ74x0C1u0",
+    "channel": "MTV",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@JRE/videos|2026-11-28": [],
+  "https://www.youtube.com/@FirstWeFeast/videos|2026-11-28": [
+   {
+    "id": "to0TGO3L0wA",
+    "title": "Druski Hits a Wall While Eating Spicy Wings | Hot Ones",
+    "duration": 1365,
+    "url": "https://www.youtube.com/watch?v=to0TGO3L0wA",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "-lgKoe0CMOM",
+    "title": "Kim Kardashian vs. Sarah Paulson | Hot Ones Versus",
+    "duration": 1134,
+    "url": "https://www.youtube.com/watch?v=-lgKoe0CMOM",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "JCh25GiIm50",
+    "title": "Karl-Anthony Towns vs. Jordyn Woods-Towns | Hot Ones Versus",
+    "duration": 695,
+    "url": "https://www.youtube.com/watch?v=JCh25GiIm50",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "kNfy6S10Tfw",
+    "title": "Michelle Yeoh Gets Physical While Eating Spicy Wings | Hot Ones",
+    "duration": 1438,
+    "url": "https://www.youtube.com/watch?v=kNfy6S10Tfw",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "2-cTAQmF-uI",
+    "title": "The Miz | Hot Ones Game Night",
+    "duration": 1393,
+    "url": "https://www.youtube.com/watch?v=2-cTAQmF-uI",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "FWePyiVlfdM",
+    "title": "Janelle James Bombed So Hard Her Soul Left Her Body | Slice Joint",
+    "duration": 628,
+    "url": "https://www.youtube.com/watch?v=FWePyiVlfdM",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "JN6TrB3Zfsk",
+    "title": "Julia Garner Enters a Flow State While Eating Spicy Wings | Hot Ones",
+    "duration": 1421,
+    "url": "https://www.youtube.com/watch?v=JN6TrB3Zfsk",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "rYXO3ahJPZA",
+    "title": "Nikki Glaser vs. Ali Wong | Hot Ones Versus",
+    "duration": 1010,
+    "url": "https://www.youtube.com/watch?v=rYXO3ahJPZA",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "erKYH3ixfkM",
+    "title": "Pete Davidson, Zoë Kravitz, Nicholas Hoult, and Anna Sawai Play Hot Ones Wing Pong",
+    "duration": 840,
+    "url": "https://www.youtube.com/watch?v=erKYH3ixfkM",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "Cv9ftqQTN0Y",
+    "title": "Mikey Day Breaks Character While Eating Spicy Wings | Hot Ones",
+    "duration": 1520,
+    "url": "https://www.youtube.com/watch?v=Cv9ftqQTN0Y",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "DJBkvbuNwNY",
+    "title": "Hearts2Hearts (하츠투하츠) Eat the Spiciest Meal of Their Lives | Heat Eaters",
+    "duration": 931,
+    "url": "https://www.youtube.com/watch?v=DJBkvbuNwNY",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "k6aijonbOYs",
+    "title": "Sam Rockwell vs. Parker Posey | Hot Ones Versus",
+    "duration": 1145,
+    "url": "https://www.youtube.com/watch?v=k6aijonbOYs",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "uluD3sEgvBo",
+    "title": "Blake Griffin Blind Ranks Iconic Dunks | Slice Joint",
+    "duration": 817,
+    "url": "https://www.youtube.com/watch?v=uluD3sEgvBo",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "i-DS4hrdmyQ",
+    "title": "Latto Is Resilient While Eating Spicy Wings | Hot Ones",
+    "duration": 1374,
+    "url": "https://www.youtube.com/watch?v=i-DS4hrdmyQ",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "LqMzkKPHcVM",
+    "title": "The Basement Yard's Frank Alvarez | Hot Ones Game Night",
+    "duration": 1866,
+    "url": "https://www.youtube.com/watch?v=LqMzkKPHcVM",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "1zZzXg2hZ30",
+    "title": "SNL | Hot Ones Versus",
+    "duration": 1610,
+    "url": "https://www.youtube.com/watch?v=1zZzXg2hZ30",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "cU-Ook_YN-A",
+    "title": "The 'American Horror Story' Cast Plays Hot Ones Wing Pong",
+    "duration": 868,
+    "url": "https://www.youtube.com/watch?v=cU-Ook_YN-A",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "E_YbxmyVLCs",
+    "title": "John Turturro Does His Best Robert DeNiro Impression | Slice Joint",
+    "duration": 670,
+    "url": "https://www.youtube.com/watch?v=E_YbxmyVLCs",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "4p1yZgR4F9k",
+    "title": "Maya Hawke Is Proud of the Progress While Eating Spicy Wings | Hot Ones",
+    "duration": 1534,
+    "url": "https://www.youtube.com/watch?v=4p1yZgR4F9k",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "Pepol0GPW2Y",
+    "title": "Karl-Anthony Towns Goes One on One Against Spicy Wings | Hot Ones",
+    "duration": 1321,
+    "url": "https://www.youtube.com/watch?v=Pepol0GPW2Y",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "feiF4mTzfsU",
+    "title": "Neil deGrasse Tyson | Hot Ones Game Night",
+    "duration": 1750,
+    "url": "https://www.youtube.com/watch?v=feiF4mTzfsU",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "ETgUu4oyK1Q",
+    "title": "Liv Morgan Cuts a Promo While Eating Spicy Wings | Hot Ones",
+    "duration": 1413,
+    "url": "https://www.youtube.com/watch?v=ETgUu4oyK1Q",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "Jctn80QpQzM",
+    "title": "Anne Hathaway Hosts Dakota Johnson vs. Josh Hartnett | Hot Ones Versus",
+    "duration": 1093,
+    "url": "https://www.youtube.com/watch?v=Jctn80QpQzM",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "UV9OzrlurNc",
+    "title": "Mikey Madison Reckons with Spicy Wings | Hot Ones",
+    "duration": 1145,
+    "url": "https://www.youtube.com/watch?v=UV9OzrlurNc",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "Z5OX-o3ytWc",
+    "title": "Doctor Mike | Hot Ones Game Night",
+    "duration": 1794,
+    "url": "https://www.youtube.com/watch?v=Z5OX-o3ytWc",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "Tp6KRTW4dXo",
+    "title": "Lili Reinhart vs. Tom Bateman | Hot Ones Versus",
+    "duration": 936,
+    "url": "https://www.youtube.com/watch?v=Tp6KRTW4dXo",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "RfJWjJUg_zY",
+    "title": "Fuerza Regida Plays Hot Ones Wing Pong",
+    "duration": 849,
+    "url": "https://www.youtube.com/watch?v=RfJWjJUg_zY",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "YqugY2zTIoI",
+    "title": "Willem Dafoe Comes Alive While Eating Spicy Wings | Hot Ones",
+    "duration": 1403,
+    "url": "https://www.youtube.com/watch?v=YqugY2zTIoI",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "XgYOJ-IeYrg",
+    "title": "Watch Celebrities Play a Hot Ones Board Game with Host Joe Santagato",
+    "duration": 158,
+    "url": "https://www.youtube.com/watch?v=XgYOJ-IeYrg",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "TiEn54pvsQo",
+    "title": "Leslie Mann vs. Anna Faris vs. Michelle Buteau vs. Isla Fisher | Hot Ones Versus",
+    "duration": 1402,
+    "url": "https://www.youtube.com/watch?v=TiEn54pvsQo",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "pyzVB-QufCc",
+    "title": "Can Pro Chefs Turn Gas Station Food into Gourmet Late Night Snacks? | Fuel Stop Feast",
+    "duration": 662,
+    "url": "https://www.youtube.com/watch?v=pyzVB-QufCc",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "rnxMlUFLEu8",
+    "title": "Ryan Reynolds and Kenneth Branagh Buddy Up Against Spicy Wings | Hot Ones",
+    "duration": 1706,
+    "url": "https://www.youtube.com/watch?v=rnxMlUFLEu8",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "a-VnzQDPvFM",
+    "title": "Rob Gronkowski Breaks the Gronk-O-Meter While Eating Spicy Wings | Hot Ones",
+    "duration": 1497,
+    "url": "https://www.youtube.com/watch?v=a-VnzQDPvFM",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "F3OwLl0giKQ",
+    "title": "Can Pro Chefs Turn Gas Station Snacks into Gourmet Burgers? | Fuel Stop Feast",
+    "duration": 559,
+    "url": "https://www.youtube.com/watch?v=F3OwLl0giKQ",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "mY8MoLqRoa4",
+    "title": "Sean Evans Answers Your Burning Fan Questions | Hot Ones AMA",
+    "duration": 566,
+    "url": "https://www.youtube.com/watch?v=mY8MoLqRoa4",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "tbncZXF7h1c",
+    "title": "The 'Outer Banks' Cast Plays Hot Ones Wing Pong",
+    "duration": 866,
+    "url": "https://www.youtube.com/watch?v=tbncZXF7h1c",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "mlwD5SdMM7I",
+    "title": "Inde Navarrette vs. Michael Johnston | Hot Ones Versus",
+    "duration": 1328,
+    "url": "https://www.youtube.com/watch?v=mlwD5SdMM7I",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "8qD39mbJcXI",
+    "title": "Adam Richman Eats Michelin Star Texas BBQ | Pro Moves",
+    "duration": 790,
+    "url": "https://www.youtube.com/watch?v=8qD39mbJcXI",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "AmgCB_KK9IQ",
+    "title": "Can Pro Chefs Make a Gourmet Gas Station Breakfast? | Fuel Stop Feast",
+    "duration": 700,
+    "url": "https://www.youtube.com/watch?v=AmgCB_KK9IQ",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "n69BsyEKV_0",
+    "title": "Caleb Williams Has Ice in His Veins While Eating Spicy Wings | Hot Ones",
+    "duration": 1309,
+    "url": "https://www.youtube.com/watch?v=n69BsyEKV_0",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "fEDRRQgykd8",
+    "title": "Aaron Pierre vs. Kyle Chandler | Hot Ones Versus",
+    "duration": 1147,
+    "url": "https://www.youtube.com/watch?v=fEDRRQgykd8",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "WbSp2lvnnx0",
+    "title": "The ‘Adults’ Cast Plays Hot Ones Wing Pong",
+    "duration": 887,
+    "url": "https://www.youtube.com/watch?v=WbSp2lvnnx0",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "PVHCHheFUhc",
+    "title": "Stavros Halkias Says Standup Comedy Has Destroyed His Body and Soul | Slice Joint",
+    "duration": 879,
+    "url": "https://www.youtube.com/watch?v=PVHCHheFUhc",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "CSMgWs662zg",
+    "title": "Dave Franco Throws Caution to the Wind While Eating Spicy Wings",
+    "duration": 1185,
+    "url": "https://www.youtube.com/watch?v=CSMgWs662zg",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "kBA-ChMQW2A",
+    "title": "Hot Ones Season 30 Marathon",
+    "duration": 16859,
+    "url": "https://www.youtube.com/watch?v=kBA-ChMQW2A",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "nfsri9gu31E",
+    "title": "Kristen Stewart vs. Alia Shawkat | Hot Ones Versus",
+    "duration": 919,
+    "url": "https://www.youtube.com/watch?v=nfsri9gu31E",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "nJwi2HpYMNU",
+    "title": "Callum Turner Keeps It Simple While Eating Spicy Wings | Hot Ones",
+    "duration": 1273,
+    "url": "https://www.youtube.com/watch?v=nJwi2HpYMNU",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "PawgQkptDVQ",
+    "title": "Leslie Jones Meets Her Future Husband While Eating Pizza | Slice Joint",
+    "duration": 859,
+    "url": "https://www.youtube.com/watch?v=PawgQkptDVQ",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "oNfOWkaAjVQ",
+    "title": "Jason Sudeikis vs. Juno Temple | Hot Ones Versus",
+    "duration": 1280,
+    "url": "https://www.youtube.com/watch?v=oNfOWkaAjVQ",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "VdJIMCbbvzY",
+    "title": "Whitney Leavitt vs. Conner Leavitt | Hot Ones Versus",
+    "duration": 850,
+    "url": "https://www.youtube.com/watch?v=VdJIMCbbvzY",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "fd02Af2IUfo",
+    "title": "JISOO Is the Queen of Spice While Eating Spicy Wings | Hot Ones",
+    "duration": 1245,
+    "url": "https://www.youtube.com/watch?v=fd02Af2IUfo",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "N_YT2V2GPAE",
+    "title": "Danhausen Curses Hot Ones Wing Pong (feat. The Miz & Kit Wilson vs. R-Truth & Damian Priest)",
+    "duration": 964,
+    "url": "https://www.youtube.com/watch?v=N_YT2V2GPAE",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "G0wUKeZ3kV4",
+    "title": "Charlotte Flair vs. Alexa Bliss | Hot Ones Versus",
+    "duration": 906,
+    "url": "https://www.youtube.com/watch?v=G0wUKeZ3kV4",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "mc9WVVAUQGE",
+    "title": "Tom Holland and Jon Bernthal Team Up While Eating Spicy Wings | Hot Ones",
+    "duration": 1761,
+    "url": "https://www.youtube.com/watch?v=mc9WVVAUQGE",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "PJAqi9qnf9k",
+    "title": "Jacob Batalon Taste Tests Spicy Fried Chicken | Heat Eaters",
+    "duration": 913,
+    "url": "https://www.youtube.com/watch?v=PJAqi9qnf9k",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "AKu70LxVNns",
+    "title": "5 Seconds of Summer | Hot Ones Versus",
+    "duration": 1280,
+    "url": "https://www.youtube.com/watch?v=AKu70LxVNns",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "Pv2txXubvRY",
+    "title": "Marcello Hernández Goes Into Fight or Flight While Eating Spicy Wings | Hot Ones",
+    "duration": 1458,
+    "url": "https://www.youtube.com/watch?v=Pv2txXubvRY",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "wVEUae5TlQM",
+    "title": "91-Year-Old Pitmaster Serves Adam Richman the Best BBQ in Texas | Pro Moves",
+    "duration": 857,
+    "url": "https://www.youtube.com/watch?v=wVEUae5TlQM",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "qDy5B_LOhA8",
+    "title": "The Stokes Twins | Hot Ones Versus",
+    "duration": 924,
+    "url": "https://www.youtube.com/watch?v=qDy5B_LOhA8",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "c1gUqLSkhts",
+    "title": "Millie Bobby Brown Petitions Da Bomb While Eating Spicy Wings | Hot Ones",
+    "duration": 1508,
+    "url": "https://www.youtube.com/watch?v=c1gUqLSkhts",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "2jddCtjMfwA",
+    "title": "Can We Make The ULTIMATE Fish and Chips? (England vs. Portugal!) | Hot Kitchen",
+    "duration": 552,
+    "url": "https://www.youtube.com/watch?v=2jddCtjMfwA",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "mv1brPRyNtE",
+    "title": "Penélope Cruz Laughs With Abandon While Eating Spicy Wings | Hot Ones",
+    "duration": 1402,
+    "url": "https://www.youtube.com/watch?v=mv1brPRyNtE",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "jrhlRJGl9dc",
+    "title": "Kenan vs. Kel | Hot Ones Versus",
+    "duration": 1223,
+    "url": "https://www.youtube.com/watch?v=jrhlRJGl9dc",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "lQA4YymkJq8",
+    "title": "John Cena Isn't Sick of \"You Can't See Me\" | Slice Joint",
+    "duration": 873,
+    "url": "https://www.youtube.com/watch?v=lQA4YymkJq8",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "7qgIJVm5Fo4",
+    "title": "David Duchovny Lives the Technicolor Universe While Eating Spicy Wings | Hot Ones",
+    "duration": 1314,
+    "url": "https://www.youtube.com/watch?v=7qgIJVm5Fo4",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "59nl_GHZzRQ",
+    "title": "Adam Richman Eats 126-Year-Old Texas BBQ! | Pro Moves",
+    "duration": 863,
+    "url": "https://www.youtube.com/watch?v=59nl_GHZzRQ",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "l4YIH5BfqhY",
+    "title": "Jackass Plays Hot Ones Wing Pong",
+    "duration": 776,
+    "url": "https://www.youtube.com/watch?v=l4YIH5BfqhY",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "XQDqy9wZlsw",
+    "title": "Jesse Eisenberg Defies Doctor's Orders While Eating Spicy Wings | Hot Ones",
+    "duration": 1380,
+    "url": "https://www.youtube.com/watch?v=XQDqy9wZlsw",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "x5euEIz3rkQ",
+    "title": "Can Mythical Chef Josh Create the ULTIMATE Spicy Burrito? | Heat Eaters",
+    "duration": 859,
+    "url": "https://www.youtube.com/watch?v=x5euEIz3rkQ",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "VTdK7DoFeuo",
+    "title": "Guy Fieri vs. Ryder Fieri | Hot Ones Versus",
+    "duration": 999,
+    "url": "https://www.youtube.com/watch?v=VTdK7DoFeuo",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "lwbbtwE3XBY",
+    "title": "PinkPantheress Needs Ice While Eating Spicy Wings | Hot Ones",
+    "duration": 1491,
+    "url": "https://www.youtube.com/watch?v=lwbbtwE3XBY",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "9_jpF4SlvHE",
+    "title": "Carlos Sainz Rates Tokyo Drift, Talladega Nights, and F1 Movie Clips | Slice Joint",
+    "duration": 933,
+    "url": "https://www.youtube.com/watch?v=9_jpF4SlvHE",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "0Z4oW5V0Y7o",
+    "title": "Camila Mendes vs. Nicholas Galitzine | Hot Ones Versus",
+    "duration": 1017,
+    "url": "https://www.youtube.com/watch?v=0Z4oW5V0Y7o",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "kVJuKJgbfrg",
+    "title": "Ken Thrives Under Pressure While Eating Spicy Wings | Hot Ones",
+    "duration": 196,
+    "url": "https://www.youtube.com/watch?v=kVJuKJgbfrg",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "iTzc6nH5PDg",
+    "title": "Becky G Conquers the Heat While Eating Spicy Wings | Hot Ones",
+    "duration": 1360,
+    "url": "https://www.youtube.com/watch?v=iTzc6nH5PDg",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "iXIaBW1lPSw",
+    "title": "Chase Infiniti vs. Rowan Blanchard | Hot Ones Versus",
+    "duration": 987,
+    "url": "https://www.youtube.com/watch?v=iXIaBW1lPSw",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "uX7h7jBW1Fg",
+    "title": "J Balvin Rides A Heat Rollercoaster While Eating Spicy Wings | Hot Ones",
+    "duration": 1420,
+    "url": "https://www.youtube.com/watch?v=uX7h7jBW1Fg",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "6rXotBDLLyE",
+    "title": "Emily Blunt Is Up to the Challenge While Eating Spicy Wings | Hot Ones",
+    "duration": 1518,
+    "url": "https://www.youtube.com/watch?v=6rXotBDLLyE",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "AxOodSAs5wo",
+    "title": "Esteban Ocon vs. Ollie Bearman | Hot Ones Versus",
+    "duration": 811,
+    "url": "https://www.youtube.com/watch?v=AxOodSAs5wo",
+    "channel": "First We Feast",
+    "verified": true
+   },
+   {
+    "id": "L-uopNDYJ84",
+    "title": "Colin Jost Fights Fire With Fire While Eating Spicy Wings | Hot Ones",
+    "duration": 1597,
+    "url": "https://www.youtube.com/watch?v=L-uopNDYJ84",
+    "channel": "First We Feast",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@TheDiaryOfACEO/videos|2026-11-28": [
+   {
+    "id": "Uj81Qo15wBc",
+    "title": "The Hacker Who Hunts Predators: Do These 3 Things Before You Get Hacked! | Ryan \"0day\" Montgomery",
+    "duration": 6313,
+    "url": "https://www.youtube.com/watch?v=Uj81Qo15wBc",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "4Unch--PmW0",
+    "title": "Billionaire's WARNING: A Recession Starts If These 2 Fail! | Steve Eisman",
+    "duration": 5639,
+    "url": "https://www.youtube.com/watch?v=4Unch--PmW0",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "eocM1C3HfQg",
+    "title": "Senator Bernie Sanders: Iran Wasn't Trump's Idea. Someone Else Pushed Him Into It!",
+    "duration": 5373,
+    "url": "https://www.youtube.com/watch?v=eocM1C3HfQg",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "1mDHHi398ig",
+    "title": "How I Seduce A Man In 5 Seconds!! | John Kiriakou & Aliia Roza",
+    "duration": 7452,
+    "url": "https://www.youtube.com/watch?v=1mDHHi398ig",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "FRoQOzZRcpw",
+    "title": "What Are The Five Lifestyle Habits Destroying Your Brain Right Now?",
+    "duration": 6946,
+    "url": "https://www.youtube.com/watch?v=FRoQOzZRcpw",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "-6PuYw92m1c",
+    "title": "How Did A Homeless 13-Year-Old Become Comedy's Most Fearless Voice?",
+    "duration": 6592,
+    "url": "https://www.youtube.com/watch?v=-6PuYw92m1c",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "a1mI-ozLyYM",
+    "title": "Iran War Expert: \"The 8 Weeks After Midterms Could Be The Most Dangerous!\" | Prof Robert Pape",
+    "duration": 5362,
+    "url": "https://www.youtube.com/watch?v=a1mI-ozLyYM",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "FpIN6tYC5XM",
+    "title": "James Talarico: Here Is How They Designed The System To Keep You Poor!",
+    "duration": 5808,
+    "url": "https://www.youtube.com/watch?v=FpIN6tYC5XM",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "3kuNW8hRc2U",
+    "title": "WW3 Threat Expert: The Warning We Are Ignoring, The Only Way Out Is THIS! | Dr Sarah Paine",
+    "duration": 6102,
+    "url": "https://www.youtube.com/watch?v=3kuNW8hRc2U",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "6VTSAs4Rsck",
+    "title": "Mark Cuban: The Brutal Truth About The Next Market Crash!",
+    "duration": 5494,
+    "url": "https://www.youtube.com/watch?v=6VTSAs4Rsck",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "5x9dkYIRb58",
+    "title": "President Zelenskyy: It's Time To Tell You The Truth About The War! They Found 500 Bodies!",
+    "duration": 6598,
+    "url": "https://www.youtube.com/watch?v=5x9dkYIRb58",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "GlaSnROMqRY",
+    "title": "I Interviewed 1,500 People Before They Died, Here Is What I Found: Dr Christopher Kerr",
+    "duration": 5007,
+    "url": "https://www.youtube.com/watch?v=GlaSnROMqRY",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "yePLuwL3FbM",
+    "title": "Neuroscientist Dr Sahar Yousef: How to Break Phone Addiction and Focus",
+    "duration": 8095,
+    "url": "https://www.youtube.com/watch?v=yePLuwL3FbM",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "IkhmdTqSvJw",
+    "title": "UFO Cover-Up Analyst: The Secret Alien Programs Nobody Is Talking About! | Eric Weinstein",
+    "duration": 6778,
+    "url": "https://www.youtube.com/watch?v=IkhmdTqSvJw",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "qDzg-xvkeXw",
+    "title": "AI Whistleblower: \"They Are Hiding What Is Really Happening\" | Jeffrey Ladish",
+    "duration": 7412,
+    "url": "https://www.youtube.com/watch?v=qDzg-xvkeXw",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "Q-DFC0AnbY4",
+    "title": "Dana White: This Generation Thinks You Can Build A Business From Home, It's Impossible!",
+    "duration": 5292,
+    "url": "https://www.youtube.com/watch?v=Q-DFC0AnbY4",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "UQ3O04Wtqa4",
+    "title": "Shawn Ryan: There's A Battle For Your Soul, It's Happening Right Now",
+    "duration": 5982,
+    "url": "https://www.youtube.com/watch?v=UQ3O04Wtqa4",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "IQ4JVWdj4Q0",
+    "title": "Billionaire's WARNING: If You Grow Faster Than You Can Handle, You WILL Crash! | Adam Neumann",
+    "duration": 8032,
+    "url": "https://www.youtube.com/watch?v=IQ4JVWdj4Q0",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "UhzI1fg8rCA",
+    "title": "Druski: They're Lying To You About Overnight Success!",
+    "duration": 6522,
+    "url": "https://www.youtube.com/watch?v=UhzI1fg8rCA",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "a_GiFiHXJ6g",
+    "title": "Rick Rubin: The Only Skill That Matters Now Is The One Thing AI Can Never Steal!",
+    "duration": 9990,
+    "url": "https://www.youtube.com/watch?v=a_GiFiHXJ6g",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "OhOmLqR5nN4",
+    "title": "AI Experts Debate: The AI Labs Are Lying To Everyone, Is There A 99% Chance Of Human Extinction?",
+    "duration": 8666,
+    "url": "https://www.youtube.com/watch?v=OhOmLqR5nN4",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "C5o3tgr-AgI",
+    "title": "The Man Who Predicted The Iran War: The Next 9/11 Will Target Your Bank Account! | Professor Jiang",
+    "duration": 6469,
+    "url": "https://www.youtube.com/watch?v=C5o3tgr-AgI",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "q2cg1gEYWJQ",
+    "title": "Vanessa Van Edwards: The Conversation Habit That Makes Smart People Unlikable",
+    "duration": 8786,
+    "url": "https://www.youtube.com/watch?v=q2cg1gEYWJQ",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "AcK_zgJjnoo",
+    "title": "Can You Spot A Psychopath In 5 Seconds? The Science Of Dark Personalities",
+    "duration": 6349,
+    "url": "https://www.youtube.com/watch?v=AcK_zgJjnoo",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "MGxcosNuC8k",
+    "title": "Andrew Huberman: The Real Reason You Can't Get Deep Sleep & Wake Up Exhausted",
+    "duration": 8208,
+    "url": "https://www.youtube.com/watch?v=MGxcosNuC8k",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "OYg6BTjb90E",
+    "title": "David Friedberg: The US Empire Is Declining And Socialism Is Coming Next!",
+    "duration": 7491,
+    "url": "https://www.youtube.com/watch?v=OYg6BTjb90E",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "Lf5oqGOCRCM",
+    "title": "The Man Who Calls BS On AI: They’re LYING About AI, 2027 Is When It All Breaks! | Ed Zitron",
+    "duration": 8870,
+    "url": "https://www.youtube.com/watch?v=Lf5oqGOCRCM",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "Ppyt3MptX5k",
+    "title": "Testosterone Expert: The Truth About DAD BOD & Why Women Find Fathers More Attractive!",
+    "duration": 5339,
+    "url": "https://www.youtube.com/watch?v=Ppyt3MptX5k",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "Y43T7VQGtOs",
+    "title": "Konstantin Kisin’s WARNING: Our Leaders Have Lost Control, We’re Headed For Conflict And Violence!",
+    "duration": 5640,
+    "url": "https://www.youtube.com/watch?v=Y43T7VQGtOs",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "Qifsxitq_q4",
+    "title": "Are We Living In A Simulation? The Physics That Proves We Might Be",
+    "duration": 7904,
+    "url": "https://www.youtube.com/watch?v=Qifsxitq_q4",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "dmz--DQty8o",
+    "title": "Fat Loss Scientist: It’s Easy To Lose Weight, But Here’s Why You WON’T Do It! | Dr Andy Galpin",
+    "duration": 7939,
+    "url": "https://www.youtube.com/watch?v=dmz--DQty8o",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "g7AxxkywiFI",
+    "title": "The Quitting Expert: Quit NOW Before AI Makes The Choice For You, This Is a Superpower! | Seth Godin",
+    "duration": 6786,
+    "url": "https://www.youtube.com/watch?v=g7AxxkywiFI",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "1aGpJQ8BMLI",
+    "title": "Top Bitcoin Holder: Why The Last Thing You Want To Save Is Money | Michael Saylor",
+    "duration": 5995,
+    "url": "https://www.youtube.com/watch?v=1aGpJQ8BMLI",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "mF6uk7UOHBM",
+    "title": "Former US Secretary: America Is On The BRINK, And We're Running Out Of Time! | Pete Buttigieg",
+    "duration": 6894,
+    "url": "https://www.youtube.com/watch?v=mF6uk7UOHBM",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "Bu0xNDLNORU",
+    "title": "Ray Dalio: I Predicted 2008, Here's The Move I'd Make Right Now",
+    "duration": 5417,
+    "url": "https://www.youtube.com/watch?v=Bu0xNDLNORU",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "BbGv7GTbRN8",
+    "title": "Vitamin D Expert: The Supplement World Is Giving The WRONG Advice! | Dr Stasha Gominak",
+    "duration": 7220,
+    "url": "https://www.youtube.com/watch?v=BbGv7GTbRN8",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "cxJgLJGHsWc",
+    "title": "Iran War Expert: “I Worry They Will Attack Us On Home Soil!” | Robert Pape",
+    "duration": 6073,
+    "url": "https://www.youtube.com/watch?v=cxJgLJGHsWc",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "HwmwyBgzj8c",
+    "title": "Alex Hormozi’s Warning: Stop Chasing AI, Build This Instead!",
+    "duration": 8558,
+    "url": "https://www.youtube.com/watch?v=HwmwyBgzj8c",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "kBm8Ho-_RXM",
+    "title": "Cancer Researcher: The Overlooked Research Cancer Patients Should Know",
+    "duration": 6337,
+    "url": "https://www.youtube.com/watch?v=kBm8Ho-_RXM",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "_g4l7YkDQwA",
+    "title": "ChatGPT Whistleblower: They Offered Me $2m To Keep Quiet, No One Is Ready For What's Coming!",
+    "duration": 7245,
+    "url": "https://www.youtube.com/watch?v=_g4l7YkDQwA",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "PHpsdIHpLUE",
+    "title": "Neil deGrasse Tyson: The Whistleblowers Were Right About Aliens",
+    "duration": 6530,
+    "url": "https://www.youtube.com/watch?v=PHpsdIHpLUE",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "DM2jRSgjy1o",
+    "title": "WORLD EXCLUSIVE: Dustin Poirier: \"I Deleted Social Media After The Incident",
+    "duration": 5603,
+    "url": "https://www.youtube.com/watch?v=DM2jRSgjy1o",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "6xlmaorRY0w",
+    "title": "The Mitochondria Doctor: This Reverses Gray Hair, Makes You Feel Young Again & Fixes Disease!",
+    "duration": 9518,
+    "url": "https://www.youtube.com/watch?v=6xlmaorRY0w",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "HwVn3WMv5oI",
+    "title": "Women's Fitness Expert: You're Going To End Up With Bone Disease If Pilates Is All You Do!",
+    "duration": 5708,
+    "url": "https://www.youtube.com/watch?v=HwVn3WMv5oI",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "32u5T6lO8qk",
+    "title": "Billionaire's WARNING: I'm SELLING. The Crash Is Already Here!",
+    "duration": 6352,
+    "url": "https://www.youtube.com/watch?v=32u5T6lO8qk",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "MM-Qhlxf1pM",
+    "title": "Dr Rachel Rubin: \"I'm Filled With Rage!\" Your Doctor Was Never Taught About Women's Bodies!",
+    "duration": 6479,
+    "url": "https://www.youtube.com/watch?v=MM-Qhlxf1pM",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "5cKDs7bIGPE",
+    "title": "Vice President JD Vance: They Tricked Me About Trump, I Was Wrong!",
+    "duration": 6465,
+    "url": "https://www.youtube.com/watch?v=5cKDs7bIGPE",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "Jk7RAkFN4vk",
+    "title": "Creatine Expert: Creatine Is The Secret To Weight Loss",
+    "duration": 4533,
+    "url": "https://www.youtube.com/watch?v=Jk7RAkFN4vk",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "Xs94KBeIiAo",
+    "title": "Graham Hancock: They May Have Secretly Found Antarctica  300 Years Before Us!",
+    "duration": 7000,
+    "url": "https://www.youtube.com/watch?v=Xs94KBeIiAo",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "uLBsHXNEwAU",
+    "title": "DEBATE: The Death Of The Middle Class! Only The Top 1% Will Survive!",
+    "duration": 9146,
+    "url": "https://www.youtube.com/watch?v=uLBsHXNEwAU",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "dLrvJeSugkM",
+    "title": "No.1 Christianity Expert: If You DON'T Believe In a God You NEED to Hear This!",
+    "duration": 5175,
+    "url": "https://www.youtube.com/watch?v=dLrvJeSugkM",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "RwlgFC6S-OE",
+    "title": "Ex-Google Officer: You Only Have 3 Years Left Before It Hits! - Mo Gawdat",
+    "duration": 7320,
+    "url": "https://www.youtube.com/watch?v=RwlgFC6S-OE",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "H-8NrKFQKhU",
+    "title": "Kevin O'Leary vs Cenk Uygur: The Fiery AI Debate On Your Job And Your Money",
+    "duration": 6212,
+    "url": "https://www.youtube.com/watch?v=H-8NrKFQKhU",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "qel8Fyt78fk",
+    "title": "Bruno Fernandes: Roy Keane Twisted My Words. They Offered Me £200M, I Said No.",
+    "duration": 5684,
+    "url": "https://www.youtube.com/watch?v=qel8Fyt78fk",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "opB7_JXL0LA",
+    "title": "World-Renowned Physicist: They Are Lying To You About UFOs & Reality - Michio Kaku",
+    "duration": 5952,
+    "url": "https://www.youtube.com/watch?v=opB7_JXL0LA",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "zc8Nh4TMB1s",
+    "title": "Fatty Liver Expert: The Toxic Ingredient Silently Filling Your Liver With Fat - Dr David Unwin",
+    "duration": 7880,
+    "url": "https://www.youtube.com/watch?v=zc8Nh4TMB1s",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "V-z0k5xu1hM",
+    "title": "UFO Roundtable: Former CIA Scientist Proves Aliens Exist!",
+    "duration": 5227,
+    "url": "https://www.youtube.com/watch?v=V-z0k5xu1hM",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "kwEtOyaFhCA",
+    "title": "Pulitzer Historian: The Next Stage Is Democracy Collapse - Anne Applebaum",
+    "duration": 6495,
+    "url": "https://www.youtube.com/watch?v=kwEtOyaFhCA",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "BTJGr78-zyw",
+    "title": "Professor Jiang: Is World War 3 About To Begin?",
+    "duration": 7870,
+    "url": "https://www.youtube.com/watch?v=BTJGr78-zyw",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "NdU6UdUKaYc",
+    "title": "Scott Galloway: The Rich Are Quietly Preparing For The AI Collapse",
+    "duration": 7091,
+    "url": "https://www.youtube.com/watch?v=NdU6UdUKaYc",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "jLFG_FZKbks",
+    "title": "Stock Expert: Becoming Rich Is Simple, But You Won’t Do It!",
+    "duration": 6049,
+    "url": "https://www.youtube.com/watch?v=jLFG_FZKbks",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "PnpHwhTWw0c",
+    "title": "Sex Expert: What Women Actually Need To Enjoy Sex",
+    "duration": 7198,
+    "url": "https://www.youtube.com/watch?v=PnpHwhTWw0c",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "m-nnyNZ0TQ0",
+    "title": "Stanford Neuroscientist: Can’t Remember Your Dreams? Your Brain May Be Warning You!",
+    "duration": 5599,
+    "url": "https://www.youtube.com/watch?v=m-nnyNZ0TQ0",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "jt5hHb6kzYM",
+    "title": "Peptide Expert: Big Pharma Can't Profit From These, So They Were Left In Limbo! What Peptides Do",
+    "duration": 5389,
+    "url": "https://www.youtube.com/watch?v=jt5hHb6kzYM",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "EVts3Ui_0AI",
+    "title": "Global Forecaster: The Brutal 2026 Shift (And The Crisis They Can’t Stop)",
+    "duration": 5982,
+    "url": "https://www.youtube.com/watch?v=EVts3Ui_0AI",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "pDKlaJM_vys",
+    "title": "The Iran War Expert: The Most Dangerous Stage Begins Now (STAGE 4)",
+    "duration": 5809,
+    "url": "https://www.youtube.com/watch?v=pDKlaJM_vys",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "7VxeyTfhBM8",
+    "title": "Ivanka Trump: Most People Can’t Tell Signal From Noise",
+    "duration": 5772,
+    "url": "https://www.youtube.com/watch?v=7VxeyTfhBM8",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "PUO51DoSEqk",
+    "title": "Economist Who Modelled The Iran War: The Food Price Shock Coming & How To Prepare | Steve Keen",
+    "duration": 5629,
+    "url": "https://www.youtube.com/watch?v=PUO51DoSEqk",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "9JxaESJIGO0",
+    "title": "Pierre Poilievre: Why America Is Quietly Abandoning Its Allies (& What Comes Next)",
+    "duration": 6953,
+    "url": "https://www.youtube.com/watch?v=9JxaESJIGO0",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "PyhmvAL-iYw",
+    "title": "Anti-Aging Expert: Stop Touching Receipts Immediately! The Fast Way To Shrink Visceral Fat!",
+    "duration": 9590,
+    "url": "https://www.youtube.com/watch?v=PyhmvAL-iYw",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "Cn8HBj8QAbk",
+    "title": "AI Whistleblower: I've Seen OpenAI's Internal Documents, Here's What They're Not Telling You!",
+    "duration": 7753,
+    "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "DnvWAP99r3Y",
+    "title": "Dr David Sinclair: Can Aging Be Reversed? After 8 Weeks, Cells Appeared 75% Younger In Tests!",
+    "duration": 8947,
+    "url": "https://www.youtube.com/watch?v=DnvWAP99r3Y",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "9uSXOr-AdAU",
+    "title": "Chase Hughes: The 3 \"Dark Psychology\" Tricks To Read Anyone's Mind!",
+    "duration": 6981,
+    "url": "https://www.youtube.com/watch?v=9uSXOr-AdAU",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "fpETS6q1Hww",
+    "title": "Daniel Priestley: AI Will Make Plumbers Earn More Than Lawyers! (2029 PREDICTION)",
+    "duration": 7357,
+    "url": "https://www.youtube.com/watch?v=fpETS6q1Hww",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "xcXfcXJvMXg",
+    "title": "The Iran War Expert: I Simulated The Iran War for 20 Years. Here’s What Happens Next",
+    "duration": 5338,
+    "url": "https://www.youtube.com/watch?v=xcXfcXJvMXg",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "nrwNSSyKuD4",
+    "title": "No.1 Christianity Expert: The Truth About Christianity! The Case For Jesus (Historian's Proof)",
+    "duration": 8814,
+    "url": "https://www.youtube.com/watch?v=nrwNSSyKuD4",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "e9dljIL4rBk",
+    "title": "CIA & Pentagon Insiders: What Really Happens After Trump's Iran Strike | Bustamante, Jacobsen & Radd",
+    "duration": 8212,
+    "url": "https://www.youtube.com/watch?v=e9dljIL4rBk",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "t38LbMVoPCs",
+    "title": "Top Intelligence Advisor: “Epstein Was A Front.” They Can See Everything, Even Your Messages!",
+    "duration": 6289,
+    "url": "https://www.youtube.com/watch?v=t38LbMVoPCs",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "Xm_PHZXGe-w",
+    "title": "They're Lying About 'Healthy' Foods & Sugar! Shocking New Research That's Harming You",
+    "duration": 5735,
+    "url": "https://www.youtube.com/watch?v=Xm_PHZXGe-w",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   },
+   {
+    "id": "s52O1JH2tnU",
+    "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber! - Dara Khosrowshahi",
+    "duration": 6197,
+    "url": "https://www.youtube.com/watch?v=s52O1JH2tnU",
+    "channel": "The Diary Of A CEO",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@ClubShayShay/videos|2026-11-28": [
+   {
+    "id": "rltSp1JbS2A",
+    "title": "Joy Reid EXPOSES How Trump Is Using Nicki Minaj Like Sarah Baartman (Hottentot Venus)",
+    "duration": 523,
+    "url": "https://www.youtube.com/watch?v=rltSp1JbS2A",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "g9UrGPSFRJ4",
+    "title": "Joy Reid on Nicki Minaj, Stephen A. Smith, Racism, President Of The United States, America and Obama",
+    "duration": 8709,
+    "url": "https://www.youtube.com/watch?v=g9UrGPSFRJ4",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "Awi-AGBAP84",
+    "title": "Real Women Make Life Easier & Help You Elevate I CLUB SHAY SHAY",
+    "duration": 502,
+    "url": "https://www.youtube.com/watch?v=Awi-AGBAP84",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "GmBxwy57__s",
+    "title": "Devin Haney On Geronta Davis’ Mental Health & Beef I CLUB SHAY SHAY",
+    "duration": 508,
+    "url": "https://www.youtube.com/watch?v=GmBxwy57__s",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "zNYR8OiSFI8",
+    "title": "Shakur Stevenson REALLY Doesn’t Want Any Smoke With Devin Haney & Beef With Shannon Sharpe",
+    "duration": 680,
+    "url": "https://www.youtube.com/watch?v=zNYR8OiSFI8",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "IBx47M2HJTc",
+    "title": "Devin Haney Has a Rolls-Royce, Richard Mille, Patek Philippe & Millions Thanks to Dad",
+    "duration": 563,
+    "url": "https://www.youtube.com/watch?v=IBx47M2HJTc",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "sUgo0eQBDpc",
+    "title": "Devin Haney Would Fight Adrien Broner I CLUB SHAY SHAY",
+    "duration": 492,
+    "url": "https://www.youtube.com/watch?v=sUgo0eQBDpc",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "zElQ8Y1DTxk",
+    "title": "Ryan Garcia Dropping Devin Haney 3x: “PED Punches.” I CLUB SHAY SHAY",
+    "duration": 485,
+    "url": "https://www.youtube.com/watch?v=zElQ8Y1DTxk",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "cTWXWZTA8Xw",
+    "title": "Devin Haney On Ryan Garcia’s PED Punches, Gervonta Davis Beef, Floyd Mayweather & Shakur Stevenson",
+    "duration": 7886,
+    "url": "https://www.youtube.com/watch?v=cTWXWZTA8Xw",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "pLl6e-TYsPI",
+    "title": "Ice Cube & Mike Epps Get REAL About Marriage, Arguments & Why Social Media Is Ruining Relationships",
+    "duration": 597,
+    "url": "https://www.youtube.com/watch?v=pLl6e-TYsPI",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "T_z-gp-fUR4",
+    "title": "Ice Cube’s First Date With Wife Was At Red Lobster I CLUB SHAY SHAY",
+    "duration": 555,
+    "url": "https://www.youtube.com/watch?v=T_z-gp-fUR4",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "r-Qrx-BMQSE",
+    "title": "Terry Crews Went From Ice Cube’s Bodyguard To Hollywood Star I CLUB SHAY SHAY",
+    "duration": 537,
+    "url": "https://www.youtube.com/watch?v=r-Qrx-BMQSE",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "0vGJb2fDd-M",
+    "title": "Ice Cube Introduced Katt Williams To The World I CLUB SHAY SHAY",
+    "duration": 561,
+    "url": "https://www.youtube.com/watch?v=0vGJb2fDd-M",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "nsIveztMdig",
+    "title": "Ice Cube & Mike Epps DEBATE LeBron’s Wife Flying First Class While Her Friend Flies Business",
+    "duration": 503,
+    "url": "https://www.youtube.com/watch?v=nsIveztMdig",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "PA6308yNozw",
+    "title": "Ice Cube & Mike Epps EXPOSE Why Men Are Only Loved When They Have Money I CLUB SHAY SHAY",
+    "duration": 549,
+    "url": "https://www.youtube.com/watch?v=PA6308yNozw",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "cGD7K18ieKM",
+    "title": "Ice Cube Reveals Hollywood Wanted Tommy Davidson Instead of Chris Tucker as Smokey in Friday",
+    "duration": 571,
+    "url": "https://www.youtube.com/watch?v=cGD7K18ieKM",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "w-7XVKnHaeI",
+    "title": "Mike Epps Had A G*n When He Met Shannon Sharpe I CLUB SHAY SHAY",
+    "duration": 487,
+    "url": "https://www.youtube.com/watch?v=w-7XVKnHaeI",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "Au-sS-KE_9I",
+    "title": "Mike Epps Reacts To Tobey Maguire Officiating Ex-Wife’s Wedding: White People Do Crazy Sh*t",
+    "duration": 703,
+    "url": "https://www.youtube.com/watch?v=Au-sS-KE_9I",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "uzBE1w8N_k4",
+    "title": "“Kevin Hart can turn into a White man.” - Mike Epps I CLUB SHAY SHAY",
+    "duration": 589,
+    "url": "https://www.youtube.com/watch?v=uzBE1w8N_k4",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "dgE7GzKlD8Y",
+    "title": "Mike Epps Still Owes Ice Cube $5,000! I CLUB SHAY SHAY",
+    "duration": 506,
+    "url": "https://www.youtube.com/watch?v=dgE7GzKlD8Y",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "bX5MfthfCpU",
+    "title": "Mike Epps Reacts To Diddy’s Prison Fight I CLUB SHAY SHAY",
+    "duration": 645,
+    "url": "https://www.youtube.com/watch?v=bX5MfthfCpU",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "Njb0Qi5FaIU",
+    "title": "Mike Epps Started Oprah’s Beef With Ice Cube? I CLUB SHAY SHAY",
+    "duration": 512,
+    "url": "https://www.youtube.com/watch?v=Njb0Qi5FaIU",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "7D6QEOsXvEM",
+    "title": "Ice Cube & Mike Epps on Last Friday, Chris Tucker, Katt Williams, Hollywood & Listen & Laugh Podcast",
+    "duration": 6026,
+    "url": "https://www.youtube.com/watch?v=7D6QEOsXvEM",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "ylbGI6S_KrE",
+    "title": "Michael Jackson’s Hair Braided & He Wasn’t A Punk: “He would fight.” I CLUB SHAY SHAY",
+    "duration": 534,
+    "url": "https://www.youtube.com/watch?v=ylbGI6S_KrE",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "396WbAmHxwc",
+    "title": "Michael Jackson Loved White Culture I CLUB SHAY SHAY",
+    "duration": 546,
+    "url": "https://www.youtube.com/watch?v=396WbAmHxwc",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "IK4a0MlMmC0",
+    "title": "Chris Brown Is Carrying Michael Jackson’s Legacy: “He's the closest thing to Michael Jackson.\"",
+    "duration": 514,
+    "url": "https://www.youtube.com/watch?v=IK4a0MlMmC0",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "Cgce8nhkOmM",
+    "title": "Michael Jackson Was Murdered? I CLUB SHAY SHAY",
+    "duration": 964,
+    "url": "https://www.youtube.com/watch?v=Cgce8nhkOmM",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "aF-DZq9Dpyk",
+    "title": "Kobe & Vanessa Bryant: Women Shouldn’t Divorce Cheating Husbands, Says Stephanie Mills",
+    "duration": 539,
+    "url": "https://www.youtube.com/watch?v=aF-DZq9Dpyk",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "DyhzlQN_f3Y",
+    "title": "Oprah Turned On Michael Jackson & Whitney Houston I CLUB SHAY SHAY",
+    "duration": 495,
+    "url": "https://www.youtube.com/watch?v=DyhzlQN_f3Y",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "32e-5LwCNOQ",
+    "title": "Stephanie Mills on Michael Jackson, Oprah, Prince, R&B, Love, Chaka Khan, Diana Ross & Motherhood",
+    "duration": 6600,
+    "url": "https://www.youtube.com/watch?v=32e-5LwCNOQ",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "fOaBLfhErhM",
+    "title": "“Rap Is Dying!” - BigXthaPlug Speaks on Drill Rap & the State of Hip-Hop I CLUB SHAY SHAY",
+    "duration": 525,
+    "url": "https://www.youtube.com/watch?v=fOaBLfhErhM",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "PH9b0GtiTcs",
+    "title": "$80K Diamond Grill vs $80K White Teeth: “I’m closing deals now. I’m making more money.”",
+    "duration": 505,
+    "url": "https://www.youtube.com/watch?v=PH9b0GtiTcs",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "6UzVmDss9-M",
+    "title": "Lizzo Humbled BigXthaPlug At Walmart I CLUB SHAY SHAY",
+    "duration": 495,
+    "url": "https://www.youtube.com/watch?v=6UzVmDss9-M",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "cpQaoluGNLw",
+    "title": "Lil Wayne Stole BigXthaPlug’s Song? I CLUB SHAY SHAY",
+    "duration": 509,
+    "url": "https://www.youtube.com/watch?v=cpQaoluGNLw",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "AFaG_5SrP5k",
+    "title": "BigXthaPlug Was 479lbs Then He Lost 100lbs! I CLUB SHAY SHAY",
+    "duration": 521,
+    "url": "https://www.youtube.com/watch?v=AFaG_5SrP5k",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "eLiyF1s4-OI",
+    "title": "BigXthaPlug Made $1,000,000 From Streaming Last Quarter I CLUB SHAY SHAY",
+    "duration": 543,
+    "url": "https://www.youtube.com/watch?v=eLiyF1s4-OI",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "vi7bXDQSVE0",
+    "title": "“WTF, God. You Gave Me This Gift & Gave My Curse To My Son.” - BigXthaPlug On Son Having Autism",
+    "duration": 544,
+    "url": "https://www.youtube.com/watch?v=vi7bXDQSVE0",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "C1suR1wSoN8",
+    "title": "BigXthaPlug Lives With Mom, Grandma, Sisters & Buying 150 Acres For Family I CLUB SHAY SHAY",
+    "duration": 554,
+    "url": "https://www.youtube.com/watch?v=C1suR1wSoN8",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "FMoQcQDIP6A",
+    "title": "BigXthaPlug On Losing 100 LBS, Fatherhood, Money, Family, Kevin Gates, Shaboozey & Texas Rap",
+    "duration": 7000,
+    "url": "https://www.youtube.com/watch?v=FMoQcQDIP6A",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "Pbw8_CC390M",
+    "title": "Blacks Blame The White Man For 95% Of Their Problems And Still Spend 97% Of Their Money With Them",
+    "duration": 896,
+    "url": "https://www.youtube.com/watch?v=Pbw8_CC390M",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "105L23SYHJw",
+    "title": "Nuri Muhammad On 32 Years Of Marriage & Not Fighting With Wife I CLUB SHAY SHAY",
+    "duration": 572,
+    "url": "https://www.youtube.com/watch?v=105L23SYHJw",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "XAL_rrG6vvY",
+    "title": "Women & Children Can’t Look Up To Dumb, Cowardly & Lazy Men I CLUB SHAY SHAY",
+    "duration": 616,
+    "url": "https://www.youtube.com/watch?v=XAL_rrG6vvY",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "Nv00qJZLnOw",
+    "title": "Men & Women Are Turning Love Into A Transaction I CLUB SHAY SHAY",
+    "duration": 525,
+    "url": "https://www.youtube.com/watch?v=Nv00qJZLnOw",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "jsTVdwnzEOI",
+    "title": "Nuri Muhammad On Love, Relationships, Money & Ownership",
+    "duration": 10151,
+    "url": "https://www.youtube.com/watch?v=jsTVdwnzEOI",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "bnqzqPcnSYI",
+    "title": "Roman Reigns Finally Addresses \"Sufferin’ Succotash\" I CLUB SHAY SHAY",
+    "duration": 487,
+    "url": "https://www.youtube.com/watch?v=bnqzqPcnSYI",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "2l4-_GCxPfo",
+    "title": "Roman Reigns Was Too Nervous To Facebook DM His Future Wife? I CLUB SHAY SHAY",
+    "duration": 590,
+    "url": "https://www.youtube.com/watch?v=2l4-_GCxPfo",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "dsJ2LIUFJfU",
+    "title": "Roman Reigns Shares Crazy Calvin Johnson Stories From Georgia Tech: \"Mossing Everybody!",
+    "duration": 509,
+    "url": "https://www.youtube.com/watch?v=dsJ2LIUFJfU",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "QuX7E_NK1MA",
+    "title": "Roman Reigns Explains His Samoan Tattoos I CLUB SHAY SHAY",
+    "duration": 578,
+    "url": "https://www.youtube.com/watch?v=QuX7E_NK1MA",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "1rXKS0yFzH0",
+    "title": "Roman Reigns On Kardashians, Mayo & “Samoan Steroids” I CLUB SHAY SHAY",
+    "duration": 509,
+    "url": "https://www.youtube.com/watch?v=1rXKS0yFzH0",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "aRxeKg8MSTw",
+    "title": "Roman Reigns On Wife’s Sacrifice & Delivering 2 Sets Of Twins I CLUB SHAY SHAY",
+    "duration": 578,
+    "url": "https://www.youtube.com/watch?v=aRxeKg8MSTw",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "96nXF50WS2M",
+    "title": "Roman Reigns Fires Back At Being Called \"Overrated\" I CLUB SHAY SHAY",
+    "duration": 523,
+    "url": "https://www.youtube.com/watch?v=96nXF50WS2M",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "_oMbG95t2u0",
+    "title": "Roman Reigns Reveals His Top 4 Wrestlers Of All Time: Hulk Hogan, Stone Cold, The Rock, John Cena",
+    "duration": 561,
+    "url": "https://www.youtube.com/watch?v=_oMbG95t2u0",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "_wd3fgexHpk",
+    "title": "Roman Reigns Fires Back at “Overrated” Claims & Talks The Rock, John Cena, Logan Paul, WWE & Wife",
+    "duration": 6036,
+    "url": "https://www.youtube.com/watch?v=_wd3fgexHpk",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "sPEyyOt-U2g",
+    "title": "Gil’s Arena Breaking Up & Gilbert Arenas Fighting For Rashad McCants Over Skip Bayless",
+    "duration": 529,
+    "url": "https://www.youtube.com/watch?v=sPEyyOt-U2g",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "-C63XaQt0bY",
+    "title": "“Gilbert Arenas Ruined My Life.” - Nick \"Swaggy P\" Young On $20K Fine For G*n Celebration",
+    "duration": 494,
+    "url": "https://www.youtube.com/watch?v=-C63XaQt0bY",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "i7CT6pDftns",
+    "title": "Nick “Swaggy P” Young: “Trump Lakers. It’s Too White.” I CLUB SHAY SHAY",
+    "duration": 590,
+    "url": "https://www.youtube.com/watch?v=i7CT6pDftns",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "7KFTEIVCcPc",
+    "title": "Gilbert Arenas Wrecked Swaggy P’s Range Rover, So Swaggy Stole Gil’s Black Card & Spent $40K",
+    "duration": 482,
+    "url": "https://www.youtube.com/watch?v=7KFTEIVCcPc",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "64vAfPGhF8M",
+    "title": "Kendrick Lamar Is Nick \"Swaggy P\" Young’s Cousin & He Needs To Get Drake Again For Barking At Woman",
+    "duration": 512,
+    "url": "https://www.youtube.com/watch?v=64vAfPGhF8M",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "baB_7LycY9Y",
+    "title": "Nick \"Swaggy P\" Young’s Friends Beat Up D’Angelo Russell’s Brother At Lakers Game I CLUB SHAY SHAY",
+    "duration": 583,
+    "url": "https://www.youtube.com/watch?v=baB_7LycY9Y",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "Ix5BhuvzbLk",
+    "title": "Michael Jordan Is 3rd In The GOAT Debate Behind Kobe & LeBron says Nick \"Swaggy P\" Young",
+    "duration": 549,
+    "url": "https://www.youtube.com/watch?v=Ix5BhuvzbLk",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "Ie-iDtP_NjI",
+    "title": "Kobe Threw A Wild Stripper Party For Lakers I CLUB SHAY SHAY",
+    "duration": 673,
+    "url": "https://www.youtube.com/watch?v=Ie-iDtP_NjI",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "2i3tLbO0LYA",
+    "title": "Nick \"Swaggy P\" Young On Kobe Bryant, LeBron James, Lakers, Warriors, Dating, Cheating & NBA Today",
+    "duration": 8418,
+    "url": "https://www.youtube.com/watch?v=2i3tLbO0LYA",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "X2zUCxZMn8A",
+    "title": "Skip Bayless Gets Emotional: “I missed sitting across from you.” I CLUB SHAY SHAY",
+    "duration": 1220,
+    "url": "https://www.youtube.com/watch?v=X2zUCxZMn8A",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "u8Iozt7moiQ",
+    "title": "Skip Bayless Reveals Why He Never Had Kids I CLUB SHAY SHAY",
+    "duration": 623,
+    "url": "https://www.youtube.com/watch?v=u8Iozt7moiQ",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "6nc2aTO-w2w",
+    "title": "Skip Bayless Called The N-Word I CLUB SHAY SHAY",
+    "duration": 537,
+    "url": "https://www.youtube.com/watch?v=6nc2aTO-w2w",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "74xymNcdZ3E",
+    "title": "Black Woman Raised Skip Bayless I CLUB SHAY SHAY",
+    "duration": 587,
+    "url": "https://www.youtube.com/watch?v=74xymNcdZ3E",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "BmqFbT0xzWY",
+    "title": "LeBron CUT, Kobe BENCHED & Jordan START?! Skip Bayless Plays Start, Bench, Cut & His Picks Are Wild!",
+    "duration": 619,
+    "url": "https://www.youtube.com/watch?v=BmqFbT0xzWY",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "po5J-t1czv0",
+    "title": "“Aaron Rodgers Is Washed. He’s Done.” - Skip Bayless I CLUB SHAY SHAY",
+    "duration": 607,
+    "url": "https://www.youtube.com/watch?v=po5J-t1czv0",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "diPKQu6DeHg",
+    "title": "RUSSELL WESTBROOK ISN’T A HALL OF FAMER?! Skip Bayless & Shannon Sharpe Go OFF! I CLUB SHAY SHAY",
+    "duration": 485,
+    "url": "https://www.youtube.com/watch?v=diPKQu6DeHg",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "yFOC8j1mH8o",
+    "title": "LeBron vs. Jordan Gets HEATED | Classic Skip Bayless & Shannon Sharpe Debate I CLUB SHAY SHAY",
+    "duration": 900,
+    "url": "https://www.youtube.com/watch?v=yFOC8j1mH8o",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "Rv-zQhOFrRU",
+    "title": "Skip Bayless & Shannon Sharpe FINALLY Reveal Why “Undisputed” Really Ended I CLUB SHAY SHAY",
+    "duration": 638,
+    "url": "https://www.youtube.com/watch?v=Rv-zQhOFrRU",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "pEWVuow0G64",
+    "title": "Skip Bayless & Shannon Sharpe REACT to the Viral “Put Your Glasses Back On!” I CLUB SHAY SHAY",
+    "duration": 493,
+    "url": "https://www.youtube.com/watch?v=pEWVuow0G64",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "_SGnR-o7K-I",
+    "title": "Skip Bayless & Shannon Sharpe FINALLY REUNITE!!!",
+    "duration": 8525,
+    "url": "https://www.youtube.com/watch?v=_SGnR-o7K-I",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "3qM8UMSJS-8",
+    "title": "Black + Filipino Couples Are Everywhere: Dave Chappelle is a loving guy because his wife is Filipino",
+    "duration": 586,
+    "url": "https://www.youtube.com/watch?v=3qM8UMSJS-8",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "a-f7eBzDzO8",
+    "title": "Joseline Hernandez Turned Down $50K Per Episode To Join The Real I CLUB SHAY SHAY",
+    "duration": 545,
+    "url": "https://www.youtube.com/watch?v=a-f7eBzDzO8",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "A0Er0qAIbhg",
+    "title": "Katt Williams Fed Jo Koy & Let Him Ride In His Limo I CLUB SHAY SHAY",
+    "duration": 506,
+    "url": "https://www.youtube.com/watch?v=A0Er0qAIbhg",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "_JHbcjYS93I",
+    "title": "Jo Koy Bought His Ex-Wife A House: “She’s my best friend.” I CLUB SHAY SHAY",
+    "duration": 566,
+    "url": "https://www.youtube.com/watch?v=_JHbcjYS93I",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "JYLOEQl06GI",
+    "title": "Jo Koy On Tiffany Haddish, Katt, Dave Chappelle, Martin Lawrence, Eddie Murphy & Netflix Special",
+    "duration": 8021,
+    "url": "https://www.youtube.com/watch?v=JYLOEQl06GI",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "fL37l-CtRkg",
+    "title": "Joseline Hernandez Paid $350K By A Man & $50K Nights With Big Meech I CLUB SHAY SHAY",
+    "duration": 501,
+    "url": "https://www.youtube.com/watch?v=fL37l-CtRkg",
+    "channel": "Club Shay Shay",
+    "verified": true
+   },
+   {
+    "id": "sY7MS2JMgr8",
+    "title": "Stevie J Is A Bad Dad? Joseline Hernandez Answers! I CLUB SHAY SHAY",
+    "duration": 563,
+    "url": "https://www.youtube.com/watch?v=sY7MS2JMgr8",
+    "channel": "Club Shay Shay",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@flagrant/videos|2026-11-28": []
  },
  "song_fail": {},
  "pre_vet": {
@@ -54168,6 +59482,66 @@
    "platform": "instagram",
    "category": "comedy",
    "error": "CategoryUnavailable: only 1 distinct source video(s) for comedy, need 2"
+  },
+  {
+   "at": "2026-11-28T22:40:52.218376+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T22:42:21.284527+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T22:42:46.861485+05:30",
+   "platform": "instagram",
+   "category": "music",
+   "error": "CategoryUnavailable: only 0 clean sources for music"
+  },
+  {
+   "at": "2026-11-28T22:43:42.857837+05:30",
+   "platform": "instagram",
+   "category": "marvel",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
+  },
+  {
+   "at": "2026-11-28T22:44:26.604899+05:30",
+   "platform": "instagram",
+   "category": "podcast",
+   "error": "CategoryUnavailable: only 0 clean sources for podcast"
+  },
+  {
+   "at": "2026-11-28T22:45:05.189254+05:30",
+   "platform": "instagram",
+   "category": "comedy",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for comedy, need 2"
+  },
+  {
+   "at": "2026-11-28T22:45:47.043529+05:30",
+   "platform": "instagram",
+   "category": "celebrity",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
+  },
+  {
+   "at": "2026-11-28T22:46:47.357519+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T22:48:07.140552+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-28T22:48:55.089515+05:30",
+   "platform": "instagram",
+   "category": "series",
+   "error": "CategoryUnavailable: no clips of a single title for series"
   }
  ],
  "vet_rules": "no-text-v2"

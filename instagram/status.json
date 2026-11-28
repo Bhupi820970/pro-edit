@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T23:04:42.271842+05:30",
+ "updated": "2026-11-28T23:04:56.924839+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": false,
  "message": "OK",
@@ -1274,19 +1274,6 @@
    "platform": "instagram"
   }
  ],
- "last_run": {
-  "platform": "instagram",
-  "in_progress": true,
-  "made": [
-   "in-romance-20261128-224855"
-  ],
-  "last_video": {
-   "id": "in-romance-20261128-224855",
-   "category": "romance",
-   "title": "Hail, Caesar! Edit | Until I Found You Edit",
-   "at": "2026-11-28T23:04:41.839721+05:30"
-  }
- },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
   "age_hours": 9.0,
@@ -1306,37 +1293,5 @@
   },
   "errors": [],
   "message": "OK"
- },
- "stock": {
-  "updated": "2026-11-28T23:04:46.663127+05:30",
-  "ledger_readable": true,
-  "platforms": {
-   "instagram": {
-    "in_stock": 4,
-    "posted_still_in_stock": 0,
-    "unposted": 4,
-    "unposted_ids": [
-     "in-anime-20261128-211330",
-     "in-dc-20261128-185757",
-     "in-movie-20261128-191301",
-     "in-romance-20261128-224855"
-    ],
-    "posted_total": 11
-   },
-   "youtube": {
-    "in_stock": 6,
-    "posted_still_in_stock": 0,
-    "unposted": 6,
-    "unposted_ids": [
-     "yo-anime-20261128-211330",
-     "yo-dc-20261128-185757",
-     "yo-dc-20261128-224523",
-     "yo-gaming-20261128-173233",
-     "yo-movie-20261128-191301",
-     "yo-romance-20261128-224855"
-    ],
-    "posted_total": 12
-   }
-  }
  }
 }

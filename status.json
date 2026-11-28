@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T23:04:14.179349+05:30",
+ "updated": "2026-11-28T23:05:07.975369+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -17,7 +17,7 @@
    "ready": 4,
    "target": 7,
    "warning": false,
-   "produced_today": 10,
+   "produced_today": 11,
    "per_day": [
     6,
     7
@@ -260,125 +260,6 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-224523.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-224523.preview.mp4"
-  },
-  {
-   "id": "in-series-20261128-162352",
-   "platform": "instagram",
-   "category": "series",
-   "format": "shorts",
-   "state": "ready",
-   "created": "2026-11-28T16:43:38.636328+05:30",
-   "path": "/mnt/ph/instagram/ready/instagram/in-series-20261128-162352.mp4",
-   "preview": "/mnt/ph/instagram/prev/in-series-20261128-162352.mp4",
-   "preview_mb": 22.2,
-   "size_mb": 105.5,
-   "title": "Series Scene Edit | Bad Guy Edit",
-   "hook": "SERIES SCENE EDIT",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Bad Guy\" – Billie Eilish (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=DyDfgMOUjCI\n🎧 Spotify: https://open.spotify.com/search/Billie%20Eilish%20Bad%20Guy\n🎬 Footage: Disney Plus – \"Bloopers | Percy Jackson and the Olympians | Disney+\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#SeriesEdit #TVEdit #WebSeries #OfficialClip",
-   "hashtags": [
-    "SeriesEdit",
-    "TVEdit",
-    "WebSeries",
-    "OfficialClip"
-   ],
-   "song": {
-    "title": "Bad Guy",
-    "artist": "Billie Eilish",
-    "url": "https://www.youtube.com/watch?v=DyDfgMOUjCI",
-    "official_channel": "Billie Eilish",
-    "spotify_search": "https://open.spotify.com/search/Billie%20Eilish%20Bad%20Guy"
-   },
-   "song_credit": "\"Bad Guy\" – Billie Eilish",
-   "pattern": {
-    "id": "P04",
-    "name": "Stepping down beside"
-   },
-   "captions": [
-    "IT'S A DANGEROUS",
-    "WHIRLPOOL THAT APPEARED",
-    "BETWEEN THE MESSINA",
-    "STRAIT BETWEEN SICILY",
-    "AND ITALY",
-    "I DON'T KNOW",
-    "HOW YOU DON'T",
-    "KNOW THIS YOU'RE",
-    "SUCH AN IDIOT",
-    "SHUT UP",
-    "DON'T SAY THAT",
-    "UNLESS YOU MEAN",
-    "IT I",
-    "MEAN IT",
-    "CAN WE JUST",
-    "START THIS SUMMER",
-    "OVER?"
-   ],
-   "duration": 38.73,
-   "sources": [
-    {
-     "id": "WKjmlew8n9c",
-     "src_id": "WKjmlew8n9c",
-     "path": "/mnt/ph/instagram/sources/WKjmlew8n9c.mkv",
-     "title": "Bloopers | Percy Jackson and the Olympians | Disney+",
-     "credit": "Disney Plus",
-     "url": "https://www.youtube.com/watch?v=WKjmlew8n9c"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.73
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2160x3840",
-      "want": "2160x3840"
-     },
-     "min_1080p": {
-      "ok": true,
-      "value": "2160x3840"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -13.1
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": false
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 17
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "timings": {
-    "gather": 426.2,
-    "song": 46.3,
-    "beats": 0.4,
-    "scan_plan": 91.0,
-    "render": 406.1,
-    "gemini_meta": 0.0,
-    "shorts_9x16": 161.9,
-    "qa": 8.9,
-    "preview": 45.8
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-series-20261128-162352.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-series-20261128-162352.preview.mp4"
   },
   {
    "id": "in-dc-20261128-185757",
@@ -1166,6 +1047,279 @@
    "twin_of": "in-anime-20261128-211330",
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-anime-20261128-211330.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-anime-20261128-211330.preview.mp4"
+  },
+  {
+   "id": "in-romance-20261128-224855",
+   "platform": "instagram",
+   "category": "romance",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T23:04:17.410900+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-romance-20261128-224855.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-romance-20261128-224855.mp4",
+   "preview_mb": 21.3,
+   "size_mb": 108.0,
+   "title": "Hail, Caesar! Edit | Until I Found You Edit",
+   "hook": "HE DIDN'T COME TO TALK",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Until I Found You\" – Stephen Sanchez (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=MlThQTo6D8A\n🎧 Spotify: https://open.spotify.com/search/Stephen%20Sanchez%20Until%20I%20Found%20You\n🎬 Footage: Universal Pictures – \"Hail, Caesar! | Channing Tatum Tap Dances to \"No Dames\"\"; Universal Pictures – \"Hail, Caesar! | Director Lorentz Has the Western Actor Confused for his Extravagant Scene\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#RomanceEdit #LoveStory #MovieEdit",
+   "hashtags": [
+    "RomanceEdit",
+    "LoveStory",
+    "MovieEdit"
+   ],
+   "song": {
+    "title": "Until I Found You",
+    "artist": "Stephen Sanchez",
+    "url": "https://www.youtube.com/watch?v=MlThQTo6D8A",
+    "official_channel": "Stephen Sanchez",
+    "spotify_search": "https://open.spotify.com/search/Stephen%20Sanchez%20Until%20I%20Found%20You"
+   },
+   "song_credit": "\"Until I Found You\" – Stephen Sanchez",
+   "pattern": {
+    "id": "P14",
+    "name": "Upper + nudge, bold keys"
+   },
+   "captions": [
+    "AND BUDDY FLYNN",
+    "WAS A BAND",
+    "LEADER WITH A",
+    "LONG HISTORY OF",
+    "NARCOTICS",
+    "YEAH",
+    "YEAH",
+    "THAT'S WHAT I'M",
+    "SAYING",
+    "THEY WERE BOTH",
+    "LOUSES",
+    "MARRYING A THIRD",
+    "LOUSE AIN'T GONNA",
+    "DO ME NO",
+    "GOOD",
+    "WELL",
+    "I COULD DO",
+    "SOME",
+    "THE PICTURES DO",
+    "WELL FOR ALL",
+    "OF US AND",
+    "IT'S A TRIBUTE",
+    "TO YOU",
+    "THE PUBLIC LOVES",
+    "YOU BECAUSE THEY",
+    "KNOW HOW INNOCENT",
+    "YOU ARE"
+   ],
+   "duration": 38.63,
+   "sources": [
+    {
+     "id": "f3PQBHAZ3Rg",
+     "src_id": "f3PQBHAZ3Rg",
+     "path": "/mnt/ph/instagram/sources/f3PQBHAZ3Rg.mkv",
+     "title": "Hail, Caesar! | Channing Tatum Tap Dances to \"No Dames\"",
+     "credit": "Universal Pictures",
+     "url": "https://www.youtube.com/watch?v=f3PQBHAZ3Rg"
+    },
+    {
+     "id": "HA9c9sVvmYk_c00",
+     "src_id": "HA9c9sVvmYk",
+     "path": "/mnt/ph/instagram/sources/chunks/HA9c9sVvmYk_c00.mkv",
+     "title": "Hail, Caesar! | Director Lorentz Has the Western Actor Confused for his Extravagant Scene",
+     "credit": "Universal Pictures",
+     "url": "https://www.youtube.com/watch?v=HA9c9sVvmYk"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.63
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -15.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 27
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 89.2,
+    "song": 38.4,
+    "beats": 8.4,
+    "scan_plan": 151.5,
+    "render": 385.0,
+    "gemini_meta": 31.6,
+    "shorts_9x16": 164.1,
+    "qa": 9.2,
+    "preview": 44.9
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-romance-20261128-224855.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-romance-20261128-224855.preview.mp4"
+  },
+  {
+   "id": "yo-romance-20261128-224855",
+   "platform": "youtube",
+   "category": "romance",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T23:04:17.410900+05:30",
+   "path": "/mnt/ph/instagram/ready/youtube/yo-romance-20261128-224855.mp4",
+   "preview": "/mnt/ph/instagram/prev/yo-romance-20261128-224855.mp4",
+   "preview_mb": 21.3,
+   "size_mb": 108.0,
+   "title": "Hail, Caesar! Edit | Until I Found You Edit",
+   "hook": "HE DIDN'T COME TO TALK",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Until I Found You\" – Stephen Sanchez (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=MlThQTo6D8A\n🎧 Spotify: https://open.spotify.com/search/Stephen%20Sanchez%20Until%20I%20Found%20You\n🎬 Footage: Universal Pictures – \"Hail, Caesar! | Channing Tatum Tap Dances to \"No Dames\"\"; Universal Pictures – \"Hail, Caesar! | Director Lorentz Has the Western Actor Confused for his Extravagant Scene\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#RomanceEdit #LoveStory #MovieEdit",
+   "hashtags": [
+    "RomanceEdit",
+    "LoveStory",
+    "MovieEdit"
+   ],
+   "song": {
+    "title": "Until I Found You",
+    "artist": "Stephen Sanchez",
+    "url": "https://www.youtube.com/watch?v=MlThQTo6D8A",
+    "official_channel": "Stephen Sanchez",
+    "spotify_search": "https://open.spotify.com/search/Stephen%20Sanchez%20Until%20I%20Found%20You"
+   },
+   "song_credit": "\"Until I Found You\" – Stephen Sanchez",
+   "pattern": {
+    "id": "P14",
+    "name": "Upper + nudge, bold keys"
+   },
+   "captions": [
+    "AND BUDDY FLYNN",
+    "WAS A BAND",
+    "LEADER WITH A",
+    "LONG HISTORY OF",
+    "NARCOTICS",
+    "YEAH",
+    "YEAH",
+    "THAT'S WHAT I'M",
+    "SAYING",
+    "THEY WERE BOTH",
+    "LOUSES",
+    "MARRYING A THIRD",
+    "LOUSE AIN'T GONNA",
+    "DO ME NO",
+    "GOOD",
+    "WELL",
+    "I COULD DO",
+    "SOME",
+    "THE PICTURES DO",
+    "WELL FOR ALL",
+    "OF US AND",
+    "IT'S A TRIBUTE",
+    "TO YOU",
+    "THE PUBLIC LOVES",
+    "YOU BECAUSE THEY",
+    "KNOW HOW INNOCENT",
+    "YOU ARE"
+   ],
+   "duration": 38.63,
+   "sources": [
+    {
+     "id": "f3PQBHAZ3Rg",
+     "src_id": "f3PQBHAZ3Rg",
+     "path": "/mnt/ph/instagram/sources/f3PQBHAZ3Rg.mkv",
+     "title": "Hail, Caesar! | Channing Tatum Tap Dances to \"No Dames\"",
+     "credit": "Universal Pictures",
+     "url": "https://www.youtube.com/watch?v=f3PQBHAZ3Rg"
+    },
+    {
+     "id": "HA9c9sVvmYk_c00",
+     "src_id": "HA9c9sVvmYk",
+     "path": "/mnt/ph/instagram/sources/chunks/HA9c9sVvmYk_c00.mkv",
+     "title": "Hail, Caesar! | Director Lorentz Has the Western Actor Confused for his Extravagant Scene",
+     "credit": "Universal Pictures",
+     "url": "https://www.youtube.com/watch?v=HA9c9sVvmYk"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.63
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -15.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 27
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 89.2,
+    "song": 38.4,
+    "beats": 8.4,
+    "scan_plan": 151.5,
+    "render": 385.0,
+    "gemini_meta": 31.6,
+    "shorts_9x16": 164.1,
+    "qa": 9.2,
+    "preview": 44.9
+   },
+   "twin_of": "in-romance-20261128-224855",
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-romance-20261128-224855.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-romance-20261128-224855.preview.mp4"
   }
  ],
  "approved": [],
@@ -1261,66 +1415,6 @@
    "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
   },
   {
-   "at": "2026-11-28T15:22:39.384119+05:30",
-   "platform": "instagram",
-   "category": "sports",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T16:05:46.813372+05:30",
-   "platform": "instagram",
-   "category": "sports",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T16:23:52.076910+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T18:55:29.585014+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T18:57:56.220249+05:30",
-   "platform": "instagram",
-   "category": "celebrity",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
-  },
-  {
-   "at": "2026-11-28T20:03:24.985640+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T20:07:41.900279+05:30",
-   "platform": "instagram",
-   "category": "marvel",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
-  },
-  {
-   "at": "2026-11-28T20:28:37.642534+05:30",
-   "platform": "instagram",
-   "category": "anime",
-   "error": "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[23.833333, 26.733333]], \"ending_black\": true}}"
-  },
-  {
-   "at": "2026-11-28T20:42:11.376406+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T21:01:59.675509+05:30",
-   "platform": "instagram",
-   "category": "movie",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
-  },
-  {
    "at": "2026-11-28T21:07:13.473349+05:30",
    "platform": "instagram",
    "category": "movie",
@@ -1349,6 +1443,66 @@
    "platform": "instagram",
    "category": "comedy",
    "error": "CategoryUnavailable: only 1 distinct source video(s) for comedy, need 2"
+  },
+  {
+   "at": "2026-11-28T22:40:52.218376+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T22:42:21.284527+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T22:42:46.861485+05:30",
+   "platform": "instagram",
+   "category": "music",
+   "error": "CategoryUnavailable: only 0 clean sources for music"
+  },
+  {
+   "at": "2026-11-28T22:43:42.857837+05:30",
+   "platform": "instagram",
+   "category": "marvel",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
+  },
+  {
+   "at": "2026-11-28T22:44:26.604899+05:30",
+   "platform": "instagram",
+   "category": "podcast",
+   "error": "CategoryUnavailable: only 0 clean sources for podcast"
+  },
+  {
+   "at": "2026-11-28T22:45:05.189254+05:30",
+   "platform": "instagram",
+   "category": "comedy",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for comedy, need 2"
+  },
+  {
+   "at": "2026-11-28T22:45:47.043529+05:30",
+   "platform": "instagram",
+   "category": "celebrity",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
+  },
+  {
+   "at": "2026-11-28T22:46:47.357519+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T22:48:07.140552+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "CategoryUnavailable: no clips of a single star player for sports"
+  },
+  {
+   "at": "2026-11-28T22:48:55.089515+05:30",
+   "platform": "instagram",
+   "category": "series",
+   "error": "CategoryUnavailable: no clips of a single title for series"
   }
  ],
  "box_fetcher": {

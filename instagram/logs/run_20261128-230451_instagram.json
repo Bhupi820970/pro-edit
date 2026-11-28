@@ -1,0 +1,412 @@
+{
+ "platform": "instagram",
+ "made": [
+  "in-romance-20261128-224855"
+ ],
+ "failures": [
+  "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt",
+  "CategoryUnavailable: only 0 clean sources for gta",
+  "CategoryUnavailable: only 0 clean sources for music",
+  "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2",
+  "CategoryUnavailable: only 0 clean sources for podcast",
+  "CategoryUnavailable: only 1 distinct source video(s) for comedy, need 2",
+  "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2",
+  "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2",
+  "CategoryUnavailable: no clips of a single star player for sports",
+  "CategoryUnavailable: no clips of a single title for series"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 600.0,
+    "total": 600.0
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 89.1,
+    "total": 89.1
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "music",
+   "ok": false,
+   "timings": {
+    "gather": 25.6,
+    "total": 25.6
+   }
+  },
+  {
+   "attempt": 4,
+   "category": "marvel",
+   "ok": false,
+   "timings": {
+    "gather": 57.1,
+    "total": 57.1
+   }
+  },
+  {
+   "attempt": 5,
+   "category": "podcast",
+   "ok": false,
+   "timings": {
+    "gather": 42.6,
+    "total": 42.6
+   }
+  },
+  {
+   "attempt": 6,
+   "category": "comedy",
+   "ok": false,
+   "timings": {
+    "gather": 39.7,
+    "total": 39.7
+   }
+  },
+  {
+   "attempt": 7,
+   "category": "celebrity",
+   "ok": false,
+   "timings": {
+    "gather": 42.0,
+    "total": 42.0
+   }
+  },
+  {
+   "attempt": 8,
+   "category": "movie",
+   "ok": false,
+   "timings": {
+    "gather": 60.2,
+    "total": 60.2
+   }
+  },
+  {
+   "attempt": 9,
+   "category": "sports",
+   "ok": false,
+   "timings": {
+    "gather": 78.7,
+    "total": 78.7
+   }
+  },
+  {
+   "attempt": 10,
+   "category": "series",
+   "ok": false,
+   "timings": {
+    "gather": 47.9,
+    "total": 47.9
+   }
+  },
+  {
+   "attempt": 11,
+   "category": "romance",
+   "ok": true,
+   "timings": {
+    "gather": 89.2,
+    "song": 38.4,
+    "beats": 8.4,
+    "scan_plan": 151.5,
+    "render": 385.0,
+    "gemini_meta": 31.6,
+    "shorts_9x16": 164.1,
+    "qa": 9.2,
+    "preview": 44.9,
+    "save": 30.5,
+    "total": 952.8
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 1172.1,
+  "song": 38.4,
+  "beats": 8.4,
+  "scan_plan": 151.5,
+  "render": 385.0,
+  "gemini_meta": 31.6,
+  "shorts_9x16": 164.1,
+  "qa": 9.2,
+  "preview": 44.9,
+  "save": 30.5
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 5,
+  "vetted": 8,
+  "rejected": [
+   {
+    "id": "pEXMP0apxDc",
+    "title": "GTA 6 - 6-Star Airport Cop Shootout",
+    "reasons": [
+     "hud_overlay",
+     "flag:hud_overlay",
+     "not official/full quality"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "qmye5Yibemw",
+    "title": "Robbing EVERY MALL in GTA 6 (No Cops, 100% Stealth)",
+    "reasons": [
+     "burned-in subtitles",
+     "persistent game HUD (minimap, health bars, money counters)",
+     "flag:burned_subtitles",
+     "flag:hud_overlay",
+     "flag:text_overlay",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "TDjFSCO9Vng",
+    "title": "GTA 6 Jason visits Mandy after finishing Story - Grand Theft Auto 6",
+    "reasons": [
+     "persistent watermark",
+     "burned-in subtitles",
+     "HUD overlay",
+     "flag:watermark",
+     "flag:channel_logo",
+     "flag:burned_subtitles",
+     "flag:hud_overlay",
+     "not official/full quality",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "UfNu7pcR0e8",
+    "title": "Avengers: Doomsday | In Theaters December 18",
+    "reasons": [
+     "Content is a trailer/promo, not a full scene or clip",
+     "Contains title card with text overlay",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "qb4Rfj1wp0Q",
+    "title": "Love Story (1/10) Movie CLIP - I Like Your Body (1970) HD",
+    "reasons": [
+     "only 720p (< 1080p)"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "7e6DCyXotE0",
+    "title": "Love Story (8/10) Movie CLIP - Be Strong and Merry (1970) HD",
+    "reasons": [
+     "only 720p (< 1080p)"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "f3PQBHAZ3Rg",
+    "title": "Hail, Caesar! | Channing Tatum Tap Dances to \"No Dames\"",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "HA9c9sVvmYk",
+    "title": "Hail, Caesar! | Director Lorentz Has the Western Actor Confused for his Extravagant Scene",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "gta",
+   "music",
+   "marvel",
+   "podcast",
+   "comedy",
+   "celebrity",
+   "movie",
+   "sports",
+   "series",
+   "romance"
+  ],
+  "runner_skipped": 488,
+  "box_clips_used": 5,
+  "failed_ids": [
+   "sPLD6LS_TIk",
+   "aLUGHQq2aek",
+   "7oFmRN0oadI",
+   "DyQ5MNkl6SA",
+   "QYAMp13Yi04"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  }
+ ],
+ "skipped_categories": [
+  "celebrity",
+  "comedy",
+  "gta",
+  "marvel",
+  "movie",
+  "music",
+  "podcast",
+  "series",
+  "sports"
+ ],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0
+  },
+  "exhausted": true,
+  "reset_at": "2026-11-29 13:30 IST"
+ }
+}
