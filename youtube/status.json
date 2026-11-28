@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T17:51:29.560300+05:30",
+ "updated": "2026-11-28T17:51:42.031173+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (3/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -539,20 +539,6 @@
    "platform": "youtube"
   }
  ],
- "last_run": {
-  "platform": "youtube",
-  "in_progress": true,
-  "made": [
-   "yo-gaming-20261128-171320",
-   "yo-gaming-20261128-173233"
-  ],
-  "last_video": {
-   "id": "yo-gaming-20261128-173233",
-   "category": "gaming",
-   "title": "Gaming Edit | Sail Edit",
-   "at": "2026-11-28T17:51:29.112438+05:30"
-  }
- },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
   "age_hours": 3.7,
@@ -572,32 +558,5 @@
   },
   "errors": [],
   "message": "OK"
- },
- "stock": {
-  "updated": "2026-11-28T17:51:33.112384+05:30",
-  "ledger_readable": true,
-  "platforms": {
-   "instagram": {
-    "in_stock": 2,
-    "posted_still_in_stock": 0,
-    "unposted": 2,
-    "unposted_ids": [
-     "in-series-20261128-162352",
-     "in-sports-20261128-160547"
-    ],
-    "posted_total": 9
-   },
-   "youtube": {
-    "in_stock": 3,
-    "posted_still_in_stock": 0,
-    "unposted": 3,
-    "unposted_ids": [
-     "yo-gaming-20261128-151536",
-     "yo-gaming-20261128-171320",
-     "yo-gaming-20261128-173233"
-    ],
-    "posted_total": 10
-   }
-  }
  }
 }

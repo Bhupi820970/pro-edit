@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-28T16:44:16.168380+05:30",
+ "updated": "2026-11-28T17:52:01.442533+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
-   "ready": 1,
+   "ready": 3,
    "target": 7,
    "warning": true,
-   "produced_today": 5,
+   "produced_today": 7,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (1/7 ready)"
+   "message": "BACKUP LOW: refill youtube (3/7 ready)"
   },
   "instagram": {
    "ready": 2,
@@ -146,6 +146,222 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-151536.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-151536.preview.mp4"
+  },
+  {
+   "id": "yo-gaming-20261128-171320",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-28T17:32:09.164519+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-171320.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-171320.mp4",
+   "preview_mb": 22.4,
+   "size_mb": 243.5,
+   "title": "Gaming Edit | Believer Edit",
+   "hook": "GAMING EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Believer\" – Imagine Dragons (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Imagine%20Dragons%20Believer\n🎬 Footage: PlayStation – \"Marvel's Spider-Man 2 - The Story So Far | PS5 Games\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Imagine%20Dragons%20Believer"
+   },
+   "song_credit": "\"Believer\" – Imagine Dragons",
+   "pattern": {
+    "id": "P02",
+    "name": "Beside-upper"
+   },
+   "captions": [
+    "I LEARNED HOW",
+    "TO BE A",
+    "SPIDER MAN FROM",
+    "THE OG",
+    "BUT I LEARNED",
+    "HOW TO BE",
+    "A HERO",
+    "FOR MY",
+    "DAD",
+    "A HERO IS",
+    "SOMEONE WHO DOESN'T",
+    "GIVE UP",
+    "THOUGH",
+    "AND I DON'T",
+    "PLAN TO"
+   ],
+   "duration": 38.53,
+   "sources": [
+    {
+     "id": "YeMRixqvjog",
+     "src_id": "YeMRixqvjog",
+     "path": "/mnt/ph/youtube/sources/YeMRixqvjog.mkv",
+     "title": "Marvel's Spider-Man 2 - The Story So Far | PS5 Games",
+     "credit": "PlayStation",
+     "url": "https://www.youtube.com/watch?v=YeMRixqvjog"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.53
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.4
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 15
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 203.6,
+    "song": 23.9,
+    "beats": 9.2,
+    "scan_plan": 125.8,
+    "render": 462.4,
+    "gemini_meta": 0.0,
+    "wide_4k": 231.0,
+    "qa": 14.9,
+    "preview": 57.5
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-171320.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-171320.preview.mp4"
+  },
+  {
+   "id": "yo-gaming-20261128-173233",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-28T17:51:09.298119+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-173233.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-173233.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 244.8,
+   "title": "Gaming Edit | Sail Edit",
+   "hook": "GAMING EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sail\" – AWOLNATION (original recording)\n🔗 Official audio: https://soundcloud.com/awolnation/10-sail\n🎧 Spotify: https://open.spotify.com/search/AWOLNATION%20Sail\n🎬 Footage: HALO – \"Halo Infinite | Campaign Opening Cutscene\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Sail",
+    "artist": "AWOLNATION",
+    "url": "https://soundcloud.com/awolnation/10-sail",
+    "official_channel": "AWOLNATION",
+    "spotify_search": "https://open.spotify.com/search/AWOLNATION%20Sail"
+   },
+   "song_credit": "\"Sail\" – AWOLNATION",
+   "pattern": {
+    "id": "P14",
+    "name": "Upper + nudge, bold keys"
+   },
+   "captions": [],
+   "duration": 38.4,
+   "sources": [
+    {
+     "id": "pHJmfFFsYLs",
+     "src_id": "pHJmfFFsYLs",
+     "path": "/mnt/ph/youtube/sources/pHJmfFFsYLs.mkv",
+     "title": "Halo Infinite | Campaign Opening Cutscene",
+     "credit": "HALO",
+     "url": "https://www.youtube.com/watch?v=pHJmfFFsYLs"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.4
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -7.9
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 109.2,
+    "song": 39.3,
+    "beats": 0.5,
+    "scan_plan": 29.7,
+    "render": 631.9,
+    "gemini_meta": 0.0,
+    "wide_4k": 234.7,
+    "qa": 13.7,
+    "preview": 56.6
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-173233.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-173233.preview.mp4"
   },
   {
    "id": "in-sports-20261128-160547",
@@ -386,18 +602,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-28T10:05:04.161661+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[17.366667, 17.633333]], \"ending_black\": true}, \"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
-  },
-  {
-   "at": "2026-11-28T11:35:17.829174+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
    "at": "2026-11-28T11:35:32.645457+05:30",
    "platform": "youtube",
    "category": "gta",
@@ -474,6 +678,18 @@
    "platform": "youtube",
    "category": "gta",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T17:07:37.312679+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T17:13:20.682340+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   },
   {
    "at": "2026-11-27T15:03:12.160839+05:30",
@@ -568,7 +784,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 2.3,
+  "age_hours": 3.7,
   "healthy": true,
   "pool": {
    "gta": 3,
@@ -587,5 +803,5 @@
   "message": "OK"
  },
  "warning": true,
- "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (2/7 ready)"
+ "message": "BACKUP LOW: refill youtube (3/7 ready) | BACKUP LOW: refill instagram (2/7 ready)"
 }

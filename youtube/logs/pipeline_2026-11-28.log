@@ -1,104 +1,113 @@
-[2026-11-28 15:52:00 IST] pull-sources: +132 clips, 7 accepted / 125 unvetted listed, 8.4 GB local
-[2026-11-28 15:52:02 IST] === yo-gta-20261128-155202: platform=youtube category=gta format=wide seed=192842677
-[2026-11-28 15:52:39 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] DyQ5MNkl6SA: This content isn’t available.
-[2026-11-28 15:53:18 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] DyQ5MNkl6SA: This content isn’t available.
-[2026-11-28 15:53:29 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 15:53:52 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] StEaAZ_Ywj4: This content isn’t available.
-[2026-11-28 15:54:32 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] StEaAZ_Ywj4: This content isn’t available.
-[2026-11-28 15:54:43 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 15:54:49 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 15:55:13 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] 6E2cBXFCDyQ: This content isn’t available.
-[2026-11-28 15:55:52 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] 6E2cBXFCDyQ: This content isn’t available.
-[2026-11-28 15:56:03 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 15:56:26 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] lqiZdynJmag: This content isn’t available.
-[2026-11-28 15:57:05 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] lqiZdynJmag: This content isn’t available.
-[2026-11-28 15:57:16 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 15:57:39 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] ZQzIZkxsWYw: This content isn’t available.
-[2026-11-28 15:58:18 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] ZQzIZkxsWYw: This content isn’t available.
-[2026-11-28 15:58:29 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 15:58:51 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] UUmKwJD76GY: This content isn’t available.
-[2026-11-28 15:59:31 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] UUmKwJD76GY: This content isn’t available.
-[2026-11-28 15:59:43 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:00:05 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] 8-DRGbQ1IXc: This content isn’t available.
-[2026-11-28 16:00:44 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] 8-DRGbQ1IXc: This content isn’t available.
-[2026-11-28 16:00:56 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:01:17 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] 1xlr3-hK5rY: This content isn’t available.
-[2026-11-28 16:01:56 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] 1xlr3-hK5rY: This content isn’t available.
-[2026-11-28 16:02:02 IST] attempt failed, retrying with different sources/song: AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt
-[2026-11-28 16:02:02 IST] attempt 1 FAIL in 600s: gather=600s
-[2026-11-28 16:02:02 IST] === yo-gta-20261128-160202: platform=youtube category=gta format=wide seed=169338242
-[2026-11-28 16:02:37 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] kMCtod_2iQ0: This content isn’t available.
-[2026-11-28 16:03:16 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] kMCtod_2iQ0: This content isn’t available.
-[2026-11-28 16:03:28 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:03:51 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] H4rYVsJ4v9Y: This content isn’t available.
-[2026-11-28 16:04:30 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] H4rYVsJ4v9Y: This content isn’t available.
-[2026-11-28 16:04:41 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:05:04 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] DyQ5MNkl6SA: This content isn’t available.
-[2026-11-28 16:05:43 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] DyQ5MNkl6SA: This content isn’t available.
-[2026-11-28 16:05:55 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:06:17 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] StEaAZ_Ywj4: This content isn’t available.
-[2026-11-28 16:06:57 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] StEaAZ_Ywj4: This content isn’t available.
-[2026-11-28 16:07:08 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:07:31 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] 5Xciiq7RJ7g: This content isn’t available.
-[2026-11-28 16:08:10 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] 5Xciiq7RJ7g: This content isn’t available.
-[2026-11-28 16:08:22 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:08:33 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:08:34 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:08:35 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:08:59 IST] pre-vet REJECT [5Xciiq7RJ7g] GTA Online Casino Heist: Stealing Diamonds $3,619,000 | Silent & Sneak — on-screen text overlay over the footage
-[2026-11-28 16:09:21 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] lqiZdynJmag: This content isn’t available.
-[2026-11-28 16:10:01 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] lqiZdynJmag: This content isn’t available.
-[2026-11-28 16:10:12 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:10:35 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] lEQ4XD8KuUs: This content isn’t available.
-[2026-11-28 16:11:14 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] lEQ4XD8KuUs: This content isn’t available.
-[2026-11-28 16:11:26 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:11:49 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] QDUDnv3WbqY: This content isn’t available.
-[2026-11-28 16:12:02 IST] attempt failed, retrying with different sources/song: AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt
-[2026-11-28 16:12:02 IST] attempt 2 FAIL in 600s: gather=600s
-[2026-11-28 16:12:02 IST] === yo-gta-20261128-161202: platform=youtube category=gta format=wide seed=260949249
-[2026-11-28 16:12:37 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] vAAvocR04_Y: This content isn’t available.
-[2026-11-28 16:13:15 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] vAAvocR04_Y: This content isn’t available.
-[2026-11-28 16:13:27 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:13:50 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] H4rYVsJ4v9Y: This content isn’t available.
-[2026-11-28 16:14:29 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] H4rYVsJ4v9Y: This content isn’t available.
-[2026-11-28 16:14:41 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:15:04 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] lX_IN4v-RnA: This content isn’t available.
-[2026-11-28 16:15:43 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] lX_IN4v-RnA: This content isn’t available.
-[2026-11-28 16:15:54 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:16:17 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] tyDRtSUYTRs: This content isn’t available.
-[2026-11-28 16:16:56 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] tyDRtSUYTRs: This content isn’t available.
-[2026-11-28 16:17:07 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:17:30 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] foUaOCzfIRU: This content isn’t available.
-[2026-11-28 16:18:08 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] foUaOCzfIRU: This content isn’t available.
-[2026-11-28 16:18:20 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:18:42 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] QYAMp13Yi04: This content isn’t available.
-[2026-11-28 16:19:22 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] QYAMp13Yi04: This content isn’t available.
-[2026-11-28 16:19:33 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:19:57 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] wiW1mpHZb_Y: This content isn’t available.
-[2026-11-28 16:20:35 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] wiW1mpHZb_Y: This content isn’t available.
-[2026-11-28 16:20:47 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:20:53 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 16:21:16 IST] yt-dlp attempt 1/5 failed: ERROR: [youtube] VNbONMSObfs: This content isn’t available.
-[2026-11-28 16:21:56 IST] yt-dlp attempt 2/5 failed: ERROR: [youtube] VNbONMSObfs: This content isn’t available.
-[2026-11-28 16:22:02 IST] attempt failed, retrying with different sources/song: AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt
-[2026-11-28 16:22:02 IST] attempt 3 FAIL in 600s: gather=600s
-[2026-11-28 16:22:02 IST] time budget reached (30 min left < 30 min for one more attempt)
-[2026-11-28 16:22:02 IST] step totals over 3 attempts: gather=30.0min -> slowest step: gather
-[2026-11-28 16:22:02 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:22:24 IST] gemini: answered by backup model gemma-4-31b-it (key6)
-[2026-11-28 16:22:24 IST] queued box fetch request youtube-202611281622-gta
-[2026-11-28 16:22:24 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:22:42 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:22:42 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:23:11 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:23:11 IST] gemini key12/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:23:11 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:23:12 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:23:12 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:23:12 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 16:23:35 IST] gemini: answered by backup model gemma-4-31b-it (key4)
-[2026-11-28 16:23:35 IST] queued box fetch request youtube-202611281622-gaming
-[2026-11-28 16:23:38 IST] cleanup sweep: freed 0.0 MB (0 files)
-[2026-11-28 16:23:38 IST] done: 0 made, 3 failed attempts; youtube buffer 1/7 — BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
-[2026-11-28 16:23:38 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
-[2026-11-28 16:23:40 IST] vc-ready manifest: 2 videos
+[2026-11-28 17:02:04 IST] pull-sources: +132 clips, 7 accepted / 125 unvetted listed, 8.4 GB local
+[2026-11-28 17:02:33 IST] === yo-gta-20261128-170233: platform=youtube category=gta format=wide seed=575215611
+[2026-11-28 17:02:49 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] UUmKwJD76GY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 17:02:59 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] UUmKwJD76GY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 17:02:59 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 17:03:01 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] StEaAZ_Ywj4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 17:03:11 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] StEaAZ_Ywj4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 17:03:11 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 17:03:13 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] QYAMp13Yi04: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 17:03:23 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] QYAMp13Yi04: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 17:03:23 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 17:03:28 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
+[2026-11-28 17:03:30 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] lEQ4XD8KuUs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 17:03:39 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] lEQ4XD8KuUs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 17:03:39 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 17:03:39 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
+[2026-11-28 17:03:40 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:04:01 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:04:01 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:04:18 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:04:19 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:04:19 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:04:19 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:04:20 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:04:50 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:05:36 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:05:36 IST] gemini key12/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:06:42 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:07:37 IST] content thin for gta (0/6) -> fallback search (15 candidates)
+[2026-11-28 17:07:37 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-28 17:07:37 IST] attempt 1 FAIL in 303s: gather=303s
+[2026-11-28 17:07:37 IST] === yo-gta-20261128-170737: platform=youtube category=gta format=wide seed=733052614
+[2026-11-28 17:08:08 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:08:09 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:09:24 IST] gemini key4/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 17:09:24 IST] gemini key4/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 17:09:38 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:10:01 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:10:01 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:10:01 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:10:29 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:11:44 IST] gemini key10/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 17:11:44 IST] gemini: gemma-4-31b-it timed out twice -> skipped for this run
+[2026-11-28 17:11:44 IST] gemini key10/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 17:12:23 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 17:13:20 IST] gemini discovery failed: Expecting value: line 1 column 2 (char 1)
+[2026-11-28 17:13:20 IST] content thin for gta (0/6) -> fallback search (12 candidates)
+[2026-11-28 17:13:20 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-28 17:13:20 IST] category gta: no usable sources -> fallback to gaming
+[2026-11-28 17:13:20 IST] attempt 2 FAIL in 343s: gather=343s
+[2026-11-28 17:13:20 IST] === yo-gaming-20261128-171320: platform=youtube category=gaming format=wide seed=492193429
+[2026-11-28 17:13:57 IST] x search failed: Red Dead Redemption 2 official trailer Rockstar Games full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 17:14:12 IST] x search failed: Cyberpunk 2077 official gameplay trailer CD PROJEKT RED full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 17:15:29 IST] gemini key4/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-28 17:15:29 IST] gemini key4/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-28 17:16:44 IST] gemini key5/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-28 17:16:44 IST] gemini: gemma-4-26b-a4b-it timed out twice -> skipped for this run
+[2026-11-28 17:16:44 IST] gemini key5/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-28 17:16:44 IST] gemini discovery failed: all Gemini keys/models failed: key4/gemma-4-26b-a4b-it: 599 The read operation timed out | key5/gemma-4-26b-a4b-it: 599 The read operation timed out
+[2026-11-28 17:16:44 IST] content thin for gaming (1/3) -> fallback search (15 candidates)
+[2026-11-28 17:16:44 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
+[2026-11-28 17:16:44 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
+[2026-11-28 17:16:44 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
+[2026-11-28 17:16:44 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
+[2026-11-28 17:16:44 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
+[2026-11-28 17:16:44 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
+[2026-11-28 17:16:44 IST] song stock for gaming: 30 tagged songs with audio
+[2026-11-28 17:16:44 IST] gemini song pick failed/timed out, rotating the genre stock: GeminiError all Gemini keys/models (backup models included) are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-28 17:17:07 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free (key 1) gave 6 options
+[2026-11-28 17:17:08 IST] using stock song (gemini pick): Believer - Imagine Dragons
+[2026-11-28 17:17:08 IST] song: Believer – Imagine Dragons ()
+[2026-11-28 17:17:08 IST] caption pattern: P02 Beside-upper
+[2026-11-28 17:19:23 IST] plan 38.5s, 14 shots -> render
+[2026-11-28 17:32:09 IST] === yo-gaming-20261128-171320: QA PASS -> /mnt/ph/youtube/ready/youtube/yo-gaming-20261128-171320.mp4
+[2026-11-28 17:32:25 IST] attached ['yo-gaming-20261128-171320.mp4', 'yo-gaming-20261128-171320.preview.mp4', 'yo-gaming-20261128-171320.mp4.json'] to vc-ready
+[2026-11-28 17:32:27 IST] vc-ready manifest: 4 videos
+[2026-11-28 17:32:28 IST] archive: no posted video left in vc-ready
+[2026-11-28 17:32:33 IST] attempt 3 OK in 1153s: gather=204s, song=24s, beats=9s, scan_plan=126s, render=462s, gemini_meta=0s, wide_4k=231s, qa=15s, preview=58s, save=25s
+[2026-11-28 17:32:33 IST] === yo-gaming-20261128-173233: platform=youtube category=gaming format=wide seed=294770149
+[2026-11-28 17:33:11 IST] x search failed: Red Dead Redemption 2 official trailer Rockstar Games full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 17:33:26 IST] x search failed: Cyberpunk 2077 official gameplay trailer CD PROJEKT RED full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 17:34:21 IST] vet bIqyYMTN0aA: backup vision check -> reject
+[2026-11-28 17:34:21 IST] vet REJECT [bIqyYMTN0aA] Call of Duty: Modern Warfare 4 | Season 1 DMZ Intelligence Briefing Tr — text_overlay
+[2026-11-28 17:34:22 IST] gaming: top group had no usable clips -> fell back to 'Halo Infinite'
+[2026-11-28 17:34:22 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-28 17:34:22 IST] content thin for gaming (1/3) -> fallback search (15 candidates)
+[2026-11-28 17:34:22 IST] warning: no clip with dialogue; edit will be montage-only (no captions)
+[2026-11-28 17:34:22 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
+[2026-11-28 17:34:22 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
+[2026-11-28 17:34:22 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
+[2026-11-28 17:34:22 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
+[2026-11-28 17:34:22 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
+[2026-11-28 17:34:22 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
+[2026-11-28 17:34:22 IST] song stock for gaming: 30 tagged songs with audio
+[2026-11-28 17:34:22 IST] gemini song pick failed/timed out, rotating the genre stock: GeminiError all Gemini keys/models (backup models included) are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-28 17:35:01 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free (key 1) gave 6 options
+[2026-11-28 17:35:02 IST] using stock song (gemini pick): Sail - AWOLNATION
+[2026-11-28 17:35:02 IST] song: Sail – AWOLNATION (https://soundcloud.com/awolnation/10-sail)
+[2026-11-28 17:35:02 IST] caption pattern: P14 Upper + nudge, bold keys
+[2026-11-28 17:35:32 IST] plan 38.4s, 54 shots -> render
+[2026-11-28 17:51:09 IST] === yo-gaming-20261128-173233: QA PASS -> /mnt/ph/youtube/ready/youtube/yo-gaming-20261128-173233.mp4
+[2026-11-28 17:51:26 IST] attached ['yo-gaming-20261128-173233.mp4', 'yo-gaming-20261128-173233.preview.mp4', 'yo-gaming-20261128-173233.mp4.json'] to vc-ready
+[2026-11-28 17:51:28 IST] vc-ready manifest: 5 videos
+[2026-11-28 17:51:29 IST] archive: no posted video left in vc-ready
+[2026-11-28 17:51:34 IST] attempt 4 OK in 1141s: gather=109s, song=39s, beats=0s, scan_plan=30s, render=632s, gemini_meta=0s, wide_4k=235s, qa=14s, preview=57s, save=25s
+[2026-11-28 17:51:34 IST] time budget reached (11 min left < 30 min for one more attempt)
+[2026-11-28 17:51:34 IST] step totals over 4 attempts: render=18.2min, gather=16.0min, wide_4k=7.8min, scan_plan=2.6min, preview=1.9min, song=1.1min, save=0.8min, qa=0.5min, beats=0.2min, gemini_meta=0.0min -> slowest step: render
+[2026-11-28 17:51:34 IST] queued box fetch request youtube-202611281751-gta
+[2026-11-28 17:51:34 IST] queued box fetch request youtube-202611281751-gaming
+[2026-11-28 17:51:37 IST] cleanup sweep: freed 0.0 MB (2 files)
+[2026-11-28 17:51:37 IST] done: 2 made, 2 failed attempts; youtube buffer 3/7 — BACKUP LOW: refill youtube (3/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
+[2026-11-28 17:51:38 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
+[2026-11-28 17:51:41 IST] vc-ready manifest: 5 videos

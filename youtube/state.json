@@ -65,6 +65,18 @@
    "at": "2026-11-28T15:38:06.901123+05:30",
    "video": "yo-gaming-20261128-151536",
    "platform": "youtube"
+  },
+  {
+   "id": "P02",
+   "at": "2026-11-28T17:32:09.165122+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "platform": "youtube"
+  },
+  {
+   "id": "P14",
+   "at": "2026-11-28T17:51:09.298984+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "platform": "youtube"
   }
  ],
  "songs": [
@@ -144,6 +156,20 @@
    "url": "https://soundcloud.com/thefatrat/thefatrat-unity-1",
    "at": "2026-11-28T15:38:06.901134+05:30",
    "video": "yo-gaming-20261128-151536"
+  },
+  {
+   "title": "Believer",
+   "artist": "Imagine Dragons",
+   "url": "",
+   "at": "2026-11-28T17:32:09.165133+05:30",
+   "video": "yo-gaming-20261128-171320"
+  },
+  {
+   "title": "Sail",
+   "artist": "AWOLNATION",
+   "url": "https://soundcloud.com/awolnation/10-sail",
+   "at": "2026-11-28T17:51:09.298996+05:30",
+   "video": "yo-gaming-20261128-173233"
   }
  ],
  "windows": [
@@ -188,6 +214,18 @@
    "start": 34.22,
    "at": "2026-11-26T18:03:47.821008+05:30",
    "video": "yo-gta-20261126-174815"
+  },
+  {
+   "file": "YeMRixqvjog.mkv",
+   "start": 112.88,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320"
+  },
+  {
+   "file": "YeMRixqvjog.mkv",
+   "start": 141.61,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320"
   }
  ],
  "sources_used": [
@@ -520,6 +558,16 @@
    "id": "s0w_pTOXDBQ",
    "at": "2026-11-28T15:38:06.901773+05:30",
    "video": "yo-gaming-20261128-151536"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "at": "2026-11-28T17:32:09.165389+05:30",
+   "video": "yo-gaming-20261128-171320"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "at": "2026-11-28T17:51:09.299760+05:30",
+   "video": "yo-gaming-20261128-173233"
   }
  ],
  "segments_used": [
@@ -7929,6 +7977,618 @@
    "at": "2026-11-28T15:38:06.901143+05:30",
    "video": "yo-gaming-20261128-151536",
    "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 104.07000000000001,
+   "end": 106.47000000000001,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 50.169999999999995,
+   "end": 52.56999999999999,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 75.87,
+   "end": 78.27000000000001,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 67.17000000000002,
+   "end": 69.10333333333335,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 112.88,
+   "end": 121.01333333333332,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "dialogue"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 23.47,
+   "end": 25.87,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 63.47,
+   "end": 65.40333333333334,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 141.61,
+   "end": 146.87666666666667,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "dialogue"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 33.97,
+   "end": 35.903333333333336,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 45.56999999999999,
+   "end": 47.50333333333333,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 97.77000000000001,
+   "end": 100.17000000000002,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 55.97,
+   "end": 57.87,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 147.67000000000002,
+   "end": 149.60333333333335,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "YeMRixqvjog",
+   "file": "YeMRixqvjog.mkv",
+   "start": 17.57,
+   "end": 18.53666666666666,
+   "at": "2026-11-28T17:32:09.165143+05:30",
+   "video": "yo-gaming-20261128-171320",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 27.57,
+   "end": 28.57,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 67.37,
+   "end": 68.40333333333334,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 75.97000000000001,
+   "end": 76.97000000000001,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 41.87,
+   "end": 42.37,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 63.97,
+   "end": 64.47,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 44.87,
+   "end": 45.87,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 18.87,
+   "end": 19.903333333333336,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 70.07000000000001,
+   "end": 71.07000000000001,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 49.47,
+   "end": 50.47,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 28.76836829798877,
+   "end": 29.26836829798877,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 68.56836829798878,
+   "end": 69.06836829798878,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 77.16836829798879,
+   "end": 78.20170163132212,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 42.56418414899438,
+   "end": 43.06418414899438,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 64.6641841489944,
+   "end": 65.1641841489944,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 46.06836829798876,
+   "end": 47.06836829798876,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 20.06836829798877,
+   "end": 20.56836829798877,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 71.26836829798879,
+   "end": 71.76836829798879,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 50.66836829798876,
+   "end": 51.701701631322095,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 29.46255244698315,
+   "end": 29.96255244698315,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 69.26255244698318,
+   "end": 69.76255244698318,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 78.36673659597757,
+   "end": 79.36673659597757,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 43.25836829798876,
+   "end": 43.75836829798876,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 65.35836829798879,
+   "end": 65.85836829798879,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 47.26673659597753,
+   "end": 48.300069929310865,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 20.76255244698315,
+   "end": 21.26255244698315,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 71.96255244698318,
+   "end": 72.46255244698318,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 51.86673659597753,
+   "end": 52.86673659597753,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 30.15673659597753,
+   "end": 30.65673659597753,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 79.56510489396635,
+   "end": 80.06510489396635,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 66.05255244698319,
+   "end": 67.08588578031652,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 43.95255244698314,
+   "end": 44.45255244698314,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 48.46510489396629,
+   "end": 48.96510489396629,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 21.45673659597753,
+   "end": 22.45673659597753,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 72.65673659597758,
+   "end": 73.15673659597758,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 53.06510489396629,
+   "end": 53.56510489396629,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 30.850920744971912,
+   "end": 31.884254078305247,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 80.25928904296075,
+   "end": 80.75928904296075,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 22.6551048939663,
+   "end": 23.1551048939663,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 73.35092074497197,
+   "end": 74.35092074497197,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 53.759289042960674,
+   "end": 54.259289042960674,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 32.04928904296068,
+   "end": 32.54928904296068,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 80.95347319195514,
+   "end": 81.98680652528847,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 23.34928904296068,
+   "end": 23.84928904296068,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 74.54928904296075,
+   "end": 75.04928904296075,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 54.453473191955055,
+   "end": 55.453473191955055,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 32.74347319195506,
+   "end": 33.24347319195506,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 82.15184148994392,
+   "end": 82.65184148994392,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 24.043473191955062,
+   "end": 25.076806525288394,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 55.65184148994382,
+   "end": 56.15184148994382,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 33.43765734094944,
+   "end": 33.93765734094944,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 82.84602563893831,
+   "end": 83.84602563893831,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 25.24184148994383,
+   "end": 25.74184148994383,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 56.3460256389382,
+   "end": 56.8460256389382,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
+  },
+  {
+   "id": "pHJmfFFsYLs",
+   "file": "pHJmfFFsYLs.mkv",
+   "start": 34.131841489943824,
+   "end": 34.631841489943824,
+   "at": "2026-11-28T17:51:09.299005+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "kind": "montage"
   }
  ],
  "vet": {
@@ -10230,6 +10890,61 @@
    "via": "youtube-search",
    "category": "gta",
    "at": "2026-11-28 10:38"
+  },
+  "bIqyYMTN0aA": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": false,
+   "mood": "tense tactical infiltration",
+   "summary": "Official Call of Duty DMZ trailer cinematic footage showing soldiers infiltrating various locations including a warehouse and industrial site.",
+   "reject_reasons": [
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 3.2,
+     "end": 4.0,
+     "reason": "title card HAJIN and ESRB rating"
+    },
+    {
+     "start": 27.1,
+     "end": 28.0,
+     "reason": "Korean text on wall in background"
+    },
+    {
+     "start": 58.9,
+     "end": 60.0,
+     "reason": "Korean text on propaganda banner"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    3.2,
+    11.16,
+    19.12,
+    27.07,
+    35.03,
+    42.99,
+    50.95,
+    58.91,
+    35.03
+   ],
+   "title": "Call of Duty: Modern Warfare 4 | Season 1 DMZ Intelligence Briefing Trailer",
+   "channel": "Call of Duty",
+   "credit": "Call of Duty",
+   "url": "https://www.youtube.com/watch?v=bIqyYMTN0aA",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 64.028,
+   "category": "gaming",
+   "at": "2026-11-28 12:04"
   }
  },
  "videos": [
@@ -18037,6 +18752,222 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-151536.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-151536.preview.mp4"
+  },
+  {
+   "id": "yo-gaming-20261128-171320",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-28T17:32:09.164519+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-171320.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-171320.mp4",
+   "preview_mb": 22.4,
+   "size_mb": 243.5,
+   "title": "Gaming Edit | Believer Edit",
+   "hook": "GAMING EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Believer\" – Imagine Dragons (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Imagine%20Dragons%20Believer\n🎬 Footage: PlayStation – \"Marvel's Spider-Man 2 - The Story So Far | PS5 Games\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "url": "",
+    "official_channel": "",
+    "spotify_search": "https://open.spotify.com/search/Imagine%20Dragons%20Believer"
+   },
+   "song_credit": "\"Believer\" – Imagine Dragons",
+   "pattern": {
+    "id": "P02",
+    "name": "Beside-upper"
+   },
+   "captions": [
+    "I LEARNED HOW",
+    "TO BE A",
+    "SPIDER MAN FROM",
+    "THE OG",
+    "BUT I LEARNED",
+    "HOW TO BE",
+    "A HERO",
+    "FOR MY",
+    "DAD",
+    "A HERO IS",
+    "SOMEONE WHO DOESN'T",
+    "GIVE UP",
+    "THOUGH",
+    "AND I DON'T",
+    "PLAN TO"
+   ],
+   "duration": 38.53,
+   "sources": [
+    {
+     "id": "YeMRixqvjog",
+     "src_id": "YeMRixqvjog",
+     "path": "/mnt/ph/youtube/sources/YeMRixqvjog.mkv",
+     "title": "Marvel's Spider-Man 2 - The Story So Far | PS5 Games",
+     "credit": "PlayStation",
+     "url": "https://www.youtube.com/watch?v=YeMRixqvjog"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.53
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.4
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 15
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 203.6,
+    "song": 23.9,
+    "beats": 9.2,
+    "scan_plan": 125.8,
+    "render": 462.4,
+    "gemini_meta": 0.0,
+    "wide_4k": 231.0,
+    "qa": 14.9,
+    "preview": 57.5
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-171320.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-171320.preview.mp4"
+  },
+  {
+   "id": "yo-gaming-20261128-173233",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-28T17:51:09.298119+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-173233.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-173233.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 244.8,
+   "title": "Gaming Edit | Sail Edit",
+   "hook": "GAMING EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sail\" – AWOLNATION (original recording)\n🔗 Official audio: https://soundcloud.com/awolnation/10-sail\n🎧 Spotify: https://open.spotify.com/search/AWOLNATION%20Sail\n🎬 Footage: HALO – \"Halo Infinite | Campaign Opening Cutscene\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Sail",
+    "artist": "AWOLNATION",
+    "url": "https://soundcloud.com/awolnation/10-sail",
+    "official_channel": "AWOLNATION",
+    "spotify_search": "https://open.spotify.com/search/AWOLNATION%20Sail"
+   },
+   "song_credit": "\"Sail\" – AWOLNATION",
+   "pattern": {
+    "id": "P14",
+    "name": "Upper + nudge, bold keys"
+   },
+   "captions": [],
+   "duration": 38.4,
+   "sources": [
+    {
+     "id": "pHJmfFFsYLs",
+     "src_id": "pHJmfFFsYLs",
+     "path": "/mnt/ph/youtube/sources/pHJmfFFsYLs.mkv",
+     "title": "Halo Infinite | Campaign Opening Cutscene",
+     "credit": "HALO",
+     "url": "https://www.youtube.com/watch?v=pHJmfFFsYLs"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.4
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -7.9
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 109.2,
+    "song": 39.3,
+    "beats": 0.5,
+    "scan_plan": 29.7,
+    "render": 631.9,
+    "gemini_meta": 0.0,
+    "wide_4k": 234.7,
+    "qa": 13.7,
+    "preview": 56.6
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-173233.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-173233.preview.mp4"
   }
  ],
  "listing_cache": {
@@ -27246,6 +28177,18 @@
    "platform": "youtube",
    "category": "gta",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T17:07:37.312679+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T17:13:20.682340+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   }
  ],
  "vet_rules": "no-text-v2"
