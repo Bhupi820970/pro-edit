@@ -41,6 +41,8 @@ HINTS = {
     "anime": "famous anime openings (official label audio) and upbeat J-rock / J-pop",
     "celebrity": "red-carpet glam: confident pop and R&B hits",
     "comedy": "fun bouncy beats: funk, upbeat pop, playful hits",
+    "music": "the artist energy: confident pop, hip-hop and R&B hits",
+    "podcast": "intense motivational or dark hip-hop / cinematic beats",
 }
 
 

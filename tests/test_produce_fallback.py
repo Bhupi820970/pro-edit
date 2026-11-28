@@ -46,7 +46,7 @@ class PickCategoryTests(unittest.TestCase):
 
     def test_all_skipped_returns_none(self):
         import pipeline as P
-        allc = {"gta", "gaming", "movie", "series", "marvel", "dc", "anime", "sports"}
+        allc = {"gta", "gaming", "movie", "series", "marvel", "dc", "anime", "sports", "celebrity", "comedy", "music", "podcast"}
         self.assertIsNone(P.pick_category(self._state([]), "youtube", allc))
 
 

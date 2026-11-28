@@ -185,7 +185,7 @@ def local_media(directory: Path, sid: str, exts: set[str], min_size: int = 1000)
 
 
 MEDIA_EXT = (".mkv", ".mp4", ".webm", ".part", ".ytdl")
-SIBLING_CATS = {"movie", "series", "romance", "gaming", "sports", "marvel", "dc", "anime", "celebrity", "comedy"}
+SIBLING_CATS = {"movie", "series", "romance", "gaming", "sports", "marvel", "dc", "anime", "celebrity", "comedy", "music", "podcast"}
 
 
 # 1080p floor (BiBi): only 1080p..1440p streams; if a video has none, yt-dlp fails and the next candidate is

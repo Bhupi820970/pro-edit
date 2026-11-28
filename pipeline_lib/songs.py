@@ -76,7 +76,7 @@ def catalogue(cfg: dict | None = None) -> list[dict]:
     return songs
 
 
-GENRES = ("gta", "gaming", "movie", "sports", "romance", "series", "marvel", "dc", "anime", "celebrity", "comedy")
+GENRES = ("gta", "gaming", "movie", "sports", "romance", "series", "marvel", "dc", "anime", "celebrity", "comedy", "music", "podcast")
 
 
 def clean_genres(g) -> list[str]:

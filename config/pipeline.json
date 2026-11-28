@@ -39,7 +39,11 @@
         "marvel",
         "dc",
         "anime",
-        "sports"
+        "sports",
+        "celebrity",
+        "comedy",
+        "music",
+        "podcast"
       ]
     },
     "instagram": {
@@ -87,6 +91,14 @@
           1
         ],
         "series": [
+          0,
+          1
+        ],
+        "music": [
+          0,
+          1
+        ],
+        "podcast": [
           0,
           1
         ]
@@ -1118,6 +1130,161 @@
       "mood": [
         "fun"
       ]
+    },
+    "music": {
+      "sources_per_video": 3,
+      "min_len": 20,
+      "max_len": 1800,
+      "channels": [
+        {
+          "url": "https://www.youtube.com/@nprmusic/videos",
+          "limit": 80,
+          "title_re": "tiny desk|live|performance",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|full episode|livestream|compilation|full movie",
+          "credit": "NPR Music"
+        },
+        {
+          "url": "https://www.youtube.com/@BBCRadio1/videos",
+          "limit": 80,
+          "title_re": "live lounge|live|performance|interview",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|full episode|livestream|compilation|full movie",
+          "credit": "BBC Radio 1"
+        },
+        {
+          "url": "https://www.youtube.com/@genius/videos",
+          "limit": 80,
+          "title_re": "verified|open mic|interview",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|full episode|livestream|compilation|full movie",
+          "credit": "Genius"
+        },
+        {
+          "url": "https://www.youtube.com/@colors/videos",
+          "limit": 80,
+          "title_re": "colors|show|performance",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|full episode|livestream|compilation|full movie",
+          "credit": "COLORS"
+        },
+        {
+          "url": "https://www.youtube.com/@MTV/videos",
+          "limit": 80,
+          "title_re": "performance|vma|live|interview",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|full episode|livestream|compilation|full movie",
+          "credit": "MTV"
+        }
+      ],
+      "search": [
+        "NPR Tiny Desk concert official",
+        "BBC Radio 1 Live Lounge official performance",
+        "Genius Verified official",
+        "COLORSxSTUDIOS official performance",
+        "MTV VMAs official performance"
+      ],
+      "allow_channels": [
+        "NPR Music",
+        "BBC Radio 1",
+        "Genius",
+        "COLORS",
+        "COLORSxSTUDIOS",
+        "MTV",
+        "Recording Academy / GRAMMYs",
+        "GRAMMYs"
+      ],
+      "discover": "Famous singers and artists: official live performances, Tiny Desk / Live Lounge / COLORS sessions and official artist interviews from the label, broadcaster or show channel; never reuploads or fan cams",
+      "song_hint": "the artist energy: confident pop, hip-hop and R&B hits",
+      "fallback_songs": [
+        {
+          "title": "Levitating",
+          "artist": "Dua Lipa",
+          "why": "glam pop"
+        }
+      ],
+      "title_fallback": "Singer Moment Edit",
+      "tags": [
+        "Music",
+        "Singer",
+        "LivePerformance",
+        "Artist"
+      ],
+      "mood": [
+        "glam",
+        "high-energy"
+      ]
+    },
+    "podcast": {
+      "sources_per_video": 3,
+      "min_len": 20,
+      "max_len": 3600,
+      "channels": [
+        {
+          "url": "https://www.youtube.com/@JRE/videos",
+          "limit": 80,
+          "title_re": "jre|clip|joe rogan",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|full episode|livestream|compilation|full movie",
+          "credit": "PowerfulJRE"
+        },
+        {
+          "url": "https://www.youtube.com/@FirstWeFeast/videos",
+          "limit": 80,
+          "title_re": "hot ones",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|full episode|livestream|compilation|full movie",
+          "credit": "First We Feast (Hot Ones)"
+        },
+        {
+          "url": "https://www.youtube.com/@TheDiaryOfACEO/videos",
+          "limit": 80,
+          "title_re": "",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|full episode|livestream|compilation|full movie",
+          "credit": "The Diary Of A CEO"
+        },
+        {
+          "url": "https://www.youtube.com/@ClubShayShay/videos",
+          "limit": 80,
+          "title_re": "",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|full episode|livestream|compilation|full movie",
+          "credit": "Club Shay Shay"
+        },
+        {
+          "url": "https://www.youtube.com/@flagrant/videos",
+          "limit": 80,
+          "title_re": "flagrant|clip",
+          "skip_re": "trailer|teaser|promo|tv\\s*spot|recap|explained|reaction|full episode|livestream|compilation|full movie",
+          "credit": "Flagrant"
+        }
+      ],
+      "search": [
+        "JRE clips official podcast",
+        "Hot Ones official celebrity interview",
+        "The Diary Of A CEO official clip",
+        "Club Shay Shay official podcast clip"
+      ],
+      "allow_channels": [
+        "JRE Clips",
+        "PowerfulJRE",
+        "First We Feast",
+        "The Diary Of A CEO",
+        "Club Shay Shay",
+        "Flagrant"
+      ],
+      "discover": "Famous podcasts and celebrity talk-show interviews (JRE, Hot Ones, Diary Of A CEO, Club Shay Shay, Flagrant): official channel clips of a famous guest saying something viral; never reuploads or fan clip channels",
+      "song_hint": "intense motivational or dark hip-hop / cinematic beats under the talk",
+      "fallback_songs": [
+        {
+          "title": "Till I Collapse",
+          "artist": "Eminem",
+          "why": "hype"
+        }
+      ],
+      "title_fallback": "Podcast Moment Edit",
+      "tags": [
+        "Podcast",
+        "Interview",
+        "Viral",
+        "Motivation"
+      ],
+      "mood": [
+        "dark",
+        "epic"
+      ]
     }
   },
   "pool_target": {
@@ -1131,7 +1298,9 @@
     "gta": 6,
     "sports": 4,
     "celebrity": 4,
-    "comedy": 4
+    "comedy": 4,
+    "music": 4,
+    "podcast": 4
   },
   "attempt_max_min": 10,
   "render_max_min": 20,

@@ -82,6 +82,8 @@ TEMPLATES.update({
     "anime": ["The scene every fan replays", "Power level: unreal", "This opening still hits"],
     "celebrity": ["The moment the room stood up", "Red carpet, no rehearsal", "Nobody expected this"],
     "comedy": ["Try not to laugh at this one", "The line that broke everyone", "They could not keep a straight face"],
+    "music": ["The voice that stopped the room", "Live. No autotune.", "This performance still gives chills"],
+    "podcast": ["He said it on camera", "The answer nobody expected", "This clip broke the internet"],
 })
 
 DEFAULT_TAGS = {
@@ -96,6 +98,8 @@ DEFAULT_TAGS = {
     "anime": ["anime", "animeedit", "crunchyroll"],
     "celebrity": ["celebrity", "redcarpet", "awards"],
     "comedy": ["comedy", "funny", "latenight"],
+    "music": ["music", "singer", "liveperformance"],
+    "podcast": ["podcast", "interview", "viral"],
 }
 
 AI_RE = re.compile(

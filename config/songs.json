@@ -59,7 +59,8 @@
       "why": "80s vice",
       "genres": [
         "gta",
-        "series"
+        "series",
+        "podcast"
       ]
     },
     {
@@ -100,7 +101,8 @@
       "why": "80s pop",
       "genres": [
         "movie",
-        "series"
+        "series",
+        "podcast"
       ]
     },
     {
@@ -109,7 +111,8 @@
       "why": "80s synth",
       "genres": [
         "gta",
-        "series"
+        "series",
+        "podcast"
       ]
     },
     {
@@ -134,7 +137,8 @@
       "why": "80s synth",
       "genres": [
         "gta",
-        "series"
+        "series",
+        "podcast"
       ]
     },
     {
@@ -144,7 +148,8 @@
       "genres": [
         "movie",
         "series",
-        "gaming"
+        "gaming",
+        "podcast"
       ]
     },
     {
@@ -213,7 +218,8 @@
       "genres": [
         "movie",
         "series",
-        "gta"
+        "gta",
+        "podcast"
       ]
     },
     {
@@ -239,7 +245,8 @@
       "why": "cinematic",
       "genres": [
         "movie",
-        "series"
+        "series",
+        "podcast"
       ]
     },
     {
@@ -1937,6 +1944,310 @@
         "artist": "ABBA",
         "mood": "fun"
       }
+    ],
+    "music": [
+      {
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "mood": "glam"
+      },
+      {
+        "title": "Bad Romance",
+        "artist": "Lady Gaga",
+        "mood": "glam"
+      },
+      {
+        "title": "Formation",
+        "artist": "Beyoncé",
+        "mood": "glam"
+      },
+      {
+        "title": "Diamonds",
+        "artist": "Rihanna",
+        "mood": "glam"
+      },
+      {
+        "title": "Vogue",
+        "artist": "Madonna",
+        "mood": "glam"
+      },
+      {
+        "title": "Flowers",
+        "artist": "Miley Cyrus",
+        "mood": "glam"
+      },
+      {
+        "title": "Espresso",
+        "artist": "Sabrina Carpenter",
+        "mood": "glam"
+      },
+      {
+        "title": "Anti-Hero",
+        "artist": "Taylor Swift",
+        "mood": "glam"
+      },
+      {
+        "title": "Blank Space",
+        "artist": "Taylor Swift",
+        "mood": "glam"
+      },
+      {
+        "title": "Shake It Off",
+        "artist": "Taylor Swift",
+        "mood": "glam"
+      },
+      {
+        "title": "Toxic",
+        "artist": "Britney Spears",
+        "mood": "glam"
+      },
+      {
+        "title": "Crazy in Love",
+        "artist": "Beyoncé",
+        "mood": "glam"
+      },
+      {
+        "title": "Umbrella",
+        "artist": "Rihanna",
+        "mood": "glam"
+      },
+      {
+        "title": "Single Ladies (Put a Ring on It)",
+        "artist": "Beyoncé",
+        "mood": "glam"
+      },
+      {
+        "title": "Dangerous Woman",
+        "artist": "Ariana Grande",
+        "mood": "glam"
+      },
+      {
+        "title": "7 rings",
+        "artist": "Ariana Grande",
+        "mood": "glam"
+      },
+      {
+        "title": "Houdini",
+        "artist": "Dua Lipa",
+        "mood": "glam"
+      },
+      {
+        "title": "Don't Start Now",
+        "artist": "Dua Lipa",
+        "mood": "glam"
+      },
+      {
+        "title": "Watermelon Sugar",
+        "artist": "Harry Styles",
+        "mood": "glam"
+      },
+      {
+        "title": "As It Was",
+        "artist": "Harry Styles",
+        "mood": "glam"
+      },
+      {
+        "title": "Good 4 U",
+        "artist": "Olivia Rodrigo",
+        "mood": "glam"
+      },
+      {
+        "title": "Savage Love",
+        "artist": "Jason Derulo",
+        "mood": "glam"
+      },
+      {
+        "title": "Material Girl",
+        "artist": "Madonna",
+        "mood": "glam"
+      },
+      {
+        "title": "Rich Girl",
+        "artist": "Gwen Stefani",
+        "mood": "glam"
+      },
+      {
+        "title": "Glamorous",
+        "artist": "Fergie",
+        "mood": "glam"
+      },
+      {
+        "title": "Run the World (Girls)",
+        "artist": "Beyoncé",
+        "mood": "glam"
+      },
+      {
+        "title": "Rain on Me",
+        "artist": "Lady Gaga & Ariana Grande",
+        "mood": "glam"
+      },
+      {
+        "title": "Padam Padam",
+        "artist": "Kylie Minogue",
+        "mood": "glam"
+      },
+      {
+        "title": "Greedy",
+        "artist": "Tate McRae",
+        "mood": "glam"
+      },
+      {
+        "title": "Super Freaky Girl",
+        "artist": "Nicki Minaj",
+        "mood": "glam"
+      }
+    ],
+    "podcast": [
+      {
+        "title": "Bella Ciao",
+        "artist": "Manu Pilas",
+        "mood": "dark"
+      },
+      {
+        "title": "Way Down We Go",
+        "artist": "KALEO",
+        "mood": "dark"
+      },
+      {
+        "title": "Running Up That Hill (A Deal with God)",
+        "artist": "Kate Bush",
+        "mood": "dark"
+      },
+      {
+        "title": "Paint It Black",
+        "artist": "The Rolling Stones",
+        "mood": "dark"
+      },
+      {
+        "title": "Red Right Hand",
+        "artist": "Nick Cave & The Bad Seeds",
+        "mood": "dark"
+      },
+      {
+        "title": "Bad Guy",
+        "artist": "Billie Eilish",
+        "mood": "dark"
+      },
+      {
+        "title": "Lovely",
+        "artist": "Billie Eilish",
+        "mood": "dark"
+      },
+      {
+        "title": "Another Love",
+        "artist": "Tom Odell",
+        "mood": "dark"
+      },
+      {
+        "title": "Daylight",
+        "artist": "David Kushner",
+        "mood": "dark"
+      },
+      {
+        "title": "Everybody Wants to Rule the World",
+        "artist": "Tears for Fears",
+        "mood": "dark"
+      },
+      {
+        "title": "Smalltown Boy",
+        "artist": "Bronski Beat",
+        "mood": "dark"
+      },
+      {
+        "title": "Master of Puppets",
+        "artist": "Metallica",
+        "mood": "dark"
+      },
+      {
+        "title": "Heathens",
+        "artist": "twenty one pilots",
+        "mood": "dark"
+      },
+      {
+        "title": "Bloody Mary",
+        "artist": "Lady Gaga",
+        "mood": "dark"
+      },
+      {
+        "title": "Goo Goo Muck",
+        "artist": "The Cramps",
+        "mood": "dark"
+      },
+      {
+        "title": "I Ran (So Far Away)",
+        "artist": "A Flock of Seagulls",
+        "mood": "dark"
+      },
+      {
+        "title": "Mad World",
+        "artist": "Gary Jules",
+        "mood": "dark"
+      },
+      {
+        "title": "Hurt",
+        "artist": "Johnny Cash",
+        "mood": "dark"
+      },
+      {
+        "title": "Sweater Weather",
+        "artist": "The Neighbourhood",
+        "mood": "dark"
+      },
+      {
+        "title": "Devil Eyes",
+        "artist": "Hippie Sabotage",
+        "mood": "dark"
+      },
+      {
+        "title": "Seven Nation Army",
+        "artist": "The White Stripes",
+        "mood": "dark"
+      },
+      {
+        "title": "Rehab",
+        "artist": "Amy Winehouse",
+        "mood": "dark"
+      },
+      {
+        "title": "Everlong",
+        "artist": "Foo Fighters",
+        "mood": "dark"
+      },
+      {
+        "title": "Bury a Friend",
+        "artist": "Billie Eilish",
+        "mood": "dark"
+      },
+      {
+        "title": "Hold Me Closer",
+        "artist": "Elton John",
+        "mood": "dark"
+      },
+      {
+        "title": "Tainted Love",
+        "artist": "Soft Cell",
+        "mood": "dark"
+      },
+      {
+        "title": "Running With the Wolves",
+        "artist": "AURORA",
+        "mood": "dark"
+      },
+      {
+        "title": "The Night We Met",
+        "artist": "Lord Huron",
+        "mood": "dark"
+      },
+      {
+        "title": "Yellow",
+        "artist": "Coldplay",
+        "mood": "dark"
+      },
+      {
+        "title": "Sinnerman",
+        "artist": "Nina Simone",
+        "mood": "dark"
+      }
     ]
   },
   "_comment": "songs = tagged genre stock seed (box fetches audio into draft release 'songs'). seeds = curated per-genre refill candidates; song_stock.py refills a genre to stock.target when it drops to stock.refill_at, Gemini-validating fit. Every genre keeps ~30 famous ORIGINAL songs (official artist/Topic/VEVO/label uploads only); manifest rows carry genre, mood and bpm (librosa on the box).",
@@ -1951,6 +2262,8 @@
     "dc": "dark",
     "anime": "high-energy",
     "celebrity": "glam",
-    "comedy": "fun"
+    "comedy": "fun",
+    "music": "glam",
+    "podcast": "dark"
   }
 }
