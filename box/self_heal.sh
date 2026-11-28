@@ -51,7 +51,7 @@ fi
 # 2. cron lines (pro-edit set + chrome check + this script hourly)
 if command -v crontab >/dev/null 2>&1; then
   out=$(bash "$BOX/ensure_cron.sh" install 2>&1); [ -n "$out" ] && say "fixed: $out"
-  for l in "0 */6 * * * $BOX/ensure_chrome_yt.sh" "41 * * * * $BOX/self_heal.sh"; do
+  for l in "0 */6 * * * $BOX/ensure_chrome_yt.sh" "41 * * * * $BOX/self_heal.sh" "5,35 * * * * $BOX/sky_guardian_kick.sh"; do
     crontab -l 2>/dev/null | grep -qxF "$l" || { { crontab -l 2>/dev/null; echo "$l"; } | crontab -; say "fixed: added $l"; }
   done
   bash "$BOX/ensure_cron.sh" hook >/dev/null 2>&1
