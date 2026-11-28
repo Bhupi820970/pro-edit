@@ -28294,6 +28294,18 @@
    "platform": "youtube",
    "category": "gaming",
    "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
+  },
+  {
+   "at": "2026-11-28T20:31:56.428570+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T20:34:41.078699+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   }
  ],
  "vet_rules": "no-text-v2"

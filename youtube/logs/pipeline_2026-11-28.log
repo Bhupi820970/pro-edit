@@ -1,58 +1,48 @@
-[2026-11-28 20:01:14 IST] pull-sources: +131 clips, 7 accepted / 124 unvetted listed, 8.4 GB local
-[2026-11-28 20:01:18 IST] === yo-gta-20261128-200118: platform=youtube category=gta format=wide seed=812324912
-[2026-11-28 20:01:35 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] lX_IN4v-RnA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 20:01:45 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] lX_IN4v-RnA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 20:01:45 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 20:01:47 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] ZQzIZkxsWYw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 20:01:56 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] ZQzIZkxsWYw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 20:01:56 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 20:01:59 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] foUaOCzfIRU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 20:02:08 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] foUaOCzfIRU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 20:02:08 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 20:02:10 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] QYAMp13Yi04: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 20:02:20 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] QYAMp13Yi04: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 20:02:20 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 20:02:20 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
-[2026-11-28 20:03:35 IST] gemini key1/gemma-4-31b-it: TimeoutError The read operation timed out
-[2026-11-28 20:03:35 IST] gemini key1/gemma-4-31b-it: HTTP 599 The read operation timed out
-[2026-11-28 20:03:51 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 20:04:15 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 20:04:16 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 20:04:16 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 20:05:31 IST] gemini key6/gemma-4-31b-it: TimeoutError The read operation timed out
-[2026-11-28 20:05:31 IST] gemini: gemma-4-31b-it timed out twice -> skipped for this run
-[2026-11-28 20:05:31 IST] gemini key6/gemma-4-31b-it: HTTP 599 The read operation timed out
-[2026-11-28 20:05:31 IST] gemini key1/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 20:05:32 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 20:06:47 IST] gemini key3/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
-[2026-11-28 20:06:47 IST] gemini key3/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
-[2026-11-28 20:06:47 IST] gemini key4/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 20:08:02 IST] gemini key5/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
-[2026-11-28 20:08:02 IST] gemini: gemma-4-26b-a4b-it timed out twice -> skipped for this run
-[2026-11-28 20:08:02 IST] gemini key5/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
-[2026-11-28 20:08:02 IST] gemini discovery failed: all Gemini keys/models failed: key6/gemma-4-31b-it: 599 The read operation timed out | key1/gemma-4-26b-a4b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually tempo
-[2026-11-28 20:08:02 IST] content thin for gta (0/6) -> fallback search (12 candidates)
-[2026-11-28 20:08:02 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
-[2026-11-28 20:08:02 IST] category gta: no usable sources -> fallback to gaming
-[2026-11-28 20:08:02 IST] attempt 1 FAIL in 404s: gather=404s
-[2026-11-28 20:08:03 IST] === yo-gaming-20261128-200803: platform=youtube category=gaming format=wide seed=921351113
-[2026-11-28 20:08:39 IST] x search failed: Red Dead Redemption 2 official trailer Rockstar Games full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 20:08:54 IST] x search failed: Cyberpunk 2077 official gameplay trailer CD PROJEKT RED full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 20:09:28 IST] vet ODsNxavngJI: backup vision check -> reject
-[2026-11-28 20:09:28 IST] vet REJECT [ODsNxavngJI] The Last of Us Part II | Inside the Gameplay | PS4 — game HUD overlay present; hud_overlay
-[2026-11-28 20:09:48 IST] vet nDhOXAkhPSo: backup vision check -> accept
-[2026-11-28 20:09:48 IST] vet ACCEPT [nDhOXAkhPSo] Assassin's Creed Odyssey: Composers Explain How They Wrote The Music — informative studio conversation
-[2026-11-28 20:09:50 IST] gaming: top group had no usable clips -> fell back to 'Assassin's Creed Odyssey: Composers Explain How They Wrote The Music'
-[2026-11-28 20:09:50 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-28 20:09:50 IST] content thin for gaming (1/3) -> fallback search (14 candidates)
-[2026-11-28 20:09:50 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2
-[2026-11-28 20:09:51 IST] category gaming: no usable sources -> fallback to nothing (all skipped)
-[2026-11-28 20:09:51 IST] attempt 2 FAIL in 109s: gather=109s
-[2026-11-28 20:09:52 IST] no category has usable sources right now (skipped: ['gaming', 'gta']) -> stop, box fetcher refills
-[2026-11-28 20:09:52 IST] step totals over 2 attempts: gather=8.5min -> slowest step: gather
-[2026-11-28 20:09:52 IST] queued box fetch request youtube-202611282009-gta
-[2026-11-28 20:09:52 IST] queued box fetch request youtube-202611282009-gaming
-[2026-11-28 20:09:56 IST] cleanup sweep: freed 0.0 MB (2 files)
-[2026-11-28 20:09:56 IST] done: 0 made, 2 failed attempts; youtube buffer 2/7 — BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
-[2026-11-28 20:09:57 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
-[2026-11-28 20:10:00 IST] vc-ready manifest: 7 videos
+[2026-11-28 20:24:57 IST] pull-sources: +130 clips, 8 accepted / 122 unvetted listed, 8.2 GB local
+[2026-11-28 20:24:59 IST] === yo-gta-20261128-202459: platform=youtube category=gta format=wide seed=614478996
+[2026-11-28 20:25:16 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] foUaOCzfIRU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 20:25:25 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] foUaOCzfIRU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 20:25:25 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 20:25:28 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] VNbONMSObfs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 20:25:37 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] VNbONMSObfs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 20:25:37 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 20:25:39 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] mP6KvFnltWc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 20:25:49 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] mP6KvFnltWc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 20:25:49 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 20:25:51 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] lqiZdynJmag: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 20:26:01 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] lqiZdynJmag: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 20:26:01 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 20:26:01 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
+[2026-11-28 20:26:01 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 20:26:01 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 20:26:50 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 20:28:05 IST] gemini key4/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 20:28:05 IST] gemini key4/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 20:29:20 IST] gemini key5/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 20:29:20 IST] gemini: gemma-4-31b-it timed out twice -> skipped for this run
+[2026-11-28 20:29:20 IST] gemini key5/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 20:29:20 IST] gemini key1/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 20:29:56 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 20:30:42 IST] gemini key3/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 20:31:56 IST] gemini discovery failed: Expecting value: line 1 column 2 (char 1)
+[2026-11-28 20:31:56 IST] content thin for gta (0/6) -> fallback search (12 candidates)
+[2026-11-28 20:31:56 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-28 20:31:56 IST] attempt 1 FAIL in 417s: gather=417s
+[2026-11-28 20:31:56 IST] === yo-gta-20261128-203156: platform=youtube category=gta format=wide seed=381555052
+[2026-11-28 20:33:25 IST] gemini key5/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-28 20:33:25 IST] gemini key5/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-28 20:34:41 IST] gemini key6/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-28 20:34:41 IST] gemini: gemma-4-26b-a4b-it timed out twice -> skipped for this run
+[2026-11-28 20:34:41 IST] gemini key6/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-28 20:34:41 IST] gemini discovery failed: all Gemini keys/models failed: key5/gemma-4-26b-a4b-it: 599 The read operation timed out | key6/gemma-4-26b-a4b-it: 599 The read operation timed out
+[2026-11-28 20:34:41 IST] content thin for gta (0/6) -> fallback search (12 candidates)
+[2026-11-28 20:34:41 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-28 20:34:41 IST] category gta: no usable sources -> fallback to gaming
+[2026-11-28 20:34:41 IST] attempt 2 FAIL in 164s: gather=164s
+[2026-11-28 20:34:41 IST] Gemini quota ran out on every key and backup model mid-run -> stop (watchdog waits for the reset)
+[2026-11-28 20:34:41 IST] step totals over 2 attempts: gather=9.7min -> slowest step: gather
+[2026-11-28 20:34:41 IST] queued box fetch request youtube-202611282034-gta
+[2026-11-28 20:34:44 IST] cleanup sweep: freed 0.0 MB (1 files)
+[2026-11-28 20:34:44 IST] done: 0 made, 2 failed attempts; youtube buffer 2/7 — BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
+[2026-11-28 20:34:46 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
+[2026-11-28 20:34:48 IST] vc-ready manifest: 7 videos
