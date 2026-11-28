@@ -1,0 +1,584 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt",
+  "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt",
+  "CategoryUnavailable: only 0 clean sources for gta",
+  "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "sports",
+   "ok": false,
+   "timings": {
+    "gather": 393.4,
+    "song": 208.0,
+    "total": 601.4
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 600.0,
+    "total": 600.0
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 357.0,
+    "total": 357.0
+   }
+  },
+  {
+   "attempt": 4,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 600.0,
+    "total": 600.0
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 1950.4,
+  "song": 208.0
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 4,
+  "vetted": 11,
+  "rejected": [
+   {
+    "id": "FktnMutgijc",
+    "title": "LIONEL MESSI INTERVIEW | \"This was an unforgettable day\"",
+    "reasons": [
+     "Contains promotional text overlay (unisportstore.com) in the footage.",
+     "flag:text_overlay",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "pm8Dz3Eey_Y",
+    "title": "Leo Messi Post-Game Interview | Leagues Cup Semifinal | Miami 3-1 Orlando",
+    "reasons": [
+     "burned-in subtitles/captions",
+     "on-screen text overlay",
+     "flag:burned_subtitles",
+     "flag:text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "x42z8NfLZS4",
+    "title": "Leo Messi: On His Future, MLS and FIFA World Cup 2026",
+    "reasons": [
+     "burned-in subtitles present",
+     "channel logo / bug in corner (Apple TV+ Season Pass)",
+     "flag:channel_logo",
+     "flag:burned_subtitles"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "RoTld8Fl7DY",
+    "title": "Lionel Messi officially signs with Inter Miami",
+    "reasons": [
+     "Channel logo / text overlay in the bottom left corner (SUNDAY TODAY)",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "IfUXS-YKp5w",
+    "title": "LeBron James USED ALL OF THE TOOLS vs Knicks | EMIRATES NBA CUP 🏆 | October 30, 2026",
+    "reasons": [
+     "Contains live broadcast scoreboard, game HUD overlays, and persistent on-screen graphics.",
+     "flag:hud_overlay",
+     "flag:text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "PqFGaoceKqI",
+    "title": "LeBron James scores 14 straight points for 76ers including DEEP 3 vs Heat 🔥",
+    "reasons": [
+     "Contains persistent live-broadcast game HUD / scoreboard / score bug graphics at the bottom of the screen.",
+     "flag:hud_overlay",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "BK0fNRkVd1Y",
+    "title": "Ask Cristiano Ronaldo Anything with Binance",
+    "reasons": [
+     "burned-in subtitles",
+     "text overlays",
+     "flag:burned_subtitles",
+     "flag:text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "cEDUO1zjB5c",
+    "title": "GTA 6 NPC Interactions Are UNREAL",
+    "reasons": [
+     "persistent watermark",
+     "game HUD",
+     "burned-in game prompts",
+     "channel logo",
+     "flag:watermark",
+     "flag:channel_logo",
+     "flag:burned_subtitles",
+     "flag:hud_overlay",
+     "flag:text_overlay",
+     "not official/full quality",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "ohWrSrlHq2o",
+    "title": "GTA 6 - Flying a 747 Jumbo Jet Gameplay",
+    "reasons": [
+     "game HUD / minimap / scoreboard / score bug / live-broadcast graphics",
+     "burned-in captions / subtitles / lyric or meme text",
+     "flag:burned_subtitles",
+     "flag:hud_overlay",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Z2b-mrVXJfU",
+    "title": "My BIGGEST HEIST in GTA 6...",
+    "reasons": [
+     "HUD and minimap present",
+     "burned-in dialogue subtitles",
+     "text overlays present",
+     "flag:watermark",
+     "flag:channel_logo",
+     "flag:burned_subtitles",
+     "flag:hud_overlay",
+     "flag:text_overlay",
+     "not official/full quality",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "1KJFsm8NDyE",
+    "title": "Cristiano Ronaldo interview | CR7 reveals how to succeed",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "sports",
+   "gta"
+  ],
+  "runner_skipped": 67,
+  "box_clips_used": 1,
+  "failed_ids": [
+   "QDikhiOkw1g",
+   "rzhd04I4s2Q",
+   "QvwAG9rAsCI",
+   "VJ5Dz8PbTxk"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key13",
+   "model": "gemini-3.6-flash",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key1",
+   "model": "gemini-3.6-flash",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key2",
+   "model": "gemini-3.6-flash",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key3",
+   "model": "gemini-3.6-flash",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key4",
+   "model": "gemini-3.6-flash",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key5",
+   "model": "gemini-3.6-flash",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key6",
+   "model": "gemini-3.6-flash",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key7",
+   "model": "gemini-3.6-flash",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key8",
+   "model": "gemini-3.6-flash",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key9",
+   "model": "gemini-3.6-flash",
+   "ok": false,
+   "note": "429 You exceeded your current quota, please check your plan and billing details. For"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  }
+ ],
+ "skipped_categories": [],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0,
+   "gemma-4-31b-it": 12,
+   "gemma-4-26b-a4b-it": 12
+  },
+  "exhausted": false,
+  "reset_at": "2026-11-29 13:30 IST"
+ }
+}

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:20:41.048485+05:30",
+ "updated": "2026-11-28T14:29:19.416322+05:30",
  "platforms": {
   "youtube": {
    "platform": "youtube",
@@ -11,9 +11,9 @@
   },
   "instagram": {
    "platform": "instagram",
-   "updated": "2026-11-28T04:45:31+0000",
+   "updated": "2026-11-28T08:59:11+0000",
    "reason": "nothing waiting: Gemini checked every clip this run",
-   "gemini_quota_resets": "2026-11-28 13:30 IST",
+   "gemini_quota_resets": "2026-11-29 13:30 IST",
    "categories": {},
    "how_to_pick": "Check each clip for watermarks, channel logos, burned subtitles and HUD. Then write queue/manual_picks.json on branch pipeline-state: {\"picks\": [{\"id\": \"...\", \"category\": \"...\", \"accept\": true|false, \"has_dialogue\": true|false, \"reasons\": [\"...\"]}]}. The next produce run uses accepted picks."
   }
