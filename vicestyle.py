@@ -573,6 +573,29 @@ def read_frames(video: Path, idxs: set[int]) -> dict:
     return out
 
 
+def _clear_spot(img, faces: list[tuple], W: int, H: int, top: int, bot: int, margin: int, pref: tuple):
+    """Fallback when every beside-speaker candidate touches a face: scan the picture area for the
+    zero-overlap spot nearest the preferred position, shrinking the block (keeps colours/pop style)
+    up to 3 times. Returns (img, x, y, overlap_px) or None."""
+    pbs = person_boxes(faces, W, H, tight=True)
+    for _ in range(4):
+        best = None
+        xs = range(margin // 2, max(margin // 2 + 1, W - img.width - margin // 2 + 1), max(8, W // 40))
+        ys = range(top, max(top + 1, bot - img.height + 1), max(8, H // 60))
+        for y in ys:
+            for x in xs:
+                box = (x + 12, y + 12, x + img.width - 12, y + img.height - 12)
+                if any(_inter(box, pb) for pb in pbs):
+                    continue
+                d = (x - pref[0]) ** 2 + (y - pref[1]) ** 2
+                if best is None or d < best[0]:
+                    best = (d, x, y)
+        if best:
+            return img, best[1], best[2], 0
+        img = img.resize((max(1, int(img.width * 0.85)), max(1, int(img.height * 0.85))))
+    return None
+
+
 def place_beside(items: list[tuple], pat: dict, step: int, faces: list[tuple], main, W: int, H: int,
                  fpath: str, alt: int):
     """Place one caption chunk beside the speaker (approved rule) with the pattern's rhythm/offsets.
@@ -616,6 +639,11 @@ def place_beside(items: list[tuple], pat: dict, step: int, faces: list[tuple], m
             best = (img, x, y, ov, zone)
         if ov == 0:
             break
+    if best and best[3] > 0:   # all candidates touch a face -> search a clear spot (QA never fails on faces)
+        img, x, y = best[0], best[1], best[2]
+        got = _clear_spot(img, faces, W, H, top, bot, margin, (x, y))
+        if got:
+            best = (got[0], got[1], got[2], 0, best[4] + "-clear")
     return best
 
 
@@ -740,6 +768,10 @@ def build_captions_classic(segs: list[Seg], W: int, H: int, fpath: str, base_vid
                     ov2 = int(sum(_inter(box2, pb) for pb in person_boxes(fl, W, H, tight=True)))
                     if ov2 < ov:
                         x, ov = x2, ov2
+                if ov:
+                    got = _clear_spot(img, fl, W, H, bar + 8, H - bar - 8, margin, (x, y))
+                    if got:
+                        img, x, y, ov = got
             events.append({"f0": f0, "f1": f1, "img": img, "x": x, "y": y, "pop": True, "anim": "pop",
                            "zone": "beside" if face else side, "overlap_px": ov,
                            "text": " ".join(i[0] for i in items)})

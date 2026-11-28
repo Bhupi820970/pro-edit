@@ -362,17 +362,23 @@ def pick_song(gem, state, category: str, clips: list[dict], cfg: dict, banned: s
     fresh.sort(key=lambda r: -song_fit_score(r, category, cfg, moods))
     opts = []
     if gem is not None:
+        import concurrent.futures as _cf
+        _pool = _cf.ThreadPoolExecutor(max_workers=1)
         try:
-            opts = gem.generate([{"text": SONG_PROMPT_GENRE.format(
+            _fut = _pool.submit(lambda: gem.generate([{"text": SONG_PROMPT_GENRE.format(
                 category=category, footage=footage, moods=moods or "n/a",
                 hint=cfg["categories"][category].get("song_hint", ""),
                 stock="; ".join(f'{r["title"]} - {r["artist"]}'
                                 + (f' [{r.get("mood") or "?"}, {r.get("bpm") or "?"} bpm]' if r.get("mood") or r.get("bpm") else "")
                                 for r in fresh[:40]) or "none",
-                recent=", ".join(recent[-60:]) or "none")}], schema=SONG_SCHEMA, temperature=0.7)
+                recent=", ".join(recent[-60:]) or "none")}], schema=SONG_SCHEMA, temperature=0.7))
+            # hard wall-clock cap: a hung Gemini must not eat the 10-min attempt budget
+            opts = _fut.result(timeout=int(cfg.get("song_pick_timeout_s", 60)))
         except Exception as ex:
-            log("gemini song pick failed, rotating the genre stock:", str(ex)[:160])
+            log("gemini song pick failed/timed out, rotating the genre stock:", (type(ex).__name__ + " " + str(ex))[:160])
             opts = []
+        finally:
+            _pool.shutdown(wait=False)
     opts = [o for o in (opts or []) if isinstance(o, dict) and safe_search_term(o.get("title") or "")
             and safe_search_term(o.get("artist") or "")][:6]
 
