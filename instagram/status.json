@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-28T16:23:34.116717+05:30",
+ "updated": "2026-11-28T16:43:53.131633+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (1/7 ready)",
+ "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (2/7 ready)",
  "platforms": {
   "youtube": {
    "ready": 0,
@@ -16,15 +16,15 @@
    "message": "BACKUP LOW: refill youtube (0/7 ready)"
   },
   "instagram": {
-   "ready": 1,
+   "ready": 2,
    "target": 7,
    "warning": true,
-   "produced_today": 5,
+   "produced_today": 6,
    "per_day": [
     6,
     7
    ],
-   "message": "BACKUP LOW: refill instagram (1/7 ready)"
+   "message": "BACKUP LOW: refill instagram (2/7 ready)"
   }
  },
  "ready": [
@@ -143,16 +143,129 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-sports-20261128-160547.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-sports-20261128-160547.preview.mp4"
+  },
+  {
+   "id": "in-series-20261128-162352",
+   "platform": "instagram",
+   "category": "series",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T16:43:38.636328+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-series-20261128-162352.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-series-20261128-162352.mp4",
+   "preview_mb": 22.2,
+   "size_mb": 105.5,
+   "title": "Series Scene Edit | Bad Guy Edit",
+   "hook": "SERIES SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Bad Guy\" – Billie Eilish (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=DyDfgMOUjCI\n🎧 Spotify: https://open.spotify.com/search/Billie%20Eilish%20Bad%20Guy\n🎬 Footage: Disney Plus – \"Bloopers | Percy Jackson and the Olympians | Disney+\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#SeriesEdit #TVEdit #WebSeries #OfficialClip",
+   "hashtags": [
+    "SeriesEdit",
+    "TVEdit",
+    "WebSeries",
+    "OfficialClip"
+   ],
+   "song": {
+    "title": "Bad Guy",
+    "artist": "Billie Eilish",
+    "url": "https://www.youtube.com/watch?v=DyDfgMOUjCI",
+    "official_channel": "Billie Eilish",
+    "spotify_search": "https://open.spotify.com/search/Billie%20Eilish%20Bad%20Guy"
+   },
+   "song_credit": "\"Bad Guy\" – Billie Eilish",
+   "pattern": {
+    "id": "P04",
+    "name": "Stepping down beside"
+   },
+   "captions": [
+    "IT'S A DANGEROUS",
+    "WHIRLPOOL THAT APPEARED",
+    "BETWEEN THE MESSINA",
+    "STRAIT BETWEEN SICILY",
+    "AND ITALY",
+    "I DON'T KNOW",
+    "HOW YOU DON'T",
+    "KNOW THIS YOU'RE",
+    "SUCH AN IDIOT",
+    "SHUT UP",
+    "DON'T SAY THAT",
+    "UNLESS YOU MEAN",
+    "IT I",
+    "MEAN IT",
+    "CAN WE JUST",
+    "START THIS SUMMER",
+    "OVER?"
+   ],
+   "duration": 38.73,
+   "sources": [
+    {
+     "id": "WKjmlew8n9c",
+     "src_id": "WKjmlew8n9c",
+     "path": "/mnt/ph/instagram/sources/WKjmlew8n9c.mkv",
+     "title": "Bloopers | Percy Jackson and the Olympians | Disney+",
+     "credit": "Disney Plus",
+     "url": "https://www.youtube.com/watch?v=WKjmlew8n9c"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.73
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 17
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 426.2,
+    "song": 46.3,
+    "beats": 0.4,
+    "scan_plan": 91.0,
+    "render": 406.1,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 161.9,
+    "qa": 8.9,
+    "preview": 45.8
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-series-20261128-162352.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-series-20261128-162352.preview.mp4"
   }
  ],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-27T14:53:10.987170+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
   {
    "at": "2026-11-27T15:03:12.160839+05:30",
    "platform": "instagram",
@@ -236,6 +349,12 @@
    "platform": "instagram",
    "category": "sports",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T16:23:52.076910+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   }
  ],
  "pattern_history": [
@@ -298,24 +417,31 @@
    "at": "2026-11-28T16:23:21.907677+05:30",
    "video": "in-sports-20261128-160547",
    "platform": "instagram"
+  },
+  {
+   "id": "P04",
+   "at": "2026-11-28T16:43:38.636940+05:30",
+   "video": "in-series-20261128-162352",
+   "platform": "instagram"
   }
  ],
  "last_run": {
   "platform": "instagram",
   "in_progress": true,
   "made": [
-   "in-sports-20261128-160547"
+   "in-sports-20261128-160547",
+   "in-series-20261128-162352"
   ],
   "last_video": {
-   "id": "in-sports-20261128-160547",
-   "category": "sports",
-   "title": "Sports Hype Edit | Remember the Name Edit",
-   "at": "2026-11-28T16:23:33.638055+05:30"
+   "id": "in-series-20261128-162352",
+   "category": "series",
+   "title": "Series Scene Edit | Bad Guy Edit",
+   "at": "2026-11-28T16:43:52.705234+05:30"
   }
  },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 2.3,
+  "age_hours": 2.6,
   "healthy": true,
   "pool": {
    "gta": 3,
@@ -334,14 +460,15 @@
   "message": "OK"
  },
  "stock": {
-  "updated": "2026-11-28T16:23:36.945936+05:30",
+  "updated": "2026-11-28T16:43:56.142463+05:30",
   "ledger_readable": true,
   "platforms": {
    "instagram": {
-    "in_stock": 1,
+    "in_stock": 2,
     "posted_still_in_stock": 0,
-    "unposted": 1,
+    "unposted": 2,
     "unposted_ids": [
+     "in-series-20261128-162352",
      "in-sports-20261128-160547"
     ],
     "posted_total": 9
