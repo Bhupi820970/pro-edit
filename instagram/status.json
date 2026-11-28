@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-28T19:12:58.260488+05:30",
+ "updated": "2026-11-28T19:31:12.306384+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (3/7 ready)",
+ "message": "BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (3/7 ready)",
  "platforms": {
   "youtube": {
-   "ready": 1,
+   "ready": 2,
    "target": 7,
    "warning": true,
-   "produced_today": 1,
+   "produced_today": 2,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (1/7 ready)"
+   "message": "BACKUP LOW: refill youtube (2/7 ready)"
   },
   "instagram": {
    "ready": 3,
    "target": 7,
    "warning": true,
-   "produced_today": 7,
+   "produced_today": 8,
    "per_day": [
     6,
     7
@@ -28,122 +28,6 @@
   }
  },
  "ready": [
-  {
-   "id": "in-sports-20261128-160547",
-   "platform": "instagram",
-   "category": "sports",
-   "format": "shorts",
-   "state": "ready",
-   "created": "2026-11-28T16:23:21.907095+05:30",
-   "path": "/mnt/ph/instagram/ready/instagram/in-sports-20261128-160547.mp4",
-   "preview": "/mnt/ph/instagram/prev/in-sports-20261128-160547.mp4",
-   "preview_mb": 20.4,
-   "size_mb": 97.3,
-   "title": "Sports Hype Edit | Remember the Name Edit",
-   "hook": "SPORTS HYPE EDIT",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Remember the Name\" – Fort Minor (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=VDvr08sCPOc\n🎧 Spotify: https://open.spotify.com/search/Fort%20Minor%20Remember%20the%20Name\n🎬 Footage: Unisport – \"Cristiano Ronaldo interview | CR7 reveals how to succeed\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#SportsEdit #Sports #Hype",
-   "hashtags": [
-    "SportsEdit",
-    "Sports",
-    "Hype"
-   ],
-   "song": {
-    "title": "Remember the Name",
-    "artist": "Fort Minor",
-    "url": "https://www.youtube.com/watch?v=VDvr08sCPOc",
-    "official_channel": "Fort Minor",
-    "spotify_search": "https://open.spotify.com/search/Fort%20Minor%20Remember%20the%20Name"
-   },
-   "song_credit": "\"Remember the Name\" – Fort Minor",
-   "pattern": {
-    "id": "P03",
-    "name": "Beside-lower"
-   },
-   "captions": [
-    "YEAH",
-    "NOW EVER SINCE",
-    "THE MERCURA VAPOR",
-    "ONES",
-    "WE SAW ONE",
-    "IN LISBON",
-    "YOU CAME TO",
-    "MAN UNITED",
-    "YOU'VE KIND OF",
-    "BEEN A BIG",
-    "PART OF",
-    "ASSOCIATING THE",
-    "MERCURA WITH",
-    "SPEED",
-    "WITH FLARE"
-   ],
-   "duration": 38.73,
-   "sources": [
-    {
-     "id": "1KJFsm8NDyE",
-     "src_id": "1KJFsm8NDyE",
-     "path": "/mnt/ph/instagram/sources/1KJFsm8NDyE.mkv",
-     "title": "Cristiano Ronaldo interview | CR7 reveals how to succeed",
-     "credit": "Unisport",
-     "url": "https://www.youtube.com/watch?v=1KJFsm8NDyE"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.73
-     },
-     "resolution": {
-      "ok": true,
-      "value": "2160x3840",
-      "want": "2160x3840"
-     },
-     "min_1080p": {
-      "ok": true,
-      "value": "2160x3840"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -9.5
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": false
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 15
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "timings": {
-    "gather": 330.6,
-    "song": 33.3,
-    "beats": 0.5,
-    "scan_plan": 45.3,
-    "render": 367.4,
-    "gemini_meta": 90.0,
-    "shorts_9x16": 139.6,
-    "qa": 8.5,
-    "preview": 38.8
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-sports-20261128-160547.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-sports-20261128-160547.preview.mp4"
-  },
   {
    "id": "in-series-20261128-162352",
    "platform": "instagram",
@@ -521,6 +405,277 @@
    "twin_of": "in-dc-20261128-185757",
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-185757.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-185757.preview.mp4"
+  },
+  {
+   "id": "in-movie-20261128-191301",
+   "platform": "instagram",
+   "category": "movie",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T19:30:42.840253+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-movie-20261128-191301.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-movie-20261128-191301.mp4",
+   "preview_mb": 22.2,
+   "size_mb": 123.9,
+   "title": "Movieclips Edit | Seven Nation Army Edit",
+   "hook": "MOVIECLIPS EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Seven Nation Army\" – The White Stripes (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=0J2QdDbelmY\n🎧 Spotify: https://open.spotify.com/search/The%20White%20Stripes%20Seven%20Nation%20Army\n🎬 Footage: Movieclips – \"GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips\"; Movieclips – \"GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips\"; Sony Pictures – \"GOAT - Film Clip | Chillin' in the Penthouse\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "url": "https://www.youtube.com/watch?v=0J2QdDbelmY",
+    "official_channel": "The White Stripes",
+    "spotify_search": "https://open.spotify.com/search/The%20White%20Stripes%20Seven%20Nation%20Army"
+   },
+   "song_credit": "\"Seven Nation Army\" – The White Stripes",
+   "pattern": {
+    "id": "P09",
+    "name": "2-word upper"
+   },
+   "captions": [
+    "HOLD UP",
+    "HOLD UP",
+    "HOLD UP",
+    "YOU GUYS",
+    "AIN'T GONNA",
+    "BELIEVE THIS",
+    "PLACE",
+    "YO",
+    "BROS",
+    "BROS",
+    "WE GOT",
+    "A 95",
+    "INCH TV",
+    "IN THE",
+    "LIVING ROOM",
+    "SEE THAT?"
+   ],
+   "duration": 38.8,
+   "sources": [
+    {
+     "id": "0ZPEcOrPB2U",
+     "src_id": "0ZPEcOrPB2U",
+     "path": "/mnt/ph/instagram/sources/0ZPEcOrPB2U.mkv",
+     "title": "GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=0ZPEcOrPB2U"
+    },
+    {
+     "id": "TQp5MoFzs_o",
+     "src_id": "TQp5MoFzs_o",
+     "path": "/mnt/ph/instagram/sources/TQp5MoFzs_o.mkv",
+     "title": "GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=TQp5MoFzs_o"
+    },
+    {
+     "id": "DPjke2_2T4k",
+     "src_id": "DPjke2_2T4k",
+     "path": "/mnt/ph/instagram/sources/DPjke2_2T4k.mkv",
+     "title": "GOAT - Film Clip | Chillin' in the Penthouse",
+     "credit": "Sony Pictures",
+     "url": "https://www.youtube.com/watch?v=DPjke2_2T4k"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.8
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 16
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 157.5,
+    "song": 43.9,
+    "beats": 0.5,
+    "scan_plan": 142.7,
+    "more_clips": 57.0,
+    "render": 455.6,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 154.2,
+    "qa": 9.1,
+    "preview": 40.9
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261128-191301.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-movie-20261128-191301.preview.mp4"
+  },
+  {
+   "id": "yo-movie-20261128-191301",
+   "platform": "youtube",
+   "category": "movie",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T19:30:42.840253+05:30",
+   "path": "/mnt/ph/instagram/ready/youtube/yo-movie-20261128-191301.mp4",
+   "preview": "/mnt/ph/instagram/prev/yo-movie-20261128-191301.mp4",
+   "preview_mb": 22.2,
+   "size_mb": 123.9,
+   "title": "Movieclips Edit | Seven Nation Army Edit",
+   "hook": "MOVIECLIPS EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Seven Nation Army\" – The White Stripes (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=0J2QdDbelmY\n🎧 Spotify: https://open.spotify.com/search/The%20White%20Stripes%20Seven%20Nation%20Army\n🎬 Footage: Movieclips – \"GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips\"; Movieclips – \"GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips\"; Sony Pictures – \"GOAT - Film Clip | Chillin' in the Penthouse\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#MovieEdit #MovieScenes #Cinema #FilmEdit",
+   "hashtags": [
+    "MovieEdit",
+    "MovieScenes",
+    "Cinema",
+    "FilmEdit"
+   ],
+   "song": {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "url": "https://www.youtube.com/watch?v=0J2QdDbelmY",
+    "official_channel": "The White Stripes",
+    "spotify_search": "https://open.spotify.com/search/The%20White%20Stripes%20Seven%20Nation%20Army"
+   },
+   "song_credit": "\"Seven Nation Army\" – The White Stripes",
+   "pattern": {
+    "id": "P09",
+    "name": "2-word upper"
+   },
+   "captions": [
+    "HOLD UP",
+    "HOLD UP",
+    "HOLD UP",
+    "YOU GUYS",
+    "AIN'T GONNA",
+    "BELIEVE THIS",
+    "PLACE",
+    "YO",
+    "BROS",
+    "BROS",
+    "WE GOT",
+    "A 95",
+    "INCH TV",
+    "IN THE",
+    "LIVING ROOM",
+    "SEE THAT?"
+   ],
+   "duration": 38.8,
+   "sources": [
+    {
+     "id": "0ZPEcOrPB2U",
+     "src_id": "0ZPEcOrPB2U",
+     "path": "/mnt/ph/instagram/sources/0ZPEcOrPB2U.mkv",
+     "title": "GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=0ZPEcOrPB2U"
+    },
+    {
+     "id": "TQp5MoFzs_o",
+     "src_id": "TQp5MoFzs_o",
+     "path": "/mnt/ph/instagram/sources/TQp5MoFzs_o.mkv",
+     "title": "GOAT (2026) 4K - That's My Squad Giraffe Rap (9/12) | Movieclips",
+     "credit": "Movieclips",
+     "url": "https://www.youtube.com/watch?v=TQp5MoFzs_o"
+    },
+    {
+     "id": "DPjke2_2T4k",
+     "src_id": "DPjke2_2T4k",
+     "path": "/mnt/ph/instagram/sources/DPjke2_2T4k.mkv",
+     "title": "GOAT - Film Clip | Chillin' in the Penthouse",
+     "credit": "Sony Pictures",
+     "url": "https://www.youtube.com/watch?v=DPjke2_2T4k"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.8
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 16
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 157.5,
+    "song": 43.9,
+    "beats": 0.5,
+    "scan_plan": 142.7,
+    "more_clips": 57.0,
+    "render": 455.6,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 154.2,
+    "qa": 9.1,
+    "preview": 40.9
+   },
+   "twin_of": "in-movie-20261128-191301",
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-movie-20261128-191301.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-movie-20261128-191301.preview.mp4"
   }
  ],
  "approved": [],
@@ -688,24 +843,31 @@
    "at": "2026-11-28T19:12:27.082804+05:30",
    "video": "in-dc-20261128-185757",
    "platform": "instagram"
+  },
+  {
+   "id": "P09",
+   "at": "2026-11-28T19:30:42.841080+05:30",
+   "video": "in-movie-20261128-191301",
+   "platform": "instagram"
   }
  ],
  "last_run": {
   "platform": "instagram",
   "in_progress": true,
   "made": [
-   "in-dc-20261128-185757"
+   "in-dc-20261128-185757",
+   "in-movie-20261128-191301"
   ],
   "last_video": {
-   "id": "in-dc-20261128-185757",
-   "category": "dc",
-   "title": "The Batman Edit | Sucker for Pain Edit",
-   "at": "2026-11-28T19:12:57.985772+05:30"
+   "id": "in-movie-20261128-191301",
+   "category": "movie",
+   "title": "Movieclips Edit | Seven Nation Army Edit",
+   "at": "2026-11-28T19:31:11.991905+05:30"
   }
  },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 5.1,
+  "age_hours": 5.4,
   "healthy": true,
   "pool": {
    "gta": 3,
@@ -724,7 +886,7 @@
   "message": "OK"
  },
  "stock": {
-  "updated": "2026-11-28T19:13:00.500204+05:30",
+  "updated": "2026-11-28T19:31:14.886476+05:30",
   "ledger_readable": true,
   "platforms": {
    "instagram": {
@@ -733,19 +895,20 @@
     "unposted": 3,
     "unposted_ids": [
      "in-dc-20261128-185757",
-     "in-series-20261128-162352",
-     "in-sports-20261128-160547"
+     "in-movie-20261128-191301",
+     "in-series-20261128-162352"
     ],
-    "posted_total": 9
+    "posted_total": 10
    },
    "youtube": {
-    "in_stock": 3,
+    "in_stock": 4,
     "posted_still_in_stock": 0,
-    "unposted": 3,
+    "unposted": 4,
     "unposted_ids": [
      "yo-dc-20261128-185757",
      "yo-gaming-20261128-171320",
-     "yo-gaming-20261128-173233"
+     "yo-gaming-20261128-173233",
+     "yo-movie-20261128-191301"
     ],
     "posted_total": 11
    }
