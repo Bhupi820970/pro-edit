@@ -276,7 +276,7 @@ def ytdlp(args: list, timeout=1800) -> tuple[bool, str]:
         if r.returncode == 0:
             return True, ""
         err = (r.stderr or r.stdout)[-600:]
-        if re.search(r"confirm your age|Private video|Video unavailable|removed|copyright|members-only|not made this video available in your country|VPN or a proxy server|geo.?restrict", err):
+        if re.search(r"confirm your age|Private video|Video unavailable|removed|copyright|members-only|content isn.t available|not made this video available in your country|VPN or a proxy server|geo.?restrict", err):
             log("yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip")
             return False, err
         bot = "not a bot" in err or "confirm you" in err or "bot" in err.lower()
@@ -695,7 +695,9 @@ class Sourcer:
         mh = max(1080, int(self.cfg.get("min_height", 1080)))
         ok, err = ytdlp(["-f", f"bv*[height>={mh}][height<={h}]+ba/b[height>={mh}][height<={h}]", "-S", f"res:{h},fps",
                          "--merge-output-format", "mkv", "-o", str(out), e["url"]])
-        if "not a bot" in err:
+        # "This content isn't available" on every id = YouTube soft-blocking the runner IP: count it
+        # like a bot check so the run switches to box clips instead of burning the whole budget
+        if "not a bot" in err or re.search(r"content isn.t available", err):
             self.stats["bot_checks"] += 1
             if self.stats["bot_checks"] >= self.bot_limit and not self.runner_blocked:
                 self.runner_blocked = True

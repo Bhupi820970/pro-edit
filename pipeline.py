@@ -291,6 +291,10 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
             state.use_windows(meta["segments"], vid, binfo.get("period"))
             state.use_sources([c["src_id"] for c in clips], vid)
         state.add_video(entry)
+        if qa["pass"]:
+            twin = cross_post_twin(entry, out, CFG)
+            if twin:
+                state.add_video(twin)
         state.save()
     finally:
         _disarm_budget()
@@ -300,6 +304,34 @@ def produce_one(platform: str, category: str | None, state: State, gem, sourcer,
         bad = {k: v for k, v in qa["checks"].items() if not v["ok"]}
         raise QAFail(f"QA failed: {json.dumps(bad)[:400]}")
     return entry
+
+
+def cross_post_twin(entry: dict, out: Path, cfg: dict) -> dict | None:
+    """One render, both platforms: a passed 9:16 short is also queued for the other platform
+    (same file copied to ready/<other>/, same QA). Off with "cross_post": false in pipeline.json."""
+    if not cfg.get("cross_post", True) or entry.get("format") != "shorts":
+        return None
+    other = {"youtube": "instagram", "instagram": "youtube"}.get(entry["platform"])
+    if not other:
+        return None
+    tid = f"{other[:2]}{entry['id'][2:]}"
+    dest = home() / "ready" / other / f"{tid}.mp4"
+    try:
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(out, dest)
+        prev = Path(entry["preview"])
+        tprev = prev.with_name(f"{tid}.mp4")
+        shutil.copy2(prev, tprev)
+        side = load_json(Path(str(out) + ".json"), {}) or {}
+    except Exception as ex:  # cross-post is a bonus; never fail the main video
+        log(f"cross-post copy failed: {ex}")
+        return None
+    twin = {**entry, "id": tid, "platform": other, "path": str(dest), "preview": str(tprev),
+            "twin_of": entry["id"], "release_url": None}
+    twin.pop("release_url", None)
+    save_json(Path(str(dest) + ".json"), {**side, **twin})
+    log(f"cross-post: {entry['id']} also queued for {other} as {tid}")
+    return twin
 
 
 class QAFail(RuntimeError):
