@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T21:29:12.118838+05:30",
+ "updated": "2026-11-28T21:30:25.182528+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (3/7 ready)",
@@ -938,12 +938,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-28T15:12:36.341412+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
    "at": "2026-11-28T15:22:39.384119+05:30",
    "platform": "instagram",
    "category": "sports",
@@ -1026,6 +1020,12 @@
    "platform": "instagram",
    "category": "celebrity",
    "error": "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
+  },
+  {
+   "at": "2026-11-28T21:30:17.411174+05:30",
+   "platform": "instagram",
+   "category": "comedy",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for comedy, need 2"
   }
  ],
  "pattern_history": [
@@ -1114,19 +1114,6 @@
    "platform": "instagram"
   }
  ],
- "last_run": {
-  "platform": "instagram",
-  "in_progress": true,
-  "made": [
-   "in-anime-20261128-211330"
-  ],
-  "last_video": {
-   "id": "in-anime-20261128-211330",
-   "category": "anime",
-   "title": "Anime Scene Edit | KICK BACK Edit",
-   "at": "2026-11-28T21:29:11.814481+05:30"
-  }
- },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
   "age_hours": 7.4,
@@ -1146,36 +1133,5 @@
   },
   "errors": [],
   "message": "OK"
- },
- "stock": {
-  "updated": "2026-11-28T21:29:15.703533+05:30",
-  "ledger_readable": true,
-  "platforms": {
-   "instagram": {
-    "in_stock": 4,
-    "posted_still_in_stock": 0,
-    "unposted": 4,
-    "unposted_ids": [
-     "in-anime-20261128-211330",
-     "in-dc-20261128-185757",
-     "in-movie-20261128-191301",
-     "in-series-20261128-162352"
-    ],
-    "posted_total": 10
-   },
-   "youtube": {
-    "in_stock": 5,
-    "posted_still_in_stock": 0,
-    "unposted": 5,
-    "unposted_ids": [
-     "yo-anime-20261128-211330",
-     "yo-dc-20261128-185757",
-     "yo-gaming-20261128-171320",
-     "yo-gaming-20261128-173233",
-     "yo-movie-20261128-191301"
-    ],
-    "posted_total": 11
-   }
-  }
  }
 }

@@ -1,0 +1,317 @@
+{
+ "platform": "instagram",
+ "made": [
+  "in-anime-20261128-211330"
+ ],
+ "failures": [
+  "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2",
+  "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2",
+  "CategoryUnavailable: only 0 clean sources for gta",
+  "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2",
+  "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2",
+  "CategoryUnavailable: only 1 distinct source video(s) for comedy, need 2"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "movie",
+   "ok": false,
+   "timings": {
+    "gather": 162.8,
+    "total": 162.8
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "movie",
+   "ok": false,
+   "timings": {
+    "gather": 313.6,
+    "total": 313.6
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 261.7,
+    "total": 261.7
+   }
+  },
+  {
+   "attempt": 4,
+   "category": "marvel",
+   "ok": false,
+   "timings": {
+    "gather": 73.3,
+    "total": 73.3
+   }
+  },
+  {
+   "attempt": 5,
+   "category": "celebrity",
+   "ok": false,
+   "timings": {
+    "gather": 39.7,
+    "total": 39.7
+   }
+  },
+  {
+   "attempt": 6,
+   "category": "anime",
+   "ok": true,
+   "timings": {
+    "gather": 41.9,
+    "song": 34.7,
+    "beats": 0.0,
+    "scan_plan": 205.7,
+    "render": 390.6,
+    "gemini_meta": 26.8,
+    "shorts_9x16": 169.9,
+    "qa": 9.4,
+    "preview": 44.8,
+    "save": 23.2,
+    "total": 946.9
+   }
+  },
+  {
+   "attempt": 7,
+   "category": "comedy",
+   "ok": false,
+   "timings": {
+    "gather": 61.3,
+    "total": 61.3
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 954.3,
+  "song": 34.7,
+  "beats": 0.0,
+  "scan_plan": 205.7,
+  "render": 390.6,
+  "gemini_meta": 26.8,
+  "shorts_9x16": 169.9,
+  "qa": 9.4,
+  "preview": 44.8,
+  "save": 23.2
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 4,
+  "vetted": 4,
+  "rejected": [
+   {
+    "id": "47g58iHPJtQ",
+    "title": "Rockstar Is Already Working On New Games!",
+    "reasons": [
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "0uH00CDkW14",
+    "title": "Elevator Fight Scene | Captain America The Winter Soldier (2014) 4K HDR Movie Clip",
+    "reasons": [
+     "Persistent channel logo/watermark 'EF' visible in bottom left corner across multiple frames.",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "KYATf2A5GCQ",
+    "title": "Elevator Fight Scene | Captain America: The Winter Soldier | Official Clip",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "GZ3Q27Yp9UE",
+    "title": "Nate Bargatze Was His School's Class Clown Runner-Up, Calls Himself a Thanksgiving \"Ham Guy\"",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "movie",
+   "gta",
+   "marvel",
+   "celebrity",
+   "comedy"
+  ],
+  "runner_skipped": 12,
+  "box_clips_used": 6,
+  "failed_ids": [
+   "sPLD6LS_TIk",
+   "aLUGHQq2aek",
+   "8-DRGbQ1IXc",
+   "H4rYVsJ4v9Y"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  }
+ ],
+ "skipped_categories": [
+  "celebrity",
+  "comedy",
+  "gta",
+  "marvel",
+  "movie"
+ ],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0
+  },
+  "exhausted": true,
+  "reset_at": "2026-11-29 13:30 IST"
+ }
+}

@@ -77,6 +77,12 @@
    "at": "2026-11-28T19:30:42.841080+05:30",
    "video": "in-movie-20261128-191301",
    "platform": "instagram"
+  },
+  {
+   "id": "P10",
+   "at": "2026-11-28T21:28:53.812306+05:30",
+   "video": "in-anime-20261128-211330",
+   "platform": "instagram"
   }
  ],
  "songs": [
@@ -170,6 +176,13 @@
    "url": "https://www.youtube.com/watch?v=0J2QdDbelmY",
    "at": "2026-11-28T19:30:42.841092+05:30",
    "video": "in-movie-20261128-191301"
+  },
+  {
+   "title": "KICK BACK",
+   "artist": "Kenshi Yonezu",
+   "url": "https://www.youtube.com/watch?v=M2cckDmNLMI",
+   "at": "2026-11-28T21:28:53.812317+05:30",
+   "video": "in-anime-20261128-211330"
   }
  ],
  "windows": [
@@ -292,6 +305,18 @@
    "start": 34.05,
    "at": "2026-11-28T19:30:42.841102+05:30",
    "video": "in-movie-20261128-191301"
+  },
+  {
+   "file": "ZhCf8cZTK3w.mkv",
+   "start": 3.37,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330"
+  },
+  {
+   "file": "KNg04Ew6Rh4.mkv",
+   "start": 105.48,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330"
   }
  ],
  "sources_used": [
@@ -504,6 +529,21 @@
    "id": "DPjke2_2T4k",
    "at": "2026-11-28T19:30:42.841674+05:30",
    "video": "in-movie-20261128-191301"
+  },
+  {
+   "id": "Pk6ijWVFOtk",
+   "at": "2026-11-28T21:28:53.812579+05:30",
+   "video": "in-anime-20261128-211330"
+  },
+  {
+   "id": "ZhCf8cZTK3w",
+   "at": "2026-11-28T21:28:53.812584+05:30",
+   "video": "in-anime-20261128-211330"
+  },
+  {
+   "id": "KNg04Ew6Rh4",
+   "at": "2026-11-28T21:28:53.812587+05:30",
+   "video": "in-anime-20261128-211330"
   }
  ],
  "segments_used": [
@@ -6211,6 +6251,123 @@
    "end": 54.12907315478658,
    "at": "2026-11-28T19:30:42.841102+05:30",
    "video": "in-movie-20261128-191301",
+   "kind": "montage"
+  },
+  {
+   "id": "Pk6ijWVFOtk",
+   "file": "Pk6ijWVFOtk.mkv",
+   "start": 103.37,
+   "end": 106.30333333333334,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "KNg04Ew6Rh4",
+   "file": "KNg04Ew6Rh4.mkv",
+   "start": 38.87,
+   "end": 41.769999999999996,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "ZhCf8cZTK3w",
+   "file": "ZhCf8cZTK3w.mkv",
+   "start": 163.87,
+   "end": 166.80333333333334,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "Pk6ijWVFOtk",
+   "file": "Pk6ijWVFOtk.mkv",
+   "start": 95.97000000000001,
+   "end": 96.53666666666668,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "ZhCf8cZTK3w",
+   "file": "ZhCf8cZTK3w.mkv",
+   "start": 3.37,
+   "end": 10.969999999999999,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "dialogue"
+  },
+  {
+   "id": "KNg04Ew6Rh4",
+   "file": "KNg04Ew6Rh4.mkv",
+   "start": 49.269999999999996,
+   "end": 52.20333333333333,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "ZhCf8cZTK3w",
+   "file": "ZhCf8cZTK3w.mkv",
+   "start": 188.97,
+   "end": 190.70333333333332,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "KNg04Ew6Rh4",
+   "file": "KNg04Ew6Rh4.mkv",
+   "start": 105.48,
+   "end": 111.31333333333333,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "dialogue"
+  },
+  {
+   "id": "Pk6ijWVFOtk",
+   "file": "Pk6ijWVFOtk.mkv",
+   "start": 74.47000000000001,
+   "end": 76.83666666666667,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "KNg04Ew6Rh4",
+   "file": "KNg04Ew6Rh4.mkv",
+   "start": 176.97,
+   "end": 179.30333333333334,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "ZhCf8cZTK3w",
+   "file": "ZhCf8cZTK3w.mkv",
+   "start": 81.47000000000001,
+   "end": 84.37,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "Pk6ijWVFOtk",
+   "file": "Pk6ijWVFOtk.mkv",
+   "start": 167.07000000000002,
+   "end": 169.40333333333336,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
+   "kind": "montage"
+  },
+  {
+   "id": "KNg04Ew6Rh4",
+   "file": "KNg04Ew6Rh4.mkv",
+   "start": 134.67000000000002,
+   "end": 135.27,
+   "at": "2026-11-28T21:28:53.812325+05:30",
+   "video": "in-anime-20261128-211330",
    "kind": "montage"
   }
  ],
@@ -15519,6 +15676,127 @@
    "duration": 208.448,
    "category": "anime",
    "at": "2026-11-28 14:39"
+  },
+  "47g58iHPJtQ": {
+   "accept": false,
+   "reject_reasons": [
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Rockstar Is Already Working On New Games!",
+   "channel": "InkTV",
+   "credit": "InkTV",
+   "url": "https://www.youtube.com/watch?v=47g58iHPJtQ",
+   "via": "youtube-search",
+   "category": "gta",
+   "at": "2026-11-28 15:38"
+  },
+  "0uH00CDkW14": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "tense elevator confrontation",
+   "summary": "Clips from the Captain America elevator fight scene featuring Steve Rogers and S.H.I.E.L.D. agents.",
+   "reject_reasons": [
+    "Persistent channel logo/watermark 'EF' visible in bottom left corner across multiple frames.",
+    "watermark",
+    "channel_logo",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 12.6,
+     "end": 231.5,
+     "reason": "Persistent channel logo/watermark 'EF' in bottom left corner."
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    12.58,
+    43.86,
+    75.13,
+    106.41,
+    137.69,
+    168.96,
+    200.24,
+    231.52,
+    137.69
+   ],
+   "title": "Elevator Fight Scene | Captain America The Winter Soldier (2014) 4K HDR Movie Clip",
+   "channel": "Filmey Box",
+   "credit": "Filmey Box",
+   "url": "https://www.youtube.com/watch?v=0uH00CDkW14",
+   "via": "box-fetch",
+   "height": 1280,
+   "duration": 251.648,
+   "category": "marvel",
+   "at": "2026-11-28 15:42"
+  },
+  "KYATf2A5GCQ": {
+   "accept": true,
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "has_dialogue": true,
+   "mood": "",
+   "summary": "",
+   "checked_by": "manual",
+   "vet_via": "queue/manual_picks.json",
+   "title": "Elevator Fight Scene | Captain America: The Winter Soldier | Official Clip",
+   "channel": "Marvel Entertainment",
+   "credit": "Marvel Entertainment",
+   "url": "https://www.youtube.com/watch?v=KYATf2A5GCQ",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 241.368,
+   "category": "marvel",
+   "at": "2026-11-28 15:42"
+  },
+  "GZ3Q27Yp9UE": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "lighthearted talk show interview",
+   "summary": "Nate Bargatze and Jimmy Fallon converse on The Tonight Show set, intercut with a stand-up clip.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    33.19,
+    115.71,
+    198.22,
+    280.73,
+    363.24,
+    445.75,
+    528.27,
+    610.78,
+    363.24
+   ],
+   "title": "Nate Bargatze Was His School's Class Clown Runner-Up, Calls Himself a Thanksgiving \"Ham Guy\"",
+   "channel": "The Tonight Show Starring Jimmy Fallon",
+   "credit": "The Tonight Show Starring Jimmy Fallon",
+   "url": "https://www.youtube.com/watch?v=GZ3Q27Yp9UE",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 663.888,
+   "category": "comedy",
+   "at": "2026-11-28 16:00"
   }
  },
  "videos": [
@@ -23321,6 +23599,263 @@
     "qa": 11.4,
     "preview": 56.3
    }
+  },
+  {
+   "id": "in-anime-20261128-211330",
+   "platform": "instagram",
+   "category": "anime",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T21:28:53.811774+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-anime-20261128-211330.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-anime-20261128-211330.mp4",
+   "preview_mb": 22.3,
+   "size_mb": 131.7,
+   "title": "Anime Scene Edit | KICK BACK Edit",
+   "hook": "MAIN CHARACTER ENERGY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"KICK BACK\" – Kenshi Yonezu (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=M2cckDmNLMI\n🎧 Spotify: https://open.spotify.com/search/Kenshi%20Yonezu%20KICK%20BACK\n🎬 Footage: DisneyMusicVEVO – \"Awhimai Fraser - Get Lost (From \"Moana 2\") (Official Video)\"; Walt Disney Animation Studios – \"Moana 2 | Call to Motufetu - Deleted Scene\"; DisneyMusicVEVO – \"Moana 2 - Cast - What Could Be Better Than This? (From \"Moana 2\") (Official Video)\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#Anime #AnimeEdit #Crunchyroll #Cartoon",
+   "hashtags": [
+    "Anime",
+    "AnimeEdit",
+    "Crunchyroll",
+    "Cartoon"
+   ],
+   "song": {
+    "title": "KICK BACK",
+    "artist": "Kenshi Yonezu",
+    "url": "https://www.youtube.com/watch?v=M2cckDmNLMI",
+    "official_channel": "Kenshi Yonezu  米津玄師",
+    "spotify_search": "https://open.spotify.com/search/Kenshi%20Yonezu%20KICK%20BACK"
+   },
+   "song_credit": "\"KICK BACK\" – Kenshi Yonezu",
+   "pattern": {
+    "id": "P10",
+    "name": "Big keys, tiny fillers"
+   },
+   "captions": [
+    "THROUGH A",
+    "VISION",
+    "BUT EARLIER VERSION",
+    "OF THE FILM",
+    "DIDN'T GIVE HER",
+    "MANY ANSWERS OR",
+    "THE DIRECT CALL",
+    "FROM TAO TAI",
+    "VASA IN",
+    "THIS"
+   ],
+   "duration": 38.57,
+   "sources": [
+    {
+     "id": "Pk6ijWVFOtk",
+     "src_id": "Pk6ijWVFOtk",
+     "path": "/mnt/ph/instagram/sources/Pk6ijWVFOtk.mkv",
+     "title": "Awhimai Fraser - Get Lost (From \"Moana 2\") (Official Video)",
+     "credit": "DisneyMusicVEVO",
+     "url": "https://www.youtube.com/watch?v=Pk6ijWVFOtk"
+    },
+    {
+     "id": "ZhCf8cZTK3w",
+     "src_id": "ZhCf8cZTK3w",
+     "path": "/mnt/ph/instagram/sources/ZhCf8cZTK3w.mkv",
+     "title": "Moana 2 | Call to Motufetu - Deleted Scene",
+     "credit": "Walt Disney Animation Studios",
+     "url": "https://www.youtube.com/watch?v=ZhCf8cZTK3w"
+    },
+    {
+     "id": "KNg04Ew6Rh4",
+     "src_id": "KNg04Ew6Rh4",
+     "path": "/mnt/ph/instagram/sources/KNg04Ew6Rh4.mkv",
+     "title": "Moana 2 - Cast - What Could Be Better Than This? (From \"Moana 2\") (Official Video)",
+     "credit": "DisneyMusicVEVO",
+     "url": "https://www.youtube.com/watch?v=KNg04Ew6Rh4"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.57
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 10
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 41.9,
+    "song": 34.7,
+    "beats": 0.0,
+    "scan_plan": 205.7,
+    "render": 390.6,
+    "gemini_meta": 26.8,
+    "shorts_9x16": 169.9,
+    "qa": 9.4,
+    "preview": 44.8
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-anime-20261128-211330.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-anime-20261128-211330.preview.mp4"
+  },
+  {
+   "id": "yo-anime-20261128-211330",
+   "platform": "youtube",
+   "category": "anime",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T21:28:53.811774+05:30",
+   "path": "/mnt/ph/instagram/ready/youtube/yo-anime-20261128-211330.mp4",
+   "preview": "/mnt/ph/instagram/prev/yo-anime-20261128-211330.mp4",
+   "preview_mb": 22.3,
+   "size_mb": 131.7,
+   "title": "Anime Scene Edit | KICK BACK Edit",
+   "hook": "MAIN CHARACTER ENERGY",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"KICK BACK\" – Kenshi Yonezu (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=M2cckDmNLMI\n🎧 Spotify: https://open.spotify.com/search/Kenshi%20Yonezu%20KICK%20BACK\n🎬 Footage: DisneyMusicVEVO – \"Awhimai Fraser - Get Lost (From \"Moana 2\") (Official Video)\"; Walt Disney Animation Studios – \"Moana 2 | Call to Motufetu - Deleted Scene\"; DisneyMusicVEVO – \"Moana 2 - Cast - What Could Be Better Than This? (From \"Moana 2\") (Official Video)\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#Anime #AnimeEdit #Crunchyroll #Cartoon",
+   "hashtags": [
+    "Anime",
+    "AnimeEdit",
+    "Crunchyroll",
+    "Cartoon"
+   ],
+   "song": {
+    "title": "KICK BACK",
+    "artist": "Kenshi Yonezu",
+    "url": "https://www.youtube.com/watch?v=M2cckDmNLMI",
+    "official_channel": "Kenshi Yonezu  米津玄師",
+    "spotify_search": "https://open.spotify.com/search/Kenshi%20Yonezu%20KICK%20BACK"
+   },
+   "song_credit": "\"KICK BACK\" – Kenshi Yonezu",
+   "pattern": {
+    "id": "P10",
+    "name": "Big keys, tiny fillers"
+   },
+   "captions": [
+    "THROUGH A",
+    "VISION",
+    "BUT EARLIER VERSION",
+    "OF THE FILM",
+    "DIDN'T GIVE HER",
+    "MANY ANSWERS OR",
+    "THE DIRECT CALL",
+    "FROM TAO TAI",
+    "VASA IN",
+    "THIS"
+   ],
+   "duration": 38.57,
+   "sources": [
+    {
+     "id": "Pk6ijWVFOtk",
+     "src_id": "Pk6ijWVFOtk",
+     "path": "/mnt/ph/instagram/sources/Pk6ijWVFOtk.mkv",
+     "title": "Awhimai Fraser - Get Lost (From \"Moana 2\") (Official Video)",
+     "credit": "DisneyMusicVEVO",
+     "url": "https://www.youtube.com/watch?v=Pk6ijWVFOtk"
+    },
+    {
+     "id": "ZhCf8cZTK3w",
+     "src_id": "ZhCf8cZTK3w",
+     "path": "/mnt/ph/instagram/sources/ZhCf8cZTK3w.mkv",
+     "title": "Moana 2 | Call to Motufetu - Deleted Scene",
+     "credit": "Walt Disney Animation Studios",
+     "url": "https://www.youtube.com/watch?v=ZhCf8cZTK3w"
+    },
+    {
+     "id": "KNg04Ew6Rh4",
+     "src_id": "KNg04Ew6Rh4",
+     "path": "/mnt/ph/instagram/sources/KNg04Ew6Rh4.mkv",
+     "title": "Moana 2 - Cast - What Could Be Better Than This? (From \"Moana 2\") (Official Video)",
+     "credit": "DisneyMusicVEVO",
+     "url": "https://www.youtube.com/watch?v=KNg04Ew6Rh4"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.57
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 10
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 41.9,
+    "song": 34.7,
+    "beats": 0.0,
+    "scan_plan": 205.7,
+    "render": 390.6,
+    "gemini_meta": 26.8,
+    "shorts_9x16": 169.9,
+    "qa": 9.4,
+    "preview": 44.8
+   },
+   "twin_of": "in-anime-20261128-211330",
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-anime-20261128-211330.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-anime-20261128-211330.preview.mp4"
   }
  ],
  "listing_cache": {
@@ -44064,6 +44599,1932 @@
     "channel": "Disney",
     "verified": true
    }
+  ],
+  "https://www.youtube.com/@FallonTonight/videos|2026-11-28": [
+   {
+    "id": "a7XJkiQQOk8",
+    "title": "Justin Timberlake: LoveStoned, Until the End of Time, What Goes Around…/...Comes Around",
+    "duration": 556,
+    "url": "https://www.youtube.com/watch?v=a7XJkiQQOk8",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "Twp8idelw4o",
+    "title": "Justin Timberlake Explains Who Is Bringing \"SexyBack,\" Celebrates 20 Years of FutureSex/LoveSounds",
+    "duration": 826,
+    "url": "https://www.youtube.com/watch?v=Twp8idelw4o",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "9xaVuDSH1ec",
+    "title": "Sexy Butterball Hotline with Justin Timberlake | The Tonight Show Starring Jimmy Fallon",
+    "duration": 164,
+    "url": "https://www.youtube.com/watch?v=9xaVuDSH1ec",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "AukTkKCE-N8",
+    "title": "Camp Winnipesaukee with Justin Timberlake | The Tonight Show Starring Jimmy Fallon",
+    "duration": 353,
+    "url": "https://www.youtube.com/watch?v=AukTkKCE-N8",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "-da6-tmRXaM",
+    "title": "Justin Timberlake: FutureSex / LoveSound, SexyBack, Summer Love, My Love | The Tonight Show",
+    "duration": 570,
+    "url": "https://www.youtube.com/watch?v=-da6-tmRXaM",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "38K-EHqFPMg",
+    "title": "The History of Party Songs with Justin Timberlake | The Tonight Show Starring Jimmy Fallon",
+    "duration": 467,
+    "url": "https://www.youtube.com/watch?v=38K-EHqFPMg",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "gkpalJHHJZo",
+    "title": "Aaron Weber Stand-Up: Good Vibes, Joking with Nurses | The Tonight Show Starring Jimmy Fallon",
+    "duration": 360,
+    "url": "https://www.youtube.com/watch?v=gkpalJHHJZo",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "pWLay9O8J0c",
+    "title": "John Stamos Urges The Hunting Wives' Fans to Not Watch with Their Families | The Tonight Show",
+    "duration": 526,
+    "url": "https://www.youtube.com/watch?v=pWLay9O8J0c",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "iZmtUUobd5I",
+    "title": "Nate Bargatze and Jimmy Act Out a Dramatic Scene They've Written Together (In Partnership with Ford)",
+    "duration": 640,
+    "url": "https://www.youtube.com/watch?v=iZmtUUobd5I",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "GZ3Q27Yp9UE",
+    "title": "Nate Bargatze Was His School's Class Clown Runner-Up, Calls Himself a Thanksgiving \"Ham Guy\"",
+    "duration": 664,
+    "url": "https://www.youtube.com/watch?v=GZ3Q27Yp9UE",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "C7og4Y1-OEA",
+    "title": "Trump Celebrates Thanksgiving at Mar-a-Lago | The Tonight Show Starring Jimmy Fallon",
+    "duration": 564,
+    "url": "https://www.youtube.com/watch?v=C7og4Y1-OEA",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "mF7udGvNRJQ",
+    "title": "Erykah Badu: Breezy | The Tonight Show Starring Jimmy Fallon",
+    "duration": 289,
+    "url": "https://www.youtube.com/watch?v=mF7udGvNRJQ",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "8gFX622lD1E",
+    "title": "Amelia Dimoldenberg Talks Chicken Shop Date, Viral Red Carpet Interviews and Casting Her New Rom-Com",
+    "duration": 638,
+    "url": "https://www.youtube.com/watch?v=8gFX622lD1E",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "BsPtwzmQVts",
+    "title": "Amanda Seyfried Told \"A Lot of People\" About You Can See Everything Without It Leaking",
+    "duration": 491,
+    "url": "https://www.youtube.com/watch?v=BsPtwzmQVts",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "8Sju2XxqNBc",
+    "title": "Tim Allen Gets Competitive About Playing Santa Claus, Talks Return to Buzz Lightyear in Toy Story 5",
+    "duration": 705,
+    "url": "https://www.youtube.com/watch?v=8Sju2XxqNBc",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "DDiumI2A8L4",
+    "title": "Hoops of Insanity (In Partnership with State Farm) | The Tonight Show Starring Jimmy Fallon",
+    "duration": 469,
+    "url": "https://www.youtube.com/watch?v=DDiumI2A8L4",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "-fOopt9ugzw",
+    "title": "Jimmy Announces His New Book \"The Path of a Pencil\" | The Tonight Show Starring Jimmy Fallon",
+    "duration": 232,
+    "url": "https://www.youtube.com/watch?v=-fOopt9ugzw",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "ZL81l3xirDY",
+    "title": "Trump Hosts Annual White House Turkey Pardon | The Tonight Show Starring Jimmy Fallon",
+    "duration": 571,
+    "url": "https://www.youtube.com/watch?v=ZL81l3xirDY",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "FuHYxIRQUhQ",
+    "title": "Jennifer Lopez Talks New Music and The JLO Show, Performs \"Winter Wonderland\" with Jimmy",
+    "duration": 686,
+    "url": "https://www.youtube.com/watch?v=FuHYxIRQUhQ",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "BUieWIf4wBw",
+    "title": "Anderson .Paak & Cordae: Airbender/I'm On | The Tonight Show Starring Jimmy Fallon",
+    "duration": 289,
+    "url": "https://www.youtube.com/watch?v=BUieWIf4wBw",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "39Ucf-kpiX4",
+    "title": "Julia Garner Reveals Andrea Bocelli Was Her First Crush, Talks Family Prank Calls and The Altruists",
+    "duration": 430,
+    "url": "https://www.youtube.com/watch?v=39Ucf-kpiX4",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "XOBVvqHm7j0",
+    "title": "Kieran Culkin Thought His Hunger Games Role Was a Rumor, Dives into His Biggest Pet Peeves",
+    "duration": 680,
+    "url": "https://www.youtube.com/watch?v=XOBVvqHm7j0",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "2FKbBFDQouo",
+    "title": "Catchphrase with Kieran Culkin and Julia Garner | The Tonight Show Starring Jimmy Fallon",
+    "duration": 398,
+    "url": "https://www.youtube.com/watch?v=2FKbBFDQouo",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "uAN-pHGgfCw",
+    "title": "Xi Jinping Greets Trump with a Hug, FAA Hits Pause on Router Installations After Ground Stop",
+    "duration": 626,
+    "url": "https://www.youtube.com/watch?v=uAN-pHGgfCw",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "SYgAb7OEE3c",
+    "title": "Zainab Johnson Stand-Up: New Homeowner, Security Boots | The Tonight Show Starring Jimmy Fallon",
+    "duration": 376,
+    "url": "https://www.youtube.com/watch?v=SYgAb7OEE3c",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "AIogNiA7AW8",
+    "title": "Carter Faith Reveals Her Pre-Show Huddle Ritual, Talks Grammy Nomination and Heartland (Extended)",
+    "duration": 531,
+    "url": "https://www.youtube.com/watch?v=AIogNiA7AW8",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "GPdZxauv_L0",
+    "title": "\"I Want You to Margo Banks Me\": Malin Akerman on Getting Recognized by Hunting Wives Fans (Extended)",
+    "duration": 519,
+    "url": "https://www.youtube.com/watch?v=GPdZxauv_L0",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "r26ccjWUK1Y",
+    "title": "Michael Che Defends His Cooking Skills, Talks Shot in Minnesota Comedy Special (Extended)",
+    "duration": 670,
+    "url": "https://www.youtube.com/watch?v=r26ccjWUK1Y",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "oN2LwAZFm6s",
+    "title": "Trump Brushes Off Nationwide Tech Outages, Hopes for Kim Jong Un Meeting on Asia Trip | Tonight Show",
+    "duration": 455,
+    "url": "https://www.youtube.com/watch?v=oN2LwAZFm6s",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "7RLTzKMMlEc",
+    "title": "Milo J: Niño | The Tonight Show Starring Jimmy Fallon",
+    "duration": 273,
+    "url": "https://www.youtube.com/watch?v=7RLTzKMMlEc",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "m62qYsKxAi8",
+    "title": "Vanna White Teaches Jimmy How to Do \"The Vanna\" for Wheel of Fortune | The Tonight Show",
+    "duration": 257,
+    "url": "https://www.youtube.com/watch?v=m62qYsKxAi8",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "OB5ktrgIEO8",
+    "title": "Tom Blyth Almost Fell Off a Chair During A Few Good Men, Talks Juilliard with Maya Hawke",
+    "duration": 304,
+    "url": "https://www.youtube.com/watch?v=OB5ktrgIEO8",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "UHb3qLxhnJw",
+    "title": "Memory Drawing Challenge with Amy Poehler | The Tonight Show Starring Jimmy Fallon",
+    "duration": 417,
+    "url": "https://www.youtube.com/watch?v=UHb3qLxhnJw",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "fWx6-3NDJO4",
+    "title": "Amy Poehler Reveals Who Paul McCartney Thinks Does the Best Impression of Him (Extended)",
+    "duration": 512,
+    "url": "https://www.youtube.com/watch?v=fWx6-3NDJO4",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "MOw6CgtFsXA",
+    "title": "Trump Says Old FAA Tech \"Had a Heart Attack,\" Heads to Asia for High-Stakes Xi and Putin Meeting",
+    "duration": 587,
+    "url": "https://www.youtube.com/watch?v=MOw6CgtFsXA",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "BRFNKmGiOz4",
+    "title": "Elevator's Got The Hunger Games w/ Jennifer Lawrence, Josh Hutcherson & Woody Harrelson (Cold Open)",
+    "duration": 93,
+    "url": "https://www.youtube.com/watch?v=BRFNKmGiOz4",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "XoWQsWBOzE4",
+    "title": "Jimmy Interviews Miss Piggy and Kermit the Frog | Fallon Flashback (Late Night with Jimmy Fallon)",
+    "duration": 275,
+    "url": "https://www.youtube.com/watch?v=XoWQsWBOzE4",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "lyk15Sj3aqw",
+    "title": "Offset: Hating On Me | The Tonight Show Starring Jimmy Fallon",
+    "duration": 218,
+    "url": "https://www.youtube.com/watch?v=lyk15Sj3aqw",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "Pcus_guYbPc",
+    "title": "Anthony Mackie Clears Up Avengers: Doomsday Spoilers, Tackles Doctor Doom and Talks 12 12 12",
+    "duration": 800,
+    "url": "https://www.youtube.com/watch?v=Pcus_guYbPc",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "NXw_L0PuMv0",
+    "title": "Jennifer Lopez Shares Her Inspiration for The JLO Show: Live in Las Vegas, Teases Tour and New Music",
+    "duration": 574,
+    "url": "https://www.youtube.com/watch?v=NXw_L0PuMv0",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "K58YY_bjoGQ",
+    "title": "Wig Swap Holiday Lounge Singers with Jennifer Lopez | The Tonight Show Starring Jimmy Fallon",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=K58YY_bjoGQ",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "LF44NTgzJok",
+    "title": "FAA Equipment Failure Grounds Flights Nationwide, Trump Breaks Silence on Air Traffic Control System",
+    "duration": 718,
+    "url": "https://www.youtube.com/watch?v=LF44NTgzJok",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "rvoYNiUhh58",
+    "title": "Robert De Niro, Ben Stiller and Ariana Grande Talk Focker In-Law, Play True Confessions and More",
+    "duration": 1671,
+    "url": "https://www.youtube.com/watch?v=rvoYNiUhh58",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "skb0pgle6U8",
+    "title": "Lip Sync Battle: Will Ferrell Performs Beyoncé’s \"Drunk in Love\" | The Tonight Show",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=skb0pgle6U8",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "y3gzEjNzXZE",
+    "title": "Brothers Osborne: Born and Raised Hell | The Tonight Show Starring Jimmy Fallon",
+    "duration": 275,
+    "url": "https://www.youtube.com/watch?v=y3gzEjNzXZE",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "QWawp1TQobU",
+    "title": "Kyle Larson Talks Becoming a 3-Time NASCAR Cup Champion and His Favorite Competitor Hand Gesture",
+    "duration": 229,
+    "url": "https://www.youtube.com/watch?v=QWawp1TQobU",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "XBurmE_nbeU",
+    "title": "Taylor Kinney on Celebrating 300 Episodes of Chicago Fire, Gifts Jimmy His Own Firefighter Helmet",
+    "duration": 505,
+    "url": "https://www.youtube.com/watch?v=XBurmE_nbeU",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "2XT1kqflo38",
+    "title": "Woman, Truck or Dog? with Jessica Chastain | The Tonight Show Starring Jimmy Fallon",
+    "duration": 420,
+    "url": "https://www.youtube.com/watch?v=2XT1kqflo38",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "Yxny0VRZ998",
+    "title": "Jessica Chastain Reveals Her Insane Wine Hack, Talks Singing in Front of Country Stars for Heartland",
+    "duration": 580,
+    "url": "https://www.youtube.com/watch?v=Yxny0VRZ998",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "eCQURN2LkP4",
+    "title": "Pete Hegseth Narrowly Avoids Impeachment, White House Destroys Documents | The Tonight Show",
+    "duration": 429,
+    "url": "https://www.youtube.com/watch?v=eCQURN2LkP4",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "_yPwx6YZ6yc",
+    "title": "Tinashe: Popstar/Melatonin | The Tonight Show Starring Jimmy Fallon",
+    "duration": 216,
+    "url": "https://www.youtube.com/watch?v=_yPwx6YZ6yc",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "zrdLnWs8HNw",
+    "title": "Donovan Mitchell Talks Facing the Knicks Again and Plays an Intense Game of One-Cup Pong",
+    "duration": 402,
+    "url": "https://www.youtube.com/watch?v=zrdLnWs8HNw",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "vpyOZ9P0BX4",
+    "title": "Skyler Gisondo Reacts to Becoming a Viral Meme, Confirms He Radiates Peanut Allergy Energy",
+    "duration": 649,
+    "url": "https://www.youtube.com/watch?v=vpyOZ9P0BX4",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "qnmsvNyyXRY",
+    "title": "Trump Claims Midterms Were Rigged, Mystery Woman Interrupts Trump's C-SPAN Call with Giggles",
+    "duration": 622,
+    "url": "https://www.youtube.com/watch?v=qnmsvNyyXRY",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "clK29yNTcNE",
+    "title": "Ask This Old House Experts Give Jimmy Tips for Toilers, Critters and More | The Tonight Show",
+    "duration": 423,
+    "url": "https://www.youtube.com/watch?v=clK29yNTcNE",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "korbMR6LobM",
+    "title": "Léa Seydoux Performs Opera for Jimmy, Talks Mission Impossible and Gentle Monster | The Tonight Show",
+    "duration": 368,
+    "url": "https://www.youtube.com/watch?v=korbMR6LobM",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "Kn_BC0VJxoY",
+    "title": "Meghann Fahy Went from Performing for Livestock to Performing with Hayley Williams | Tonight Show",
+    "duration": 524,
+    "url": "https://www.youtube.com/watch?v=Kn_BC0VJxoY",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "xBesCJ0EhOM",
+    "title": "Pete Davidson Reacts to Footage from His Dramatic Mob Wives Television Debut | The Tonight Show",
+    "duration": 706,
+    "url": "https://www.youtube.com/watch?v=xBesCJ0EhOM",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "OVB16EaDFCk",
+    "title": "Trump Blames Midterm Losses on \"Bad Messaging,\" Says Dana White Press Secretary Offer Was a Joke",
+    "duration": 652,
+    "url": "https://www.youtube.com/watch?v=OVB16EaDFCk",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "x4AClOJzbnk",
+    "title": "Lil Baby: Dead Fresh | The Tonight Show Starring Jimmy Fallon",
+    "duration": 215,
+    "url": "https://www.youtube.com/watch?v=x4AClOJzbnk",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "p4a3_cFy2-M",
+    "title": "Slow Clap Soap Opera with Robert De Niro, Ben Stiller and Ariana Grande | The Tonight Show",
+    "duration": 300,
+    "url": "https://www.youtube.com/watch?v=p4a3_cFy2-M",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "LtS4lur6unc",
+    "title": "Robert De Niro, Ben Stiller and Ariana Grande Talk Focker In-Law and Intense Heimlich Maneuver Scene",
+    "duration": 577,
+    "url": "https://www.youtube.com/watch?v=LtS4lur6unc",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "r07P9Fa9Xo4",
+    "title": "True Confessions with Robert De Niro, Ben Stiller and Ariana Grande | The Tonight Show",
+    "duration": 759,
+    "url": "https://www.youtube.com/watch?v=r07P9Fa9Xo4",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "En4fD03PNCM",
+    "title": "Robert De Niro, Ben Stiller and Ariana Grande Interrupt Jimmy's Monologue with Christmas Cheer",
+    "duration": 113,
+    "url": "https://www.youtube.com/watch?v=En4fD03PNCM",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "zOQLrSi1peE",
+    "title": "Trump Hires Stephen Miller as Chief of Staff, Butchers \"Genome\" Pronunciation | The Tonight Show",
+    "duration": 410,
+    "url": "https://www.youtube.com/watch?v=zOQLrSi1peE",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "2q5fRBkzA_k",
+    "title": "Dinner Party: Sleepless Nights/If It Ain't Broke Medley | The Tonight Show Starring Jimmy Fallon",
+    "duration": 301,
+    "url": "https://www.youtube.com/watch?v=2q5fRBkzA_k",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "KCZaSSr5m6o",
+    "title": "Caitlin Clark Shoots Cheeseballs into Jimmy's Mouth, Talks Nike Friendship Bracelet Caitlin 1s",
+    "duration": 554,
+    "url": "https://www.youtube.com/watch?v=KCZaSSr5m6o",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "uWmxJ9_q8t4",
+    "title": "Sarah Paulson Talks Harryween and Her All's Fair Season 2 Rotten Tomatoes Prediction | Tonight Show",
+    "duration": 636,
+    "url": "https://www.youtube.com/watch?v=uWmxJ9_q8t4",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "NCGspQaNqi4",
+    "title": "What's Behind Me? with Sarah Paulson | The Tonight Show Starring Jimmy Fallon",
+    "duration": 420,
+    "url": "https://www.youtube.com/watch?v=NCGspQaNqi4",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "qJB-oN4zHn8",
+    "title": "Thank You Notes: Bob Dylan Meeting the Pope, Automatic Toilets | The Tonight Show",
+    "duration": 446,
+    "url": "https://www.youtube.com/watch?v=qJB-oN4zHn8",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "v2E4D_CO2RE",
+    "title": "Democrats Ride the Blue Wave High, 19-Year-Old Unseats GOP Lawmaker in Massachusetts | Tonight Show",
+    "duration": 328,
+    "url": "https://www.youtube.com/watch?v=v2E4D_CO2RE",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "nJ7RYGHIxcI",
+    "title": "Ashe: Stop The Wedding! | The Tonight Show Starring Jimmy Fallon",
+    "duration": 244,
+    "url": "https://www.youtube.com/watch?v=nJ7RYGHIxcI",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "rVoNx1yuOH0",
+    "title": "Anthony Ippolito Talks Starring as Sylvester Stallone in I Play Rocky, Reenacting Iconic Film Scenes",
+    "duration": 438,
+    "url": "https://www.youtube.com/watch?v=rVoNx1yuOH0",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "kSt_PCNtkQE",
+    "title": "Jennifer Beals Praises Taylor Swift, Says She Was a Mythology Nerd Before Starring in Percy Jackson",
+    "duration": 490,
+    "url": "https://www.youtube.com/watch?v=kSt_PCNtkQE",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "PCsU9f6yXQU",
+    "title": "Ethan Hawke Talks Attending Maya Hawke's Wedding and Filming Training Day with Denzel Washington",
+    "duration": 681,
+    "url": "https://www.youtube.com/watch?v=PCsU9f6yXQU",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "O6gyQAPVAnE",
+    "title": "Trump's Cabinet Distances Themselves from Him After Midterms | The Tonight Show",
+    "duration": 639,
+    "url": "https://www.youtube.com/watch?v=O6gyQAPVAnE",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "uDTcC4fuDAw",
+    "title": "Chef Anthony Vitolo Cooks His Classic Spaghetti Pomodoro with Jimmy | The Tonight Show",
+    "duration": 431,
+    "url": "https://www.youtube.com/watch?v=uDTcC4fuDAw",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "PcALlSqnVAs",
+    "title": "Memory Drawing Challenge with Carrie Coon | The Tonight Show Starring Jimmy Fallon",
+    "duration": 437,
+    "url": "https://www.youtube.com/watch?v=PcALlSqnVAs",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "awKCW9dyuvQ",
+    "title": "Carrie Coon Says Taylor Swift Should Be on The Gilded Age, Discusses the Show's New Season",
+    "duration": 455,
+    "url": "https://www.youtube.com/watch?v=awKCW9dyuvQ",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   },
+   {
+    "id": "vKy1cYrIsVg",
+    "title": "Tracy Morgan Does His Chewbacca Impression, Talks the Knicks and Reggie Dinkins Season 2",
+    "duration": 594,
+    "url": "https://www.youtube.com/watch?v=vKy1cYrIsVg",
+    "channel": "The Tonight Show Starring Jimmy Fallon",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@JimmyKimmelLive/videos|2026-11-28": [
+   {
+    "id": "Eikc6-ww2Dg",
+    "title": "Travis Barker on Inducting Phil Collins into Rock Hall of Fame & Overcoming Fear After Plane Crash",
+    "duration": 616,
+    "url": "https://www.youtube.com/watch?v=Eikc6-ww2Dg",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "AhCGY_KlFlg",
+    "title": "Joel McHale on His Wife’s Love is Blind Scandal, Being an NFL Photographer & Hosting Thanksgiving",
+    "duration": 884,
+    "url": "https://www.youtube.com/watch?v=AhCGY_KlFlg",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "MGX7JYXr7X0",
+    "title": "Trump Makes Millions Off Huang’s Return to Nvidia, Gives Giuliani Medal of Freedom & Pardons Turkeys",
+    "duration": 723,
+    "url": "https://www.youtube.com/watch?v=MGX7JYXr7X0",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "0sL--EvgJfU",
+    "title": "David Sedaris on Lying to Strangers, Mishap at the Oscars & Being One of Vogue’s Best Dressed",
+    "duration": 580,
+    "url": "https://www.youtube.com/watch?v=0sL--EvgJfU",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "btccAp5SeP8",
+    "title": "Jason Bateman on Thanksgiving with Jimmy Kimmel, Liking His Food HOT & SmartLess at Hollywood Bowl",
+    "duration": 962,
+    "url": "https://www.youtube.com/watch?v=btccAp5SeP8",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "Qll1Uo7J49E",
+    "title": "Trump Pressures Nvidia to Reinstate CEO Jensen Huang & He Tries to Explain Calling Putin His Friend",
+    "duration": 841,
+    "url": "https://www.youtube.com/watch?v=Qll1Uo7J49E",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "mhOaFKtehhA",
+    "title": "Martin Short & Selena Gomez on Wedding Cake Debacle, Only Murders & Working with Meryl Streep",
+    "duration": 1061,
+    "url": "https://www.youtube.com/watch?v=mhOaFKtehhA",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "H18aztcCFao",
+    "title": "Jackie Tohn on Nobody Wants This, Her Middle School Dreams & Who Wants to Be a Millionaire Injury",
+    "duration": 585,
+    "url": "https://www.youtube.com/watch?v=H18aztcCFao",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "UG84NoEtt9o",
+    "title": "Trump Calls Putin His FRIEND, Sleeps During President Xi’s Speech & Grand Theft Auto VI Mania!",
+    "duration": 813,
+    "url": "https://www.youtube.com/watch?v=UG84NoEtt9o",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "sFFFFIWyu68",
+    "title": "Stephen Wilson Jr. – Exorcisms on the Weekend",
+    "duration": 232,
+    "url": "https://www.youtube.com/watch?v=sFFFFIWyu68",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "Qo7G-yZfPwI",
+    "title": "Chris Pratt on Lying to Jimmy Buffett, Christmas with Arnold Schwarzenegger & Getting Slimed",
+    "duration": 881,
+    "url": "https://www.youtube.com/watch?v=Qo7G-yZfPwI",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "J7F_L3h5Osw",
+    "title": "Gordon Ramsay on Posting a Shirtless Photo for His 60th, Becoming a Grandfather & the Art of Baking",
+    "duration": 427,
+    "url": "https://www.youtube.com/watch?v=J7F_L3h5Osw",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "SOlfON1opQk",
+    "title": "Trump Makes Saddest Most Embarrassing Plea Yet, Meets Up with Putin and Xi & Press Secretary Kimmel!",
+    "duration": 910,
+    "url": "https://www.youtube.com/watch?v=SOlfON1opQk",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "VZzLqOx73Go",
+    "title": "John Mulaney on Hosting SNL, His Christian Bale Impression & Producing His Stepfather-in-law's Music",
+    "duration": 919,
+    "url": "https://www.youtube.com/watch?v=VZzLqOx73Go",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "bdImaHPjPBg",
+    "title": "Sam and The Pink Notes – Yellow Rambler",
+    "duration": 152,
+    "url": "https://www.youtube.com/watch?v=bdImaHPjPBg",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "FHNPFiDJdFo",
+    "title": "Jordan Firstman on Donating Sperm to His Siblings, First Appearance on Kimmel & New Movie Club Kid",
+    "duration": 603,
+    "url": "https://www.youtube.com/watch?v=FHNPFiDJdFo",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "iT_D8-XqSso",
+    "title": "Trump Gets Weird in Asia, Everything is Broken in America & Measles are Making a Comeback!",
+    "duration": 706,
+    "url": "https://www.youtube.com/watch?v=iT_D8-XqSso",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "Up8Yblwsqgk",
+    "title": "Billie Jean King on Elton John Writing a Song for Her & Fighting for Equal Pay in Sports",
+    "duration": 773,
+    "url": "https://www.youtube.com/watch?v=Up8Yblwsqgk",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "2I3e49KpD2w",
+    "title": "Chris Rock on Inducting Wu-Tang Clan in Rock Hall of Fame, Working as a DJ & New Movie Misty Green",
+    "duration": 848,
+    "url": "https://www.youtube.com/watch?v=2I3e49KpD2w",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "AzKVdh032qU",
+    "title": "Trump Makes Excuses for Airport Armageddon & His Top Minds Put on One Hell of a Press Conference",
+    "duration": 972,
+    "url": "https://www.youtube.com/watch?v=AzKVdh032qU",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "_9kMK6lMMiw",
+    "title": "Bobby Lee on His Mom Loving BTS, His Dad Saying He's Not Funny & His First Comedy Special",
+    "duration": 465,
+    "url": "https://www.youtube.com/watch?v=_9kMK6lMMiw",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "Tv8ry5-H41U",
+    "title": "U2 on Being Together for 50 Years, Dolly Parton’s Last Vocal Recording & New Album Carnaval de Luz",
+    "duration": 1121,
+    "url": "https://www.youtube.com/watch?v=Tv8ry5-H41U",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "IOoA2QhuqWM",
+    "title": "Sheryl Crow ft. Jesse Welles - Freedom Bus",
+    "duration": 239,
+    "url": "https://www.youtube.com/watch?v=IOoA2QhuqWM",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "yiprvoKiXAQ",
+    "title": "Trump Spins Over Huge Midterm Defeat, Pulls JD Vance Off Iran & Nvidia CEO’s Chinese Spy Sex Scandal",
+    "duration": 836,
+    "url": "https://www.youtube.com/watch?v=yiprvoKiXAQ",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "pdJELD-D6bs",
+    "title": "Joseph Zada on Hunger Games Audition, Studying Woody Harrelson & Growing Up in Australia",
+    "duration": 469,
+    "url": "https://www.youtube.com/watch?v=pdJELD-D6bs",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "yxOC3xlazYc",
+    "title": "Arnold Schwarzenegger on Trump Asking for His Support, Being a Republican & World’s Hottest Grandpa",
+    "duration": 1093,
+    "url": "https://www.youtube.com/watch?v=yxOC3xlazYc",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "6-wBsmF74N8",
+    "title": "Trump Brags About Himself on Veterans Day & Hegseth Embarrasses Himself at Arlington Cemetery",
+    "duration": 915,
+    "url": "https://www.youtube.com/watch?v=6-wBsmF74N8",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "RSqnUT1nJfE",
+    "title": "Andrew Scott on Being a Child Actor, Fans Spotting Him and Phoebe Waller-Bridge & New Movie Elsinore",
+    "duration": 495,
+    "url": "https://www.youtube.com/watch?v=RSqnUT1nJfE",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "JTac8nEJFtg",
+    "title": "Jodie Foster on Crazy Superstitions, Training with FBI Agents & Playing a Villain in Disney's Hexed",
+    "duration": 770,
+    "url": "https://www.youtube.com/watch?v=JTac8nEJFtg",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "qSiIvZX00ZU",
+    "title": "Jesse Welles – The Nerd Reich",
+    "duration": 224,
+    "url": "https://www.youtube.com/watch?v=qSiIvZX00ZU",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "CJ2MwO6lnWg",
+    "title": "Trump Praises Hegseth’s Doozy of a Press Conference, Milks the MAGA Faithful & Melania’s New Show",
+    "duration": 924,
+    "url": "https://www.youtube.com/watch?v=CJ2MwO6lnWg",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "uQL4-SO-dRw",
+    "title": "Bill Murray on Meeting Huey Lewis, Driving Around Ireland with Tom Coyne & What About Bob Screening",
+    "duration": 1020,
+    "url": "https://www.youtube.com/watch?v=uQL4-SO-dRw",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "Ikg9oHVLDMQ",
+    "title": "Will Ferrell Interrupts Andy Richter’s Interview About His New Elf Book",
+    "duration": 572,
+    "url": "https://www.youtube.com/watch?v=Ikg9oHVLDMQ",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "XMRsPleHZ4s",
+    "title": "Trump Cries Rigged Election, “Kidding\" About Hiring Dana White & White House Insults Jimmy Kimmel",
+    "duration": 957,
+    "url": "https://www.youtube.com/watch?v=XMRsPleHZ4s",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "TTzta6J30eo",
+    "title": "Adam Driver on Being in the Upcoming X-Men Movie & New Movie Paper Tiger with Miles Teller",
+    "duration": 453,
+    "url": "https://www.youtube.com/watch?v=TTzta6J30eo",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "rd2qzmINQCU",
+    "title": "Sam Nivola on Loving the Movie Swingers, Finding Out About White Lotus Storyline & New Show Phony",
+    "duration": 471,
+    "url": "https://www.youtube.com/watch?v=rd2qzmINQCU",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "wgznUQoK2yI",
+    "title": "Mike D 5D – Switch Up",
+    "duration": 218,
+    "url": "https://www.youtube.com/watch?v=wgznUQoK2yI",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "UWDWyXvHo90",
+    "title": "Trump Rants & Raves About the Least Important Things Ever & All the Promises He’s Failed to Fulfill",
+    "duration": 1263,
+    "url": "https://www.youtube.com/watch?v=UWDWyXvHo90",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "DBcBmzz8Bf4",
+    "title": "Timothy Simons on Major Soup Fail, Getting into Politics Doing VEEP & His Epic Search for Cigarettes",
+    "duration": 516,
+    "url": "https://www.youtube.com/watch?v=DBcBmzz8Bf4",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "Dp_bpfEvvoQ",
+    "title": "Miles Teller on Tom Cruise Talking About Top Gun 3, MLB All-Star Game in Philly & Paper Tiger",
+    "duration": 716,
+    "url": "https://www.youtube.com/watch?v=Dp_bpfEvvoQ",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "RHWmbCnprXw",
+    "title": "Trump Blames Everyone But Himself for Huge Midterm Loss & the White House Lashes Out at Jimmy Kimmel",
+    "duration": 1310,
+    "url": "https://www.youtube.com/watch?v=RHWmbCnprXw",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "sdw-9wFMT1A",
+    "title": "Pod Save America Hosts on Midterm Results, Trump’s Final Two Years & 2028 Presidential Candidates",
+    "duration": 1238,
+    "url": "https://www.youtube.com/watch?v=sdw-9wFMT1A",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "H9jo7ylQ1m8",
+    "title": "Cage the Elephant – Make It Easy",
+    "duration": 211,
+    "url": "https://www.youtube.com/watch?v=H9jo7ylQ1m8",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "KY9zDP4pH88",
+    "title": "Jimmy Kimmel Breaks Down Midterm Election Results, Trump Loses Bigly & Assistant Natalie Stops By!",
+    "duration": 1000,
+    "url": "https://www.youtube.com/watch?v=KY9zDP4pH88",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "ouEPXMniOUQ",
+    "title": "Bill Hader on Group Chat with Kimmel, Mulaney and Armisen, The Cat in the Hat & His Kids Being Funny",
+    "duration": 883,
+    "url": "https://www.youtube.com/watch?v=ouEPXMniOUQ",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "21an7lQV90Q",
+    "title": "Justine Lupe on Nobody Wants This, Her Dad’s Disastrous Wedding Speech & Her Mom Giving the Talk",
+    "duration": 616,
+    "url": "https://www.youtube.com/watch?v=21an7lQV90Q",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "AKVUa3rRxzo",
+    "title": "Trump LASER Focused on Midterm Election, Blabbers About the Reflecting Pool & Mar-a-Lago Halloween",
+    "duration": 1041,
+    "url": "https://www.youtube.com/watch?v=AKVUa3rRxzo",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "9LIrSFby1cg",
+    "title": "Behind the Scenes with Jimmy Kimmel & Audience (Tank Top Halloween Costumes)",
+    "duration": 307,
+    "url": "https://www.youtube.com/watch?v=9LIrSFby1cg",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "8MNrcLhXo8I",
+    "title": "Foo Fighters – Baker Street",
+    "duration": 258,
+    "url": "https://www.youtube.com/watch?v=8MNrcLhXo8I",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "9weE2rrPpIE",
+    "title": "Christopher Lloyd on Meeting Princess Diana, Being in Cher’s Bedroom & Turning 88 Years Old",
+    "duration": 486,
+    "url": "https://www.youtube.com/watch?v=9weE2rrPpIE",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "7HeIRaVNtiM",
+    "title": "Paul Bettany on New Show VisionQuest, Blowing His Eye Out on Set & Becoming an American Citizen",
+    "duration": 822,
+    "url": "https://www.youtube.com/watch?v=7HeIRaVNtiM",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "7_eUJ0Af5yw",
+    "title": "Trump Lashes Out at a Reporter, Hecklers Take Over His Rallies & Obama's Cheesecake Factory Response",
+    "duration": 830,
+    "url": "https://www.youtube.com/watch?v=7_eUJ0Af5yw",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "RSU0CPdei9k",
+    "title": "Guillermo Races with Bobby & Graham Rahal - Sponsored by Edwards Lifesciences",
+    "duration": 69,
+    "url": "https://www.youtube.com/watch?v=RSU0CPdei9k",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "nwtmot_PL3M",
+    "title": "Emma Roberts on Getting Married, American Horror Story & She Breaks Baseball Cards with Jimmy Kimmel",
+    "duration": 610,
+    "url": "https://www.youtube.com/watch?v=nwtmot_PL3M",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "cGkutLx7xLM",
+    "title": "Governor Gavin Newsom on Trump’s Election Meddling, If He'll Run for President & Blue Wave Coming",
+    "duration": 985,
+    "url": "https://www.youtube.com/watch?v=cGkutLx7xLM",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "zIwbwIlFFcE",
+    "title": "Foo Fighters – Your Favorite Toy",
+    "duration": 187,
+    "url": "https://www.youtube.com/watch?v=zIwbwIlFFcE",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "bwWGBP18vmc",
+    "title": "Trump’s Racism is on Full Display, Won’t Endorse JD Vance & Don Jr is All Over the Place",
+    "duration": 961,
+    "url": "https://www.youtube.com/watch?v=bwWGBP18vmc",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "1BqwBATY6Qo",
+    "title": "Foo Fighters – This Is A Call",
+    "duration": 230,
+    "url": "https://www.youtube.com/watch?v=1BqwBATY6Qo",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "BQaMVQ3Bq6A",
+    "title": "Gabourey Sidibe on Her Twins Dressing Up for Halloween & Scary Role on American Horror Story",
+    "duration": 513,
+    "url": "https://www.youtube.com/watch?v=BQaMVQ3Bq6A",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "t-WFvGbYyK8",
+    "title": "Owen Wilson on Fockers Call from De Niro, Stealing from Woody Harrelson & Golfing with His Brother",
+    "duration": 731,
+    "url": "https://www.youtube.com/watch?v=t-WFvGbYyK8",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "zpW_gVjb7T4",
+    "title": "Trump Gets Heckled at His Own Rally, Gifts Us a GREAT Moment & Don Jr’s Oligarch Hunting Trip",
+    "duration": 934,
+    "url": "https://www.youtube.com/watch?v=zpW_gVjb7T4",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "Gd-lxHNPMI0",
+    "title": "Connie Britton on Friday Night Lights Reunion, Road Trip with Kyle Chandler & New Hulu Show Phony",
+    "duration": 558,
+    "url": "https://www.youtube.com/watch?v=Gd-lxHNPMI0",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "dk8jaL4AyCQ",
+    "title": "Dave Grohl on Poaching Taylor Hawkins from Alanis Morissette, Cooking for Vin Diesel & New Album",
+    "duration": 869,
+    "url": "https://www.youtube.com/watch?v=dk8jaL4AyCQ",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "a9lTedOJDxI",
+    "title": "Foo Fighters – Window",
+    "duration": 224,
+    "url": "https://www.youtube.com/watch?v=a9lTedOJDxI",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "5HNo4Cz5Yec",
+    "title": "Trump Comments on Nicki Minaj’s “Beautiful Ass,\" Obama Roasts Trump & Midterm Shenanigans",
+    "duration": 886,
+    "url": "https://www.youtube.com/watch?v=5HNo4Cz5Yec",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "MMaOs74_bzs",
+    "title": "Judd Apatow on Mushrooms with Wife Leslie Mann & Documentaries About Norm Macdonald & Maria Bamford",
+    "duration": 690,
+    "url": "https://www.youtube.com/watch?v=MMaOs74_bzs",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "3ZbbL2ySDAo",
+    "title": "Kim Kardashian on Going Through OJ Simpson's Luggage, Doing Dancing with the Stars & All's Fair",
+    "duration": 973,
+    "url": "https://www.youtube.com/watch?v=3ZbbL2ySDAo",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "4K1Cz42AYxY",
+    "title": "The White House is Mad at Jimmy Kimmel AGAIN, Trump’s Press Secretary Mess & Fox News Betrays Him",
+    "duration": 853,
+    "url": "https://www.youtube.com/watch?v=4K1Cz42AYxY",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "7qjdZkgITXY",
+    "title": "Tom Rhys Harries on Playing Clayface, Being Able to Beat Every Batman & Growing Up in Wales",
+    "duration": 466,
+    "url": "https://www.youtube.com/watch?v=7qjdZkgITXY",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "jKGzSb5RY8g",
+    "title": "Adam Brody on Traveling to Italy Without His Kids & Popularity of Nobody Wants This Around the World",
+    "duration": 650,
+    "url": "https://www.youtube.com/watch?v=jKGzSb5RY8g",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "4CZem0V1XhA",
+    "title": "Matchbox Twenty - 3AM",
+    "duration": 238,
+    "url": "https://www.youtube.com/watch?v=4CZem0V1XhA",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "QKppvCsSO6Y",
+    "title": "Trump is Laser Focused on the Midterms & Our Hero Guillermo Returns After Dancing with the Stars",
+    "duration": 984,
+    "url": "https://www.youtube.com/watch?v=QKppvCsSO6Y",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "eCkr9Mmj2l4",
+    "title": "Kate Berlant on Her Parents Being Too Supportive & Jimmy Kimmel’s Review of Her New HBO Special",
+    "duration": 550,
+    "url": "https://www.youtube.com/watch?v=eCkr9Mmj2l4",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "c2UegpzAt4c",
+    "title": "Curtis “50 Cent” Jackson on Beefing with Diddy, Being Intimidated by De Niro & Making Street Fighter",
+    "duration": 852,
+    "url": "https://www.youtube.com/watch?v=c2UegpzAt4c",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "25PihIm_Nd0",
+    "title": "Trump’s New Press Secretary Has Disastrous First Day & Guillermo Booted from Dancing with the Stars!",
+    "duration": 998,
+    "url": "https://www.youtube.com/watch?v=25PihIm_Nd0",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "KRUYAuhFpi4",
+    "title": "Josh Brolin on His List of 74 Movies Everyone Needs to See & Making His New Film Whalefall",
+    "duration": 714,
+    "url": "https://www.youtube.com/watch?v=KRUYAuhFpi4",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "RIktC1DJ6ao",
+    "title": "William Shatner & Brad Paisley - Masks",
+    "duration": 223,
+    "url": "https://www.youtube.com/watch?v=RIktC1DJ6ao",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "KryCb2pWYBU",
+    "title": "William Shatner & Brad Paisley on Meeting & Making Music and Shatner Getting into Heavy Metal at 95",
+    "duration": 532,
+    "url": "https://www.youtube.com/watch?v=KryCb2pWYBU",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "wcGjroe8BZA",
+    "title": "Trump Complains About Jimmy Kimmel, Throws Fit Over Not Winning Nobel Peace Prize & Guillermo-Mania!",
+    "duration": 1000,
+    "url": "https://www.youtube.com/watch?v=wcGjroe8BZA",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   },
+   {
+    "id": "cSChIJS1pyQ",
+    "title": "Michael Douglas on Affair with Kathleen Turner, His Wife Not Reading His Book & Doing Coke with OJ",
+    "duration": 872,
+    "url": "https://www.youtube.com/watch?v=cSChIJS1pyQ",
+    "channel": "Jimmy Kimmel Live",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@SaturdayNightLive/videos|2026-11-28": [
+   {
+    "id": "_1zIOETebZ8",
+    "title": "Behind the Sketch: Dru Can See Everything",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=_1zIOETebZ8",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "5_yHs_TzSr4",
+    "title": "Weekend Update ft. Tommy Brennan - SNL",
+    "duration": 639,
+    "url": "https://www.youtube.com/watch?v=5_yHs_TzSr4",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "q5L47J-JNik",
+    "title": "Bob Dylan & The Pope - SNL",
+    "duration": 261,
+    "url": "https://www.youtube.com/watch?v=q5L47J-JNik",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "Q6CW-vkS-x0",
+    "title": "Weekend Update: Mississippi's First Black Senator Hiram Revels Discusses the 2026 Midterms - SNL",
+    "duration": 210,
+    "url": "https://www.youtube.com/watch?v=Q6CW-vkS-x0",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "k-4sSm-OFYw",
+    "title": "Weekend Update: Svetlana and Kurt on Being a Couple Who Tell Each Other Everything - SNL",
+    "duration": 334,
+    "url": "https://www.youtube.com/watch?v=k-4sSm-OFYw",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "wRklbeWexH4",
+    "title": "Phoebe Bridgers: Still Standing (Live) - SNL",
+    "duration": 278,
+    "url": "https://www.youtube.com/watch?v=wRklbeWexH4",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "UrEbWMtkkDI",
+    "title": "Kathy - Coworker Drinks - SNL",
+    "duration": 339,
+    "url": "https://www.youtube.com/watch?v=UrEbWMtkkDI",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "Lug5Tj1iGiE",
+    "title": "Woodstock - SNL",
+    "duration": 233,
+    "url": "https://www.youtube.com/watch?v=Lug5Tj1iGiE",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "j3ciKOrWPO4",
+    "title": "Central Park Horse & Carriage Ride - SNL",
+    "duration": 537,
+    "url": "https://www.youtube.com/watch?v=j3ciKOrWPO4",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "n6z70aaezd8",
+    "title": "Weekend Update: Trump Admin Comments on FAA Outage, Biden Writes Memoir About His Presidency - SNL",
+    "duration": 434,
+    "url": "https://www.youtube.com/watch?v=n6z70aaezd8",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "H7Q_wnltz0w",
+    "title": "Weekend Update: Tommy Brennan Performs an Original Thanksgiving Song - SNL",
+    "duration": 215,
+    "url": "https://www.youtube.com/watch?v=H7Q_wnltz0w",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "-X9dxL17t1k",
+    "title": "Sister - SNL",
+    "duration": 179,
+    "url": "https://www.youtube.com/watch?v=-X9dxL17t1k",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "848Qm25A8n0",
+    "title": "Phoebe Bridgers: Bobby (Live) - SNL",
+    "duration": 203,
+    "url": "https://www.youtube.com/watch?v=848Qm25A8n0",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "S3KDPLMYu9I",
+    "title": "Gettin' It Done - SNL",
+    "duration": 257,
+    "url": "https://www.youtube.com/watch?v=S3KDPLMYu9I",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "T8j9WpcbKWU",
+    "title": "Plane Crash - SNL",
+    "duration": 330,
+    "url": "https://www.youtube.com/watch?v=T8j9WpcbKWU",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "9tyxwb3LZzM",
+    "title": "John Mulaney Stand-Up Monologue - SNL",
+    "duration": 562,
+    "url": "https://www.youtube.com/watch?v=9tyxwb3LZzM",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "R_8UPhJNrZ4",
+    "title": "CIA Meeting Cold Open - SNL",
+    "duration": 360,
+    "url": "https://www.youtube.com/watch?v=R_8UPhJNrZ4",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "grfzEXnbtXA",
+    "title": "Ben Marshall Thinks John Mulaney Is Roasting Him - SNL",
+    "duration": 81,
+    "url": "https://www.youtube.com/watch?v=grfzEXnbtXA",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "1mM5FFlfe6E",
+    "title": "Behind the Sketch: Birthday Girl - SNL",
+    "duration": 108,
+    "url": "https://www.youtube.com/watch?v=1mM5FFlfe6E",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "1UWLtymkTUs",
+    "title": "John Mulaney Just Wants to Promote SNL",
+    "duration": 105,
+    "url": "https://www.youtube.com/watch?v=1UWLtymkTUs",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "9naAIkGI41c",
+    "title": "Weekend Update ft. Jeremy Culhane, Andrew Dismukes and Ashley Padilla - SNL",
+    "duration": 904,
+    "url": "https://www.youtube.com/watch?v=9naAIkGI41c",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "Wb8KSed6Zhc",
+    "title": "Post-Election Ad - SNL",
+    "duration": 140,
+    "url": "https://www.youtube.com/watch?v=Wb8KSed6Zhc",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "YRVKmQEgL48",
+    "title": "Golden Age of Hip-Hop - SNL",
+    "duration": 170,
+    "url": "https://www.youtube.com/watch?v=YRVKmQEgL48",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "EQ4r3YBGGX0",
+    "title": "The Strokes: Going Shopping (Live) - SNL",
+    "duration": 293,
+    "url": "https://www.youtube.com/watch?v=EQ4r3YBGGX0",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "-W47zrSTCpY",
+    "title": "Wedding Photographers - SNL",
+    "duration": 236,
+    "url": "https://www.youtube.com/watch?v=-W47zrSTCpY",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "b84KRcISOl8",
+    "title": "Proposal - SNL",
+    "duration": 300,
+    "url": "https://www.youtube.com/watch?v=b84KRcISOl8",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "ljMvm20rg-4",
+    "title": "Weekend Update: Two People Who Just Hooked Up on the Midterms - SNL",
+    "duration": 251,
+    "url": "https://www.youtube.com/watch?v=ljMvm20rg-4",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "N5Ws09EYV3s",
+    "title": "Weekend Update: Elon Musk on His Tough Week After Midterms - SNL",
+    "duration": 266,
+    "url": "https://www.youtube.com/watch?v=N5Ws09EYV3s",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "lw99lLIkcTg",
+    "title": "Weekend Update: Bob Dylan Meets with Pope Leo, Martha Stewart Apologizes for Halloween Costume - SNL",
+    "duration": 150,
+    "url": "https://www.youtube.com/watch?v=lw99lLIkcTg",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "NB15mTMlKck",
+    "title": "Weekend Update: Democrats Win Control of Congress, Trump Blames Poor Quality GOP Candidates - SNL",
+    "duration": 265,
+    "url": "https://www.youtube.com/watch?v=NB15mTMlKck",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "fLmK4rwUFQw",
+    "title": "The Strokes: Lonely in the Future (Live) - SNL",
+    "duration": 236,
+    "url": "https://www.youtube.com/watch?v=fLmK4rwUFQw",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "8cfZQ5Njnb8",
+    "title": "New Health Tracker - SNL",
+    "duration": 162,
+    "url": "https://www.youtube.com/watch?v=8cfZQ5Njnb8",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "fNWgcwrK4hI",
+    "title": "Birthday Girl - SNL",
+    "duration": 267,
+    "url": "https://www.youtube.com/watch?v=fNWgcwrK4hI",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "8YBeaoF_zLE",
+    "title": "Bubu Mobile - SNL",
+    "duration": 291,
+    "url": "https://www.youtube.com/watch?v=8YBeaoF_zLE",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "war5ANHUpiA",
+    "title": "Dru Can See Everything - SNL",
+    "duration": 243,
+    "url": "https://www.youtube.com/watch?v=war5ANHUpiA",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "KQ7bqXzrD0g",
+    "title": "Washington in Focus - SNL",
+    "duration": 227,
+    "url": "https://www.youtube.com/watch?v=KQ7bqXzrD0g",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "A_McuuSsNiI",
+    "title": "Druski Monologue - SNL",
+    "duration": 236,
+    "url": "https://www.youtube.com/watch?v=A_McuuSsNiI",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "3Bl6gav2Ofg",
+    "title": "Post-Midterm Cold Open - SNL",
+    "duration": 408,
+    "url": "https://www.youtube.com/watch?v=3Bl6gav2Ofg",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "BEALU2ChgQw",
+    "title": "SNL Host Druski Does an Impression of The Strokes",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=BEALU2ChgQw",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "qyAvZgmoVCU",
+    "title": "Druski Says Hosting SNL Is Even Better Than His Childhood Dream",
+    "duration": 83,
+    "url": "https://www.youtube.com/watch?v=qyAvZgmoVCU",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "N-9_-VwQZQk",
+    "title": "Weekend Update ft. Ben Marshall and Bobby Moynihan - SNL",
+    "duration": 851,
+    "url": "https://www.youtube.com/watch?v=N-9_-VwQZQk",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "gupSBX7S9_k",
+    "title": "The Inventor's Wife - SNL",
+    "duration": 318,
+    "url": "https://www.youtube.com/watch?v=gupSBX7S9_k",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "AjI9ViInwPo",
+    "title": "Gracie Abrams: Here You Come, There You Go (Live) - SNL",
+    "duration": 206,
+    "url": "https://www.youtube.com/watch?v=AjI9ViInwPo",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "AKWh8D8bSR0",
+    "title": "Plates - SNL",
+    "duration": 272,
+    "url": "https://www.youtube.com/watch?v=AKWh8D8bSR0",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "Zl2IRCXSYyo",
+    "title": "Paw Patrol: Special Victims Unit - SNL",
+    "duration": 216,
+    "url": "https://www.youtube.com/watch?v=Zl2IRCXSYyo",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "-FWFoEgSPs8",
+    "title": "Weekend Update: Drunk Uncle on the Milwaukee Brewers' World Series Win - SNL",
+    "duration": 250,
+    "url": "https://www.youtube.com/watch?v=-FWFoEgSPs8",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "-2wEs1EQaI4",
+    "title": "Weekend Update: Pennywise the Clown on Gen Z Wellness Parties - SNL",
+    "duration": 171,
+    "url": "https://www.youtube.com/watch?v=-2wEs1EQaI4",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "FjOMK0_nZ3o",
+    "title": "Weekend Update: Scotland Opens Epstein & Prince Andrew Investigation, NYC Bans Horse-Drawn Carriages",
+    "duration": 206,
+    "url": "https://www.youtube.com/watch?v=FjOMK0_nZ3o",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "DkPdyivhrfo",
+    "title": "Weekend Update: Trump Obsesses Over Men's Asses & Ramps Up Attacks on Abdul El-Sayed - SNL",
+    "duration": 255,
+    "url": "https://www.youtube.com/watch?v=DkPdyivhrfo",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "5gMdcdJ3odQ",
+    "title": "Gracie Abrams: Hit the Wall (Live) - SNL",
+    "duration": 246,
+    "url": "https://www.youtube.com/watch?v=5gMdcdJ3odQ",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "mqqX9i-q3qs",
+    "title": "Telenovela: El Corazón Que No Siente - SNL",
+    "duration": 339,
+    "url": "https://www.youtube.com/watch?v=mqqX9i-q3qs",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "KksrucAkrIw",
+    "title": "Uninterested Woman Game Show - SNL",
+    "duration": 268,
+    "url": "https://www.youtube.com/watch?v=KksrucAkrIw",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "QFR2QTNf2rA",
+    "title": "New Airline Class - SNL",
+    "duration": 157,
+    "url": "https://www.youtube.com/watch?v=QFR2QTNf2rA",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "v2zdpuLkW1Y",
+    "title": "Queen Mary Ghosts - SNL",
+    "duration": 284,
+    "url": "https://www.youtube.com/watch?v=v2zdpuLkW1Y",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "-kjW-tcky-E",
+    "title": "Inde Navarrette Monologue - SNL",
+    "duration": 236,
+    "url": "https://www.youtube.com/watch?v=-kjW-tcky-E",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "O6VZaBM2Zr4",
+    "title": "Scary Halloween Cold Open (ft. David S. Pumpkins) - SNL",
+    "duration": 401,
+    "url": "https://www.youtube.com/watch?v=O6VZaBM2Zr4",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "-pY-iQxFuy0",
+    "title": "SNL Host Inde Navarrette Has the Same Favorite Ghost as Jane Wickline",
+    "duration": 74,
+    "url": "https://www.youtube.com/watch?v=-pY-iQxFuy0",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "cd2Yv0l4eSo",
+    "title": "Inde Navarrette Isn't Scared to Host SNL on Halloween",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=cd2Yv0l4eSo",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "UKbYv6BZr6I",
+    "title": "Weekend Update ft. James Austin Johnson and Ashley Padilla - SNL",
+    "duration": 825,
+    "url": "https://www.youtube.com/watch?v=UKbYv6BZr6I",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "IuhG712NOak",
+    "title": "Chess Tournament - SNL",
+    "duration": 269,
+    "url": "https://www.youtube.com/watch?v=IuhG712NOak",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "fuRMsKtzxOE",
+    "title": "Saying Goodbye - SNL",
+    "duration": 318,
+    "url": "https://www.youtube.com/watch?v=fuRMsKtzxOE",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "OnRWlxI1SLo",
+    "title": "ROSALÍA: Magnolias (Live) - SNL",
+    "duration": 221,
+    "url": "https://www.youtube.com/watch?v=OnRWlxI1SLo",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "X3S44WyGaq0",
+    "title": "Weekend Update: A Mother Whose Babysitter Cancelled Shares Tips for Fall Family Fun - SNL",
+    "duration": 250,
+    "url": "https://www.youtube.com/watch?v=X3S44WyGaq0",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "BvcmFT0UdLo",
+    "title": "Weekend Update: Trump Doesn't Win Nobel Peace Prize, Hegseth's New War Department Logo - SNL",
+    "duration": 283,
+    "url": "https://www.youtube.com/watch?v=BvcmFT0UdLo",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "_M4FeYWkTuE",
+    "title": "Weekend Update: Mr. Wonderful on Building an AI Data Center in Utah - SNL",
+    "duration": 178,
+    "url": "https://www.youtube.com/watch?v=_M4FeYWkTuE",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "xV8wNL-J6x8",
+    "title": "Weekend Update: The American Dream Price Rises to $5 Million, National No Bra Day - SNL",
+    "duration": 142,
+    "url": "https://www.youtube.com/watch?v=xV8wNL-J6x8",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "62LCmh0-bgw",
+    "title": "ROSALÍA: Reliquia (Live) - SNL",
+    "duration": 239,
+    "url": "https://www.youtube.com/watch?v=62LCmh0-bgw",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "hqqoo1IgIrU",
+    "title": "Upfront Heating & Air Conditioning - SNL",
+    "duration": 192,
+    "url": "https://www.youtube.com/watch?v=hqqoo1IgIrU",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "h0JiLHWFJKc",
+    "title": "Green Eggs & Ham - SNL",
+    "duration": 285,
+    "url": "https://www.youtube.com/watch?v=h0JiLHWFJKc",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "rOaORljAK4U",
+    "title": "Sneakers - SNL",
+    "duration": 282,
+    "url": "https://www.youtube.com/watch?v=rOaORljAK4U",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "OrPpC-HLZPs",
+    "title": "It’s My Room Now (Father-Daughter Song) - SNL",
+    "duration": 264,
+    "url": "https://www.youtube.com/watch?v=OrPpC-HLZPs",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "RbXnGCrYNKs",
+    "title": "Cop Talk Show - SNL",
+    "duration": 264,
+    "url": "https://www.youtube.com/watch?v=RbXnGCrYNKs",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "skc24Hxp9hE",
+    "title": "Shane Gillis Stand-Up Monologue - SNL",
+    "duration": 429,
+    "url": "https://www.youtube.com/watch?v=skc24Hxp9hE",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "JMlO4UiSIhI",
+    "title": "Hegseth USS Lincoln Cold Open - SNL",
+    "duration": 331,
+    "url": "https://www.youtube.com/watch?v=JMlO4UiSIhI",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "wkrjM69gUg4",
+    "title": "Kenan Thompson Remembers What Shane Gillis Did Last Time He Hosted - SNL",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=wkrjM69gUg4",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "WD3Iv3jqVNs",
+    "title": "Wide Dating Show - SNL",
+    "duration": 349,
+    "url": "https://www.youtube.com/watch?v=WD3Iv3jqVNs",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "uVmbu62dnyA",
+    "title": "Shane Gillis Is Hosting SNL with Musical Guest Rosalía",
+    "duration": 113,
+    "url": "https://www.youtube.com/watch?v=uVmbu62dnyA",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "YBDfNDYVt0g",
+    "title": "On Set: Mean, Scary Girlfriend - SNL",
+    "duration": 96,
+    "url": "https://www.youtube.com/watch?v=YBDfNDYVt0g",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "mLlAK7I8H20",
+    "title": "Amazing Tales of Truth - SNL",
+    "duration": 256,
+    "url": "https://www.youtube.com/watch?v=mLlAK7I8H20",
+    "channel": "Saturday Night Live",
+    "verified": true
+   },
+   {
+    "id": "BAsyKFW-EZ4",
+    "title": "Weekend Update ft. Mikey Day, Marcello Hernández, Kam Patterson and Sarah Sherman - SNL",
+    "duration": 1218,
+    "url": "https://www.youtube.com/watch?v=BAsyKFW-EZ4",
+    "channel": "Saturday Night Live",
+    "verified": true
+   }
   ]
  },
  "song_fail": {},
@@ -46926,6 +49387,15 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-28 10:30"
+  },
+  "47g58iHPJtQ": {
+   "accept": false,
+   "reject_reasons": [
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-28 15:38"
   }
  },
  "failures": [
@@ -51662,6 +54132,42 @@
    "platform": "instagram",
    "category": "gta",
    "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T21:01:59.675509+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T21:07:13.473349+05:30",
+   "platform": "instagram",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T21:11:36.469741+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T21:12:48.739466+05:30",
+   "platform": "instagram",
+   "category": "marvel",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
+  },
+  {
+   "at": "2026-11-28T21:13:28.874693+05:30",
+   "platform": "instagram",
+   "category": "celebrity",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
+  },
+  {
+   "at": "2026-11-28T21:30:17.411174+05:30",
+   "platform": "instagram",
+   "category": "comedy",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for comedy, need 2"
   }
  ],
  "vet_rules": "no-text-v2"

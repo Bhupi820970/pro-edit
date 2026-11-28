@@ -1,17 +1,65 @@
 {
  "requests": [
   {
-   "id": "instagram-202611282042-gta",
+   "id": "instagram-202611282130-movie",
+   "category": "movie",
+   "limit": 3,
+   "at": "2026-11-28T21:30:18.504096+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "official action movie clip Sony Pictures",
+    "official car chase scene clip Universal Pictures"
+   ],
+   "links": []
+  },
+  {
+   "id": "instagram-202611282130-gta",
    "category": "gta",
    "limit": 3,
-   "at": "2026-11-28T20:42:11.409124+05:30",
-   "reason": "thin=True download_failed=5 bot_checks=4",
+   "at": "2026-11-28T21:30:18.504200+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
     "Grand Theft Auto V Official Gameplay Video Rockstar Games",
     "GTA Online official gameplay Rockstar Games"
    ],
    "links": []
+  },
+  {
+   "id": "instagram-202611282130-marvel",
+   "category": "marvel",
+   "limit": 3,
+   "at": "2026-11-28T21:30:18.504288+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "Marvel Studios official clip scene",
+    "Marvel Entertainment official clip"
+   ],
+   "links": []
+  },
+  {
+   "id": "instagram-202611282130-celebrity",
+   "category": "celebrity",
+   "limit": 3,
+   "at": "2026-11-28T21:30:18.504365+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "Oscars official acceptance speech moment",
+    "GRAMMYs official performance moment"
+   ],
+   "links": []
+  },
+  {
+   "id": "instagram-202611282130-comedy",
+   "category": "comedy",
+   "limit": 3,
+   "at": "2026-11-28T21:30:18.504433+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "Tonight Show Jimmy Fallon official funny moment",
+    "Jimmy Kimmel Live official funny clip"
+   ],
+   "links": []
   }
  ],
- "updated": "2026-11-28T20:42:11.409209+05:30"
+ "updated": "2026-11-28T21:30:18.504501+05:30"
 }
