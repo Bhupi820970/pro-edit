@@ -10945,6 +10945,99 @@
    "duration": 64.028,
    "category": "gaming",
    "at": "2026-11-28 12:04"
+  },
+  "ODsNxavngJI": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "tense snowy survival",
+   "summary": "Official PlayStation Europe gameplay and interview footage for The Last of Us Part II. Contains visible game HUD elements in several gameplay shots.",
+   "reject_reasons": [
+    "game HUD overlay present",
+    "hud_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 289.2,
+     "end": 289.2,
+     "reason": "game HUD overlay"
+    },
+    {
+     "start": 420.6,
+     "end": 420.6,
+     "reason": "game HUD overlay"
+    },
+    {
+     "start": 486.3,
+     "end": 486.3,
+     "reason": "game HUD overlay"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    26.43,
+    92.12,
+    157.81,
+    223.5,
+    289.19,
+    354.88,
+    420.57,
+    486.26,
+    289.19
+   ],
+   "title": "The Last of Us Part II | Inside the Gameplay | PS4",
+   "channel": "PlayStation Europe",
+   "credit": "PlayStation Europe",
+   "url": "https://www.youtube.com/watch?v=ODsNxavngJI",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 528.548,
+   "category": "gaming",
+   "at": "2026-11-28 14:39"
+  },
+  "nDhOXAkhPSo": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "informative studio conversation",
+   "summary": "Composers discuss the music of Assassin's Creed Odyssey in a music studio, with one holding a lyre-like instrument.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    24.95,
+    86.98,
+    149.01,
+    211.03,
+    273.06,
+    335.09,
+    397.12,
+    459.14,
+    273.06
+   ],
+   "title": "Assassin's Creed Odyssey: Composers Explain How They Wrote The Music",
+   "channel": "Assassin's Creed",
+   "credit": "Assassin's Creed",
+   "url": "https://www.youtube.com/watch?v=nDhOXAkhPSo",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 499.068,
+   "category": "gaming",
+   "at": "2026-11-28 14:39"
   }
  },
  "videos": [
@@ -28189,6 +28282,18 @@
    "platform": "youtube",
    "category": "gta",
    "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T20:08:02.768578+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T20:09:50.458684+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
   }
  ],
  "vet_rules": "no-text-v2"

@@ -1,11 +1,11 @@
 {
  "requests": [
   {
-   "id": "youtube-202611281751-gta",
+   "id": "youtube-202611282009-gta",
    "category": "gta",
    "limit": 3,
-   "at": "2026-11-28T17:51:34.434882+05:30",
-   "reason": "thin=True download_failed=5 bot_checks=4",
+   "at": "2026-11-28T20:09:52.044007+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
     "Grand Theft Auto V Official Gameplay Video Rockstar Games",
     "GTA Online official gameplay Rockstar Games"
@@ -13,11 +13,11 @@
    "links": []
   },
   {
-   "id": "youtube-202611281751-gaming",
+   "id": "youtube-202611282009-gaming",
    "category": "gaming",
    "limit": 3,
-   "at": "2026-11-28T17:51:34.434991+05:30",
-   "reason": "thin=True download_failed=5 bot_checks=4",
+   "at": "2026-11-28T20:09:52.044106+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
     "Red Dead Redemption 2 official trailer Rockstar Games",
     "Cyberpunk 2077 official gameplay trailer CD PROJEKT RED"
@@ -25,5 +25,5 @@
    "links": []
   }
  ],
- "updated": "2026-11-28T17:51:34.435108+05:30"
+ "updated": "2026-11-28T20:09:52.044185+05:30"
 }

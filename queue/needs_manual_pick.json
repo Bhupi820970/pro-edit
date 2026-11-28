@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-28T19:31:36.322319+05:30",
+ "updated": "2026-11-28T20:10:07.028549+05:30",
  "platforms": {
   "youtube": {
    "platform": "youtube",
-   "updated": "2026-11-28T12:21:34+0000",
+   "updated": "2026-11-28T14:39:52+0000",
    "reason": "all Gemini keys quota-exhausted: these clips were not watch-checked (logo/watermark)",
    "gemini_quota_resets": "2026-11-29 13:30 IST",
    "categories": {},
