@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-28T15:27:02.882804+05:30",
+ "updated": "2026-11-28T16:23:34.116717+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
+ "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (1/7 ready)",
  "platforms": {
   "youtube": {
    "ready": 0,
@@ -16,26 +16,137 @@
    "message": "BACKUP LOW: refill youtube (0/7 ready)"
   },
   "instagram": {
-   "ready": 0,
+   "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 4,
+   "produced_today": 5,
    "per_day": [
     6,
     7
    ],
-   "message": "BACKUP LOW: refill instagram (0/7 ready)"
+   "message": "BACKUP LOW: refill instagram (1/7 ready)"
   }
  },
- "ready": [],
+ "ready": [
+  {
+   "id": "in-sports-20261128-160547",
+   "platform": "instagram",
+   "category": "sports",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T16:23:21.907095+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-sports-20261128-160547.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-sports-20261128-160547.mp4",
+   "preview_mb": 20.4,
+   "size_mb": 97.3,
+   "title": "Sports Hype Edit | Remember the Name Edit",
+   "hook": "SPORTS HYPE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Remember the Name\" – Fort Minor (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=VDvr08sCPOc\n🎧 Spotify: https://open.spotify.com/search/Fort%20Minor%20Remember%20the%20Name\n🎬 Footage: Unisport – \"Cristiano Ronaldo interview | CR7 reveals how to succeed\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#SportsEdit #Sports #Hype",
+   "hashtags": [
+    "SportsEdit",
+    "Sports",
+    "Hype"
+   ],
+   "song": {
+    "title": "Remember the Name",
+    "artist": "Fort Minor",
+    "url": "https://www.youtube.com/watch?v=VDvr08sCPOc",
+    "official_channel": "Fort Minor",
+    "spotify_search": "https://open.spotify.com/search/Fort%20Minor%20Remember%20the%20Name"
+   },
+   "song_credit": "\"Remember the Name\" – Fort Minor",
+   "pattern": {
+    "id": "P03",
+    "name": "Beside-lower"
+   },
+   "captions": [
+    "YEAH",
+    "NOW EVER SINCE",
+    "THE MERCURA VAPOR",
+    "ONES",
+    "WE SAW ONE",
+    "IN LISBON",
+    "YOU CAME TO",
+    "MAN UNITED",
+    "YOU'VE KIND OF",
+    "BEEN A BIG",
+    "PART OF",
+    "ASSOCIATING THE",
+    "MERCURA WITH",
+    "SPEED",
+    "WITH FLARE"
+   ],
+   "duration": 38.73,
+   "sources": [
+    {
+     "id": "1KJFsm8NDyE",
+     "src_id": "1KJFsm8NDyE",
+     "path": "/mnt/ph/instagram/sources/1KJFsm8NDyE.mkv",
+     "title": "Cristiano Ronaldo interview | CR7 reveals how to succeed",
+     "credit": "Unisport",
+     "url": "https://www.youtube.com/watch?v=1KJFsm8NDyE"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.73
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.5
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 15
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 330.6,
+    "song": 33.3,
+    "beats": 0.5,
+    "scan_plan": 45.3,
+    "render": 367.4,
+    "gemini_meta": 90.0,
+    "shorts_9x16": 139.6,
+    "qa": 8.5,
+    "preview": 38.8
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-sports-20261128-160547.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-sports-20261128-160547.preview.mp4"
+  }
+ ],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-27T14:43:09.803527+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
   {
    "at": "2026-11-27T14:53:10.987170+05:30",
    "platform": "instagram",
@@ -119,6 +230,12 @@
    "platform": "instagram",
    "category": "sports",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T16:05:46.813372+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
   }
  ],
  "pattern_history": [
@@ -175,11 +292,30 @@
    "at": "2026-11-28T09:54:53.612026+05:30",
    "video": "in-romance-20261128-093657",
    "platform": "instagram"
+  },
+  {
+   "id": "P03",
+   "at": "2026-11-28T16:23:21.907677+05:30",
+   "video": "in-sports-20261128-160547",
+   "platform": "instagram"
   }
  ],
+ "last_run": {
+  "platform": "instagram",
+  "in_progress": true,
+  "made": [
+   "in-sports-20261128-160547"
+  ],
+  "last_video": {
+   "id": "in-sports-20261128-160547",
+   "category": "sports",
+   "title": "Sports Hype Edit | Remember the Name Edit",
+   "at": "2026-11-28T16:23:33.638055+05:30"
+  }
+ },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 1.3,
+  "age_hours": 2.3,
   "healthy": true,
   "pool": {
    "gta": 3,
@@ -196,5 +332,29 @@
   },
   "errors": [],
   "message": "OK"
+ },
+ "stock": {
+  "updated": "2026-11-28T16:23:36.945936+05:30",
+  "ledger_readable": true,
+  "platforms": {
+   "instagram": {
+    "in_stock": 1,
+    "posted_still_in_stock": 0,
+    "unposted": 1,
+    "unposted_ids": [
+     "in-sports-20261128-160547"
+    ],
+    "posted_total": 9
+   },
+   "youtube": {
+    "in_stock": 1,
+    "posted_still_in_stock": 0,
+    "unposted": 1,
+    "unposted_ids": [
+     "yo-gaming-20261128-151536"
+    ],
+    "posted_total": 10
+   }
+  }
  }
 }
