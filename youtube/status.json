@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T17:32:29.231109+05:30",
+ "updated": "2026-11-28T17:51:29.560300+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
+ "message": "BACKUP LOW: refill youtube (3/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
  "platforms": {
   "youtube": {
-   "ready": 2,
+   "ready": 3,
    "target": 7,
    "warning": true,
-   "produced_today": 6,
+   "produced_today": 7,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (2/7 ready)"
+   "message": "BACKUP LOW: refill youtube (3/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -264,6 +264,106 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-171320.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-171320.preview.mp4"
+  },
+  {
+   "id": "yo-gaming-20261128-173233",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-28T17:51:09.298119+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-173233.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-173233.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 244.8,
+   "title": "Gaming Edit | Sail Edit",
+   "hook": "GAMING EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sail\" – AWOLNATION (original recording)\n🔗 Official audio: https://soundcloud.com/awolnation/10-sail\n🎧 Spotify: https://open.spotify.com/search/AWOLNATION%20Sail\n🎬 Footage: HALO – \"Halo Infinite | Campaign Opening Cutscene\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Sail",
+    "artist": "AWOLNATION",
+    "url": "https://soundcloud.com/awolnation/10-sail",
+    "official_channel": "AWOLNATION",
+    "spotify_search": "https://open.spotify.com/search/AWOLNATION%20Sail"
+   },
+   "song_credit": "\"Sail\" – AWOLNATION",
+   "pattern": {
+    "id": "P14",
+    "name": "Upper + nudge, bold keys"
+   },
+   "captions": [],
+   "duration": 38.4,
+   "sources": [
+    {
+     "id": "pHJmfFFsYLs",
+     "src_id": "pHJmfFFsYLs",
+     "path": "/mnt/ph/youtube/sources/pHJmfFFsYLs.mkv",
+     "title": "Halo Infinite | Campaign Opening Cutscene",
+     "credit": "HALO",
+     "url": "https://www.youtube.com/watch?v=pHJmfFFsYLs"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.4
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -7.9
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 109.2,
+    "song": 39.3,
+    "beats": 0.5,
+    "scan_plan": 29.7,
+    "render": 631.9,
+    "gemini_meta": 0.0,
+    "wide_4k": 234.7,
+    "qa": 13.7,
+    "preview": 56.6
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-173233.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-173233.preview.mp4"
   }
  ],
  "approved": [],
@@ -431,24 +531,31 @@
    "at": "2026-11-28T17:32:09.165122+05:30",
    "video": "yo-gaming-20261128-171320",
    "platform": "youtube"
+  },
+  {
+   "id": "P14",
+   "at": "2026-11-28T17:51:09.298984+05:30",
+   "video": "yo-gaming-20261128-173233",
+   "platform": "youtube"
   }
  ],
  "last_run": {
   "platform": "youtube",
   "in_progress": true,
   "made": [
-   "yo-gaming-20261128-171320"
+   "yo-gaming-20261128-171320",
+   "yo-gaming-20261128-173233"
   ],
   "last_video": {
-   "id": "yo-gaming-20261128-171320",
+   "id": "yo-gaming-20261128-173233",
    "category": "gaming",
-   "title": "Gaming Edit | Believer Edit",
-   "at": "2026-11-28T17:32:28.759130+05:30"
+   "title": "Gaming Edit | Sail Edit",
+   "at": "2026-11-28T17:51:29.112438+05:30"
   }
  },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 3.4,
+  "age_hours": 3.7,
   "healthy": true,
   "pool": {
    "gta": 3,
@@ -467,7 +574,7 @@
   "message": "OK"
  },
  "stock": {
-  "updated": "2026-11-28T17:32:32.483281+05:30",
+  "updated": "2026-11-28T17:51:33.112384+05:30",
   "ledger_readable": true,
   "platforms": {
    "instagram": {
@@ -481,12 +588,13 @@
     "posted_total": 9
    },
    "youtube": {
-    "in_stock": 2,
+    "in_stock": 3,
     "posted_still_in_stock": 0,
-    "unposted": 2,
+    "unposted": 3,
     "unposted_ids": [
      "yo-gaming-20261128-151536",
-     "yo-gaming-20261128-171320"
+     "yo-gaming-20261128-171320",
+     "yo-gaming-20261128-173233"
     ],
     "posted_total": 10
    }
