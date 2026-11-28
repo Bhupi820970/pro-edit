@@ -16864,6 +16864,260 @@
     "qa": 14.5,
     "preview": 56.7
    }
+  },
+  {
+   "id": "yo-gaming-20261128-113532",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-28T11:51:02.530371+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-113532.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-113532.mp4",
+   "preview_mb": 23.1,
+   "size_mb": 243.4,
+   "title": "Gaming Edit | Sail Edit",
+   "hook": "GAMING EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sail\" – AWOLNATION (original recording)\n🔗 Official audio: https://soundcloud.com/awolnation/10-sail\n🎧 Spotify: https://open.spotify.com/search/AWOLNATION%20Sail\n🎬 Footage: PlayStation – \"Marvel's Spider-Man 2 - The Story So Far | PS5 Games\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Sail",
+    "artist": "AWOLNATION",
+    "url": "https://soundcloud.com/awolnation/10-sail",
+    "official_channel": "AWOLNATION",
+    "spotify_search": "https://open.spotify.com/search/AWOLNATION%20Sail"
+   },
+   "song_credit": "\"Sail\" – AWOLNATION",
+   "pattern": {
+    "id": "P02",
+    "name": "Beside-upper"
+   },
+   "captions": [
+    "NO MATTER HOW",
+    "HARD WE TRY",
+    "A",
+    "HERO IS SOMEONE",
+    "WHO DOESN'T GIVE",
+    "UP THOUGH",
+    "AND I DON'T",
+    "PLAN TO",
+    "I",
+    "ALSO",
+    "GOT BITTEN BY",
+    "A RADIOACTIVE SPIDER",
+    "THAT GAVE ME",
+    "SUPERPOWERS",
+    "I"
+   ],
+   "duration": 38.4,
+   "sources": [
+    {
+     "id": "YeMRixqvjog",
+     "src_id": "YeMRixqvjog",
+     "path": "/mnt/ph/youtube/sources/YeMRixqvjog.mkv",
+     "title": "Marvel's Spider-Man 2 - The Story So Far | PS5 Games",
+     "credit": "PlayStation",
+     "url": "https://www.youtube.com/watch?v=YeMRixqvjog"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.4
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 15
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "HERO IS SOMEONE",
+       "ALSO"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 131.6,
+    "song": 22.9,
+    "beats": 8.0,
+    "scan_plan": 102.2,
+    "render": 383.2,
+    "gemini_meta": 22.8,
+    "wide_4k": 196.3,
+    "qa": 13.2,
+    "preview": 49.6
+   }
+  },
+  {
+   "id": "yo-gaming-20261128-115103",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-28T12:09:36.725315+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-115103.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-115103.mp4",
+   "preview_mb": 22.5,
+   "size_mb": 241.5,
+   "title": "Spider-Man 2: The Will to Never Give Up | Vice Cartel Edit",
+   "hook": "THE HERO'S JOURNEY",
+   "description": "Two spiders, one mission. Who is your favorite Spider-Man in the game? 🕷️🕸️\n\n🎵 Song: \"Sail\" – AWOLNATION (original recording)\n🔗 Official audio: https://soundcloud.com/awolnation/10-sail\n🎧 Spotify: https://open.spotify.com/search/AWOLNATION%20Sail\n🎬 Footage: PlayStation – \"Marvel's Spider-Man 2 - The Story So Far | PS5 Games\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#spiderman2 #ps5 #marvelsspiderman2 #vicecartel #awolnation #sail #gamingedit #ps5games #playstation #marvel #peterparker #milesmorales #superheroedit #gamingcommunity #marvelgames #spidermanedit #insomniacgames #gamedit #actiongaming #spideryoutubefanedit #GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "spiderman2",
+    "ps5",
+    "marvelsspiderman2",
+    "vicecartel",
+    "awolnation",
+    "sail",
+    "gamingedit",
+    "ps5games",
+    "playstation",
+    "marvel",
+    "peterparker",
+    "milesmorales",
+    "superheroedit",
+    "gamingcommunity",
+    "marvelgames",
+    "spidermanedit",
+    "insomniacgames",
+    "gamedit",
+    "actiongaming",
+    "spideryoutubefanedit",
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Sail",
+    "artist": "AWOLNATION",
+    "url": "https://soundcloud.com/awolnation/10-sail",
+    "official_channel": "AWOLNATION",
+    "spotify_search": "https://open.spotify.com/search/AWOLNATION%20Sail"
+   },
+   "song_credit": "\"Sail\" – AWOLNATION",
+   "pattern": {
+    "id": "P11",
+    "name": "Even mix"
+   },
+   "captions": [
+    "NO MATTER HOW",
+    "HARD WE TRY",
+    "A",
+    "HERO IS SOMEONE",
+    "WHO DOESN'T GIVE",
+    "UP THOUGH",
+    "AND I DON'T",
+    "PLAN TO",
+    "I",
+    "ALSO",
+    "GOT BITTEN BY",
+    "A RADIOACTIVE SPIDER",
+    "THAT GAVE ME",
+    "SUPERPOWERS",
+    "I"
+   ],
+   "duration": 38.4,
+   "sources": [
+    {
+     "id": "YeMRixqvjog",
+     "src_id": "YeMRixqvjog",
+     "path": "/mnt/ph/youtube/sources/YeMRixqvjog.mkv",
+     "title": "Marvel's Spider-Man 2 - The Story So Far | PS5 Games",
+     "credit": "PlayStation",
+     "url": "https://www.youtube.com/watch?v=YeMRixqvjog"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.4
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 15
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "HERO IS SOMEONE",
+       "ALSO"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 65.3,
+    "song": 360.2,
+    "beats": 0.0,
+    "scan_plan": 4.0,
+    "render": 371.8,
+    "gemini_meta": 61.0,
+    "wide_4k": 189.8,
+    "qa": 13.3,
+    "preview": 47.4
+   }
   }
  ],
  "listing_cache": {
@@ -23327,6 +23581,12 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-26 16:21"
+  },
+  "GotN7bLCgpU": {
+   "accept": true,
+   "reject_reasons": [],
+   "vet_via": "preview",
+   "at": "2026-11-28 06:02"
   }
  },
  "failures": [
@@ -25975,6 +26235,30 @@
    "platform": "youtube",
    "category": "gaming",
    "error": "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[17.366667, 17.633333]], \"ending_black\": true}, \"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
+  },
+  {
+   "at": "2026-11-28T11:35:17.829174+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T11:35:32.645457+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T11:51:02.557628+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
+  },
+  {
+   "at": "2026-11-28T12:09:36.751330+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
   }
  ],
  "vet_rules": "no-text-v2"

@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T10:28:34.511183+05:30",
+ "updated": "2026-11-28T12:11:18.946057+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
    "ready": 0,
    "target": 7,
    "warning": true,
-   "produced_today": 1,
+   "produced_today": 3,
    "per_day": [
     5,
     6
@@ -299,30 +299,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-26T21:59:01.148946+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-26T22:25:54.061364+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "QAFail: QA failed: {\"resolution\": {\"ok\": false, \"value\": \"2560x1440\", \"want\": \"2160x3840\"}}"
-  },
-  {
-   "at": "2026-11-26T22:46:26.421574+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "FileNotFoundError: [Errno 2] No such file or directory: '/mnt/ph/youtube/vcache/cuts/5fe0e7aa864703a887fd.mp4.part.mp4' -> '/mnt/ph/youtube/vcache/cuts/5fe0e7aa864703a887fd.mp4'"
-  },
-  {
-   "at": "2026-11-26T22:56:26.720416+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
    "at": "2026-11-26T23:13:05.118578+05:30",
    "platform": "youtube",
    "category": "gaming",
@@ -387,6 +363,30 @@
    "platform": "youtube",
    "category": "gaming",
    "error": "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[17.366667, 17.633333]], \"ending_black\": true}, \"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
+  },
+  {
+   "at": "2026-11-28T11:35:17.829174+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T11:35:32.645457+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T11:51:02.557628+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
+  },
+  {
+   "at": "2026-11-28T12:09:36.751330+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
   },
   {
    "at": "2026-11-26T22:41:48.504314+05:30",
@@ -481,7 +481,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-28T08:04:59.101639+05:30",
-  "age_hours": 2.0,
+  "age_hours": 4.1,
   "healthy": true,
   "pool": {
    "gta": 3,
