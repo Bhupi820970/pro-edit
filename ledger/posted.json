@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T21:33:36.323002+05:30",
+ "updated": "2026-11-28T21:34:50.915259+05:30",
  "duplicates": [
   {
    "id": "yo-gta-20261126-174815",
@@ -411,13 +411,20 @@
   {
    "id": "in-series-20261128-162352",
    "platform": "instagram",
-   "status": "posting",
+   "status": "posted",
    "run_id": "46163059236",
    "intent_at": "2026-11-28T21:33:36.112130+05:30",
    "title": "Series Scene Edit | Bad Guy Edit",
    "slot": "2026-11-28T21:30",
-   "updated_at": "2026-11-28T21:33:36.322979+05:30",
-   "posted_at": "2026-11-28T21:33:36.322979+05:30"
+   "updated_at": "2026-11-28T21:34:50.915235+05:30",
+   "posted_at": "2026-11-28T21:34:50.915235+05:30",
+   "youtube_id": null,
+   "youtube_url": null,
+   "instagram_url": "https://www.instagram.com/reel/DgSo_5wxNLu/",
+   "ig_media_id": "18124635754946463",
+   "ig_container_id": "18190990432423233",
+   "buffer_post_id": null,
+   "buffer_status": null
   }
  ]
 }
