@@ -1026,11 +1026,13 @@ def _dur(p: Path) -> float:
 
 
 def make_shorts(wide: Path, out: Path, hook: str, fpath: str):
-    """2160x3840: blurred fill background, full 16:9 video (no crop). No banner: a savage hook line in
-    bold white with a black outline sits UNDER the video (never on faces, no box behind it)."""
+    """2160x3840: blurred fill background, full 16:9 video (no crop). No banner, no
+    burned-in text: clean screen. The hook lives in the post caption only."""
     W, H = 2160, 3840
     BW, BH = 2160, 1215
-    hook = "".join(c for c in hook if ord(c) < 0x2000).strip()  # bold fonts have no emoji glyphs
+    # User (Nov 28): clean screen, no banner and no text burned on the video.
+    # The savage hook goes only in the post caption/description.
+    hook = ""
     vy = (H - BH) // 2
     words = hook.split()
     # up to 2 lines, balanced
