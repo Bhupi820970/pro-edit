@@ -11,10 +11,19 @@ PROMPT = """Write upload text for a {platform} {fmt} fan edit by the channel "{b
 Category: {category}. Footage: {footage}. Song: "{song}" by {artist}.
 Lines the characters say on screen: {lines}
 - title: <= 70 chars, punchy, no clickbait lies, no emojis at the start. 
-- hook: <= 26 chars, ALL CAPS, no emoji (shown in a white bar above the video).
+- hook: 3-7 words, <= 34 chars, ALL CAPS, no emoji. A SAVAGE viral hook line shown under the video for
+  the whole edit: confident, cocky, a little disrespectful, makes people stop scrolling and comment
+  (e.g. "HE DIDN'T COME TO TALK", "NOBODY SAW THIS COMING", "SHE CHOSE VIOLENCE TODAY",
+  "THIS SCENE STILL HITS DIFFERENT"). Must fit THIS scene; never generic like "SERIES SCENE EDIT" or
+  just the show name.
 - caption: 1-2 short lines + a question to drive comments (emojis ok).
 - hashtags: 15-22 relevant tags without '#', mix of broad + niche.
 JSON only."""
+
+
+SAVAGE_HOOKS = ["NOBODY SAW THIS COMING", "THIS SCENE STILL HITS DIFFERENT", "HE DIDN'T COME TO TALK",
+                "WRONG PERSON TO TEST", "MAIN CHARACTER ENERGY", "THEY WERE NOT READY", "PURE DISRESPECT",
+                "THIS IS WHY THEY FEAR HIM", "ZERO HESITATION", "WATCH TILL THE END"]
 
 
 def credit_block(song: dict, clips: list[dict], brand: str) -> str:
@@ -55,6 +64,26 @@ def write_meta(gem, platform: str, fmt: str, category: str, song: dict, clips: l
     finally:
         ex.shutdown(wait=False, cancel_futures=True)
     if not m:
+        # Gemini out: text brains write the title/hook (Groq first, then OpenRouter)
+        try:
+            from .llm_fallback import env_keys, ask, GROQ_URL, GROQ_TEXT, OPENROUTER_URL, OPENROUTER_VISION
+            txt = PROMPT.format(platform=platform, fmt=fmt, brand=brand, category=category, footage=footage,
+                                song=song["title"], artist=song["artist"], lines=" / ".join(lines)[:700] or "none")
+            txt += '\nAnswer ONLY as a JSON array with ONE object: [{"title":"...","hook":"...","caption":"...","hashtags":["..."]}]'
+            for url, keys, models in ((GROQ_URL, env_keys("GROQ_API_KEY"), cfg.get("groq_models") or GROQ_TEXT),
+                                      (OPENROUTER_URL, env_keys("OPENROUTER_API_KEY"),
+                                       cfg.get("openrouter_vision_models") or OPENROUTER_VISION)):
+                if not keys:
+                    continue
+                o = (ask(url, keys, models, txt, timeout=40) or [None])[0]
+                if isinstance(o, dict) and all(isinstance(o.get(k), str) and o.get(k).strip()
+                                               for k in ("title", "hook", "caption")):
+                    o["hashtags"] = [t for t in (o.get("hashtags") or []) if isinstance(t, str)]
+                    m = o
+                    break
+        except Exception:
+            m = None
+    if not m:
         base = cfg["categories"][category].get("title_fallback", "Edit")
         hook = base
         try:
@@ -65,13 +94,15 @@ def write_meta(gem, platform: str, fmt: str, category: str, song: dict, clips: l
                 hook, base = f"{w} Edit", f"{w} Edit"
         except Exception:
             pass
-        m = {"title": f"{base} | {song['title']} Edit", "hook": hook.upper()[:26],
+        import random as _r
+        hook = _r.choice(SAVAGE_HOOKS)
+        m = {"title": f"{base} | {song['title']} Edit", "hook": hook.upper()[:34],
              "caption": "Which scene hit hardest? 👇", "hashtags": cfg["categories"][category].get("tags", [])}
     tags = [t.lstrip("#").replace(" ", "") for t in m["hashtags"]][:24]
     for t in cfg["categories"][category].get("tags", [])[:6]:
         if t not in tags:
             tags.append(t)
-    hook = "".join(ch for ch in m["hook"].upper() if ord(ch) < 0x2000)[:28]
+    hook = "".join(ch for ch in m["hook"].upper() if ord(ch) < 0x2000).strip()[:34]
     desc = m["caption"].strip() + "\n\n" + credit_block(song, clips, brand) + "\n\n" + " ".join("#" + t for t in tags)
     return {"title": m["title"][:100], "hook": hook, "description": desc, "hashtags": tags}
 

@@ -1026,29 +1026,43 @@ def _dur(p: Path) -> float:
 
 
 def make_shorts(wide: Path, out: Path, hook: str, fpath: str):
-    """2160x3840: blurred fill background, full 16:9 video (no crop), white hook bar above."""
+    """2160x3840: blurred fill background, full 16:9 video (no crop). No banner: a savage hook line in
+    bold white with a black outline sits UNDER the video (never on faces, no box behind it)."""
     W, H = 2160, 3840
     BW, BH = 2160, 1215
     hook = "".join(c for c in hook if ord(c) < 0x2000).strip()  # bold fonts have no emoji glyphs
-    vy = (H - BH) // 2 + 120
-    bar_h = 300
-    bar = Image.new("RGBA", (W, bar_h), (255, 255, 255, 255))
-    d = ImageDraw.Draw(bar)
-    size = 130
-    while size > 60:
+    vy = (H - BH) // 2
+    words = hook.split()
+    # up to 2 lines, balanced
+    if len(hook) > 18 and len(words) > 2:
+        cut = min(range(1, len(words)), key=lambda i: abs(len(" ".join(words[:i])) - len(" ".join(words[i:]))))
+        text_lines = [" ".join(words[:cut]), " ".join(words[cut:])]
+    else:
+        text_lines = [hook]
+    box_h = 520
+    img = Image.new("RGBA", (W, box_h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    size = 180
+    while size > 70:
         f = ImageFont.truetype(fpath, size)
-        bb = d.textbbox((0, 0), hook, font=f)
-        if bb[2] - bb[0] <= W - 100:
+        if all(d.textbbox((0, 0), ln, font=f, stroke_width=10)[2] <= W - 160 for ln in text_lines):
             break
         size -= 4
-    d.text(((W - (bb[2] - bb[0])) / 2 - bb[0], (bar_h - (bb[3] - bb[1])) / 2 - bb[1]), hook,
-           font=f, fill=(0, 0, 0, 255))
+    lh = int(size * 1.15)
+    y0 = (box_h - lh * len(text_lines)) // 2
+    for i, ln in enumerate(text_lines):
+        bb = d.textbbox((0, 0), ln, font=f, stroke_width=10)
+        d.text(((W - (bb[2] - bb[0])) / 2 - bb[0], y0 + i * lh - bb[1]), ln, font=f,
+               fill=(255, 255, 255, 255), stroke_width=10, stroke_fill=(0, 0, 0, 255))
     bp = out.parent / f".{out.stem}_hook.png"
-    bar.save(bp)
+    img.save(bp)
+    ty = vy + BH + 90
+    end = max(1.0, _dur(wide) - 1.2)
     vf = (f"[0:v]split[a][b];[a]scale=270:480:force_original_aspect_ratio=increase,crop=270:480,"
           f"boxblur=10:3,eq=brightness=-0.08,scale={W}:{H}[bg];"
           f"[b]scale={BW}:{BH}:flags=lanczos[fg];[bg][fg]overlay=0:{vy}[v1];"
-          f"[v1][1:v]overlay=0:{vy - bar_h}:enable='lt(t,{max(1.0, _dur(wide) - 1.2):.2f})',format=yuv420p")
+          + (f"[v1][1:v]overlay=0:{ty}:enable='lt(t,{end:.2f})',format=yuv420p" if hook
+             else "[v1]format=yuv420p"))
     run(["ffmpeg", "-y", "-v", "error", "-i", str(wide), "-i", str(bp), "-filter_complex", vf,
          "-map", "0:a", "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-maxrate", "50M",
          "-bufsize", "100M", "-pix_fmt", "yuv420p", "-profile:v", "high", "-c:a", "copy",
