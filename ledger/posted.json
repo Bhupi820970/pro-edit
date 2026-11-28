@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T08:03:33.509024+05:30",
+ "updated": "2026-11-28T08:03:42.699503+05:30",
  "duplicates": [
   {
    "id": "yo-gta-20261126-174815",
@@ -285,13 +285,20 @@
   {
    "id": "yo-gta-20261127-224133",
    "platform": "youtube",
-   "status": "posting",
+   "status": "posted",
    "run_id": "46098627465",
    "intent_at": "2026-11-28T08:03:33.292704+05:30",
    "title": "GTA 6 Vice City | Flashing Lights Edit",
    "slot": "2026-11-28T08:00",
-   "updated_at": "2026-11-28T08:03:33.509004+05:30",
-   "posted_at": "2026-11-28T08:03:33.509004+05:30"
+   "updated_at": "2026-11-28T08:03:42.699481+05:30",
+   "posted_at": "2026-11-28T08:03:42.699481+05:30",
+   "youtube_id": "Ct2S8HleOAI",
+   "youtube_url": "https://www.youtube.com/watch?v=Ct2S8HleOAI",
+   "instagram_url": null,
+   "ig_media_id": null,
+   "ig_container_id": null,
+   "buffer_post_id": null,
+   "buffer_status": null
   }
  ]
 }
