@@ -1,15 +1,15 @@
 {
  "alert": true,
  "stock": {
-  "instagram": 1,
+  "instagram": 2,
   "youtube": 0
  },
  "target": 20,
  "refill_below": 8,
  "alert_at": 2,
  "problems": [
-  "Ready stock is 1 on instagram (<= 2): backup nearly empty, manual pick/produce needed",
+  "Ready stock is 2 on instagram (<= 2): backup nearly empty, manual pick/produce needed",
   "Ready stock is 0 on youtube (<= 2): backup nearly empty, manual pick/produce needed"
  ],
- "at": "2026-11-28 08:28 IST"
+ "at": "2026-11-28 11:28 IST"
 }
