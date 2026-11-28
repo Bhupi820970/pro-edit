@@ -379,6 +379,21 @@ def pick_song(gem, state, category: str, clips: list[dict], cfg: dict, banned: s
             opts = []
         finally:
             _pool.shutdown(wait=False)
+    if not opts:
+        # Gemini out of quota / hung: backup brains (OpenRouter vision sees frames, Groq gets scene text)
+        try:
+            from .llm_fallback import backup_song_options
+            prompt = SONG_PROMPT_GENRE.format(
+                category=category, footage=footage, moods=moods or "n/a",
+                hint=cfg["categories"][category].get("song_hint", ""),
+                stock="; ".join(f'{r["title"]} - {r["artist"]}'
+                                + (f' [{r.get("mood") or "?"}, {r.get("bpm") or "?"} bpm]' if r.get("mood") or r.get("bpm") else "")
+                                for r in fresh[:40]) or "none",
+                recent=", ".join(recent[-60:]) or "none")
+            opts = backup_song_options(prompt, category, clips, cfg)
+        except Exception as ex:
+            log("backup song brain failed:", (type(ex).__name__ + " " + str(ex))[:160])
+            opts = []
     opts = [o for o in (opts or []) if isinstance(o, dict) and safe_search_term(o.get("title") or "")
             and safe_search_term(o.get("artist") or "")][:6]
 

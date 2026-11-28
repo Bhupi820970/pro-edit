@@ -36,6 +36,13 @@ jobs:
       GEMINI_API_KEY_8: ${{ secrets.GEMINI_API_KEY_8 }}
       GEMINI_API_KEY_9: ${{ secrets.GEMINI_API_KEY_9 }}
       GEMINI_API_KEY_10: ${{ secrets.GEMINI_API_KEY_10 }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      OPENROUTER_API_KEY_2: ${{ secrets.OPENROUTER_API_KEY_2 }}
+      OPENROUTER_API_KEY_3: ${{ secrets.OPENROUTER_API_KEY_3 }}
+      OPENROUTER_API_KEY_4: ${{ secrets.OPENROUTER_API_KEY_4 }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+      GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
       GEMINI_API_KEY_12: ${{ secrets.GEMINI_API_KEY_12 }}
       GEMINI_API_KEY_13: ${{ secrets.GEMINI_API_KEY_13 }}
       GH_TOKEN: ${{ github.token }}
