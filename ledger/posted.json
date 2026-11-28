@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T19:12:06.957542+05:30",
+ "updated": "2026-11-28T19:13:20.204508+05:30",
  "duplicates": [
   {
    "id": "yo-gta-20261126-174815",
@@ -375,13 +375,20 @@
   {
    "id": "in-sports-20261128-160547",
    "platform": "instagram",
-   "status": "posting",
+   "status": "posted",
    "run_id": "46150876132",
    "intent_at": "2026-11-28T19:12:06.716685+05:30",
    "title": "CR7 Reveals The Secret To Success",
    "slot": "2026-11-28T18:30",
-   "updated_at": "2026-11-28T19:12:06.957519+05:30",
-   "posted_at": "2026-11-28T19:12:06.957519+05:30"
+   "updated_at": "2026-11-28T19:13:20.204485+05:30",
+   "posted_at": "2026-11-28T19:13:20.204485+05:30",
+   "youtube_id": null,
+   "youtube_url": null,
+   "instagram_url": "https://www.instagram.com/reel/DgSYzwsSwse/",
+   "ig_media_id": "18136222714601516",
+   "ig_container_id": "18190976902423233",
+   "buffer_post_id": null,
+   "buffer_status": null
   }
  ]
 }
