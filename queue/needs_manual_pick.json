@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:29:19.416322+05:30",
+ "updated": "2026-11-28T15:27:05.628670+05:30",
  "platforms": {
   "youtube": {
    "platform": "youtube",
@@ -11,7 +11,7 @@
   },
   "instagram": {
    "platform": "instagram",
-   "updated": "2026-11-28T08:59:11+0000",
+   "updated": "2026-11-28T09:56:05+0000",
    "reason": "nothing waiting: Gemini checked every clip this run",
    "gemini_quota_resets": "2026-11-29 13:30 IST",
    "categories": {},

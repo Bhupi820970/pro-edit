@@ -108,7 +108,10 @@
   "key6|gemini-3.6-flash": 1795939200.0,
   "key7|gemini-3.6-flash": 1795939200.0,
   "key8|gemini-3.6-flash": 1795939200.0,
-  "key9|gemini-3.6-flash": 1795939200.0
+  "key9|gemini-3.6-flash": 1795939200.0,
+  "key10|gemma-4-31b-it": 1795939200.0,
+  "key12|gemma-4-31b-it": 1795939200.0,
+  "key13|gemma-4-26b-a4b-it": 1795939200.0
  },
  "invalid": {}
 }
