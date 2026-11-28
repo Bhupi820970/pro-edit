@@ -66,6 +66,11 @@ def pick_category(state: State, platform: str, skip=()) -> str | None:
     """
     mix = {c: r for c, r in CFG["platforms"][platform]["mix"].items() if c not in set(skip)}
     if not mix:
+        # User (Nov 28): never stop because a topic has no clips. When every mix category is dead this
+        # run, use the platform's fallback topics (only then, so the normal daily mix stays the same).
+        for c in CFG["platforms"][platform].get("fallback", []):
+            if c not in set(skip) and c in CFG.get("categories", CFG):
+                return c
         return None
     done = {}
     for v in state.produced_today(platform):

@@ -32,7 +32,15 @@
           0,
           1
         ]
-      }
+      },
+      "fallback": [
+        "movie",
+        "series",
+        "marvel",
+        "dc",
+        "anime",
+        "sports"
+      ]
     },
     "instagram": {
       "format": "shorts",

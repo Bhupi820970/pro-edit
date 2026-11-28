@@ -46,7 +46,8 @@ class PickCategoryTests(unittest.TestCase):
 
     def test_all_skipped_returns_none(self):
         import pipeline as P
-        self.assertIsNone(P.pick_category(self._state([]), "youtube", {"gta", "gaming"}))
+        allc = {"gta", "gaming", "movie", "series", "marvel", "dc", "anime", "sports"}
+        self.assertIsNone(P.pick_category(self._state([]), "youtube", allc))
 
 
 class CmdProduceFallbackTests(unittest.TestCase):
@@ -104,7 +105,9 @@ class CmdProduceFallbackTests(unittest.TestCase):
                     patch("pipeline_lib.sourcing.Sourcer", return_value=src), \
                     patch.object(P, "queue_fetch"), patch("pipeline_lib.cleanup.sweep"):
                 P.cmd_produce(a, until_target=True)
-            self.assertEqual(sorted(calls), ["gaming", "gta"])          # each tried once, then stop
+            # each topic tried once (mix first, then the fallback topics), then stop
+            self.assertEqual(sorted(calls[:2]), ["gaming", "gta"])
+            self.assertEqual(len(calls), len(set(calls)))
             doc = json.loads((Path(td) / "queue" / "needs_manual_pick.json").read_text())
             self.assertEqual(doc["categories"]["gaming"][0]["id"], "abcdefghijk")
 
@@ -316,3 +319,13 @@ class QuotaOutFallbackTests(unittest.TestCase):
                 P.cmd_produce(a, count=1)
             self.assertEqual(calls[0], "gta")
             self.assertTrue(len(calls) >= 2 and calls[1] != "gta")
+
+
+class PlatformFallbackTopicTests(unittest.TestCase):
+    def test_youtube_uses_fallback_topics_only_when_mix_is_dead(self):
+        import pipeline as P
+        st = MagicMock()
+        st.produced_today.return_value = []
+        self.assertIn(P.pick_category(st, "youtube"), ("gta", "gaming"))
+        self.assertEqual(P.pick_category(st, "youtube", {"gta", "gaming"}), "movie")
+        self.assertEqual(P.pick_category(st, "youtube", {"gta", "gaming", "movie"}), "series")
