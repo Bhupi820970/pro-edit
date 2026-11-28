@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-28T16:44:04.390245+05:30",
+ "updated": "2026-11-28T19:12:58.260488+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (2/7 ready)",
+ "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (3/7 ready)",
  "platforms": {
   "youtube": {
-   "ready": 0,
+   "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 0,
+   "produced_today": 1,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (0/7 ready)"
+   "message": "BACKUP LOW: refill youtube (1/7 ready)"
   },
   "instagram": {
-   "ready": 2,
+   "ready": 3,
    "target": 7,
    "warning": true,
-   "produced_today": 6,
+   "produced_today": 7,
    "per_day": [
     6,
     7
    ],
-   "message": "BACKUP LOW: refill instagram (2/7 ready)"
+   "message": "BACKUP LOW: refill instagram (3/7 ready)"
   }
  },
  "ready": [
@@ -262,22 +262,269 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-series-20261128-162352.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-series-20261128-162352.preview.mp4"
+  },
+  {
+   "id": "in-dc-20261128-185757",
+   "platform": "instagram",
+   "category": "dc",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T19:12:27.082175+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-dc-20261128-185757.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-dc-20261128-185757.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 85.2,
+   "title": "The Batman Edit | Sucker for Pain Edit",
+   "hook": "THE BATMAN EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sucker for Pain\" – Lil Wayne, Wiz Khalifa & Imagine Dragons (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=MpQ-Xd_1KWQ\n🎧 Spotify: https://open.spotify.com/search/Lil%20Wayne%2C%20Wiz%20Khalifa%20%26%20Imagine%20Dragons%20Sucker%20for%20Pain\n🎬 Footage: ClipZone: Heroes & Villains – \"The Batman | Bomb Collar | ClipZone: Villains & Heroes\"; Warner Bros. – \"The Batman – Funeral Scene – In Theaters March 4\"; DC – \"The Batman - Ending Monologue from “The Batman” | Super Scenes | DC\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#DC #DCEdit #Batman #Superman",
+   "hashtags": [
+    "DC",
+    "DCEdit",
+    "Batman",
+    "Superman"
+   ],
+   "song": {
+    "title": "Sucker for Pain",
+    "artist": "Lil Wayne, Wiz Khalifa & Imagine Dragons",
+    "url": "https://www.youtube.com/watch?v=MpQ-Xd_1KWQ",
+    "official_channel": "Lil Wayne",
+    "spotify_search": "https://open.spotify.com/search/Lil%20Wayne%2C%20Wiz%20Khalifa%20%26%20Imagine%20Dragons%20Sucker%20for%20Pain"
+   },
+   "song_credit": "\"Sucker for Pain\" – Lil Wayne, Wiz Khalifa & Imagine Dragons",
+   "pattern": {
+    "id": "P11",
+    "name": "Even mix"
+   },
+   "captions": [
+    "YOU GOT PEOPLE",
+    "LOOKING FOR HER",
+    "IN JAIL?",
+    "SEND A COUPLE",
+    "GUYS TO HIS",
+    "HOUSE",
+    "NOTHING",
+    "WHAT IS WHAT",
+    "SHE?",
+    "SHE HAD A",
+    "HARD"
+   ],
+   "duration": 38.27,
+   "sources": [
+    {
+     "id": "zUMK56vuNOc_c00",
+     "src_id": "zUMK56vuNOc",
+     "path": "/mnt/ph/instagram/sources/chunks/zUMK56vuNOc_c00.mkv",
+     "title": "The Batman | Bomb Collar | ClipZone: Villains & Heroes",
+     "credit": "ClipZone: Heroes & Villains",
+     "url": "https://www.youtube.com/watch?v=zUMK56vuNOc"
+    },
+    {
+     "id": "Jtdh0Tkqfdw",
+     "src_id": "Jtdh0Tkqfdw",
+     "path": "/mnt/ph/instagram/sources/Jtdh0Tkqfdw.mkv",
+     "title": "The Batman – Funeral Scene – In Theaters March 4",
+     "credit": "Warner Bros.",
+     "url": "https://www.youtube.com/watch?v=Jtdh0Tkqfdw"
+    },
+    {
+     "id": "6f7vxgOmbPQ",
+     "src_id": "6f7vxgOmbPQ",
+     "path": "/mnt/ph/instagram/sources/6f7vxgOmbPQ.mkv",
+     "title": "The Batman - Ending Monologue from “The Batman” | Super Scenes | DC",
+     "credit": "DC",
+     "url": "https://www.youtube.com/watch?v=6f7vxgOmbPQ"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.27
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.2
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 11
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 102.3,
+    "song": 31.8,
+    "beats": 9.1,
+    "scan_plan": 134.6,
+    "render": 387.8,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 150.4,
+    "qa": 8.5,
+    "preview": 45.3
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-dc-20261128-185757.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-dc-20261128-185757.preview.mp4"
+  },
+  {
+   "id": "yo-dc-20261128-185757",
+   "platform": "youtube",
+   "category": "dc",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T19:12:27.082175+05:30",
+   "path": "/mnt/ph/instagram/ready/youtube/yo-dc-20261128-185757.mp4",
+   "preview": "/mnt/ph/instagram/prev/yo-dc-20261128-185757.mp4",
+   "preview_mb": 22.0,
+   "size_mb": 85.2,
+   "title": "The Batman Edit | Sucker for Pain Edit",
+   "hook": "THE BATMAN EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Sucker for Pain\" – Lil Wayne, Wiz Khalifa & Imagine Dragons (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=MpQ-Xd_1KWQ\n🎧 Spotify: https://open.spotify.com/search/Lil%20Wayne%2C%20Wiz%20Khalifa%20%26%20Imagine%20Dragons%20Sucker%20for%20Pain\n🎬 Footage: ClipZone: Heroes & Villains – \"The Batman | Bomb Collar | ClipZone: Villains & Heroes\"; Warner Bros. – \"The Batman – Funeral Scene – In Theaters March 4\"; DC – \"The Batman - Ending Monologue from “The Batman” | Super Scenes | DC\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#DC #DCEdit #Batman #Superman",
+   "hashtags": [
+    "DC",
+    "DCEdit",
+    "Batman",
+    "Superman"
+   ],
+   "song": {
+    "title": "Sucker for Pain",
+    "artist": "Lil Wayne, Wiz Khalifa & Imagine Dragons",
+    "url": "https://www.youtube.com/watch?v=MpQ-Xd_1KWQ",
+    "official_channel": "Lil Wayne",
+    "spotify_search": "https://open.spotify.com/search/Lil%20Wayne%2C%20Wiz%20Khalifa%20%26%20Imagine%20Dragons%20Sucker%20for%20Pain"
+   },
+   "song_credit": "\"Sucker for Pain\" – Lil Wayne, Wiz Khalifa & Imagine Dragons",
+   "pattern": {
+    "id": "P11",
+    "name": "Even mix"
+   },
+   "captions": [
+    "YOU GOT PEOPLE",
+    "LOOKING FOR HER",
+    "IN JAIL?",
+    "SEND A COUPLE",
+    "GUYS TO HIS",
+    "HOUSE",
+    "NOTHING",
+    "WHAT IS WHAT",
+    "SHE?",
+    "SHE HAD A",
+    "HARD"
+   ],
+   "duration": 38.27,
+   "sources": [
+    {
+     "id": "zUMK56vuNOc_c00",
+     "src_id": "zUMK56vuNOc",
+     "path": "/mnt/ph/instagram/sources/chunks/zUMK56vuNOc_c00.mkv",
+     "title": "The Batman | Bomb Collar | ClipZone: Villains & Heroes",
+     "credit": "ClipZone: Heroes & Villains",
+     "url": "https://www.youtube.com/watch?v=zUMK56vuNOc"
+    },
+    {
+     "id": "Jtdh0Tkqfdw",
+     "src_id": "Jtdh0Tkqfdw",
+     "path": "/mnt/ph/instagram/sources/Jtdh0Tkqfdw.mkv",
+     "title": "The Batman – Funeral Scene – In Theaters March 4",
+     "credit": "Warner Bros.",
+     "url": "https://www.youtube.com/watch?v=Jtdh0Tkqfdw"
+    },
+    {
+     "id": "6f7vxgOmbPQ",
+     "src_id": "6f7vxgOmbPQ",
+     "path": "/mnt/ph/instagram/sources/6f7vxgOmbPQ.mkv",
+     "title": "The Batman - Ending Monologue from “The Batman” | Super Scenes | DC",
+     "credit": "DC",
+     "url": "https://www.youtube.com/watch?v=6f7vxgOmbPQ"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.27
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -11.2
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 11
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 102.3,
+    "song": 31.8,
+    "beats": 9.1,
+    "scan_plan": 134.6,
+    "render": 387.8,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 150.4,
+    "qa": 8.5,
+    "preview": 45.3
+   },
+   "twin_of": "in-dc-20261128-185757",
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-185757.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-185757.preview.mp4"
   }
  ],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-27T15:03:12.160839+05:30",
-   "platform": "instagram",
-   "category": "sports",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-27T22:50:36.441085+05:30",
-   "platform": "instagram",
-   "category": "movie",
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
-  },
   {
    "at": "2026-11-27T23:19:26.346168+05:30",
    "platform": "instagram",
@@ -355,6 +602,18 @@
    "platform": "instagram",
    "category": "gta",
    "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T18:55:29.585014+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T18:57:56.220249+05:30",
+   "platform": "instagram",
+   "category": "celebrity",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
   }
  ],
  "pattern_history": [
@@ -423,11 +682,30 @@
    "at": "2026-11-28T16:43:38.636940+05:30",
    "video": "in-series-20261128-162352",
    "platform": "instagram"
+  },
+  {
+   "id": "P11",
+   "at": "2026-11-28T19:12:27.082804+05:30",
+   "video": "in-dc-20261128-185757",
+   "platform": "instagram"
   }
  ],
+ "last_run": {
+  "platform": "instagram",
+  "in_progress": true,
+  "made": [
+   "in-dc-20261128-185757"
+  ],
+  "last_video": {
+   "id": "in-dc-20261128-185757",
+   "category": "dc",
+   "title": "The Batman Edit | Sucker for Pain Edit",
+   "at": "2026-11-28T19:12:57.985772+05:30"
+  }
+ },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 2.6,
+  "age_hours": 5.1,
   "healthy": true,
   "pool": {
    "gta": 3,
@@ -444,5 +722,33 @@
   },
   "errors": [],
   "message": "OK"
+ },
+ "stock": {
+  "updated": "2026-11-28T19:13:00.500204+05:30",
+  "ledger_readable": true,
+  "platforms": {
+   "instagram": {
+    "in_stock": 3,
+    "posted_still_in_stock": 0,
+    "unposted": 3,
+    "unposted_ids": [
+     "in-dc-20261128-185757",
+     "in-series-20261128-162352",
+     "in-sports-20261128-160547"
+    ],
+    "posted_total": 9
+   },
+   "youtube": {
+    "in_stock": 3,
+    "posted_still_in_stock": 0,
+    "unposted": 3,
+    "unposted_ids": [
+     "yo-dc-20261128-185757",
+     "yo-gaming-20261128-171320",
+     "yo-gaming-20261128-173233"
+    ],
+    "posted_total": 11
+   }
+  }
  }
 }
