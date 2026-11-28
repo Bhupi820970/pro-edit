@@ -1,29 +1,33 @@
 {
  "requests": [
   {
-   "id": "youtube-202611281209-gta",
+   "id": "youtube-202611281417-gta",
    "category": "gta",
    "limit": 3,
-   "at": "2026-11-28T12:09:38.100960+05:30",
+   "at": "2026-11-28T14:17:11.253870+05:30",
    "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
-    "Grand Theft Auto V Official Gameplay Video Rockstar Games",
-    "GTA Online official gameplay Rockstar Games"
+    "Grand Theft Auto V official gameplay walkthrough full scenes",
+    "GTA Online official gameplay highlights full quality",
+    "Grand Theft Auto VI official gameplay showcase official channel",
+    "Rockstar Games official GTA gameplay cinematic full episodes"
    ],
    "links": []
   },
   {
-   "id": "youtube-202611281210-gaming",
+   "id": "youtube-202611281417-gaming",
    "category": "gaming",
    "limit": 3,
-   "at": "2026-11-28T12:10:38.867541+05:30",
+   "at": "2026-11-28T14:17:54.190038+05:30",
    "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
-    "Red Dead Redemption 2 official trailer Rockstar Games",
-    "Cyberpunk 2077 official gameplay trailer CD PROJEKT RED"
+    "Red Dead Redemption 2 official gameplay reveal",
+    "Cyberpunk 2077 official gameplay reveal",
+    "God of War official gameplay reveal",
+    "Elden Ring official gameplay reveal"
    ],
    "links": []
   }
  ],
- "updated": "2026-11-28T12:10:39.583486+05:30"
+ "updated": "2026-11-28T14:20:14.891561+05:30"
 }

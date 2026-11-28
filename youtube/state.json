@@ -9569,6 +9569,170 @@
    "duration": 491.708,
    "category": "gta",
    "at": "2026-11-28 04:09"
+  },
+  "cEDUO1zjB5c": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "open world crime simulation",
+   "summary": "Gameplay footage of GTA 6 featuring various NPC interactions, dialogue choices, and open world exploration.",
+   "reject_reasons": [
+    "Contains game HUD and minimap overlay",
+    "Contains channel watermark toaster.gta",
+    "Contains burned-in dialogue choices and subtitles",
+    "flag:watermark",
+    "flag:channel_logo",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "flag:text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 500.0,
+     "reason": "Persistent HUD, subtitles, and channel watermarks throughout the entire video"
+    }
+   ],
+   "characters": [],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    26.1,
+    90.98,
+    155.86,
+    220.74,
+    285.62,
+    350.5,
+    415.39,
+    480.27,
+    285.62
+   ],
+   "title": "GTA 6 NPC Interactions Are UNREAL",
+   "channel": "toaster",
+   "credit": "toaster",
+   "url": "https://www.youtube.com/watch?v=cEDUO1zjB5c",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 522.028,
+   "category": "gta",
+   "at": "2026-11-28 08:06"
+  },
+  "ohWrSrlHq2o": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "tense gameplay action flight",
+   "summary": "Gameplay footage of flying a 747 Jumbo Jet in GTA, featuring in-game HUD, radar minimap, tutorial text overlays, and ending with a wasted screen.",
+   "reject_reasons": [
+    "Contains persistent game HUD overlays and minimap",
+    "Contains on-screen text overlays and tutorial prompts",
+    "Let's play / gameplay recording format not accepted",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not official/full quality",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 280.0,
+     "reason": "Full video contains persistent game HUD, minimap, and text overlays throughout."
+    }
+   ],
+   "characters": [
+    "Protagonist",
+    "Security Officer"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    14.72,
+    51.33,
+    87.93,
+    124.53,
+    161.13,
+    197.73,
+    234.33,
+    270.93,
+    161.13
+   ],
+   "title": "GTA 6 - Flying a 747 Jumbo Jet Gameplay",
+   "channel": "AFGuidesHD",
+   "credit": "AFGuidesHD",
+   "url": "https://www.youtube.com/watch?v=ohWrSrlHq2o",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 294.488,
+   "category": "gta",
+   "at": "2026-11-28 08:06"
+  },
+  "Z2b-mrVXJfU": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "tense neon crime night",
+   "summary": "Gameplay footage of a GTA heist featuring driving and inventory management with game HUD and subtitles present.",
+   "reject_reasons": [
+    "Contains game HUD overlay",
+    "Contains burned-in subtitles",
+    "Contains on-screen text overlays",
+    "Not official studio footage",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not official/full quality",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 0.0,
+     "end": 967.9,
+     "reason": "Persistent game HUD and subtitles throughout the video"
+    }
+   ],
+   "characters": [
+    "Lucia"
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    52.6,
+    183.36,
+    314.12,
+    444.87,
+    575.63,
+    706.39,
+    837.15,
+    967.9,
+    575.63
+   ],
+   "title": "My BIGGEST HEIST in GTA 6...",
+   "channel": "Nemsk",
+   "credit": "Nemsk",
+   "url": "https://www.youtube.com/watch?v=Z2b-mrVXJfU",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 1052.068,
+   "category": "gta",
+   "at": "2026-11-28 08:07"
   }
  },
  "videos": [
@@ -17117,6 +17281,143 @@
     "wide_4k": 189.8,
     "qa": 13.3,
     "preview": 47.4
+   }
+  },
+  {
+   "id": "yo-gaming-20261128-135332",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-28T14:17:10.153684+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-135332.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-135332.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 246.5,
+   "title": "Spider-Man 2: The Story So Far | Vice Cartel Edit",
+   "hook": "PETER PARKER'S LEGACY",
+   "description": "The journey of a hero. 🕷️ Who is your favorite Spider-Man version?\n\n🎵 Song: \"Centuries\" – Fall Out Boy (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=LBr7kECsjcQ\n🎧 Spotify: https://open.spotify.com/search/Fall%20Out%20Boy%20Centuries\n🎬 Footage: PlayStation – \"Marvel's Spider-Man 2 - The Story So Far | PS5 Games\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#SpiderMan2 #MarvelsSpiderMan2 #PS5 #PlayStation #ViceCartel #FallOutBoy #Centuries #GamingEdit #MarvelGames #PeterParker #MilesMorales #SuperheroEdit #GamingCommunity #ActionGaming #WebSlinger #MarvelUniverse #SpiderVerse #PlayStation5 #GamingMontage #StoryRecap #Gaming #GameEdit",
+   "hashtags": [
+    "SpiderMan2",
+    "MarvelsSpiderMan2",
+    "PS5",
+    "PlayStation",
+    "ViceCartel",
+    "FallOutBoy",
+    "Centuries",
+    "GamingEdit",
+    "MarvelGames",
+    "PeterParker",
+    "MilesMorales",
+    "SuperheroEdit",
+    "GamingCommunity",
+    "ActionGaming",
+    "WebSlinger",
+    "MarvelUniverse",
+    "SpiderVerse",
+    "PlayStation5",
+    "GamingMontage",
+    "StoryRecap",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Centuries",
+    "artist": "Fall Out Boy",
+    "url": "https://www.youtube.com/watch?v=LBr7kECsjcQ",
+    "official_channel": "Fall Out Boy",
+    "spotify_search": "https://open.spotify.com/search/Fall%20Out%20Boy%20Centuries"
+   },
+   "song_credit": "\"Centuries\" – Fall Out Boy",
+   "pattern": {
+    "id": "P11",
+    "name": "Even mix"
+   },
+   "captions": [
+    "HI",
+    "I'M PETER PARKER",
+    "I'M 25 YEARS",
+    "OLD",
+    "I HAVE A",
+    "BACHELOR'S DEGREE IN",
+    "BIOPHYSICS",
+    "AND I'M IN",
+    "LOVE WITH THE",
+    "GREATEST WOMAN EVER",
+    "I",
+    "ALSO",
+    "GOT BITTEN BY",
+    "A RADIOACTIVE SPIDER",
+    "THAT GAVE ME",
+    "SUPERPOWERS"
+   ],
+   "duration": 38.77,
+   "sources": [
+    {
+     "id": "YeMRixqvjog",
+     "src_id": "YeMRixqvjog",
+     "path": "/mnt/ph/youtube/sources/YeMRixqvjog.mkv",
+     "title": "Marvel's Spider-Man 2 - The Story So Far | PS5 Games",
+     "credit": "PlayStation",
+     "url": "https://www.youtube.com/watch?v=YeMRixqvjog"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.77
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 16
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "GREATEST WOMAN EVER",
+       "ALSO"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 183.3,
+    "song": 76.2,
+    "beats": 11.3,
+    "scan_plan": 151.5,
+    "render": 582.4,
+    "gemini_meta": 21.3,
+    "wide_4k": 301.2,
+    "qa": 18.4,
+    "preview": 72.0
    }
   }
  ],
@@ -26259,6 +26560,30 @@
    "platform": "youtube",
    "category": "gaming",
    "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
+  },
+  {
+   "at": "2026-11-28T13:41:42.924891+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T13:51:42.949042+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T13:53:32.517026+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T14:17:10.190414+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"GREATEST WOMAN EVER\", \"ALSO\"]}}"
   }
  ],
  "vet_rules": "no-text-v2"

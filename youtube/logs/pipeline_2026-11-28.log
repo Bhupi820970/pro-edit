@@ -1,96 +1,305 @@
-[2026-11-28 11:30:20 IST] pull-sources: +130 clips, 6 accepted / 124 unvetted listed, 8.2 GB local
-[2026-11-28 11:30:45 IST] === yo-gta-20261128-113045: platform=youtube category=gta format=wide seed=1051059568
-[2026-11-28 11:31:01 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 1xlr3-hK5rY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 11:31:11 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 1xlr3-hK5rY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 11:31:11 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 11:31:13 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] wiW1mpHZb_Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 11:31:23 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] wiW1mpHZb_Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 11:31:23 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 11:31:25 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] GotN7bLCgpU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 11:31:35 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] GotN7bLCgpU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 11:31:35 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 11:32:14 IST] pre-vet PASS [GotN7bLCgpU] GTA 6 - What's New In the First Patch?
-[2026-11-28 11:32:16 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] GotN7bLCgpU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 11:32:26 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] GotN7bLCgpU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 11:32:26 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 11:32:28 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] VNbONMSObfs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 11:32:38 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] VNbONMSObfs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 11:32:38 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 11:32:38 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
-[2026-11-28 11:32:38 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 11:35:17 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 11:35:17 IST] gemini discovery failed: all Gemini keys/models failed: key13/gemma-4-31b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try | key10/gemma-4-31b-it: 503 This model is 
-[2026-11-28 11:35:17 IST] content thin for gta (0/6) -> fallback search (12 candidates)
-[2026-11-28 11:35:17 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
-[2026-11-28 11:35:17 IST] attempt 1 FAIL in 272s: gather=272s
-[2026-11-28 11:35:17 IST] === yo-gta-20261128-113517: platform=youtube category=gta format=wide seed=14716015
-[2026-11-28 11:35:32 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 11:35:32 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 11:35:32 IST] gemini discovery failed: all Gemini keys/models failed: key13/gemma-4-31b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try | key10/gemma-4-31b-it: 503 This model is 
-[2026-11-28 11:35:32 IST] content thin for gta (0/6) -> fallback search (12 candidates)
-[2026-11-28 11:35:32 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
-[2026-11-28 11:35:32 IST] category gta: no usable sources -> fallback to gaming
-[2026-11-28 11:35:32 IST] attempt 2 FAIL in 15s: gather=15s
-[2026-11-28 11:35:32 IST] === yo-gaming-20261128-113532: platform=youtube category=gaming format=wide seed=393991984
-[2026-11-28 11:36:10 IST] x search failed: Red Dead Redemption 2 official trailer Rockstar Games full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 11:36:25 IST] x search failed: Cyberpunk 2077 official gameplay trailer CD PROJEKT RED full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 11:37:44 IST] content thin for gaming (1/3) -> fallback search (15 candidates)
-[2026-11-28 11:37:44 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
-[2026-11-28 11:37:44 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
-[2026-11-28 11:37:44 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
-[2026-11-28 11:37:44 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
-[2026-11-28 11:37:44 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
-[2026-11-28 11:37:44 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
-[2026-11-28 11:37:44 IST] song stock for gaming: 30 tagged songs with audio
-[2026-11-28 11:38:06 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 11:38:06 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 11:38:06 IST] gemini song pick failed, rotating the genre stock: all Gemini keys/models failed: key10/gemma-4-31b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try | 
-[2026-11-28 11:38:07 IST] using genre stock song: Sail - AWOLNATION
-[2026-11-28 11:38:07 IST] song: Sail – AWOLNATION (https://soundcloud.com/awolnation/10-sail)
-[2026-11-28 11:38:07 IST] caption pattern: P02 Beside-upper
-[2026-11-28 11:39:57 IST] plan 38.4s, 13 shots -> render
-[2026-11-28 11:46:43 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 11:46:43 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 11:51:02 IST] === yo-gaming-20261128-113532: QA FAIL -> /mnt/ph/youtube/ready/youtube/yo-gaming-20261128-113532.mp4
-[2026-11-28 11:51:02 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["HERO IS SOMEONE", "ALSO"]}}
-[2026-11-28 11:51:03 IST] attempt 3 FAIL in 931s: gather=132s, song=23s, beats=8s, scan_plan=102s, render=383s, gemini_meta=23s, wide_4k=196s, qa=13s, preview=50s, save=1s
-[2026-11-28 11:51:03 IST] === yo-gaming-20261128-115103: platform=youtube category=gaming format=wide seed=739218595
-[2026-11-28 11:51:40 IST] x search failed: Red Dead Redemption 2 official trailer Rockstar Games full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 11:51:55 IST] x search failed: Cyberpunk 2077 official gameplay trailer CD PROJEKT RED full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 11:52:08 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 11:52:09 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 11:52:09 IST] gemini discovery failed: all Gemini keys/models failed: key10/gemma-4-31b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try | key13/gemma-4-31b-it: 503 This model is 
-[2026-11-28 11:52:09 IST] content thin for gaming (1/3) -> fallback search (13 candidates)
-[2026-11-28 11:52:09 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
-[2026-11-28 11:52:09 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
-[2026-11-28 11:52:09 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
-[2026-11-28 11:52:09 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
-[2026-11-28 11:52:09 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
-[2026-11-28 11:52:09 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
-[2026-11-28 11:52:09 IST] song stock for gaming: 30 tagged songs with audio
-[2026-11-28 11:55:09 IST] gemini key10/gemma-4-31b-it: TimeoutError The read operation timed out
-[2026-11-28 11:55:09 IST] gemini key10/gemma-4-31b-it: HTTP 599 The read operation timed out
-[2026-11-28 11:58:09 IST] gemini key13/gemma-4-31b-it: TimeoutError The read operation timed out
-[2026-11-28 11:58:09 IST] gemini key13/gemma-4-31b-it: HTTP 599 The read operation timed out
-[2026-11-28 11:58:09 IST] gemini song pick failed, rotating the genre stock: all Gemini keys/models failed: key10/gemma-4-31b-it: 599 The read operation timed out | key13/gemma-4-31b-it: 599 The read operation timed out
-[2026-11-28 11:58:09 IST] using genre stock song: Sail - AWOLNATION
-[2026-11-28 11:58:09 IST] song: Sail – AWOLNATION (https://soundcloud.com/awolnation/10-sail)
-[2026-11-28 11:58:09 IST] caption pattern: P11 Even mix
-[2026-11-28 11:58:13 IST] plan 38.4s, 13 shots -> render
-[2026-11-28 12:04:44 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 12:05:26 IST] gemini: answered by backup model gemma-4-31b-it (key13)
-[2026-11-28 12:09:36 IST] === yo-gaming-20261128-115103: QA FAIL -> /mnt/ph/youtube/ready/youtube/yo-gaming-20261128-115103.mp4
-[2026-11-28 12:09:36 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["HERO IS SOMEONE", "ALSO"]}}
-[2026-11-28 12:09:38 IST] attempt 4 FAIL in 1114s: gather=65s, song=360s, beats=0s, scan_plan=4s, render=372s, gemini_meta=61s, wide_4k=190s, qa=13s, preview=47s, save=1s
-[2026-11-28 12:09:38 IST] time budget reached (21 min left < 30 min for one more attempt)
-[2026-11-28 12:09:38 IST] step totals over 4 attempts: render=12.6min, gather=8.1min, wide_4k=6.4min, song=6.4min, scan_plan=1.8min, preview=1.6min, gemini_meta=1.4min, qa=0.4min, beats=0.1min, save=0.0min -> slowest step: render
-[2026-11-28 12:10:15 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 12:10:38 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 12:10:38 IST] queued box fetch request youtube-202611281209-gta
-[2026-11-28 12:10:39 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 12:10:39 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 12:10:39 IST] queued box fetch request youtube-202611281210-gaming
-[2026-11-28 12:10:43 IST] cleanup sweep: freed 0.0 MB (2 files)
-[2026-11-28 12:10:43 IST] done: 0 made, 4 failed attempts; youtube buffer 0/7 — BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
-[2026-11-28 12:11:00 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 15
-[2026-11-28 12:11:03 IST] vc-ready manifest: 2 videos
+[2026-11-28 13:36:04 IST] pull-sources: +135 clips, 6 accepted / 129 unvetted listed, 9.7 GB local
+[2026-11-28 13:36:21 IST] === yo-gta-20261128-133621: platform=youtube category=gta format=wide seed=872417517
+[2026-11-28 13:36:45 IST] vet REJECT [cEDUO1zjB5c] GTA 6 NPC Interactions Are UNREAL — Contains game HUD and minimap overlay; Contains channel watermark toaster.gta; Contains burned-in dialogue choices and subtitles; flag:watermark; flag:channel_logo; flag:burned_subtitles; flag:hud_overlay; flag:text_overlay
+[2026-11-28 13:36:52 IST] vet REJECT [ohWrSrlHq2o] GTA 6 - Flying a 747 Jumbo Jet Gameplay — Contains persistent game HUD overlays and minimap; Contains on-screen text overlays and tutorial prompts; Let's play / gameplay recording format not accepted; flag:hud_overlay; flag:text_overlay; not official/full quality; not editable
+[2026-11-28 13:37:01 IST] vet REJECT [Z2b-mrVXJfU] My BIGGEST HEIST in GTA 6... — Contains game HUD overlay; Contains burned-in subtitles; Contains on-screen text overlays; Not official studio footage; flag:burned_subtitles; flag:hud_overlay; flag:text_overlay; not official/full quality; not editable
+[2026-11-28 13:37:03 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] mP6KvFnltWc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 13:37:13 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] mP6KvFnltWc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 13:37:13 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 13:37:15 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] H4rYVsJ4v9Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 13:37:24 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] H4rYVsJ4v9Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 13:37:24 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 13:37:26 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] VNbONMSObfs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 13:37:36 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] VNbONMSObfs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 13:37:36 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 13:37:38 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] lEQ4XD8KuUs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 13:37:48 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] lEQ4XD8KuUs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 13:37:48 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 13:37:48 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
+[2026-11-28 13:37:48 IST] gemini key4/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:48 IST] gemini: key4|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:48 IST] gemini key5/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:48 IST] gemini: key5|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:48 IST] gemini key6/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:48 IST] gemini: key6|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:48 IST] gemini key7/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:48 IST] gemini: key7|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:48 IST] gemini key8/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:48 IST] gemini: key8|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:48 IST] gemini key9/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:48 IST] gemini: key9|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:49 IST] gemini key10/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:49 IST] gemini: key10|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:49 IST] gemini key12/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:49 IST] gemini: key12|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:49 IST] gemini key13/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:49 IST] gemini: key13|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:49 IST] gemini key1/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:49 IST] gemini: key1|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:49 IST] gemini key2/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:49 IST] gemini: key2|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:49 IST] gemini key3/gemini-3.5-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:49 IST] gemini: key3|gemini-3.5-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:49 IST] gemini key4/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:49 IST] gemini: key4|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:49 IST] gemini key5/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:49 IST] gemini: key5|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:49 IST] gemini key6/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:49 IST] gemini: key6|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:49 IST] gemini key7/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:49 IST] gemini: key7|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key8/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key8|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key9/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key9|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key10/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key10|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key12/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key12|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key13/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key13|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key1/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key1|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key2/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key2|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key3/gemini-3.1-flash-lite: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key3|gemini-3.1-flash-lite daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key4/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key4|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key5/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key5|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:50 IST] gemini key6/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:50 IST] gemini: key6|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key7/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key7|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key8/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key8|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key9/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key9|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key10/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key10|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key12/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key12|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key13/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key13|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key1/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key1|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key2/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key2|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key3/gemini-flash-lite-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key3|gemini-flash-lite-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key4/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key4|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:51 IST] gemini key5/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:51 IST] gemini: key5|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key6/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key6|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key7/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key7|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key8/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key8|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key9/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key9|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key10/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key10|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key12/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key12|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key13/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key13|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key1/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key1|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key2/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key2|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key3/gemini-3-flash-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key3|gemini-3-flash-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:52 IST] gemini key4/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:52 IST] gemini: key4|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key5/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key5|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key6/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key6|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key7/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key7|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key8/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key8|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key9/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key9|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key10/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key10|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key12/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key12|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key13/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key13|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key1/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key1|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key2/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key2|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:53 IST] gemini key3/gemini-3.8-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:53 IST] gemini: key3|gemini-3.8-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key4/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key4|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key5/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key5|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key6/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key6|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key7/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key7|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key8/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key8|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key9/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key9|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key10/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key10|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key12/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key12|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key13/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key13|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key1/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key1|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:54 IST] gemini key2/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:54 IST] gemini: key2|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key3/gemini-flash-latest: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key3|gemini-flash-latest daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key4/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key4|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key5/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key5|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key6/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key6|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key7/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key7|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key8/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key8|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key9/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key9|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key10/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key10|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key12/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key12|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key13/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key13|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key1/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key1|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:55 IST] gemini key2/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:55 IST] gemini: key2|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:56 IST] gemini key3/gemini-3.1-flash-lite-preview: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:56 IST] gemini: key3|gemini-3.1-flash-lite-preview daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:56 IST] gemini key4/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:56 IST] gemini: key4|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:56 IST] gemini key5/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:56 IST] gemini: key5|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:56 IST] gemini key6/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:56 IST] gemini: key6|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:56 IST] gemini key7/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:56 IST] gemini: key7|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:56 IST] gemini key8/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:56 IST] gemini: key8|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:56 IST] gemini key9/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:56 IST] gemini: key9|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:56 IST] gemini key10/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:56 IST] gemini: key10|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:56 IST] gemini key12/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:56 IST] gemini: key12|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key13/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key13|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key1/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key1|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key2/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key2|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key3/gemini-3.5-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key3|gemini-3.5-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key4/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key4|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key5/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key5|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key6/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key6|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key7/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key7|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key8/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key8|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key9/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key9|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key10/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key10|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:57 IST] gemini key12/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:57 IST] gemini: key12|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:58 IST] gemini key13/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:58 IST] gemini: key13|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:58 IST] gemini key1/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:58 IST] gemini: key1|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:58 IST] gemini key2/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:58 IST] gemini: key2|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:58 IST] gemini key3/gemini-3.6-flash: HTTP 429 You exceeded your current quota, please check your plan and billing details. For more info
+[2026-11-28 13:37:58 IST] gemini: key3|gemini-3.6-flash daily quota hit -> parked until 2026-11-29 13:30 IST
+[2026-11-28 13:37:58 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:37:58 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:37:59 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:38:42 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:39:17 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:41:42 IST] content thin for gta (0/6) -> fallback search (15 candidates)
+[2026-11-28 13:41:42 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-28 13:41:42 IST] attempt 1 FAIL in 321s: gather=321s
+[2026-11-28 13:41:42 IST] === yo-gta-20261128-134142: platform=youtube category=gta format=wide seed=210585278
+[2026-11-28 13:41:57 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:41:57 IST] gemini key12/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:42:36 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:45:36 IST] gemini key1/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 13:45:36 IST] gemini key1/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 13:45:37 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:45:44 IST] gemini key3/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:46:55 IST] gemini key4/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:47:07 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:49:53 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:50:54 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:50:54 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:51:17 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:51:42 IST] attempt failed, retrying with different sources/song: AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt
+[2026-11-28 13:51:42 IST] attempt 2 FAIL in 600s: gather=600s
+[2026-11-28 13:51:42 IST] === yo-gta-20261128-135142: platform=youtube category=gta format=wide seed=221991643
+[2026-11-28 13:51:57 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:53:32 IST] content thin for gta (0/6) -> fallback search (15 candidates)
+[2026-11-28 13:53:32 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-28 13:53:32 IST] category gta: no usable sources -> fallback to gaming
+[2026-11-28 13:53:32 IST] attempt 3 FAIL in 110s: gather=110s
+[2026-11-28 13:53:32 IST] === yo-gaming-20261128-135332: platform=youtube category=gaming format=wide seed=1053583687
+[2026-11-28 13:54:09 IST] x search failed: Red Dead Redemption 2 official trailer Rockstar Games full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 13:54:24 IST] x search failed: Cyberpunk 2077 official gameplay trailer CD PROJEKT RED full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 13:56:35 IST] content thin for gaming (1/3) -> fallback search (19 candidates)
+[2026-11-28 13:56:35 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
+[2026-11-28 13:56:35 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
+[2026-11-28 13:56:35 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
+[2026-11-28 13:56:35 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
+[2026-11-28 13:56:35 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
+[2026-11-28 13:56:35 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
+[2026-11-28 13:56:35 IST] song stock for gaming: 30 tagged songs with audio
+[2026-11-28 13:56:36 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 13:57:51 IST] gemini: answered by backup model gemma-4-31b-it (key2)
+[2026-11-28 13:57:52 IST] using stock song (gemini pick): Centuries - Fall Out Boy
+[2026-11-28 13:57:52 IST] song: Centuries – Fall Out Boy (https://www.youtube.com/watch?v=LBr7kECsjcQ)
+[2026-11-28 13:57:52 IST] caption pattern: P11 Even mix
+[2026-11-28 14:00:34 IST] plan 38.8s, 12 shots -> render
+[2026-11-28 14:10:38 IST] gemini: answered by backup model gemma-4-31b-it (key3)
+[2026-11-28 14:17:10 IST] === yo-gaming-20261128-135332: QA FAIL -> /mnt/ph/youtube/ready/youtube/yo-gaming-20261128-135332.mp4
+[2026-11-28 14:17:10 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["GREATEST WOMAN EVER", "ALSO"]}}
+[2026-11-28 14:17:11 IST] attempt 4 FAIL in 1419s: gather=183s, song=76s, beats=11s, scan_plan=152s, render=582s, gemini_meta=21s, wide_4k=301s, qa=18s, preview=72s, save=1s
+[2026-11-28 14:17:11 IST] time budget reached (19 min left < 30 min for one more attempt)
+[2026-11-28 14:17:11 IST] step totals over 4 attempts: gather=20.2min, render=9.7min, wide_4k=5.0min, scan_plan=2.5min, song=1.3min, preview=1.2min, gemini_meta=0.4min, qa=0.3min, beats=0.2min, save=0.0min -> slowest step: gather
+[2026-11-28 14:17:54 IST] gemini: answered by backup model gemma-4-31b-it (key4)
+[2026-11-28 14:17:54 IST] queued box fetch request youtube-202611281417-gta
+[2026-11-28 14:17:54 IST] gemini key5/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 14:18:11 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 14:18:12 IST] gemini key7/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 14:18:32 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 14:18:32 IST] gemini key9/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 14:19:04 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 14:19:17 IST] gemini key12/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 14:19:17 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 14:19:17 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 14:19:40 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 14:20:14 IST] gemini: answered by backup model gemma-4-31b-it (key3)
+[2026-11-28 14:20:14 IST] queued box fetch request youtube-202611281417-gaming
+[2026-11-28 14:20:18 IST] cleanup sweep: freed 0.0 MB (2 files)
+[2026-11-28 14:20:18 IST] done: 0 made, 4 failed attempts; youtube buffer 0/7 — BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
+[2026-11-28 14:20:26 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 6
+[2026-11-28 14:20:28 IST] vc-ready manifest: 2 videos

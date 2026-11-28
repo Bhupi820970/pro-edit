@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T12:11:03.922102+05:30",
+ "updated": "2026-11-28T14:20:29.262956+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -8,7 +8,7 @@
    "ready": 0,
    "target": 7,
    "warning": true,
-   "produced_today": 3,
+   "produced_today": 4,
    "per_day": [
     5,
     6
@@ -30,30 +30,6 @@
  "ready": [],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-26T23:13:05.118578+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "FileNotFoundError: [Errno 2] No such file or directory: '/mnt/ph/youtube/vcache/cuts/7291fdc97d7c4095cbd9.mp4.part.mp4' -> '/mnt/ph/youtube/vcache/cuts/7291fdc97d7c4095cbd9.mp4'"
-  },
-  {
-   "at": "2026-11-26T23:37:36.898388+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "QAFail: QA failed: {\"resolution\": {\"ok\": false, \"value\": \"2560x1440\", \"want\": \"2160x3840\"}}"
-  },
-  {
-   "at": "2026-11-27T13:57:24.519505+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-27T14:07:25.859305+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
   {
    "at": "2026-11-27T14:17:27.253493+05:30",
    "platform": "youtube",
@@ -119,6 +95,30 @@
    "platform": "youtube",
    "category": "gaming",
    "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
+  },
+  {
+   "at": "2026-11-28T13:41:42.924891+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T13:51:42.949042+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T13:53:32.517026+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T14:17:10.190414+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"GREATEST WOMAN EVER\", \"ALSO\"]}}"
   }
  ],
  "pattern_history": [
@@ -184,13 +184,13 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-28T08:04:59.101639+05:30",
-  "age_hours": 4.1,
+  "last_run": "2026-11-28T11:53:59.960000+05:30",
+  "age_hours": 2.4,
   "healthy": true,
   "pool": {
    "gta": 3,
-   "gaming": 9,
-   "movie": 7,
+   "gaming": 11,
+   "movie": 5,
    "sports": 7,
    "romance": 14,
    "series": 15,
