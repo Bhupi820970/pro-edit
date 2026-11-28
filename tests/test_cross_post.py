@@ -22,3 +22,10 @@ def test_junk_titles_blocked():
     assert trailer_blocked("Season 3 Watch Party | Disney+", "movie")
     assert not trailer_blocked("The Wedding Dress | Percy Jackson and the Olympians", "series")
     assert not trailer_blocked("LeBron James postgame interview", "sports")
+
+
+def test_work_title_skips_channel_names():
+    from pipeline_lib.titles import work_title
+    assert work_title("GOAT (2026) 4K - Goat Tears Diss Track (4/12) | Movieclips", "movie") == "GOAT"
+    assert work_title("GOAT - Film Clip | Chillin' in the Penthouse", "movie") == "GOAT"
+    assert work_title("The Batman - Ending Monologue from \u201cThe Batman\u201d | Super Scenes | DC", "dc") == "The Batman"

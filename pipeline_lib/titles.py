@@ -111,6 +111,8 @@ _CHANNEL_BITS = re.compile(
     r"mubi|lionsgate(?:\s+movies)?|warner\s*bros\.?|sony\s*pictures(?:\s+entertainment)?|"
     r"universal\s*pictures|paramount(?:\s*\+)?|disney(?:\s*\+|\s+plus)?|apple\s*tv\+?|"
     r"hulu|bbc|fx|amc|showtime|peacock|rockstar\s*games.*|playstation|xbox|"
+    r"movieclips(?:\s+.*)?|clipzone.*|super\s+scenes|dc|marvel(?:\s+entertainment)?|"
+    r"rotten\s+tomatoes.*|fandango.*|film\s*clip|"
     r"4k|hdr|uhd)$"
 )
 
@@ -136,6 +138,16 @@ def work_title(raw: str, category: str | None = None) -> str:
             continue
         kept.append(p)
     core = kept[0] if kept else (parts[0] if parts else s)
+    # "GOAT (2026) 4K - Diss Track" / "GOAT - Film Clip" / "The Batman - Ending Monologue":
+    # the work name is the short part before the first " - " when the rest is scene text.
+    dash = [d.strip() for d in re.split(r"\s+-\s+", core) if d.strip()]
+    dash_hit = len(dash) > 1 and len(dash[0].split()) <= 5 and (
+        re.search(r"(?i)\b(scene|clip|track|rap|trailer|teaser|monologue|ending|opening|fight|chase|in\s+theaters|\d+/\d+)",
+                  " ".join(dash[1:]))
+        or re.search(r"(?i)\(\s*\d{4}\s*\)|\b4k\b", dash[0]))
+    if dash_hit:
+        kept = [dash[0]]
+        core = dash[0]
     # Fan channels often use "scene description | Movie Name". Prefer the short title part.
     def _clean_part(p: str) -> str:
         x = re.sub(r"\s*\([^)]*\)", " ", p)
@@ -153,6 +165,7 @@ def work_title(raw: str, category: str | None = None) -> str:
         or (shorts[-1] != _clean_part(first) and len(shorts[-1].split()) <= 4 and len(first.split()) >= 4)
     ):
         core = shorts[-1]
+    core = re.sub(r"(?i)\b4k\b", " ", core)
     # "The Love Hypothesis - Official Trailer" / '"Wuthering Heights"'
     core = core.strip().strip('"').strip("'").strip()
     core = re.sub(r"\s*[-:]\s*(official|final|new|exclusive).*$", "", core, flags=re.I)
