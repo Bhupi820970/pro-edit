@@ -1,0 +1,276 @@
+{
+ "platform": "youtube",
+ "made": [],
+ "failures": [
+  "CategoryUnavailable: only 0 clean sources for gta",
+  "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2",
+  "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2",
+  "CategoryUnavailable: no clips of a single title for series",
+  "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2",
+  "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"BUT THE COMMANDOS\"]}}"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 369.1,
+    "total": 369.1
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "gaming",
+   "ok": false,
+   "timings": {
+    "gather": 57.5,
+    "total": 57.5
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "movie",
+   "ok": false,
+   "timings": {
+    "gather": 61.3,
+    "total": 61.3
+   }
+  },
+  {
+   "attempt": 4,
+   "category": "series",
+   "ok": false,
+   "timings": {
+    "gather": 234.2,
+    "total": 234.2
+   }
+  },
+  {
+   "attempt": 5,
+   "category": "marvel",
+   "ok": false,
+   "timings": {
+    "gather": 127.9,
+    "total": 127.9
+   }
+  },
+  {
+   "attempt": 6,
+   "category": "dc",
+   "ok": false,
+   "timings": {
+    "gather": 158.9,
+    "song": 63.6,
+    "beats": 10.6,
+    "scan_plan": 296.8,
+    "render": 473.7,
+    "gemini_meta": 22.0,
+    "wide_4k": 262.3,
+    "qa": 17.4,
+    "preview": 67.8,
+    "save": 1.1,
+    "total": 1374.2
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 1008.9,
+  "song": 63.6,
+  "beats": 10.6,
+  "scan_plan": 296.8,
+  "render": 473.7,
+  "gemini_meta": 22.0,
+  "wide_4k": 262.3,
+  "qa": 17.4,
+  "preview": 67.8,
+  "save": 1.1
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 5,
+  "vetted": 11,
+  "rejected": [
+   {
+    "id": "uMuL5-Ma36w",
+    "title": "Percy Jackson and the Olympians Season 2 | The Chase Is On | Disney+",
+    "reasons": [
+     "Trailer or promo content (video title 'The Chase Is On')",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "D-Bcg6BCsiE",
+    "title": "The Wedding Dress | Percy Jackson and the Olympians | Disney+",
+    "reasons": [
+     "Persistent channel logos/bugs in corners (Frame 2)",
+     "Burned-in text overlay 'NARRATED BY...' (Frame 1)",
+     "Show title logo visible (Frame 2)",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "BBb0zIriLJY",
+    "title": "Percy Jackson and the Olympians Season 2 | Diving into the Sea of Monsters | Disney+",
+    "reasons": [
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Xet5UKZkgqw",
+    "title": "The Righteous Gemstones' Best Insults | The Righteous Gemstones | HBO",
+    "reasons": [
+     "Persistent channel logo bug ('max') in top right corner",
+     "End slate with text overlays ('Discover More', 'SUBSCRIBE')",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "R-znj7Uf9Oo",
+    "title": "The Righteous Gemstones: Misbehavin' with Jennifer Nettles and Walton Goggins (S1 E5 Clip) | HBO",
+    "reasons": [
+     "Persistent HBO channel logo bug in bottom right corner",
+     "End slate with text overlay 'max CHOOSE YOUR PLAN'",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "pfFadY7wUGk",
+    "title": "RM - Losing My Mind [Music Video] | GRM Daily",
+    "reasons": [
+     "Text overlay '# SAYNARDA' appears at 103.8s",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "LLsvFTeYc0U",
+    "title": "Bazzi - I Think I'm Losing My Mind (Myself) (Lyrics)",
+    "reasons": [
+     "burned_in_lyrics",
+     "text_overlay",
+     "not_scene_footage",
+     "wrong_category",
+     "burned_subtitles",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "CVRE1vVbjas",
+    "title": "Creature Commandos - Circe's Vision | Super Scenes | DC",
+    "reasons": [
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "HAHYgmnlZuw",
+    "title": "Losing My Mind: Official Clip | VisionQuest | Stream Now on Disney+",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "XT3iuj3PHYk",
+    "title": "Creature Commandos - Meeting Task Force M | Super Scenes | DC",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "kbd9bNz1Nvo",
+    "title": "Creature Commandos - A CLASH with Clayface 👹 | DC",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "gta",
+   "gaming",
+   "movie",
+   "series",
+   "marvel",
+   "dc"
+  ],
+  "runner_skipped": 25,
+  "box_clips_used": 5,
+  "failed_ids": [
+   "VNbONMSObfs",
+   "ZQzIZkxsWYw",
+   "H4rYVsJ4v9Y",
+   "kfzrQGU6jhM",
+   "e2NfPuECiE4"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  }
+ ],
+ "skipped_categories": [
+  "gaming",
+  "gta",
+  "marvel",
+  "movie",
+  "series"
+ ],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0
+  },
+  "exhausted": true,
+  "reset_at": "2026-11-29 13:30 IST"
+ }
+}

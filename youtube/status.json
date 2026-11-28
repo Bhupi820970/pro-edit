@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T21:16:12.613764+05:30",
+ "updated": "2026-11-28T22:13:11.042641+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
+ "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
  "platforms": {
   "youtube": {
-   "ready": 2,
+   "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 7,
+   "produced_today": 8,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (2/7 ready)"
+   "message": "BACKUP LOW: refill youtube (1/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -28,122 +28,6 @@
   }
  },
  "ready": [
-  {
-   "id": "yo-gaming-20261128-171320",
-   "platform": "youtube",
-   "category": "gaming",
-   "format": "wide",
-   "state": "ready",
-   "created": "2026-11-28T17:32:09.164519+05:30",
-   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-171320.mp4",
-   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-171320.mp4",
-   "preview_mb": 22.4,
-   "size_mb": 243.5,
-   "title": "Gaming Edit | Believer Edit",
-   "hook": "GAMING EDIT",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Believer\" – Imagine Dragons (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Imagine%20Dragons%20Believer\n🎬 Footage: PlayStation – \"Marvel's Spider-Man 2 - The Story So Far | PS5 Games\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GamingEdit #Gaming #GameEdit",
-   "hashtags": [
-    "GamingEdit",
-    "Gaming",
-    "GameEdit"
-   ],
-   "song": {
-    "title": "Believer",
-    "artist": "Imagine Dragons",
-    "url": "",
-    "official_channel": "",
-    "spotify_search": "https://open.spotify.com/search/Imagine%20Dragons%20Believer"
-   },
-   "song_credit": "\"Believer\" – Imagine Dragons",
-   "pattern": {
-    "id": "P02",
-    "name": "Beside-upper"
-   },
-   "captions": [
-    "I LEARNED HOW",
-    "TO BE A",
-    "SPIDER MAN FROM",
-    "THE OG",
-    "BUT I LEARNED",
-    "HOW TO BE",
-    "A HERO",
-    "FOR MY",
-    "DAD",
-    "A HERO IS",
-    "SOMEONE WHO DOESN'T",
-    "GIVE UP",
-    "THOUGH",
-    "AND I DON'T",
-    "PLAN TO"
-   ],
-   "duration": 38.53,
-   "sources": [
-    {
-     "id": "YeMRixqvjog",
-     "src_id": "YeMRixqvjog",
-     "path": "/mnt/ph/youtube/sources/YeMRixqvjog.mkv",
-     "title": "Marvel's Spider-Man 2 - The Story So Far | PS5 Games",
-     "credit": "PlayStation",
-     "url": "https://www.youtube.com/watch?v=YeMRixqvjog"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.53
-     },
-     "resolution": {
-      "ok": true,
-      "value": "3840x2160",
-      "want": "3840x2160"
-     },
-     "min_1080p": {
-      "ok": true,
-      "value": "3840x2160"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -11.4
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": true
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 15
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "timings": {
-    "gather": 203.6,
-    "song": 23.9,
-    "beats": 9.2,
-    "scan_plan": 125.8,
-    "render": 462.4,
-    "gemini_meta": 0.0,
-    "wide_4k": 231.0,
-    "qa": 14.9,
-    "preview": 57.5
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-171320.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-171320.preview.mp4"
-  },
   {
    "id": "yo-gaming-20261128-173233",
    "platform": "youtube",
@@ -248,42 +132,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-28T15:05:35.182799+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T15:15:35.204482+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T16:02:02.001944+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T16:12:02.020987+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T16:22:02.039411+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T17:07:37.312679+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
    "at": "2026-11-28T17:13:20.682340+05:30",
    "platform": "youtube",
    "category": "gta",
@@ -336,6 +184,42 @@
    "platform": "youtube",
    "category": "gaming",
    "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
+  },
+  {
+   "at": "2026-11-28T21:42:05.226507+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T21:43:01.921575+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
+  },
+  {
+   "at": "2026-11-28T21:44:03.515165+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T21:47:58.946164+05:30",
+   "platform": "youtube",
+   "category": "series",
+   "error": "CategoryUnavailable: no clips of a single title for series"
+  },
+  {
+   "at": "2026-11-28T21:50:05.949669+05:30",
+   "platform": "youtube",
+   "category": "marvel",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
+  },
+  {
+   "at": "2026-11-28T22:13:00.330870+05:30",
+   "platform": "youtube",
+   "category": "dc",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"BUT THE COMMANDOS\"]}}"
   }
  ],
  "pattern_history": [
@@ -420,7 +304,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 7.1,
+  "age_hours": 8.1,
   "healthy": true,
   "pool": {
    "gta": 3,

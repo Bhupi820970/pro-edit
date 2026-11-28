@@ -1,80 +1,144 @@
-[2026-11-28 21:00:18 IST] pull-sources: +130 clips, 8 accepted / 122 unvetted listed, 8.2 GB local
-[2026-11-28 21:00:21 IST] === yo-movie-20261128-210021: platform=youtube category=movie format=wide seed=890622870
-[2026-11-28 21:01:01 IST] channel listing failed: https://www.youtube.com/@WarnerBrosPictures/videos ERROR: [youtube:tab] @WarnerBrosPictures/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
-[2026-11-28 21:01:09 IST] channel listing failed: https://www.youtube.com/@WaltDisneyStudios/videos ERROR: [youtube:tab] @WaltDisneyStudios/videos: Unable to download API page: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
-[2026-11-28 21:01:50 IST] x search failed: official action movie clip Sony Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 21:02:04 IST] x search failed: official car chase scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 21:02:10 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 21:02:58 IST] gemini key2/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 21:03:25 IST] vet REJECT [2s7fj5G0SHg] Power Ballad Movie Clip - We Could Finish This (2026) — The footage ends with a branded end slate from the 'Rotten Tomatoes Coming Soon' channel.
-[2026-11-28 21:04:02 IST] vet REJECT [bKFXdd5iDO8] POWER BALLAD (2026) Official Song & Lyric Video “How to Write a Song”  — burned-in subtitles; text overlay; flag:burned_subtitles; flag:text_overlay; not editable
-[2026-11-28 21:04:39 IST] vet ACCEPT [3WcoHyJ4AoU] Power Ballad (2026) Official Clip ‘We Could Finish This’ - Paul Rudd,  — melancholic musical tension
-[2026-11-28 21:04:40 IST] gemini key6/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 21:05:48 IST] content thin for movie (1/4) -> fallback search (14 candidates)
-[2026-11-28 21:05:48 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 1 distinct source video(s) for movie, need 2
-[2026-11-28 21:05:50 IST] attempt 1 FAIL in 328s: gather=328s
-[2026-11-28 21:05:50 IST] === yo-movie-20261128-210550: platform=youtube category=movie format=wide seed=794582212
-[2026-11-28 21:06:32 IST] x search failed: official action movie clip Sony Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 21:06:46 IST] x search failed: official car chase scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 21:07:04 IST] gemini key8/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 21:07:37 IST] vet REJECT [9KaoLF7NzZA] Primetime Exclusive Movie Clip - Big Night Planned (2026) — text_overlay; flag:text_overlay
-[2026-11-28 21:07:37 IST] vet REJECT [nr7CLF5L0Sc] Primetime | Official Clip | A24 — only 720p (< 1080p)
-[2026-11-28 21:07:38 IST] movie: top group had no usable clips -> fell back to 'Power Ballad'
-[2026-11-28 21:08:53 IST] gemini key10/gemma-4-31b-it: TimeoutError The read operation timed out
-[2026-11-28 21:08:53 IST] gemini key10/gemma-4-31b-it: HTTP 599 The read operation timed out
-[2026-11-28 21:09:19 IST] gemini key12/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 21:10:34 IST] gemini key13/gemma-4-31b-it: TimeoutError The read operation timed out
-[2026-11-28 21:10:34 IST] gemini: gemma-4-31b-it timed out twice -> skipped for this run
-[2026-11-28 21:10:34 IST] gemini key13/gemma-4-31b-it: HTTP 599 The read operation timed out
-[2026-11-28 21:10:34 IST] gemini key10/gemma-4-26b-a4b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
-[2026-11-28 21:11:09 IST] content thin for movie (1/4) -> fallback search (14 candidates)
-[2026-11-28 21:11:09 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 1 distinct source video(s) for movie, need 2
-[2026-11-28 21:11:10 IST] category movie: no usable sources -> fallback to gta
-[2026-11-28 21:11:10 IST] attempt 2 FAIL in 320s: gather=320s
-[2026-11-28 21:11:11 IST] === yo-gta-20261128-211111: platform=youtube category=gta format=wide seed=630838600
-[2026-11-28 21:11:30 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 21:11:32 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 1CC4ucdhM5c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 21:11:42 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 1CC4ucdhM5c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 21:11:42 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 21:11:44 IST] pre-vet PASS [1CC4ucdhM5c] GTA 6 - Official Main Theme Music (Full Version)
-[2026-11-28 21:11:46 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] 1CC4ucdhM5c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 21:11:56 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] 1CC4ucdhM5c: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 21:11:56 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 21:11:58 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] scwxZjJczfU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 21:12:08 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] scwxZjJczfU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 21:12:08 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 21:12:10 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] H4rYVsJ4v9Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 21:12:20 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] H4rYVsJ4v9Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 21:12:20 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 21:12:25 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
-[2026-11-28 21:12:28 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] mP6KvFnltWc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 21:12:37 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] mP6KvFnltWc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
-[2026-11-28 21:12:37 IST] yt-dlp: bot check persists, skipping remaining clients
-[2026-11-28 21:12:37 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
-[2026-11-28 21:13:52 IST] gemini key1/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
-[2026-11-28 21:13:52 IST] gemini key1/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
-[2026-11-28 21:15:07 IST] gemini key2/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
-[2026-11-28 21:15:07 IST] gemini: gemma-4-26b-a4b-it timed out twice -> skipped for this run
-[2026-11-28 21:15:07 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
-[2026-11-28 21:15:07 IST] gemini discovery failed: all Gemini keys/models failed: key1/gemma-4-26b-a4b-it: 599 The read operation timed out | key2/gemma-4-26b-a4b-it: 599 The read operation timed out
-[2026-11-28 21:15:07 IST] content thin for gta (0/6) -> fallback search (12 candidates)
-[2026-11-28 21:15:07 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
-[2026-11-28 21:15:07 IST] category gta: no usable sources -> fallback to gaming
-[2026-11-28 21:15:07 IST] attempt 3 FAIL in 237s: gather=237s
-[2026-11-28 21:15:08 IST] === yo-gaming-20261128-211508: platform=youtube category=gaming format=wide seed=434969783
-[2026-11-28 21:15:46 IST] x search failed: Red Dead Redemption 2 official trailer Rockstar Games full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 21:16:00 IST] x search failed: Cyberpunk 2077 official gameplay trailer CD PROJEKT RED full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
-[2026-11-28 21:16:02 IST] gemini discovery skipped: all keys quota-exhausted
-[2026-11-28 21:16:02 IST] content thin for gaming (1/3) -> fallback search (13 candidates)
-[2026-11-28 21:16:02 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2
-[2026-11-28 21:16:03 IST] category gaming: no usable sources -> fallback to nothing (all skipped)
-[2026-11-28 21:16:03 IST] attempt 4 FAIL in 55s: gather=55s
-[2026-11-28 21:16:03 IST] no category has usable sources right now (skipped: ['gaming', 'gta', 'movie']) -> stop, box fetcher refills
-[2026-11-28 21:16:03 IST] step totals over 4 attempts: gather=15.7min -> slowest step: gather
-[2026-11-28 21:16:03 IST] queued box fetch request youtube-202611282116-movie
-[2026-11-28 21:16:03 IST] queued box fetch request youtube-202611282116-gta
-[2026-11-28 21:16:03 IST] queued box fetch request youtube-202611282116-gaming
-[2026-11-28 21:16:08 IST] cleanup sweep: freed 0.0 MB (3 files)
-[2026-11-28 21:16:08 IST] done: 0 made, 4 failed attempts; youtube buffer 2/7 — BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
-[2026-11-28 21:16:09 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 0
-[2026-11-28 21:16:12 IST] vc-ready manifest: 7 videos
+[2026-11-28 21:35:40 IST] pull-sources: +128 clips, 9 accepted / 119 unvetted listed, 8.1 GB local
+[2026-11-28 21:35:56 IST] === yo-gta-20261128-213556: platform=youtube category=gta format=wide seed=92248787
+[2026-11-28 21:36:13 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] VNbONMSObfs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 21:36:23 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] VNbONMSObfs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 21:36:23 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 21:36:25 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] ZQzIZkxsWYw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 21:36:35 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] ZQzIZkxsWYw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 21:36:35 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 21:36:37 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] H4rYVsJ4v9Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 21:36:47 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] H4rYVsJ4v9Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 21:36:47 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 21:36:52 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
+[2026-11-28 21:36:54 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] e2NfPuECiE4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 21:37:04 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] e2NfPuECiE4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 21:37:04 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 21:37:04 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
+[2026-11-28 21:37:05 IST] gemini key1/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 21:38:20 IST] gemini key2/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 21:38:20 IST] gemini key2/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 21:39:35 IST] gemini key3/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 21:39:35 IST] gemini: gemma-4-31b-it timed out twice -> skipped for this run
+[2026-11-28 21:39:35 IST] gemini key3/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 21:40:50 IST] gemini key1/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-28 21:40:50 IST] gemini key1/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-28 21:42:05 IST] gemini key2/gemma-4-26b-a4b-it: TimeoutError The read operation timed out
+[2026-11-28 21:42:05 IST] gemini: gemma-4-26b-a4b-it timed out twice -> skipped for this run
+[2026-11-28 21:42:05 IST] gemini key2/gemma-4-26b-a4b-it: HTTP 599 The read operation timed out
+[2026-11-28 21:42:05 IST] gemini discovery failed: all Gemini keys/models failed: key1/gemma-4-31b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try | key2/gemma-4-31b-it: 599 The read operati
+[2026-11-28 21:42:05 IST] content thin for gta (0/6) -> fallback search (14 candidates)
+[2026-11-28 21:42:05 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-28 21:42:05 IST] category gta: no usable sources -> fallback to gaming
+[2026-11-28 21:42:05 IST] attempt 1 FAIL in 369s: gather=369s
+[2026-11-28 21:42:05 IST] === yo-gaming-20261128-214205: platform=youtube category=gaming format=wide seed=1028886763
+[2026-11-28 21:42:43 IST] x search failed: Red Dead Redemption 2 official trailer Rockstar Games full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 21:43:00 IST] x search failed: Cyberpunk 2077 official gameplay trailer CD PROJEKT RED full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 21:43:01 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-28 21:43:01 IST] content thin for gaming (1/3) -> fallback search (13 candidates)
+[2026-11-28 21:43:01 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2
+[2026-11-28 21:43:03 IST] category gaming: no usable sources -> fallback to movie
+[2026-11-28 21:43:03 IST] attempt 2 FAIL in 58s: gather=58s
+[2026-11-28 21:43:03 IST] === yo-movie-20261128-214303: platform=youtube category=movie format=wide seed=183044708
+[2026-11-28 21:43:46 IST] x search failed: official action movie clip Sony Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 21:44:02 IST] x search failed: official car chase scene clip Universal Pictures full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 21:44:03 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-28 21:44:03 IST] content thin for movie (1/4) -> fallback search (10 candidates)
+[2026-11-28 21:44:03 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 1 distinct source video(s) for movie, need 2
+[2026-11-28 21:44:04 IST] category movie: no usable sources -> fallback to series
+[2026-11-28 21:44:04 IST] attempt 3 FAIL in 61s: gather=61s
+[2026-11-28 21:44:04 IST] === yo-series-20261128-214404: platform=youtube category=series format=wide seed=677535165
+[2026-11-28 21:44:55 IST] x search failed: official series clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 21:45:11 IST] x search failed: official scene clip Netflix full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 21:45:13 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:45:51 IST] vet uMuL5-Ma36w: backup vision check -> reject
+[2026-11-28 21:45:51 IST] vet REJECT [uMuL5-Ma36w] Percy Jackson and the Olympians Season 2 | The Chase Is On | Disney+ — Trailer or promo content (video title 'The Chase Is On'); text_overlay
+[2026-11-28 21:45:53 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:46:20 IST] vet D-Bcg6BCsiE: backup vision check -> reject
+[2026-11-28 21:46:20 IST] vet REJECT [D-Bcg6BCsiE] The Wedding Dress | Percy Jackson and the Olympians | Disney+ — Persistent channel logos/bugs in corners (Frame 2); Burned-in text overlay 'NARRATED BY...' (Frame 1); Show title logo visible (Frame 2); watermark; channel_logo; text_overlay
+[2026-11-28 21:46:22 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:47:17 IST] vet BBb0zIriLJY: backup vision check -> reject
+[2026-11-28 21:47:17 IST] vet REJECT [BBb0zIriLJY] Percy Jackson and the Olympians Season 2 | Diving into the Sea of Mons — text_overlay
+[2026-11-28 21:47:19 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:47:39 IST] vet Xet5UKZkgqw: backup vision check -> reject
+[2026-11-28 21:47:39 IST] vet REJECT [Xet5UKZkgqw] The Righteous Gemstones' Best Insults | The Righteous Gemstones | HBO — Persistent channel logo bug ('max') in top right corner; End slate with text overlays ('Discover More', 'SUBSCRIBE'); watermark; channel_logo; text_overlay
+[2026-11-28 21:47:41 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:47:58 IST] vet R-znj7Uf9Oo: backup vision check -> reject
+[2026-11-28 21:47:58 IST] vet REJECT [R-znj7Uf9Oo] The Righteous Gemstones: Misbehavin' with Jennifer Nettles and Walton  — Persistent HBO channel logo bug in bottom right corner; End slate with text overlay 'max CHOOSE YOUR PLAN'; watermark; channel_logo; text_overlay
+[2026-11-28 21:47:58 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-28 21:47:58 IST] content thin for series (0/3) -> fallback search (5 candidates)
+[2026-11-28 21:47:58 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: no clips of a single title for series
+[2026-11-28 21:47:58 IST] category series: no usable sources -> fallback to marvel
+[2026-11-28 21:47:58 IST] attempt 4 FAIL in 234s: gather=234s
+[2026-11-28 21:47:59 IST] === yo-marvel-20261128-214759: platform=youtube category=marvel format=wide seed=414343898
+[2026-11-28 21:48:23 IST] x search failed: Marvel Studios official clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 21:48:39 IST] x search failed: Marvel Entertainment official clip full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 21:48:41 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:48:50 IST] vet HAHYgmnlZuw: backup vision check -> accept
+[2026-11-28 21:48:50 IST] vet ACCEPT [HAHYgmnlZuw] Losing My Mind: Official Clip | VisionQuest | Stream Now on Disney+ — tense car conversation
+[2026-11-28 21:48:53 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:49:36 IST] vet pfFadY7wUGk: backup vision check -> reject
+[2026-11-28 21:49:36 IST] vet REJECT [pfFadY7wUGk] RM - Losing My Mind [Music Video] | GRM Daily — Text overlay '# SAYNARDA' appears at 103.8s; text_overlay
+[2026-11-28 21:49:38 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:50:05 IST] vet LLsvFTeYc0U: backup vision check -> reject
+[2026-11-28 21:50:05 IST] vet REJECT [LLsvFTeYc0U] Bazzi - I Think I'm Losing My Mind (Myself) (Lyrics) — burned_in_lyrics; text_overlay; not_scene_footage; wrong_category; burned_subtitles; text_overlay
+[2026-11-28 21:50:05 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-28 21:50:05 IST] content thin for marvel (1/3) -> fallback search (8 candidates)
+[2026-11-28 21:50:05 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2
+[2026-11-28 21:50:07 IST] category marvel: no usable sources -> fallback to dc
+[2026-11-28 21:50:07 IST] attempt 5 FAIL in 128s: gather=128s
+[2026-11-28 21:50:07 IST] === yo-dc-20261128-215007: platform=youtube category=dc format=wide seed=544132772
+[2026-11-28 21:50:21 IST] channel listing failed: https://www.youtube.com/@DC/videos ERROR: [youtube:tab] @DC: This channel does not have a videos tab
+[2026-11-28 21:50:45 IST] x search failed: DC official clip scene full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 21:51:00 IST] x search failed: The Batman official clip Warner Bros full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 21:51:02 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:51:13 IST] vet XT3iuj3PHYk: backup vision check -> accept
+[2026-11-28 21:51:13 IST] vet ACCEPT [XT3iuj3PHYk] Creature Commandos - Meeting Task Force M | Super Scenes | DC — tense military briefing
+[2026-11-28 21:51:18 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:51:32 IST] vet kbd9bNz1Nvo: backup vision check -> accept
+[2026-11-28 21:51:32 IST] vet ACCEPT [kbd9bNz1Nvo] Creature Commandos - A CLASH with Clayface 👹 | DC — dark animated confrontation
+[2026-11-28 21:51:35 IST] backup vet: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:52:46 IST] vet CVRE1vVbjas: backup vision check -> reject
+[2026-11-28 21:52:46 IST] vet REJECT [CVRE1vVbjas] Creature Commandos - Circe's Vision | Super Scenes | DC — text_overlay
+[2026-11-28 21:52:46 IST] gemini discovery skipped: all keys quota-exhausted
+[2026-11-28 21:52:46 IST] content thin for dc (2/3) -> fallback search (9 candidates)
+[2026-11-28 21:52:46 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
+[2026-11-28 21:52:46 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
+[2026-11-28 21:52:46 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
+[2026-11-28 21:52:46 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
+[2026-11-28 21:52:46 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
+[2026-11-28 21:52:46 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
+[2026-11-28 21:52:46 IST] song stock for dc: 28 tagged songs with audio
+[2026-11-28 21:52:46 IST] gemini song pick failed/timed out, rotating the genre stock: GeminiError all Gemini keys/models (backup models included) are quota-exhausted until the Pacific midnight reset; skipping retries
+[2026-11-28 21:52:52 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 21:53:49 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free (key 2) gave 6 options
+[2026-11-28 21:53:49 IST] using stock song (backup AI pick): Sucker for Pain - Lil Wayne, Wiz Khalifa & Imagine Dragons
+[2026-11-28 21:53:49 IST] song: Sucker for Pain – Lil Wayne, Wiz Khalifa & Imagine Dragons (https://www.youtube.com/watch?v=MpQ-Xd_1KWQ)
+[2026-11-28 21:53:49 IST] caption pattern: P04 Stepping down beside
+[2026-11-28 21:58:57 IST] plan 38.3s, 13 shots -> render
+[2026-11-28 22:06:53 IST] backup song brain: openai/gpt-oss-120b key 1 returned no usable JSON
+[2026-11-28 22:06:54 IST] backup song brain: qwen/qwen3.8-27b key 1 returned no usable JSON
+[2026-11-28 22:06:55 IST] backup song brain: openai/gpt-oss-20b key 1 returned no usable JSON
+[2026-11-28 22:06:56 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free key 1 failed HTTPError 429
+[2026-11-28 22:07:12 IST] backup song brain: nvidia/nemotron-3.5-super-vl:free key 2 returned no usable JSON
+[2026-11-28 22:07:12 IST] backup song brain: google/gemma-4-31b-it:free key 1 failed HTTPError 429
+[2026-11-28 22:07:12 IST] backup song brain: google/gemma-4-31b-it:free key 2 failed HTTPError 429
+[2026-11-28 22:07:12 IST] backup song brain: google/gemma-4-31b-it:free key 3 failed HTTPError 429
+[2026-11-28 22:07:12 IST] backup song brain: google/gemma-4-26b-a4b-it:free key 1 failed HTTPError 429
+[2026-11-28 22:07:12 IST] backup song brain: google/gemma-4-26b-a4b-it:free key 2 failed HTTPError 429
+[2026-11-28 22:07:12 IST] backup song brain: google/gemma-4-26b-a4b-it:free key 3 failed HTTPError 429
+[2026-11-28 22:13:00 IST] === yo-dc-20261128-215007: QA FAIL -> /mnt/ph/youtube/ready/youtube/yo-dc-20261128-215007.mp4
+[2026-11-28 22:13:00 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"captions_clear_of_faces": {"ok": false, "covering": ["BUT THE COMMANDOS"]}}
+[2026-11-28 22:13:01 IST] attempt 6 FAIL in 1374s: gather=159s, song=64s, beats=11s, scan_plan=297s, render=474s, gemini_meta=22s, wide_4k=262s, qa=17s, preview=68s, save=1s
+[2026-11-28 22:13:01 IST] time budget reached (23 min left < 30 min for one more attempt)
+[2026-11-28 22:13:01 IST] step totals over 6 attempts: gather=16.8min, render=7.9min, scan_plan=4.9min, wide_4k=4.4min, preview=1.1min, song=1.1min, gemini_meta=0.4min, qa=0.3min, beats=0.2min, save=0.0min -> slowest step: gather
+[2026-11-28 22:13:01 IST] queued box fetch request youtube-202611282213-gta
+[2026-11-28 22:13:01 IST] queued box fetch request youtube-202611282213-gaming
+[2026-11-28 22:13:01 IST] queued box fetch request youtube-202611282213-movie
+[2026-11-28 22:13:01 IST] queued box fetch request youtube-202611282213-series
+[2026-11-28 22:13:01 IST] queued box fetch request youtube-202611282213-marvel
+[2026-11-28 22:13:01 IST] queued box fetch request youtube-202611282213-dc
+[2026-11-28 22:13:03 IST] cleanup sweep: freed 0.0 MB (2 files)
+[2026-11-28 22:13:03 IST] done: 0 made, 6 failed attempts; youtube buffer 1/7 — BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
+[2026-11-28 22:13:03 IST] time budget reached (23 min left < 30 min for one more attempt)
+[2026-11-28 22:13:08 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 3
+[2026-11-28 22:13:10 IST] vc-ready manifest: 9 videos
