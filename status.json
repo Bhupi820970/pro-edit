@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-28T23:05:07.975369+05:30",
+ "updated": "2026-11-29T01:27:37.359936+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
    "ready": 2,
-   "target": 7,
+   "target": 20,
    "warning": true,
-   "produced_today": 9,
+   "produced_today": 0,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (2/7 ready)"
+   "message": "BACKUP LOW: refill youtube (2/20 ready)"
   },
   "instagram": {
    "ready": 4,
@@ -1325,78 +1325,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-28T21:05:48.965352+05:30",
-   "platform": "youtube",
-   "category": "movie",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
-  },
-  {
-   "at": "2026-11-28T21:11:09.363226+05:30",
-   "platform": "youtube",
-   "category": "movie",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
-  },
-  {
-   "at": "2026-11-28T21:15:07.939694+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T21:16:02.461226+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
-  },
-  {
-   "at": "2026-11-28T21:42:05.226507+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T21:43:01.921575+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
-  },
-  {
-   "at": "2026-11-28T21:44:03.515165+05:30",
-   "platform": "youtube",
-   "category": "movie",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
-  },
-  {
-   "at": "2026-11-28T21:47:58.946164+05:30",
-   "platform": "youtube",
-   "category": "series",
-   "error": "CategoryUnavailable: no clips of a single title for series"
-  },
-  {
-   "at": "2026-11-28T21:50:05.949669+05:30",
-   "platform": "youtube",
-   "category": "marvel",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
-  },
-  {
-   "at": "2026-11-28T22:13:00.330870+05:30",
-   "platform": "youtube",
-   "category": "dc",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"BUT THE COMMANDOS\"]}}"
-  },
-  {
-   "at": "2026-11-28T22:36:37.129239+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T22:42:31.916438+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
-  },
-  {
    "at": "2026-11-28T22:43:31.610762+05:30",
    "platform": "youtube",
    "category": "movie",
@@ -1413,6 +1341,78 @@
    "platform": "youtube",
    "category": "marvel",
    "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
+  },
+  {
+   "at": "2026-11-29T01:12:08.170828+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-29T01:13:03.715675+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
+  },
+  {
+   "at": "2026-11-29T01:14:08.140328+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-29T01:14:59.072833+05:30",
+   "platform": "youtube",
+   "category": "series",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for series, need 2"
+  },
+  {
+   "at": "2026-11-29T01:15:58.104960+05:30",
+   "platform": "youtube",
+   "category": "marvel",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
+  },
+  {
+   "at": "2026-11-29T01:16:58.514187+05:30",
+   "platform": "youtube",
+   "category": "dc",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for dc, need 2"
+  },
+  {
+   "at": "2026-11-29T01:18:49.142823+05:30",
+   "platform": "youtube",
+   "category": "anime",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for anime, need 2"
+  },
+  {
+   "at": "2026-11-29T01:22:40.495278+05:30",
+   "platform": "youtube",
+   "category": "sports",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for sports, need 2"
+  },
+  {
+   "at": "2026-11-29T01:24:38.231308+05:30",
+   "platform": "youtube",
+   "category": "celebrity",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
+  },
+  {
+   "at": "2026-11-29T01:26:09.502961+05:30",
+   "platform": "youtube",
+   "category": "comedy",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for comedy, need 2"
+  },
+  {
+   "at": "2026-11-29T01:26:37.825259+05:30",
+   "platform": "youtube",
+   "category": "music",
+   "error": "CategoryUnavailable: only 0 clean sources for music"
+  },
+  {
+   "at": "2026-11-29T01:27:21.907017+05:30",
+   "platform": "youtube",
+   "category": "podcast",
+   "error": "CategoryUnavailable: only 0 clean sources for podcast"
   },
   {
    "at": "2026-11-28T21:07:13.473349+05:30",
@@ -1506,25 +1506,25 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 8.9,
+  "last_run": "2026-11-29T00:18:03.675906+05:30",
+  "age_hours": 1.2,
   "healthy": true,
   "pool": {
-   "gta": 3,
-   "gaming": 13,
-   "movie": 5,
-   "sports": 6,
+   "gta": 1,
+   "gaming": 7,
+   "movie": 2,
+   "sports": 3,
    "romance": 11,
-   "series": 15,
-   "marvel": 9,
-   "dc": 9,
-   "anime": 9,
-   "celebrity": 9,
+   "series": 2,
+   "marvel": 6,
+   "dc": 6,
+   "anime": 6,
+   "celebrity": 7,
    "comedy": 9
   },
   "errors": [],
   "message": "OK"
  },
  "warning": true,
- "message": "BACKUP LOW: refill youtube (2/7 ready)"
+ "message": "BACKUP LOW: refill youtube (2/20 ready)"
 }

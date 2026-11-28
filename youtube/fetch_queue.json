@@ -1,10 +1,10 @@
 {
  "requests": [
   {
-   "id": "youtube-202611282303-gta",
+   "id": "youtube-202611290127-gta",
    "category": "gta",
    "limit": 3,
-   "at": "2026-11-28T23:03:45.435800+05:30",
+   "at": "2026-11-29T01:27:21.967745+05:30",
    "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
     "Grand Theft Auto V Official Gameplay Video Rockstar Games",
@@ -13,10 +13,10 @@
    "links": []
   },
   {
-   "id": "youtube-202611282303-gaming",
+   "id": "youtube-202611290127-gaming",
    "category": "gaming",
    "limit": 3,
-   "at": "2026-11-28T23:03:45.435906+05:30",
+   "at": "2026-11-29T01:27:21.967908+05:30",
    "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
     "Red Dead Redemption 2 official trailer Rockstar Games",
@@ -25,10 +25,10 @@
    "links": []
   },
   {
-   "id": "youtube-202611282303-movie",
+   "id": "youtube-202611290127-movie",
    "category": "movie",
    "limit": 3,
-   "at": "2026-11-28T23:03:45.436021+05:30",
+   "at": "2026-11-29T01:27:21.968110+05:30",
    "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
     "official action movie clip Sony Pictures",
@@ -37,10 +37,10 @@
    "links": []
   },
   {
-   "id": "youtube-202611282303-series",
+   "id": "youtube-202611290127-series",
    "category": "series",
    "limit": 3,
-   "at": "2026-11-28T23:03:45.436122+05:30",
+   "at": "2026-11-29T01:27:21.968287+05:30",
    "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
     "official series clip Netflix",
@@ -49,10 +49,10 @@
    "links": []
   },
   {
-   "id": "youtube-202611282303-marvel",
+   "id": "youtube-202611290127-marvel",
    "category": "marvel",
    "limit": 3,
-   "at": "2026-11-28T23:03:45.436225+05:30",
+   "at": "2026-11-29T01:27:21.968461+05:30",
    "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
     "Marvel Studios official clip scene",
@@ -61,17 +61,89 @@
    "links": []
   },
   {
-   "id": "youtube-202611282303-dc",
+   "id": "youtube-202611290127-dc",
    "category": "dc",
    "limit": 3,
-   "at": "2026-11-28T23:03:45.436308+05:30",
+   "at": "2026-11-29T01:27:21.968639+05:30",
    "reason": "thin=True download_failed=4 bot_checks=4",
    "queries": [
     "DC official clip scene",
     "The Batman official clip Warner Bros"
    ],
    "links": []
+  },
+  {
+   "id": "youtube-202611290127-anime",
+   "category": "anime",
+   "limit": 3,
+   "at": "2026-11-29T01:27:21.968809+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "Crunchyroll official clip anime scene",
+    "Toei Animation official clip"
+   ],
+   "links": []
+  },
+  {
+   "id": "youtube-202611290127-sports",
+   "category": "sports",
+   "limit": 3,
+   "at": "2026-11-29T01:27:21.968970+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "LeBron James official interview NBA Lakers",
+    "LeBron James official highlights NBA no commentary"
+   ],
+   "links": []
+  },
+  {
+   "id": "youtube-202611290127-celebrity",
+   "category": "celebrity",
+   "limit": 3,
+   "at": "2026-11-29T01:27:21.969112+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "Oscars official acceptance speech moment",
+    "GRAMMYs official performance moment"
+   ],
+   "links": []
+  },
+  {
+   "id": "youtube-202611290127-comedy",
+   "category": "comedy",
+   "limit": 3,
+   "at": "2026-11-29T01:27:21.969252+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "Tonight Show Jimmy Fallon official funny moment",
+    "Jimmy Kimmel Live official funny clip"
+   ],
+   "links": []
+  },
+  {
+   "id": "youtube-202611290127-music",
+   "category": "music",
+   "limit": 3,
+   "at": "2026-11-29T01:27:21.969393+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "NPR Tiny Desk concert official",
+    "BBC Radio 1 Live Lounge official performance"
+   ],
+   "links": []
+  },
+  {
+   "id": "youtube-202611290127-podcast",
+   "category": "podcast",
+   "limit": 3,
+   "at": "2026-11-29T01:27:21.969545+05:30",
+   "reason": "thin=True download_failed=4 bot_checks=4",
+   "queries": [
+    "JRE clips official podcast",
+    "Hot Ones official celebrity interview"
+   ],
+   "links": []
   }
  ],
- "updated": "2026-11-28T23:03:45.436353+05:30"
+ "updated": "2026-11-29T01:27:21.969665+05:30"
 }
