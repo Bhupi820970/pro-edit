@@ -1,0 +1,352 @@
+{
+ "platform": "instagram",
+ "made": [
+  "in-romance-20261128-093657"
+ ],
+ "failures": [
+  "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt",
+  "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"NEED TO TRADE\", \"THE REINS FOR\", \"THE SAME\", \"WHAT I'M ALWAYS\", \"TRYING TO DO\"]}}"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 601.0,
+    "total": 601.0
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "romance",
+   "ok": true,
+   "timings": {
+    "gather": 147.4,
+    "song": 28.3,
+    "beats": 0.0,
+    "scan_plan": 155.4,
+    "render": 490.3,
+    "gemini_meta": 23.8,
+    "shorts_9x16": 173.5,
+    "qa": 9.1,
+    "preview": 47.9,
+    "save": 37.4,
+    "total": 1113.2
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 377.6,
+    "song": 1.8,
+    "beats": 9.2,
+    "scan_plan": 47.3,
+    "render": 418.4,
+    "gemini_meta": 90.0,
+    "shorts_9x16": 133.7,
+    "qa": 7.4,
+    "preview": 37.8,
+    "save": 1.7,
+    "total": 1124.9
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 1126.0,
+  "song": 30.1,
+  "beats": 9.2,
+  "scan_plan": 202.7,
+  "render": 908.7,
+  "gemini_meta": 113.8,
+  "shorts_9x16": 307.2,
+  "qa": 16.5,
+  "preview": 85.7,
+  "save": 39.1
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 7,
+  "vetted": 4,
+  "rejected": [
+   {
+    "id": "Ui5eAdG6a-I",
+    "title": "GTA 6 – I Stole a Plane From the Airport and Fighter Jets Chased Me!",
+    "reasons": [
+     "watermark",
+     "text_overlay",
+     "hud_overlay",
+     "flag:watermark",
+     "flag:hud_overlay",
+     "flag:text_overlay",
+     "not official/full quality"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Bf38HiYPMiI",
+    "title": "Grand Theft Auto V: Michael. Franklin. Trevor.",
+    "reasons": [
+     "The footage contains a title card with character names ('Michael', 'Franklin', 'Trevor') which is a promo-style element and not a full scene.",
+     "flag:text_overlay",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "RKHyVcR0aZc",
+    "title": "The PERFECT Heist in GTA 6 (No Cops, No Alarms)",
+    "reasons": [
+     "Persistent game HUD/minimap/UI elements throughout the footage.",
+     "flag:hud_overlay",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "bA6ft8ob3Gk",
+    "title": "I Robbed EVERY VAULT in GTA 6 and Nobody Noticed",
+    "reasons": [
+     "The image contains a Grand Theft Auto VI logo in the bottom-left corner.",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "romance",
+   "gta"
+  ],
+  "runner_skipped": 18,
+  "box_clips_used": 7,
+  "failed_ids": [
+   "DyQ5MNkl6SA",
+   "XAOUlsrmzYM",
+   "UUmKwJD76GY",
+   "kfzrQGU6jhM",
+   "0M71BMAgSSs",
+   "PmRER0SQ8dk",
+   "Dq9gfI2Tf3k"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  }
+ ],
+ "skipped_categories": [],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0,
+   "gemma-4-31b-it": 3,
+   "gemma-4-26b-a4b-it": 11
+  },
+  "exhausted": false,
+  "reset_at": "2026-11-28 13:30 IST"
+ }
+}

@@ -1,14 +1,33 @@
 {
  "requests": [
   {
-   "id": "instagram-202611280130-movie",
-   "category": "movie",
+   "id": "instagram-202611281014-romance",
+   "category": "romance",
    "limit": 3,
-   "at": "2026-11-28T01:30:19.374142+05:30",
-   "reason": "thin=True download_failed=0 bot_checks=0",
-   "queries": [],
+   "at": "2026-11-28T10:14:16.123260+05:30",
+   "reason": "thin=True download_failed=7 bot_checks=4",
+   "queries": [
+    "official full scene romance movie clips",
+    "official full scene love story series clips",
+    "official romance movie full scenes studio channel",
+    "official love story series full scenes streamer channel"
+   ],
+   "links": []
+  },
+  {
+   "id": "instagram-202611281014-gta",
+   "category": "gta",
+   "limit": 3,
+   "at": "2026-11-28T10:14:56.757264+05:30",
+   "reason": "thin=True download_failed=7 bot_checks=4",
+   "queries": [
+    "Grand Theft Auto V official gameplay walkthrough own Rockstar Games",
+    "GTA Online official gameplay showcase official channel",
+    "Grand Theft Auto VI official gameplay footage official Rockstar Games",
+    "GTA V and GTA Online official full scenes cinematic gameplay"
+   ],
    "links": []
   }
  ],
- "updated": "2026-11-28T01:30:46.152249+05:30"
+ "updated": "2026-11-28T10:15:31.440048+05:30"
 }

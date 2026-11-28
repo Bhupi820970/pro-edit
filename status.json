@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T10:06:29.674793+05:30",
+ "updated": "2026-11-28T10:28:34.511183+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
@@ -17,7 +17,7 @@
    "ready": 2,
    "target": 7,
    "warning": true,
-   "produced_today": 3,
+   "produced_today": 4,
    "per_day": [
     6,
     7
@@ -389,12 +389,6 @@
    "error": "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[17.366667, 17.633333]], \"ending_black\": true}, \"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
   },
   {
-   "at": "2026-11-26T22:09:45.152877+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"TO TRADE\", \"FOR THE\", \"YOU EVER\", \"HEARD OF\", \"THE DUGGINS?\"]}}"
-  },
-  {
    "at": "2026-11-26T22:41:48.504314+05:30",
    "platform": "instagram",
    "category": "gta",
@@ -477,6 +471,12 @@
    "platform": "instagram",
    "category": "gta",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T10:14:14.476383+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"NEED TO TRADE\", \"THE REINS FOR\", \"THE SAME\", \"WHAT I'M ALWAYS\", \"TRYING TO DO\"]}}"
   }
  ],
  "box_fetcher": {
