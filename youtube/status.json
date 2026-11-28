@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T20:34:49.135455+05:30",
+ "updated": "2026-11-28T21:16:12.613764+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -248,30 +248,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-28T13:51:42.949042+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T13:53:32.517026+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T14:17:10.190414+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"GREATEST WOMAN EVER\", \"ALSO\"]}}"
-  },
-  {
-   "at": "2026-11-28T14:56:17.668539+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
    "at": "2026-11-28T15:05:35.182799+05:30",
    "platform": "youtube",
    "category": "gta",
@@ -336,6 +312,30 @@
    "platform": "youtube",
    "category": "gta",
    "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T21:05:48.965352+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T21:11:09.363226+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T21:15:07.939694+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T21:16:02.461226+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
   }
  ],
  "pattern_history": [
@@ -420,7 +420,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 6.5,
+  "age_hours": 7.1,
   "healthy": true,
   "pool": {
    "gta": 3,
