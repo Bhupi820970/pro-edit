@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T19:31:22.782127+05:30",
+ "updated": "2026-11-28T20:28:47.877348+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (3/7 ready)",
@@ -19,7 +19,7 @@
    "ready": 3,
    "target": 7,
    "warning": true,
-   "produced_today": 8,
+   "produced_today": 9,
    "per_day": [
     6,
     7
@@ -681,24 +681,6 @@
  "approved": [],
  "recent_failures": [
   {
-   "at": "2026-11-27T23:19:26.346168+05:30",
-   "platform": "instagram",
-   "category": "movie",
-   "error": "AttemptTimeout: render + QA took longer than 20 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T09:36:56.577085+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
-  },
-  {
-   "at": "2026-11-28T10:14:14.476383+05:30",
-   "platform": "instagram",
-   "category": "gta",
-   "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"NEED TO TRADE\", \"THE REINS FOR\", \"THE SAME\", \"WHAT I'M ALWAYS\", \"TRYING TO DO\"]}}"
-  },
-  {
    "at": "2026-11-28T13:58:05.563409+05:30",
    "platform": "instagram",
    "category": "sports",
@@ -769,6 +751,24 @@
    "platform": "instagram",
    "category": "celebrity",
    "error": "CategoryUnavailable: only 1 distinct source video(s) for celebrity, need 2"
+  },
+  {
+   "at": "2026-11-28T20:03:24.985640+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T20:07:41.900279+05:30",
+   "platform": "instagram",
+   "category": "marvel",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
+  },
+  {
+   "at": "2026-11-28T20:28:37.642534+05:30",
+   "platform": "instagram",
+   "category": "anime",
+   "error": "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[23.833333, 26.733333]], \"ending_black\": true}}"
   }
  ],
  "pattern_history": [
@@ -853,7 +853,7 @@
  ],
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 5.4,
+  "age_hours": 6.4,
   "healthy": true,
   "pool": {
    "gta": 3,

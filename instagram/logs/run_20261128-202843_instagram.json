@@ -1,0 +1,181 @@
+{
+ "platform": "instagram",
+ "made": [],
+ "failures": [
+  "CategoryUnavailable: only 0 clean sources for gta",
+  "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2",
+  "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[23.833333, 26.733333]], \"ending_black\": true}}"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 368.1,
+    "total": 368.1
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "marvel",
+   "ok": false,
+   "timings": {
+    "gather": 257.7,
+    "total": 257.7
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "anime",
+   "ok": false,
+   "timings": {
+    "gather": 123.3,
+    "song": 51.0,
+    "beats": 11.0,
+    "scan_plan": 274.0,
+    "render": 491.1,
+    "gemini_meta": 21.0,
+    "shorts_9x16": 215.2,
+    "qa": 11.4,
+    "preview": 56.3,
+    "save": 1.4,
+    "total": 1255.7
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 749.1,
+  "song": 51.0,
+  "beats": 11.0,
+  "scan_plan": 274.0,
+  "render": 491.1,
+  "gemini_meta": 21.0,
+  "shorts_9x16": 215.2,
+  "qa": 11.4,
+  "preview": 56.3,
+  "save": 1.4
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 5,
+  "vetted": 6,
+  "rejected": [
+   {
+    "id": "pfFadY7wUGk",
+    "title": "RM - Losing My Mind [Music Video] | GRM Daily",
+    "reasons": [
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "LLsvFTeYc0U",
+    "title": "Bazzi - I Think I'm Losing My Mind (Myself) (Lyrics)",
+    "reasons": [
+     "burned_in_lyrics_text",
+     "not_a_scene_or_clip",
+     "lyrics_video",
+     "burned_subtitles",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "HAHYgmnlZuw",
+    "title": "Losing My Mind: Official Clip | VisionQuest | Stream Now on Disney+",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Pk6ijWVFOtk",
+    "title": "Awhimai Fraser - Get Lost (From \"Moana 2\") (Official Video)",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "KNg04Ew6Rh4",
+    "title": "Moana 2 - Cast - What Could Be Better Than This? (From \"Moana 2\") (Official Video)",
+    "reasons": [],
+    "via": "box-fetch"
+   },
+   {
+    "id": "ZhCf8cZTK3w",
+    "title": "Moana 2 | Call to Motufetu - Deleted Scene",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "gta",
+   "marvel"
+  ],
+  "runner_skipped": 7,
+  "box_clips_used": 4,
+  "failed_ids": [
+   "aLUGHQq2aek",
+   "sPLD6LS_TIk",
+   "0M71BMAgSSs",
+   "H4rYVsJ4v9Y",
+   "UUmKwJD76GY"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  }
+ ],
+ "skipped_categories": [
+  "gta",
+  "marvel"
+ ],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0
+  },
+  "exhausted": true,
+  "reset_at": "2026-11-29 13:30 IST"
+ }
+}
