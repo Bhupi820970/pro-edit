@@ -53,6 +53,18 @@
    "at": "2026-11-28T09:54:53.612026+05:30",
    "video": "in-romance-20261128-093657",
    "platform": "instagram"
+  },
+  {
+   "id": "P03",
+   "at": "2026-11-28T16:23:21.907677+05:30",
+   "video": "in-sports-20261128-160547",
+   "platform": "instagram"
+  },
+  {
+   "id": "P04",
+   "at": "2026-11-28T16:43:38.636940+05:30",
+   "video": "in-series-20261128-162352",
+   "platform": "instagram"
   }
  ],
  "songs": [
@@ -118,6 +130,20 @@
    "url": "https://www.youtube.com/watch?v=xe_iCkFsQKE",
    "at": "2026-11-28T09:54:53.612038+05:30",
    "video": "in-romance-20261128-093657"
+  },
+  {
+   "title": "Remember the Name",
+   "artist": "Fort Minor",
+   "url": "https://www.youtube.com/watch?v=VDvr08sCPOc",
+   "at": "2026-11-28T16:23:21.907688+05:30",
+   "video": "in-sports-20261128-160547"
+  },
+  {
+   "title": "Bad Guy",
+   "artist": "Billie Eilish",
+   "url": "https://www.youtube.com/watch?v=DyDfgMOUjCI",
+   "at": "2026-11-28T16:43:38.636952+05:30",
+   "video": "in-series-20261128-162352"
   }
  ],
  "windows": [
@@ -204,6 +230,24 @@
    "start": 1.56,
    "at": "2026-11-28T09:54:53.612047+05:30",
    "video": "in-romance-20261128-093657"
+  },
+  {
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 158.57,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547"
+  },
+  {
+   "file": "WKjmlew8n9c.mkv",
+   "start": 39.91,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352"
+  },
+  {
+   "file": "WKjmlew8n9c.mkv",
+   "start": 53.91,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352"
   }
  ],
  "sources_used": [
@@ -376,6 +420,16 @@
    "id": "4YyN-m5boXY",
    "at": "2026-11-28T09:54:53.612297+05:30",
    "video": "in-romance-20261128-093657"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "at": "2026-11-28T16:23:21.907974+05:30",
+   "video": "in-sports-20261128-160547"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "at": "2026-11-28T16:43:38.637236+05:30",
+   "video": "in-series-20261128-162352"
   }
  ],
  "segments_used": [
@@ -5318,6 +5372,303 @@
    "end": 60.37,
    "at": "2026-11-28T09:54:53.612047+05:30",
    "video": "in-romance-20261128-093657",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 158.57,
+   "end": 167.03666666666666,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "dialogue"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 39.769999999999996,
+   "end": 41.90333333333333,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 34.97,
+   "end": 37.07,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 255.27,
+   "end": 257.40333333333336,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 131.67000000000002,
+   "end": 133.27,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 27.37,
+   "end": 28.936666666666667,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 173.07000000000002,
+   "end": 175.20333333333335,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 197.37,
+   "end": 199.47,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 18.87,
+   "end": 21.003333333333334,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 120.17000000000002,
+   "end": 122.27000000000001,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 65.27000000000001,
+   "end": 66.87,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 49.37,
+   "end": 50.97,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 128.37,
+   "end": 130.47,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 108.07000000000001,
+   "end": 110.20333333333335,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 45.06999999999999,
+   "end": 47.169999999999995,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "1KJFsm8NDyE",
+   "file": "1KJFsm8NDyE.mkv",
+   "start": 228.77,
+   "end": 230.90333333333334,
+   "at": "2026-11-28T16:23:21.907698+05:30",
+   "video": "in-sports-20261128-160547",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 89.17000000000002,
+   "end": 91.40333333333335,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 26.27,
+   "end": 28.47,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 111.37,
+   "end": 113.60333333333334,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 116.67000000000002,
+   "end": 118.43666666666668,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 86.47000000000001,
+   "end": 86.90333333333335,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 39.91,
+   "end": 46.11,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "dialogue"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 147.27,
+   "end": 149.50333333333333,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 71.97000000000001,
+   "end": 73.73666666666668,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 118.87,
+   "end": 119.30333333333334,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 53.91,
+   "end": 59.67666666666666,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "dialogue"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 145.17000000000002,
+   "end": 146.9366666666667,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 20.87,
+   "end": 22.669999999999998,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 75.67000000000002,
+   "end": 77.87000000000002,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 65.57000000000001,
+   "end": 67.33666666666667,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 81.97000000000001,
+   "end": 83.73666666666668,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 131.77,
+   "end": 133.57,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
+   "kind": "montage"
+  },
+  {
+   "id": "WKjmlew8n9c",
+   "file": "WKjmlew8n9c.mkv",
+   "start": 106.47000000000001,
+   "end": 108.23666666666668,
+   "at": "2026-11-28T16:43:38.636961+05:30",
+   "video": "in-series-20261128-162352",
    "kind": "montage"
   }
  ],
@@ -13239,6 +13590,756 @@
    "duration": 1052.068,
    "category": "gta",
    "at": "2026-11-28 08:34"
+  },
+  "88TWWLDELI0": {
+   "accept": false,
+   "reject_reasons": [
+    "on-screen text overlay over the footage (2 GOALS!)"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "Cristiano Ronaldo Jr. CARRYING Al Nassr U-17 vs Al Ahli 2-1 | All Goals & Highlights 🐐❤️",
+   "channel": "knarty",
+   "credit": "knarty",
+   "url": "https://www.youtube.com/watch?v=88TWWLDELI0",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-28 10:28"
+  },
+  "S9ucRYLjM-M": {
+   "accept": false,
+   "reject_reasons": [
+    "corner logo present in top-left",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "bad_ranges": [],
+   "checked_by": "gemini",
+   "vet_via": "preview",
+   "title": "PUSKAS CONTENDER: Every replay of THAT Cristiano Ronaldo volley 🐐🚀",
+   "channel": "الدوري السعودي للمحترفين - Saudi Pro League",
+   "credit": "الدوري السعودي للمحترفين - Saudi Pro League",
+   "url": "https://www.youtube.com/watch?v=S9ucRYLjM-M",
+   "via": "youtube-search",
+   "category": "sports",
+   "at": "2026-11-28 10:30"
+  },
+  "Fj2qIKUh92o": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "church performance, suspenseful night",
+   "summary": "A promotional preview for The Righteous Gemstones featuring various clips including a band performance and a masked intruder, overlaid with Max channel logos and ending with subscription ads.",
+   "reject_reasons": [
+    "Content is a trailer/preview",
+    "Persistent channel logo/bug 'max' in corner",
+    "Text overlays on ad slate and end screen",
+    "watermark",
+    "channel_logo",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 9.9,
+     "end": 38.3,
+     "reason": "Persistent channel logo/bug 'max' in top right corner"
+    },
+    {
+     "start": 45.4,
+     "end": 45.4,
+     "reason": "Max subscription ad slate with text"
+    },
+    {
+     "start": 52.5,
+     "end": 52.5,
+     "reason": "YouTube end screen with 'Discover More' and 'Subscribe' text"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.85,
+    9.95,
+    17.04,
+    24.14,
+    31.24,
+    38.33,
+    45.43,
+    52.52,
+    31.24
+   ],
+   "title": "The Righteous Gemstones Season 4 | Episode 6 Preview | HBO",
+   "channel": "HBO",
+   "credit": "HBO",
+   "url": "https://www.youtube.com/watch?v=Fj2qIKUh92o",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 57.088,
+   "category": "series",
+   "at": "2026-11-28 10:55"
+  },
+  "R-znj7Uf9Oo": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "campy musical performance",
+   "summary": "Walton Goggins and Jennifer Nettles perform a musical number on stage in costume, followed by a Max streaming service ad slate.",
+   "reject_reasons": [
+    "Persistent HBO channel logo bug in bottom right corner",
+    "Max ad slate text overlay at end",
+    "watermark",
+    "channel_logo",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 140.8,
+     "end": 140.8,
+     "reason": "Max ad slate"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    7.65,
+    26.67,
+    45.69,
+    64.71,
+    83.73,
+    102.75,
+    121.77,
+    140.79,
+    83.73
+   ],
+   "title": "The Righteous Gemstones: Misbehavin' with Jennifer Nettles and Walton Goggins (S1 E5 Clip) | HBO",
+   "channel": "HBO",
+   "credit": "HBO",
+   "url": "https://www.youtube.com/watch?v=R-znj7Uf9Oo",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 153.028,
+   "category": "series",
+   "at": "2026-11-28 10:55"
+  },
+  "CsqQOPZofGo": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "satirical drama preview",
+   "summary": "A promotional preview for The Righteous Gemstones Season 4 Episode 8 featuring quick cuts of characters and persistent Max branding.",
+   "reject_reasons": [
+    "Content is a trailer/preview/promo",
+    "Persistent channel logo bug (max) in top right corner",
+    "On-screen text overlays (title card, pricing, end screens)",
+    "watermark",
+    "channel_logo",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 2.8,
+     "end": 37.0,
+     "reason": "Persistent channel logo bug (max) in top right corner"
+    },
+    {
+     "start": 9.6,
+     "end": 9.6,
+     "reason": "Title card 'On the Next The Righteous Gemstones'"
+    },
+    {
+     "start": 43.9,
+     "end": 50.7,
+     "reason": "End slate with pricing and 'Discover More' text"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.76,
+    9.6,
+    16.45,
+    23.3,
+    30.15,
+    37.0,
+    43.85,
+    50.7,
+    30.15
+   ],
+   "title": "The Righteous Gemstones Season 4 | Episode 8 Preview | HBO",
+   "channel": "HBO",
+   "credit": "HBO",
+   "url": "https://www.youtube.com/watch?v=CsqQOPZofGo",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 55.108,
+   "category": "series",
+   "at": "2026-11-28 10:56"
+  },
+  "Xet5UKZkgqw": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "satirical family drama",
+   "summary": "Clips from The Righteous Gemstones showing various scenes including an airfield, bathroom, and dialogue close-ups, but all content frames contain a persistent 'max' channel logo in the top right corner, and the final frame is an end slate with 'Discover More' and 'Subscribe' text.",
+   "reject_reasons": [
+    "Persistent channel logo/bug ('max') visible in the top right corner of all content frames",
+    "End slate with on-screen text overlays ('Discover More', 'SUBSCRIBE') at the end of the clip",
+    "watermark",
+    "channel_logo",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 4.5,
+     "end": 70.9,
+     "reason": "Persistent 'max' channel logo in top right corner"
+    },
+    {
+     "start": 82.0,
+     "end": 82.0,
+     "reason": "End slate with text overlays"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    4.46,
+    15.53,
+    26.61,
+    37.69,
+    48.77,
+    59.84,
+    70.92,
+    82.0,
+    48.77
+   ],
+   "title": "The Righteous Gemstones' Best Insults | The Righteous Gemstones | HBO",
+   "channel": "HBO",
+   "credit": "HBO",
+   "url": "https://www.youtube.com/watch?v=Xet5UKZkgqw",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 89.128,
+   "category": "series",
+   "at": "2026-11-28 10:56"
+  },
+  "iK5MlScCqas": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "fast-paced promotional preview",
+   "summary": "A promotional preview for The Righteous Gemstones Season 4 Episode 3 featuring scattered scenes and Max branding.",
+   "reject_reasons": [
+    "Content is a trailer/preview",
+    "Persistent channel logo 'max' in top right corner",
+    "Text overlays and end slates present",
+    "watermark",
+    "channel_logo",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 2.8,
+     "end": 37.7,
+     "reason": "Persistent channel logo 'max' in top right corner"
+    },
+    {
+     "start": 44.6,
+     "end": 44.6,
+     "reason": "Max subscription ad card with text"
+    },
+    {
+     "start": 51.6,
+     "end": 51.6,
+     "reason": "YouTube end slate 'Discover More' with text"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.81,
+    9.78,
+    16.75,
+    23.73,
+    30.7,
+    37.67,
+    44.65,
+    51.62,
+    30.7
+   ],
+   "title": "The Righteous Gemstones Season 4 | Episode 3 Preview | HBO",
+   "channel": "HBO",
+   "credit": "HBO",
+   "url": "https://www.youtube.com/watch?v=iK5MlScCqas",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 56.108,
+   "category": "series",
+   "at": "2026-11-28 10:56"
+  },
+  "HlqITcZ0lwM": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "promotional preview montage",
+   "summary": "Clips from The Righteous Gemstones Season 4 preview featuring an alligator show, a Jesus character, treehouses, and a church scene, all bearing a persistent Max logo bug, followed by a subscription ad and end screen.",
+   "reject_reasons": [
+    "Persistent channel logo/bug ('max') in top right corner",
+    "Content is a trailer/preview/promo",
+    "End screen with subscription text and 'Discover More'",
+    "watermark",
+    "channel_logo",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 47.0,
+     "end": 47.0,
+     "reason": "Max subscription ad card with text"
+    },
+    {
+     "start": 54.4,
+     "end": 54.4,
+     "reason": "YouTube end screen with 'Discover More' and 'Subscribe' text"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.95,
+    10.3,
+    17.64,
+    24.99,
+    32.33,
+    39.67,
+    47.02,
+    54.36,
+    32.33
+   ],
+   "title": "The Righteous Gemstones Season 4 | Episode 7 Preview | HBO",
+   "channel": "HBO",
+   "credit": "HBO",
+   "url": "https://www.youtube.com/watch?v=HlqITcZ0lwM",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 59.088,
+   "category": "series",
+   "at": "2026-11-28 10:57"
+  },
+  "rA1Q8LICB8s": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "comedy family drama preview",
+   "summary": "Preview clips for The Righteous Gemstones Season 4 Episode 4 featuring family members in various settings, overlaid with Max branding and ending with promotional cards.",
+   "reject_reasons": [
+    "Content is a trailer/preview/promo",
+    "Persistent channel logo bug (max) in corner",
+    "On-screen text overlays and end slates",
+    "watermark",
+    "channel_logo",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 2.8,
+     "end": 37.0,
+     "reason": "Persistent channel logo bug (max)"
+    },
+    {
+     "start": 50.7,
+     "end": 50.7,
+     "reason": "Advertising end card with pricing text"
+    },
+    {
+     "start": 30.1,
+     "end": 30.1,
+     "reason": "End slate 'Discover More' and 'Subscribe'"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    2.75,
+    9.6,
+    16.45,
+    23.29,
+    30.14,
+    36.99,
+    43.83,
+    50.68,
+    30.14
+   ],
+   "title": "The Righteous Gemstones Season 4 | Episode 4 Preview | HBO",
+   "channel": "HBO",
+   "credit": "HBO",
+   "url": "https://www.youtube.com/watch?v=rA1Q8LICB8s",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 55.088,
+   "category": "series",
+   "at": "2026-11-28 10:57"
+  },
+  "uMuL5-Ma36w": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "mythological adventure action",
+   "summary": "Clips from Percy Jackson and the Olympians Season 2 featuring chariot racing, dialogue scenes, and action sequences.",
+   "reject_reasons": [
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 153.0,
+     "end": 154.0,
+     "reason": "title card"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    8.33,
+    29.04,
+    49.76,
+    70.47,
+    91.18,
+    111.89,
+    132.6,
+    153.32,
+    91.18
+   ],
+   "title": "Percy Jackson and the Olympians Season 2 | The Chase Is On | Disney+",
+   "channel": "Disney Plus",
+   "credit": "Disney Plus",
+   "url": "https://www.youtube.com/watch?v=uMuL5-Ma36w",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 166.648,
+   "category": "series",
+   "at": "2026-11-28 10:58"
+  },
+  "WKjmlew8n9c": {
+   "accept": true,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": false,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "behind-the-scenes bloopers playful",
+   "summary": "Bloopers and behind-the-scenes footage from Percy Jackson and the Olympians featuring cast members joking around on set.",
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    9.28,
+    32.35,
+    55.42,
+    78.49,
+    101.57,
+    124.64,
+    147.71,
+    170.78,
+    101.57
+   ],
+   "title": "Bloopers | Percy Jackson and the Olympians | Disney+",
+   "channel": "Disney Plus",
+   "credit": "Disney Plus",
+   "url": "https://www.youtube.com/watch?v=WKjmlew8n9c",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 185.628,
+   "category": "series",
+   "at": "2026-11-28 10:58"
+  },
+  "oqH-IuYZO0I": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": true,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "casual watch party game",
+   "summary": "Cast members sit on a couch during a Disney+ watch party stream. Frames include a countdown promo, a block-stacking game with a timer, and picture-in-picture reaction layouts.",
+   "reject_reasons": [
+    "burned_in_text_overlay",
+    "picture_in_picture",
+    "promo_overlay",
+    "channel_bug",
+    "watermark",
+    "channel_logo",
+    "burned_subtitles",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 45.6,
+     "end": 46.6,
+     "reason": "promo countdown overlay in top right corner"
+    },
+    {
+     "start": 498.9,
+     "end": 499.9,
+     "reason": "burned-in timer overlay :03 in top left corner"
+    },
+    {
+     "start": 612.3,
+     "end": 613.3,
+     "reason": "picture-in-picture layout with framed clips"
+    },
+    {
+     "start": 725.6,
+     "end": 726.6,
+     "reason": "picture-in-picture layout with framed clips"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    45.59,
+    158.93,
+    272.26,
+    385.6,
+    498.93,
+    612.27,
+    725.6,
+    838.94,
+    498.93
+   ],
+   "title": "Percy Jackson and the Olympians | Season 3 Watch Party | Disney+",
+   "channel": "Disney Plus",
+   "credit": "Disney Plus",
+   "url": "https://www.youtube.com/watch?v=oqH-IuYZO0I",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 911.888,
+   "category": "series",
+   "at": "2026-11-28 10:59"
+  },
+  "BBb0zIriLJY": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": true,
+   "has_dialogue": true,
+   "mood": "mythological camp adventure",
+   "summary": "Official clips from Percy Jackson Season 2 showing characters at Camp Half-Blood and on a dock.",
+   "reject_reasons": [
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 152.5,
+     "end": 153.5,
+     "reason": "title card"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    8.32,
+    28.99,
+    49.66,
+    70.33,
+    91.01,
+    111.68,
+    132.35,
+    153.02,
+    91.01
+   ],
+   "title": "Percy Jackson and the Olympians Season 2 | Diving into the Sea of Monsters | Disney+",
+   "channel": "Disney Plus",
+   "credit": "Disney Plus",
+   "url": "https://www.youtube.com/watch?v=BBb0zIriLJY",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 166.328,
+   "category": "series",
+   "at": "2026-11-28 10:59"
+  },
+  "D-Bcg6BCsiE": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "behind the scenes costume fitting",
+   "summary": "A featurette clip showing the wedding dress costume from Percy Jackson and the Olympians, with actors in a costume shop and a production schedule board.",
+   "reject_reasons": [
+    "Persistent channel logo bug in corner (Disney+ hulu)",
+    "Burned-in text overlay (narrator credit)",
+    "watermark",
+    "channel_logo",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 15.4,
+     "end": 15.4,
+     "reason": "burned-in text overlay"
+    },
+    {
+     "start": 53.5,
+     "end": 53.5,
+     "reason": "channel logo bug in corner"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    15.36,
+    53.53,
+    91.7,
+    129.87,
+    168.04,
+    206.21,
+    244.39,
+    282.56,
+    168.04
+   ],
+   "title": "The Wedding Dress | Percy Jackson and the Olympians | Disney+",
+   "channel": "Disney Plus",
+   "credit": "Disney Plus",
+   "url": "https://www.youtube.com/watch?v=D-Bcg6BCsiE",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 307.128,
+   "category": "series",
+   "at": "2026-11-28 11:00"
+  },
+  "vmuO4PejTSk": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": true,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "behind the scenes fantasy camp",
+   "summary": "Official Percy Jackson Demigod Diaries footage featuring cast and scenes, but marred by persistent corner logos and burned-in text.",
+   "reject_reasons": [
+    "Persistent channel logos/bugs in top corners (Disney+, Hulu, Percy Jackson)",
+    "Burned-in actor identification text overlay",
+    "watermark",
+    "channel_logo",
+    "burned_subtitles",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 15.2,
+     "end": 15.2,
+     "reason": "burned-in text overlay"
+    },
+    {
+     "start": 53.0,
+     "end": 53.0,
+     "reason": "channel logo bug"
+    },
+    {
+     "start": 90.8,
+     "end": 90.8,
+     "reason": "channel logo bug"
+    },
+    {
+     "start": 128.6,
+     "end": 128.6,
+     "reason": "channel logo bug"
+    },
+    {
+     "start": 241.9,
+     "end": 241.9,
+     "reason": "channel logo bug"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    15.2,
+    52.99,
+    90.78,
+    128.57,
+    166.36,
+    204.15,
+    241.94,
+    279.72,
+    166.36
+   ],
+   "title": "Demigod Diaries 302 | Percy Jackson and the Olympians | Disney+",
+   "channel": "Disney Plus",
+   "credit": "Disney Plus",
+   "url": "https://www.youtube.com/watch?v=vmuO4PejTSk",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 304.048,
+   "category": "series",
+   "at": "2026-11-28 11:00"
   }
  },
  "videos": [
@@ -20137,6 +21238,241 @@
     "qa": 7.4,
     "preview": 37.8
    }
+  },
+  {
+   "id": "in-sports-20261128-160547",
+   "platform": "instagram",
+   "category": "sports",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T16:23:21.907095+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-sports-20261128-160547.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-sports-20261128-160547.mp4",
+   "preview_mb": 20.4,
+   "size_mb": 97.3,
+   "title": "Sports Hype Edit | Remember the Name Edit",
+   "hook": "SPORTS HYPE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Remember the Name\" – Fort Minor (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=VDvr08sCPOc\n🎧 Spotify: https://open.spotify.com/search/Fort%20Minor%20Remember%20the%20Name\n🎬 Footage: Unisport – \"Cristiano Ronaldo interview | CR7 reveals how to succeed\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#SportsEdit #Sports #Hype",
+   "hashtags": [
+    "SportsEdit",
+    "Sports",
+    "Hype"
+   ],
+   "song": {
+    "title": "Remember the Name",
+    "artist": "Fort Minor",
+    "url": "https://www.youtube.com/watch?v=VDvr08sCPOc",
+    "official_channel": "Fort Minor",
+    "spotify_search": "https://open.spotify.com/search/Fort%20Minor%20Remember%20the%20Name"
+   },
+   "song_credit": "\"Remember the Name\" – Fort Minor",
+   "pattern": {
+    "id": "P03",
+    "name": "Beside-lower"
+   },
+   "captions": [
+    "YEAH",
+    "NOW EVER SINCE",
+    "THE MERCURA VAPOR",
+    "ONES",
+    "WE SAW ONE",
+    "IN LISBON",
+    "YOU CAME TO",
+    "MAN UNITED",
+    "YOU'VE KIND OF",
+    "BEEN A BIG",
+    "PART OF",
+    "ASSOCIATING THE",
+    "MERCURA WITH",
+    "SPEED",
+    "WITH FLARE"
+   ],
+   "duration": 38.73,
+   "sources": [
+    {
+     "id": "1KJFsm8NDyE",
+     "src_id": "1KJFsm8NDyE",
+     "path": "/mnt/ph/instagram/sources/1KJFsm8NDyE.mkv",
+     "title": "Cristiano Ronaldo interview | CR7 reveals how to succeed",
+     "credit": "Unisport",
+     "url": "https://www.youtube.com/watch?v=1KJFsm8NDyE"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.73
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -9.5
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 15
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 330.6,
+    "song": 33.3,
+    "beats": 0.5,
+    "scan_plan": 45.3,
+    "render": 367.4,
+    "gemini_meta": 90.0,
+    "shorts_9x16": 139.6,
+    "qa": 8.5,
+    "preview": 38.8
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-sports-20261128-160547.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-sports-20261128-160547.preview.mp4"
+  },
+  {
+   "id": "in-series-20261128-162352",
+   "platform": "instagram",
+   "category": "series",
+   "format": "shorts",
+   "state": "ready",
+   "created": "2026-11-28T16:43:38.636328+05:30",
+   "path": "/mnt/ph/instagram/ready/instagram/in-series-20261128-162352.mp4",
+   "preview": "/mnt/ph/instagram/prev/in-series-20261128-162352.mp4",
+   "preview_mb": 22.2,
+   "size_mb": 105.5,
+   "title": "Series Scene Edit | Bad Guy Edit",
+   "hook": "SERIES SCENE EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Bad Guy\" – Billie Eilish (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=DyDfgMOUjCI\n🎧 Spotify: https://open.spotify.com/search/Billie%20Eilish%20Bad%20Guy\n🎬 Footage: Disney Plus – \"Bloopers | Percy Jackson and the Olympians | Disney+\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#SeriesEdit #TVEdit #WebSeries #OfficialClip",
+   "hashtags": [
+    "SeriesEdit",
+    "TVEdit",
+    "WebSeries",
+    "OfficialClip"
+   ],
+   "song": {
+    "title": "Bad Guy",
+    "artist": "Billie Eilish",
+    "url": "https://www.youtube.com/watch?v=DyDfgMOUjCI",
+    "official_channel": "Billie Eilish",
+    "spotify_search": "https://open.spotify.com/search/Billie%20Eilish%20Bad%20Guy"
+   },
+   "song_credit": "\"Bad Guy\" – Billie Eilish",
+   "pattern": {
+    "id": "P04",
+    "name": "Stepping down beside"
+   },
+   "captions": [
+    "IT'S A DANGEROUS",
+    "WHIRLPOOL THAT APPEARED",
+    "BETWEEN THE MESSINA",
+    "STRAIT BETWEEN SICILY",
+    "AND ITALY",
+    "I DON'T KNOW",
+    "HOW YOU DON'T",
+    "KNOW THIS YOU'RE",
+    "SUCH AN IDIOT",
+    "SHUT UP",
+    "DON'T SAY THAT",
+    "UNLESS YOU MEAN",
+    "IT I",
+    "MEAN IT",
+    "CAN WE JUST",
+    "START THIS SUMMER",
+    "OVER?"
+   ],
+   "duration": 38.73,
+   "sources": [
+    {
+     "id": "WKjmlew8n9c",
+     "src_id": "WKjmlew8n9c",
+     "path": "/mnt/ph/instagram/sources/WKjmlew8n9c.mkv",
+     "title": "Bloopers | Percy Jackson and the Olympians | Disney+",
+     "credit": "Disney Plus",
+     "url": "https://www.youtube.com/watch?v=WKjmlew8n9c"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.73
+     },
+     "resolution": {
+      "ok": true,
+      "value": "2160x3840",
+      "want": "2160x3840"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "2160x3840"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -13.1
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": false
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 17
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 426.2,
+    "song": 46.3,
+    "beats": 0.4,
+    "scan_plan": 91.0,
+    "render": 406.1,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 161.9,
+    "qa": 8.9,
+    "preview": 45.8
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-series-20261128-162352.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/in-series-20261128-162352.preview.mp4"
   }
  ],
  "listing_cache": {
@@ -31539,7 +32875,3859 @@
    }
   ],
   "https://www.youtube.com/@CristianoRonaldo/videos|2026-11-28": [],
-  "https://www.youtube.com/@AlNassr/videos|2026-11-28": []
+  "https://www.youtube.com/@AlNassr/videos|2026-11-28": [],
+  "https://www.youtube.com/@appletv/videos|2026-11-28": [
+   {
+    "id": "4MEdK5kuFOA",
+    "title": "Way of the Warrior Kid — Be A Warrior | Behind the Scenes | Apple TV",
+    "duration": 138,
+    "url": "https://www.youtube.com/watch?v=4MEdK5kuFOA",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "9unKNfPPVA0",
+    "title": "Qatar Race | Circuits in Focus — Featuring Nico Rosberg and Emelia Hartford | F1 on Apple TV",
+    "duration": 460,
+    "url": "https://www.youtube.com/watch?v=9unKNfPPVA0",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "iCN_bE3NDnc",
+    "title": "Way of the Warrior Kid — Pass The Football | Behind the Scenes  | Apple TV",
+    "duration": 78,
+    "url": "https://www.youtube.com/watch?v=iCN_bE3NDnc",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "Uu_bk2FihrY",
+    "title": "Las Vegas Race | The POV with Christina Roki and Calum Nicholas | F1 on Apple TV",
+    "duration": 371,
+    "url": "https://www.youtube.com/watch?v=Uu_bk2FihrY",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "4GdNXt8SyZk",
+    "title": "Tenzing — Inside Look | Scoring the Summit | Apple TV",
+    "duration": 375,
+    "url": "https://www.youtube.com/watch?v=4GdNXt8SyZk",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "sDMNuKvCXOc",
+    "title": "TIMBERLAKE — Official Trailer | Apple TV",
+    "duration": 151,
+    "url": "https://www.youtube.com/watch?v=sDMNuKvCXOc",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "ATKLT8M3QTA",
+    "title": "Full Throttle with Russell Wilson & Melissa Jefferson-Wooden — Vegas Race | F1 on Apple TV",
+    "duration": 443,
+    "url": "https://www.youtube.com/watch?v=ATKLT8M3QTA",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "EdLiXVW6grM",
+    "title": "Nocturne — Another Take with Stephen Graham and Rory Culkin | Apple TV",
+    "duration": 140,
+    "url": "https://www.youtube.com/watch?v=EdLiXVW6grM",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "B1cLo1po_8M",
+    "title": "Presumed Innocent — Season 2 Official Teaser | Apple TV",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=B1cLo1po_8M",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "8OGY0dEV3T4",
+    "title": "Great Movies to Watch on Apple TV",
+    "duration": 39,
+    "url": "https://www.youtube.com/watch?v=8OGY0dEV3T4",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "cJ1ISJInnQw",
+    "title": "Las Vegas Race | Circuits in Focus — Featuring Nico Rosberg and Emelia Hartford | F1 on Apple TV",
+    "duration": 439,
+    "url": "https://www.youtube.com/watch?v=cJ1ISJInnQw",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "2xM-EWRlRT8",
+    "title": "12 12 12 — First Three Minutes | Full Scene | Apple TV",
+    "duration": 227,
+    "url": "https://www.youtube.com/watch?v=2xM-EWRlRT8",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "S8pffGMkW_0",
+    "title": "Brazil Race | The POV with Christina Roki and Calum Nicholas | F1 on Apple TV",
+    "duration": 347,
+    "url": "https://www.youtube.com/watch?v=S8pffGMkW_0",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "JhIwpmslObY",
+    "title": "Fraggle Rock: A Holiday Gift — Official Trailer | Apple TV",
+    "duration": 64,
+    "url": "https://www.youtube.com/watch?v=JhIwpmslObY",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "8DtnBGbnf-0",
+    "title": "12 Days of Snoopy — \"Trying to Get There\" by Kamasi Washington feat. Leon Bridges | Apple TV",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=8DtnBGbnf-0",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "l8lDiZJTiys",
+    "title": "Tenzing — The Making Of | Inside Look | Apple TV",
+    "duration": 623,
+    "url": "https://www.youtube.com/watch?v=l8lDiZJTiys",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "bdrW3TsAweo",
+    "title": "Brazil Race | Circuits in Focus — Featuring Nico Rosberg and Emelia Hartford | F1 on Apple TV",
+    "duration": 514,
+    "url": "https://www.youtube.com/watch?v=bdrW3TsAweo",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "9ZiePpwIlAE",
+    "title": "Bad Monkey — Season 2 Official Trailer | Apple TV",
+    "duration": 140,
+    "url": "https://www.youtube.com/watch?v=9ZiePpwIlAE",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "iAaLFXLc5Fo",
+    "title": "Resident Evil Director Zach Cregger on Crafting Scares with iPhone | Apple TV",
+    "duration": 101,
+    "url": "https://www.youtube.com/watch?v=iAaLFXLc5Fo",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "DSLDT9UGvpk",
+    "title": "Snoopy Presents: 12 Days of Snoopy — \"Get Ready\" by John Legend | Lyric Video | Apple TV",
+    "duration": 186,
+    "url": "https://www.youtube.com/watch?v=DSLDT9UGvpk",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "xUQh-Yj__bA",
+    "title": "Snoopy Presents: 12 Days of Snoopy — Official Trailer | Apple TV",
+    "duration": 88,
+    "url": "https://www.youtube.com/watch?v=xUQh-Yj__bA",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "eXxpaf9W2Kw",
+    "title": "Mexico City Recap | The POV with Christina Roki and Calum Nicholas | F1 on Apple TV",
+    "duration": 418,
+    "url": "https://www.youtube.com/watch?v=eXxpaf9W2Kw",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "tLfJ9HssYOE",
+    "title": "Dark Matter — The Fight for the Box | Season 2 Finale Scene | Apple TV",
+    "duration": 69,
+    "url": "https://www.youtube.com/watch?v=tLfJ9HssYOE",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "uXkL6FjZf0U",
+    "title": "New for November 2026 | Stick, Being Heumann & More | Apple TV",
+    "duration": 39,
+    "url": "https://www.youtube.com/watch?v=uXkL6FjZf0U",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "UXp2fzfoXUA",
+    "title": "2 Hours of Widow's Bay Haunted Ambience | Breakwater Inn | Apple TV",
+    "duration": 7205,
+    "url": "https://www.youtube.com/watch?v=UXp2fzfoXUA",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "gFx1ajKPBss",
+    "title": "Nocturne — Opening Title Sequence | Apple TV",
+    "duration": 103,
+    "url": "https://www.youtube.com/watch?v=gFx1ajKPBss",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "3vB6FHS1xsE",
+    "title": "Dark Matter — The Official Podcast: Episode 210 | Apple TV",
+    "duration": 2224,
+    "url": "https://www.youtube.com/watch?v=3vB6FHS1xsE",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "EX_0oVsmJk8",
+    "title": "Mexico City Race | Circuits in Focus — Featuring Nico Rosberg and Emelia Hartford | F1 on Apple TV",
+    "duration": 438,
+    "url": "https://www.youtube.com/watch?v=EX_0oVsmJk8",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "pP_Glzi0UOA",
+    "title": "Best Thriller Shows to Watch | Full Scenes | Apple TV",
+    "duration": 729,
+    "url": "https://www.youtube.com/watch?v=pP_Glzi0UOA",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "GrBagnYT3mc",
+    "title": "Austin Race Recap | The POV with Christina Roki and Calum Nicholas | F1 on Apple TV",
+    "duration": 339,
+    "url": "https://www.youtube.com/watch?v=GrBagnYT3mc",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "R1ECMLrwDYQ",
+    "title": "Way of the Warrior Kid — Official Trailer | Apple TV",
+    "duration": 151,
+    "url": "https://www.youtube.com/watch?v=R1ECMLrwDYQ",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "c9nGn3hZ2lY",
+    "title": "Full Throttle with Yuki Tsunoda, Liam Lawson, Christina Roki & Vince Young — Austin Race | Apple TV",
+    "duration": 355,
+    "url": "https://www.youtube.com/watch?v=c9nGn3hZ2lY",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "YcGJ6o2jYJw",
+    "title": "Dark Matter — MacNamara's Trip | Season 2 Episode 9 Ending Scene | Apple TV",
+    "duration": 298,
+    "url": "https://www.youtube.com/watch?v=YcGJ6o2jYJw",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "3PxhaP9A_Qk",
+    "title": "Lucky — Anya Taylor-Joy on Lewis Hamilton's Most Memorable Looks | Apple TV",
+    "duration": 90,
+    "url": "https://www.youtube.com/watch?v=3PxhaP9A_Qk",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "rOFwFS9HDGk",
+    "title": "Dark Matter — The Official Podcast: Episode 209 | Apple TV",
+    "duration": 2573,
+    "url": "https://www.youtube.com/watch?v=rOFwFS9HDGk",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "yqFPlVojROk",
+    "title": "United States Race | Circuits in Focus — Featuring Nico Rosberg and Emelia Hartford | F1 on Apple TV",
+    "duration": 475,
+    "url": "https://www.youtube.com/watch?v=yqFPlVojROk",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "2xByUiaTlog",
+    "title": "The Sisters Grimm — Magical Moments | Full Scenes | Apple TV",
+    "duration": 530,
+    "url": "https://www.youtube.com/watch?v=2xByUiaTlog",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "Nx9u4E36f-M",
+    "title": "Slow Horses — Slough House at the Safe House | Season 6 Scene | Apple TV",
+    "duration": 128,
+    "url": "https://www.youtube.com/watch?v=Nx9u4E36f-M",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "zXC7HfjHo30",
+    "title": "Dark Matter — The Official Podcast: Episode 208 | Apple TV",
+    "duration": 2362,
+    "url": "https://www.youtube.com/watch?v=zXC7HfjHo30",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "3Dc8ncrC47k",
+    "title": "Singapore Race Recap | The POV with Christina Roki and Calum Nicholas | F1 on Apple TV",
+    "duration": 355,
+    "url": "https://www.youtube.com/watch?v=3Dc8ncrC47k",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "pWdt8WMCqnc",
+    "title": "12 12 12 — Official Trailer | Apple TV",
+    "duration": 127,
+    "url": "https://www.youtube.com/watch?v=pWdt8WMCqnc",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "CEvfMPHqlQA",
+    "title": "Brothers — Matthew McConaughey and Woody Harrelson Perform an Original Song | Full Scene | Apple TV",
+    "duration": 54,
+    "url": "https://www.youtube.com/watch?v=CEvfMPHqlQA",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "E_5HZBhf1eU",
+    "title": "Remnants — Official Reaction Trailer | Apple Vision Pro",
+    "duration": 56,
+    "url": "https://www.youtube.com/watch?v=E_5HZBhf1eU",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "CQp2pUXLvJk",
+    "title": "Being Heumann — Official Trailer | Apple TV",
+    "duration": 154,
+    "url": "https://www.youtube.com/watch?v=CQp2pUXLvJk",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "q85_7adhI14",
+    "title": "Ted Lasso — Last Round with Mae | Inside Look | Apple TV",
+    "duration": 133,
+    "url": "https://www.youtube.com/watch?v=q85_7adhI14",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "5v-y35o7RYo",
+    "title": "Dark Matter — Charlie Meets Laurel (Margo Martindale) | Season 2 Scene | Apple TV",
+    "duration": 271,
+    "url": "https://www.youtube.com/watch?v=5v-y35o7RYo",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "vS_0J3IaHJI",
+    "title": "Dark Matter — The Official Podcast: Episode 207 | Apple TV",
+    "duration": 2549,
+    "url": "https://www.youtube.com/watch?v=vS_0J3IaHJI",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "PG9hd0x4IUU",
+    "title": "Singapore Race | Circuits in Focus — Featuring Nico Rosberg and Emelia Hartford | F1 on Apple TV",
+    "duration": 450,
+    "url": "https://www.youtube.com/watch?v=PG9hd0x4IUU",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "m6ArXts5JPk",
+    "title": "Stick — Season 2 Official Trailer | Apple TV",
+    "duration": 141,
+    "url": "https://www.youtube.com/watch?v=m6ArXts5JPk",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "HV0Med6MRYI",
+    "title": "Ted Lasso — Season 4 Opening Title Sequence with Brandi Carlile | Apple TV",
+    "duration": 36,
+    "url": "https://www.youtube.com/watch?v=HV0Med6MRYI",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "euP7wUgsI1U",
+    "title": "Bahrain (Malaysia) Race Recap | The POV with Christina Roki and Calum Nicholas | F1 on Apple TV",
+    "duration": 359,
+    "url": "https://www.youtube.com/watch?v=euP7wUgsI1U",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "P1Qa7C36dM4",
+    "title": "Dark Matter — Leighton Unveils His Project | Season 2 Episode 6 Scene | Apple TV",
+    "duration": 279,
+    "url": "https://www.youtube.com/watch?v=P1Qa7C36dM4",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "xqeSrYpeNIg",
+    "title": "Dark Matter — The Official Podcast: Episode 206 | Apple TV",
+    "duration": 2445,
+    "url": "https://www.youtube.com/watch?v=xqeSrYpeNIg",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "95hZAWofyVY",
+    "title": "New for October 2026 | Nocturne, Matchbox The Movie, & More | Apple TV",
+    "duration": 39,
+    "url": "https://www.youtube.com/watch?v=95hZAWofyVY",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "uCAZET6TZ60",
+    "title": "Awkwafina: The Unlikely Cook — Official Trailer | Apple TV",
+    "duration": 103,
+    "url": "https://www.youtube.com/watch?v=uCAZET6TZ60",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "W7vdQWnaZts",
+    "title": "Small Prophets — Official Trailer | Apple TV",
+    "duration": 114,
+    "url": "https://www.youtube.com/watch?v=W7vdQWnaZts",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "Y9qGY7NmbF4",
+    "title": "Dark Matter — Jason Finds Himself | Season 2 Episode 5 Scene | Apple TV",
+    "duration": 267,
+    "url": "https://www.youtube.com/watch?v=Y9qGY7NmbF4",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "AaEy1f2Dgys",
+    "title": "Nocturne — Official Trailer | Apple TV",
+    "duration": 143,
+    "url": "https://www.youtube.com/watch?v=AaEy1f2Dgys",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "AQXfbgBmxXE",
+    "title": "Azerbaijan Race Recap | The POV with Christina Roki and Calum Nicholas | F1 on Apple TV",
+    "duration": 345,
+    "url": "https://www.youtube.com/watch?v=AQXfbgBmxXE",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "YTl3QzVj2eI",
+    "title": "Slow Horses — Missed Call | Season 6 Scene | Apple TV",
+    "duration": 85,
+    "url": "https://www.youtube.com/watch?v=YTl3QzVj2eI",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "urin1P7_1k8",
+    "title": "Ted Lasso — Roy and Keeley Back Together | Full Scene | Apple TV",
+    "duration": 128,
+    "url": "https://www.youtube.com/watch?v=urin1P7_1k8",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "ixYU4Zza5rA",
+    "title": "Ted Lasso — Ted Says There is Crying in Football | Full Scene | Apple TV",
+    "duration": 157,
+    "url": "https://www.youtube.com/watch?v=ixYU4Zza5rA",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "9lQi6B4i4rk",
+    "title": "Dark Matter — The Official Podcast: Episode 205 | Apple TV",
+    "duration": 2440,
+    "url": "https://www.youtube.com/watch?v=9lQi6B4i4rk",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "qQYUYMnu49o",
+    "title": "Slow Horses — (Some) Iconic Scenes | Seasons 1-6 | Apple TV",
+    "duration": 2564,
+    "url": "https://www.youtube.com/watch?v=qQYUYMnu49o",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "hLwCFXfng1U",
+    "title": "Slow Horses — She's Back [SPOILER WARNING] | Season 6 Episode 2 Ending Scene | Apple TV",
+    "duration": 90,
+    "url": "https://www.youtube.com/watch?v=hLwCFXfng1U",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "qkw3old0YR8",
+    "title": "Azerbaijan Race | Circuits in Focus — Featuring Nico Rosberg and Emelia Hartford | F1 on Apple TV",
+    "duration": 399,
+    "url": "https://www.youtube.com/watch?v=qkw3old0YR8",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "7B6D8x5yxh4",
+    "title": "Where's Wanda? — Season 2 Official Trailer | Apple TV",
+    "duration": 103,
+    "url": "https://www.youtube.com/watch?v=7B6D8x5yxh4",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "W9gixQopmPw",
+    "title": "The Sisters Grimm — Season 2 Official Trailer | Apple TV",
+    "duration": 73,
+    "url": "https://www.youtube.com/watch?v=W9gixQopmPw",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "8RLE6FHWl8A",
+    "title": "Brothers — Opening Credits | Apple TV",
+    "duration": 49,
+    "url": "https://www.youtube.com/watch?v=8RLE6FHWl8A",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "FhL8EhdMoeg",
+    "title": "Dark Matter — Ryan and Amanda's Return | Season 2 Scene | Apple TV",
+    "duration": 194,
+    "url": "https://www.youtube.com/watch?v=FhL8EhdMoeg",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "Iy7o3cyGdrU",
+    "title": "Dark Matter — The Official Podcast: Episode 204 | Apple TV",
+    "duration": 2576,
+    "url": "https://www.youtube.com/watch?v=Iy7o3cyGdrU",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "pQJxt8M-68U",
+    "title": "Stick — Rhea Seehorn Joins the Team | Season 2 Sneak Peek | Apple TV",
+    "duration": 40,
+    "url": "https://www.youtube.com/watch?v=pQJxt8M-68U",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "L0zsGFYgYwM",
+    "title": "Ted Lasso — Keeley Sets Up Ted's Dating Profile | Full Scene | Apple TV",
+    "duration": 174,
+    "url": "https://www.youtube.com/watch?v=L0zsGFYgYwM",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "7Pbylo3ydkw",
+    "title": "Knife Edge: Chasing Michelin Stars — Season 2 Official Trailer | Apple TV",
+    "duration": 87,
+    "url": "https://www.youtube.com/watch?v=7Pbylo3ydkw",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "XfSripP7xJs",
+    "title": "Slow Horses — David's Funeral | Season 6 Scene | Apple TV",
+    "duration": 298,
+    "url": "https://www.youtube.com/watch?v=XfSripP7xJs",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "KkYCY5YR12U",
+    "title": "Tenzing — Official Trailer | Apple TV",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=KkYCY5YR12U",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "QsAJCX1vB8k",
+    "title": "Madrid Race Recap | The POV with Christina Roki and Calum Nicholas | F1 on Apple TV",
+    "duration": 393,
+    "url": "https://www.youtube.com/watch?v=QsAJCX1vB8k",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "L_Th1QBLsSo",
+    "title": "Dark Matter — A World Without Computers | Season 2 Scene | Apple TV",
+    "duration": 177,
+    "url": "https://www.youtube.com/watch?v=L_Th1QBLsSo",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "qJBCWLtE8F0",
+    "title": "Dark Matter — The Box is Back | Season 2 Scene | Apple TV",
+    "duration": 171,
+    "url": "https://www.youtube.com/watch?v=qJBCWLtE8F0",
+    "channel": "Apple TV",
+    "verified": true
+   },
+   {
+    "id": "0zJ-1FGr8s0",
+    "title": "Ted Lasso — Jamie and Roy on the Dance Floor | Full Scene | Apple TV",
+    "duration": 104,
+    "url": "https://www.youtube.com/watch?v=0zJ-1FGr8s0",
+    "channel": "Apple TV",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@hbo/videos|2026-11-28": [
+   {
+    "id": "GYms2owR-9A",
+    "title": "The Official Gilded Age Podcast | Episode 4, “Good Taste” | HBO",
+    "duration": 3478,
+    "url": "https://www.youtube.com/watch?v=GYms2owR-9A",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "9aBYN7WzIkU",
+    "title": "The Official Gilded Age Podcast | Episode 3, “Ain’t That Good News” | HBO",
+    "duration": 3544,
+    "url": "https://www.youtube.com/watch?v=9aBYN7WzIkU",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "s-HKYRQ--as",
+    "title": "The Official Gilded Age Podcast | Episode 2, “You Won’t Hear Me Beg” | HBO",
+    "duration": 3160,
+    "url": "https://www.youtube.com/watch?v=s-HKYRQ--as",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "UCI5jWuqy7Y",
+    "title": "The Official Gilded Age Podcast | Episode 1, “Ring The Bells” | HBO",
+    "duration": 3511,
+    "url": "https://www.youtube.com/watch?v=UCI5jWuqy7Y",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "0kOc-9_fZsU",
+    "title": "The Official Gilded Age Podcast Season 4 | Official Trailer | HBO",
+    "duration": 113,
+    "url": "https://www.youtube.com/watch?v=0kOc-9_fZsU",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "kRhUYPtp6Ao",
+    "title": "The Man Will Burn | Official Trailer | HBO",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=kRhUYPtp6Ao",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "NlogOxc8rXk",
+    "title": "The Welcome Table | Official Trailer | HBO",
+    "duration": 115,
+    "url": "https://www.youtube.com/watch?v=NlogOxc8rXk",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "QWl_IE5eN4I",
+    "title": "Bang My Box: The Robin Byrd Story | Official Trailer | HBO",
+    "duration": 109,
+    "url": "https://www.youtube.com/watch?v=QWl_IE5eN4I",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "Szznn02Nli0",
+    "title": "Earth, Wind & Fire | Official Trailer | HBO",
+    "duration": 118,
+    "url": "https://www.youtube.com/watch?v=Szznn02Nli0",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "wEecc5JvWbs",
+    "title": "Bring Me The Beauties | Official Trailer | HBO",
+    "duration": 133,
+    "url": "https://www.youtube.com/watch?v=wEecc5JvWbs",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "D9h0wSvS2ls",
+    "title": "The Yogurt Shop Murders: The Final Chapter | Official Trailer | HBO",
+    "duration": 89,
+    "url": "https://www.youtube.com/watch?v=D9h0wSvS2ls",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "N6Zsu7F5gFM",
+    "title": "The A List | Official Trailer | HBO",
+    "duration": 84,
+    "url": "https://www.youtube.com/watch?v=N6Zsu7F5gFM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "h7gTjnio7oQ",
+    "title": "The Dark Wizard | HBO | Trailer",
+    "duration": 157,
+    "url": "https://www.youtube.com/watch?v=h7gTjnio7oQ",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "ITtpzp_njNM",
+    "title": "Privileges | Official Trailer | HBO",
+    "duration": 114,
+    "url": "https://www.youtube.com/watch?v=ITtpzp_njNM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "aKTmUdQQoZI",
+    "title": "Fukushima: A Nuclear Nightmare | Official Trailer | HBO",
+    "duration": 130,
+    "url": "https://www.youtube.com/watch?v=aKTmUdQQoZI",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "IeBon_7qKpM",
+    "title": "Murder in Glitterball City | Official Trailer | HBO",
+    "duration": 101,
+    "url": "https://www.youtube.com/watch?v=IeBon_7qKpM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "elyhbtZjeWM",
+    "title": "Portobello | Official Trailer | HBO",
+    "duration": 123,
+    "url": "https://www.youtube.com/watch?v=elyhbtZjeWM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "qi-BZ7erUnQ",
+    "title": "33 Photos from the Ghetto | Official Trailer | HBO",
+    "duration": 130,
+    "url": "https://www.youtube.com/watch?v=qi-BZ7erUnQ",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "eKo_urZAm9o",
+    "title": "Mel Brooks: The 99 Year Old Man! | Official Trailer | HBO",
+    "duration": 96,
+    "url": "https://www.youtube.com/watch?v=eKo_urZAm9o",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "1FQWH5IYT5Y",
+    "title": "Critical Incident: Death at the Border | Official Trailer | HBO",
+    "duration": 88,
+    "url": "https://www.youtube.com/watch?v=1FQWH5IYT5Y",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "tpw4EQfdMkk",
+    "title": "Paul Anka: His Way | Official Trailer | HBO",
+    "duration": 94,
+    "url": "https://www.youtube.com/watch?v=tpw4EQfdMkk",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "fZuvEvNeuFA",
+    "title": "Happy And You Know It | Official Trailer | HBO",
+    "duration": 113,
+    "url": "https://www.youtube.com/watch?v=fZuvEvNeuFA",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "XRXUSCBzDIg",
+    "title": "Wizkid: Long Live Lagos | Official Trailer | HBO",
+    "duration": 118,
+    "url": "https://www.youtube.com/watch?v=XRXUSCBzDIg",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "DGKgfweZKmE",
+    "title": "It's Never Over, Jeff Buckley | Official Trailer | HBO",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=DGKgfweZKmE",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "dcraUs4bGhU",
+    "title": "The Shuffle | Official Trailer | HBO",
+    "duration": 87,
+    "url": "https://www.youtube.com/watch?v=dcraUs4bGhU",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "aRv23_VWglQ",
+    "title": "Thoughts and Prayers | Official Trailer | HBO",
+    "duration": 105,
+    "url": "https://www.youtube.com/watch?v=aRv23_VWglQ",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "dAk6rBmEB98",
+    "title": "One To One | Official Trailer | HBO",
+    "duration": 114,
+    "url": "https://www.youtube.com/watch?v=dAk6rBmEB98",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "0X6BeV6NsIc",
+    "title": "Country Doctor | Official Trailer | HBO",
+    "duration": 56,
+    "url": "https://www.youtube.com/watch?v=0X6BeV6NsIc",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "bceerB407LY",
+    "title": "Armed Only With A Camera: The Life and Death of Brent Renaud | Official Trailer | HBO",
+    "duration": 107,
+    "url": "https://www.youtube.com/watch?v=bceerB407LY",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "xRNND_uve8I",
+    "title": "The Alabama Solution | Official Trailer | HBO",
+    "duration": 136,
+    "url": "https://www.youtube.com/watch?v=xRNND_uve8I",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "H9zYviO-fEw",
+    "title": "Prime Minister | Official Trailer | HBO",
+    "duration": 136,
+    "url": "https://www.youtube.com/watch?v=H9zYviO-fEw",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "p4rC1468JuQ",
+    "title": "The Devil Is Busy | Official Trailer",
+    "duration": 89,
+    "url": "https://www.youtube.com/watch?v=p4rC1468JuQ",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "2UJLKW3SIsU",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 9 | HBO",
+    "duration": 3996,
+    "url": "https://www.youtube.com/watch?v=2UJLKW3SIsU",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "rgsE8n3zXzY",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 8 | HBO",
+    "duration": 3960,
+    "url": "https://www.youtube.com/watch?v=rgsE8n3zXzY",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "ZmV5M1No7DY",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 7 | HBO",
+    "duration": 4061,
+    "url": "https://www.youtube.com/watch?v=ZmV5M1No7DY",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "e1aV7GHGob4",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 6 | HBO",
+    "duration": 4251,
+    "url": "https://www.youtube.com/watch?v=e1aV7GHGob4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "aIfPkXkx7K8",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 5 | HBO",
+    "duration": 4305,
+    "url": "https://www.youtube.com/watch?v=aIfPkXkx7K8",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "3AP_vaXoI40",
+    "title": "The Yogurt Shop Murders | Official Trailer | HBO",
+    "duration": 105,
+    "url": "https://www.youtube.com/watch?v=3AP_vaXoI40",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "xwNDfCXc06g",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 4 | HBO",
+    "duration": 3827,
+    "url": "https://www.youtube.com/watch?v=xwNDfCXc06g",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "s94mJ9CP5L4",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 3 | HBO",
+    "duration": 3942,
+    "url": "https://www.youtube.com/watch?v=s94mJ9CP5L4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "70qIqtM78MA",
+    "title": "Mariska Hargitay Gifted Jayne Mansfield's Items | My Mom Jayne, A Film by Mariska Hargitay | HBO",
+    "duration": 155,
+    "url": "https://www.youtube.com/watch?v=70qIqtM78MA",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "dDKsO_Tg3zE",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 2 | HBO",
+    "duration": 3971,
+    "url": "https://www.youtube.com/watch?v=dDKsO_Tg3zE",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "45OJI-7K5a4",
+    "title": "Dear Ms.: A Revolution in Print | Official Trailer | HBO",
+    "duration": 116,
+    "url": "https://www.youtube.com/watch?v=45OJI-7K5a4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "4IQJRoEx4_E",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 1 | HBO",
+    "duration": 4695,
+    "url": "https://www.youtube.com/watch?v=4IQJRoEx4_E",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "wTAomoWhMeo",
+    "title": "The Official Gilded Age Podcast Season 3 | Official Trailer | HBO",
+    "duration": 100,
+    "url": "https://www.youtube.com/watch?v=wTAomoWhMeo",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "QyV0pqwjJXk",
+    "title": "Enigma | Official Trailer | HBO",
+    "duration": 127,
+    "url": "https://www.youtube.com/watch?v=QyV0pqwjJXk",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "iSP3PUHmCvc",
+    "title": "Surviving Ohio State | Official Trailer | HBO",
+    "duration": 110,
+    "url": "https://www.youtube.com/watch?v=iSP3PUHmCvc",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "fZM6m_GJhr8",
+    "title": "My Mom Jayne, A Film by Mariska Hargitay | Official Trailer | HBO",
+    "duration": 153,
+    "url": "https://www.youtube.com/watch?v=fZM6m_GJhr8",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "H3PpoGH_Xlg",
+    "title": "The Mortician | Official Trailer | HBO",
+    "duration": 106,
+    "url": "https://www.youtube.com/watch?v=H3PpoGH_Xlg",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "OB59hKIR77w",
+    "title": "The Righteous Gemstones Season 4 Bloopers | The Righteous Gemstones | HBO",
+    "duration": 169,
+    "url": "https://www.youtube.com/watch?v=OB59hKIR77w",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "8U5r5xAjR2Y",
+    "title": "Jerrod Carmichael: Don’t Be Gay | Official Trailer | HBO",
+    "duration": 99,
+    "url": "https://www.youtube.com/watch?v=8U5r5xAjR2Y",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "95oHSeh_Lbc",
+    "title": "Baby Billy on the Creation of 'Teenjus' | The Righteous Gemstones | HBO",
+    "duration": 204,
+    "url": "https://www.youtube.com/watch?v=95oHSeh_Lbc",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "teX9hkpsNzI",
+    "title": "The Righteous Gemstones Season 4 | Episode 9 Preview | HBO",
+    "duration": 52,
+    "url": "https://www.youtube.com/watch?v=teX9hkpsNzI",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "t258ycRj_nw",
+    "title": "Ashlee Marie Preston & Qween Jean Discuss Black Trans Liberation | Eyes On The Prize III | HBO",
+    "duration": 389,
+    "url": "https://www.youtube.com/watch?v=t258ycRj_nw",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "jVx74C-RGDw",
+    "title": "Pee-wee as Himself | Official Trailer | HBO",
+    "duration": 144,
+    "url": "https://www.youtube.com/watch?v=jVx74C-RGDw",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "Ke5gDQUxyIM",
+    "title": "Philip Agnew & ﻿Richie Reseda Discuss Justice and Community | Eyes On The Prize III | HBO",
+    "duration": 296,
+    "url": "https://www.youtube.com/watch?v=Ke5gDQUxyIM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "CsqQOPZofGo",
+    "title": "The Righteous Gemstones Season 4 | Episode 8 Preview | HBO",
+    "duration": 56,
+    "url": "https://www.youtube.com/watch?v=CsqQOPZofGo",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "q_U6U5iA138",
+    "title": "100 Foot Wave Season 3 | Official Trailer | HBO",
+    "duration": 130,
+    "url": "https://www.youtube.com/watch?v=q_U6U5iA138",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "vhEYSxPIxGs",
+    "title": "Selina Meyer Gets Backlash for Firing a Secret Service Agent | Veep | HBO",
+    "duration": 180,
+    "url": "https://www.youtube.com/watch?v=vhEYSxPIxGs",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "HlqITcZ0lwM",
+    "title": "The Righteous Gemstones Season 4 | Episode 7 Preview | HBO",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=HlqITcZ0lwM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "g3Msx_OpnAs",
+    "title": "The White Lotus Official Season 3 Podcast | Bonus Episode | HBO",
+    "duration": 2507,
+    "url": "https://www.youtube.com/watch?v=g3Msx_OpnAs",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "eBUXxbeOSC4",
+    "title": "Brett Goldstein: The Second Best Night of Your Life | Official Trailer | HBO",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=eBUXxbeOSC4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "dykZuyO7RUU",
+    "title": "The Dark Money Game | Official Trailer | HBO",
+    "duration": 148,
+    "url": "https://www.youtube.com/watch?v=dykZuyO7RUU",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "Fj2qIKUh92o",
+    "title": "The Righteous Gemstones Season 4 | Episode 6 Preview | HBO",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=Fj2qIKUh92o",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "qZxhAM0TUO4",
+    "title": "The White Lotus Official Season 3 Podcast | Bonus Episode | HBO",
+    "duration": 2054,
+    "url": "https://www.youtube.com/watch?v=qZxhAM0TUO4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "rZ0TmcC60vA",
+    "title": "The White Lotus Official Season 3 Podcast | Episode 8 | HBO",
+    "duration": 3126,
+    "url": "https://www.youtube.com/watch?v=rZ0TmcC60vA",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "uFfC4LcJK4k",
+    "title": "A Day In The Life of BJ Barnes | The Righteous Gemstones | HBO",
+    "duration": 193,
+    "url": "https://www.youtube.com/watch?v=uFfC4LcJK4k",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "6CaHP5P4wUc",
+    "title": "The Rehearsal Season 2 | Official Trailer | HBO",
+    "duration": 131,
+    "url": "https://www.youtube.com/watch?v=6CaHP5P4wUc",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "eWbJPi6BOlg",
+    "title": "The White Lotus Official Season 3 Podcast | Episode 7 Bonus Episode | HBO",
+    "duration": 1958,
+    "url": "https://www.youtube.com/watch?v=eWbJPi6BOlg",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "M5cW17Sroz4",
+    "title": "The Righteous Gemstones | Episode 5 Preview | HBO",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=M5cW17Sroz4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "lIb9XRtiDgA",
+    "title": "The White Lotus Official Season 3 Podcast | Episode 7 | HBO",
+    "duration": 2838,
+    "url": "https://www.youtube.com/watch?v=lIb9XRtiDgA",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "rA1Q8LICB8s",
+    "title": "The Righteous Gemstones Season 4 | Episode 4 Preview | HBO",
+    "duration": 56,
+    "url": "https://www.youtube.com/watch?v=rA1Q8LICB8s",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "7U4GO2Eiuis",
+    "title": "The White Lotus Official Season 3 Podcast | Episode 6 | HBO",
+    "duration": 3160,
+    "url": "https://www.youtube.com/watch?v=7U4GO2Eiuis",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "1YzjV_4cli8",
+    "title": "Neal Gamby & Lee Russell Get High at the Homecoming Game | Vice Principals | HBO",
+    "duration": 218,
+    "url": "https://www.youtube.com/watch?v=1YzjV_4cli8",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "WXFHNM-RuG8",
+    "title": "Paul Atreides Tries Riding A Sandworm | Dune: Part Two | HBO",
+    "duration": 230,
+    "url": "https://www.youtube.com/watch?v=WXFHNM-RuG8",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "iqXQnRuOw18",
+    "title": "Truest Blood Official Podcast Season 7 | Episode 5 | HBO",
+    "duration": 3697,
+    "url": "https://www.youtube.com/watch?v=iqXQnRuOw18",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "iK5MlScCqas",
+    "title": "The Righteous Gemstones Season 4 | Episode 3 Preview | HBO",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=iK5MlScCqas",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "Rb1vOvKgBrk",
+    "title": "The White Lotus Official Season 3 Podcast | Episode 5 | HBO",
+    "duration": 3163,
+    "url": "https://www.youtube.com/watch?v=Rb1vOvKgBrk",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "gO1zFmoEwZ4",
+    "title": "Inside Bradley Cooper As The First Gemstone | The Righteous Gemstones Season 4 | HBO",
+    "duration": 315,
+    "url": "https://www.youtube.com/watch?v=gO1zFmoEwZ4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "zf_vxdN862I",
+    "title": "Pedro Pascal’s Best Oberyn Martell Moments | Game of Thrones | HBO",
+    "duration": 293,
+    "url": "https://www.youtube.com/watch?v=zf_vxdN862I",
+    "channel": "HBO",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@Max/videos|2026-11-28": [
+   {
+    "id": "J0K0OCvXBFE",
+    "title": "MAX works out at ALO Seoul ",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=J0K0OCvXBFE",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "Kw7zuW0rASM",
+    "title": "ENHYPEN's “Too Close” — MAX Demo Version (Whiplash) ",
+    "duration": 149,
+    "url": "https://www.youtube.com/watch?v=Kw7zuW0rASM",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "SbR0iopVmyA",
+    "title": "MAX - Steady (Stripped Version) [Official Audio]",
+    "duration": 167,
+    "url": "https://www.youtube.com/watch?v=SbR0iopVmyA",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "a3i1vc4rlKc",
+    "title": "MAX - Steady (Official Music Video)",
+    "duration": 167,
+    "url": "https://www.youtube.com/watch?v=a3i1vc4rlKc",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "bVMtC6oL414",
+    "title": "MAX & Andy Grammer - The Thing I Love (Wedding Version) [Official Audio]",
+    "duration": 173,
+    "url": "https://www.youtube.com/watch?v=bVMtC6oL414",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "G_-PCKxHWfg",
+    "title": "MAX & Andy Grammer - “The Thing I Love” (Official Video)",
+    "duration": 175,
+    "url": "https://www.youtube.com/watch?v=G_-PCKxHWfg",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "7uz1YjLqxy0",
+    "title": "LOVE INSANE (STRIPPED) - MAX ft. JAY of ENHYPEN",
+    "duration": 151,
+    "url": "https://www.youtube.com/watch?v=7uz1YjLqxy0",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "dJAf1UBBmB8",
+    "title": "MAX - LOVE INSANE (Feat. JAY of ENHYPEN) [Alt Music Video]",
+    "duration": 150,
+    "url": "https://www.youtube.com/watch?v=dJAf1UBBmB8",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "LXyDbMdkYyg",
+    "title": "MAX - LOVE INSANE (Feat. JAY of ENHYPEN) [OFFICIAL MUSIC VIDEO]",
+    "duration": 150,
+    "url": "https://www.youtube.com/watch?v=LXyDbMdkYyg",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "CFQhX574fgA",
+    "title": "MAX - RAGS MEDLEY",
+    "duration": 154,
+    "url": "https://www.youtube.com/watch?v=CFQhX574fgA",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "aHqI8OVRUSw",
+    "title": "How SUGA of BTS became the feature on “Blueberry Eyes” by MAX",
+    "duration": 94,
+    "url": "https://www.youtube.com/watch?v=aHqI8OVRUSw",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "RzXGAM_3Gsk",
+    "title": "sounds & colors on tour",
+    "duration": 75,
+    "url": "https://www.youtube.com/watch?v=RzXGAM_3Gsk",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "-ZQdQyN-IM8",
+    "title": "MAX - PINKBERRY (Official Music Video)",
+    "duration": 170,
+    "url": "https://www.youtube.com/watch?v=-ZQdQyN-IM8",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "v7PuUpENtME",
+    "title": "SB19 tries Filipino Snacks with MAX",
+    "duration": 123,
+    "url": "https://www.youtube.com/watch?v=v7PuUpENtME",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "GyMHR9xz9nE",
+    "title": "MAX - SAY LESS (feat. DUCKWRTH) [Performance Video]",
+    "duration": 154,
+    "url": "https://www.youtube.com/watch?v=GyMHR9xz9nE",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "13XuD6Tu3eg",
+    "title": "MAX - STUPID IN LOVE (feat. HUH YUNJIN of LE SSERAFIM) [Dabin Remix] (Official Audio)",
+    "duration": 149,
+    "url": "https://www.youtube.com/watch?v=13XuD6Tu3eg",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "k0QFmwU0kZA",
+    "title": "MAX - STUPID IN LOVE (Feat. HUH YUNJIN of LE SSERAFIM) LIVE IN KOREA",
+    "duration": 196,
+    "url": "https://www.youtube.com/watch?v=k0QFmwU0kZA",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "YEpW46zb8Ts",
+    "title": "MAX - Stupid in Love (Live Performance) | Vevo",
+    "duration": 201,
+    "url": "https://www.youtube.com/watch?v=YEpW46zb8Ts",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "KP9c8N4xpa0",
+    "title": "MAX - It's You (Live Performance) | Vevo",
+    "duration": 176,
+    "url": "https://www.youtube.com/watch?v=KP9c8N4xpa0",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "Vc7hyj_RuvI",
+    "title": "MAX - STUPID IN LOVE (feat. HUH YUNJIN of LE SSERAFIM) [Slowed Down] (Official Audio)",
+    "duration": 216,
+    "url": "https://www.youtube.com/watch?v=Vc7hyj_RuvI",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "2I2ZxeaFvsU",
+    "title": "MAX - STUPID IN LOVE (feat. HUH YUNJIN of LE SSERAFIM) [Sped Up] (Official Audio)",
+    "duration": 146,
+    "url": "https://www.youtube.com/watch?v=2I2ZxeaFvsU",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "cfA_ZNkvwsU",
+    "title": "MAX - STUPID IN LOVE (Feat. HUH YUNJIN of LE SSERAFIM) [OFFICIAL MUSIC VIDEO]",
+    "duration": 193,
+    "url": "https://www.youtube.com/watch?v=cfA_ZNkvwsU",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "BeH3ZNYaolU",
+    "title": "MAX - STUPID IN LOVE (feat. HUH YUNJIN of LE SSERAFIM) [Stripped Version] (Official Audio)",
+    "duration": 170,
+    "url": "https://www.youtube.com/watch?v=BeH3ZNYaolU",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "Mkfb4YFEqh0",
+    "title": "MAX - SUMMER '16 (Official Audio)",
+    "duration": 192,
+    "url": "https://www.youtube.com/watch?v=Mkfb4YFEqh0",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "g7w61sYsHBQ",
+    "title": "MAX - LOVE NEVER FELT LIKE THIS (Official Audio)",
+    "duration": 176,
+    "url": "https://www.youtube.com/watch?v=g7w61sYsHBQ",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "niRFScAJSJ0",
+    "title": "MAX - KEEP IT CHILL (Official Audio)",
+    "duration": 149,
+    "url": "https://www.youtube.com/watch?v=niRFScAJSJ0",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "DyZLr0Hxewk",
+    "title": "MAX - WOAH (Official Audio)",
+    "duration": 157,
+    "url": "https://www.youtube.com/watch?v=DyZLr0Hxewk",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "qklsqykuD_0",
+    "title": "MAX - STUPID IN LOVE (feat. HUH YUNJIN of LE SSERAFIM) [Official Lyric Video]",
+    "duration": 174,
+    "url": "https://www.youtube.com/watch?v=qklsqykuD_0",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "lkg8zNeWMbI",
+    "title": "MAX - SAY LESS (feat. Duckwrth) [Official Music Video]",
+    "duration": 155,
+    "url": "https://www.youtube.com/watch?v=lkg8zNeWMbI",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "bdEwMkp-HnA",
+    "title": "MAX - Happily Ever After (TXT) x Blueberry Eyes (feat. SUGA of BTS) Mashup [Weverse Exclusive]",
+    "duration": 78,
+    "url": "https://www.youtube.com/watch?v=bdEwMkp-HnA",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "5egiSLYfu18",
+    "title": "MAX - EDIE CELINE (Stripped Version)",
+    "duration": 184,
+    "url": "https://www.youtube.com/watch?v=5egiSLYfu18",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "_EEKFJUXw7I",
+    "title": "MAX - EDIE CELINE (Official Music Video)",
+    "duration": 184,
+    "url": "https://www.youtube.com/watch?v=_EEKFJUXw7I",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "3uXY90LK-Zc",
+    "title": "MAX - STRINGS (Feat. Bazzi & JVKE) [Live at home for QQ Music China]",
+    "duration": 174,
+    "url": "https://www.youtube.com/watch?v=3uXY90LK-Zc",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "XtshH3gLoU8",
+    "title": "“Girlfriend” - MAX, bbno$, Party Pupils, MILLI (official video)",
+    "duration": 146,
+    "url": "https://www.youtube.com/watch?v=XtshH3gLoU8",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "ZWDVi6k6zLY",
+    "title": "MAX - STRINGS (Dixie Version) [Official Video]",
+    "duration": 154,
+    "url": "https://www.youtube.com/watch?v=ZWDVi6k6zLY",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "5prKHlHt7cs",
+    "title": "MAX - STRINGS (feat. Bazzi & JVKE) [Performance Video)",
+    "duration": 157,
+    "url": "https://www.youtube.com/watch?v=5prKHlHt7cs",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "hF4RUsubQQg",
+    "title": "MAX - STRINGS (feat. JVKE & Bazzi) [Party Pupils Remix] (Official Audio)",
+    "duration": 181,
+    "url": "https://www.youtube.com/watch?v=hF4RUsubQQg",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "W6OKBbpbaLA",
+    "title": "MAX - STRINGS (Demo Version) [Official Audio]",
+    "duration": 159,
+    "url": "https://www.youtube.com/watch?v=W6OKBbpbaLA",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "_7L027NTLIo",
+    "title": "MAX - STRINGS (feat. JVKE & Bazzi) - Starring Dixie D’Amelio [Official Music Video]",
+    "duration": 157,
+    "url": "https://www.youtube.com/watch?v=_7L027NTLIo",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "8GmiSy4fKcY",
+    "title": "MAX - STRINGS (feat. JVKE & Bazzi) [Official Video Starring Dixie D’amelio teaser]",
+    "duration": 12,
+    "url": "https://www.youtube.com/watch?v=8GmiSy4fKcY",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "Jj7pAoCs4kU",
+    "title": "MAX - STRINGS (feat. JVKE and Bazzi) [Moore Kismet Remix]",
+    "duration": 162,
+    "url": "https://www.youtube.com/watch?v=Jj7pAoCs4kU",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "MJFaztkn558",
+    "title": "MAX - STRINGS (feat. JVKE and Bazzi) [Sped Up]",
+    "duration": 128,
+    "url": "https://www.youtube.com/watch?v=MJFaztkn558",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "Gm8Qmzi0qAc",
+    "title": "MAX - STRINGS (feat. JVKE and Bazzi) [Slowed Down]",
+    "duration": 194,
+    "url": "https://www.youtube.com/watch?v=Gm8Qmzi0qAc",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "wux25K8XtU0",
+    "title": "MAX - STRINGS feat. JVKE & Bazzi (Stripped Version)",
+    "duration": 152,
+    "url": "https://www.youtube.com/watch?v=wux25K8XtU0",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "9JjeefYklFQ",
+    "title": "MAX - TOUR VLOG EP 4- PARKING GARAGE SHOWS AND MORE ARENAS",
+    "duration": 154,
+    "url": "https://www.youtube.com/watch?v=9JjeefYklFQ",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "N6EX-lmn59g",
+    "title": "MAX - STRINGS (feat. JVKE and Bazzi) [Official Lyric Video]",
+    "duration": 188,
+    "url": "https://www.youtube.com/watch?v=N6EX-lmn59g",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "1J3gLMIu5KQ",
+    "title": "MAX - TOUR VLOG EP 3- ARENAS, AMPITHEATERS, AND A BABY",
+    "duration": 165,
+    "url": "https://www.youtube.com/watch?v=1J3gLMIu5KQ",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "ZH2A-LsGH_g",
+    "title": "MAX - TOUR VLOG EP 2- EVERYTHING IS BIGGER WITH BIG TIME RUSH",
+    "duration": 207,
+    "url": "https://www.youtube.com/watch?v=ZH2A-LsGH_g",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "2-2JIwiMoPQ",
+    "title": "MAX - TOUR VLOG (AGUST D \"SUGA OF BTS\"  GUEST PERFORMANCE AT THE FORUM LA)",
+    "duration": 83,
+    "url": "https://www.youtube.com/watch?v=2-2JIwiMoPQ",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "i1iOJKF0f7Q",
+    "title": "MAX - IT'S YOU (feat. keshi) [ARMNHMR Remix]",
+    "duration": 177,
+    "url": "https://www.youtube.com/watch?v=i1iOJKF0f7Q",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "czYZSlTWZGY",
+    "title": "MAX - North America 2022 Tour Doc (Episode 1)",
+    "duration": 111,
+    "url": "https://www.youtube.com/watch?v=czYZSlTWZGY",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "pBby55viQfY",
+    "title": "MAX - IT'S YOU (feat. keshi) [Stripped]",
+    "duration": 159,
+    "url": "https://www.youtube.com/watch?v=pBby55viQfY",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "WRmAq3oeBd4",
+    "title": "MAX - WASABI (Night Tempo Remix) [Anime Japanese Lyric Video]",
+    "duration": 175,
+    "url": "https://www.youtube.com/watch?v=WRmAq3oeBd4",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "IFozkG5L_aQ",
+    "title": "MAX - The Making of “IT'S YOU” (feat. keshi)",
+    "duration": 268,
+    "url": "https://www.youtube.com/watch?v=IFozkG5L_aQ",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "zWxuc8L0W_Y",
+    "title": "MAX – IT’S YOU (feat. keshi) [Official Music Video]",
+    "duration": 174,
+    "url": "https://www.youtube.com/watch?v=zWxuc8L0W_Y",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "nlPU0Sk4M1I",
+    "title": "MAX - WASABI (Night Tempo Remix) [Japanese Lyric Video]",
+    "duration": 175,
+    "url": "https://www.youtube.com/watch?v=nlPU0Sk4M1I",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "exA83_TvKtM",
+    "title": "MAX - WASABI (Official Music Video)",
+    "duration": 176,
+    "url": "https://www.youtube.com/watch?v=exA83_TvKtM",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "0OQmGtRrLJQ",
+    "title": "MAX - WASABI [Official Audio]",
+    "duration": 171,
+    "url": "https://www.youtube.com/watch?v=0OQmGtRrLJQ",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "Pp9UZ-L8a3g",
+    "title": "MAX - GUCCI BAG (Official Lyric Video)",
+    "duration": 135,
+    "url": "https://www.youtube.com/watch?v=Pp9UZ-L8a3g",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "Sa7jhh5_dQQ",
+    "title": "MAX - Butterflies (feat. FLETCHER) [Official Audio]",
+    "duration": 192,
+    "url": "https://www.youtube.com/watch?v=Sa7jhh5_dQQ",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "-UXm-4A1MoU",
+    "title": "MAX & Ali Gatie - Butterflies (Stripped) [Official Audio]",
+    "duration": 196,
+    "url": "https://www.youtube.com/watch?v=-UXm-4A1MoU",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "50E-k0tpMW4",
+    "title": "MAX - Butterflies (Harp Version) [Live with Kelly and Ryan]",
+    "duration": 225,
+    "url": "https://www.youtube.com/watch?v=50E-k0tpMW4",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "WIBbXIYrJrc",
+    "title": "MAX - Butterflies (MYX Awards 2021 Performance)",
+    "duration": 188,
+    "url": "https://www.youtube.com/watch?v=WIBbXIYrJrc",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "x1qwp46bQdU",
+    "title": "MAX & Ali Gatie - Butterflies (Snakehips Remix) [Official Audio]",
+    "duration": 160,
+    "url": "https://www.youtube.com/watch?v=x1qwp46bQdU",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "i3MAFyt34kM",
+    "title": "MAX & Ali Gatie - Butterflies (Party Pupils Remix) [Official Audio]",
+    "duration": 202,
+    "url": "https://www.youtube.com/watch?v=i3MAFyt34kM",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "z4Hi2DV2cu8",
+    "title": "MAX & Ali Gatie - Butterflies (Live from Mets Stadium on Jimmy Kimmel Live! / August 11, 2021)",
+    "duration": 187,
+    "url": "https://www.youtube.com/watch?v=z4Hi2DV2cu8",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "maCTXrCYhA0",
+    "title": "MAX - Ready To Love (SEVENTEEN (세븐틴) / Checklist Mashup) [Weverse Exclusive]",
+    "duration": 126,
+    "url": "https://www.youtube.com/watch?v=maCTXrCYhA0",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "HUm8yNFdDrg",
+    "title": "MAX, Ali Gatie - Butterflies (Live Performance) | Vevo",
+    "duration": 195,
+    "url": "https://www.youtube.com/watch?v=HUm8yNFdDrg",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "IqWRE987Dtg",
+    "title": "MAX - Can't Take My Eyes Off Of You (Live Performance) | Vevo",
+    "duration": 175,
+    "url": "https://www.youtube.com/watch?v=IqWRE987Dtg",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "gMVwyygDNQM",
+    "title": "MAX & Ali Gatie - Butterflies (Jean Tonique Remix) [Official Audio]",
+    "duration": 177,
+    "url": "https://www.youtube.com/watch?v=gMVwyygDNQM",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "IDjBYBaZ-j8",
+    "title": "MAX & Ali Gatie - Butterflies (Official Making of Video)",
+    "duration": 192,
+    "url": "https://www.youtube.com/watch?v=IDjBYBaZ-j8",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "7Lna4Hu4-AQ",
+    "title": "MAX & Ali Gatie - Butterflies (Official Music Video)",
+    "duration": 195,
+    "url": "https://www.youtube.com/watch?v=7Lna4Hu4-AQ",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "VlfA-7xIYPI",
+    "title": "MAX & Ali Gatie - Butterflies (Official Video Teaser)",
+    "duration": 16,
+    "url": "https://www.youtube.com/watch?v=VlfA-7xIYPI",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "WMuTrjlSwOA",
+    "title": "MAX - Working For The Weekend (feat. eaJ) [Party Pupils Remix] (Official Video)",
+    "duration": 164,
+    "url": "https://www.youtube.com/watch?v=WMuTrjlSwOA",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "469-q9oHx_Q",
+    "title": "MAX - Love Me Less (feat. Quinn XCII) [Acoustic Version]",
+    "duration": 187,
+    "url": "https://www.youtube.com/watch?v=469-q9oHx_Q",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "xcoEL6XwCN4",
+    "title": "MAX - Blueberry Eyes (feat. Lil Mosey, SUGA of BTS & Olivia O'Brien) [Official Music Video]",
+    "duration": 170,
+    "url": "https://www.youtube.com/watch?v=xcoEL6XwCN4",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "EOwi01m58v8",
+    "title": "MAX - Blueberry Eyes (Feat. SUGA of BTS) LIVE From The Troubadour",
+    "duration": 153,
+    "url": "https://www.youtube.com/watch?v=EOwi01m58v8",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "xESxnw6yVz8",
+    "title": "MAX - Colour Vision (LIVE From The Troubadour)",
+    "duration": 126,
+    "url": "https://www.youtube.com/watch?v=xESxnw6yVz8",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "ZS7zEtB-Bx8",
+    "title": "MAX - Acid Dreams (Feat. KANG DANIEL) LIVE from the Asia Artist Awards",
+    "duration": 188,
+    "url": "https://www.youtube.com/watch?v=ZS7zEtB-Bx8",
+    "channel": "MAX",
+    "verified": true
+   },
+   {
+    "id": "9QRz70ApfPA",
+    "title": "MAX - There Is A God (Feat. Daniel Seavey of Why Don't We & The Orchid Quartet) [Behind The Song]",
+    "duration": 349,
+    "url": "https://www.youtube.com/watch?v=9QRz70ApfPA",
+    "channel": "MAX",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@DisneyPlus/videos|2026-11-28": [
+   {
+    "id": "etfitrgDMnw",
+    "title": "“Cause It's Christmas\" from A Proud Family Wizmas | Official Video",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=etfitrgDMnw",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "fVPl4toD5gw",
+    "title": "\"Wizmas Christmas\" from A Proud Family Wizmas | Official Video",
+    "duration": 111,
+    "url": "https://www.youtube.com/watch?v=fVPl4toD5gw",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "Yh1XTX3ZZWQ",
+    "title": "\"Santa Clause Never Goes To the Hood\" from A Proud Family Wizmas | Official Video",
+    "duration": 82,
+    "url": "https://www.youtube.com/watch?v=Yh1XTX3ZZWQ",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "if6yI7t_Vn8",
+    "title": "\"Wizmas Day\" from A Proud Family Wizmas | Official Video",
+    "duration": 94,
+    "url": "https://www.youtube.com/watch?v=if6yI7t_Vn8",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "BXcXIGOK71A",
+    "title": "\"I Am, That I Am Suga Mama” from A Proud Family Wizmas | Official Video",
+    "duration": 142,
+    "url": "https://www.youtube.com/watch?v=BXcXIGOK71A",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "Jmq-RzCAIT0",
+    "title": "The Season’s Saddest Day | Episode 304 | Percy Jackson and the Olympians Official Podcast",
+    "duration": 1971,
+    "url": "https://www.youtube.com/watch?v=Jmq-RzCAIT0",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "0U3aWkg_3v4",
+    "title": "All Hail the Hunters | Episode 303 | Percy Jackson and the Olympians Official Podcast",
+    "duration": 1904,
+    "url": "https://www.youtube.com/watch?v=0U3aWkg_3v4",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "vmuO4PejTSk",
+    "title": "Demigod Diaries 302 | Percy Jackson and the Olympians | Disney+",
+    "duration": 305,
+    "url": "https://www.youtube.com/watch?v=vmuO4PejTSk",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "QsEg2ep50p8",
+    "title": "Demigod Diaries 301 | Percy Jackson and the Olympians | Disney+",
+    "duration": 304,
+    "url": "https://www.youtube.com/watch?v=QsEg2ep50p8",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "oqH-IuYZO0I",
+    "title": "Percy Jackson and the Olympians | Season 3 Watch Party | Disney+",
+    "duration": 912,
+    "url": "https://www.youtube.com/watch?v=oqH-IuYZO0I",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "oMVfV0oDhRY",
+    "title": "The Weight of the World | Episode 302 | Percy Jackson and the Olympians Official Podcast",
+    "duration": 1875,
+    "url": "https://www.youtube.com/watch?v=oMVfV0oDhRY",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "4Aq_RTNLXg0",
+    "title": "Who’s the Most Powerful Demigod? | Episode 301 | Percy Jackson and the Olympians Official Podcast",
+    "duration": 2019,
+    "url": "https://www.youtube.com/watch?v=4Aq_RTNLXg0",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "ofo6JgXlNfA",
+    "title": "Watch a Sneak Peek | Percy Jackson & the Olympians Season 3 | Disney+",
+    "duration": 243,
+    "url": "https://www.youtube.com/watch?v=ofo6JgXlNfA",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "Gv9nUSGlIkw",
+    "title": "Come Home for the Holidays | Disney+ and Hulu",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=Gv9nUSGlIkw",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "7eHMU9Y1cwo",
+    "title": "Holiday Ever After: A Disney World Wish Come True | Streaming November 29 | Disney+ Hulu",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=7eHMU9Y1cwo",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "oL4o-f7S8IQ",
+    "title": "The Remarried Empress | Episode 2 | Disney+",
+    "duration": 3462,
+    "url": "https://www.youtube.com/watch?v=oL4o-f7S8IQ",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "z9s7gwL0Wuw",
+    "title": "The Remarried Empress | Episode 1 | Disney+",
+    "duration": 2992,
+    "url": "https://www.youtube.com/watch?v=z9s7gwL0Wuw",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "VRxhrNWz7kQ",
+    "title": "A Proud Family Wizmas | Behind the Scenes: Bringing the Stop-Motion Special to Life",
+    "duration": 183,
+    "url": "https://www.youtube.com/watch?v=VRxhrNWz7kQ",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "3pnpz8SqRI8",
+    "title": "Countdown to Avengers: Doomsday | Return to the Universe on Disney+",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=3pnpz8SqRI8",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "9TRC6Ktfylo",
+    "title": "Disney+ on Meta Quest | 3D Movies & Immersive Environments",
+    "duration": 51,
+    "url": "https://www.youtube.com/watch?v=9TRC6Ktfylo",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "XOgIBuX5-hg",
+    "title": "Percy Jackson Season 3 Podcast | Trailer | Disney+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=XOgIBuX5-hg",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "8NRj-jl7n_E",
+    "title": "A Proud Family Wizmas | Trailer",
+    "duration": 67,
+    "url": "https://www.youtube.com/watch?v=8NRj-jl7n_E",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "nD45l6hCyN8",
+    "title": "Percy Jackson & the Olympians Season 3 | Trailer | Disney+",
+    "duration": 158,
+    "url": "https://www.youtube.com/watch?v=nD45l6hCyN8",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "uPkeUJSWjsY",
+    "title": "Percy Jackson & the Olympians Season 3 | Season 1 + 2 Recap | Disney+",
+    "duration": 300,
+    "url": "https://www.youtube.com/watch?v=uPkeUJSWjsY",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "y9CdbyFbP7s",
+    "title": "New on Disney+ | November 2026",
+    "duration": 98,
+    "url": "https://www.youtube.com/watch?v=y9CdbyFbP7s",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "4WZO9lHgiI4",
+    "title": "Coven Academy | Sienna Spiro \"You Stole the Show\" Lyric Video",
+    "duration": 208,
+    "url": "https://www.youtube.com/watch?v=4WZO9lHgiI4",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "UUWLAxjhg-Y",
+    "title": "Banana Bowl: Presented Ad-Free by Liberty Mutual Insurance | October 10, 2026",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=UUWLAxjhg-Y",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "EEYqGLubei4",
+    "title": "New on Disney+ | October 2026",
+    "duration": 135,
+    "url": "https://www.youtube.com/watch?v=EEYqGLubei4",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "6xqVVUUhD5M",
+    "title": "Halloweentown | J. Paul Zimmerman, Kimberly J. Brown",
+    "duration": 2405,
+    "url": "https://www.youtube.com/watch?v=6xqVVUUhD5M",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "PuggJYl6liY",
+    "title": "KATSEYE: WILD HEARTS | Trailer",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=PuggJYl6liY",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "oEbtj55SaRE",
+    "title": "Coven Academy | Premise Featurette | Disney+",
+    "duration": 129,
+    "url": "https://www.youtube.com/watch?v=oEbtj55SaRE",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "8mBKDsSUQuU",
+    "title": "New on Disney+ | September 2026",
+    "duration": 97,
+    "url": "https://www.youtube.com/watch?v=8mBKDsSUQuU",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "zNyZ6OlMbh0",
+    "title": "The Simpsons: Yellow Mirror | Exclusive Episode on Disney+ | Trailer",
+    "duration": 46,
+    "url": "https://www.youtube.com/watch?v=zNyZ6OlMbh0",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "4MaSEhBE6sI",
+    "title": "High School Musical | KayCee Stroh, Monique Coleman",
+    "duration": 2562,
+    "url": "https://www.youtube.com/watch?v=4MaSEhBE6sI",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "dhXp_rpzUJ0",
+    "title": "Percy Jackson & the Olympians Season 3 | Teaser Trailer | Disney+",
+    "duration": 119,
+    "url": "https://www.youtube.com/watch?v=dhXp_rpzUJ0",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "8kGyc-Uumvc",
+    "title": "ESPN College Football & ESPN College GameDay on Disney+",
+    "duration": 42,
+    "url": "https://www.youtube.com/watch?v=8kGyc-Uumvc",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "SAK6W4GlyXA",
+    "title": "The Cheetah Girls | Raven-Symoné",
+    "duration": 2626,
+    "url": "https://www.youtube.com/watch?v=SAK6W4GlyXA",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "Xpai4Nujz0Q",
+    "title": "Camp Rock | Liamani Segura, Maria Canals-Barrera",
+    "duration": 2890,
+    "url": "https://www.youtube.com/watch?v=Xpai4Nujz0Q",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "yoyT4mkHNv0",
+    "title": "Welcome to the Disney+ Hulu Throwbacks Podcast | Official Trailer",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=yoyT4mkHNv0",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "HdsON3SSB8Y",
+    "title": "Descendants: Wicked Wonderland - Behind the Songs and Dance",
+    "duration": 179,
+    "url": "https://www.youtube.com/watch?v=HdsON3SSB8Y",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "qXpqHpwhCwI",
+    "title": "New on Disney+ | August 2026",
+    "duration": 119,
+    "url": "https://www.youtube.com/watch?v=qXpqHpwhCwI",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "7D8y_W4YmoI",
+    "title": "Percy Jackson & the Olympians Season 3 | Curse Teaser | Disney+",
+    "duration": 30,
+    "url": "https://www.youtube.com/watch?v=7D8y_W4YmoI",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "02-RDIZ5Rdw",
+    "title": "Camp Rock 3 | Trailer | Disney+",
+    "duration": 123,
+    "url": "https://www.youtube.com/watch?v=02-RDIZ5Rdw",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "rErVSDf-DWE",
+    "title": "Descendants: Wicked Wonderland - Creating Wonderland",
+    "duration": 134,
+    "url": "https://www.youtube.com/watch?v=rErVSDf-DWE",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "kXII_gIFFJE",
+    "title": "The Proud Family: Louder and Prouder | Official Trailer | @disneyplus",
+    "duration": 102,
+    "url": "https://www.youtube.com/watch?v=kXII_gIFFJE",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "Da-0JeJCetA",
+    "title": "Camp Rock 3 | Teaser | Disney +",
+    "duration": 59,
+    "url": "https://www.youtube.com/watch?v=Da-0JeJCetA",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "mDTmPsIE1sM",
+    "title": "New on Disney+ | July 2026",
+    "duration": 141,
+    "url": "https://www.youtube.com/watch?v=mDTmPsIE1sM",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "zHwpTZ2r-DM",
+    "title": "The Simpsons: Simpsley | Exclusive Episode on Disney+ | Trailer",
+    "duration": 56,
+    "url": "https://www.youtube.com/watch?v=zHwpTZ2r-DM",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "HiS5wO8LP6A",
+    "title": "Celebrity Wheel of Fortune, Cast Featurette",
+    "duration": 171,
+    "url": "https://www.youtube.com/watch?v=HiS5wO8LP6A",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "z-NpmPB37ZE",
+    "title": "The Simpsons Extreme Makeover: Homer Edition | Couch Gag",
+    "duration": 77,
+    "url": "https://www.youtube.com/watch?v=z-NpmPB37ZE",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "bjxJ8cl7beY",
+    "title": "The Doomies | Official Trailer | Disney+",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=bjxJ8cl7beY",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "rL0CmSRL3Ks",
+    "title": "New on Disney+ | June 2026",
+    "duration": 99,
+    "url": "https://www.youtube.com/watch?v=rL0CmSRL3Ks",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "uL_1MjLDkeU",
+    "title": "The Simpsons Extreme Makeover: Homer Edition | Disney+",
+    "duration": 42,
+    "url": "https://www.youtube.com/watch?v=uL_1MjLDkeU",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "_30SCGxtkik",
+    "title": "Disney+ Hulu Throwbacks: It’s Time to Rewind",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=_30SCGxtkik",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "2cNSJVVTdxk",
+    "title": "Next On Disney+ | May 2026",
+    "duration": 104,
+    "url": "https://www.youtube.com/watch?v=2cNSJVVTdxk",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "WKjmlew8n9c",
+    "title": "Bloopers | Percy Jackson and the Olympians | Disney+",
+    "duration": 186,
+    "url": "https://www.youtube.com/watch?v=WKjmlew8n9c",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "kbgdm2tJIbI",
+    "title": "Disneynature's Orangutan | Stream On Disney+ April 22",
+    "duration": 69,
+    "url": "https://www.youtube.com/watch?v=kbgdm2tJIbI",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "kKyz-KAKFsU",
+    "title": "Next On Disney+ | April 2026",
+    "duration": 114,
+    "url": "https://www.youtube.com/watch?v=kKyz-KAKFsU",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "xmAL6mlslMM",
+    "title": "Percy Jackson and the Olympians Official Podcast Episode 9",
+    "duration": 1999,
+    "url": "https://www.youtube.com/watch?v=xmAL6mlslMM",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "2xCrnuZKKq0",
+    "title": "Hannah Montana 20th Anniversary Special Premiere Event",
+    "duration": 150,
+    "url": "https://www.youtube.com/watch?v=2xCrnuZKKq0",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "0bRZJA9j8sA",
+    "title": "O11CE: New Generation | Trailer | Disney+",
+    "duration": 112,
+    "url": "https://www.youtube.com/watch?v=0bRZJA9j8sA",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "ciMF8-fkJho",
+    "title": "Meet Verts on Disney+: A New Way to Find What to Watch",
+    "duration": 19,
+    "url": "https://www.youtube.com/watch?v=ciMF8-fkJho",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "_-UbahNujvU",
+    "title": "Next On Disney+ | March 2026",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=_-UbahNujvU",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "oFmPa7oNiBo",
+    "title": "That True Love Feeling | Disney+ Compilation",
+    "duration": 1008,
+    "url": "https://www.youtube.com/watch?v=oFmPa7oNiBo",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "7Bi4MX0OsDA",
+    "title": "Storyteller | Disney+ and Hulu",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=7Bi4MX0OsDA",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "qWgygw18-D4",
+    "title": "The Muppet Show | Seth Rogen Chats With Kermit & Miss Piggy | Disney+",
+    "duration": 197,
+    "url": "https://www.youtube.com/watch?v=qWgygw18-D4",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "IrFsgnN_MpY",
+    "title": "The Muppet Show | Sabrina Carpenter & Miss Piggy | Disney+",
+    "duration": 21,
+    "url": "https://www.youtube.com/watch?v=IrFsgnN_MpY",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "HRfFe-RyASw",
+    "title": "Next On Disney+ | February 2026",
+    "duration": 119,
+    "url": "https://www.youtube.com/watch?v=HRfFe-RyASw",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "hSLE5Psfs6U",
+    "title": "The Muppet Show | Official Trailer | Disney+",
+    "duration": 93,
+    "url": "https://www.youtube.com/watch?v=hSLE5Psfs6U",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "0FL3tWtcDUU",
+    "title": "Percy Jackson and the Olympians Official Podcast Episode 8",
+    "duration": 2608,
+    "url": "https://www.youtube.com/watch?v=0FL3tWtcDUU",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "uMuL5-Ma36w",
+    "title": "Percy Jackson and the Olympians Season 2 | The Chase Is On | Disney+",
+    "duration": 167,
+    "url": "https://www.youtube.com/watch?v=uMuL5-Ma36w",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "BBb0zIriLJY",
+    "title": "Percy Jackson and the Olympians Season 2 | Diving into the Sea of Monsters | Disney+",
+    "duration": 167,
+    "url": "https://www.youtube.com/watch?v=BBb0zIriLJY",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "to_3MfWFJXg",
+    "title": "Percy Jackson and the Olympians Official Podcast Episode 7",
+    "duration": 2676,
+    "url": "https://www.youtube.com/watch?v=to_3MfWFJXg",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "D-Bcg6BCsiE",
+    "title": "The Wedding Dress | Percy Jackson and the Olympians | Disney+",
+    "duration": 308,
+    "url": "https://www.youtube.com/watch?v=D-Bcg6BCsiE",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "tikrsCEQFFI",
+    "title": "Percy Jackson and the Olympians Official Podcast Episode 6",
+    "duration": 2493,
+    "url": "https://www.youtube.com/watch?v=tikrsCEQFFI",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "eFJASAHPJUk",
+    "title": "Guinea Pig Interview | Percy Jackson and the Olympians | Disney+",
+    "duration": 273,
+    "url": "https://www.youtube.com/watch?v=eFJASAHPJUk",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "jd3Qqly1eks",
+    "title": "The Muppet Show | Teaser Trailer | Disney+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=jd3Qqly1eks",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "GnJVc54x0Ms",
+    "title": "Next On Disney+ | January 2026",
+    "duration": 147,
+    "url": "https://www.youtube.com/watch?v=GnJVc54x0Ms",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "EYatpRnuX4Y",
+    "title": "Percy Jackson and the Olympians Official Podcast Episode 5",
+    "duration": 2455,
+    "url": "https://www.youtube.com/watch?v=EYatpRnuX4Y",
+    "channel": "Disney Plus",
+    "verified": true
+   },
+   {
+    "id": "JQhAozc8W6Y",
+    "title": "Percy Jackson and the Olympians Official Podcast Episode 4",
+    "duration": 2609,
+    "url": "https://www.youtube.com/watch?v=JQhAozc8W6Y",
+    "channel": "Disney Plus",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@paramountplus/videos|2026-11-28": [
+   {
+    "id": "2P_UR0KpAS8",
+    "title": "Ghosts | Sass Gets a Heartfelt Tribute From His Friends (S2, E4) | Paramount+",
+    "duration": 229,
+    "url": "https://www.youtube.com/watch?v=2P_UR0KpAS8",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "ISlH6_ySbxQ",
+    "title": "The Twilight Zone | 10 of the Biggest Plot Twists | Paramount+",
+    "duration": 1148,
+    "url": "https://www.youtube.com/watch?v=ISlH6_ySbxQ",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "HVNwRJxy7QQ",
+    "title": "Lioness | Were the Russians Behind the Attack at Joe's Home? (S3, E4) | Paramount+",
+    "duration": 317,
+    "url": "https://www.youtube.com/watch?v=HVNwRJxy7QQ",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "mEJtt75SFH8",
+    "title": "Frasier | Niles Strips Naked at Café Nervosa (S11, E8) | Paramount+",
+    "duration": 229,
+    "url": "https://www.youtube.com/watch?v=mEJtt75SFH8",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "SG-Cx_2RwF4",
+    "title": "Lil Kev | Season 2 Official Trailer | Paramount+",
+    "duration": 103,
+    "url": "https://www.youtube.com/watch?v=SG-Cx_2RwF4",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "tRM6gEQvC60",
+    "title": "Broad City | 9 Questionable Life Lessons From Ilana | Paramount+",
+    "duration": 504,
+    "url": "https://www.youtube.com/watch?v=tRM6gEQvC60",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "iDguixO5PlE",
+    "title": "Star Trek: Picard | Every Returning Character from The Next Generation | Paramount+",
+    "duration": 1070,
+    "url": "https://www.youtube.com/watch?v=iDguixO5PlE",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "THQO4Wz3FAc",
+    "title": "Golden Axe | The Final Battle (S1, E10) | Paramount+",
+    "duration": 274,
+    "url": "https://www.youtube.com/watch?v=THQO4Wz3FAc",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "Bnd6J3zXkVE",
+    "title": "Tyler Perry's Ruthless | Season 6, Part 2 Official Trailer | Paramount+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=Bnd6J3zXkVE",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "agfLvLtNyR4",
+    "title": "Manny Halley’s True to the Game: Quadir’s Redemption | Official Trailer | Paramount+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=agfLvLtNyR4",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "1megA5azWIg",
+    "title": "On the Last Day of Christmas | Official Trailer | Paramount+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=1megA5azWIg",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "rXzm64jugcU",
+    "title": "FBI TRUE | Season 9 Official Trailer | Paramount+",
+    "duration": 82,
+    "url": "https://www.youtube.com/watch?v=rXzm64jugcU",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "wAFHBHXUzWE",
+    "title": "Frisco King | Official Trailer | Paramount+",
+    "duration": 112,
+    "url": "https://www.youtube.com/watch?v=wAFHBHXUzWE",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "H98JfiNxc_c",
+    "title": "Lioness | Best of Zoe Saldaña as Joe McNamara in Season 3 | Paramount+",
+    "duration": 1734,
+    "url": "https://www.youtube.com/watch?v=H98JfiNxc_c",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "QL-Z4fYqEYc",
+    "title": "Garfield | Official Trailer | Paramount+",
+    "duration": 79,
+    "url": "https://www.youtube.com/watch?v=QL-Z4fYqEYc",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "UPCwjx4wsXI",
+    "title": "Reno 911! | Best of Deputy Johnson | Paramount+",
+    "duration": 872,
+    "url": "https://www.youtube.com/watch?v=UPCwjx4wsXI",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "1PZhuEYZKck",
+    "title": "Evil | Sister Andrea Proves Leland is Possessed (S2, E5) | Paramount+",
+    "duration": 185,
+    "url": "https://www.youtube.com/watch?v=1PZhuEYZKck",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "B_dS73aAK7Q",
+    "title": "Blue Bloods | Erin & Danny Arguing for 11 Minutes Straight | Paramount+",
+    "duration": 678,
+    "url": "https://www.youtube.com/watch?v=B_dS73aAK7Q",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "yJuef8bmwpY",
+    "title": "Detroiters | Sam & Tim Bluff Their Way Into a Big Meeting (S1, E1) | Paramount+",
+    "duration": 208,
+    "url": "https://www.youtube.com/watch?v=yJuef8bmwpY",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "vgFVNNaoh5U",
+    "title": "The JLO Show | Official Trailer | Paramount+",
+    "duration": 70,
+    "url": "https://www.youtube.com/watch?v=vgFVNNaoh5U",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "xP9SWwZRiu0",
+    "title": "The Elite: Army Rangers | Official Trailer | Paramount+",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=xP9SWwZRiu0",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "1czL3pM0rUQ",
+    "title": "The Agency | Henry Tracks Down the Mole Leaking CIA Information | Paramount+",
+    "duration": 1777,
+    "url": "https://www.youtube.com/watch?v=1czL3pM0rUQ",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "334hIUqKLX4",
+    "title": "Lioness | Kyle Forces Information Out of Joe's Kidnappers (S3, E4) | Paramount+",
+    "duration": 323,
+    "url": "https://www.youtube.com/watch?v=334hIUqKLX4",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "CQo5429ntRg",
+    "title": "Among Us | 30 Funniest Moments | Paramount+",
+    "duration": 713,
+    "url": "https://www.youtube.com/watch?v=CQo5429ntRg",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "ShpxxNv7dgU",
+    "title": "The Good Wife | Season 1's Most Intense Moments | Paramount+",
+    "duration": 1043,
+    "url": "https://www.youtube.com/watch?v=ShpxxNv7dgU",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "tg5X3KVzEfU",
+    "title": "Landman | Rebecca Puts Room Full of Male Lawyers in Their Place (S1, E4) | Paramount+",
+    "duration": 258,
+    "url": "https://www.youtube.com/watch?v=tg5X3KVzEfU",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "zDFHivyECDU",
+    "title": "Yellowjackets | Season 4 Official Trailer | Paramount+",
+    "duration": 123,
+    "url": "https://www.youtube.com/watch?v=zDFHivyECDU",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "WZTtPGvaI5k",
+    "title": "Golden Axe | Rescuing Gilius from Death Adder (S1, E9) | Paramount+",
+    "duration": 275,
+    "url": "https://www.youtube.com/watch?v=WZTtPGvaI5k",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "7L8LvHygckw",
+    "title": "21 Jump Street | Dickson Calls Out Schmidt & Jenko | Paramount+",
+    "duration": 192,
+    "url": "https://www.youtube.com/watch?v=7L8LvHygckw",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "I6hmbdiwSiE",
+    "title": "Nina Explains Why She Called a Boy a \"Little Bitch\" | Team Moms: Baseball | Paramount+",
+    "duration": 576,
+    "url": "https://www.youtube.com/watch?v=I6hmbdiwSiE",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "7mkWRuTiQgs",
+    "title": "Lioness | Season 3's Shocking Moments | Paramount+",
+    "duration": 2048,
+    "url": "https://www.youtube.com/watch?v=7mkWRuTiQgs",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "Cdui11rA6R8",
+    "title": "Beverly Hills, 90210 | Kelly & Brenda Take On Halloween (S2, E10) | Paramount+",
+    "duration": 261,
+    "url": "https://www.youtube.com/watch?v=Cdui11rA6R8",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "bWBPofesYTY",
+    "title": "Drunk History | How One Woman Created Modern Halloween (S5, E13) | Paramount+",
+    "duration": 315,
+    "url": "https://www.youtube.com/watch?v=bWBPofesYTY",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "GvRdyKpcApQ",
+    "title": "It Gets Worse | Official Trailer | Paramount+",
+    "duration": 61,
+    "url": "https://www.youtube.com/watch?v=GvRdyKpcApQ",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "PNF7AIlxLXU",
+    "title": "Why Women Kill | Simone's Affair Almost Exposed (S1, E5) | Paramount+",
+    "duration": 318,
+    "url": "https://www.youtube.com/watch?v=PNF7AIlxLXU",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "DKH--Q6HJ6I",
+    "title": "Cheers | Best of Cliff Clavin | Paramount+",
+    "duration": 897,
+    "url": "https://www.youtube.com/watch?v=DKH--Q6HJ6I",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "nf-PPO2kD4w",
+    "title": "Golden Axe | Escaping a Magical Forest (S1, E8) | Paramount+",
+    "duration": 228,
+    "url": "https://www.youtube.com/watch?v=nf-PPO2kD4w",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "r3Q0srBYFUE",
+    "title": "Team Moms: Baseball | Meet the Families | Paramount+",
+    "duration": 938,
+    "url": "https://www.youtube.com/watch?v=r3Q0srBYFUE",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "X2eDbU9dDBg",
+    "title": "Lioness | Honest Conversation Between Joe & Yurimov (S3, E8) | Paramount+",
+    "duration": 316,
+    "url": "https://www.youtube.com/watch?v=X2eDbU9dDBg",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "gWph2pBfs4Y",
+    "title": "MacGyver | Best Contraptions from Season 4 | Paramount+",
+    "duration": 1336,
+    "url": "https://www.youtube.com/watch?v=gWph2pBfs4Y",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "JSTcJ1uTjiY",
+    "title": "MobLand | Season 2 Midseason Trailer | Paramount+",
+    "duration": 91,
+    "url": "https://www.youtube.com/watch?v=JSTcJ1uTjiY",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "4BCz0LSfawk",
+    "title": "I Love Lucy | 30 Minutes of Lucy and Ethel Causing Chaos | Paramount+",
+    "duration": 1804,
+    "url": "https://www.youtube.com/watch?v=4BCz0LSfawk",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "DfFq8MKQyE8",
+    "title": "He Said, She Said: Till Death Do Us Part | Official Trailer | Paramount+",
+    "duration": 107,
+    "url": "https://www.youtube.com/watch?v=DfFq8MKQyE8",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "oQL1HNEnIh4",
+    "title": "The Andy Griffith Show | 10 of Aunt Bee's Best Moments | Paramount+",
+    "duration": 862,
+    "url": "https://www.youtube.com/watch?v=oQL1HNEnIh4",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "g9Y6feWAvII",
+    "title": "Golden Axe | Gilius vs Warrior Bards (S1, E7) | Paramount+",
+    "duration": 285,
+    "url": "https://www.youtube.com/watch?v=g9Y6feWAvII",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "MwmSoDpOzVo",
+    "title": "Lioness | Joe's Team Argues with the Delta Team (S3, E1) | Paramount+",
+    "duration": 322,
+    "url": "https://www.youtube.com/watch?v=MwmSoDpOzVo",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "1KU_m_mfi7g",
+    "title": "Hawaii Five-0 | Steve & Danny Being an Iconic Duo for 28 Minutes Straight | Paramount+",
+    "duration": 1710,
+    "url": "https://www.youtube.com/watch?v=1KU_m_mfi7g",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "RHYQYYm5jLM",
+    "title": "Frisco King | Official Teaser | Paramount+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=RHYQYYm5jLM",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "SsgAEUpabpc",
+    "title": "NFL Play Action | Official Trailer | Paramount+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=SsgAEUpabpc",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "xQIYgvPBWJI",
+    "title": "Yellowjackets | Season 4 Official Teaser | Paramount+",
+    "duration": 115,
+    "url": "https://www.youtube.com/watch?v=xQIYgvPBWJI",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "5s6zOrNnClY",
+    "title": "Friday Night Lights | Best of Vince Howard (Michael B. Jordan) | Paramount+",
+    "duration": 805,
+    "url": "https://www.youtube.com/watch?v=5s6zOrNnClY",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "RNbIO3y_gX8",
+    "title": "Star Trek: Lower Decks | Best Moments of Season 1 | Paramount+",
+    "duration": 894,
+    "url": "https://www.youtube.com/watch?v=RNbIO3y_gX8",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "M5udasjqIWk",
+    "title": "Among Us | 🚨 Imposter Reveal 🚨 (S1, E9) | Paramount+",
+    "duration": 314,
+    "url": "https://www.youtube.com/watch?v=M5udasjqIWk",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "zbnvnEYuZQk",
+    "title": "Ghosts | Best of Hetty Woodstone | Paramount+",
+    "duration": 808,
+    "url": "https://www.youtube.com/watch?v=zbnvnEYuZQk",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "zRP_tY85ofo",
+    "title": "Lioness | Joe Returns Home and Finds it Empty (S3, E8) | Paramount+",
+    "duration": 283,
+    "url": "https://www.youtube.com/watch?v=zRP_tY85ofo",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "G-oCpAnX_ic",
+    "title": "A Course Called Ireland | Official Trailer | Paramount+",
+    "duration": 128,
+    "url": "https://www.youtube.com/watch?v=G-oCpAnX_ic",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "b2-wW9sbNTM",
+    "title": "1883 | Most-Watched Moments | Paramount+",
+    "duration": 1225,
+    "url": "https://www.youtube.com/watch?v=b2-wW9sbNTM",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "Eo9QFeM3Xck",
+    "title": "All the Queen's Men | Season 5 Part 2 | Official Trailer | Paramount+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=Eo9QFeM3Xck",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "bpk9no2LyDU",
+    "title": "The Agency | Martian (Michael Fassbender) vs. Everyone in Season 2 | Paramount+",
+    "duration": 1847,
+    "url": "https://www.youtube.com/watch?v=bpk9no2LyDU",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "_CS0FoOnajo",
+    "title": "Golden Axe | Hampton and the Bad Brothers Fight Dark Guld (S1, E5) | Paramount+",
+    "duration": 220,
+    "url": "https://www.youtube.com/watch?v=_CS0FoOnajo",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "sPUuh0vXpqA",
+    "title": "Everybody Hates Chris | Best of Julius (Terry Crews) | Paramount+",
+    "duration": 1041,
+    "url": "https://www.youtube.com/watch?v=sPUuh0vXpqA",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "PQiuGRA8WAs",
+    "title": "Lioness | Joe is Kidnapped | Paramount+",
+    "duration": 266,
+    "url": "https://www.youtube.com/watch?v=PQiuGRA8WAs",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "nTOf1FIsBcs",
+    "title": "Dexter: Resurrection | Season 2 Official Trailer | Paramount+",
+    "duration": 121,
+    "url": "https://www.youtube.com/watch?v=nTOf1FIsBcs",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "v_MXszgNzSw",
+    "title": "Star Trek: Strange New Worlds | Time Traveling Uhura (S4, E10) | Paramount+",
+    "duration": 260,
+    "url": "https://www.youtube.com/watch?v=v_MXszgNzSw",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "Qq8yAg8urfY",
+    "title": "Tulsa King | Season 4 Official Trailer | Paramount+",
+    "duration": 109,
+    "url": "https://www.youtube.com/watch?v=Qq8yAg8urfY",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "b1lGfg-FoPw",
+    "title": "Lioness | Reveal of Who Planned Joe's Kidnapping (S3, E8) | Paramount+",
+    "duration": 181,
+    "url": "https://www.youtube.com/watch?v=b1lGfg-FoPw",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "WDvGnm26Xaw",
+    "title": "Cheers | Cold Opens: Season 10 | Paramount+",
+    "duration": 1443,
+    "url": "https://www.youtube.com/watch?v=WDvGnm26Xaw",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "OxBA4oOYUqM",
+    "title": "The Good Fight | Best of Diane Lockhart (Christine Baranski) | Paramount+",
+    "duration": 781,
+    "url": "https://www.youtube.com/watch?v=OxBA4oOYUqM",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "8Z4z7_QydPU",
+    "title": "Lioness | Joe and Kaitlyn Chat About the Future (S3, E8) | Paramount+",
+    "duration": 315,
+    "url": "https://www.youtube.com/watch?v=8Z4z7_QydPU",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "I-dDKTAKYJE",
+    "title": "Golden Axe | Gilius Thunderhead (Matthew Rhys) Meets Hampton Squib (Danny Pudi) (S1,E1) | Paramount+",
+    "duration": 322,
+    "url": "https://www.youtube.com/watch?v=I-dDKTAKYJE",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "sNVaYwGIyU8",
+    "title": "Among Us | \"Everybody's Dead\" Official Music Video | Paramount+",
+    "duration": 132,
+    "url": "https://www.youtube.com/watch?v=sNVaYwGIyU8",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "hgCsby10RRE",
+    "title": "Star Trek: Strange New Worlds | A Dragon Attacks the Enterprise (S4, E9) | Paramount+",
+    "duration": 316,
+    "url": "https://www.youtube.com/watch?v=hgCsby10RRE",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "AmjabHDDEAU",
+    "title": "Detroiters | Tim’s Funniest Moments | Paramount+",
+    "duration": 795,
+    "url": "https://www.youtube.com/watch?v=AmjabHDDEAU",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "FcxfuUVOvZU",
+    "title": "The Twilight Zone | Man Discovers He's Not Actually in Heaven (S1, E28) | Paramount+",
+    "duration": 202,
+    "url": "https://www.youtube.com/watch?v=FcxfuUVOvZU",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "1_F4RDsuRjI",
+    "title": "Evil | The Ultimate Trio: Kristen, David, and Ben | Paramount+",
+    "duration": 1357,
+    "url": "https://www.youtube.com/watch?v=1_F4RDsuRjI",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "uu4RsAm0uBM",
+    "title": "The JLO Show | Official Teaser | Paramount+",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=uu4RsAm0uBM",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "GLT5F29KhBc",
+    "title": "Lioness | Joe and Two Cups Chat After Joe's Rescue (S3, E7) | Paramount+",
+    "duration": 273,
+    "url": "https://www.youtube.com/watch?v=GLT5F29KhBc",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "aiVmNa7lpT8",
+    "title": "Sacrifice | Season 2 Official Trailer | Paramount+",
+    "duration": 31,
+    "url": "https://www.youtube.com/watch?v=aiVmNa7lpT8",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "8xqldY2r-WM",
+    "title": "Star Trek: Strange New Worlds | Admiral Reeger Commandeers the Enterprise (S4, E8) | Paramount+",
+    "duration": 311,
+    "url": "https://www.youtube.com/watch?v=8xqldY2r-WM",
+    "channel": "Paramount Plus",
+    "verified": true
+   },
+   {
+    "id": "TU4bIiV9mhM",
+    "title": "Everybody Loves Raymond | Everybody Hating Raymond for 11 Minutes Straight | Paramount+",
+    "duration": 697,
+    "url": "https://www.youtube.com/watch?v=TU4bIiV9mhM",
+    "channel": "Paramount Plus",
+    "verified": true
+   }
+  ],
+  "https://www.youtube.com/@HBO/videos|2026-11-28": [
+   {
+    "id": "GYms2owR-9A",
+    "title": "The Official Gilded Age Podcast | Episode 4, “Good Taste” | HBO",
+    "duration": 3478,
+    "url": "https://www.youtube.com/watch?v=GYms2owR-9A",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "9aBYN7WzIkU",
+    "title": "The Official Gilded Age Podcast | Episode 3, “Ain’t That Good News” | HBO",
+    "duration": 3544,
+    "url": "https://www.youtube.com/watch?v=9aBYN7WzIkU",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "s-HKYRQ--as",
+    "title": "The Official Gilded Age Podcast | Episode 2, “You Won’t Hear Me Beg” | HBO",
+    "duration": 3160,
+    "url": "https://www.youtube.com/watch?v=s-HKYRQ--as",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "UCI5jWuqy7Y",
+    "title": "The Official Gilded Age Podcast | Episode 1, “Ring The Bells” | HBO",
+    "duration": 3511,
+    "url": "https://www.youtube.com/watch?v=UCI5jWuqy7Y",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "0kOc-9_fZsU",
+    "title": "The Official Gilded Age Podcast Season 4 | Official Trailer | HBO",
+    "duration": 113,
+    "url": "https://www.youtube.com/watch?v=0kOc-9_fZsU",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "kRhUYPtp6Ao",
+    "title": "The Man Will Burn | Official Trailer | HBO",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=kRhUYPtp6Ao",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "NlogOxc8rXk",
+    "title": "The Welcome Table | Official Trailer | HBO",
+    "duration": 115,
+    "url": "https://www.youtube.com/watch?v=NlogOxc8rXk",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "QWl_IE5eN4I",
+    "title": "Bang My Box: The Robin Byrd Story | Official Trailer | HBO",
+    "duration": 109,
+    "url": "https://www.youtube.com/watch?v=QWl_IE5eN4I",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "Szznn02Nli0",
+    "title": "Earth, Wind & Fire | Official Trailer | HBO",
+    "duration": 118,
+    "url": "https://www.youtube.com/watch?v=Szznn02Nli0",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "wEecc5JvWbs",
+    "title": "Bring Me The Beauties | Official Trailer | HBO",
+    "duration": 133,
+    "url": "https://www.youtube.com/watch?v=wEecc5JvWbs",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "D9h0wSvS2ls",
+    "title": "The Yogurt Shop Murders: The Final Chapter | Official Trailer | HBO",
+    "duration": 89,
+    "url": "https://www.youtube.com/watch?v=D9h0wSvS2ls",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "N6Zsu7F5gFM",
+    "title": "The A List | Official Trailer | HBO",
+    "duration": 84,
+    "url": "https://www.youtube.com/watch?v=N6Zsu7F5gFM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "h7gTjnio7oQ",
+    "title": "The Dark Wizard | HBO | Trailer",
+    "duration": 157,
+    "url": "https://www.youtube.com/watch?v=h7gTjnio7oQ",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "ITtpzp_njNM",
+    "title": "Privileges | Official Trailer | HBO",
+    "duration": 114,
+    "url": "https://www.youtube.com/watch?v=ITtpzp_njNM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "aKTmUdQQoZI",
+    "title": "Fukushima: A Nuclear Nightmare | Official Trailer | HBO",
+    "duration": 130,
+    "url": "https://www.youtube.com/watch?v=aKTmUdQQoZI",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "IeBon_7qKpM",
+    "title": "Murder in Glitterball City | Official Trailer | HBO",
+    "duration": 101,
+    "url": "https://www.youtube.com/watch?v=IeBon_7qKpM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "elyhbtZjeWM",
+    "title": "Portobello | Official Trailer | HBO",
+    "duration": 123,
+    "url": "https://www.youtube.com/watch?v=elyhbtZjeWM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "qi-BZ7erUnQ",
+    "title": "33 Photos from the Ghetto | Official Trailer | HBO",
+    "duration": 130,
+    "url": "https://www.youtube.com/watch?v=qi-BZ7erUnQ",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "eKo_urZAm9o",
+    "title": "Mel Brooks: The 99 Year Old Man! | Official Trailer | HBO",
+    "duration": 96,
+    "url": "https://www.youtube.com/watch?v=eKo_urZAm9o",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "1FQWH5IYT5Y",
+    "title": "Critical Incident: Death at the Border | Official Trailer | HBO",
+    "duration": 88,
+    "url": "https://www.youtube.com/watch?v=1FQWH5IYT5Y",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "tpw4EQfdMkk",
+    "title": "Paul Anka: His Way | Official Trailer | HBO",
+    "duration": 94,
+    "url": "https://www.youtube.com/watch?v=tpw4EQfdMkk",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "fZuvEvNeuFA",
+    "title": "Happy And You Know It | Official Trailer | HBO",
+    "duration": 113,
+    "url": "https://www.youtube.com/watch?v=fZuvEvNeuFA",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "XRXUSCBzDIg",
+    "title": "Wizkid: Long Live Lagos | Official Trailer | HBO",
+    "duration": 118,
+    "url": "https://www.youtube.com/watch?v=XRXUSCBzDIg",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "DGKgfweZKmE",
+    "title": "It's Never Over, Jeff Buckley | Official Trailer | HBO",
+    "duration": 139,
+    "url": "https://www.youtube.com/watch?v=DGKgfweZKmE",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "dcraUs4bGhU",
+    "title": "The Shuffle | Official Trailer | HBO",
+    "duration": 87,
+    "url": "https://www.youtube.com/watch?v=dcraUs4bGhU",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "aRv23_VWglQ",
+    "title": "Thoughts and Prayers | Official Trailer | HBO",
+    "duration": 105,
+    "url": "https://www.youtube.com/watch?v=aRv23_VWglQ",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "dAk6rBmEB98",
+    "title": "One To One | Official Trailer | HBO",
+    "duration": 114,
+    "url": "https://www.youtube.com/watch?v=dAk6rBmEB98",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "0X6BeV6NsIc",
+    "title": "Country Doctor | Official Trailer | HBO",
+    "duration": 56,
+    "url": "https://www.youtube.com/watch?v=0X6BeV6NsIc",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "bceerB407LY",
+    "title": "Armed Only With A Camera: The Life and Death of Brent Renaud | Official Trailer | HBO",
+    "duration": 107,
+    "url": "https://www.youtube.com/watch?v=bceerB407LY",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "xRNND_uve8I",
+    "title": "The Alabama Solution | Official Trailer | HBO",
+    "duration": 136,
+    "url": "https://www.youtube.com/watch?v=xRNND_uve8I",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "H9zYviO-fEw",
+    "title": "Prime Minister | Official Trailer | HBO",
+    "duration": 136,
+    "url": "https://www.youtube.com/watch?v=H9zYviO-fEw",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "p4rC1468JuQ",
+    "title": "The Devil Is Busy | Official Trailer",
+    "duration": 89,
+    "url": "https://www.youtube.com/watch?v=p4rC1468JuQ",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "2UJLKW3SIsU",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 9 | HBO",
+    "duration": 3996,
+    "url": "https://www.youtube.com/watch?v=2UJLKW3SIsU",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "rgsE8n3zXzY",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 8 | HBO",
+    "duration": 3960,
+    "url": "https://www.youtube.com/watch?v=rgsE8n3zXzY",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "ZmV5M1No7DY",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 7 | HBO",
+    "duration": 4061,
+    "url": "https://www.youtube.com/watch?v=ZmV5M1No7DY",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "e1aV7GHGob4",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 6 | HBO",
+    "duration": 4251,
+    "url": "https://www.youtube.com/watch?v=e1aV7GHGob4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "aIfPkXkx7K8",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 5 | HBO",
+    "duration": 4305,
+    "url": "https://www.youtube.com/watch?v=aIfPkXkx7K8",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "3AP_vaXoI40",
+    "title": "The Yogurt Shop Murders | Official Trailer | HBO",
+    "duration": 105,
+    "url": "https://www.youtube.com/watch?v=3AP_vaXoI40",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "xwNDfCXc06g",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 4 | HBO",
+    "duration": 3827,
+    "url": "https://www.youtube.com/watch?v=xwNDfCXc06g",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "s94mJ9CP5L4",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 3 | HBO",
+    "duration": 3942,
+    "url": "https://www.youtube.com/watch?v=s94mJ9CP5L4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "70qIqtM78MA",
+    "title": "Mariska Hargitay Gifted Jayne Mansfield's Items | My Mom Jayne, A Film by Mariska Hargitay | HBO",
+    "duration": 155,
+    "url": "https://www.youtube.com/watch?v=70qIqtM78MA",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "dDKsO_Tg3zE",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 2 | HBO",
+    "duration": 3971,
+    "url": "https://www.youtube.com/watch?v=dDKsO_Tg3zE",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "45OJI-7K5a4",
+    "title": "Dear Ms.: A Revolution in Print | Official Trailer | HBO",
+    "duration": 116,
+    "url": "https://www.youtube.com/watch?v=45OJI-7K5a4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "4IQJRoEx4_E",
+    "title": "The Official Gilded Age Podcast Season 3 | Episode 1 | HBO",
+    "duration": 4695,
+    "url": "https://www.youtube.com/watch?v=4IQJRoEx4_E",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "wTAomoWhMeo",
+    "title": "The Official Gilded Age Podcast Season 3 | Official Trailer | HBO",
+    "duration": 100,
+    "url": "https://www.youtube.com/watch?v=wTAomoWhMeo",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "QyV0pqwjJXk",
+    "title": "Enigma | Official Trailer | HBO",
+    "duration": 127,
+    "url": "https://www.youtube.com/watch?v=QyV0pqwjJXk",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "iSP3PUHmCvc",
+    "title": "Surviving Ohio State | Official Trailer | HBO",
+    "duration": 110,
+    "url": "https://www.youtube.com/watch?v=iSP3PUHmCvc",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "fZM6m_GJhr8",
+    "title": "My Mom Jayne, A Film by Mariska Hargitay | Official Trailer | HBO",
+    "duration": 153,
+    "url": "https://www.youtube.com/watch?v=fZM6m_GJhr8",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "H3PpoGH_Xlg",
+    "title": "The Mortician | Official Trailer | HBO",
+    "duration": 106,
+    "url": "https://www.youtube.com/watch?v=H3PpoGH_Xlg",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "OB59hKIR77w",
+    "title": "The Righteous Gemstones Season 4 Bloopers | The Righteous Gemstones | HBO",
+    "duration": 169,
+    "url": "https://www.youtube.com/watch?v=OB59hKIR77w",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "8U5r5xAjR2Y",
+    "title": "Jerrod Carmichael: Don’t Be Gay | Official Trailer | HBO",
+    "duration": 99,
+    "url": "https://www.youtube.com/watch?v=8U5r5xAjR2Y",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "95oHSeh_Lbc",
+    "title": "Baby Billy on the Creation of 'Teenjus' | The Righteous Gemstones | HBO",
+    "duration": 204,
+    "url": "https://www.youtube.com/watch?v=95oHSeh_Lbc",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "teX9hkpsNzI",
+    "title": "The Righteous Gemstones Season 4 | Episode 9 Preview | HBO",
+    "duration": 52,
+    "url": "https://www.youtube.com/watch?v=teX9hkpsNzI",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "t258ycRj_nw",
+    "title": "Ashlee Marie Preston & Qween Jean Discuss Black Trans Liberation | Eyes On The Prize III | HBO",
+    "duration": 389,
+    "url": "https://www.youtube.com/watch?v=t258ycRj_nw",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "jVx74C-RGDw",
+    "title": "Pee-wee as Himself | Official Trailer | HBO",
+    "duration": 144,
+    "url": "https://www.youtube.com/watch?v=jVx74C-RGDw",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "Ke5gDQUxyIM",
+    "title": "Philip Agnew & ﻿Richie Reseda Discuss Justice and Community | Eyes On The Prize III | HBO",
+    "duration": 296,
+    "url": "https://www.youtube.com/watch?v=Ke5gDQUxyIM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "CsqQOPZofGo",
+    "title": "The Righteous Gemstones Season 4 | Episode 8 Preview | HBO",
+    "duration": 56,
+    "url": "https://www.youtube.com/watch?v=CsqQOPZofGo",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "q_U6U5iA138",
+    "title": "100 Foot Wave Season 3 | Official Trailer | HBO",
+    "duration": 130,
+    "url": "https://www.youtube.com/watch?v=q_U6U5iA138",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "vhEYSxPIxGs",
+    "title": "Selina Meyer Gets Backlash for Firing a Secret Service Agent | Veep | HBO",
+    "duration": 180,
+    "url": "https://www.youtube.com/watch?v=vhEYSxPIxGs",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "HlqITcZ0lwM",
+    "title": "The Righteous Gemstones Season 4 | Episode 7 Preview | HBO",
+    "duration": 60,
+    "url": "https://www.youtube.com/watch?v=HlqITcZ0lwM",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "g3Msx_OpnAs",
+    "title": "The White Lotus Official Season 3 Podcast | Bonus Episode | HBO",
+    "duration": 2507,
+    "url": "https://www.youtube.com/watch?v=g3Msx_OpnAs",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "eBUXxbeOSC4",
+    "title": "Brett Goldstein: The Second Best Night of Your Life | Official Trailer | HBO",
+    "duration": 65,
+    "url": "https://www.youtube.com/watch?v=eBUXxbeOSC4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "dykZuyO7RUU",
+    "title": "The Dark Money Game | Official Trailer | HBO",
+    "duration": 148,
+    "url": "https://www.youtube.com/watch?v=dykZuyO7RUU",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "Fj2qIKUh92o",
+    "title": "The Righteous Gemstones Season 4 | Episode 6 Preview | HBO",
+    "duration": 58,
+    "url": "https://www.youtube.com/watch?v=Fj2qIKUh92o",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "qZxhAM0TUO4",
+    "title": "The White Lotus Official Season 3 Podcast | Bonus Episode | HBO",
+    "duration": 2054,
+    "url": "https://www.youtube.com/watch?v=qZxhAM0TUO4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "rZ0TmcC60vA",
+    "title": "The White Lotus Official Season 3 Podcast | Episode 8 | HBO",
+    "duration": 3126,
+    "url": "https://www.youtube.com/watch?v=rZ0TmcC60vA",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "uFfC4LcJK4k",
+    "title": "A Day In The Life of BJ Barnes | The Righteous Gemstones | HBO",
+    "duration": 193,
+    "url": "https://www.youtube.com/watch?v=uFfC4LcJK4k",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "6CaHP5P4wUc",
+    "title": "The Rehearsal Season 2 | Official Trailer | HBO",
+    "duration": 131,
+    "url": "https://www.youtube.com/watch?v=6CaHP5P4wUc",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "eWbJPi6BOlg",
+    "title": "The White Lotus Official Season 3 Podcast | Episode 7 Bonus Episode | HBO",
+    "duration": 1958,
+    "url": "https://www.youtube.com/watch?v=eWbJPi6BOlg",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "M5cW17Sroz4",
+    "title": "The Righteous Gemstones | Episode 5 Preview | HBO",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=M5cW17Sroz4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "lIb9XRtiDgA",
+    "title": "The White Lotus Official Season 3 Podcast | Episode 7 | HBO",
+    "duration": 2838,
+    "url": "https://www.youtube.com/watch?v=lIb9XRtiDgA",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "rA1Q8LICB8s",
+    "title": "The Righteous Gemstones Season 4 | Episode 4 Preview | HBO",
+    "duration": 56,
+    "url": "https://www.youtube.com/watch?v=rA1Q8LICB8s",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "7U4GO2Eiuis",
+    "title": "The White Lotus Official Season 3 Podcast | Episode 6 | HBO",
+    "duration": 3160,
+    "url": "https://www.youtube.com/watch?v=7U4GO2Eiuis",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "1YzjV_4cli8",
+    "title": "Neal Gamby & Lee Russell Get High at the Homecoming Game | Vice Principals | HBO",
+    "duration": 218,
+    "url": "https://www.youtube.com/watch?v=1YzjV_4cli8",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "WXFHNM-RuG8",
+    "title": "Paul Atreides Tries Riding A Sandworm | Dune: Part Two | HBO",
+    "duration": 230,
+    "url": "https://www.youtube.com/watch?v=WXFHNM-RuG8",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "iqXQnRuOw18",
+    "title": "Truest Blood Official Podcast Season 7 | Episode 5 | HBO",
+    "duration": 3697,
+    "url": "https://www.youtube.com/watch?v=iqXQnRuOw18",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "iK5MlScCqas",
+    "title": "The Righteous Gemstones Season 4 | Episode 3 Preview | HBO",
+    "duration": 57,
+    "url": "https://www.youtube.com/watch?v=iK5MlScCqas",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "Rb1vOvKgBrk",
+    "title": "The White Lotus Official Season 3 Podcast | Episode 5 | HBO",
+    "duration": 3163,
+    "url": "https://www.youtube.com/watch?v=Rb1vOvKgBrk",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "gO1zFmoEwZ4",
+    "title": "Inside Bradley Cooper As The First Gemstone | The Righteous Gemstones Season 4 | HBO",
+    "duration": 315,
+    "url": "https://www.youtube.com/watch?v=gO1zFmoEwZ4",
+    "channel": "HBO",
+    "verified": true
+   },
+   {
+    "id": "zf_vxdN862I",
+    "title": "Pedro Pascal’s Best Oberyn Martell Moments | Game of Thrones | HBO",
+    "duration": 293,
+    "url": "https://www.youtube.com/watch?v=zf_vxdN862I",
+    "channel": "HBO",
+    "verified": true
+   }
+  ]
  },
  "song_fail": {},
  "pre_vet": {
@@ -34383,6 +39571,24 @@
    ],
    "vet_via": "preview",
    "at": "2026-11-28 08:20"
+  },
+  "88TWWLDELI0": {
+   "accept": false,
+   "reject_reasons": [
+    "on-screen text overlay over the footage (2 GOALS!)"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-28 10:28"
+  },
+  "S9ucRYLjM-M": {
+   "accept": false,
+   "reject_reasons": [
+    "corner logo present in top-left",
+    "flag:watermark",
+    "flag:channel_logo"
+   ],
+   "vet_via": "preview",
+   "at": "2026-11-28 10:30"
   }
  },
  "failures": [
@@ -39071,6 +44277,18 @@
    "platform": "instagram",
    "category": "sports",
    "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T16:05:46.813372+05:30",
+   "platform": "instagram",
+   "category": "sports",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
+  },
+  {
+   "at": "2026-11-28T16:23:52.076910+05:30",
+   "platform": "instagram",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   }
  ],
  "vet_rules": "no-text-v2"

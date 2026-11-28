@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T16:43:53.131633+05:30",
+ "updated": "2026-11-28T16:44:04.390245+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (2/7 ready)",
@@ -425,20 +425,6 @@
    "platform": "instagram"
   }
  ],
- "last_run": {
-  "platform": "instagram",
-  "in_progress": true,
-  "made": [
-   "in-sports-20261128-160547",
-   "in-series-20261128-162352"
-  ],
-  "last_video": {
-   "id": "in-series-20261128-162352",
-   "category": "series",
-   "title": "Series Scene Edit | Bad Guy Edit",
-   "at": "2026-11-28T16:43:52.705234+05:30"
-  }
- },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
   "age_hours": 2.6,
@@ -458,30 +444,5 @@
   },
   "errors": [],
   "message": "OK"
- },
- "stock": {
-  "updated": "2026-11-28T16:43:56.142463+05:30",
-  "ledger_readable": true,
-  "platforms": {
-   "instagram": {
-    "in_stock": 2,
-    "posted_still_in_stock": 0,
-    "unposted": 2,
-    "unposted_ids": [
-     "in-series-20261128-162352",
-     "in-sports-20261128-160547"
-    ],
-    "posted_total": 9
-   },
-   "youtube": {
-    "in_stock": 1,
-    "posted_still_in_stock": 0,
-    "unposted": 1,
-    "unposted_ids": [
-     "yo-gaming-20261128-151536"
-    ],
-    "posted_total": 10
-   }
-  }
  }
 }

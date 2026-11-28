@@ -1,0 +1,574 @@
+{
+ "platform": "instagram",
+ "made": [
+  "in-sports-20261128-160547",
+  "in-series-20261128-162352"
+ ],
+ "failures": [
+  "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt",
+  "CategoryUnavailable: only 0 clean sources for gta"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "sports",
+   "ok": false,
+   "timings": {
+    "gather": 363.1,
+    "song": 85.8,
+    "beats": 9.6,
+    "scan_plan": 143.0,
+    "total": 601.5
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "sports",
+   "ok": true,
+   "timings": {
+    "gather": 330.6,
+    "song": 33.3,
+    "beats": 0.5,
+    "scan_plan": 45.3,
+    "render": 367.4,
+    "gemini_meta": 90.0,
+    "shorts_9x16": 139.6,
+    "qa": 8.5,
+    "preview": 38.8,
+    "save": 16.6,
+    "total": 1070.6
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 13.6,
+    "total": 13.6
+   }
+  },
+  {
+   "attempt": 4,
+   "category": "series",
+   "ok": true,
+   "timings": {
+    "gather": 426.2,
+    "song": 46.3,
+    "beats": 0.4,
+    "scan_plan": 91.0,
+    "render": 406.1,
+    "gemini_meta": 0.0,
+    "shorts_9x16": 161.9,
+    "qa": 8.9,
+    "preview": 45.8,
+    "save": 18.7,
+    "total": 1205.3
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 1133.5,
+  "song": 165.4,
+  "beats": 10.5,
+  "scan_plan": 279.3,
+  "render": 773.5,
+  "gemini_meta": 90.0,
+  "shorts_9x16": 301.5,
+  "qa": 17.4,
+  "preview": 84.6,
+  "save": 35.3
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 4,
+  "vetted": 15,
+  "rejected": [
+   {
+    "id": "88TWWLDELI0",
+    "title": "Cristiano Ronaldo Jr. CARRYING Al Nassr U-17 vs Al Ahli 2-1 | All Goals & Highlights 🐐❤️",
+    "reasons": [
+     "on-screen text overlay over the footage (2 GOALS!)"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "S9ucRYLjM-M",
+    "title": "PUSKAS CONTENDER: Every replay of THAT Cristiano Ronaldo volley 🐐🚀",
+    "reasons": [
+     "corner logo present in top-left",
+     "flag:watermark",
+     "flag:channel_logo"
+    ],
+    "via": "youtube-search"
+   },
+   {
+    "id": "Fj2qIKUh92o",
+    "title": "The Righteous Gemstones Season 4 | Episode 6 Preview | HBO",
+    "reasons": [
+     "Content is a trailer/preview",
+     "Persistent channel logo/bug 'max' in corner",
+     "Text overlays on ad slate and end screen",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "R-znj7Uf9Oo",
+    "title": "The Righteous Gemstones: Misbehavin' with Jennifer Nettles and Walton Goggins (S1 E5 Clip) | HBO",
+    "reasons": [
+     "Persistent HBO channel logo bug in bottom right corner",
+     "Max ad slate text overlay at end",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "CsqQOPZofGo",
+    "title": "The Righteous Gemstones Season 4 | Episode 8 Preview | HBO",
+    "reasons": [
+     "Content is a trailer/preview/promo",
+     "Persistent channel logo bug (max) in top right corner",
+     "On-screen text overlays (title card, pricing, end screens)",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Xet5UKZkgqw",
+    "title": "The Righteous Gemstones' Best Insults | The Righteous Gemstones | HBO",
+    "reasons": [
+     "Persistent channel logo/bug ('max') visible in the top right corner of all content frames",
+     "End slate with on-screen text overlays ('Discover More', 'SUBSCRIBE') at the end of the clip",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "iK5MlScCqas",
+    "title": "The Righteous Gemstones Season 4 | Episode 3 Preview | HBO",
+    "reasons": [
+     "Content is a trailer/preview",
+     "Persistent channel logo 'max' in top right corner",
+     "Text overlays and end slates present",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "HlqITcZ0lwM",
+    "title": "The Righteous Gemstones Season 4 | Episode 7 Preview | HBO",
+    "reasons": [
+     "Persistent channel logo/bug ('max') in top right corner",
+     "Content is a trailer/preview/promo",
+     "End screen with subscription text and 'Discover More'",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "rA1Q8LICB8s",
+    "title": "The Righteous Gemstones Season 4 | Episode 4 Preview | HBO",
+    "reasons": [
+     "Content is a trailer/preview/promo",
+     "Persistent channel logo bug (max) in corner",
+     "On-screen text overlays and end slates",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "uMuL5-Ma36w",
+    "title": "Percy Jackson and the Olympians Season 2 | The Chase Is On | Disney+",
+    "reasons": [
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "oqH-IuYZO0I",
+    "title": "Percy Jackson and the Olympians | Season 3 Watch Party | Disney+",
+    "reasons": [
+     "burned_in_text_overlay",
+     "picture_in_picture",
+     "promo_overlay",
+     "channel_bug",
+     "watermark",
+     "channel_logo",
+     "burned_subtitles",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "BBb0zIriLJY",
+    "title": "Percy Jackson and the Olympians Season 2 | Diving into the Sea of Monsters | Disney+",
+    "reasons": [
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "D-Bcg6BCsiE",
+    "title": "The Wedding Dress | Percy Jackson and the Olympians | Disney+",
+    "reasons": [
+     "Persistent channel logo bug in corner (Disney+ hulu)",
+     "Burned-in text overlay (narrator credit)",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "vmuO4PejTSk",
+    "title": "Demigod Diaries 302 | Percy Jackson and the Olympians | Disney+",
+    "reasons": [
+     "Persistent channel logos/bugs in top corners (Disney+, Hulu, Percy Jackson)",
+     "Burned-in actor identification text overlay",
+     "watermark",
+     "channel_logo",
+     "burned_subtitles",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "WKjmlew8n9c",
+    "title": "Bloopers | Percy Jackson and the Olympians | Disney+",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "sports",
+   "gta",
+   "series"
+  ],
+  "runner_skipped": 19,
+  "box_clips_used": 3,
+  "failed_ids": [
+   "Jh_cVHowtlQ",
+   "Doiq12y4078",
+   "7luPd6Grrmk",
+   "Cp9LC0JWX2c"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  }
+ ],
+ "skipped_categories": [
+  "gta"
+ ],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0
+  },
+  "exhausted": true,
+  "reset_at": "2026-11-29 13:30 IST"
+ }
+}
