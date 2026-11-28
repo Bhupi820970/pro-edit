@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T15:38:40.460322+05:30",
+ "updated": "2026-11-28T15:40:13.362922+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -311,19 +311,6 @@
    "platform": "youtube"
   }
  ],
- "last_run": {
-  "platform": "youtube",
-  "in_progress": true,
-  "made": [
-   "yo-gaming-20261128-151536"
-  ],
-  "last_video": {
-   "id": "yo-gaming-20261128-151536",
-   "category": "gaming",
-   "title": "Minecraft Dungeons II: The Humblers Awaken Trailer Fan Edit",
-   "at": "2026-11-28T15:38:40.202247+05:30"
-  }
- },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
   "age_hours": 1.5,
@@ -343,27 +330,5 @@
   },
   "errors": [],
   "message": "OK"
- },
- "stock": {
-  "updated": "2026-11-28T15:38:42.347357+05:30",
-  "ledger_readable": true,
-  "platforms": {
-   "youtube": {
-    "in_stock": 1,
-    "posted_still_in_stock": 0,
-    "unposted": 1,
-    "unposted_ids": [
-     "yo-gaming-20261128-151536"
-    ],
-    "posted_total": 10
-   },
-   "instagram": {
-    "in_stock": 0,
-    "posted_still_in_stock": 0,
-    "unposted": 0,
-    "unposted_ids": [],
-    "posted_total": 9
-   }
-  }
  }
 }

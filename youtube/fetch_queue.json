@@ -1,17 +1,33 @@
 {
  "requests": [
   {
-   "id": "youtube-202611281537-movie",
-   "category": "movie",
+   "id": "youtube-202611281538-gta",
+   "category": "gta",
    "limit": 3,
-   "at": "2026-11-28T15:37:32.228567+05:30",
-   "reason": "thin=True download_failed=0 bot_checks=0",
+   "at": "2026-11-28T15:38:43.604818+05:30",
+   "reason": "thin=True download_failed=6 bot_checks=4",
    "queries": [
-    "official action movie clip Sony Pictures",
-    "official car chase scene clip Universal Pictures"
+    "Grand Theft Auto V official gameplay full scene",
+    "GTA Online official gameplay full episode",
+    "GTA Online official gameplay official highlights",
+    "Grand Theft Auto VI official cinematic gameplay"
+   ],
+   "links": []
+  },
+  {
+   "id": "youtube-202611281539-gaming",
+   "category": "gaming",
+   "limit": 3,
+   "at": "2026-11-28T15:39:09.819718+05:30",
+   "reason": "thin=True download_failed=6 bot_checks=4",
+   "queries": [
+    "Red Dead Redemption 2 official gameplay reveal trailer",
+    "Cyberpunk 2077 official cinematic trailer",
+    "Cyberpunk 2077 official gameplay reveal",
+    "Elden Ring official gameplay reveal trailer"
    ],
    "links": []
   }
  ],
- "updated": "2026-11-28T15:37:32.228680+05:30"
+ "updated": "2026-11-28T15:40:06.806036+05:30"
 }

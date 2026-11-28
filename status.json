@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-28T15:37:41.781075+05:30",
+ "updated": "2026-11-28T15:40:23.320551+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "platforms": {
   "youtube": {
-   "ready": 0,
+   "ready": 1,
    "target": 7,
    "warning": true,
-   "produced_today": 4,
+   "produced_today": 5,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (0/7 ready)"
+   "message": "BACKUP LOW: refill youtube (1/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -25,9 +25,149 @@
    "message": "BACKUP LOW: refill instagram (0/7 ready)"
   }
  },
- "ready": [],
+ "ready": [
+  {
+   "id": "yo-gaming-20261128-151536",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-28T15:38:06.900332+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-151536.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-151536.mp4",
+   "preview_mb": 21.8,
+   "size_mb": 241.9,
+   "title": "Minecraft Dungeons II: The Humblers Awaken Trailer Fan Edit",
+   "hook": "THE HUMBLERS AWAKEN",
+   "description": "Experience the epic-scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale scale action with 'Unity' by TheFatRat. ⚔️\n\nAre you ready for the next adventure in Minecraft Dungeons Dungeons Dungeons Dungeons Dungeons Dungeons Dungeons Dungeons Dungeons Dähers? 🎮\textthought}Building a fan edit for Minecraft Dungeons II using\n\n🎵 Song: \"Unity\" – TheFatRat (original recording)\n🔗 Official audio: https://soundcloud.com/thefatrat/thefatrat-unity-1\n🎧 Spotify: https://open.spotify.com/search/TheFatRat%20Unity\n🎬 Footage: Minecraft – \"MINECRAFT DUNGEONS II | The Humblers Awaken – Announce Trailer\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#minecraft #minecraftdungeons #minecraftdungeons2 #gaming #fanedit #thefatrat #unity #gamingcommunity #minecraftshorts #action #traileredit #videogames #minecraftedit #gamingclips #rpg #adventure #mc #dungeons #gaminglife #videogameedit #GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "minecraft",
+    "minecraftdungeons",
+    "minecraftdungeons2",
+    "gaming",
+    "fanedit",
+    "thefatrat",
+    "unity",
+    "gamingcommunity",
+    "minecraftshorts",
+    "action",
+    "traileredit",
+    "videogames",
+    "minecraftedit",
+    "gamingclips",
+    "rpg",
+    "adventure",
+    "mc",
+    "dungeons",
+    "gaminglife",
+    "videogameedit",
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Unity",
+    "artist": "TheFatRat",
+    "url": "https://soundcloud.com/thefatrat/thefatrat-unity-1",
+    "official_channel": "TheFatRat",
+    "spotify_search": "https://open.spotify.com/search/TheFatRat%20Unity"
+   },
+   "song_credit": "\"Unity\" – TheFatRat",
+   "pattern": {
+    "id": "P11",
+    "name": "Even mix"
+   },
+   "captions": [],
+   "duration": 38.4,
+   "sources": [
+    {
+     "id": "s0w_pTOXDBQ",
+     "src_id": "s0w_pTOXDBQ",
+     "path": "/mnt/ph/youtube/sources/s0w_pTOXDBQ.mkv",
+     "title": "MINECRAFT DUNGEONS II | The Humblers Awaken – Announce Trailer",
+     "credit": "Minecraft",
+     "url": "https://www.youtube.com/watch?v=s0w_pTOXDBQ"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.4
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -6.7
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 0
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 148.0,
+    "song": 34.9,
+    "beats": 0.0,
+    "scan_plan": 2.5,
+    "more_clips": 201.9,
+    "render": 617.0,
+    "gemini_meta": 56.6,
+    "wide_4k": 222.1,
+    "qa": 14.5,
+    "preview": 53.1
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-151536.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-151536.preview.mp4"
+  }
+ ],
  "approved": [],
  "recent_failures": [
+  {
+   "at": "2026-11-27T15:01:38.139139+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 1 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T09:39:20.370651+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T09:42:30.109671+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
   {
    "at": "2026-11-28T10:05:04.161661+05:30",
    "platform": "youtube",
@@ -83,40 +223,22 @@
    "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"GREATEST WOMAN EVER\", \"ALSO\"]}}"
   },
   {
-   "at": "2026-11-28T15:25:50.931979+05:30",
+   "at": "2026-11-28T14:56:17.668539+05:30",
    "platform": "youtube",
-   "category": "movie",
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-28T15:29:16.571122+05:30",
+   "at": "2026-11-28T15:05:35.182799+05:30",
    "platform": "youtube",
-   "category": "movie",
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
   },
   {
-   "at": "2026-11-28T15:31:55.014970+05:30",
+   "at": "2026-11-28T15:15:35.204482+05:30",
    "platform": "youtube",
-   "category": "movie",
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
-  },
-  {
-   "at": "2026-11-28T15:33:30.613939+05:30",
-   "platform": "youtube",
-   "category": "movie",
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
-  },
-  {
-   "at": "2026-11-28T15:35:37.107534+05:30",
-   "platform": "youtube",
-   "category": "movie",
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
-  },
-  {
-   "at": "2026-11-28T15:37:31.005401+05:30",
-   "platform": "youtube",
-   "category": "movie",
-   "error": "RuntimeError: not enough distinct montage shots in --clips"
+   "category": "gaming",
+   "error": "AttemptTimeout: sourcing + song + scan/plan took longer than 10 min -> skip attempt"
   },
   {
    "at": "2026-11-27T14:43:09.803527+05:30",
@@ -230,5 +352,5 @@
   "message": "OK"
  },
  "warning": true,
- "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)"
+ "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)"
 }
