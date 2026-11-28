@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-28T15:03:20.009938+05:30",
+ "updated": "2026-11-28T15:04:35.502212+05:30",
  "duplicates": [
   {
    "id": "yo-gta-20261126-174815",
@@ -339,13 +339,20 @@
   {
    "id": "in-romance-20261128-093657",
    "platform": "instagram",
-   "status": "posting",
+   "status": "posted",
    "run_id": "46130992596",
    "intent_at": "2026-11-28T15:03:19.824901+05:30",
    "title": "Jack Hit Romance Edit | Earned It",
    "slot": "2026-11-28T15:00",
-   "updated_at": "2026-11-28T15:03:20.009913+05:30",
-   "posted_at": "2026-11-28T15:03:20.009913+05:30"
+   "updated_at": "2026-11-28T15:04:35.502186+05:30",
+   "posted_at": "2026-11-28T15:04:35.502186+05:30",
+   "youtube_id": null,
+   "youtube_url": null,
+   "instagram_url": "https://www.instagram.com/reel/DgR8VsYBHWU/",
+   "ig_media_id": "17951983161348928",
+   "ig_container_id": "18190952326423233",
+   "buffer_post_id": null,
+   "buffer_status": null
   }
  ]
 }
