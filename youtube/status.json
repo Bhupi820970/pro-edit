@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-28T22:13:11.042641+05:30",
+ "updated": "2026-11-28T23:03:39.751061+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
+ "message": "BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
  "platforms": {
   "youtube": {
-   "ready": 1,
+   "ready": 2,
    "target": 7,
    "warning": true,
-   "produced_today": 8,
+   "produced_today": 9,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (1/7 ready)"
+   "message": "BACKUP LOW: refill youtube (2/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -127,40 +127,145 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-173233.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gaming-20261128-173233.preview.mp4"
+  },
+  {
+   "id": "yo-dc-20261128-224523",
+   "platform": "youtube",
+   "category": "dc",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-28T23:02:54.697982+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-dc-20261128-224523.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-dc-20261128-224523.mp4",
+   "preview_mb": 21.7,
+   "size_mb": 241.5,
+   "title": "DC Scene Edit | Purple Lamborghini Edit",
+   "hook": "PURE DISRESPECT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Purple Lamborghini\" – Skrillex & Rick Ross (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=ZkqyIoYAXV8\n🎧 Spotify: https://open.spotify.com/search/Skrillex%20%26%20Rick%20Ross%20Purple%20Lamborghini\n🎬 Footage: DC – \"Creature Commandos - A CLASH with Clayface 👹 | DC\"; DC – \"Creature Commandos - Meeting Task Force M | Super Scenes | DC\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#DC #DCEdit #Batman #Superman",
+   "hashtags": [
+    "DC",
+    "DCEdit",
+    "Batman",
+    "Superman"
+   ],
+   "song": {
+    "title": "Purple Lamborghini",
+    "artist": "Skrillex & Rick Ross",
+    "url": "https://www.youtube.com/watch?v=ZkqyIoYAXV8",
+    "official_channel": "Skrillex",
+    "spotify_search": "https://open.spotify.com/search/Skrillex%20%26%20Rick%20Ross%20Purple%20Lamborghini"
+   },
+   "song_credit": "\"Purple Lamborghini\" – Skrillex & Rick Ross",
+   "pattern": {
+    "id": "P04",
+    "name": "Stepping down beside"
+   },
+   "captions": [
+    "THE BRIDE IS",
+    "TRYING TO KILL",
+    "HER",
+    "SHE'S NOT GONNA",
+    "LISTEN TO WHAT",
+    "ILANA HAS TO",
+    "SAY",
+    "I'M BEGINNING TO",
+    "SUSPECT THIS WHOLE",
+    "PLAN MAKES ABSOLUTELY",
+    "NO SENSE FROM",
+    "MY POINT OF",
+    "VIEW",
+    "HIDE!",
+    "WELL",
+    "HOW DOES THAT",
+    "RADIATION AFFECT THE",
+    "PEOPLE AROUND THEM?",
+    "IF YOU DON'T",
+    "SLEEP IN THE",
+    "SAME ROOM WITH",
+    "HIM",
+    "THE EFFECTS SHOULD",
+    "BE MINIMAL",
+    "MINIMAL?"
+   ],
+   "duration": 38.63,
+   "sources": [
+    {
+     "id": "kbd9bNz1Nvo_c00",
+     "src_id": "kbd9bNz1Nvo",
+     "path": "/mnt/ph/youtube/sources/chunks/kbd9bNz1Nvo_c00.mkv",
+     "title": "Creature Commandos - A CLASH with Clayface 👹 | DC",
+     "credit": "DC",
+     "url": "https://www.youtube.com/watch?v=kbd9bNz1Nvo"
+    },
+    {
+     "id": "XT3iuj3PHYk",
+     "src_id": "XT3iuj3PHYk",
+     "path": "/mnt/ph/youtube/sources/XT3iuj3PHYk.mkv",
+     "title": "Creature Commandos - Meeting Task Force M | Super Scenes | DC",
+     "credit": "DC",
+     "url": "https://www.youtube.com/watch?v=XT3iuj3PHYk"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.63
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 25
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 42.3,
+    "song": 35.8,
+    "beats": 8.6,
+    "scan_plan": 229.1,
+    "render": 410.4,
+    "gemini_meta": 25.8,
+    "wide_4k": 226.2,
+    "qa": 16.2,
+    "preview": 57.2
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-224523.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-224523.preview.mp4"
   }
  ],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-28T17:13:20.682340+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T20:08:02.768578+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T20:09:50.458684+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
-  },
-  {
-   "at": "2026-11-28T20:31:56.428570+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-28T20:34:41.078699+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
   {
    "at": "2026-11-28T21:05:48.965352+05:30",
    "platform": "youtube",
@@ -220,6 +325,36 @@
    "platform": "youtube",
    "category": "dc",
    "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"BUT THE COMMANDOS\"]}}"
+  },
+  {
+   "at": "2026-11-28T22:36:37.129239+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T22:42:31.916438+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
+  },
+  {
+   "at": "2026-11-28T22:43:31.610762+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T22:44:20.682417+05:30",
+   "platform": "youtube",
+   "category": "series",
+   "error": "CategoryUnavailable: no clips of a single title for series"
+  },
+  {
+   "at": "2026-11-28T22:45:21.831934+05:30",
+   "platform": "youtube",
+   "category": "marvel",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
   }
  ],
  "pattern_history": [
@@ -300,11 +435,30 @@
    "at": "2026-11-28T17:51:09.298984+05:30",
    "video": "yo-gaming-20261128-173233",
    "platform": "youtube"
+  },
+  {
+   "id": "P04",
+   "at": "2026-11-28T23:02:54.698546+05:30",
+   "video": "yo-dc-20261128-224523",
+   "platform": "youtube"
   }
  ],
+ "last_run": {
+  "platform": "youtube",
+  "in_progress": true,
+  "made": [
+   "yo-dc-20261128-224523"
+  ],
+  "last_video": {
+   "id": "yo-dc-20261128-224523",
+   "category": "dc",
+   "title": "DC Scene Edit | Purple Lamborghini Edit",
+   "at": "2026-11-28T23:03:39.292959+05:30"
+  }
+ },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
-  "age_hours": 8.1,
+  "age_hours": 8.9,
   "healthy": true,
   "pool": {
    "gta": 3,
@@ -321,5 +475,35 @@
   },
   "errors": [],
   "message": "OK"
+ },
+ "stock": {
+  "updated": "2026-11-28T23:03:43.997380+05:30",
+  "ledger_readable": true,
+  "platforms": {
+   "instagram": {
+    "in_stock": 3,
+    "posted_still_in_stock": 0,
+    "unposted": 3,
+    "unposted_ids": [
+     "in-anime-20261128-211330",
+     "in-dc-20261128-185757",
+     "in-movie-20261128-191301"
+    ],
+    "posted_total": 11
+   },
+   "youtube": {
+    "in_stock": 5,
+    "posted_still_in_stock": 0,
+    "unposted": 5,
+    "unposted_ids": [
+     "yo-anime-20261128-211330",
+     "yo-dc-20261128-185757",
+     "yo-dc-20261128-224523",
+     "yo-gaming-20261128-173233",
+     "yo-movie-20261128-191301"
+    ],
+    "posted_total": 12
+   }
+  }
  }
 }
