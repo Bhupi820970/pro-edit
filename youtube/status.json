@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T23:03:39.751061+05:30",
+ "updated": "2026-11-28T23:04:01.468046+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
  "message": "BACKUP LOW: refill youtube (2/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
@@ -443,19 +443,6 @@
    "platform": "youtube"
   }
  ],
- "last_run": {
-  "platform": "youtube",
-  "in_progress": true,
-  "made": [
-   "yo-dc-20261128-224523"
-  ],
-  "last_video": {
-   "id": "yo-dc-20261128-224523",
-   "category": "dc",
-   "title": "DC Scene Edit | Purple Lamborghini Edit",
-   "at": "2026-11-28T23:03:39.292959+05:30"
-  }
- },
  "box_fetcher": {
   "last_run": "2026-11-28T14:07:42.590791+05:30",
   "age_hours": 8.9,
@@ -475,35 +462,5 @@
   },
   "errors": [],
   "message": "OK"
- },
- "stock": {
-  "updated": "2026-11-28T23:03:43.997380+05:30",
-  "ledger_readable": true,
-  "platforms": {
-   "instagram": {
-    "in_stock": 3,
-    "posted_still_in_stock": 0,
-    "unposted": 3,
-    "unposted_ids": [
-     "in-anime-20261128-211330",
-     "in-dc-20261128-185757",
-     "in-movie-20261128-191301"
-    ],
-    "posted_total": 11
-   },
-   "youtube": {
-    "in_stock": 5,
-    "posted_still_in_stock": 0,
-    "unposted": 5,
-    "unposted_ids": [
-     "yo-anime-20261128-211330",
-     "yo-dc-20261128-185757",
-     "yo-dc-20261128-224523",
-     "yo-gaming-20261128-173233",
-     "yo-movie-20261128-191301"
-    ],
-    "posted_total": 12
-   }
-  }
  }
 }

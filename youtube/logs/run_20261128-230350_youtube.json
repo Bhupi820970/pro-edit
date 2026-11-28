@@ -1,0 +1,315 @@
+{
+ "platform": "youtube",
+ "made": [
+  "yo-dc-20261128-224523"
+ ],
+ "failures": [
+  "CategoryUnavailable: only 0 clean sources for gta",
+  "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2",
+  "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2",
+  "CategoryUnavailable: no clips of a single title for series",
+  "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 355.8,
+    "total": 355.8
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "gaming",
+   "ok": false,
+   "timings": {
+    "gather": 356.0,
+    "total": 356.0
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "movie",
+   "ok": false,
+   "timings": {
+    "gather": 59.6,
+    "total": 59.6
+   }
+  },
+  {
+   "attempt": 4,
+   "category": "series",
+   "ok": false,
+   "timings": {
+    "gather": 47.9,
+    "total": 47.9
+   }
+  },
+  {
+   "attempt": 5,
+   "category": "marvel",
+   "ok": false,
+   "timings": {
+    "gather": 62.4,
+    "total": 62.4
+   }
+  },
+  {
+   "attempt": 6,
+   "category": "dc",
+   "ok": true,
+   "timings": {
+    "gather": 42.3,
+    "song": 35.8,
+    "beats": 8.6,
+    "scan_plan": 229.1,
+    "render": 410.4,
+    "gemini_meta": 25.8,
+    "wide_4k": 226.2,
+    "qa": 16.2,
+    "preview": 57.2,
+    "save": 50.7,
+    "total": 1102.4
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 924.0,
+  "song": 35.8,
+  "beats": 8.6,
+  "scan_plan": 229.1,
+  "render": 410.4,
+  "gemini_meta": 25.8,
+  "wide_4k": 226.2,
+  "qa": 16.2,
+  "preview": 57.2,
+  "save": 50.7
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 4,
+  "vetted": 5,
+  "rejected": [
+   {
+    "id": "TDjFSCO9Vng",
+    "title": "GTA 6 Jason visits Mandy after finishing Story - Grand Theft Auto 6",
+    "reasons": [
+     "burned-in subtitles",
+     "channel watermark",
+     "HUD overlay",
+     "flag:watermark",
+     "flag:channel_logo",
+     "flag:burned_subtitles",
+     "flag:hud_overlay",
+     "not official/full quality",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "pEXMP0apxDc",
+    "title": "GTA 6 - 6-Star Airport Cop Shootout",
+    "reasons": [
+     "persistent game HUD",
+     "flag:hud_overlay",
+     "not official/full quality",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "qmye5Yibemw",
+    "title": "Robbing EVERY MALL in GTA 6 (No Cops, 100% Stealth)",
+    "reasons": [
+     "burned-in subtitles",
+     "persistent game HUD (minimap, health, money, location text)",
+     "flag:burned_subtitles",
+     "flag:hud_overlay",
+     "flag:text_overlay",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "0uH00CDkW14",
+    "title": "Elevator Fight Scene | Captain America The Winter Soldier (2014) 4K HDR Movie Clip",
+    "reasons": [
+     "Persistent channel logo/watermark 'EF' visible in the bottom left corner throughout the clip.",
+     "watermark",
+     "channel_logo",
+     "text_overlay"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [
+   {
+    "id": "KYATf2A5GCQ",
+    "title": "Elevator Fight Scene | Captain America: The Winter Soldier | Official Clip",
+    "reasons": [],
+    "via": "box-fetch"
+   }
+  ],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "gta",
+   "gaming",
+   "movie",
+   "series",
+   "marvel",
+   "dc"
+  ],
+  "runner_skipped": 42,
+  "box_clips_used": 5,
+  "failed_ids": [
+   "5FBipicBoJg",
+   "foUaOCzfIRU",
+   "1xlr3-hK5rY",
+   "lX_IN4v-RnA"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key6",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key7",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key8",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key9",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key12",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key1",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key2",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key5",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key3",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key4",
+   "model": "gemma-4-26b-a4b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  }
+ ],
+ "skipped_categories": [
+  "gaming",
+  "gta",
+  "marvel",
+  "movie",
+  "series"
+ ],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0
+  },
+  "exhausted": true,
+  "reset_at": "2026-11-29 13:30 IST"
+ }
+}

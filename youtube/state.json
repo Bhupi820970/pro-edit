@@ -77,6 +77,12 @@
    "at": "2026-11-28T17:51:09.298984+05:30",
    "video": "yo-gaming-20261128-173233",
    "platform": "youtube"
+  },
+  {
+   "id": "P04",
+   "at": "2026-11-28T23:02:54.698546+05:30",
+   "video": "yo-dc-20261128-224523",
+   "platform": "youtube"
   }
  ],
  "songs": [
@@ -170,6 +176,13 @@
    "url": "https://soundcloud.com/awolnation/10-sail",
    "at": "2026-11-28T17:51:09.298996+05:30",
    "video": "yo-gaming-20261128-173233"
+  },
+  {
+   "title": "Purple Lamborghini",
+   "artist": "Skrillex & Rick Ross",
+   "url": "https://www.youtube.com/watch?v=ZkqyIoYAXV8",
+   "at": "2026-11-28T23:02:54.698557+05:30",
+   "video": "yo-dc-20261128-224523"
   }
  ],
  "windows": [
@@ -226,6 +239,18 @@
    "start": 141.61,
    "at": "2026-11-28T17:32:09.165143+05:30",
    "video": "yo-gaming-20261128-171320"
+  },
+  {
+   "file": "kbd9bNz1Nvo_c00.mkv",
+   "start": 55.57,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523"
+  },
+  {
+   "file": "XT3iuj3PHYk.mkv",
+   "start": 62.89,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523"
   }
  ],
  "sources_used": [
@@ -568,6 +593,16 @@
    "id": "pHJmfFFsYLs",
    "at": "2026-11-28T17:51:09.299760+05:30",
    "video": "yo-gaming-20261128-173233"
+  },
+  {
+   "id": "kbd9bNz1Nvo",
+   "at": "2026-11-28T23:02:54.698778+05:30",
+   "video": "yo-dc-20261128-224523"
+  },
+  {
+   "id": "XT3iuj3PHYk",
+   "at": "2026-11-28T23:02:54.698782+05:30",
+   "video": "yo-dc-20261128-224523"
   }
  ],
  "segments_used": [
@@ -8589,6 +8624,123 @@
    "at": "2026-11-28T17:51:09.299005+05:30",
    "video": "yo-gaming-20261128-173233",
    "kind": "montage"
+  },
+  {
+   "id": "kbd9bNz1Nvo",
+   "file": "kbd9bNz1Nvo_c00.mkv",
+   "start": 208.47,
+   "end": 210.93666666666667,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
+  },
+  {
+   "id": "kbd9bNz1Nvo",
+   "file": "kbd9bNz1Nvo_c00.mkv",
+   "start": 148.07000000000002,
+   "end": 150.50333333333336,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
+  },
+  {
+   "id": "kbd9bNz1Nvo",
+   "file": "kbd9bNz1Nvo_c00.mkv",
+   "start": 160.87,
+   "end": 163.33666666666667,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
+  },
+  {
+   "id": "kbd9bNz1Nvo",
+   "file": "kbd9bNz1Nvo_c00.mkv",
+   "start": 205.97,
+   "end": 206.77,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
+  },
+  {
+   "id": "kbd9bNz1Nvo",
+   "file": "kbd9bNz1Nvo_c00.mkv",
+   "start": 55.57,
+   "end": 64.17,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "dialogue"
+  },
+  {
+   "id": "XT3iuj3PHYk",
+   "file": "XT3iuj3PHYk.mkv",
+   "start": 118.97000000000001,
+   "end": 121.40333333333335,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
+  },
+  {
+   "id": "XT3iuj3PHYk",
+   "file": "XT3iuj3PHYk.mkv",
+   "start": 144.27,
+   "end": 145.93666666666667,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
+  },
+  {
+   "id": "XT3iuj3PHYk",
+   "file": "XT3iuj3PHYk.mkv",
+   "start": 62.89,
+   "end": 69.42333333333333,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "dialogue"
+  },
+  {
+   "id": "XT3iuj3PHYk",
+   "file": "XT3iuj3PHYk.mkv",
+   "start": 138.17000000000002,
+   "end": 140.20333333333335,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
+  },
+  {
+   "id": "XT3iuj3PHYk",
+   "file": "XT3iuj3PHYk.mkv",
+   "start": 100.47000000000001,
+   "end": 102.50333333333334,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
+  },
+  {
+   "id": "XT3iuj3PHYk",
+   "file": "XT3iuj3PHYk.mkv",
+   "start": 22.669999999999998,
+   "end": 25.136666666666663,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
+  },
+  {
+   "id": "kbd9bNz1Nvo",
+   "file": "kbd9bNz1Nvo_c00.mkv",
+   "start": 220.37,
+   "end": 222.40333333333334,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
+  },
+  {
+   "id": "kbd9bNz1Nvo",
+   "file": "kbd9bNz1Nvo_c00.mkv",
+   "start": 125.27000000000001,
+   "end": 127.33666666666667,
+   "at": "2026-11-28T23:02:54.698565+05:30",
+   "video": "yo-dc-20261128-224523",
+   "kind": "montage"
   }
  ],
  "vet": {
@@ -11775,6 +11927,299 @@
    "duration": 88.248,
    "category": "dc",
    "at": "2026-11-28 16:22"
+  },
+  "TDjFSCO9Vng": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": false,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "casual suburban encounter",
+   "summary": "The footage contains persistent burned-in subtitles, a channel watermark in the bottom right corner, and a sniper-scope HUD overlay in one of the frames. It is not clean footage.",
+   "reject_reasons": [
+    "burned-in subtitles",
+    "channel watermark",
+    "HUD overlay",
+    "flag:watermark",
+    "flag:channel_logo",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "not official/full quality",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 5.4,
+     "end": 10.0,
+     "reason": "burned-in subtitles"
+    },
+    {
+     "start": 19.0,
+     "end": 24.0,
+     "reason": "burned-in subtitles"
+    },
+    {
+     "start": 100.1,
+     "end": 105.0,
+     "reason": "HUD overlay"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    5.44,
+    18.97,
+    32.5,
+    46.03,
+    59.56,
+    73.08,
+    86.61,
+    100.14,
+    59.56
+   ],
+   "title": "GTA 6 Jason visits Mandy after finishing Story - Grand Theft Auto 6",
+   "channel": "Rubhen925",
+   "credit": "Rubhen925",
+   "url": "https://www.youtube.com/watch?v=TDjFSCO9Vng",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 108.848,
+   "category": "gta",
+   "at": "2026-11-28 17:01"
+  },
+  "pEXMP0apxDc": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "chaotic airport shootout",
+   "summary": "The footage is a gameplay recording of a shootout in an airport, featuring a persistent game HUD including health bars, weapon icons, ammo counts, and a minimap.",
+   "reject_reasons": [
+    "persistent game HUD",
+    "flag:hud_overlay",
+    "not official/full quality",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 144.7,
+     "end": 150.0,
+     "reason": "HUD overlay"
+    },
+    {
+     "start": 247.8,
+     "end": 253.0,
+     "reason": "HUD overlay"
+    },
+    {
+     "start": 351.0,
+     "end": 356.0,
+     "reason": "HUD overlay"
+    },
+    {
+     "start": 454.2,
+     "end": 459.0,
+     "reason": "HUD overlay"
+    },
+    {
+     "start": 557.4,
+     "end": 562.0,
+     "reason": "HUD overlay"
+    },
+    {
+     "start": 660.5,
+     "end": 665.0,
+     "reason": "HUD overlay"
+    },
+    {
+     "start": 763.7,
+     "end": 768.0,
+     "reason": "HUD overlay"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    41.51,
+    144.68,
+    247.85,
+    351.02,
+    454.19,
+    557.36,
+    660.53,
+    763.7,
+    454.19
+   ],
+   "title": "GTA 6 - 6-Star Airport Cop Shootout",
+   "channel": "Mike The Goon",
+   "credit": "Mike The Goon",
+   "url": "https://www.youtube.com/watch?v=pEXMP0apxDc",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 830.108,
+   "category": "gta",
+   "at": "2026-11-28 17:03"
+  },
+  "qmye5Yibemw": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "sunny urban heist",
+   "summary": "Gameplay footage of a character navigating a mall and city streets, featuring persistent HUD elements and burned-in subtitles.",
+   "reject_reasons": [
+    "burned-in subtitles",
+    "persistent game HUD (minimap, health, money, location text)",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 89.9,
+     "end": 95,
+     "reason": "HUD and burned-in subtitles"
+    },
+    {
+     "start": 313.3,
+     "end": 318,
+     "reason": "HUD"
+    },
+    {
+     "start": 536.7,
+     "end": 542,
+     "reason": "Location text overlay"
+    },
+    {
+     "start": 760.1,
+     "end": 765,
+     "reason": "HUD (minimap)"
+    },
+    {
+     "start": 983.5,
+     "end": 988,
+     "reason": "HUD (minimap)"
+    },
+    {
+     "start": 1206.9,
+     "end": 1212,
+     "reason": "HUD"
+    },
+    {
+     "start": 1430.3,
+     "end": 1435,
+     "reason": "HUD"
+    },
+    {
+     "start": 1653.7,
+     "end": 1658,
+     "reason": "HUD (minimap)"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    89.87,
+    313.27,
+    536.67,
+    760.06,
+    983.46,
+    1206.86,
+    1430.26,
+    1653.65,
+    983.46
+   ],
+   "title": "Robbing EVERY MALL in GTA 6 (No Cops, 100% Stealth)",
+   "channel": "Nemsk",
+   "credit": "Nemsk",
+   "url": "https://www.youtube.com/watch?v=qmye5Yibemw",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 1797.448,
+   "category": "gta",
+   "at": "2026-11-28 17:04"
+  },
+  "KYATf2A5GCQ": {
+   "accept": true,
+   "reject_reasons": [],
+   "bad_ranges": [],
+   "has_dialogue": true,
+   "mood": "",
+   "summary": "",
+   "checked_by": "manual",
+   "vet_via": "queue/manual_picks.json",
+   "title": "Elevator Fight Scene | Captain America: The Winter Soldier | Official Clip",
+   "channel": "Marvel Entertainment",
+   "credit": "Marvel Entertainment",
+   "url": "https://www.youtube.com/watch?v=KYATf2A5GCQ",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 241.368,
+   "category": "marvel",
+   "at": "2026-11-28 17:15"
+  },
+  "0uH00CDkW14": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "tense elevator fight",
+   "summary": "Captain America elevator fight scene from The Winter Soldier featuring Steve Rogers and S.H.I.E.L.D. agents.",
+   "reject_reasons": [
+    "Persistent channel logo/watermark 'EF' visible in the bottom left corner throughout the clip.",
+    "watermark",
+    "channel_logo",
+    "text_overlay"
+   ],
+   "bad_ranges": [
+    {
+     "start": 12.6,
+     "end": 231.5,
+     "reason": "Persistent channel logo/watermark in bottom left corner"
+    }
+   ],
+   "checked_by": "backup:nvidia/nemotron-3.5-super-vl:free",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    12.58,
+    43.86,
+    75.13,
+    106.41,
+    137.69,
+    168.96,
+    200.24,
+    231.52,
+    137.69
+   ],
+   "title": "Elevator Fight Scene | Captain America The Winter Soldier (2014) 4K HDR Movie Clip",
+   "channel": "Filmey Box",
+   "credit": "Filmey Box",
+   "url": "https://www.youtube.com/watch?v=0uH00CDkW14",
+   "via": "box-fetch",
+   "height": 1280,
+   "duration": 251.648,
+   "category": "marvel",
+   "at": "2026-11-28 17:15"
   }
  },
  "videos": [
@@ -19932,6 +20377,141 @@
     "qa": 17.4,
     "preview": 67.8
    }
+  },
+  {
+   "id": "yo-dc-20261128-224523",
+   "platform": "youtube",
+   "category": "dc",
+   "format": "wide",
+   "state": "ready",
+   "created": "2026-11-28T23:02:54.697982+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-dc-20261128-224523.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-dc-20261128-224523.mp4",
+   "preview_mb": 21.7,
+   "size_mb": 241.5,
+   "title": "DC Scene Edit | Purple Lamborghini Edit",
+   "hook": "PURE DISRESPECT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Purple Lamborghini\" – Skrillex & Rick Ross (original recording)\n🔗 Official audio: https://www.youtube.com/watch?v=ZkqyIoYAXV8\n🎧 Spotify: https://open.spotify.com/search/Skrillex%20%26%20Rick%20Ross%20Purple%20Lamborghini\n🎬 Footage: DC – \"Creature Commandos - A CLASH with Clayface 👹 | DC\"; DC – \"Creature Commandos - Meeting Task Force M | Super Scenes | DC\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#DC #DCEdit #Batman #Superman",
+   "hashtags": [
+    "DC",
+    "DCEdit",
+    "Batman",
+    "Superman"
+   ],
+   "song": {
+    "title": "Purple Lamborghini",
+    "artist": "Skrillex & Rick Ross",
+    "url": "https://www.youtube.com/watch?v=ZkqyIoYAXV8",
+    "official_channel": "Skrillex",
+    "spotify_search": "https://open.spotify.com/search/Skrillex%20%26%20Rick%20Ross%20Purple%20Lamborghini"
+   },
+   "song_credit": "\"Purple Lamborghini\" – Skrillex & Rick Ross",
+   "pattern": {
+    "id": "P04",
+    "name": "Stepping down beside"
+   },
+   "captions": [
+    "THE BRIDE IS",
+    "TRYING TO KILL",
+    "HER",
+    "SHE'S NOT GONNA",
+    "LISTEN TO WHAT",
+    "ILANA HAS TO",
+    "SAY",
+    "I'M BEGINNING TO",
+    "SUSPECT THIS WHOLE",
+    "PLAN MAKES ABSOLUTELY",
+    "NO SENSE FROM",
+    "MY POINT OF",
+    "VIEW",
+    "HIDE!",
+    "WELL",
+    "HOW DOES THAT",
+    "RADIATION AFFECT THE",
+    "PEOPLE AROUND THEM?",
+    "IF YOU DON'T",
+    "SLEEP IN THE",
+    "SAME ROOM WITH",
+    "HIM",
+    "THE EFFECTS SHOULD",
+    "BE MINIMAL",
+    "MINIMAL?"
+   ],
+   "duration": 38.63,
+   "sources": [
+    {
+     "id": "kbd9bNz1Nvo_c00",
+     "src_id": "kbd9bNz1Nvo",
+     "path": "/mnt/ph/youtube/sources/chunks/kbd9bNz1Nvo_c00.mkv",
+     "title": "Creature Commandos - A CLASH with Clayface 👹 | DC",
+     "credit": "DC",
+     "url": "https://www.youtube.com/watch?v=kbd9bNz1Nvo"
+    },
+    {
+     "id": "XT3iuj3PHYk",
+     "src_id": "XT3iuj3PHYk",
+     "path": "/mnt/ph/youtube/sources/XT3iuj3PHYk.mkv",
+     "title": "Creature Commandos - Meeting Task Force M | Super Scenes | DC",
+     "credit": "DC",
+     "url": "https://www.youtube.com/watch?v=XT3iuj3PHYk"
+    }
+   ],
+   "qa": {
+    "pass": true,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.63
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -12.3
+     },
+     "black_frames": {
+      "ok": true,
+      "mid_video": [],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 25
+     },
+     "captions_clear_of_faces": {
+      "ok": true,
+      "covering": []
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 42.3,
+    "song": 35.8,
+    "beats": 8.6,
+    "scan_plan": 229.1,
+    "render": 410.4,
+    "gemini_meta": 25.8,
+    "wide_4k": 226.2,
+    "qa": 16.2,
+    "preview": 57.2
+   },
+   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-224523.mp4",
+   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-dc-20261128-224523.preview.mp4"
   }
  ],
  "listing_cache": {
@@ -38880,6 +39460,36 @@
    "platform": "youtube",
    "category": "dc",
    "error": "QAFail: QA failed: {\"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"BUT THE COMMANDOS\"]}}"
+  },
+  {
+   "at": "2026-11-28T22:36:37.129239+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T22:42:31.916438+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for gaming, need 2"
+  },
+  {
+   "at": "2026-11-28T22:43:31.610762+05:30",
+   "platform": "youtube",
+   "category": "movie",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for movie, need 2"
+  },
+  {
+   "at": "2026-11-28T22:44:20.682417+05:30",
+   "platform": "youtube",
+   "category": "series",
+   "error": "CategoryUnavailable: no clips of a single title for series"
+  },
+  {
+   "at": "2026-11-28T22:45:21.831934+05:30",
+   "platform": "youtube",
+   "category": "marvel",
+   "error": "CategoryUnavailable: only 1 distinct source video(s) for marvel, need 2"
   }
  ],
  "vet_rules": "no-text-v2"
