@@ -74,8 +74,8 @@ class CmdProduceFallbackTests(unittest.TestCase):
                     patch.object(P, "queue_fetch"), patch("pipeline_lib.cleanup.sweep"):
                 rc = P.cmd_produce(a, count=2)
             self.assertEqual(rc, 0)
-            self.assertEqual(calls[:2], ["sports", "sports"])          # one retry, then fallback
-            self.assertTrue(all(c != "sports" for c in calls[2:]))
+            self.assertEqual(calls[:1], ["sports"])          # one miss, then straight to another topic
+            self.assertTrue(all(c != "sports" for c in calls[1:]))
             self.assertEqual(len([c for c in calls if c != "sports"]), 2)
             doc = json.loads((Path(td) / "queue" / "needs_manual_pick.json").read_text())
             self.assertEqual(doc["categories"], {})
@@ -287,3 +287,32 @@ class BoxPoolRuleTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class QuotaOutFallbackTests(unittest.TestCase):
+    def test_scheduled_run_quota_out_still_falls_back_to_other_category(self):
+        import pipeline as P
+        with tempfile.TemporaryDirectory() as td, patch.dict(os.environ, _env(td), clear=True):
+            calls = []
+
+            def fake_produce(platform, cat, state, gem, sourcer, seed, timer=None):
+                calls.append(cat)
+                if cat == "gta":
+                    raise P.CategoryUnavailable("only 0 clean sources for gta", cat)
+                return {"id": f"in-{cat}-{len(calls)}", "category": cat}
+
+            gem = MagicMock()
+            qcalls = []
+            gem.quota_exhausted.side_effect = lambda: (qcalls.append(1) or len(qcalls) > 1)   # runs out mid-run
+            gem.calls = []
+            src = MagicMock()
+            src.stats = {"thin": []}
+            src.manual_pick_doc.return_value = {"platform": "instagram", "categories": {}}
+            a = SimpleNamespace(platform="instagram", category="gta", max_minutes=0, target=7)
+            with patch.object(P, "produce_one", side_effect=fake_produce), \
+                    patch("pipeline_lib.gemini.Gemini", return_value=gem), \
+                    patch("pipeline_lib.sourcing.Sourcer", return_value=src), \
+                    patch.object(P, "queue_fetch"), patch("pipeline_lib.cleanup.sweep"):
+                P.cmd_produce(a, count=1)
+            self.assertEqual(calls[0], "gta")
+            self.assertTrue(len(calls) >= 2 and calls[1] != "gta")

@@ -743,11 +743,18 @@ def cmd_produce(a, count: int | None = None, until_target: bool = False):
             if isinstance(ex, CategoryUnavailable) or "not enough distinct montage shots" in str(ex):
                 cat_fails[cat] = cat_fails.get(cat, 0) + 1
                 # quota out: Gemini can't vet anything new, so one miss is enough; else allow one retry
-                if cat_fails[cat] >= (1 if gem.quota_exhausted() else 2):
+                # one miss is enough to move on (a second try at an empty topic only burns the time budget)
+                if cat_fails[cat] >= 1:
                     skip.add(cat)
                     nxt = pick_category(state, a.platform, skip)
                     log(f"category {cat}: no usable sources -> fallback to {nxt or 'nothing (all skipped)'}")
-            if gem.quota_exhausted() and os.environ.get("VICE_IGNORE_QUOTA_GATE", "").lower() not in ("1", "true", "yes"):
+            # User (Nov 28): a missing topic is never a reason to stop. If this category had no sources,
+            # move on to the next one (gta -> other games -> movie/series...) even while Gemini is out;
+            # the backup AI chain vets/picks. Stop on quota only when no fallback category is left.
+            fallback_left = pick_category(state, a.platform, skip) is not None
+            no_src = isinstance(ex, CategoryUnavailable) or "not enough distinct montage shots" in str(ex)
+            if (gem.quota_exhausted() and not (no_src and fallback_left)
+                    and os.environ.get("VICE_IGNORE_QUOTA_GATE", "").lower() not in ("1", "true", "yes")):
                 quota_stop = True
         finally:
             _disarm_budget()
