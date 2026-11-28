@@ -9357,6 +9357,218 @@
    "duration": 144.308,
    "category": "gaming",
    "at": "2026-11-27 09:34"
+  },
+  "Bf38HiYPMiI": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": false,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "cinematic crime drama",
+   "summary": "A montage of GTA V gameplay and character art, including a title card with character names.",
+   "reject_reasons": [
+    "The footage contains a title card with persistent text overlays ('Michael', 'Franklin', 'Trevor') and graphic art, which makes it a promotional montage rather than a clean scene.",
+    "flag:text_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 185.0,
+     "end": 213.9,
+     "reason": "Title card with character names and graphic art"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    11.63,
+    40.53,
+    69.43,
+    98.33,
+    127.23,
+    156.13,
+    185.03,
+    213.93,
+    127.23
+   ],
+   "title": "Grand Theft Auto V: Michael. Franklin. Trevor.",
+   "channel": "Rockstar Games",
+   "credit": "Rockstar Games",
+   "url": "https://www.youtube.com/watch?v=Bf38HiYPMiI",
+   "via": "box-fetch",
+   "height": 1080,
+   "duration": 232.528,
+   "category": "gta",
+   "at": "2026-11-28 04:01"
+  },
+  "RKHyVcR0aZc": {
+   "accept": false,
+   "official_quality": true,
+   "watermark": false,
+   "channel_logo": false,
+   "burned_subtitles": false,
+   "hud_overlay": true,
+   "text_overlay": false,
+   "editable": false,
+   "has_dialogue": false,
+   "mood": "urban crime heist",
+   "summary": "Gameplay footage of a heist in GTA 6, featuring heavy HUD elements including a minimap, money counters, weapon wheels, and interaction prompts.",
+   "reject_reasons": [
+    "Persistent game HUD/minimap/UI elements throughout the footage.",
+    "flag:hud_overlay",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 47.5,
+     "end": 47.5
+    },
+    {
+     "start": 165.4,
+     "end": 165.4
+    },
+    {
+     "start": 283.4,
+     "end": 283.4
+    },
+    {
+     "start": 401.4,
+     "end": 401.4
+    },
+    {
+     "start": 519.3,
+     "end": 519.3
+    },
+    {
+     "start": 637.3,
+     "end": 637.3
+    },
+    {
+     "start": 755.3,
+     "end": 755.3
+    },
+    {
+     "start": 873.2,
+     "end": 873.2
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    47.46,
+    165.43,
+    283.39,
+    401.36,
+    519.33,
+    637.3,
+    755.27,
+    873.23,
+    519.33
+   ],
+   "title": "The PERFECT Heist in GTA 6 (No Cops, No Alarms)",
+   "channel": "Nemsk",
+   "credit": "Nemsk",
+   "url": "https://www.youtube.com/watch?v=RKHyVcR0aZc",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 949.167,
+   "category": "gta",
+   "at": "2026-11-28 04:08"
+  },
+  "Ui5eAdG6a-I": {
+   "accept": false,
+   "official_quality": false,
+   "watermark": true,
+   "channel_logo": true,
+   "burned_subtitles": true,
+   "hud_overlay": true,
+   "text_overlay": true,
+   "editable": false,
+   "has_dialogue": true,
+   "mood": "chaotic airport heist",
+   "summary": "Gameplay footage of a player stealing a plane from an airport, featuring heavy HUD elements and a persistent channel watermark.",
+   "reject_reasons": [
+    "persistent watermark",
+    "channel logo",
+    "game HUD",
+    "burned-in subtitles",
+    "text overlays",
+    "flag:watermark",
+    "flag:channel_logo",
+    "flag:burned_subtitles",
+    "flag:hud_overlay",
+    "flag:text_overlay",
+    "not official/full quality",
+    "not editable"
+   ],
+   "bad_ranges": [
+    {
+     "start": 24.6,
+     "end": 26.0,
+     "reason": "HUD and watermark"
+    },
+    {
+     "start": 85.7,
+     "end": 87.0,
+     "reason": "HUD and watermark"
+    },
+    {
+     "start": 146.8,
+     "end": 148.0,
+     "reason": "HUD, text overlay, and watermark"
+    },
+    {
+     "start": 207.9,
+     "end": 209.0,
+     "reason": "HUD and watermark"
+    },
+    {
+     "start": 269.0,
+     "end": 271.0,
+     "reason": "HUD, subtitles, and watermark"
+    },
+    {
+     "start": 330.1,
+     "end": 332.0,
+     "reason": "HUD and watermark"
+    },
+    {
+     "start": 391.3,
+     "end": 393.0,
+     "reason": "HUD and watermark"
+    },
+    {
+     "start": 452.4,
+     "end": 454.0,
+     "reason": "HUD and watermark"
+    }
+   ],
+   "checked_by": "gemini",
+   "vet_via": "keyframes",
+   "keyframe_times": [
+    24.59,
+    85.7,
+    146.81,
+    207.92,
+    269.03,
+    330.15,
+    391.26,
+    452.37,
+    269.03
+   ],
+   "title": "GTA 6 – I Stole a Plane From the Airport and Fighter Jets Chased Me!",
+   "channel": "Champs Network",
+   "credit": "Champs Network",
+   "url": "https://www.youtube.com/watch?v=Ui5eAdG6a-I",
+   "via": "box-fetch",
+   "height": 1440,
+   "duration": 491.708,
+   "category": "gta",
+   "at": "2026-11-28 04:09"
   }
  },
  "videos": [
@@ -16529,10 +16741,133 @@
    },
    "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261127-224133.mp4",
    "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261127-224133.preview.mp4"
+  },
+  {
+   "id": "yo-gaming-20261128-094230",
+   "platform": "youtube",
+   "category": "gaming",
+   "format": "wide",
+   "state": "qa_failed",
+   "created": "2026-11-28T10:05:04.132179+05:30",
+   "path": "/mnt/ph/youtube/ready/youtube/yo-gaming-20261128-094230.mp4",
+   "preview": "/mnt/ph/youtube/prev/yo-gaming-20261128-094230.mp4",
+   "preview_mb": 22.7,
+   "size_mb": 243.6,
+   "title": "Gaming Edit | Rise Edit",
+   "hook": "GAMING EDIT",
+   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Rise\" – League of Legends (original recording)\n🔗 Official audio: https://soundcloud.com/leagueoflegends/rise-ft-the-glitch-mob-mako-1\n🎧 Spotify: https://open.spotify.com/search/League%20of%20Legends%20Rise\n🎬 Footage: PlayStation – \"Marvel's Spider-Man 2 - The Story So Far | PS5 Games\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GamingEdit #Gaming #GameEdit",
+   "hashtags": [
+    "GamingEdit",
+    "Gaming",
+    "GameEdit"
+   ],
+   "song": {
+    "title": "Rise",
+    "artist": "League of Legends",
+    "url": "https://soundcloud.com/leagueoflegends/rise-ft-the-glitch-mob-mako-1",
+    "official_channel": "League of Legends",
+    "spotify_search": "https://open.spotify.com/search/League%20of%20Legends%20Rise"
+   },
+   "song_credit": "\"Rise\" – League of Legends",
+   "pattern": {
+    "id": "P04",
+    "name": "Stepping down beside"
+   },
+   "captions": [
+    "NO MATTER HOW",
+    "HARD WE TRY",
+    "A",
+    "HERO IS SOMEONE",
+    "WHO DOESN'T GIVE",
+    "UP THOUGH",
+    "AND",
+    "I DON'T PLAN",
+    "TO",
+    "I",
+    "ALSO",
+    "GOT BITTEN BY",
+    "A RADIOACTIVE SPIDER",
+    "THAT GAVE ME",
+    "SUPERPOWERS",
+    "I LEARNED HOW"
+   ],
+   "duration": 38.57,
+   "sources": [
+    {
+     "id": "YeMRixqvjog",
+     "src_id": "YeMRixqvjog",
+     "path": "/mnt/ph/youtube/sources/YeMRixqvjog.mkv",
+     "title": "Marvel's Spider-Man 2 - The Story So Far | PS5 Games",
+     "credit": "PlayStation",
+     "url": "https://www.youtube.com/watch?v=YeMRixqvjog"
+    }
+   ],
+   "qa": {
+    "pass": false,
+    "checks": {
+     "duration": {
+      "ok": true,
+      "value": 38.57
+     },
+     "resolution": {
+      "ok": true,
+      "value": "3840x2160",
+      "want": "3840x2160"
+     },
+     "min_1080p": {
+      "ok": true,
+      "value": "3840x2160"
+     },
+     "audio": {
+      "ok": true,
+      "mean_db": -10.1
+     },
+     "black_frames": {
+      "ok": false,
+      "mid_video": [
+       [
+        17.366667,
+        17.633333
+       ]
+      ],
+      "ending_black": true
+     },
+     "captions_safe_area": {
+      "ok": true,
+      "outside": [],
+      "count": 16
+     },
+     "captions_clear_of_faces": {
+      "ok": false,
+      "covering": [
+       "HERO IS SOMEONE",
+       "ALSO"
+      ]
+     },
+     "captions_only_in_dialogue": {
+      "ok": true,
+      "stray": []
+     },
+     "no_name_pops": {
+      "ok": true
+     }
+    }
+   },
+   "timings": {
+    "gather": 220.6,
+    "song": 199.2,
+    "beats": 11.7,
+    "scan_plan": 122.1,
+    "render": 475.3,
+    "gemini_meta": 16.9,
+    "wide_4k": 236.7,
+    "qa": 14.5,
+    "preview": 56.7
+   }
   }
  ],
  "listing_cache": {
-  "https://www.youtube.com/@RockstarGames/videos|2026-11-27": [
+  "https://www.youtube.com/@RockstarGames/videos|2026-11-28": [
    {
     "id": "_yl5ELcmugI",
     "title": "Grand Theft Auto VI: Out Now",
@@ -17494,7 +17829,7 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@CDPROJEKTRED/videos|2026-11-27": [
+  "https://www.youtube.com/@CDPROJEKTRED/videos|2026-11-28": [
    {
     "id": "7FVhwvqDoDo",
     "title": "AnsweRED Podcast Episode 35 | One Studio, Many Projects: Shared Development Services",
@@ -17976,7 +18311,7 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@SantaMonicaStudio/videos|2026-11-27": [
+  "https://www.youtube.com/@SantaMonicaStudio/videos|2026-11-28": [
    {
     "id": "7M-Rx4RHrJA",
     "title": "God of War - Worlds Collide Podcast Episode 2: The No-Cut Camera",
@@ -18202,7 +18537,7 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@CallofDuty/videos|2026-11-27": [
+  "https://www.youtube.com/@CallofDuty/videos|2026-11-28": [
    {
     "id": "XjWvcBTbwCo",
     "title": "Creating a Mode + Medal of Honor Recipient Kyle Carpenter | COD POD Ep. 13",
@@ -18684,7 +19019,7 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@InsomniacGames/videos|2026-11-27": [
+  "https://www.youtube.com/@InsomniacGames/videos|2026-11-28": [
    {
     "id": "XSpBmATCcxs",
     "title": "Marvel's Wolverine - Release Date",
@@ -19166,7 +19501,7 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@NaughtyDog/videos|2026-11-27": [
+  "https://www.youtube.com/@NaughtyDog/videos|2026-11-28": [
    {
     "id": "OKtVbq7XBVE",
     "title": "The Last of Us Day 2026 Subway Ambience",
@@ -19648,7 +19983,15 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@assassinscreed/videos|2026-11-27": [
+  "https://www.youtube.com/@assassinscreed/videos|2026-11-28": [
+   {
+    "id": "nDhOXAkhPSo",
+    "title": "Assassin's Creed Odyssey: Composers Explain How They Wrote The Music",
+    "duration": 500,
+    "url": "https://www.youtube.com/watch?v=nDhOXAkhPSo",
+    "channel": "Assassin's Creed",
+    "verified": true
+   },
    {
     "id": "8ZaQGlonQWE",
     "title": "Assassin's Creed: The Real Richard the Lionheart",
@@ -20120,22 +20463,30 @@
     "url": "https://www.youtube.com/watch?v=fNyHgZV__lQ",
     "channel": "Assassin's Creed",
     "verified": true
-   },
-   {
-    "id": "RxF6fonBDUA",
-    "title": "Assassin's Creed Unity: Play in 60FPS on PS5 & Xbox Series X",
-    "duration": 32,
-    "url": "https://www.youtube.com/watch?v=RxF6fonBDUA",
-    "channel": "Assassin's Creed",
-    "verified": true
    }
   ],
-  "https://www.youtube.com/@Ubisoft/videos|2026-11-27": [
+  "https://www.youtube.com/@Ubisoft/videos|2026-11-28": [
+   {
+    "id": "mSCuCElv0B8",
+    "title": "Heroes of Might and Magic III Remake - Dev Livestream | Playstyles, Closed Playtest",
+    "duration": 3964,
+    "url": "https://www.youtube.com/watch?v=mSCuCElv0B8",
+    "channel": "Ubisoft",
+    "verified": true
+   },
    {
     "id": "Rel-IyxAjjY",
     "title": "For Honor: Content Of The Week - November 26",
     "duration": 27,
     "url": "https://www.youtube.com/watch?v=Rel-IyxAjjY",
+    "channel": "Ubisoft",
+    "verified": true
+   },
+   {
+    "id": "WtdLpIB02Xc",
+    "title": "The Division Resurgence Winter Showcase 2026",
+    "duration": 0,
+    "url": "https://www.youtube.com/watch?v=WtdLpIB02Xc",
     "channel": "Ubisoft",
     "verified": true
    },
@@ -20594,25 +20945,9 @@
     "url": "https://www.youtube.com/watch?v=YeIKvef5TNs",
     "channel": "Ubisoft",
     "verified": true
-   },
-   {
-    "id": "FSYDYaYHtJs",
-    "title": "Riders Republic: Scooter Behind the Scenes",
-    "duration": 122,
-    "url": "https://www.youtube.com/watch?v=FSYDYaYHtJs",
-    "channel": "Ubisoft",
-    "verified": true
-   },
-   {
-    "id": "TcGBAjbSGUA",
-    "title": "For Honor: Content Of The Week - September 3",
-    "duration": 43,
-    "url": "https://www.youtube.com/watch?v=TcGBAjbSGUA",
-    "channel": "Ubisoft",
-    "verified": true
    }
   ],
-  "https://www.youtube.com/@Fortnite/videos|2026-11-27": [
+  "https://www.youtube.com/@Fortnite/videos|2026-11-28": [
    {
     "id": "2UPbbYenEOs",
     "title": "Consider the fight… BEGUN! Scott Pilgrim is coming to Fortnite",
@@ -21094,7 +21429,7 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@minecraft/videos|2026-11-27": [
+  "https://www.youtube.com/@minecraft/videos|2026-11-28": [
    {
     "id": "s0w_pTOXDBQ",
     "title": "MINECRAFT DUNGEONS II | The Humblers Awaken – Announce Trailer",
@@ -21576,7 +21911,47 @@
     "verified": true
    }
   ],
-  "https://www.youtube.com/@PlayStation/videos|2026-11-27": [
+  "https://www.youtube.com/@PlayStation/videos|2026-11-28": [
+   {
+    "id": "uY-6-pMJwLw",
+    "title": "Doki Doki Literature Club arrives in Fortnite | PS5 & PS4 Games",
+    "duration": 62,
+    "url": "https://www.youtube.com/watch?v=uY-6-pMJwLw",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "6v8KweH4smk",
+    "title": "Fountains - Launch Trailer | PS5 Games",
+    "duration": 87,
+    "url": "https://www.youtube.com/watch?v=6v8KweH4smk",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "I1JlNls8ZmI",
+    "title": "Infinity Nikki - Version 3.0 [Of Yesterday and Tomorrow] | PS5 Games",
+    "duration": 51,
+    "url": "https://www.youtube.com/watch?v=I1JlNls8ZmI",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "mRdH7h0Kp30",
+    "title": "Labyrinthine - Lost in the Sands Coming Out December 10 | PS5 Games",
+    "duration": 74,
+    "url": "https://www.youtube.com/watch?v=mRdH7h0Kp30",
+    "channel": "PlayStation",
+    "verified": true
+   },
+   {
+    "id": "bXoBtFEU71I",
+    "title": "World of Tanks Modern Armor - Winter Fest 2026 | PS5 & PS4 Games",
+    "duration": 173,
+    "url": "https://www.youtube.com/watch?v=bXoBtFEU71I",
+    "channel": "PlayStation",
+    "verified": true
+   },
    {
     "id": "XqH3jvbbvGM",
     "title": "Bad Inmate - Release Date Announcement Trailer | PS VR Games",
@@ -21707,7 +22082,7 @@
    },
    {
     "id": "TBzQebgt9Ww",
-    "title": "Tuesday Morning - Official Trailer | PS5 Games",
+    "title": "Tuesday Morning - Release Date Reveal Trailer | PS5 Games",
     "duration": 89,
     "url": "https://www.youtube.com/watch?v=TBzQebgt9Ww",
     "channel": "PlayStation",
@@ -22014,46 +22389,6 @@
     "title": "Derelikt - Launch Trailer | PS5 Games",
     "duration": 90,
     "url": "https://www.youtube.com/watch?v=eL8FtjEmylI",
-    "channel": "PlayStation",
-    "verified": true
-   },
-   {
-    "id": "fzRshjBCWyU",
-    "title": "Stranger Than Heaven - Act 2: Kure Story Trailer | PS5 Games",
-    "duration": 211,
-    "url": "https://www.youtube.com/watch?v=fzRshjBCWyU",
-    "channel": "PlayStation",
-    "verified": true
-   },
-   {
-    "id": "6PfsfL50gvg",
-    "title": "Sturmjäger - Co-Op Trailer | PS5 Games",
-    "duration": 57,
-    "url": "https://www.youtube.com/watch?v=6PfsfL50gvg",
-    "channel": "PlayStation",
-    "verified": true
-   },
-   {
-    "id": "aupPY-1Ir9Q",
-    "title": "Mothergunship: Forge - Launch Trailer | PS VR2 Games",
-    "duration": 60,
-    "url": "https://www.youtube.com/watch?v=aupPY-1Ir9Q",
-    "channel": "PlayStation",
-    "verified": true
-   },
-   {
-    "id": "pbKZ3IzvB4Q",
-    "title": "Guild Saga: Vanished Worlds - Announcement Trailer | PS5 Games",
-    "duration": 91,
-    "url": "https://www.youtube.com/watch?v=pbKZ3IzvB4Q",
-    "channel": "PlayStation",
-    "verified": true
-   },
-   {
-    "id": "ANljgCRnrKA",
-    "title": "Bombanana! - Launch Trailer | PS5 Games",
-    "duration": 49,
-    "url": "https://www.youtube.com/watch?v=ANljgCRnrKA",
     "channel": "PlayStation",
     "verified": true
    }
@@ -25622,6 +25957,24 @@
    "platform": "youtube",
    "category": "gta",
    "error": "CategoryUnavailable: only 1 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T09:39:20.370651+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T09:42:30.109671+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T10:05:04.161661+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[17.366667, 17.633333]], \"ending_black\": true}, \"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
   }
  ],
  "vet_rules": "no-text-v2"

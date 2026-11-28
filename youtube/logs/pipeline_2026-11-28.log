@@ -1,0 +1,74 @@
+[2026-11-28 09:29:33 IST] pull-sources: +133 clips, 6 accepted / 127 unvetted listed, 9.8 GB local
+[2026-11-28 09:30:11 IST] === yo-gta-20261128-093011: platform=youtube category=gta format=wide seed=195548753
+[2026-11-28 09:31:05 IST] vet REJECT [Bf38HiYPMiI] Grand Theft Auto V: Michael. Franklin. Trevor. — The footage contains a title card with persistent text overlays ('Michael', 'Franklin', 'Trevor') and graphic art, which makes it a promotional montage rather than a clean scene.; flag:text_overlay; not editable
+[2026-11-28 09:31:15 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 09:31:39 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 09:31:39 IST] vet error (will retry next run): Ui5eAdG6a-I all Gemini keys/models failed: key13/gemma-4-31b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try | key10/gemma-4-31b-it: 503 This model is 
+[2026-11-28 09:31:49 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 09:31:50 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 09:31:50 IST] vet error (will retry next run): RKHyVcR0aZc all Gemini keys/models failed: key13/gemma-4-31b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try | key10/gemma-4-31b-it: 503 This model is 
+[2026-11-28 09:31:52 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] QYAMp13Yi04: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 09:32:02 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] QYAMp13Yi04: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 09:32:02 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 09:32:04 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] lqiZdynJmag: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 09:32:14 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] lqiZdynJmag: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 09:32:14 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 09:32:16 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] vAAvocR04_Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 09:32:25 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] vAAvocR04_Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 09:32:25 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 09:32:31 IST] yt-dlp: not downloadable without login (age-restricted/private/removed) -> skip
+[2026-11-28 09:32:33 IST] yt-dlp attempt 1/5 failed (bot check): ERROR: [youtube] StEaAZ_Ywj4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 09:32:43 IST] yt-dlp attempt 2/5 failed (bot check): ERROR: [youtube] StEaAZ_Ywj4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authenticat
+[2026-11-28 09:32:43 IST] yt-dlp: bot check persists, skipping remaining clients
+[2026-11-28 09:32:43 IST] runner: 4 YouTube bot checks -> no more runner downloads this run; using box clips (release 'sources') only
+[2026-11-28 09:34:29 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 09:37:29 IST] gemini key10/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 09:37:29 IST] gemini key10/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 09:37:29 IST] gemini discovery failed: all Gemini keys/models failed: key13/gemma-4-31b-it: 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try | key10/gemma-4-31b-it: 599 The read opera
+[2026-11-28 09:37:29 IST] content thin for gta (0/6) -> fallback search (12 candidates)
+[2026-11-28 09:38:31 IST] vet REJECT [RKHyVcR0aZc] The PERFECT Heist in GTA 6 (No Cops, No Alarms) — Persistent game HUD/minimap/UI elements throughout the footage.; flag:hud_overlay; not editable
+[2026-11-28 09:39:20 IST] vet REJECT [Ui5eAdG6a-I] GTA 6 – I Stole a Plane From the Airport and Fighter Jets Chased Me! — persistent watermark; channel logo; game HUD; burned-in subtitles; text overlays; flag:watermark; flag:channel_logo; flag:burned_subtitles; flag:hud_overlay; flag:text_overlay; not official/full quality; not editable
+[2026-11-28 09:39:20 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-28 09:39:20 IST] attempt 1 FAIL in 549s: gather=549s
+[2026-11-28 09:39:20 IST] === yo-gta-20261128-093920: platform=youtube category=gta format=wide seed=312884120
+[2026-11-28 09:42:30 IST] content thin for gta (0/6) -> fallback search (12 candidates)
+[2026-11-28 09:42:30 IST] attempt failed, retrying with different sources/song: CategoryUnavailable: only 0 clean sources for gta
+[2026-11-28 09:42:30 IST] category gta: no usable sources -> fallback to gaming
+[2026-11-28 09:42:30 IST] attempt 2 FAIL in 189s: gather=189s
+[2026-11-28 09:42:30 IST] === yo-gaming-20261128-094230: platform=youtube category=gaming format=wide seed=83328674
+[2026-11-28 09:43:28 IST] x search failed: Red Dead Redemption 2 official trailer Rockstar Games full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 09:43:43 IST] x search failed: Cyberpunk 2077 official gameplay trailer CD PROJEKT RED full scene hallenge; see  https://github.com/yt-dlp/yt-dlp#impersonation  for how to install the required impersonation dependency, and try again with  --extractor-args "generic:impersonate"
+[2026-11-28 09:46:11 IST] content thin for gaming (1/3) -> fallback search (16 candidates)
+[2026-11-28 09:46:11 IST] song pool: skip unofficial Kesariya - Arijit Singh: deny-list: 'lofi' in uploader/url
+[2026-11-28 09:46:11 IST] song pool: skip unofficial Raataan Lambiyan - Jubin Nautiyal: SoundCloud account 'richk11' is not Jubin Nautiyal or their label
+[2026-11-28 09:46:11 IST] song pool: skip unofficial Pehle Bhi Main - Vishal Mishra: SoundCloud account 'oz-874126972' is not Vishal Mishra or their label
+[2026-11-28 09:46:11 IST] song pool: skip unofficial Tujhe Kitna Chahne Lage - Arijit Singh: SoundCloud account 'bilal-elahi-8' is not Arijit Singh or their label
+[2026-11-28 09:46:11 IST] song pool: skip unofficial Apna Bana Le - Arijit Singh: uploader 'Soulful Arijit Singh Songs' is not Arijit Singh, their Topic/VEVO or label
+[2026-11-28 09:46:11 IST] song pool: skip unofficial Agar Tum Saath Ho - Alka Yagnik: anonymous SoundCloud account 'user-373072623'
+[2026-11-28 09:46:11 IST] song stock for gaming: 30 tagged songs with audio
+[2026-11-28 09:49:11 IST] gemini key13/gemma-4-31b-it: TimeoutError The read operation timed out
+[2026-11-28 09:49:11 IST] gemini key13/gemma-4-31b-it: HTTP 599 The read operation timed out
+[2026-11-28 09:49:30 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 09:49:30 IST] gemini song pick failed, rotating the genre stock: all Gemini keys/models failed: key13/gemma-4-31b-it: 599 The read operation timed out | key10/gemma-4-31b-it: 503 This model is currently experiencing high dema
+[2026-11-28 09:49:30 IST] using genre stock song: Rise - League of Legends
+[2026-11-28 09:49:30 IST] song: Rise – League of Legends (https://soundcloud.com/leagueoflegends/rise-ft-the-glitch-mob-mako-1)
+[2026-11-28 09:49:30 IST] caption pattern: P04 Stepping down beside
+[2026-11-28 09:51:44 IST] plan 38.6s, 12 shots -> render
+[2026-11-28 09:59:39 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 09:59:56 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 10:05:04 IST] === yo-gaming-20261128-094230: QA FAIL -> /mnt/ph/youtube/ready/youtube/yo-gaming-20261128-094230.mp4
+[2026-11-28 10:05:04 IST] attempt failed, retrying with different sources/song: QAFail: QA failed: {"black_frames": {"ok": false, "mid_video": [[17.366667, 17.633333]], "ending_black": true}, "captions_clear_of_faces": {"ok": false, "covering": ["HERO IS SOMEONE", "ALSO"]}}
+[2026-11-28 10:05:05 IST] attempt 3 FAIL in 1355s: gather=221s, song=199s, beats=12s, scan_plan=122s, render=475s, gemini_meta=17s, wide_4k=237s, qa=14s, preview=57s, save=2s
+[2026-11-28 10:05:05 IST] time budget reached (25 min left < 30 min for one more attempt)
+[2026-11-28 10:05:05 IST] step totals over 3 attempts: gather=16.0min, render=7.9min, wide_4k=3.9min, song=3.3min, scan_plan=2.0min, preview=0.9min, gemini_meta=0.3min, qa=0.2min, beats=0.2min, save=0.0min -> slowest step: gather
+[2026-11-28 10:05:06 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 10:05:27 IST] gemini key10/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 10:05:27 IST] queued box fetch request youtube-202611281005-gta
+[2026-11-28 10:05:28 IST] gemini key13/gemma-4-31b-it: HTTP 503 This model is currently experiencing high demand. Spikes in demand are usually temporary. 
+[2026-11-28 10:05:59 IST] gemini: answered by backup model gemma-4-31b-it (key10)
+[2026-11-28 10:05:59 IST] queued box fetch request youtube-202611281005-gaming
+[2026-11-28 10:06:03 IST] cleanup sweep: freed 0.0 MB (2 files)
+[2026-11-28 10:06:03 IST] done: 0 made, 3 failed attempts; youtube buffer 0/7 — BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)
+[2026-11-28 10:06:03 IST] time budget reached (24 min left < 30 min for one more attempt)
+[2026-11-28 10:06:14 IST] pool-sync: uploaded 0 clips (0.0 GB), pruned 6
+[2026-11-28 10:06:17 IST] vc-ready manifest: 2 videos

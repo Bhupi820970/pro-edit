@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-27T22:56:13.125953+05:30",
+ "updated": "2026-11-28T10:06:17.845898+05:30",
  "timezone": "Asia/Calcutta (IST)",
  "warning": true,
- "message": "BACKUP LOW: refill youtube (1/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
+ "message": "BACKUP LOW: refill youtube (0/7 ready) | BACKUP LOW: refill instagram (0/7 ready)",
  "platforms": {
   "youtube": {
-   "ready": 1,
+   "ready": 0,
    "target": 7,
    "warning": true,
-   "produced_today": 2,
+   "produced_today": 1,
    "per_day": [
     5,
     6
    ],
-   "message": "BACKUP LOW: refill youtube (1/7 ready)"
+   "message": "BACKUP LOW: refill youtube (0/7 ready)"
   },
   "instagram": {
    "ready": 0,
@@ -27,140 +27,9 @@
    "message": "BACKUP LOW: refill instagram (0/7 ready)"
   }
  },
- "ready": [
-  {
-   "id": "yo-gta-20261127-224133",
-   "platform": "youtube",
-   "category": "gta",
-   "format": "wide",
-   "state": "ready",
-   "created": "2026-11-27T22:55:14.159163+05:30",
-   "path": "/mnt/ph/youtube/ready/youtube/yo-gta-20261127-224133.mp4",
-   "preview": "/mnt/ph/youtube/prev/yo-gta-20261127-224133.mp4",
-   "preview_mb": 22.0,
-   "size_mb": 243.4,
-   "title": "GTA 6 Vice City | Flashing Lights Edit",
-   "hook": "GTA 6 VICE CITY",
-   "description": "Which scene hit hardest? 👇\n\n🎵 Song: \"Flashing Lights\" – Kanye West (original recording)\n🔗 Official audio: \n🎧 Spotify: https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights\n🎬 Footage: Rockstar Games – \"Grand Theft Auto V – Available on the Rockstar Games Launcher\"; Rockstar Games – \"GTA Online: Open Wheel Racing\"\n✂️ Edit by Vice Cartel\nFan-made edit for entertainment. All rights to the music and footage belong to their owners; no copyright infringement intended. Rights holders: contact us and we'll credit or remove.\n\n#GTA6 #GTAVI #GrandTheftAuto6 #ViceCity #GTA6Edit #RockstarGames",
-   "hashtags": [
-    "GTA6",
-    "GTAVI",
-    "GrandTheftAuto6",
-    "ViceCity",
-    "GTA6Edit",
-    "RockstarGames"
-   ],
-   "song": {
-    "title": "Flashing Lights",
-    "artist": "Kanye West",
-    "url": "",
-    "official_channel": "",
-    "spotify_search": "https://open.spotify.com/search/Kanye%20West%20Flashing%20Lights"
-   },
-   "song_credit": "\"Flashing Lights\" – Kanye West",
-   "pattern": {
-    "id": "P07",
-    "name": "Far beside"
-   },
-   "captions": [],
-   "duration": 38.4,
-   "sources": [
-    {
-     "id": "-HIv_Uj1ERE",
-     "src_id": "-HIv_Uj1ERE",
-     "path": "/mnt/ph/youtube/sources/-HIv_Uj1ERE.mkv",
-     "title": "Grand Theft Auto V – Available on the Rockstar Games Launcher",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=-HIv_Uj1ERE"
-    },
-    {
-     "id": "NgO8TVaC24o",
-     "src_id": "NgO8TVaC24o",
-     "path": "/mnt/ph/youtube/sources/NgO8TVaC24o.mkv",
-     "title": "GTA Online: Open Wheel Racing",
-     "credit": "Rockstar Games",
-     "url": "https://www.youtube.com/watch?v=NgO8TVaC24o"
-    }
-   ],
-   "qa": {
-    "pass": true,
-    "checks": {
-     "duration": {
-      "ok": true,
-      "value": 38.4
-     },
-     "resolution": {
-      "ok": true,
-      "value": "3840x2160",
-      "want": "3840x2160"
-     },
-     "min_1080p": {
-      "ok": true,
-      "value": "3840x2160"
-     },
-     "audio": {
-      "ok": true,
-      "mean_db": -9.3
-     },
-     "black_frames": {
-      "ok": true,
-      "mid_video": [],
-      "ending_black": true
-     },
-     "captions_safe_area": {
-      "ok": true,
-      "outside": [],
-      "count": 0
-     },
-     "captions_clear_of_faces": {
-      "ok": true,
-      "covering": []
-     },
-     "captions_only_in_dialogue": {
-      "ok": true,
-      "stray": []
-     },
-     "no_name_pops": {
-      "ok": true
-     }
-    }
-   },
-   "timings": {
-    "gather": 163.7,
-    "song": 18.0,
-    "beats": 7.5,
-    "scan_plan": 39.0,
-    "more_clips": 15.2,
-    "render": 330.9,
-    "gemini_meta": 17.4,
-    "wide_4k": 173.7,
-    "qa": 13.0,
-    "preview": 42.5
-   },
-   "release_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261127-224133.mp4",
-   "preview_url": "https://github.com/Bhupi820970/pro-edit/releases/download/vc-ready/yo-gta-20261127-224133.preview.mp4"
-  }
- ],
+ "ready": [],
  "approved": [],
  "recent_failures": [
-  {
-   "at": "2026-11-26T18:53:26.166313+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
-  {
-   "at": "2026-11-26T19:54:04.627718+05:30",
-   "platform": "youtube",
-   "category": "gaming",
-   "error": "CategoryUnavailable: only 0 clean sources for gaming"
-  },
-  {
-   "at": "2026-11-26T19:54:20.045000+05:30",
-   "platform": "youtube",
-   "category": "gta",
-   "error": "CategoryUnavailable: only 0 clean sources for gta"
-  },
   {
    "at": "2026-11-26T21:59:01.148946+05:30",
    "platform": "youtube",
@@ -232,6 +101,24 @@
    "platform": "youtube",
    "category": "gta",
    "error": "CategoryUnavailable: only 1 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T09:39:20.370651+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T09:42:30.109671+05:30",
+   "platform": "youtube",
+   "category": "gta",
+   "error": "CategoryUnavailable: only 0 clean sources for gta"
+  },
+  {
+   "at": "2026-11-28T10:05:04.161661+05:30",
+   "platform": "youtube",
+   "category": "gaming",
+   "error": "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[17.366667, 17.633333]], \"ending_black\": true}, \"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
   }
  ],
  "pattern_history": [
@@ -297,15 +184,15 @@
   }
  ],
  "box_fetcher": {
-  "last_run": "2026-11-27T20:25:35.396355+05:30",
-  "age_hours": 2.5,
+  "last_run": "2026-11-28T08:04:59.101639+05:30",
+  "age_hours": 2.0,
   "healthy": true,
   "pool": {
-   "gta": 2,
+   "gta": 3,
    "gaming": 9,
-   "movie": 15,
+   "movie": 7,
    "sports": 7,
-   "romance": 15,
+   "romance": 14,
    "series": 15,
    "marvel": 9,
    "dc": 9,

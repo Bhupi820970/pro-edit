@@ -1,0 +1,236 @@
+{
+ "platform": "youtube",
+ "made": [],
+ "failures": [
+  "CategoryUnavailable: only 0 clean sources for gta",
+  "CategoryUnavailable: only 0 clean sources for gta",
+  "QAFail: QA failed: {\"black_frames\": {\"ok\": false, \"mid_video\": [[17.366667, 17.633333]], \"ending_black\": true}, \"captions_clear_of_faces\": {\"ok\": false, \"covering\": [\"HERO IS SOMEONE\", \"ALSO\"]}}"
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 548.7,
+    "total": 548.7
+   }
+  },
+  {
+   "attempt": 2,
+   "category": "gta",
+   "ok": false,
+   "timings": {
+    "gather": 189.4,
+    "total": 189.4
+   }
+  },
+  {
+   "attempt": 3,
+   "category": "gaming",
+   "ok": false,
+   "timings": {
+    "gather": 220.6,
+    "song": 199.2,
+    "beats": 11.7,
+    "scan_plan": 122.1,
+    "render": 475.3,
+    "gemini_meta": 16.9,
+    "wide_4k": 236.7,
+    "qa": 14.5,
+    "preview": 56.7,
+    "save": 1.5,
+    "total": 1355.2
+   }
+  }
+ ],
+ "step_totals_s": {
+  "gather": 958.7,
+  "song": 199.2,
+  "beats": 11.7,
+  "scan_plan": 122.1,
+  "render": 475.3,
+  "gemini_meta": 16.9,
+  "wide_4k": 236.7,
+  "qa": 14.5,
+  "preview": 56.7,
+  "save": 1.5
+ },
+ "slowest_step": "gather",
+ "sourcing": {
+  "downloaded": 0,
+  "download_failed": 5,
+  "vetted": 3,
+  "rejected": [
+   {
+    "id": "Bf38HiYPMiI",
+    "title": "Grand Theft Auto V: Michael. Franklin. Trevor.",
+    "reasons": [
+     "The footage contains a title card with persistent text overlays ('Michael', 'Franklin', 'Trevor') and graphic art, which makes it a promotional montage rather than a clean scene.",
+     "flag:text_overlay",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "RKHyVcR0aZc",
+    "title": "The PERFECT Heist in GTA 6 (No Cops, No Alarms)",
+    "reasons": [
+     "Persistent game HUD/minimap/UI elements throughout the footage.",
+     "flag:hud_overlay",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   },
+   {
+    "id": "Ui5eAdG6a-I",
+    "title": "GTA 6 – I Stole a Plane From the Airport and Fighter Jets Chased Me!",
+    "reasons": [
+     "persistent watermark",
+     "channel logo",
+     "game HUD",
+     "burned-in subtitles",
+     "text overlays",
+     "flag:watermark",
+     "flag:channel_logo",
+     "flag:burned_subtitles",
+     "flag:hud_overlay",
+     "flag:text_overlay",
+     "not official/full quality",
+     "not editable"
+    ],
+    "via": "box-fetch"
+   }
+  ],
+  "accepted": [],
+  "bot_checks": 4,
+  "fallback_used": true,
+  "thin": [
+   "gta",
+   "gaming"
+  ],
+  "runner_skipped": 47,
+  "box_clips_used": 1,
+  "failed_ids": [
+   "QYAMp13Yi04",
+   "lqiZdynJmag",
+   "vAAvocR04_Y",
+   "XAOUlsrmzYM",
+   "StEaAZ_Ywj4"
+  ]
+ },
+ "gemini_calls": [
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": true,
+   "note": ""
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "599 The read operation timed out"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key13",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  },
+  {
+   "key": "key10",
+   "model": "gemma-4-31b-it",
+   "ok": false,
+   "note": "503 This model is currently experiencing high demand. Spikes in demand are usually t"
+  }
+ ],
+ "skipped_categories": [
+  "gta"
+ ],
+ "quota_blocked": false,
+ "gemini": {
+  "invalid_keys": [],
+  "models": {
+   "gemini-3.5-flash-lite": 0,
+   "gemini-3.1-flash-lite": 0,
+   "gemini-flash-lite-latest": 0,
+   "gemini-3-flash-preview": 0,
+   "gemini-3.8-flash": 0,
+   "gemini-flash-latest": 0,
+   "gemini-3.1-flash-lite-preview": 0,
+   "gemini-3.5-flash": 0,
+   "gemini-3.6-flash": 0,
+   "gemma-4-31b-it": 2,
+   "gemma-4-26b-a4b-it": 0
+  },
+  "exhausted": false,
+  "reset_at": "2026-11-28 13:30 IST"
+ }
+}
